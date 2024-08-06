@@ -7,7 +7,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/3_way_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -17,7 +16,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/3_way_crossing_treasure",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -27,7 +25,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/4_way_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -37,7 +34,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/4_way_crossing_treasure",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -47,7 +43,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/ambush_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -57,7 +52,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/fountains_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -67,7 +61,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/library_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -77,7 +70,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/lush_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -87,7 +79,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/sniffer_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -97,7 +88,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/rascal_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -107,7 +97,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/tuff_golem_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -117,7 +106,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/ritual_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -127,7 +115,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/sculk_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -137,7 +124,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/spider_crossing",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -147,7 +133,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/stairs_round_lower",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -157,7 +142,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/stairs_round_upper",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -167,7 +151,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/stairs_round_middle",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -177,7 +160,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/stairs_straight_lower",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -187,7 +169,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/stairs_straight_upper",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -197,7 +178,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/straight",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -207,7 +187,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/straight_binary",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -217,7 +196,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/straight_binary_alt",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -227,7 +205,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/straight_binary_alt_alt",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -237,7 +214,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/vision",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -247,7 +223,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/vision_alt",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -256,8 +231,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/3_way_crossing_morse",
-				"override_liquid_settings": "ignore_waterlogging",
+				"location": "stellarity:stronghold/corridors/straight_morse",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -266,8 +240,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/3_way_crossing_alt",
-				"override_liquid_settings": "ignore_waterlogging",
+				"location": "stellarity:stronghold/corridors/3_way_crossing_treasure_alt",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -277,7 +250,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/straight_alt",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -287,7 +259,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/straight_alt_treasure",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -297,7 +268,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/turn_1",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -307,7 +277,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/turn_1_alt",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -317,7 +286,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/turn_1_treasure",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -327,7 +295,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/turn_2",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -337,7 +304,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/turn_2_alt",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -347,7 +313,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/corridors/turn_2_treasure",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -357,7 +322,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/library_big",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -367,7 +331,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/library_small",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -377,7 +340,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/prison",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -387,7 +349,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/living_headquarters",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -397,7 +358,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/conference_room",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -407,7 +367,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/small_storage",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -417,7 +376,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/farm",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -427,7 +385,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/storage_large",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -437,7 +394,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/workshop",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -447,7 +403,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/crypt_small",
-				"override_liquid_settings": "ignore_waterlogging",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
@@ -457,7 +412,15 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "stellarity:stronghold/amethyst_enchantery",
-				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/amethyst_enchantery_alt",
 				"processors": "stellarity:stronghold_generic"
 			}
 		}

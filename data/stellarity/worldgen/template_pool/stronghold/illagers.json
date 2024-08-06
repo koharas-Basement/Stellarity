@@ -6,7 +6,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/2_pillagers",
 				"processors": "minecraft:empty"
 			}
@@ -16,7 +15,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/2_pillagers_2_vindicators",
 				"processors": "minecraft:empty"
 			}
@@ -26,7 +24,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/2_vindicators",
 				"processors": "minecraft:empty"
 			}
@@ -36,7 +33,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/3_witches",
 				"processors": "minecraft:empty"
 			}
@@ -46,7 +42,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/evoker",
 				"processors": "minecraft:empty"
 			}
@@ -56,7 +51,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/evoker_2_vindicators",
 				"processors": "minecraft:empty"
 			}
@@ -66,7 +60,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/illusioner",
 				"processors": "minecraft:empty"
 			}
@@ -76,7 +69,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/illusioner_evoker",
 				"processors": "minecraft:empty"
 			}
@@ -86,7 +78,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/vindicator",
 				"processors": "minecraft:empty"
 			}
@@ -96,7 +87,6 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/evoker_2_vindicators_pillager",
 				"processors": "minecraft:empty"
 			}
