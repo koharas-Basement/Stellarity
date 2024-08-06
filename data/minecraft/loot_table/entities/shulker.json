@@ -6,114 +6,8 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:alternatives",
-					"children": [
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:ender_pearl",
-							"conditions": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"dimension": "minecraft:the_nether"
-									}
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:chorus_fruit"
-						}
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": {
-						"min": 0,
-						"max": 1
-					}
-				},
-				{
-					"function": "minecraft:enchanted_count_increase",
-					"enchantment": "minecraft:looting",
-					"count": {
-						"min": 0,
-						"max": 1
-					}
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"dimension": "minecraft:the_end"
-						}
-					}
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:alternatives",
-					"children": [
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:ender_eye",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:ender_pearl",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 0,
-										"max": 1
-									}
-								},
-								{
-									"function": "minecraft:enchanted_count_increase",
-									"enchantment": "minecraft:looting",
-									"count": {
-										"min": 0,
-										"max": 1
-									}
-								}
-							]
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:location_check",
-					"predicate": {
-						"dimension": "minecraft:the_end"
-					}
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/enderman_flesh",
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_shell",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -139,21 +33,22 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/trinkets/endermans_hand",
+					"value": "stellarity:items/food/shulker_body",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance_with_enchanted_bonus",
 							"enchantment": "minecraft:looting",
-							"unenchanted_chance": 0.02,
+							"unenchanted_chance": 0.75,
 							"enchanted_chance": {
 								"type": "minecraft:linear",
-								"base": 0.025,
-								"per_level_above_first": 0.005
+								"base": 0.8,
+								"per_level_above_first": 0.05
 							}
 						}
 					]
 				}
 			]
 		}
-	]
+	],
+	"random_sequence": "minecraft:entities/shulker"
 }
