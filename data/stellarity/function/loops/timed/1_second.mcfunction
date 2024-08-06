@@ -1,5 +1,5 @@
 # Phantoms
-execute in minecraft:overworld as @e[type=phantom,tag=!stellarity.phantom.aware,distance=0..] at @s run function stellarity:mobs/phantom/enlarge 
+execute in minecraft:overworld as @e[type=phantom,tag=!stellarity.phantom.aware,distance=0..] at @s run function stellarity:mobs/phantom/enlarge
 execute as @e[type=phantom] unless score @s stellarity.phantom.size matches 1.. run function stellarity:mobs/phantom/score
 
 # Dragon's Ashes tickdown

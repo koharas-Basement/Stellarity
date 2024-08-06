@@ -3,8 +3,6 @@ scoreboard players add @s stellarity.misc 1
 
 execute positioned ~ ~.05 ~ run function stellarity:items/spellbooks/return/ring
 
-particle ominous_spawning ~ ~.1 ~ 
-
 # Rotation
 # Gets quicker and quicker
 scoreboard players add @s stellarity.misc2 1

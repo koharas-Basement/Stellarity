@@ -7,7 +7,7 @@ scoreboard players add @s stellarity.misc2 1
 execute if data entity @s inBlockState run function stellarity:items/sharanga/bolt/kill
 execute if score @s stellarity.misc matches 61.. run function stellarity:items/sharanga/bolt/kill
 
-execute if score @s stellarity.misc2 matches 1 rotated ~90 ~ run particle minecraft:end_rod ^ ^0.33 ^ 0 0 0 0 1 force 
+execute if score @s stellarity.misc2 matches 1 rotated ~90 ~ run particle minecraft:end_rod ^ ^0.33 ^ 0 0 0 0 1 force
 execute if score @s stellarity.misc2 matches 2 rotated ~90 ~30 run particle minecraft:end_rod ^ ^0.33 ^ 0 0 0 0 1 force
 execute if score @s stellarity.misc2 matches 3 rotated ~90 ~60 run particle minecraft:end_rod ^ ^0.33 ^ 0 0 0 0 1 force
 execute if score @s stellarity.misc2 matches 4 rotated ~90 ~90 run particle minecraft:end_rod ^ ^0.33 ^ 0 0 0 0 1 force

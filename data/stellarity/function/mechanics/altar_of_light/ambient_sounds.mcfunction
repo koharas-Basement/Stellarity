@@ -1,6 +1,6 @@
 execute store result score #sound stellarity.misc run random value 1..5
 execute if score #sound stellarity.misc matches 1 run \
-	playsound block.amethyst_block.chime block @a[distance=0..] ~ ~ ~ 1 0.5 
+	playsound block.amethyst_block.chime block @a[distance=0..] ~ ~ ~ 1 0.5
 execute if score #sound stellarity.misc matches 2 run \
 	playsound block.amethyst_block.chime block @a[distance=0..] ~ ~ ~ 1 0.53
 execute if score #sound stellarity.misc matches 3 run \

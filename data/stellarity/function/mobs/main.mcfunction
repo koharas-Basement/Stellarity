@@ -7,3 +7,7 @@ execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:
 
 # Dragon stuff
 execute as @e[type=ender_dragon,tag=fe.boss] at @s run function stellarity:mobs/dragon/main
+
+execute as @e[type=husk,tag=stellarity.enderling] at @s run function stellarity:mobs/enderlings/main
+
+execute as @e[type=evoker,tag=stellarity.warlock] at @s run function stellarity:mobs/warlock/main

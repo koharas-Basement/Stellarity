@@ -1,6 +1,6 @@
 summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon"],Health:300,attributes:[{id:"generic.max_health",base:300.0},{id:"generic.armor",base:8d},{id:"generic.armor_toughness",base:4d},{id:"generic.knockback_resistance",base:1d},{id:"generic.follow_range",base:80d}]}
 summon marker ~ ~ ~ {Tags:["stellarity.dragon_marker","stellarity.marker"]}
-item replace entity @e[type=ender_dragon] weapon.mainhand with totem_of_undying 
+item replace entity @e[type=ender_dragon] weapon.mainhand with totem_of_undying
 
 execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.dragon.spawn","fallback":"%s has awoken!","with":[{"translate":"entity.minecraft.ender_dragon"}],"color":"#AF4BFF"},"\n"]
 

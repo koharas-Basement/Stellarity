@@ -1,9 +1,9 @@
 {
 	"pack": {
-		"pack_format": 26,
+		"pack_format": 48,
 		"supported_formats": {
-			"min_inclusive": 26,
-			"max_inclusive": 26
+			"min_inclusive": 48,
+			"max_inclusive": 48
 		},
 		"description": [
 			{

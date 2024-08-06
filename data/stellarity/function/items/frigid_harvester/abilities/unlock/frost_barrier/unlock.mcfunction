@@ -7,6 +7,6 @@ tellraw @s " "
 tellraw @s {"translate":"stellarity.items.weapons.frigid_harvester.ability.frost_barrier.description","fallback":"Gain temporar damage reduction after killing a mob","color":"#EEEEEE"}
 tellraw @s " "
 
-execute if score #damage_rounded stellarity.misc matches 12 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/ability_absorb 
+execute if score #damage_rounded stellarity.misc matches 12 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/ability_absorb
 
 function stellarity:items/frigid_harvester/abilities/unlock/update

@@ -7,6 +7,6 @@ tellraw @s " "
 tellraw @s {"translate":"stellarity.items.weapons.frigid_harvester.ability.cryonics.description","fallback":"Using a Totem of Undying encases you in protective ice, making you invulnerable and providing extreme healing","color":"#EEEEEE"}
 tellraw @s " "
 
-execute if score #damage_rounded stellarity.misc matches 12 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/ability_absorb 
+execute if score #damage_rounded stellarity.misc matches 12 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/ability_absorb
 
 function stellarity:items/frigid_harvester/abilities/unlock/update
