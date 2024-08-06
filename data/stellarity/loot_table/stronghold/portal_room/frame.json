@@ -2,27 +2,24 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": {
-				"min": 3,
-				"max": 4
-			},
+			"rolls": 3,
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 8,
-					"name": "minecraft:ender_pearl"
+					"name": "minecraft:ender_pearl",
+					"weight": 8
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
 					"weight": 4,
-					"quality": 1,
-					"name": "minecraft:ender_eye"
+					"quality": 1
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:blaze_powder"
+					"name": "minecraft:blaze_powder",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:empty",

@@ -7,8 +7,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 1,
 					"name": "minecraft:iron_pickaxe",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_damage",
@@ -31,9 +31,9 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:flint",
 					"weight": 6,
 					"quality": -1,
-					"name": "minecraft:flint",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -47,24 +47,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 9,
 					"name": "minecraft:raw_iron",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 9,
-					"name": "minecraft:raw_copper",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -79,8 +63,24 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"name": "minecraft:raw_copper",
+					"weight": 9,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:raw_gold",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -95,8 +95,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
 					"name": "minecraft:redstone",
+					"weight": 4,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -111,9 +111,9 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
 					"weight": 4,
 					"quality": 1,
-					"name": "minecraft:lapis_lazuli",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -128,8 +128,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:coal",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -150,8 +150,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 20,
 					"name": "minecraft:rail",
+					"weight": 20,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -166,13 +166,13 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
-					"name": "minecraft:minecart"
+					"name": "minecraft:minecart",
+					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
 					"name": "minecraft:torch",
+					"weight": 15,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -192,8 +192,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 15,
 					"name": "minecraft:bread",
+					"weight": 15,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -208,8 +208,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
 					"name": "minecraft:glow_berries",
+					"weight": 15,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -224,8 +224,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:melon_seeds",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -240,8 +240,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:pumpkin_seeds",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -256,8 +256,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:beetroot_seeds",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

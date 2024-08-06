@@ -29,8 +29,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 14,
 					"name": "minecraft:book",
+					"weight": 14,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -45,8 +45,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 12,
 					"name": "minecraft:paper",
+					"weight": 12,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -61,8 +61,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
 					"name": "minecraft:candle",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -77,9 +77,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
-					"quality": 1,
 					"name": "minecraft:book",
+					"quality": 1,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -93,8 +92,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 7,
 					"name": "minecraft:feather",
+					"weight": 7,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -107,8 +106,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
 					"name": "minecraft:ink_sac",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -129,18 +128,18 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:compass"
+					"name": "minecraft:compass",
+					"weight": 4
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:map"
+					"name": "minecraft:map",
+					"weight": 4
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:clock"
+					"name": "minecraft:clock",
+					"weight": 2
 				}
 			]
 		},

@@ -11,8 +11,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:crossbow",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -25,8 +25,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:emerald",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -39,8 +39,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:iron_ingot",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -55,8 +55,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
 					"name": "minecraft:gold_ingot",
+					"weight": 4,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -71,8 +71,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
 					"name": "minecraft:redstone",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -87,8 +87,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 11,
 					"name": "minecraft:bread",
+					"weight": 11,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -103,8 +103,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:apple",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -119,8 +119,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:iron_pickaxe"
+					"name": "minecraft:iron_pickaxe",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
@@ -128,20 +128,23 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 30,
+							"levels": {
+								"min": 18,
+								"max": 28
+							},
 							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:golden_apple"
+					"name": "minecraft:golden_apple",
+					"quality": 1
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:diamond_pickaxe",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:set_damage",
@@ -171,60 +174,8 @@
 					"name": "minecraft:iron_chestplate",
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 15,
-								"max": 29
-							},
-							"options": "#minecraft:on_random_loot"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:gold",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:diamond",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:emerald",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
+							"function": "reference",
+							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
 				},
@@ -233,60 +184,8 @@
 					"name": "minecraft:iron_boots",
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 15,
-								"max": 29
-							},
-							"options": "#minecraft:on_random_loot"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:gold",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:diamond",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:emerald",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
+							"function": "reference",
+							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
 				},
@@ -295,60 +194,8 @@
 					"name": "minecraft:iron_leggings",
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 15,
-								"max": 29
-							},
-							"options": "#minecraft:on_random_loot"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:gold",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:diamond",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:emerald",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
+							"function": "reference",
+							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
 				},
@@ -357,60 +204,8 @@
 					"name": "minecraft:iron_helmet",
 					"functions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 15,
-								"max": 29
-							},
-							"options": "#minecraft:on_random_loot"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:gold",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:diamond",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:emerald",
-									"pattern": "minecraft:eye",
-									"show_in_tooltip": true
-								}
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.3333
-								}
-							]
+							"function": "reference",
+							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
 				}

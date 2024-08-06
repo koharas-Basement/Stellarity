@@ -5,17 +5,17 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 6,
+					"weight": 10,
 					"value": "stellarity:items/potions/endurance_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 6,
+					"weight": 10,
 					"value": "stellarity:items/potions/lifeforce_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 6,
+					"weight": 10,
 					"value": "stellarity:items/potions/luck_potion"
 				},
 				{

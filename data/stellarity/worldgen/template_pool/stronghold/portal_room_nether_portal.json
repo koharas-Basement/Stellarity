@@ -1,0 +1,45 @@
+{
+	"fallback": "stellarity:stronghold/fallback_end",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/portal_room_nether_portal/1",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/portal_room_nether_portal/2",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/portal_room_nether_portal/3",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/portal_room_nether_portal/4",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		}
+	]
+}

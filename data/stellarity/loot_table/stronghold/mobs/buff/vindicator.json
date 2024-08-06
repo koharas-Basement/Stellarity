@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:iron_axe",
 					"functions": [
 						{
@@ -20,12 +20,6 @@
 							"options": [
 								"minecraft:sharpness"
 							]
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.5
 						}
 					]
 				},
@@ -46,12 +40,6 @@
 								"minecraft:sharpness"
 							]
 						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.5
-						}
 					]
 				},
 				{
@@ -71,19 +59,13 @@
 								"minecraft:sharpness"
 							]
 						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.5
-						}
 					]
 				}
 			],
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.75
+					"chance": 0.5
 				}
 			]
 		}

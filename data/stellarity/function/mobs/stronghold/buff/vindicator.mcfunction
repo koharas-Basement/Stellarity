@@ -7,4 +7,4 @@ tag @s add stellarity.stronghold.buffed
 
 attribute @s generic.movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base
 
-execute if predicate kohara:chance/15percent run function stellarity:mobs/stronghold/buff/vindicator_elektra_shield
+execute if predicate kohara:chance/8percent run function stellarity:mobs/stronghold/buff/vindicator_elektra_shield

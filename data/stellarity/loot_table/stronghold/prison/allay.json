@@ -21,8 +21,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:apple",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -48,8 +48,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
 					"name": "minecraft:amethyst_shard",
+					"quality": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

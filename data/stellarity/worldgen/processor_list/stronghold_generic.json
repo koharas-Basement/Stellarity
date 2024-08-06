@@ -16,7 +16,7 @@
 								"waterlogged": "false"
 							}
 						},
-						"probability": 0.33
+						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -34,7 +34,7 @@
 								"facing": "north"
 							}
 						},
-						"probability": 0.33
+						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -52,7 +52,7 @@
 								"facing": "south"
 							}
 						},
-						"probability": 0.33
+						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -70,7 +70,7 @@
 								"facing": "east"
 							}
 						},
-						"probability": 0.33
+						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -88,7 +88,7 @@
 								"facing": "west"
 							}
 						},
-						"probability": 0.33
+						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -103,7 +103,7 @@
 						"block_state": {
 							"Name": "minecraft:torch"
 						},
-						"probability": 0.33
+						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -129,7 +129,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.011
+						"probability": 0.009
 					},
 					"output_state": {
 						"Name": "minecraft:mossy_stone_bricks"
@@ -142,7 +142,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.061
+						"probability": 0.09
 					},
 					"output_state": {
 						"Name": "minecraft:cracked_stone_bricks"
@@ -155,10 +155,150 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.03
+						"probability": 0.01
 					},
 					"output_state": {
 						"Name": "minecraft:infested_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:tuff_bricks",
+						"probability": 0.22222
+					},
+					"output_state": {
+						"Name": "minecraft:polished_tuff"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:purple_carpet",
+						"probability": 0.333
+					},
+					"output_state": {
+						"Name": "minecraft:magenta_carpet"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state":  {
+							"Name": "end_portal_frame",
+							"Properties": {
+								"facing": "east"
+							}
+						},
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:end_portal_frame",
+						"Properties": {
+							"facing": "east",
+							"eye": "true"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state":  {
+							"Name": "end_portal_frame",
+							"Properties": {
+								"facing": "west"
+							}
+						},
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:end_portal_frame",
+						"Properties": {
+							"facing": "west",
+							"eye": "true"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state":  {
+							"Name": "end_portal_frame",
+							"Properties": {
+								"facing": "north"
+							}
+						},
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:end_portal_frame",
+						"Properties": {
+							"facing": "north",
+							"eye": "true"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state":  {
+							"Name": "end_portal_frame",
+							"Properties": {
+								"facing": "south"
+							}
+						},
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:end_portal_frame",
+						"Properties": {
+							"facing": "south",
+							"eye": "true"
+						}
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "iron_trapdoor",
+						"probability": 0.15
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "cobweb",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:air"
 					}
 				}
 			]

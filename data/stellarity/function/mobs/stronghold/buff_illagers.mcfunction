@@ -7,4 +7,4 @@ execute if entity @s[type=pillager] run function stellarity:mobs/stronghold/buff
 execute if entity @s[type=illusioner] run function stellarity:mobs/stronghold/buff/illusioner
 
 # Fix unnatural spawn amounts of Illagers in Strongholds when paired with 'Better Village&Pillage' datapack
-execute if entity @s[predicate=kohara:chance/66percent,tag=!bvp-spawn] run tag @s add bvp-spawn
+execute if entity @s[predicate=kohara:chance/80percent,tag=!bvp-spawn] run tag @s add bvp-spawn

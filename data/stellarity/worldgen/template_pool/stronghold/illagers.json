@@ -106,13 +106,12 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:stronghold/illagers/witch",
 				"processors": "minecraft:empty"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 7,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",
 				"projection": "rigid"

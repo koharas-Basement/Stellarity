@@ -2,20 +2,23 @@
 	"type": "minecraft:entity",
 	"pools": [
 		{
-			"rolls": 2,
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:emerald",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 1
 							},
 							"add": false
 						},
@@ -28,42 +31,16 @@
 								"max": 1
 							}
 						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.66
-						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"functions": [
-						{
-							"function": "minecraft:enchanted_count_increase",
-							"enchantment": "minecraft:looting",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							}
-						}
-					]
+					"name": "minecraft:book"
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:paper",
 					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						},
 						{
 							"function": "minecraft:enchanted_count_increase",
 							"enchantment": "minecraft:looting",
@@ -94,11 +71,11 @@
 				{
 					"condition": "minecraft:random_chance_with_enchanted_bonus",
 					"enchantment": "minecraft:looting",
-					"unenchanted_chance": 0.09,
+					"unenchanted_chance": 0.07,
 					"enchanted_chance": {
 						"type": "minecraft:linear",
-						"base": 0.12,
-						"per_level_above_first": 0.03
+						"base": 0.9,
+						"per_level_above_first": 0.02
 					}
 				}
 			]

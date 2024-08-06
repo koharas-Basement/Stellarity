@@ -57,6 +57,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
+					"weight": 4,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -69,8 +70,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:book",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",

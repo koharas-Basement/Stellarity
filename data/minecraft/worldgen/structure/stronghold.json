@@ -16,18 +16,20 @@
 			"spawns": []
 		}
 	},
-	"terrain_adaptation": "bury",
+	"terrain_adaptation": "encapsulate",
 	"start_pool": "stellarity:stronghold/portal_room",
-	"size": 7,
+	"size": 5,
 	"start_height": {
 		"type": "minecraft:uniform",
 		"min_inclusive": {
-			"above_bottom": 50
+			"above_bottom": 30
 		},
 		"max_inclusive": {
-			"absolute": 25
+			"absolute": 10
 		}
 	},
 	"max_distance_from_center": 115,
-	"use_expansion_hack": false
+	"use_expansion_hack": false,
+	"dimension_padding": 10,
+	"liquid_settings": "ignore_waterlogging"
 }

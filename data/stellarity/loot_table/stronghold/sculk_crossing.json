@@ -10,8 +10,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:sculk",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -25,8 +25,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
 					"name": "minecraft:bone",
+					"weight": 4,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -40,8 +40,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:gunpowder",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -57,7 +57,7 @@
 		},
 		{
 			"rolls": {
-				"min": -1,
+				"min": -2,
 				"max": 1
 			},
 			"entries": [

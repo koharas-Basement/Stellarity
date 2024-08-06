@@ -11,7 +11,7 @@
 							"function": "minecraft:set_damage",
 							"damage": {
 								"min": 0.4,
-								"max": 0.8
+								"max": 1
 							}
 						},
 						{
@@ -20,12 +20,6 @@
 								"minecraft:power",
 								"minecraft:flame",
 								"minecraft:punch"
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
 							]
 						}
 					]
@@ -34,7 +28,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.8
+					"chance": 0.5
 				}
 			]
 		}

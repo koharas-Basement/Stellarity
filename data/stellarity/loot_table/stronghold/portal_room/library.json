@@ -25,8 +25,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 18,
 					"name": "minecraft:book",
+					"weight": 18,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -41,8 +41,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 16,
 					"name": "minecraft:paper",
+					"weight": 16,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -57,24 +57,24 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:map"
+					"name": "minecraft:map",
+					"weight": 6
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:compass"
+					"name": "minecraft:compass",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:book",
 					"weight": 1,
 					"quality": 1,
-					"name": "minecraft:book",
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 22,
+								"min": 18,
 								"max": 28
 							},
 							"options": "#minecraft:on_random_loot"
@@ -96,7 +96,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 35,
+							"levels": 30,
 							"options": "#minecraft:on_random_loot"
 						}
 					]

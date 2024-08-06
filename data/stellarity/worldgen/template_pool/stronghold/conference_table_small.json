@@ -1,0 +1,65 @@
+{
+	"fallback": "stellarity:stronghold/fallback_end",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room/table_small_1",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room/table_small_2",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room/table_small_3",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room/table_small_4",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room/table_small_5",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room/table_small_6",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "stellarity:stronghold_generic"
+			}
+		}
+	]
+}
