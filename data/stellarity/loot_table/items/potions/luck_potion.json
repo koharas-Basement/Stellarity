@@ -8,8 +8,11 @@
 					"name": "minecraft:potion",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
-							"mode": "replace_all",
+							"function": "minecraft:set_potion",
+							"id": "minecraft:luck"
+						},
+						{
+							"function": "minecraft:set_lore",
 							"lore": [
 								"",
 								{
@@ -17,8 +20,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
-								
+							],
+							"mode": "replace_all"
 						}
 					]
 				}
