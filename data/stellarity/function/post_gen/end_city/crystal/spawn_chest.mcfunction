@@ -2,36 +2,36 @@ kill @s
 kill @n[type=interaction,tag=stellarity.end_city.crystal]
 kill @n[type=marker,tag=stellarity.end_city.crystal]
 
-execute if entity @s[tag=stellarity.end_city.crystal_small_tower] run setblock ~ ~-1 ~ barrel[facing=up]{LootTable:"stellarity:end_city/small_tower"} replace
+execute if entity @s[tag=stellarity.end_city.crystal_small_tower] run setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}} replace
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 	rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
 	if block ^ ^ ^-2 air run \
-	setblock ~ ~-1 ~ chest[facing=north]{LootTable:"stellarity:end_city/top_tower"} replace
+	setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive,facing=north]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}} replace
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 	rotated ~ ~ if block ^ ^ ^-2 magenta_stained_glass \
 	if block ^ ^ ^2 air run \
-	setblock ~ ~-1 ~ chest[facing=south]{LootTable:"stellarity:end_city/top_tower"} replace
+	setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive,facing=south]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}} replace
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 	rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
 	if block ^ ^ ^-2 magenta_stained_glass \
 	if block ^-2 ^ ^ air run \
-	setblock ~ ~-1 ~ chest[facing=west]{LootTable:"stellarity:end_city/top_tower"} replace
+	setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive,facing=west]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}} replace
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 	rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
 	if block ^ ^ ^-2 magenta_stained_glass \
 	if block ^2 ^ ^ air run \
-	setblock ~ ~-1 ~ chest[facing=east]{LootTable:"stellarity:end_city/top_tower"} replace
+	setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive,facing=east]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}} replace
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 	rotated ~ ~ if block ^2 ^ ^ air \
 	if block ^-2 ^ ^ air \
 	if block ^ ^ ^-2 air \
 	if block ^ ^ ^2 air run \
-	setblock ~ ~-1 ~ barrel[facing=up]{LootTable:"stellarity:end_city/top_tower"} replace
+	setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive,facing=north]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}}
 
 fill ~-1 ~5 ~-1 ~1 ~5 ~1 iron_block replace obsidian
 fill ~ ~6 ~ ~ ~6 ~ beacon replace glass

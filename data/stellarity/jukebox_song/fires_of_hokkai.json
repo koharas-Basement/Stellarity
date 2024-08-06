@@ -1,0 +1,12 @@
+{
+	"comparator_output": 6,
+	"description": [
+		{
+			"text": "ZUN - Fires of Hokkai"
+		}
+	],
+	"length_in_seconds": 210,
+	"sound_event": {
+		"sound_id": "stellarity:records.fires_of_hokkai"
+	}
+}

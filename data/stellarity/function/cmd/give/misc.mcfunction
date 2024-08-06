@@ -22,3 +22,7 @@ loot give @s loot stellarity:items/materials/enderite_shard
 loot give @s loot stellarity:items/materials/enderite_smithing_template
 loot give @s loot stellarity:items/materials/hallowed_ingot
 loot give @s loot stellarity:items/materials/pixie_dust
+
+loot give @s loot stellarity:items/materials/keys/gilded_purpur
+loot give @s loot stellarity:items/materials/keys/purpur
+loot give @s loot stellarity:items/materials/keys/winged

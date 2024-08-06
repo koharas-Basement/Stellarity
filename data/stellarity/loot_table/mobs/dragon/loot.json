@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/trinkets/crest_of_the_end"
+					"value": "stellarity:items/trinkets/dragons_eye"
 				},
 				{
 					"type": "minecraft:loot_table",

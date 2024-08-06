@@ -1,4 +1,4 @@
-execute store result score #random stellarity.misc run random value 1..50
+execute store result score #random stellarity.misc run random value 1..60
 
 setblock ~ ~1 ~ air
 
@@ -53,20 +53,8 @@ execute if score #random stellarity.misc matches 16 run \
 execute if score #random stellarity.misc matches 17 run \
 	setblock ~ ~ ~ decorated_pot[facing=south]{LootTable:"stellarity:end_city/pot",sherds:["minecraft:brick","minecraft:brick","minecraft:brick","minecraft:skull_pottery_sherd"]}
 
-execute if score #random stellarity.misc matches 18..19 run \
-	setblock ~ ~ ~ barrel[facing=east]{LootTable:"stellarity:end_city/junk"}
-
-execute if score #random stellarity.misc matches 20..21 run \
-	setblock ~ ~ ~ barrel[facing=west]{LootTable:"stellarity:end_city/junk"}
-
-execute if score #random stellarity.misc matches 22..23 run \
-	setblock ~ ~ ~ barrel[facing=south]{LootTable:"stellarity:end_city/junk"}
-
-execute if score #random stellarity.misc matches 24..25 run \
-	setblock ~ ~ ~ barrel[facing=north]{LootTable:"stellarity:end_city/junk"}
-
-execute if score #random stellarity.misc matches 26..27 run \
-	setblock ~ ~ ~ barrel[facing=down]{LootTable:"stellarity:end_city/junk"}
+execute if score #random stellarity.misc matches 18..27 run \
+	setblock ~ ~ ~ barrel[facing=up]{LootTable:"stellarity:end_city/junk"}
 
 execute if score #random stellarity.misc matches 28 run \
 	setblock ~ ~ ~ anvil[facing=east]
@@ -98,5 +86,5 @@ execute if score #random stellarity.misc matches 36 run \
 execute if score #random stellarity.misc matches 37 run \
 	setblock ~ ~ ~ lodestone
 
-execute if score #random stellarity.misc matches 38..50 run \
+execute if score #random stellarity.misc matches 38..60 run \
 	setblock ~ ~ ~ air

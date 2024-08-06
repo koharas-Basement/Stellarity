@@ -1,0 +1,12 @@
+{
+	"comparator_output": 10,
+	"description": [
+		{
+			"text": "Aaron Cherof - Precipice (Stereo Ver.)"
+		}
+	],
+	"length_in_seconds": 302,
+	"sound_event": {
+		"sound_id": "stellarity:records.precipice_stereo"
+	}
+}

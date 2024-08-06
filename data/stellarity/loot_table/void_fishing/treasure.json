@@ -6,8 +6,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:eye_armor_trim_smithing_template",
+					"weight": 7,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -20,8 +20,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:spire_armor_trim_smithing_template",
+					"weight": 7,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -34,8 +34,8 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:end_crystal",
 					"weight": 5,
-					"name": "minecraft:end_crystal",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -48,8 +48,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:end_crystal",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -62,26 +62,18 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 10,
-					"value": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:items/materials/enderite_smithing_template",
+					"weight": 11
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/materials/keys/winged",
+					"weight": 11
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:elytra",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.02,
-								"max": 0.15
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:book",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -95,8 +87,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
 					"name": "minecraft:book",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -113,8 +105,8 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
 							"value": "stellarity:items/crates/amethyst",
+							"weight": 13,
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -134,8 +126,8 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
 							"value": "stellarity:items/crates/frozen",
+							"weight": 13,
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -154,8 +146,8 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
 							"value": "stellarity:items/crates/hallowed",
+							"weight": 13,
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -174,8 +166,8 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
 							"value": "stellarity:items/crates/hematic",
+							"weight": 13,
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -194,8 +186,8 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
 							"value": "stellarity:items/crates/prismarine",
+							"weight": 13,
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -214,8 +206,8 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
 							"value": "stellarity:items/crates/hellfire",
+							"weight": 13,
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -234,8 +226,8 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"weight": 13,
-							"value": "stellarity:items/crates/ender"
+							"value": "stellarity:items/crates/ender",
+							"weight": 13
 						}
 					]
 				}

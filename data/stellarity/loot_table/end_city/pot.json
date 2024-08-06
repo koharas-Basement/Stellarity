@@ -4,58 +4,15 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:purple_dye"
+					"type": "minecraft:loot_table",
+					"value": "stellarity:end_city/pot_common",
+					"weight": 16
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:magenta_dye"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:ender_pearl"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:ender_eye"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:dead_bush"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:end_stone"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:stick"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_nugget",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:gold_nugget",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "stellarity:end_city/pot_rare",
+					"weight": 2,
+					"quality": 1
 				}
 			]
 		}

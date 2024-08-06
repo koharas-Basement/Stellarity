@@ -1,12 +1,7 @@
-fill ~ ~-1 ~ ~ ~1 ~ air replace observer
+setblock ~ ~1 ~ air replace
 
 execute store result score #random stellarity.misc run random value 1..10
 
-execute if score #random stellarity.misc matches 1..6 run \
-	setblock ~ ~ ~ spawner{Spawncount:2,MaxNearbyEntities:4,SpawnRange:6,Delay:40,MinSpawnDelay:300,MaxSpawnDelay:600,RequiredPlayerRange:8,SpawnPotentials:[{data:{entity:{id:"minecraft:wither_skeleton",Tags:["stellarity.aware"],HandItems:[{id:"minecraft:stone_sword",count:1b},{}],HandDropChances:[0f,0f]}},weight:5},{data:{entity:{id:"minecraft:wither_skeleton",Tags:["stellarity.aware"],HandItems:[{id:"minecraft:iron_sword",count:1b},{}],HandDropChances:[0f,0f]}},weight:4},{data:{entity:{id:"minecraft:wither_skeleton",Tags:["stellarity.aware"],HandItems:[{id:"minecraft:stone_sword",count:1b},{}],HandDropChances:[0f,0f],ArmorItems:[{count:1b,id:"minecraft:iron_helmet"},{},{},{}],ArmorDropChances:[0f,0f,0f,0f]}},weight:3},{data:{entity:{id:"minecraft:wither_skeleton",Tags:["stellarity.aware"],HandItems:[{id:"minecraft:stone_axe",count:1b},{}],HandDropChances:[0f,0f],ArmorItems:[{count:1b,id:"minecraft:iron_helmet"},{count:1b,id:"minecraft:chainmail_chestplate"},{},{}],ArmorDropChances:[0f,0f,0f,0f]}},weight:1}]} replace
-
-execute if score #random stellarity.misc matches 7..9 run \
-	setblock ~ ~ ~ spawner{Spawncount:2,MaxNearbyEntities:2,SpawnRange:8,Delay:40,MinSpawnDelay:300,MaxSpawnDelay:600,RequiredPlayerRange:8,SpawnData:{entity:{id:"minecraft:vex",HandItems:[{},{}]}}} replace
-
-execute if score #random stellarity.misc matches 10 run \
-	setblock ~ ~ ~ spawner{Spawncount:2,MaxNearbyEntities:2,SpawnRange:8,Delay:40,MinSpawnDelay:300,MaxSpawnDelay:600,RequiredPlayerRange:8,SpawnData:{entity:{id:"minecraft:vex",HandItems:[{count:1b,id:"minecraft:wooden_axe"},{}],HandDropChances:[0f,0f]}}} replace
+execute if score #random stellarity.misc matches 7..10 run \
+	setblock ~ ~ ~ trial_spawner{normal_config:{total_mobs:6,simultaneous_mobs:2,simultaneous_mobs_added_per_player:2,total_mobs_added_per_player:1,ticks_between_spawn:30,spawn_potentials:[{data:{entity:{id:"skeleton",attributes:[{base:24d,id:"generic.max_health"},{id:"generic.armor",base:2d}],Health:24f},equipment:{loot_table:"stellarity:end_city/spawner_equipment/skeleton_normal",slot_drop_chances:0f}},weight:1}],loot_tables_to_eject:[{weight:1,data:"stellarity:end_city/trial_spawner/normal/consumables"},{weight:1,data:"stellarity:end_city/trial_spawner/normal/key"}]},\
+	ominous_config:{total_mobs:6,simultaneous_mobs:2,simultaneous_mobs_added_per_player:2,total_mobs_added_per_player:1,ticks_between_spawn:30,spawn_potentials:[{data:{entity:{id:"skeleton",attributes:[{base:24d,id:"generic.max_health"},{id:"generic.armor",base:2d}],Health:24f},equipment:{loot_table:"stellarity:end_city/spawner_equipment/skeleton_ominous",slot_drop_chances:0f}},weight:1}],loot_tables_to_eject:[{weight:1,data:"stellarity:end_city/trial_spawner/ominous/consumables"},{weight:3,data:"stellarity:end_city/trial_spawner/ominous/key"}],"items_to_drop_when_ominous":"stellarity:trial_spawner/ominous_item_spawn"}}

@@ -1,0 +1,12 @@
+{
+	"comparator_output": 13,
+	"description": [
+		{
+			"text": "ZUN - The Deviant's Unobstructed Light (Music Box Ver.) "
+		}
+	],
+	"length_in_seconds": 350,
+	"sound_event": {
+		"sound_id": "stellarity:records.deviants_light_music_box"
+	}
+}

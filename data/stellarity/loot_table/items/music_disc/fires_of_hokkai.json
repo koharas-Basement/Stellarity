@@ -1,0 +1,43 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_otherside",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"music_disc.fires_of_hokkai\"}",
+								"minecraft:custom_model_data": 90001,
+								"minecraft:jukebox_playable": {
+									"song": "stellarity:fires_of_hokkai",
+									"show_in_tooltip": true
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "stellarity.music_disc.requires_addon",
+									"fallback": "ʀᴇᴏ̨ᴜɪʀᴇs ᴍᴜsɪᴄ ᴀᴅᴅᴏɴ",
+									"color": "dark_gray"
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ominous_trial_key",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.materials.keys.winged.description",
+									"fallback": "Opens the Elytra Vault on End Ships",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": "{stellarity.special_item:\"winged_key\"}",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.materials.keys.winged\",\"fallback\": \"Winged Key\"}",
+								"rarity": "rare"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
