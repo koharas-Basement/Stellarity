@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:add",
+	"argument1": {
+		"type": "minecraft:add",
+		"argument1": {
+			"type": "minecraft:end_islands"
+		},
+		"argument2": "stellarity:main_island/3d_noise"
+	},
+	"argument2": 0.55
+}

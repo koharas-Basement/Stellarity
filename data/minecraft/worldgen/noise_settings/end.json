@@ -42,7 +42,8 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"stellarity:dragons_den"
+						"stellarity:dragons_den",
+						"minecraft:the_end"
 					]
 				},
 				"then_run": {

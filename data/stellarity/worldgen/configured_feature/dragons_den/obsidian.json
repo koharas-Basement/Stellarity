@@ -17,7 +17,7 @@
             "type": "minecraft:weighted_state_provider",
             "entries": [
                 {
-                    "weight": 13,
+                    "weight": 5,
                     "data": {
                         "Name": "minecraft:end_stone",
                         "Properties": {
