@@ -1,117 +1,6 @@
 {
 	"processors": [
 		{
-			"processor_type": "minecraft:rule",
-			"rules": [
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state": {
-							"Name": "minecraft:lantern",
-							"Properties": {
-								"hanging": "true",
-								"waterlogged": "false"
-							}
-						},
-						"probability": 0.2
-					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
-				},
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state": {
-							"Name": "minecraft:wall_torch",
-							"Properties": {
-								"facing": "north"
-							}
-						},
-						"probability": 0.2
-					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
-				},
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state": {
-							"Name": "minecraft:wall_torch",
-							"Properties": {
-								"facing": "south"
-							}
-						},
-						"probability": 0.2
-					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
-				},
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state": {
-							"Name": "minecraft:wall_torch",
-							"Properties": {
-								"facing": "east"
-							}
-						},
-						"probability": 0.2
-					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
-				},
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state": {
-							"Name": "minecraft:wall_torch",
-							"Properties": {
-								"facing": "west"
-							}
-						},
-						"probability": 0.2
-					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
-				},
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:always_true"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state": {
-							"Name": "minecraft:torch"
-						},
-						"probability": 0.2
-					},
-					"output_state": {
-						"Name": "minecraft:air"
-					}
-				}
-			]
-		},
-		{
 			"processor_type": "minecraft:block_ignore",
 			"blocks": [
 				{
@@ -122,6 +11,45 @@
 		{
 			"processor_type": "minecraft:rule",
 			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:lantern",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:wall_torch",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:cracked_stone_bricks",
+						"probability": 0.5
+					},
+					"output_state": {
+						"Name": "minecraft:cobblestone"
+					}
+				},
 				{
 					"location_predicate": {
 						"predicate_type": "minecraft:always_true"
@@ -142,7 +70,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.09
+						"probability": 0.11
 					},
 					"output_state": {
 						"Name": "minecraft:cracked_stone_bricks"
@@ -168,10 +96,23 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:tuff_bricks",
-						"probability": 0.22222
+						"probability": 0.25
 					},
 					"output_state": {
 						"Name": "minecraft:polished_tuff"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:purple_carpet",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:air"
 					}
 				},
 				{
@@ -193,10 +134,11 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state":  {
-							"Name": "end_portal_frame",
+						"block_state": {
+							"Name": "minecraft:end_portal_frame",
 							"Properties": {
-								"facing": "east"
+								"facing": "east",
+								"eye": "false"
 							}
 						},
 						"probability": 0.1
@@ -215,10 +157,11 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state":  {
-							"Name": "end_portal_frame",
+						"block_state": {
+							"Name": "minecraft:end_portal_frame",
 							"Properties": {
-								"facing": "west"
+								"facing": "west",
+								"eye": "false"
 							}
 						},
 						"probability": 0.1
@@ -237,10 +180,11 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state":  {
-							"Name": "end_portal_frame",
+						"block_state": {
+							"Name": "minecraft:end_portal_frame",
 							"Properties": {
-								"facing": "north"
+								"facing": "north",
+								"eye": "false"
 							}
 						},
 						"probability": 0.1
@@ -259,10 +203,11 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
-						"block_state":  {
-							"Name": "end_portal_frame",
+						"block_state": {
+							"Name": "minecraft:end_portal_frame",
 							"Properties": {
-								"facing": "south"
+								"facing": "south",
+								"eye": "false"
 							}
 						},
 						"probability": 0.1
@@ -281,7 +226,7 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
-						"block": "iron_trapdoor",
+						"block": "minecraft:iron_trapdoor",
 						"probability": 0.15
 					},
 					"output_state": {
@@ -294,11 +239,27 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
-						"block": "cobweb",
+						"block": "minecraft:cobweb",
 						"probability": 0.2
 					},
 					"output_state": {
 						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:decorated_pot"
+					},
+					"output_state": {
+						"Name": "minecraft:decorated_pot"
+					},
+					"block_entity_modifier": {
+						"type": "minecraft:append_loot",
+						"loot_table": "stellarity:stronghold/junk"
 					}
 				}
 			]

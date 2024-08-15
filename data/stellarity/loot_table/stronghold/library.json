@@ -154,7 +154,49 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.5
+					"chance": 0.25
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 14
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": {
+						"pools": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/spellbooks/conveyance"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/spellbooks/light"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/spellbooks/updraft"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_damage",
+										"damage": {
+											"min": 0.15,
+											"max": 0.7
+										}
+									}
+								]
+							}
+						]
+					}
 				}
 			]
 		}

@@ -128,47 +128,29 @@
 			}
 		},
 		{
-			"weight": 9,
+			"weight": 27,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/stairs_round_lower",
+				"location": "stellarity:stronghold/corridors/stairs_round",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
 		{
-			"weight": 9,
+			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/stairs_round_upper",
+				"location": "stellarity:stronghold/corridors/stairs_straight",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},
 		{
-			"weight": 9,
+			"weight": 3,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/stairs_round_middle",
-				"processors": "stellarity:stronghold_generic"
-			}
-		},
-		{
-			"weight": 9,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/stairs_straight_lower",
-				"processors": "stellarity:stronghold_generic"
-			}
-		},
-		{
-			"weight": 9,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/stairs_straight_upper",
+				"location": "stellarity:stronghold/corridors/stairs_straight_secret",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},

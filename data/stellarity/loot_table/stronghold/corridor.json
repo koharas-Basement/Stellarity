@@ -12,7 +12,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:crossbow",
-					"weight": 3,
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -144,7 +144,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_pickaxe",
-					"weight": 2,
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_damage",
@@ -174,7 +174,7 @@
 					"name": "minecraft:iron_chestplate",
 					"functions": [
 						{
-							"function": "reference",
+							"function": "minecraft:reference",
 							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
@@ -184,7 +184,7 @@
 					"name": "minecraft:iron_boots",
 					"functions": [
 						{
-							"function": "reference",
+							"function": "minecraft:reference",
 							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
@@ -194,7 +194,7 @@
 					"name": "minecraft:iron_leggings",
 					"functions": [
 						{
-							"function": "reference",
+							"function": "minecraft:reference",
 							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
@@ -204,7 +204,7 @@
 					"name": "minecraft:iron_helmet",
 					"functions": [
 						{
-							"function": "reference",
+							"function": "minecraft:reference",
 							"name": "stellarity:stronghold_armor_trim"
 						}
 					]
@@ -213,7 +213,7 @@
 		},
 		{
 			"rolls": {
-				"min": -2,
+				"min": -3,
 				"max": 1
 			},
 			"entries": [
@@ -231,6 +231,48 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 14
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": {
+						"pools": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/sharanga"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/clockwork_crossbow"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/trinkets/copper_elektra_shield"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_damage",
+										"damage": {
+											"min": 0.15,
+											"max": 0.7
+										}
+									}
+								]
+							}
+						]
+					}
 				}
 			]
 		}

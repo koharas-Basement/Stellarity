@@ -1,0 +1,77 @@
+{
+	"fallback": "stellarity:stronghold/fallback_end",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/basalt_deltas",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/chorus_plants",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/derpy_creeper",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/desert",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/light_gray",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/light_gray_border",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/nether",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters/carpet/warped_forest",
+				"processors": "stellarity:stronghold_generic"
+			}
+		}
+	]
+}

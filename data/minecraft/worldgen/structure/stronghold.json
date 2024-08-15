@@ -17,18 +17,19 @@
 		}
 	},
 	"terrain_adaptation": "encapsulate",
-	"start_pool": "stellarity:stronghold/portal_room",
+	"start_pool": "stellarity:stronghold/start",
 	"size": 5,
 	"start_height": {
 		"type": "minecraft:uniform",
 		"min_inclusive": {
-			"above_bottom": 30
+			"absolute": -20
 		},
 		"max_inclusive": {
-			"absolute": 10
+			"absolute": 15
 		}
 	},
-	"max_distance_from_center": 115,
+	"start_jigsaw_name": "stellarity:stronghold_anchor",
+	"max_distance_from_center": 116,
 	"use_expansion_hack": false,
 	"dimension_padding": 10,
 	"liquid_settings": "ignore_waterlogging"

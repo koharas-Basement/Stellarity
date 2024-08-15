@@ -187,6 +187,48 @@
 					"name": "minecraft:golden_horse_armor"
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 9
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": {
+						"pools": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/sharanga"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/clockwork_crossbow"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:items/trinkets/copper_elektra_shield"
+									}
+								],
+								"functions": [
+									{
+										"function": "minecraft:set_damage",
+										"damage": {
+											"min": 0.15,
+											"max": 0.7
+										}
+									}
+								]
+							}
+						]
+					}
+				}
+			]
 		}
 	]
 }
