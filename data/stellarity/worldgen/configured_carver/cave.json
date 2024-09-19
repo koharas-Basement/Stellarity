@@ -19,7 +19,7 @@
 		"lava_level": {
 			"absolute": 0
 		},
-		"replaceable": "#stellarity:carvers_replaceable",
+		"replaceable": "#stellarity:_worldgen/carvers_replaceable",
 		"debug_settings": {
 			"debug_mode": false,
 			"air_state": {

@@ -8,7 +8,7 @@ execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:
 execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
 execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
 
-function kohara:damage/calculate {armor_penetration:30,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"kohara:no_knockback_ignores_iframes",tag:"stellarity.damage.embrittlement"}
+function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"kohara:no_knockback_ignores_iframes",tag:"stellarity.damage.embrittlement"}
 
 playsound block.glass.break master @a[distance=0..] ~ ~ ~ 0.5 1.3
 playsound minecraft:block.fungus.break neutral @a[distance=0..] ~ ~ ~ 1 1

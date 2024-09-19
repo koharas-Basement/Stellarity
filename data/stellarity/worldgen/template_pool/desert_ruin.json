@@ -1,0 +1,68 @@
+{
+	"fallback": "empty",
+	"elements": [
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/1",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/2",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/3",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/4",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/5",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/6",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:endless_dunes/ruins/7",
+				"processors": "stellarity:desert_ruin",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	]
+}

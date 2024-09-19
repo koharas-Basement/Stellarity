@@ -1,0 +1,22 @@
+{
+	"structures": [
+		{
+			"structure": "stellarity:shipwreck/normal",
+			"weight": 1
+		},
+		{
+			"structure": "stellarity:shipwreck/dunes",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 656346133,
+		"exclusion_zone": {
+			"other_set": "minecraft:end_cities",
+			"chunk_count": 10
+		},
+		"spacing": 27,
+		"separation": 20
+	}
+}

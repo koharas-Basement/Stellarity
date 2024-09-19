@@ -1,74 +1,21 @@
 {
-	"temperature": -0.5,
+	"temperature": 0.8,
 	"downfall": 0.4,
 	"has_precipitation": false,
-	"temperature_modifier": "frozen",
-	"creature_spawn_probability": 0,
 	"effects": {
-		"sky_color": 0,
-		"fog_color": 0,
-		"water_color": 7515062,
-		"water_fog_color": 4420745,
-		"grass_color": 30592,
-		"foliage_color": 105867,
-		"ambient_sound": {
-			"sound_id": "stellarity:ambient.end.dark"
-		},
-		"mood_sound": {
-			"sound": "ambient.warped_forest.mood",
-			"tick_delay": 500,
-			"block_search_extent": 10,
-			"offset": 100
-		},
-		"additions_sound": {
-			"sound": "ambient.warped_forest.additions",
-			"tick_chance": 0.01
-		},
-		"particle": {
-			"options": {
-				"type": "minecraft:falling_dust",
-				"block_state": "minecraft:snow_block"
-			},
-			"probability": 0.0033
-		}
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011
 	},
-	"spawners": {
-		"monster": [
-			{
-				"type": "minecraft:enderman",
-				"weight": 20,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:skeleton",
-				"weight": 10,
-				"minCount": 3,
-				"maxCount": 3
-			}
-		]
-	},
+	"spawners": {},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			"stellarity:ravine",
-			"stellarity:crack"
-		]
-	},
+	"carvers": {},
 	"features": [
-		[
-			"stellarity:frosted_hills/stalactite",
-			"stellarity:frosted_hills/hills",
-			"stellarity:frosted_hills/icicle",
-			"stellarity:frosted_hills/icicle_upwards"
-		],
 		[],
 		[],
-		[
-			"stellarity:frosted_hills/blocks_random_replace",
-			"stellarity:frosted_hills/ore_blue_ice",
-			"stellarity:frosted_hills/ore_snow"
-		],
+		[],
+		[],
 		[],
 		[],
 		[],

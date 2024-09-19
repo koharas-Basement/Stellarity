@@ -83,12 +83,12 @@
 				}
 			}
 		},
-		"blazing_dunes": {
+		"fiery_hills": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "stellarity:blazing_dunes"
+						"biomes": "stellarity:fiery_hills"
 					}
 				}
 			}
@@ -153,12 +153,12 @@
 				}
 			}
 		},
-		"frosted_hills": {
+		"frozen_spikes": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {
-						"biomes": "stellarity:frosted_hills"
+						"biomes": "stellarity:frozen_spikes"
 					}
 				}
 			}
@@ -212,7 +212,7 @@
 			"the_nest"
 		],
 		[
-			"blazing_dunes"
+			"fiery_hills"
 		],
 		[
 			"prismarine_forest"
@@ -236,7 +236,7 @@
 			"the_hallow"
 		],
 		[
-			"frosted_hills"
+			"frozen_spikes"
 		],
 		[
 			"warped_marsh"

@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:crystal_crags/delta_amethyst",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 15
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

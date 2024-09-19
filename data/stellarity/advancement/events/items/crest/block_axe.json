@@ -15,7 +15,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"tag": "minecraft:axes"
+								"items": "#minecraft:axes"
 							}
 						}
 					},

@@ -49,11 +49,11 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"value": "stellarity:void_fishing/drops/frosted_hills",
+					"value": "stellarity:void_fishing/drops/frozen_spikes",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_frosted_hills"
+							"name": "stellarity:locations/biomes/in_frozen_spikes"
 						}
 					]
 				},
@@ -88,11 +88,11 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"value": "stellarity:void_fishing/drops/blazing_dunes",
+					"value": "stellarity:void_fishing/drops/fiery_hills",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_blazing_dunes"
+							"name": "stellarity:locations/biomes/in_fiery_hills"
 						}
 					]
 				},

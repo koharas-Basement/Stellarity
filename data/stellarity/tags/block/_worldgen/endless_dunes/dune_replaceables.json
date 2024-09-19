@@ -1,0 +1,11 @@
+{
+	"values": [
+		"sand",
+		"end_stone",
+		"#stellarity:_worldgen/fiery_hills/basalt",
+		"#stellarity:_worldgen/fiery_hills/blackstone",
+		"#stellarity:_worldgen/fiery_hills/end_stone",
+		"coarse_dirt",
+		"smooth_sandstone"
+	]
+}

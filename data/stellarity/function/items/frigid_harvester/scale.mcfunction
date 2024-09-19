@@ -4,13 +4,13 @@ execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={mino
 	scoreboard players set #damage_extra stellarity.misc 3
 # Weaker mobs, like e.g. Zombies, Skeletons, Endermen
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={small=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 7
+	scoreboard players set #damage_extra stellarity.misc 6
 # Stronger foes, like e.g. Creepers, Vindicators
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={big=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 12
+	scoreboard players set #damage_extra stellarity.misc 11
 # Rarer stronger mobs. Evokers, Illusioners, Ravagers...
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={large=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 16
+	scoreboard players set #damage_extra stellarity.misc 14
 # Wardens, Withers, datapack bosses
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={huge=true}}] run \
 	scoreboard players set #damage_extra stellarity.misc 78

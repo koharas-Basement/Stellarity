@@ -9,7 +9,7 @@
             "count": {
                 "type": "minecraft:uniform",
                 "min_inclusive": 0,
-                "max_inclusive": 1
+                "max_inclusive": 3
             }
         },
         {

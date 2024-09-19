@@ -1,9 +1,14 @@
 {
 	"values": [
 		"stellarity:the_hallow",
+		"stellarity:prismatic_dunes",
+		"stellarity:hallowed_tundra",
 		"minecraft:end_highlands",
 		"stellarity:prismarine_forest",
-		"far_end:amethyst_forest",
-		"minecraft:end_midlands"
+		"stellarity:amethyst_forest",
+		"minecraft:end_midlands",
+		"stellarity:endless_dunes",
+		"stellarity:warped_marsh",
+		"stellarity:permafrozen_bog"
 	]
 }

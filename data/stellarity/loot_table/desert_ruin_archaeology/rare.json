@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arms_up_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brewer_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:burn_pottery_sherd",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dune_armor_trim_smithing_template"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:archaeology/desert_well"
+}

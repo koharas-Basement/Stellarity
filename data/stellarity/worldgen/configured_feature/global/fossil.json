@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:fossil",
 	"config": {
-		"max_empty_corners_allowed": 3,
+		"max_empty_corners_allowed": 2,
 		"fossil_structures": [
 			"stellarity:fossils/phantom"
 		],

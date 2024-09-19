@@ -55,10 +55,10 @@
 															"type": "minecraft:mul",
 															"argument1": {
 																"type": "minecraft:mul",
-																"argument1": 250,
+																"argument1": 320,
 																"argument2":"stellarity:main_island/avg"
 															},
-															"argument2": "stellarity:sloped_cheese"
+															"argument2": "stellarity:main_island/sloped_cheese"
 													}
 												},
 												"when_out_of_range": "stellarity:sloped_cheese"

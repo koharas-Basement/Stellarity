@@ -1,15 +1,7 @@
 {
 	"structures": [
 		{
-			"structure": "stellarity:return_gateways/bloody_flying",
-			"weight": 1
-		},
-		{
-			"structure": "stellarity:return_gateways/snowy_flying",
-			"weight": 1
-		},
-		{
-			"structure": "stellarity:return_gateways/base_flying",
+			"structure": "stellarity:return_gateway",
 			"weight": 1
 		}
 	],

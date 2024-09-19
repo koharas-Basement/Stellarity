@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:fossil",
 	"config": {
-		"max_empty_corners_allowed": 5,
+		"max_empty_corners_allowed": 4,
 		"fossil_structures": [
 			"stellarity:monster_box/1",
 			"stellarity:monster_box/2",

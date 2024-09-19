@@ -1,0 +1,71 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": false,
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 15979007,
+		"water_fog_color": 1508654,
+		"grass_color": 14593535,
+		"foliage_color": 13931775,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.heavenly.grim"
+		},
+		"mood_sound": {
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_delay": 1000,
+			"block_search_extent": 4,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.ultra_rare",
+			"tick_chance": 0.001
+		},
+		"particle": {
+			"options": {
+				"type": "cherry_leaves"
+			},
+			"probability": 0.00077
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 33,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"far_end:amethyst/island/calcite_bottom"
+		],
+		[],
+		[
+			"far_end:amethyst/geode/amethyst",
+			"far_end:amethyst/rock/tuff",
+			"far_end:amethyst/vegetation/patch_crying_obsidian",
+			"stellarity:amethyst/dirt"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"stellarity:amethyst/trees",
+			"far_end:amethyst/vegetation/amethyst",
+			"far_end:amethyst/vegetation/flower",
+			"far_end:amethyst/vegetation/patch_grass",
+			"stellarity:amethyst/roots"
+		],
+		[]
+	]
+}

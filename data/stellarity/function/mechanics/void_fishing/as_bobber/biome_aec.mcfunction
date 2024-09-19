@@ -1,4 +1,4 @@
-execute if biome ~ ~ ~ stellarity:blazing_dunes run \
+execute if biome ~ ~ ~ stellarity:fiery_hills run \
 	summon area_effect_cloud ~ ~ ~ \
 	{Radius:1,Particle:"flame",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
 
@@ -34,7 +34,7 @@ execute if biome ~ ~ ~ far_end:void run \
 execute if biome ~ ~ ~ far_end:flesh_tundra run \
 	summon area_effect_cloud ~ ~ ~ \
 	{Radius:1,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ stellarity:frosted_hills run \
+execute if biome ~ ~ ~ stellarity:frozen_spikes run \
 	summon area_effect_cloud ~ ~ ~ \
 	{Radius:1,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
 

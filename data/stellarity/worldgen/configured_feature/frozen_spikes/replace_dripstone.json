@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:geode",
+	"config": {
+		"blocks": {
+			"filling_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:packed_ice"
+				}
+			},
+			"inner_layer_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:packed_ice"
+				}
+			},
+			"alternate_inner_layer_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:packed_ice"
+				}
+			},
+			"middle_layer_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:packed_ice"
+				}
+			},
+			"outer_layer_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:packed_ice"
+				}
+			},
+			"inner_placements": [
+				{
+					"Name": "minecraft:packed_ice"
+				}
+			],
+			"cannot_replace": "#stellarity:_worldgen/frozen_spikes/everything_but_dripstone",
+			"invalid_blocks": "#minecraft:geode_invalid_blocks"
+		},
+		"layers": {
+			"filling": 25,
+			"inner_layer": 25,
+			"middle_layer": 25,
+			"outer_layer": 25
+		},
+		"crack": {
+			"generate_crack_chance": 0
+		},
+		"noise_multiplier": 0.0,
+		"use_potential_placements_chance": 0.35,
+		"use_alternate_layer0_chance": 0.083,
+		"placements_require_layer0_alternate": true,
+		"outer_wall_distance": 1,
+		"distribution_points": 5,
+		"point_offset": 0,
+		"min_gen_offset": 0,
+		"max_gen_offset": 15,
+		"invalid_blocks_threshold": 999
+	}
+}

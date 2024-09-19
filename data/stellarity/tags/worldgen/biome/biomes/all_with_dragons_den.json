@@ -1,9 +1,11 @@
 {
 	"values":
 		[
-			"#stellarity:biomes/regular",
-			"#stellarity:biomes/bottom",
-			"stellarity:dragons_den",
+			"#stellarity:biomes/all",
+			{
+				"id": "stellarity:dragons_den",
+				"required": false
+			},
 			"minecraft:the_end"
 		]
 }

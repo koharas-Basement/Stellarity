@@ -12,7 +12,7 @@
             "min_inclusive": 3,
             "max_inclusive": 6
         },
-        "replaceable": "#stellarity:stalactites_replacable",
+        "replaceable": "#stellarity:_worldgen/stalactites_replacable",
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {

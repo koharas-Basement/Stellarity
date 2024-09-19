@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 1,
+		"xz_spread": 11,
+		"y_spread": 4,
+		"feature": {
+			"feature": "stellarity:endless_dunes/oasis/palm_tree",
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:grass_block",
+							"minecraft:coarse_dirt",
+							"minecraft:rooted_dirt"
+						]
+					}
+				}
+			]
+		}
+	}
+}

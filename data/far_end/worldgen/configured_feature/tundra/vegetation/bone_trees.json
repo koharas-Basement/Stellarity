@@ -8,7 +8,7 @@
     "extra_edge_column_chance": 0,
     "vegetation_chance": 1,
     "xz_radius": 0,
-    "replaceable": "#far_end:flesh_tundra/surface_inner",
+    "replaceable": "#stellarity:_worldgen/flesh_tundra/surface_inner",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

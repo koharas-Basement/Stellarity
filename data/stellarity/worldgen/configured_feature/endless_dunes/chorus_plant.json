@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.35,
+				"feature": {
+					"feature": {
+						"type": "minecraft:no_op",
+						"config": {}
+					},
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:chorus_plant",
+				"config": {}
+			},
+			"placement": []
+		}
+	}
+}

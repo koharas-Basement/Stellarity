@@ -88,7 +88,7 @@
                 }
             ],
             "cannot_replace": "#minecraft:features_cannot_replace",
-            "invalid_blocks": "#far_end:end_stone"
+            "invalid_blocks": "#stellarity:_worldgen/end_stone"
         },
         "layers": {
             "filling": 1.2,

@@ -1,13 +1,13 @@
 {
 	"values": [
 		"minecraft:end_midlands",
-		"far_end:end_wilds",
+		"stellarity:end_wilds",
 		"minecraft:end_highlands",
-		"far_end:amethyst_forest",
+		"stellarity:amethyst_forest",
 		"stellarity:prismarine_forest",
-		"far_end:flesh_tundra",
-		"stellarity:frosted_hills",
-		"minecraft:small_end_islands",
-		"stellarity:blazing_dunes"
+		"stellarity:flesh_tundra",
+		"stellarity:frosted_valley",
+		"stellarity:fiery_hills",
+		"stellarity:endless_dunes"
 	]
 }

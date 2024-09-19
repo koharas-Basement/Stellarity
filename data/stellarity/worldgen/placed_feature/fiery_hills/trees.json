@@ -1,0 +1,36 @@
+{
+	"feature": "stellarity:fiery_hills/trees",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 3
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 2
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"minecraft:lava",
+							"minecraft:magma_block"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

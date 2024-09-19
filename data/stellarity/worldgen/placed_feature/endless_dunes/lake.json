@@ -1,0 +1,16 @@
+{
+	"feature": "stellarity:endless_dunes/lake/stack",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 1
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 500
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

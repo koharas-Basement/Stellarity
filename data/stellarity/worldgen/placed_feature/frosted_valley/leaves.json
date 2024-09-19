@@ -1,0 +1,26 @@
+{
+	"feature": "stellarity:frosted_valley/leaves",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 40
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:ice"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

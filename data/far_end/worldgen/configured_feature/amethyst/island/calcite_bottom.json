@@ -16,7 +16,7 @@
             "min_inclusive": 3,
             "max_inclusive": 8
         },
-        "replaceable": "#far_end:amethyst_forest/island_bottom",
+        "replaceable": "#stellarity:_worldgen/amethyst_forest/island_bottom",
         "ground_state": {
             "type": "minecraft:weighted_state_provider",
             "entries": [

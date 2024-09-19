@@ -96,8 +96,8 @@
                     }
                 }
             ],
-            "cannot_replace": "#far_end:general/invalid_air",
-            "invalid_blocks": "#far_end:general/invalid_air"
+            "cannot_replace": "#stellarity:_worldgen/general/invalid_air",
+            "invalid_blocks": "#stellarity:_worldgen/general/invalid_air"
         },
         "layers": {
             "filling": 1.7,

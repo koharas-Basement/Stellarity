@@ -10,4 +10,4 @@ attribute @s minecraft:generic.follow_range modifier add stellarity:follow_range
 
 data merge entity @s {Health:24.0f,DeathLootTable:"stellarity:mobs/buffed/skeleton"}
 
-execute at @s if biome ~ ~ ~ stellarity:frosted_hills run function stellarity:mobs/stat_buff/skeleton/frosted_hills
+execute at @s if biome ~ ~ ~ stellarity:frozen_spikes run function stellarity:mobs/stat_buff/skeleton/frozen_spikes

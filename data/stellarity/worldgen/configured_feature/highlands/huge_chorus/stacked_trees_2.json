@@ -16,7 +16,7 @@
             "min_inclusive": 0,
             "max_inclusive": 0
         },
-        "replaceable": "#stellarity:huge_chorus_body",
+        "replaceable": "#stellarity:_worldgen/huge_chorus_body",
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {

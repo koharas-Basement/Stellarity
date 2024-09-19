@@ -186,7 +186,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:stronghold/corridors/3_way_crossing_alt",
+				"location": "stellarity:stronghold/corridors/3_way_crossing_treasure_alt",
 				"processors": "stellarity:stronghold_generic"
 			}
 		},

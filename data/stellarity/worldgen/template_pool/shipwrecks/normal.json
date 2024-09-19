@@ -1,0 +1,77 @@
+{
+	"fallback": "empty",
+	"elements": [
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/1",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/2",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/3",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/4",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/5",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/6",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/7",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "legacy_single_pool_element",
+				"location": "stellarity:shipwreck/8",
+				"processors": "stellarity:shipwreck/normal",
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	]
+}

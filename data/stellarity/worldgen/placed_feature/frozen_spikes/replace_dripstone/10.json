@@ -1,0 +1,11 @@
+{
+	"feature": "stellarity:frozen_spikes/replace_dripstone",
+	"placement": [
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 144
+			}
+		}
+	]
+}

@@ -8,7 +8,7 @@
 		"extra_edge_column_chance": 0,
 		"vegetation_chance": 1,
 		"xz_radius": 0,
-		"replaceable": "#far_end:single/end_stone",
+		"replaceable": "#stellarity:_worldgen/single/end_stone",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

@@ -1,6 +1,16 @@
 {
 	"values": [
-		"far_end:flesh_tundra",
-		"stellarity:frosted_hills"
+		{
+			"id": "far_end:flesh_tundra",
+			"required": false
+		},
+		{
+			"id": "stellarity:frosted_hills",
+			"required": false
+		},
+		"stellarity:frozen_spikes",
+		"stellarity:frosted_valley",
+		"stellarity:permafrozen_bog",
+		"stellarity:hallowed_tundra"
 	]
 }

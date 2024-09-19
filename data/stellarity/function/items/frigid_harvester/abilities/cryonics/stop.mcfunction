@@ -22,6 +22,6 @@ effect give @s resistance 12 2 true
 effect give @s regeneration 45 1 true
 effect give @s fire_resistance 45 0 true
 
-scoreboard players set @s stellarity.items.aery_sword.cryonics.cooldown 150
+scoreboard players set @s stellarity.items.aery_sword.cryonics.cooldown 60
 
 tag @s remove stellarity.cryonics

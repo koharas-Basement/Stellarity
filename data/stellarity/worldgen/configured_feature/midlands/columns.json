@@ -15,7 +15,7 @@
 					"extra_edge_column_chance": 0.2,
 					"vegetation_chance": 1,
 					"xz_radius": 2,
-					"replaceable": "#stellarity:midlands/obsidian_spike_ground",
+					"replaceable": "#stellarity:_worldgen/midlands/obsidian_spike_ground",
 					"ground_state": {
 						"type": "minecraft:weighted_state_provider",
 						"entries": [

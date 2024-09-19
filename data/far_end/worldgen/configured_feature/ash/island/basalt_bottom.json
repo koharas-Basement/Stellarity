@@ -16,7 +16,7 @@
             "min_inclusive": 2,
             "max_inclusive": 5
         },
-        "replaceable": "#far_end:ashfall_delta/island_bottom",
+        "replaceable": "#stellarity:_worldgen/ashfall_delta/island_bottom",
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {

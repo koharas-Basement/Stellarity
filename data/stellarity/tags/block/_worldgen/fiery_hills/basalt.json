@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"basalt",
+		"smooth_basalt",
+		"#stellarity:_worldgen/fiery_hills/common"
+	]
+}

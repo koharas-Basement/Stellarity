@@ -5,10 +5,10 @@
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 6047601,
-		"water_fog_color": 4073799,
-		"grass_color": 5319519,
-		"foliage_color": 5252192,
+		"water_color": 14981631,
+		"water_fog_color": 6105711,
+		"grass_color": 14520574,
+		"foliage_color": 14520574,
 		"ambient_sound": {
 			"sound_id": "stellarity:ambient.end.heavenly.grim"
 		},
@@ -24,7 +24,7 @@
 		},
 		"particle": {
 			"options": {
-				"type": "dripping_obsidian_tear"
+				"type": "minecraft:dripping_obsidian_tear"
 			},
 			"probability": 0.00022
 		}
@@ -53,11 +53,14 @@
 			"stellarity:crystal_crags/hills"
 		],
 		[
-			"stellarity:the_hallow/crystals",
-			"stellarity:the_hallow/crystals_amethyst",
-			"stellarity:crystal_crags/deltas"
+			"stellarity:crystal_crags/large_crystals",
+			"stellarity:crystal_crags/crystals_amethyst",
+			"stellarity:crystal_crags/delta_amethyst",
+			"stellarity:crystal_crags/delta_grass"
 		],
-		[],
+		[
+			"stellarity:crystal_crags/ore_budding_amethyst"
+		],
 		[],
 		[],
 		[],
@@ -65,10 +68,10 @@
 		[],
 		[
 			"stellarity:crystal_crags/chorus",
-			"stellarity:crystal_crags/amethyst"
+			"stellarity:crystal_crags/amethyst",
+			"stellarity:crystal_crags/vegetation"
 		],
 		[
-			"stellarity:small_end_islands/bricks_scattered",
 			"stellarity:global/end_dungeon",
 			"stellarity:global/fossil"
 		]
