@@ -42,7 +42,7 @@ tellraw @s [\
 	{"text":"Discord","color":"#589CF2","bold":false,"clickEvent": {"action": "open_url","value": "https://discord.kohara.xyz/"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to visit"}}},\
 	{"text": " ▪ ","color":"gray","bold":true},\
 	{"text":"⚙ ","color":"#C2C2C2","bold":true},\
-	{"text":"Config","color":"#DCDCDC","bold":false,"clickEvent": {"action": "run_command","value": "/function stellarity:cmd/configuration"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to edit"}}}\
+	{"text":"Config","color":"#DCDCDC","bold":false,"clickEvent": {"action": "run_command","value": "/function stellarity:_cmd/configuration"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to edit"}}}\
 	]
 
 tellraw @s [\

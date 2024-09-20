@@ -9,3 +9,4 @@ scoreboard players reset #stellarity.config stellarity.config.track_loop_delay.d
 scoreboard players reset #stellarity.config stellarity.config.enable_dragon_screenshake
 scoreboard players reset #stellarity.config stellarity.config.enable_creative_shock
 scoreboard players reset #stellarity.config stellarity.config.nerf_elytra
+scoreboard players reset #stellarity.config stellarity.config.enable_end_crystal_drop
