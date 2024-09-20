@@ -2,23 +2,23 @@
 	"dimensionName": "minecraft:the_end",
 	"continentalnesses": [
 		-1.2,
-		-0.915,
-		-0.53,
+		-0.725,
+		-0.495,
 		-0.295,
-		-0.115,
-		0.155,
+		-0.15,
+		0.125,
 		0.46,
-		0.8,
+		0.805,
 		1
 	],
 	"erosions": [
 		-1,
-		-0.78,
-		-0.44,
-		-0.2225,
-		0.06,
-		0.45,
-		0.625,
+		-0.68,
+		-0.375,
+		-0.065,
+		0.11,
+		0.34500000000000003,
+		0.545,
 		1
 	],
 	"weirdnesses": [
@@ -39,19 +39,19 @@
 	],
 	"temperatures": [
 		-1,
-		-0.45,
+		-0.405,
 		-0.15,
 		0.2,
-		0.55,
+		0.48,
 		1
 	],
 	"humidities": [
 		-1,
-		-0.35,
-		-0.1,
-		0.1,
-		0.3,
-		0.7,
+		-0.47000000000000003,
+		-0.19,
+		0.045,
+		0.265,
+		0.685,
 		1
 	],
 	"depths": [
@@ -193,13 +193,13 @@
 	"layouts": [
 		{
 			"key": "layout_lcwbcr98",
-			"name": "Amethyst Forest Family",
+			"name": "Highlands",
 			"array": [
 				[
-					"biome_lzllxejs",
-					"biome_lzllxejs",
-					"biome_lzllxejs",
-					"biome_lzllxejs",
+					"biome_m17zkf14/biome_lzllxejs",
+					"biome_m17zkf14",
+					"biome_m17zkf14",
+					"biome_m17zkf14/biome_lzllxejs",
 					"biome_lzllxejs",
 					"biome_lzllxejs",
 					"biome_lcwbl8lk",
@@ -212,12 +212,12 @@
 					"biome_lcwbl8lk"
 				],
 				[
-					"biome_lcwbgvyx/minecraft:end_highlands",
-					"biome_lcwbgvyx/minecraft:end_highlands",
+					"biome_lzlnnkbb",
+					"biome_lzlnnkbb",
+					"minecraft:end_highlands",
+					"minecraft:end_highlands",
 					"biome_lcwbgvyx",
 					"biome_lcwbgvyx",
-					"biome_lcwbgvyx/biome_lcwbl8lk",
-					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwbgvyx",
@@ -232,8 +232,8 @@
 					"minecraft:end_highlands",
 					"minecraft:end_highlands",
 					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"biome_lcwbl8lk",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
 					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwbgvyx",
@@ -247,9 +247,9 @@
 					"minecraft:end_highlands",
 					"minecraft:end_highlands",
 					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"biome_lcwbl8lk",
+					"minecraft:end_highlands/biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
 					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwbgvyx",
@@ -426,8 +426,8 @@
 			"name": "Barrens",
 			"array": [
 				[
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr",
+					"biome_lzlkh4fr/biome_lzlkgs0b",
+					"biome_lzlkh4fr/biome_lzlkgs0b",
 					"biome_lzlkh4fr",
 					"biome_lzlkh4fr",
 					"biome_lzlkh4fr",
@@ -442,27 +442,11 @@
 					"unassigned"
 				],
 				[
-					"minecraft:end_barrens/biome_lcwiybjc",
-					"minecraft:end_barrens/biome_lcwiybjc",
-					"biome_lcwiybjc",
-					"biome_lcwiybjc",
-					"biome_lcwbre3e",
-					"biome_lcwbre3e",
-					"biome_lcwiybjc",
-					"biome_lcwiybjc",
-					"unassigned",
-					"unassigned",
-					"unassigned",
-					"unassigned",
-					"unassigned",
-					"unassigned"
-				],
-				[
 					"minecraft:end_barrens",
 					"minecraft:end_barrens",
-					"minecraft:end_barrens/biome_lcwiybjc",
-					"biome_lcwiybjc/biome_lcwbre3e",
-					"biome_lcwbre3e",
+					"minecraft:end_barrens",
+					"minecraft:end_barrens",
+					"biome_lcwbre3e/minecraft:end_barrens",
 					"biome_lcwbre3e",
 					"biome_lcwiybjc",
 					"biome_lcwiybjc",
@@ -475,10 +459,26 @@
 				],
 				[
 					"minecraft:end_barrens",
-					"minecraft:end_barrens",
+					"biome_lcwiybjc",
+					"biome_lcwiybjc",
+					"biome_lcwiybjc",
+					"biome_lcwbre3e/biome_lzzwqlxb",
+					"biome_lcwbre3e/biome_lzzwqlxb",
+					"biome_lcwiybjc",
+					"biome_lcwiybjc",
+					"unassigned",
+					"unassigned",
+					"unassigned",
+					"unassigned",
+					"unassigned",
+					"unassigned"
+				],
+				[
 					"minecraft:end_barrens/biome_lcwiybjc",
+					"biome_lcwiybjc",
 					"biome_lcwiybjc/biome_lzzwqlxb",
-					"biome_lzzwqlxb/biome_lcwbre3e",
+					"biome_lcwiybjc/biome_lzzwqlxb",
+					"biome_lzzwqlxb",
 					"biome_lcwbre3e",
 					"biome_lcwiybjc",
 					"biome_lcwiybjc",
@@ -494,8 +494,8 @@
 					"biome_lcwbhit9",
 					"biome_lcwbhit9",
 					"biome_lcwbhit9",
-					"biome_lcwbhit9",
-					"biome_lcwbhit9",
+					"biome_lcwbre3e",
+					"biome_lcwbre3e",
 					"biome_lcwiybjc",
 					"biome_lcwiybjc",
 					"minecraft:end_barrens",
@@ -656,9 +656,9 @@
 			"name": "Midlands",
 			"array": [
 				[
-					"biome_lzllxejs",
-					"biome_lzllxejs",
-					"biome_lzllxejs",
+					"biome_m17zkf14/biome_lzlkgs0b",
+					"biome_m17zkf14/biome_lzlkgs0b",
+					"biome_m17zkf14/biome_lzllxejs",
 					"biome_lzllxejs",
 					"biome_lzllxejs",
 					"biome_lzllxejs",
@@ -672,12 +672,12 @@
 					"minecraft:end_midlands"
 				],
 				[
+					"biome_lzlnnkbb",
+					"biome_lcwc1w5o",
+					"biome_lcwc1w5o/biome_m17ze20a",
 					"minecraft:end_midlands",
-					"minecraft:end_midlands",
-					"minecraft:end_midlands",
-					"minecraft:end_midlands",
-					"minecraft:end_midlands",
-					"minecraft:end_midlands",
+					"biome_lcwbre3e/minecraft:end_midlands",
+					"biome_lcwbre3e",
 					"minecraft:end_midlands",
 					"minecraft:end_midlands",
 					"minecraft:end_midlands",
@@ -689,11 +689,11 @@
 				],
 				[
 					"biome_lzlnnkbb",
-					"biome_lzlnnkbb",
-					"biome_lzlnnkbb",
-					"minecraft:end_midlands/biome_lcwc1w5o",
-					"minecraft:end_midlands/biome_lcwc1w5o",
-					"minecraft:end_midlands/biome_lcwc1w5o",
+					"biome_lcwc1w5o",
+					"biome_lcwc1w5o/biome_m17ze20a",
+					"minecraft:end_midlands",
+					"minecraft:end_midlands",
+					"biome_lcwbre3e",
 					"minecraft:end_midlands",
 					"minecraft:end_midlands",
 					"minecraft:end_midlands",
@@ -704,12 +704,12 @@
 					"minecraft:end_midlands"
 				],
 				[
+					"biome_lzlnnkbb",
 					"biome_lcwc1w5o",
-					"biome_lcwc1w5o",
-					"biome_lcwc1w5o",
-					"biome_lcwc1w5o",
-					"biome_lcwc1w5o",
-					"biome_lcwc1w5o",
+					"biome_m17ze20a",
+					"minecraft:end_midlands",
+					"minecraft:end_midlands",
+					"minecraft:end_midlands",
 					"minecraft:end_midlands",
 					"minecraft:end_midlands",
 					"minecraft:end_midlands",
@@ -904,10 +904,10 @@
 				[
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
-					"biome_lcwe40kp",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
+					"biome_lcwbl8lk",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -920,10 +920,10 @@
 				[
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
-					"biome_lcwe40kp",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
-					"biome_lcwe3is3",
+					"biome_lcwe3is3/biome_lcwbl8lk",
+					"biome_lcwbl8lk",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -936,10 +936,10 @@
 				[
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
-					"biome_lcwe40kp",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
-					"biome_lcwe3is3",
+					"biome_lcwe3is3/biome_lcwbl8lk",
+					"biome_lcwbl8lk",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -956,22 +956,6 @@
 					"layout_lcwbzlms",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp"
-				],
-				[
-					"biome_lcwe3is3",
-					"biome_lcwe3is3",
-					"biome_lcwe3is3",
-					"biome_lcwe3is3",
-					"biome_lcwe3is3",
-					"biome_lcwe3is3",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -988,7 +972,7 @@
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
-					"biome_lcwe3is3",
+					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -1021,6 +1005,22 @@
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp"
+				],
+				[
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
 					"biome_lcwe3is3",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -1108,144 +1108,6 @@
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp"
-				]
-			]
-		},
-		{
-			"key": "layout_lzlkb8dk",
-			"name": "Barrens Cold",
-			"array": [
-				[
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				]
-			]
-		},
-		{
-			"key": "layout_lzlm6wra",
-			"name": "Midlands Flesh",
-			"array": [
-				[
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b/layout_lcwbzlms",
-					"layout_lcwbzlms"
-				],
-				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms"
-				],
-				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms"
-				],
-				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms"
-				],
-				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms"
-				]
-			]
-		},
-		{
-			"key": "layout_lzlmcwmd",
-			"name": "Barrens Flesh",
-			"array": [
-				[
-					"biome_lzlkh4fr",
-					"biome_lzlkh4fr",
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b",
-					"biome_lzlkgs0b"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
 				]
 			]
 		},
@@ -1319,18 +1181,6 @@
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
-					"layout_lzlnpher/layout_lcwbhn92",
-					"layout_lzlnpher/layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
@@ -1350,48 +1200,60 @@
 					"layout_lcwbhn92"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92"
+				],
+				[
 					"layout_lcwbcr98",
-					"layout_lcwe3906",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
-					"layout_lcwe3906",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
-					"layout_lcwe3906",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
-					"layout_lcwe3906",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
@@ -1445,18 +1307,6 @@
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
-					"layout_lzlnpher/layout_lcwbhn92",
-					"layout_lzlnpher/layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
@@ -1476,48 +1326,60 @@
 					"layout_lcwbhn92"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92"
+				],
+				[
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
 					"layout_lcwe3906",
 					"layout_lcwbzlms",
 					"layout_lcwbzlms",
@@ -1571,18 +1433,6 @@
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
-					"layout_lzlnpher/layout_lcwbhn92",
-					"layout_lzlnpher/layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92"
-				],
-				[
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
-					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
 					"layout_lcwbhn92",
@@ -1602,49 +1452,61 @@
 					"layout_lcwbhn92"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92",
+					"layout_lcwbhn92"
+				],
+				[
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwe3906",
 					"unassigned",
 					"unassigned",
 					"unassigned"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwe3906",
 					"unassigned",
 					"unassigned",
 					"unassigned"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwe3906",
 					"unassigned",
 					"unassigned",
 					"unassigned"
 				],
 				[
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
-					"layout_lcwbzlms",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
 					"layout_lcwbcr98",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwbzlms",
+					"layout_lcwe3906",
 					"unassigned",
 					"unassigned",
 					"unassigned"
@@ -1679,7 +1541,7 @@
 	"biomes": [
 		{
 			"key": "biome_lcwbgvyx",
-			"name": "far_end:amethyst_forest",
+			"name": "stellarity:amethyst_forest",
 			"color": "#d400ff"
 		},
 		{
@@ -1698,7 +1560,7 @@
 		},
 		{
 			"key": "biome_lcwbre3e",
-			"name": "far_end:the_nest",
+			"name": "stellarity:the_nest",
 			"color": "#5c5c5c"
 		},
 		{
@@ -1712,17 +1574,17 @@
 		},
 		{
 			"key": "biome_lcwc1w5o",
-			"name": "far_end:end_wilds",
+			"name": "stellarity:end_wilds",
 			"color": "#ffea00"
 		},
 		{
 			"key": "biome_lcwe3is3",
-			"name": "far_end:warped_marsh",
-			"color": "#00aaff"
+			"name": "stellarity:warped_marsh",
+			"color": "#42c0ff"
 		},
 		{
 			"key": "biome_lcwe40kp",
-			"name": "far_end:ashfall_delta",
+			"name": "stellarity:ashfall_deltas",
 			"color": "#7d7d7d"
 		},
 		{
@@ -1732,12 +1594,12 @@
 		},
 		{
 			"key": "biome_lcwiybjc",
-			"name": "far_end:ender_waste",
+			"name": "stellarity:ender_wastes",
 			"color": "#7b7247"
 		},
 		{
 			"key": "biome_lzlkgs0b",
-			"name": "far_end:flesh_tundra",
+			"name": "stellarity:flesh_tundra",
 			"color": "#e00000"
 		},
 		{
@@ -1784,6 +1646,16 @@
 			"key": "biome_lzzwqlxb",
 			"name": "stellarity:crystal_crags",
 			"color": "#a100c2"
+		},
+		{
+			"key": "biome_m17ze20a",
+			"name": "stellarity:end_shrubland",
+			"color": "#80ff66"
+		},
+		{
+			"key": "biome_m17zkf14",
+			"name": "stellarity:frozen_shrubland",
+			"color": "#e3e3e3"
 		}
 	],
 	"targetVersion": "1_19",
