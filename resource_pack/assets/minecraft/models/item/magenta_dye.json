@@ -1,0 +1,56 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/magenta_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/particle/jinx/1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/particle/jinx/2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/particle/jinx/3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90003
+			},
+			"model": "stellarity:item/particle/jinx/4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90004
+			},
+			"model": "stellarity:item/particle/jinx/5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90005
+			},
+			"model": "stellarity:item/particle/jinx/6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90006
+			},
+			"model": "stellarity:item/particle/jinx/7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90007
+			},
+			"model": "stellarity:item/particle/jinx/8"
+		}
+	]
+}

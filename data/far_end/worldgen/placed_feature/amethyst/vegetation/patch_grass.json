@@ -1,0 +1,12 @@
+{
+	"feature": "far_end:amethyst/vegetation/patch_grass",
+	"placement": [
+		{
+			"type": "count_on_every_layer",
+			"count": 2
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

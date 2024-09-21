@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_shell"
+		},
+		"title": {
+			"translate": "advancements.end.levitate.title"
+		},
+		"description": {
+			"translate": "advancements.end.levitate.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:end_city/defeat_shulker",
+	"criteria": {
+		"levitated": {
+			"trigger": "minecraft:levitation",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 50
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"levitated"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"head": {
+				"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+			},
+			"chest": {
+				"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+			},
+			"legs": {
+				"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+			},
+			"feet": {
+				"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+			}
+		}
+	}
+}

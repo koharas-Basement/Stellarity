@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{CustomModelData:90002,display:{color:11041988}}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.i_am_titanium",
+			"fallback": "I am Titanium!",
+			"color": "#B533FF"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.i_am_titanium.description",
+				"fallback": "Craft a full set of Shulker Armor"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/cursed_crafting",
+	"criteria": {
+		"craft_shulker_helmet": {
+			"trigger": "minecraft:impossible"
+		},
+		"craft_shulker_chestplate": {
+			"trigger": "minecraft:impossible"
+		},
+		"craft_shulker_leggings": {
+			"trigger": "minecraft:impossible"
+		},
+		"craft_shulker_boots": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 150
+	}
+}

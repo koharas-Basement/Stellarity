@@ -1,0 +1,35 @@
+{
+	"feature": "stellarity:small_end_islands/leaves",
+	"placement": [
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 4,
+			"noise_factor": 60,
+			"noise_offset": 5
+		},
+		{
+			"type": "minecraft:noise_threshold_count",
+			"noise_level": 0.3,
+			"below_noise": 0,
+			"above_noise": 6
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

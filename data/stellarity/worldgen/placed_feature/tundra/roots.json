@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:tundra/roots",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 16
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

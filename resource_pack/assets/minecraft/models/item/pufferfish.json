@@ -1,0 +1,14 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures":{
+		"layer0":"minecraft:item/pufferfish"
+	},
+	"overrides":[
+        {
+			"predicate":{
+				"custom_model_data":90008
+			},
+			"model":"stellarity:item/fish/bubblefish"
+		}
+	]
+}

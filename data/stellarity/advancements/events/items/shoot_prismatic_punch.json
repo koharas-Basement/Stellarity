@@ -1,0 +1,20 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"shoot": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"player": [],
+				"item": {
+					"items": [
+						"minecraft:crossbow"
+					],
+					"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/prismatic_punch/shoot"
+	}
+}

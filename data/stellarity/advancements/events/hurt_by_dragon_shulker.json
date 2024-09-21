@@ -1,0 +1,24 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.dragon_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:mobs/dragon/attacks/take_off/shulkers/levitation_nerf/hurt"
+	}
+}

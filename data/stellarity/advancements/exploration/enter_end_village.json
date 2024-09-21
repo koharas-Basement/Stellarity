@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.forever_stranded",
+			"fallback": "Forever Stranded"
+		},
+		"description": {
+			"translate": "stellarity.advancements.forever_stranded.description",
+			"fallback": "Find a Village in the middle of nowhere. How did they even get there?"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"find_a_town_in_a_complete_shithole": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "stellarity:village"
+					}
+				}
+			}
+		}
+	}
+}

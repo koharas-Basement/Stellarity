@@ -1,0 +1,14 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_end"
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:enter_end_play_track"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod"
+		},
+		"title": {
+			"translate": "stellarity.advancements.void_reels",
+			"fallback": "Void Reels"
+		},
+		"description": {
+			"translate": "stellarity.advancements.void_reels.description",
+			"fallback": "Cast your Fishing Rod into the open darkness of The End"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/fishy_business",
+	"criteria": {
+		"cast_fish": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

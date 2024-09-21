@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:blaze",
+		"minecraft:enderman",
+		"minecraft:hoglin",
+		"minecraft:phantom",
+		"minecraft:silverfish",
+		"minecraft:skeleton",
+		"minecraft:wither_skeleton"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"feature": "far_end:amethyst/vegetation/amethyst",
+	"placement": [
+		{
+			"type": "count_on_every_layer",
+			"count": 7
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.35,
+								"max": 0.54
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:fire_aspect",
+								"minecraft:sharpness",
+								"minecraft:knockback"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.55,
+								"max": 0.88
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:fire_aspect",
+								"minecraft:sharpness",
+								"minecraft:knockback"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.22,
+								"max": 0.44
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:fire_aspect",
+								"minecraft:sharpness",
+								"minecraft:knockback"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.6
+				}
+			]
+		}
+	]
+}

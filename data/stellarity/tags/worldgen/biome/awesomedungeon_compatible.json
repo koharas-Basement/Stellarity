@@ -1,0 +1,14 @@
+{
+	"comment": "This is used for compatibility with Awesome Dungeon End Edition",
+	"link_to_the_pack": "https://www.curseforge.com/minecraft/texture-packs/awesome-dungeon-the-end-edition-datapack/",
+	"comment2": "It works perfectly with my new biomes!",
+	"values": [
+		"minecraft:the_end",
+		"far_end:end_wilds",
+		"far_end:ender_waste",
+		"minecraft:end_midlands",
+		"minecraft:end_highlands",
+		"far_end:amethyst_forest",
+		"stellarity:prismarine_forest"
+	]
+}

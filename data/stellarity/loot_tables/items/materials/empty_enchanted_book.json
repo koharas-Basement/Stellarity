@@ -1,0 +1,71 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.minecraft.enchanted_book",
+								"color": "red",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.empty_enchanted_book.description.1",
+									"fallback": "It doesn't carry any enchantments",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.empty_enchanted_book.description.2",
+									"fallback": "It wiggles in the direction of a",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.empty_enchanted_book.description.3",
+									"fallback": "large opening in one of the pillars",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.empty_enchanted_book.description.4",
+									"fallback": "It wants to be thrown on top",
+									"color": "#EEEEEE",
+									"italic": false,
+									"bold": true
+								},
+								{
+									"translate": "stellarity.items.empty_enchanted_book.description.5",
+									"fallback": "of what's inside of it",
+									"color": "#EEEEEE",
+									"italic": false,
+									"bold": true
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

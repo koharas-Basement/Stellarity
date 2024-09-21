@@ -1,0 +1,41 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_sword"
+						],
+						"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "stellarity:frosted_hills",
+							"dimension": "minecraft:the_end"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

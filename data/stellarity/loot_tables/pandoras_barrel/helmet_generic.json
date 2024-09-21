@@ -1,0 +1,87 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "stellarity.pandoras_barrel_biome",
+									"amount": -1,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:overworld"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherrack",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "stellarity.pandoras_barrel_biome",
+									"amount": -2,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:the_nether"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "stellarity.pandoras_barrel_biome",
+									"amount": -3,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:the_end"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

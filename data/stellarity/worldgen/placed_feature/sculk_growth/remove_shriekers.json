@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:sculk_growth/remove_shriekers",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 100
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

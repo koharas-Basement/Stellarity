@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [
+							"minecraft:rotten_flesh"
+						],
+						"nbt": "{stellarity.special_item:\"living_flesh\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:rotten_flesh"
+						],
+						"nbt": "{stellarity.special_item:\"living_flesh\"}"
+					}
+				}
+			}
+		}
+	]
+}

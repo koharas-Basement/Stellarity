@@ -1,0 +1,68 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{display:{color:12582912}}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.keep_warm",
+			"fallback": "Keep Warm!"
+		},
+		"description": {
+			"translate": "stellarity.advancements.keep_warm.description",
+			"fallback": "Wear a full set of Leather Armor in any of the coldest biomes of The End"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/ender_adventurer",
+	"criteria": {
+		"keep_warm": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": [
+										"minecraft:leather_helmet"
+									]
+								},
+								"chest": {
+									"items": [
+										"minecraft:leather_chestplate"
+									]
+								},
+								"legs": {
+									"items": [
+										"minecraft:leather_leggings"
+									]
+								},
+								"feet": {
+									"items": [
+										"minecraft:leather_boots"
+									]
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "stellarity:frosted_hills"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"keep_warm"
+		]
+	]
+}

@@ -1,0 +1,1 @@
+tellraw @a {"translate":"stellarity.death_messages.prismember","fallback":"%1$s was reduced to ashes by %2$s","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:items/holding_prismember,distance=0.001..]"}]}

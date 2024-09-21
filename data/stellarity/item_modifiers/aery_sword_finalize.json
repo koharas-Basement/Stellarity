@@ -1,0 +1,103 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			"",
+			{
+				"translate": "stellarity.items.weapons.frigid_harvester.description.ultra",
+				"fallback": "It refuses to absorb any more souls",
+				"color": "#EEEEEE",
+				"italic": false
+			},
+			"",
+			{
+				"translate": "- Developer Item -",
+				"color": "#BA02D7",
+				"italic": false
+			},
+			"",
+			{
+				"translate": "stellarity",
+				"fallback": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			},
+			"",
+			{
+				"translate": "item.modifiers.mainhand",
+				"color": "gray",
+				"italic": false
+			},
+			[
+				" ",
+				{
+					"translate": "attribute.modifier.equals.0",
+					"with": [
+						[
+							{
+								"nbt": "aery_sword.damage_int",
+								"storage": "stellarity:temp"
+							},
+							{
+								"nbt": "aery_sword.damage_round",
+								"storage": "stellarity:temp"
+							}
+						],
+						{
+							"translate": "attribute.name.generic.attack_damage"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			[
+				" ",
+				{
+					"translate": "attribute.modifier.equals.0",
+					"with": [
+						{
+							"text": "0.85"
+						},
+						{
+							"translate": "attribute.name.generic.attack_speed"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			[
+				" ",
+				{
+					"translate": "attribute.modifier.take.1",
+					"with": [
+						{
+							"text": "15"
+						},
+						{
+							"translate": "attribute.name.generic.movement_speed"
+						}
+					],
+					"color": "dark_green",
+					"italic": false
+				}
+			]
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_name",
+		"name": {
+			"translate": "stellarity.items.weapons.frigid_harvester",
+			"fallback": "Frigid Harvester",
+			"color": "#F466CC",
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Unbreakable:1b,Damage:0,kohara.fireproof:1b}"
+	}
+]

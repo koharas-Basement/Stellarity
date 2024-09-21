@@ -1,0 +1,1 @@
+execute positioned ~ ~1 ~ run function kohara:particles/spawn_particle {speed:15,billboard:center,item:magenta_dye,despawn_value:17,state:spread,spread_initial:0.6,spread_radius:1.05,custommodeldata:90000,id:jinx,light:15}

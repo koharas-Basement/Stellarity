@@ -1,0 +1,17 @@
+{
+	"pack": {
+		"pack_format": 18,
+		"description": [
+			{
+				"translate": "stellarity.pack_mcmeta.rp",
+				"fallback": "Optional textures for Stellarity",
+				"color": "#CB4BFF"
+			},
+			" ",
+			{
+				"text": "⭐",
+				"color": "gold"
+			}
+		]
+	}
+}

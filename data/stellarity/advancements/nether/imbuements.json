@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lingering_potion",
+			"nbt": "{Potion:\"minecraft:strength\"}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.imbuements.name",
+			"fallback": "Imbuements"
+		},
+		"description": {
+			"translate": "stellarity.advancements.imbuements.description",
+			"fallback": "...and use it to brew Lingering Potions!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/dragon_breath",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lingering_potion"
+						]
+					}
+				]
+			}
+		}
+	}
+}

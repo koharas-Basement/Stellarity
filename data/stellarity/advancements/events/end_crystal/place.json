@@ -1,0 +1,38 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:end_crystal"
+							]
+						}
+					},
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "minecraft:obsidian",
+								"properties": {}
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "minecraft:bedrock",
+								"properties": {}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:mechanics/end_crystal/place"
+	}
+}

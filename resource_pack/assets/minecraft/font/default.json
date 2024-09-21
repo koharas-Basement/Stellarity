@@ -1,0 +1,25 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "stellarity:font/developer.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": ["ꑡ"]
+		},
+		{
+			"type": "bitmap",
+			"file": "stellarity:font/donator.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": ["ꐁ"]
+		},
+		{
+			"type": "bitmap",
+			"file": "stellarity:font/stellarity.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": ["ꑟ"]
+		}
+	]
+}

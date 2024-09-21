@@ -1,0 +1,19 @@
+{
+	"values":[
+		"#minecraft:terracotta",
+		"dirt",
+		"grass_block",
+		"shroomlight",
+		"#stellarity:stalactites_replacable",
+		"snow_block",
+		"powder_snow",
+		"basalt",
+		"#wart_blocks",
+		"polished_basalt",
+		"smooth_basalt",
+		"prismarine",
+		"amethyst_block",
+		"#ice",
+		"air"
+	]
+}

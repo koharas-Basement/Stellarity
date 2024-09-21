@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword",
+			"nbt": "{CustomModelData:90005,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.truly_max_out_aery_sword",
+			"fallback": "Snow Graved",
+			"color": "white"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.truly_max_out_aery_sword.description",
+				"fallback": "Upgrade Frigid Harvester to its absolute maximum",
+				"color": "light_gray"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:exploration/max_out_aery_sword",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 750
+	}
+}

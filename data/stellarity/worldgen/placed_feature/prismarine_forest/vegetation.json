@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:prismarine_forest/vegetation",
+	"placement": [
+		{
+			"type": "count_on_every_layer",
+			"count": 3
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

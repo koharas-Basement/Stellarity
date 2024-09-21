@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90002,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.kill_la_kill",
+			"fallback": "Kill la Kill"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.kill_la_kill.description",
+				"fallback": "Execute a Warden"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:dragons_den/disassembly",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 1200
+	}
+}

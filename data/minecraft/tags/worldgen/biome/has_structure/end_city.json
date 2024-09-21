@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:end_highlands",
+		"minecraft:the_end",
+		"minecraft:end_midlands",
+		"stellarity:the_hallow",
+		"minecraft:end_barrens",
+		"far_end:end_wilds",
+		"far_end:ender_waste",
+		"far_end:warped_marsh",
+		"stellarity:frosted_hills",
+		"stellarity:prismarine_forest",
+		"far_end:amethyst_forest",
+		"far_end:ender_waste"
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "end_stone",
+    "end_stone_bricks",
+    "calcite",
+    "grass_block"
+  ]
+}
