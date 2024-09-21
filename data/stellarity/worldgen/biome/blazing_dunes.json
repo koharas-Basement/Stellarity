@@ -1,0 +1,80 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 13068800,
+		"water_fog_color": 10704640,
+		"grass_color": 11674660,
+		"foliage_color": 10294549,
+		"mood_sound": {
+			"sound": "ambient.nether_wastes.mood",
+			"tick_delay": 820,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.basalt_deltas.additions",
+			"tick_chance": 0.005
+		},
+		"particle": {
+			"options": {
+				"type": "lava"
+			},
+			"probability": 0.0005
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:blaze",
+				"weight": 30,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 16,
+				"minCount": 2,
+				"maxCount": 2
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			 
+ 			"stellarity:ravine",
+			"stellarity:crack"
+		]
+	},
+	"features": [
+		[
+			"stellarity:global/stalactite",
+			"stellarity:blazing_dunes/columns"
+		],
+		[
+			"stellarity:blazing_dunes/delta",
+			"stellarity:blazing_dunes/basalt_columns"
+		],
+		[
+			"stellarity:blazing_dunes/lava_spring",
+			"stellarity:blazing_dunes/patch_fire"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[]
+	]
+}

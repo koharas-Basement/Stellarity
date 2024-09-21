@@ -1,0 +1,44 @@
+{
+	"parent": "stellarity:events/items/spellbooks/natures_wrath/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"hallowed\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "stellarity:the_hallow"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

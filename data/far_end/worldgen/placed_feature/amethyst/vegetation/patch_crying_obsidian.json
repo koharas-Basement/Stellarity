@@ -1,0 +1,23 @@
+{
+	"feature": "far_end:amethyst/vegetation/crying_obsidian",
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 3
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "count",
+			"count": 16
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

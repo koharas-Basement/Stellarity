@@ -1,0 +1,24 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"eat_bubblefish": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					],
+					"nbt": "{stellarity.special_item:\"bubblefish\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_bubblefish"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/fish/bubblefish/eat"
+	}
+}

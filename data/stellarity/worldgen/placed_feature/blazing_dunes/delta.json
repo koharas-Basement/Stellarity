@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:blazing_dunes/delta",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 20
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.red_potion",
+								"fallback": "Red Potion",
+								"color": "#FF5454",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.potions.red_potion.flavor_text",
+									"fallback": "'Just drink it, what could go wrong?'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{HideFlags:32,Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:darkness\",amplifier:9b,duration:-1},{id:\"minecraft:slowness\",amplifier:9b,duration:-1},{id:\"minecraft:mining_fatigue\",amplifier:9b,duration:-1},{id:\"minecraft:nausea\",duration:-1},{id:\"minecraft:blindness\",duration:-1},{id:\"minecraft:hunger\",amplifier:9b,duration:-1},{id:\"minecraft:weakness\",amplifier:9b,duration:-1},{id:\"minecraft:poison\",amplifier:9b,duration:-1},{id:\"minecraft:wither\",amplifier:9b,duration:-1},{id:\"minecraft:glowing\",duration:-1},{id:\"minecraft:unluck\",amplifier:9b,duration:-1},{id:\"minecraft:bad_omen\",amplifier:9b,duration:1200}],CustomPotionColor:16056354}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

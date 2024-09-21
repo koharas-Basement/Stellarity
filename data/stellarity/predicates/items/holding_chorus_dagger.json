@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:iron_sword"
+				],
+				"nbt": "{stellarity.special_item:\"chorus_dagger\"}"
+			}
+		}
+	}
+}

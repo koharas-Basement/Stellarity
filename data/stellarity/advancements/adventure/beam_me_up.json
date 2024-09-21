@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": {
+			"translate": "stellarity.advancements.beam_me_up",
+			"fallback": "Beam Me Up"
+		},
+		"description": {
+			"translate": "stellarity.advancements.beam_me_up.description",
+			"fallback": "Teleport over 100 meters from a single throw of an Ender Pearl"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": false,
+	"temperature_modifier": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 10672615,
+		"water_fog_color": 6798273,
+		"grass_color": 117978,
+		"foliage_color": 56800,
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 600,
+			"block_search_extent": 4,
+			"offset": 1
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.0111
+		},
+		"particle": {
+			"options": {
+				"type": "falling_spore_blossom"
+			},
+			"probability": 0.003
+		}
+	},
+	"spawners": {
+		"water_ambient": [
+			{
+				"type": "minecraft:tropical_fish",
+				"weight": 25,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"monster": [
+			{
+				"type": "minecraft:zombie",
+				"weight": 10,
+				"minCount": 2,
+				"maxCount": 3
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:global/stalactite"
+		],
+		[
+			"stellarity:warped/dripping_water"
+		],
+		[],
+		[
+			"far_end:warped/aquatic/delta",
+			"stellarity:warped/deltas",
+			"far_end:warped/vegetation/water/under_island_extra",
+			"far_end:warped/vegetation/water/pool",
+			"far_end:warped/aquatic/lake",
+			"stellarity:warped/patches"
+		],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:warped/vegetation/grass/patch_grass",
+			"far_end:warped/vegetation/grass/patch_blue_orchid",
+			"far_end:warped/vegetation/grass/patch_warped_roots",
+			"far_end:warped/vegetation/water/sea_pickle",
+			"stellarity:warped/slime"
+		],
+		[]
+	]
+}

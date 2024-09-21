@@ -1,0 +1,8 @@
+{
+    "feature": "far_end:general/end_spike/ring",
+    "placement": [
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

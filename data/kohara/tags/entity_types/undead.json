@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"#kohara:zombies",
+		"#minecraft:skeletons",
+		"minecraft:phantom",
+		"minecraft:wither",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin"
+	]
+}

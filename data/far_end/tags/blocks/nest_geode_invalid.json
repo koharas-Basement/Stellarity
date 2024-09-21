@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cave_air",
+    "air",
+    "void_air",
+    "tuff",
+    "end_stone"
+  ]
+}

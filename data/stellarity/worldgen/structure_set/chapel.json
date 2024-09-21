@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "stellarity:chapel_of_light",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 100801420,
+		"exclusion_zone": {
+			"other_set": "minecraft:end_cities",
+			"chunk_count": 10
+		},
+		"spacing": 17,
+		"separation": 16
+	}
+}

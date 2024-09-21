@@ -1,0 +1,14 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures":{
+		"layer0":"minecraft:item/rotten_flesh"
+	},
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":90000
+			},
+			"model":"stellarity:item/living_flesh"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"feature": "stellarity:highlands/trees",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 5,
+						"data": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 1,
+								"max_inclusive": 2
+							}
+						}
+					},
+					{
+						"weight": 1,
+						"data": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0,
+								"max_inclusive": 2
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:end_stone",
+					"minecraft:grass_block"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

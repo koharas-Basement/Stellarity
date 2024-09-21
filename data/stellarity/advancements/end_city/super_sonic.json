@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"nbt": "{Damage:431}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.super_sonic",
+			"fallback": "Super Sonic"
+		},
+		"description": {
+			"translate": "stellarity.advancements.super_sonic.description",
+			"fallback": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/elytra",
+	"criteria": {
+		"fly": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[
+			"fly"
+		]
+	],
+	"rewards": {
+		"experience": 300
+	}
+}

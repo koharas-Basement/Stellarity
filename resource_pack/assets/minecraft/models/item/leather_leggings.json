@@ -1,0 +1,27 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures":{
+		"layer0":"minecraft:item/leather_leggings",
+		"layer1":"minecraft:item/leather_leggings_overlay"
+	},
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":9e4
+			},
+			"model":"stellarity:item/ancient_armor/leggings"
+		},
+		{
+			"predicate":{
+				"custom_model_data":90001
+			},
+			"model":"stellarity:item/hallowed_armor/leggings"
+		},
+		{
+			"predicate":{
+				"custom_model_data":90002
+			},
+			"model":"stellarity:item/shulker_armor/leggings"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"parent": "kohara:root",
+	"criteria": {
+		"damage": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"nbt": "{kohara.durability:{enabled:1b}}"
+				}
+			}
+		},
+		"mending": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{kohara.durability:{enabled:1b}}",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:mending"
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"damage",
+			"mending"
+		]
+	],
+	"rewards": {
+		"function": "kohara:durability/event"
+	}
+}

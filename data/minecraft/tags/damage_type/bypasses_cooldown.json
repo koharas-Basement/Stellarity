@@ -1,0 +1,9 @@
+{
+	"values": [
+		"kohara:armor_piercing",
+		"minecraft:arrow",
+		"minecraft:fireworks",
+
+		"#stellarity:custom_damage"
+	]
+}

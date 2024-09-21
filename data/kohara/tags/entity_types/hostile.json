@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"#kohara:undead",
+		"#kohara:illagers",
+		"#kohara:nether",
+		"minecraft:cave_spider",
+		"minecraft:creeper",
+		"minecraft:elder_guardian",
+		"minecraft:enderman",
+		"minecraft:guardian",
+		"minecraft:piglin",
+		"minecraft:piglin_brute",
+		"minecraft:shulker",
+		"minecraft:silverfish",
+		"minecraft:slime",
+		"minecraft:spider",
+		"minecraft:vex",
+		"minecraft:witch",
+		"minecraft:wither"
+	]
+}

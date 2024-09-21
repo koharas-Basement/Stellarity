@@ -1,0 +1,10 @@
+{
+	"values":
+		[
+			"#stellarity:biomes/regular",
+			"#stellarity:biomes/islands",
+			"#stellarity:biomes/top",
+			"#stellarity:biomes/bottom",
+			"stellarity:dragons_den"
+		]
+}

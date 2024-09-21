@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus"
+		},
+		"title": {
+			"translate": "stellarity.advancements.find_warped_forest",
+			"fallback": "A Piece of Otherworld"
+		},
+		"description": {
+			"translate": "stellarity.advancements.find_warped_forest.description",
+			"fallback": "Find a Warped Forest - home of Endermen in The Nether"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:nether/explore_nether",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:warped_forest"
+					}
+				}
+			}
+		}
+	}
+}

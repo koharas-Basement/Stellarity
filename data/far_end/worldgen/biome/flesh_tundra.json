@@ -1,0 +1,76 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 16711680,
+		"water_fog_color": 16711680,
+		"grass_color": 12860219,
+		"foliage_color": 12860219,
+		"mood_sound": {
+			"sound": "ambient.crimson_forest.mood",
+			"tick_delay": 1200,
+			"block_search_extent": 6,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.00111
+		},
+		"particle": {
+			"options": {
+				"type": "crimson_spore"
+			},
+			"probability": 0.0056
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:cave_spider",
+				"weight": 20,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:zombified_piglin",
+				"weight": 42,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:tundra/stalactite",
+			"far_end:tundra/island/island_bottom"
+		],
+		[
+			"far_end:tundra/aquatic/lake",
+			"far_end:tundra/aquatic/delta"
+		],
+		[
+			"minecraft:basalt_pillar",
+			"stellarity:tundra/bone_ceiling"
+		],
+		[],
+		[],
+		[],
+		[
+			"far_end:tundra/vegetation/bone_trees"
+		],
+		[
+			
+		],
+		[
+			"far_end:tundra/vegetation/surface_plants",
+			"stellarity:tundra/weeping_vines",
+			"stellarity:tundra/roots"
+		],
+		[]
+	]
+}

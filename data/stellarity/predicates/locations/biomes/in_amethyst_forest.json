@@ -1,0 +1,6 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"biome": "far_end:amethyst_forest"
+	}
+}

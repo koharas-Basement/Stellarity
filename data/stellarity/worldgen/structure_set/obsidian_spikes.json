@@ -1,0 +1,16 @@
+{
+	"structures": [
+		{
+			"structure": "stellarity:obsidian_spike",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1018075954,
+		"frequency": 0.33,
+		"spread_type": "linear",
+		"spacing": 12,
+		"separation": 3
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"schema_version":1,
+	"quilt_loader":{
+		"group":"xyz.kohara",
+		"id":"stellarity",
+		"version":"2.1a",
+		"metadata":{
+			"name":"Stellarity",
+			"description":"Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
+			"contributors":{
+				"kohara":"Owner",
+				"Hex": "Original Creator",
+				"misode": "",
+				"Bush_King": "Builder",
+				"Brokenemp": "Texture Contributor",
+				"Phoenix": ""
+			},
+			"contact":{
+				"homepage":"https://modrinth.com/datapack/stellarity",
+				"sources":"https://github.com/kohy-creates/Stellarity",
+				"issues": "https://discord.kohara.xyz/"
+			},
+			"license": {
+				"name": "kohara's License",
+				"id": "KL",
+				"url": "https://github.com/kohy-creates/Stellarity/blob/master/LICENSE",
+				"description": "kohara's license for all of his projects"
+			},
+			"icon":"pack.png"
+		},
+		"breaks": [
+			{
+				"id": "nullscape",
+				"reason": "Nullscape and Stellarity are incompatible per Stardust Labs' request."
+			},
+			{
+				"id": "betterend",
+				"reason": "Better End disrupts Stellarity's main island generation."
+			}
+		],
+		"depends":[
+			{
+				"id":"quilt_resource_loader",
+				"versions":"*",
+				"unless":"fabric-resource-loader-v0"
+			}
+		],
+		"intermediate_mappings":"net.fabricmc:intermediary",
+		"minecraft": {
+			"environment": "*"
+		}
+	}
+}

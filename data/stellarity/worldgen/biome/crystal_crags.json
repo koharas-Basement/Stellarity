@@ -1,0 +1,84 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 6047601,
+		"water_fog_color": 4073799,
+		"grass_color": 5319519,
+		"foliage_color": 5252192,
+		"mood_sound": {
+			"sound": "minecraft:ambient.basalt_deltas.mood",
+			"tick_delay": 1100,
+			"block_search_extent": 6,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.basalt_deltas.additions",
+			"tick_chance": 0.0111
+		},
+		"particle": {
+			"options": {
+				"type": "dripping_obsidian_tear"
+			},
+			"probability": 0.00022
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 20,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 4,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:silverfish",
+				"weight": 3,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:global/stalactite",
+			"stellarity:crystal_crags/hills"
+		],
+		[
+			"stellarity:the_hallow/crystals",
+			"stellarity:the_hallow/crystals_amethyst",
+			"stellarity:crystal_crags/deltas"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"stellarity:crystal_crags/chorus",
+			"stellarity:crystal_crags/amethyst"
+		],
+		[
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
+		]
+	]
+}

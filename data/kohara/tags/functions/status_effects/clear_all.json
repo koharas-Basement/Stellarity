@@ -1,0 +1,10 @@
+{
+    "values": [
+        "stellarity:utils/status_effects/jinx/remove",
+        "stellarity:utils/status_effects/voided/remove",
+		"stellarity:utils/status_effects/dark_decay/remove",
+        "stellarity:utils/status_effects/frostburn/remove",
+        "stellarity:utils/status_effects/prismatic_inferno/remove",
+        "stellarity:utils/status_effects/leeching/remove"
+    ]
+}

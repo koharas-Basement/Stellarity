@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "stellarity.advancements.disenchant_item",
+			"fallback": "Breaking the Seal"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.disenchant_item.description",
+				"fallback": "Unbind enchantments from an item by throwing it onto the Altar with an unenchanted book"
+			}
+		],
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/an_introduction_to_dark_magic",
+	"criteria": {
+		"disenchant_item": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

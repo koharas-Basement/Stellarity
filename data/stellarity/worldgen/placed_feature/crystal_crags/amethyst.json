@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:crystal_crags/amethyst",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 2
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

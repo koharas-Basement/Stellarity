@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrel"
+		},
+		"title": {
+			"translate": "stellarity.advancements.pandoras_barrel_place",
+			"fallback": "Like a Box of Chocolates"
+		},
+		"description": {
+			"translate": "stellarity.advancements.pandoras_barrel_place.description",
+			"fallback": "Place down and open a Pandora's Barrel. You never know what you're gonna get!"
+		}
+	},
+	"parent": "stellarity:aota/cursed_crafting",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

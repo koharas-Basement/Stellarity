@@ -1,0 +1,11 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "stellarity:advancements/grant_everything_easter_egg"
+	}
+}

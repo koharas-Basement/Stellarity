@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "stellarity:temp"
+		},
+		"ops": [
+			{
+				"source": "spellbook_fix",
+				"target": "\"stellarity.misc\"",
+				"op": "replace"
+			}
+		]
+	}
+]

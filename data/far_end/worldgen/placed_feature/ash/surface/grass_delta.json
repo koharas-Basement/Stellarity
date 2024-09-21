@@ -1,0 +1,12 @@
+{
+    "feature": "far_end:ash/surface/grass_delta",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 3
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

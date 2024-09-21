@@ -1,0 +1,31 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_hoe"
+							],
+							"nbt": "{stellarity.special_item:\"starless_scythe\"}"
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/starless_scythe/kill"
+	}
+}

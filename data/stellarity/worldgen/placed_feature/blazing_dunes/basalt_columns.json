@@ -1,0 +1,33 @@
+{
+	"feature": "stellarity:blazing_dunes/basalt_columns",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 3
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:not",
+				"predicate": {
+					"type": "minecraft:matching_blocks",
+					"offset": [
+						0,
+						-1,
+						0
+					],
+					"blocks": [
+						"minecraft:netherrack"
+					]
+				}
+			}
+		},
+		{
+			"type": "minecraft:surface_relative_threshold_filter",
+			"heightmap": "OCEAN_FLOOR"
+		}
+	]
+}

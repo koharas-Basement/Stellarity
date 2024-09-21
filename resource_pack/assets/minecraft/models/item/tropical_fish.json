@@ -1,0 +1,14 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures":{
+		"layer0":"minecraft:item/tropical_fish"
+	},
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":90000
+			},
+			"model":"stellarity:item/fish/ender_koi"
+		}
+	]
+}

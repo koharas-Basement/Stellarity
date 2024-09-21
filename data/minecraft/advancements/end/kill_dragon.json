@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword"
+		},
+		"title": {
+			"translate": "advancements.end.kill_dragon.title",
+			"color": "#D400FF"
+		},
+		"description": {
+			"translate": "stellarity.advancements.kill_dragon.description",
+			"fallback": "The Beast is dead and The End is waiting for you to discover its secrets...",
+			"color": "#E562FF"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:dragons_den/final_showdown",
+	"criteria": {
+		"kill_dragon": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"minecraft:end_crystal"
+		],
+		"experience": 4000
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "values": [
+        "stellarity:utils/status_effects/jinx/load",
+        "stellarity:utils/status_effects/voided/load",
+		"stellarity:utils/status_effects/dark_decay/load",
+        "stellarity:utils/status_effects/frostburn/load",
+        "stellarity:utils/status_effects/prismatic_inferno/load",
+        "stellarity:utils/status_effects/leeching/load"
+    ]
+}

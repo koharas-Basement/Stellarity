@@ -1,0 +1,7 @@
+{
+	"values":[
+		"kohara:load",
+		"far_end:init",
+		"stellarity:init"
+	]
+}

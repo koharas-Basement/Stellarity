@@ -1,0 +1,122 @@
+{
+	"type": "minecraft:flower",
+	"config": {
+		"tries": 2,
+		"xz_spread": 5,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:dual_noise_provider",
+						"seed": 1234567,
+						"noise": {
+							"firstOctave": -7,
+							"amplitudes": [
+								1,
+								0,
+								2
+							]
+						},
+						"scale": 0.75,
+						"variety": {
+							"min_inclusive": 1,
+							"max_inclusive": 1
+						},
+						"slow_noise": {
+							"firstOctave": -7,
+							"amplitudes": [
+								1,
+								0,
+								2
+							]
+						},
+						"slow_scale": 1,
+						"states": [
+							{
+								"Name": "minecraft:dead_tube_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							},
+							{
+								"Name": "minecraft:dead_bush"
+							},
+							{
+								"Name": "minecraft:wither_rose"
+							},
+							{
+								"Name": "minecraft:dead_fire_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							},
+							{
+								"Name": "minecraft:dead_bubble_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							},
+							{
+								"Name": "minecraft:dead_fire_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							},
+							{
+								"Name": "minecraft:wither_rose"
+							},
+							{
+								"Name": "minecraft:dead_bubble_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							},
+							{
+								"Name": "minecraft:dead_bush"
+							},
+							{
+								"Name": "minecraft:dead_tube_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							},
+							{
+								"Name": "minecraft:wither_rose"
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									0
+								],
+								"blocks": [
+									"minecraft:grass_block",
+									"minecraft:mud"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

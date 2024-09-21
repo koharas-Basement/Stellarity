@@ -1,0 +1,51 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:totem_of_undying",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.postmortal_2",
+			"fallback": "Overconfident"
+		},
+		"description": {
+			"translate": "stellarity.advancements.postmortal_2.description",
+			"fallback": "Save yourself from death in The Void with a Totem of Undying"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/totem_of_undying",
+	"criteria": {
+		"used_totem": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"max": -32
+							}
+						},
+						"dimension": "minecraft:the_end"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:totem_of_undying"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"used_totem"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

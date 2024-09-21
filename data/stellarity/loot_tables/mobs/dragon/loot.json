@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/trinkets/crest_of_the_end"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/tamaris"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/trinkets/ender_insignia"
+				}
+			]
+		}
+	]
+}

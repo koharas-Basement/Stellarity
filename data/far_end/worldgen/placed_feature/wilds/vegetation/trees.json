@@ -1,0 +1,16 @@
+{
+	"feature": "far_end:wilds/vegetation/trees",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 1
+		},
+		{
+			"type": "rarity_filter",
+			"chance": 2
+		}
+	]
+}

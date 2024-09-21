@@ -1,0 +1,26 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_end"
+			}
+		},
+		"2": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:the_end"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:sfx/enter_leave_end"
+	}
+}
