@@ -7,11 +7,11 @@
 [![Discord](https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.kohara.xyz/)
 [![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://stellarity.kohara.xyz)
 [![Modrinth](https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge)](https://modrinth.com/data-packs/stellarity)
-[![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://github.com/kohy-creates/Stellarity/network/members)
-[![Forks](https://img.shields.io/github/forks/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/kohy-creates/Stellarity/members)
-[![Stars](https://img.shields.io/github/stars/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=yellow)](https://github.com/kohy-creates/Stellarity/stargazers)
-[![Code Size](https://img.shields.io/github/languages/code-size/kohy-creates/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/kohy-creates/Stellarity)
-[![Repo Size](https://img.shields.io/github/repo-size/kohy-creates/Stellarity?logo=dropbox&style=for-the-badge&color=red)](https://github.com/kohy-creates/Stellarity)
+[![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://github.com/koharas-Basement/Stellarity/network/members)
+[![Forks](https://img.shields.io/github/forks/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/koharas-Basement/Stellarity/members)
+[![Stars](https://img.shields.io/github/stars/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=yellow)](https://github.com/koharas-Basement/Stellarity/stargazers)
+[![Code Size](https://img.shields.io/github/languages/code-size/koharas-Basement/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/koharas-Basement/Stellarity)
+[![Repo Size](https://img.shields.io/github/repo-size/koharas-Basement/Stellarity?logo=dropbox&style=for-the-badge&color=red)](https://github.com/koharas-Basement/Stellarity)
 
 ### Current version for: ![List](https://img.shields.io/modrinth/game-versions/bZgeDzN8?style=for-the-badge&label=%20&color=white)
 
