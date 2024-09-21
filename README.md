@@ -7,7 +7,7 @@
 [![Discord](https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.kohara.xyz/)
 [![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://stellarity.kohara.xyz)
 [![Modrinth](https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge)](https://modrinth.com/data-packs/stellarity)
-[![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://github.com/koharas-Basement/Stellarity/network/members)
+[![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://www.curseforge.com/minecraft/mc-mods/stellarity)
 [![Forks](https://img.shields.io/github/forks/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/koharas-Basement/Stellarity/members)
 [![Stars](https://img.shields.io/github/stars/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=yellow)](https://github.com/koharas-Basement/Stellarity/stargazers)
 [![Code Size](https://img.shields.io/github/languages/code-size/koharas-Basement/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/koharas-Basement/Stellarity)
