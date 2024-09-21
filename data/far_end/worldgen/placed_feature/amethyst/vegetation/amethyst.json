@@ -1,0 +1,75 @@
+{
+    "feature": "far_end:amethyst/vegetation/amethyst",
+    "placement": [
+        {
+            "type": "count",
+            "count": 180
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:noise_based_count",
+            "noise_to_count_ratio": 60,
+            "noise_factor": 10,
+            "noise_offset": 0
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 0
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                }
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:end_stone_bricks",
+                            "minecraft:end_stone",
+                            "minecraft:calcite",
+                            "minecraft:grass_block"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:air"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:air"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

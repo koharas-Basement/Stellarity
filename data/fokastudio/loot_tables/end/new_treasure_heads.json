@@ -1,0 +1,239 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"[Far End\\'s Original Creator]\",\"color\":\"#FFC32F\"}','{\"text\":\"404\",\"italic\":false,\"bold\":true,\"color\":\"red\"}']},SkullOwner:\"Hex_gone\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I wonder what hand sanitizer tastes like?\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"地獄へ行こうとしている\",\"italic\":false}','{\"text\":\"だけありますね\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"中々の腕前でございます\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Wow, this is garbage,\",\"italic\":false}','{\"text\":\"you actually like this?\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"This pack was made with pain\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I RELEASED 1.19 VERSION, NOW SHUT UP\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"End Music Disc when?\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"It\\'s Me! Number 1 Rated Salesman!\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I am one hell of a butler\",\"italic\":false}']},SkullOwner:\"BlancButler\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"#tasttherainbow\",\"italic\":false}']},SkullOwner:\"ElijahBeans\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"#cancelfortninte\",\"italic\":false}']},SkullOwner:\"ElijahBeans\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"This Is A Pog Head\",\"italic\":false}']},SkullOwner:\"ElijahBeans\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"You’ve messed with the wrong Muh.\",\"italic\":false}']},SkullOwner:\"muh_rye_AHH\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"boi theres a titan hamster right behind you, look out\",\"italic\":false}']},SkullOwner:\"a1r2\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"squidward is on a chair\",\"italic\":false}']},SkullOwner:\"wsolitude\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Proud owner of the \",\"italic\":false}','{\"text\":\" H O L E\",\"italic\":false, \"bold\":true,\"color\":\"black\"}']},SkullOwner:\"css_scripter\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Game breaking\",\"italic\":false}']},SkullOwner:\"css_scripter\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"omfg sand underman form understory game by tony fox 🦊💀💀💀\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"pssst foka bring the gasoline\",\"italic\":false}']},SkullOwner:\"aimwar\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"bruh\",\"italic\":false}']},SkullOwner:\"myylesss\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"been moddeling cheese ALL FUCKING DAY add cheese\",\"italic\":false}']},SkullOwner:\"_humanoid\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"SQQUEED NARD NOOO\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I mean, it just looks dumb to have\",\"italic\":false}','{\"text\":\"\\\\\"further\\\\\" as skill under your profile\",\"italic\":false}','{\"text\":\"A yes, I am very provicient in further and unit\",\"italic\":false}']},SkullOwner:\"css_scripter\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

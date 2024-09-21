@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"entered_end_gateway": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/in_dragons_den"
+						}
+					}
+				],
+				"block": "minecraft:end_gateway"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"entered_end_gateway"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/gateway_fix"
+	}
+}

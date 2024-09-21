@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:stripped_warped_hyphae",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "decor_state": {
+      "Name": "minecraft:warped_wart_block"
+    },
+    "stem_state": {
+      "Name": "minecraft:mushroom_stem",
+      "Properties": {
+        "down": "false",
+        "up": "false",
+        "east": "true",
+        "west": "true",
+        "south": "true",
+        "north": "true"
+      }
+    },
+    "valid_base_block": {
+      "Name": "minecraft:mushroom_stem",
+      "Properties": {
+        "down": "false",
+        "up": "false",
+        "east": "true",
+        "west": "true",
+        "south": "true",
+        "north": "true"
+      }
+    },
+    "planted": false
+  }
+}

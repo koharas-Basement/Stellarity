@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:light_gray_concrete_powder"
+    },
+    "under_material": {
+      "Name": "minecraft:light_gray_concrete_powder"
+    },
+    "underwater_material": {
+      "Name": "minecraft:light_gray_concrete_powder"
+    }
+  }
+}

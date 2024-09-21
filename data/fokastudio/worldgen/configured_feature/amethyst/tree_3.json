@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:magenta_stained_glass"
+    },
+    "decor_state": {
+      "Name": "minecraft:crying_obsidian"
+    },
+    "stem_state": {
+      "Name": "minecraft:purple_stained_glass"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "planted": true
+  }
+}

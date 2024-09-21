@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.5,
+				"feature": "fokastudio:highlands/tree_1"
+			},
+			{
+				"chance": 0.5,
+				"feature": "fokastudio:highlands/tree_2"
+			},
+			{
+				"chance": 0.5,
+				"feature": "fokastudio:highlands/tree_variant_1"
+			},
+			{
+				"chance": 0.5,
+				"feature": "fokastudio:highlands/tree_variant_2"
+			}
+		],
+		"default": "far_end:nothing"
+	}
+}

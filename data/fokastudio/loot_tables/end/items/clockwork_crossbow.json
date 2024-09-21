@@ -1,0 +1,60 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Clockwork Crossbow",
+								"color": "#873600",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"clockwork_crossbow\",Charged:0b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Shoots as fast as you can click",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Fired arrows are converted to regular ones",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "and deal 20% less damage",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+                                {
+									"translate": "33% chance not to consume arrows",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+                                "",
+								{
+									"translate": "\"Break your mouse, break someone's mouse, whatever\"",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:forest_of_corruption/small_true_warped_stem",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 14
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

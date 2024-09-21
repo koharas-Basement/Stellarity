@@ -1,0 +1,86 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 10518688,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"grass_color": 4601422,
+		"foliage_color": 5191246,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 4000,
+			"block_search_extent": 16,
+			"offset": 12
+		},
+		"particle": {
+			"options": {
+				"type": "ash"
+			},
+			"probability": 0.004444
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 30,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:silverfish",
+				"weight": 6,
+				"minCount": 2,
+				"maxCount": 4
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"energy_budget": 0.12,
+			"charge": 1
+		}
+	},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
+		],
+		[],
+		[
+			"fokastudio:wastes/shatter",
+			"fokastudio:wastes/patches"
+		],
+		[
+			"fokastudio:wastes/dead_tree",
+			"fokastudio:wastes/tree",
+			"far_end:waste/chorus_plant"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:structures/end/dungeon"
+		]
+	]
+}

@@ -1,0 +1,79 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 1,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 3252195,
+    "water_color": 8989183,
+    "water_fog_color": 1508659,
+    "ambient_sound": "minecraft:ambient.underwater.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.under_water",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "mycelium"
+      },
+      "probability": 0.0085
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return"
+    ],
+    [
+      "fokastudio:sprouts_of_corruption/wart_pile",
+      "fokastudio:sprouts_of_corruption/end_stone",
+      "fokastudio:sprouts_of_corruption/chorus"
+    ],
+    [
+      "fokastudio:sprouts_of_corruption/tiny_true_warped_fungus"
+    ]
+  ]
+}

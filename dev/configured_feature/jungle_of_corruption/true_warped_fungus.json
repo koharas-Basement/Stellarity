@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"ignore_vines": true,
+		"minimum_size": {
+			"type": "minecraft:three_layers_feature_size",
+			"limit": 24,
+			"upper_limit": 15,
+			"lower_size": 14,
+			"middle_size": 14,
+			"upper_size": 16
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:end_stone"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:mushroom_stem",
+				"Properties": {
+					"down": "true",
+					"up": "true",
+					"west": "true",
+					"east": "true",
+					"north": "true",
+					"south": "true"
+				}
+			}
+		},
+		"foliage_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 10,
+					"data": {
+						"Name": "minecraft:stripped_warped_hyphae",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:warped_wart_block"
+					}
+				}
+			]
+		},
+		"trunk_placer": {
+			"type": "minecraft:mega_jungle_trunk_placer",
+			"base_height": 16,
+			"height_rand_a": 20,
+			"height_rand_b": 12
+		},
+		"foliage_placer": {
+			"type": "minecraft:jungle_foliage_placer",
+			"radius": 8,
+			"offset": 0,
+			"height": 5
+		},
+		"decorators": []
+	}
+}

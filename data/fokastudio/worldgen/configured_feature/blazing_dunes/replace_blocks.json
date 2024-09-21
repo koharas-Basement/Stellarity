@@ -1,0 +1,128 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.25
+				},
+				"state": {
+					"Name": "minecraft:red_nether_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.2
+				},
+				"state": {
+					"Name": "minecraft:nether_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:chiseled_nether_bricks",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:chiseled_nether_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:smooth_basalt",
+					"probability": 0.2
+				},
+				"state": {
+					"Name": "minecraft:cobbled_deepslate"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:smooth_basalt",
+					"probability": 0.2
+				},
+				"state": {
+					"Name": "minecraft:deepslate",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:smooth_basalt",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:chiseled_deepslate"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:end_stone",
+					"probability": 0.22
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:red_sand",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:red_sandstone",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:polished_basalt",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			},
+            {
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:gravel",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			}
+		]
+	}
+}

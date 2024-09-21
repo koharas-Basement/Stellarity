@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:pink_stained_glass"
+    },
+    "decor_state": {
+      "Name": "minecraft:end_stone"
+    },
+    "stem_state": {
+      "Name": "minecraft:air"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:end_stone"
+    },
+    "planted": false
+  }
+}

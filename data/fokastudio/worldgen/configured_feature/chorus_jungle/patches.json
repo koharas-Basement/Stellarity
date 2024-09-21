@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 5,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.5,
+		"vegetation_chance": 0.02,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 3,
+				"max_inclusive": 5
+			}
+		},
+		"replaceable": "#minecraft:dirt",
+		"ground_state": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 8,
+					"data": {
+						"Name": "minecraft:purpur_block"
+					}
+				},
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:gravel"
+					}
+				},
+				{
+					"weight": 32,
+					"data": {
+						"Name": "minecraft:end_stone"
+					}
+				}
+			]
+		},
+		"vegetation_feature": {
+			"feature": "minecraft:chorus_plant",
+			"placement": []
+		}
+	}
+}

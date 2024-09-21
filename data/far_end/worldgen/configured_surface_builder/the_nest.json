@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:end_stone"
+    },
+    "under_material": {
+      "Name": "minecraft:end_stone",
+      "Properties": {}
+    },
+    "underwater_material": {
+      "Name": "minecraft:end_stone"
+    }
+  }
+}

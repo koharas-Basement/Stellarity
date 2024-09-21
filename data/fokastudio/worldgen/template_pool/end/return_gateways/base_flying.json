@@ -1,0 +1,51 @@
+{
+	"name": "fokastudio:end/return_gateway_base",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/return_gateway/default/purpur",
+				"processors": "fokastudio:end/return_gateways"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/return_gateway/default/crimson",
+				"processors": "fokastudio:end/return_gateways"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/return_gateway/default/warped",
+				"processors": "fokastudio:end/return_gateways"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/return_gateway/default/mangrove",
+				"processors": "fokastudio:end/return_gateways"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/return_gateway/default/blackstone",
+				"processors": "fokastudio:end/return_gateways"
+			}
+		}
+	]
+}

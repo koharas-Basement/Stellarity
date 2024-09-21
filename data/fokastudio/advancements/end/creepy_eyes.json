@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye",
+			"nbt": "{Enchantments:[{id:\"mending\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Creepy Eyes"
+		},
+		"description": {
+			"translate": "Let an Enderman hit you after staring into those purple eyes"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/anger_enderman",
+	"criteria": {
+		"hurt": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:enderman"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"temperature": 0.6,
+	"downfall": 0.6,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 8049663,
+		"fog_color": 12638463,
+		"water_color": 16332781,
+		"water_fog_color": 12990969,
+		"grass_color": 5161443,
+		"foliage_color": 5219299,
+		"mood_sound": {
+			"sound": "block.amethyst_block.chime",
+			"tick_delay": 900,
+			"block_search_extent": 6,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.001
+		},
+		"particle": {
+			"options": {
+				"type": "end_rod"
+			},
+			"probability": 0.00083
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:vex",
+				"weight": 20,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"axolotls": [],
+		"underground_water_creature": [],
+		"water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 30,
+				"minCount": 2,
+				"maxCount": 3
+			}
+		],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:the_hallow/stalactite",
+			"fokastudio:the_hallow/crystals"
+		],
+		[],
+		[
+			"minecraft:amethyst_geode"
+		],
+		[
+			"minecraft:monster_room"
+		],
+		[],
+		[],
+		[
+			"minecraft:ore_dirt",
+			"minecraft:ore_granite_upper",
+			"minecraft:ore_diorite_upper",
+			"minecraft:ore_andesite_upper"
+		],
+		[],
+		[
+			"minecraft:spring_water",
+			"fokastudio:the_hallow/underground/crystals/crystal_down",
+			"fokastudio:the_hallow/underground/crystals/crystal_east",
+			"fokastudio:the_hallow/underground/crystals/crystal_north",
+			"fokastudio:the_hallow/underground/crystals/crystal_south",
+			"fokastudio:the_hallow/underground/crystals/crystal_up",
+			"fokastudio:the_hallow/underground/crystals/crystal_west"
+		],
+		[
+			"fokastudio:the_hallow/trees",
+			"minecraft:glow_lichen",
+			"fokastudio:the_hallow/flowers",
+			"fokastudio:the_hallow/grass",
+			"fokastudio:the_hallow/rock"
+		],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:the_hallow/calcite"
+		]
+	]
+}

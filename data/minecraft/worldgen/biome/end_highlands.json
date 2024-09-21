@@ -1,0 +1,80 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 10518688,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"grass_color": 13198446,
+		"foliage_color": 14237542,
+		"mood_sound": {
+			"sound": "minecraft:block.amethyst_block.chime",
+			"tick_delay": 100,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"particle": {
+			"options": {
+				"type": "crimson_spore"
+			},
+			"probability": 0.00125
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:hoglin",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"axolotls": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:highlands/patches",
+			"fokastudio:highlands/trees",
+			"fokastudio:highlands/chorus_plant"
+		],
+		[
+			"fokastudio:highlands/replace_blocks",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

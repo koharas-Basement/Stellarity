@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:red_stained_glass"
+    },
+    "target": {
+      "Name": "minecraft:end_stone"
+    },
+    "radius": 3
+  }
+}

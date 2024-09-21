@@ -1,0 +1,53 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:crossbow"
+								],
+								"enchantments": [
+									{
+										"enchantment": "minecraft:multishot"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{id:\"minecraft:arrow\",Count:1b},{id:\"minecraft:arrow\",Count:1b}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:crossbow"
+							],
+							"enchantments": [
+								{
+									"enchantment": "minecraft:multishot"
+								}
+							]
+						}
+					}
+				}
+			}
+		]
+	}
+]

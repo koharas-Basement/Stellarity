@@ -1,0 +1,38 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "fokastudio:end/temp"
+		},
+		"ops": [
+			{
+				"source": "object.tag",
+				"target": "{}",
+				"op": "merge"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "item.durability",
+				"with": [
+					{
+						"nbt": "object.tag.foka_durability.dur",
+						"storage": "fokastudio:end/temp"
+					},
+					{
+						"nbt": "object.tag.foka_durability.max_dur",
+						"storage": "fokastudio:end/temp"
+					}
+			],
+				"color": "gray",
+				"italic": false
+			}
+		],
+		"replace": false
+	}
+]

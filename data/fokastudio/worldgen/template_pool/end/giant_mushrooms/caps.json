@@ -1,0 +1,78 @@
+{
+	"name": "fokastudio:end/giant_mushrooms/caps",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/1",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/2",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/3",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/4",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/5",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/6",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/7",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/caps/8",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		}
+	]
+}

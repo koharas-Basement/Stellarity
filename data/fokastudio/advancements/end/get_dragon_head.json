@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": {
+			"translate": "Headhunter"
+		},
+		"description": {
+			"translate": "Loot a Dragon's Head from an End City"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/find_end_city",
+	"criteria": {
+		"get_dragon_head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_head"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"get_dragon_head"
+		]
+	]
+}

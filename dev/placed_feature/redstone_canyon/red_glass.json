@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:redstone_canyon/red_glass",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 48
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+	"required":false,
+	"values": [
+		"#fokastudio:end/zombies",
+		"#fokastudio:end/skeletons",
+		"minecraft:phantom",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin",
+		"minecraft:wither"
+	]
+}

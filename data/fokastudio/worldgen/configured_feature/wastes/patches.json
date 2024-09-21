@@ -1,0 +1,146 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 5,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.4,
+		"vegetation_chance": 0.18999,
+		"xz_radius": {
+			"type": "minecraft:clamped",
+			"value": {
+				"min_inclusive": 4,
+				"max_inclusive": 6,
+				"source": {
+					"type": "minecraft:uniform",
+					"value": {
+						"min_inclusive": 2,
+						"max_inclusive": 5
+					}
+				}
+			}
+		},
+		"replaceable": "#far_end:end_stone",
+		"ground_state": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 18,
+					"data": {
+						"Name": "minecraft:end_stone"
+					}
+				},
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:mycelium",
+						"Properties": {
+							"snowy": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:cobblestone"
+					}
+				},
+				{
+					"weight": 2,
+					"data": {
+						"Name": "minecraft:basalt",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				}
+			]
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 40,
+								"data": {
+									"Name": "minecraft:red_mushroom"
+								}
+							},
+							{
+								"weight": 40,
+								"data": {
+									"Name": "minecraft:brown_mushroom"
+								}
+							},
+							{
+								"weight": 13,
+								"data": {
+									"Name": "minecraft:chorus_flower",
+									"Properties": {
+										"age": "5"
+									}
+								}
+							},
+							{
+								"weight": 5,
+								"data": {
+									"Name": "minecraft:dead_bush"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:dead_tube_coral",
+									"Properties": {
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:dead_horn_coral",
+									"Properties": {
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:dead_brain_coral",
+									"Properties": {
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:dead_fire_coral",
+									"Properties": {
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:dead_bubble_coral",
+									"Properties": {
+										"waterlogged": "false"
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": []
+		}
+	}
+}

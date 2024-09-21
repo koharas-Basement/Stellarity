@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:stronghold",
+	"biomes": "#minecraft:has_structure/stronghold",
+	"adapt_noise": true,
+	"spawn_overrides": {
+		"monster": {
+			"bounding_box": "full",
+			"spawns": [
+				{
+					"type": "minecraft:vindicator",
+					"weight": 1,
+					"minCount": 1,
+					"maxCount": 3
+				}
+			]
+		}
+	},
+	"config": {}
+}

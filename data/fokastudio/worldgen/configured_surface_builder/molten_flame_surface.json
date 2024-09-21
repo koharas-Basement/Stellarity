@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:light_gray_terracotta"
+    },
+    "under_material": {
+      "Name": "minecraft:white_terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:light_blue_terracotta"
+    }
+  }
+}

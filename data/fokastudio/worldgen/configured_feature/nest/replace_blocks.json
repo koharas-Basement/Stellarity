@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.25
+				},
+				"state": {
+					"Name": "minecraft:polished_basalt",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.25
+				},
+				"state": {
+					"Name": "minecraft:smooth_basalt",
+					"Properties": {}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.25
+				},
+				"state": {
+					"Name": "minecraft:cobbled_deepslate",
+					"Properties": {}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "feature": "fokastudio:glowshroom_valley/glowshroom_2",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 5
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

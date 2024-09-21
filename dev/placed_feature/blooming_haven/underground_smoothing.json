@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:blooming_haven/underground_smoothing",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 32
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

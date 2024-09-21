@@ -1,0 +1,39 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 0,
+		"water_color": 6443678,
+		"water_fog_color": 4405100,
+		"grass_color": 5782142,
+		"foliage_color": 6240114,
+		"grass_color_modifier": "none"
+	},
+	"spawners": {},
+	"spawn_costs": {},
+	"carvers": {
+		"air": []
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

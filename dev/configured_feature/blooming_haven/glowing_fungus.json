@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:glowstone"
+    },
+    "decor_state": {
+      "Name": "minecraft:glowstone"
+    },
+    "stem_state": {
+      "Name": "minecraft:white_stained_glass"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:end_stone"
+    },
+    "planted": false
+  }
+}

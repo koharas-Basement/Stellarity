@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:end_stone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:polished_basalt",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:end_stone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:deepslate",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:end_stone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:cobbled_deepslate",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:end_stone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:polished_deepslate",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:end_stone"
+				}
+			}
+		]
+	}
+}

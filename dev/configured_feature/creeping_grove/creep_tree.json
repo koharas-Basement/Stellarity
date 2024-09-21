@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:end_stone"
+			}
+		},
+    "ignore_vines": false,
+    "heightmap": "WORLD_SURFACE",
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 5,
+      "lower_size": 1,
+      "upper_size": 4
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:lime_terracotta"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:green_terracotta"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:lime_stained_glass"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:green_stained_glass"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:lime_stained_glass"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:green_stained_glass"
+          }
+        },
+        {
+          "weight": 7,
+          "data": {
+            "Name": "minecraft:acacia_leaves",
+            "Properties": {
+              "persistent": "true",
+              "distance": "1"
+            }
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:jungle_leaves",
+            "Properties": {
+              "persistent": "true",
+              "distance": "1"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 9,
+      "height_rand_a": 5,
+      "height_rand_b": 12
+    },
+    "foliage_placer": {
+      "type": "minecraft:spruce_foliage_placer",
+      "radius": 5,
+      "offset": 6,
+      "trunk_height": 4
+    },
+    "decorators": [
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 3,
+              "data": {
+                "Name": "minecraft:lime_terracotta"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:green_terracotta"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

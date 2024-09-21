@@ -1,0 +1,25 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_small_end_islands"
+		},
+        {
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_the_end"
+		},
+        {
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_end_barrens"
+		},
+        {
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_end_midlands"
+		},
+        {
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_end_highlands"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:dull_glowing_haven/glass_pile",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 64
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

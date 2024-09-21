@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:infested_choir/purple_pillar",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

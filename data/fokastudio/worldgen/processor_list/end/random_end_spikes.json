@@ -1,0 +1,28 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:obsidian"
+						},
+						"probability": 0.05
+					},
+					"output_state": {
+						"Name": "minecraft:crying_obsidian"
+					}
+				}
+			]
+		},
+		{
+			"processor_type": "minecraft:protected_blocks",
+			"value": "#fokastudio:end/structure_cannot_replace"
+		}
+	]
+}

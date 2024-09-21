@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"eat_living_flesh": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rotten_flesh"
+					],
+					"nbt": "{foka.special_item:\"living_flesh\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_living_flesh"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/living_flesh/consume"
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:end_spike",
+    "config": {
+      "crystal_invulnerable": false,
+      "crystal_beam_target": [
+        42,
+        164,
+        0
+      ],
+      "spikes": [
+        {
+          "centerX": 42,
+          "centerZ": 0,
+          "radius": 4,
+          "height": 164,
+          "guarded": false
+        }
+      ]
+    }
+}
+  

@@ -1,0 +1,9 @@
+{
+  "feature": "fokastudio:weeping_valley/river",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    }
+  ]
+}

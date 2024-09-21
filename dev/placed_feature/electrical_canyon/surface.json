@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:electrical_canyon/surface",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 96
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:mineral_dunes/small_iron_ore",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

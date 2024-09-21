@@ -1,0 +1,75 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0.1,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 7302155,
+    "water_color": 10027263,
+    "water_fog_color": 2295091,
+    "ambient_sound": "minecraft:ambient.underwater.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.end",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "totem_of_undying"
+      },
+      "probability": 0.00285
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:vex",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return",
+      "fokastudio:dull_glowing_haven/underground",
+      "fokastudio:dull_glowing_haven/underground_smoothing"
+    ],
+    [
+      "fokastudio:dull_glowing_haven/glowstone"
+    ],
+    [],
+    [
+      "fokastudio:dull_glowing_haven/glass_pile",
+      "fokastudio:dull_glowing_haven/dead_pillar",
+      "fokastudio:dull_glowing_haven/dull_fungus"
+    ]
+  ]
+}

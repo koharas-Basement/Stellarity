@@ -1,0 +1,15 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:snow_block"
+    },
+    "under_material": {
+      "Name": "minecraft:blackstone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:blackstone"
+    }
+  },
+  "type": "minecraft:default",
+  "name": "starmute:no_end_update_ever"
+}

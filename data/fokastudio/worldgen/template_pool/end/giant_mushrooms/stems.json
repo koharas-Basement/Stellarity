@@ -1,0 +1,42 @@
+{
+	"name": "fokastudio:end/giant_mushrooms/stems",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/stems/1",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/stems/2",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/stems/3",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/giant_mushrooms/stems/4",
+				"processors": "fokastudio:end/giant_mushrooms"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:sprouts_of_corruption/tiny_true_warped_fungus",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 12
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

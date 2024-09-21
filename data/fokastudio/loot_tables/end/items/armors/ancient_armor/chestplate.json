@@ -1,0 +1,77 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Ancient Scalemail",
+								"color": "#A87CC4",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "Greatly increases your damage",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"ancient_armor\",display:{color:11041988},HideFlags:64,foka_durability:{enabled:1b,max_dur:528}}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": " ",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.armor_toughness",
+									"name": " ",
+									"amount": 1.7,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": " ",
+									"amount": 0.05,
+									"operation": "multiply_base",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": " ",
+									"amount": 0.09,
+									"operation": "multiply_base",
+									"slot": "chest"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

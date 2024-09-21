@@ -1,0 +1,86 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"temperature_modifier": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 10672615,
+		"water_fog_color": 6798273,
+		"grass_color": 16446345,
+		"foliage_color": 16772469,
+		"ambient_sound": "ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 300,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.soul_sand_valley.additions",
+			"tick_chance": 0.05
+		},
+		"particle": {
+			"options": {
+				"type": "spore_blossom_air"
+			},
+			"probability": 0.05
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 5,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"far_end:wilds/island/hanging_leaves"
+		],
+		[
+			"far_end:wilds/surface/grassy_plain"
+		],
+		[
+			"far_end:wilds/geode/seed_of_life"
+		],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:wilds/vegetation/patch_chorus_flower",
+			"far_end:wilds/vegetation/patch_leaves",
+			"far_end:wilds/vegetation/trees",
+			"minecraft:patch_dead_bush",
+			"far_end:wilds/vegetation/chorus_plant"
+		],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:structures/end/dungeon"
+		]
+	]
+}

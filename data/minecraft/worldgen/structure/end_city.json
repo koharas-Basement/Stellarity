@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:end_city",
+	"biomes": "#minecraft:has_structure/end_city",
+	"step": "surface_structures",
+	"spawn_overrides": {
+		"monster": {
+			"bounding_box": "full",
+			"spawns": [
+				{
+					"type": "minecraft:enderman",
+					"weight": 1,
+					"minCount": 1,
+					"maxCount": 1
+				}
+			]
+		}
+	}
+}

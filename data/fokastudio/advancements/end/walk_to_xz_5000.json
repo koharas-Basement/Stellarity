@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone_bricks",
+			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Sleepwalking"
+		},
+		"description": {
+			"translate": "Go 5000 blocks away from Dragon's Den"
+		},
+		"frame": "goal",
+		"hidden": false
+	},
+	"parent": "fokastudio:end/walk_to_xz_2500",
+	"criteria": {
+		"this_player_is_in_seek_of_medical_attention": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"position": {
+									"x": {
+										"min": -5000,
+										"max": 5000
+									},
+									"z": {
+										"min": -5000,
+										"max": 5000
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 250
+	}
+}

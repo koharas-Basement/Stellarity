@@ -1,0 +1,161 @@
+{
+	"type": "minecraft:scattered_ore",
+	"config": {
+		"size": 12,
+		"discard_chance_on_air_exposure": 0.1333,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:end_stone",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:redstone_ore",
+					"Properties": {
+						"lit": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:redstone_ore",
+					"Properties": {
+						"lit": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:blackstone",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:deepslate_redstone_ore",
+					"Properties": {
+						"lit": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:smooth_basalt",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:deepslate_redstone_ore",
+					"Properties": {
+						"lit": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:end_stone",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:iron_ore"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:iron_ore"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:blackstone",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:deepslate_iron_ore"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:smooth_basalt",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:deepslate_iron_ore"
+					}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:red_sand",
+					"probability": 0.01
+				},
+				"state": {
+					"Name": "minecraft:ancient_debris"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.4
+				},
+				"state": {
+					"Name": "minecraft:nether_gold_ore"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.4
+				},
+				"state": {
+					"Name": "minecraft:nether_quartz_ore"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:raw_iron_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:netherrack",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:raw_gold_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:blackstone",
+					"probability": 0.3
+				},
+				"state": {
+					"Name": "minecraft:gilded_blackstone"
+				}
+			}
+		]
+	}
+}

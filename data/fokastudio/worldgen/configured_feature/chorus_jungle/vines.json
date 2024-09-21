@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.25,
+				"feature": {
+					"feature": {
+						"type": "minecraft:block_column",
+						"config": {
+							"direction": "down",
+							"allowed_placement": {
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									1,
+									0
+								],
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							"prioritize_tip": true,
+							"layers": [
+								{
+									"height": 1,
+									"provider": {
+										"type": "minecraft:simple_state_provider",
+										"state": {
+											"Name": "minecraft:vine",
+											"Properties": {
+												"east": "true",
+												"north": "false",
+												"south": "false",
+												"up": "true",
+												"west": "false"
+											}
+										}
+									}
+								},
+								{
+									"height": {
+										"type": "minecraft:uniform",
+										"value": {
+											"min_inclusive": 7,
+											"max_inclusive": 21
+										}
+									},
+									"provider": {
+										"type": "minecraft:simple_state_provider",
+										"state": {
+											"Name": "minecraft:vine",
+											"Properties": {
+												"east": "true",
+												"north": "false",
+												"south": "false",
+												"up": "false",
+												"west": "false"
+											}
+										}
+									}
+								}
+							]
+						}
+					},
+					"placement": []
+				}
+			}
+		],
+		"default": "far_end:nothing"
+	}
+}

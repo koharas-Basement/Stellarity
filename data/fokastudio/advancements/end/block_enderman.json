@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		"title": {
+			"translate": "So That Is Your Weakness!"
+		},
+		"description": {
+			"translate": "Hit an an Enderman while you are in water"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/anger_enderman",
+	"criteria": {
+		"hurt": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"location": {
+						"block": {
+							"blocks": [
+								"minecraft:water"
+							]
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:enderman"
+				}
+			}
+		}
+	}
+}

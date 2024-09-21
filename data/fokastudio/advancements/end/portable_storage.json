@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_box"
+		},
+		"title": {
+			"translate": "Portable Storage"
+		},
+		"description": {
+			"translate": "Craft a Shulker Box"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "fokastudio:end/defeat_shulker",
+	"criteria": {
+		"craft_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {},
+				"items": [
+					{
+						"items": [
+							"minecraft:shulker_box"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft_shulker_box"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"minecraft:shulker_box_coloring"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"values": [
+		"#minecraft:terracotta",
+		"#fokastudio:end/glass",
+		"end_stone",
+		"void_air",
+		"shroomlight",
+		"glowstone",
+		"dirt",
+		"grass_block"
+	]
+}

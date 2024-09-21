@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_sword"
+							],
+							"nbt": "{foka.special_item:\"dragonblade\"}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/dragonblade/use"
+	}
+}

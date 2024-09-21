@@ -1,0 +1,29 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:protected_blocks",
+			"value": "#fokastudio:end/structure_cannot_replace"
+		},
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:mushroom_stem",
+						"probability": 0.2
+					},
+					"output_state": {
+						"Name": "minecraft:bone_block",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				}
+			]
+		}
+	]
+}

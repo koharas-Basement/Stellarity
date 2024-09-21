@@ -1,0 +1,97 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 16636149,
+		"water_color": 15979007,
+		"water_fog_color": 329011,
+		"grass_color": 7289714,
+		"foliage_color": 14593535,
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_delay": 300,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.ultra_rare",
+			"tick_chance": 0.001
+		},
+		"particle": {
+			"options": {
+				"type": "dripping_obsidian_tear"
+			},
+			"probability": 0.0035
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:vex",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:evoker",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:witch",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"far_end:amethyst/island/calcite_bottom"
+		],
+		[],
+		[
+			"far_end:amethyst/geode/amethyst",
+			"far_end:amethyst/rock/tuff"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:amethyst/trees",
+			"far_end:amethyst/vegetation/amethyst",
+			"far_end:amethyst/vegetation/hanging_amethyst",
+			"far_end:amethyst/vegetation/flower",
+			"far_end:amethyst/vegetation/patch_grass",
+			"far_end:amethyst/vegetation/patch_crying_obsidian"
+		],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

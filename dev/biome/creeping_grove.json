@@ -1,0 +1,87 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 2134025,
+    "water_color": 8989183,
+    "water_fog_color": 1508659,
+    "foliage_color": 2224914,
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.under_water",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "happy_villager"
+      },
+      "probability": 0.0045
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:creeper": {
+      "energy_budget": 0.1,
+      "charge": 0.6
+    },
+    "minecraft:phantom": {
+      "energy_budget": 0.12,
+      "charge": 0.7
+    }
+  },
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return"
+    ],
+    [
+      "fokastudio:creeping_grove/terracotta_block",
+      "fokastudio:creeping_grove/creep_tree"
+    ],
+    [
+      "fokastudio:creeping_grove/lime_glass",
+      "fokastudio:creeping_grove/green_glass"
+    ]
+  ]
+}

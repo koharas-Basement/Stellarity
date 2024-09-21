@@ -1,0 +1,553 @@
+{
+	"type": "minecraft:the_end",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": -513239337,
+		"settings": "far_end:far_end",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "far_end:ender_waste",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "far_end:end_wilds",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": 0.1,
+						"continentalness": 0.1,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "far_end:warped_marsh",
+					"parameters": {
+						"temperature": 0.1,
+						"humidity": 0.3,
+						"continentalness": -0.2,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "far_end:ashfall_delta",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": 0.5,
+						"continentalness": -0.2,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "far_end:flesh_tundra",
+					"parameters": {
+						"temperature": 0.1,
+						"humidity": 0,
+						"continentalness": -0.4,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "far_end:amethyst_forest",
+					"parameters": {
+						"temperature": 0.4,
+						"humidity": -0.1,
+						"continentalness": -0.5,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "far_end:the_nest",
+					"parameters": {
+						"temperature": 0.5,
+						"humidity": 0.2,
+						"continentalness": 0.7,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:blazing_dunes",
+					"parameters": {
+						"temperature": 0.6,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:chorus_jungle",
+					"parameters": {
+						"temperature": 1,
+						"humidity": 0.2,
+						"continentalness": -0.3,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:glowshroom_valley",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": 0.2,
+						"continentalness": 0.3,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": -0.1,
+						"continentalness": -0.3,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "minecraft:the_end",
+					"parameters": {
+						"temperature": 0.5,
+						"humidity": 0.2,
+						"continentalness": 0.5,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": 0,
+						"continentalness": 0.13,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "minecraft:end_midlands",
+					"parameters": {
+						"temperature": 0.2,
+						"humidity": -0.1,
+						"continentalness": -0.18,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "minecraft:end_highlands",
+					"parameters": {
+						"temperature": 0.5,
+						"humidity": 0.15,
+						"continentalness": -0.1,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "minecraft:end_barrens",
+					"parameters": {
+						"temperature": 0.6,
+						"humidity": -0.2,
+						"continentalness": 0.3,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:prismarine_forest",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": -0.5,
+						"continentalness": 0.1,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.1
+					}
+				},
+				{
+					"biome": "fokastudio:frosted_hills",
+					"parameters": {
+						"temperature": -0.2,
+						"humidity": -0.5,
+						"continentalness": 0.7,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:snowy_warped_forest",
+					"parameters": {
+						"temperature": -0.2,
+						"humidity": -0.6,
+						"continentalness": 0.3,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:the_hallow",
+					"parameters": {
+						"temperature": -0.9,
+						"humidity": -0.18,
+						"continentalness": 0.8,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:barren_end",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:redstone_canyon",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": -0.2,
+					  "erosion": 0,
+					  "weirdness": -0.2,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:electrical_canyon",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": -0.45,
+					  "erosion": 0,
+					  "weirdness": -0.6,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:deep_redstone_canyon",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": -0.6,
+					  "erosion": 0,
+					  "weirdness": -0.45,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:glowing_haven",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0.2,
+					  "erosion": 0,
+					  "weirdness": -0.2,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:dull_glowing_haven",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0.45,
+					  "erosion": 0,
+					  "weirdness": -0.6,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:blooming_haven",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0.6,
+					  "erosion": 0,
+					  "weirdness": -0.45,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:creeping_grove",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": -0.2,
+					  "erosion": 0,
+					  "weirdness": 0.2,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:creeping_forest",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": -0.45,
+					  "erosion": 0,
+					  "weirdness": 0.6,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:bloody_grove",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": -0.6,
+					  "erosion": 0,
+					  "weirdness": 0.45,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:mineral_dunes",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0.2,
+					  "erosion": 0,
+					  "weirdness": 0.2,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:silver_mineral_dunes",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0.6,
+					  "erosion": 0,
+					  "weirdness": 0.45,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:dark_mineral_dunes",
+					"parameters": {
+					  "temperature": 0,
+					  "humidity": 0,
+					  "continentalness": 0.45,
+					  "erosion": 0,
+					  "weirdness": 0.6,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:weeping_valley",
+					"parameters": {
+					  "temperature": 0.2,
+					  "humidity": 0.2,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:jungle_of_corruption",
+					"parameters": {
+					  "temperature": 0.2,
+					  "humidity": -0.2,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:chorus_choir",
+					"parameters": {
+					  "temperature": -0.2,
+					  "humidity": 0.2,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:crystalline_flames",
+					"parameters": {
+					  "temperature": -0.2,
+					  "humidity": -0.2,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:dried_weeping_valley",
+					"parameters": {
+					  "temperature": 0.6,
+					  "humidity": 0.45,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:forest_of_corruption",
+					"parameters": {
+					  "temperature": 0.6,
+					  "humidity": -0.45,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:decaying_choir",
+					"parameters": {
+					  "temperature": -0.6,
+					  "humidity": 0.45,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:soul_crystalline_flames",
+					"parameters": {
+					  "temperature": -0.6,
+					  "humidity": -0.45,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:sprouts_of_corruption",
+					"parameters": {
+					  "temperature": 0.45,
+					  "humidity": -0.6,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:molten_crystalline_flames",
+					"parameters": {
+					  "temperature": -0.45,
+					  "humidity": -0.6,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:infested_choir",
+					"parameters": {
+					  "temperature": -0.45,
+					  "humidity": 0.6,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  },
+				  {
+					"biome": "fokastudio:frozen_weeping_valley",
+					"parameters": {
+					  "temperature": 0.45,
+					  "humidity": 0.6,
+					  "continentalness": 0,
+					  "erosion": 0,
+					  "weirdness": 0,
+					  "depth": 0,
+					  "offset": 0
+					}
+				  }
+			]
+		}
+	}
+}

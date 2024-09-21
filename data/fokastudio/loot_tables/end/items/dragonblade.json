@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"dragonblade\",CustomModelData:90000,Damage:0,display:{Lore: ['[{\"translate\":\"Hit enemies explode into clouds of\",\"italic\":false,\"color\":\"gray\"}]', '[{\"translate\":\"Dragon\\'s Breath\",\"color\":\"dark_purple\",\"italic\":false},{\"translate\":\", inflicting\",\"color\":\"gray\",\"italic\":false}]','[{\"translate\":\"various debuffs\",\"italic\":false,\"color\":\"gray\"}]', '[{\"translate\":\"\",\"italic\":false,\"color\":\"gray\"}]','[{\"translate\":\"This has a \",\"italic\":false,\"color\":\"gray\"},{\"translate\":\"5 second cooldown\",\"color\":\"red\"},{\"translate\":\"\",\"color\":\"dark_purple\"}]','[{\"translate\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"translate\":\"Works only on targets located\",\"italic\":false,\"color\":\"gold\"}]', '[{\"translate\":\"further away from player\",\"italic\":false,\"color\":\"gold\"}]','[{\"translate\":\"Affects up to 3 targets\",\"italic\":false,\"color\":\"gold\"}]'],Name:'[{\"translate\":\"Dragonblade\",\"italic\":false,\"color\":\"#4C00BA\"}]'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:dried_weeping_valley/blackstone_piles",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 32
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

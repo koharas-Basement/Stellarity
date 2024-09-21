@@ -1,0 +1,97 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 5177451,
+		"water_color": 6443678,
+		"water_fog_color": 3286873,
+		"grass_color": 8476263,
+		"foliage_color": 8408409,
+		"ambient_sound": "ambient.nether_wastes.loop",
+		"mood_sound": {
+			"sound": "minecraft:ambient.basalt_deltas.mood",
+			"tick_delay": 600,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_chance": 0.0333
+		},
+		"particle": {
+			"options": {
+				"type": "portal"
+			},
+			"probability": 0.02222
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:phantom",
+				"weight": 15,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:silverfish",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"axolotls": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"fokastudio:the_end/hills",
+			"fokastudio:the_end/obsidian",
+			"fokastudio:wastes/shatter"
+		],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:the_end/patches",
+			"fokastudio:the_end/trees",
+			"fokastudio:the_end/chorus_plant",
+			"fokastudio:wastes/tree"
+		],
+		[
+			"fokastudio:the_end/ceiling"
+		],
+		[],
+		[],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:structures/end/dungeon"
+		]
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"temperature": -0.5,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"temperature_modifier": "frozen",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 7515062,
+		"water_fog_color": 4420745,
+		"grass_color": 30592,
+		"foliage_color": 105867,
+		"ambient_sound": "ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 500,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.01333
+		},
+		"particle": {
+			"options": {
+				"type": "snowflake"
+			},
+			"probability": 0.005
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:stray",
+				"weight": 40,
+				"minCount": 2,
+				"maxCount": 7
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 15,
+				"minCount": 3,
+				"maxCount": 7
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:frosted_hills/stalactite",
+			"fokastudio:frosted_hills/hills",
+			"fokastudio:frosted_hills/icicle",
+			"fokastudio:frosted_hills/icicle_upwards"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:frosted_hills/blocks_random_replace"
+		],
+		[
+			"fokastudio:global/snowy/first_layer",
+			"fokastudio:global/snowy/second_layer",
+			"fokastudio:global/snowy/third_layer",
+			"fokastudio:global/snowy/freeze_layers"
+		],
+		[
+			"fokastudio:frosted_hills/ore_blue_ice",
+			"fokastudio:frosted_hills/ore_snow",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

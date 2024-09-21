@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull",
+			"nbt": "{Enchantments:[{id:\"aqua_affinity\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "The Beggining."
+		},
+		"description": {
+			"translate": "Kill the Wither in The End"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"kill_wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"kill_wither"
+		]
+	],
+	"rewards": {
+		"experience": 450
+	}
+}

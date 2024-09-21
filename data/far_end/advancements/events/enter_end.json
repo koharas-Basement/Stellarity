@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"from_overworld": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"from_overworld"
+		]
+	],
+	"rewards": {
+		"function": "far_end:events/enter_end"
+	}
+}

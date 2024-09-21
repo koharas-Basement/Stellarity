@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_shulker_box",
+			"nbt": "{CustomModelData:7300}"
+		},
+		"title": {
+			"translate": "Colorful Storage"
+		},
+		"description": {
+			"translate": "Color a Shulker Box any color you want"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "fokastudio:end/portable_storage",
+	"criteria": {
+		"color_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "fokastudio:end/colored_shulker_boxes"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"color_shulker_box"
+		]
+	]
+}

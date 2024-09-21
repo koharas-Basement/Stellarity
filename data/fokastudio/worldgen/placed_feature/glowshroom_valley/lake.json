@@ -1,0 +1,28 @@
+{
+	"feature": "fokastudio:glowshroom_valley/lake",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 4
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 8
+				},
+				"max_inclusive": {
+					"below_top": 8
+				}
+			}
+		},
+		{
+			"type": "minecraft:surface_relative_threshold_filter",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

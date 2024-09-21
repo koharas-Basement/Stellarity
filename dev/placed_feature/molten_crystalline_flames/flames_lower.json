@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:molten_crystalline_flames/flames_lower",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 64
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

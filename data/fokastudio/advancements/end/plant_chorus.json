@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_flower"
+		},
+		"title": {
+			"translate": "Biologist"
+		},
+		"description": {
+			"translate": "Plant a Chorus Flower in the Overworld"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "fokastudio:end/eat_chorus_fruit",
+	"criteria": {
+		"plant_chorus": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:chorus_flower",
+				"state": {
+					"age": "0"
+				},
+				"location": {
+					"dimension": "minecraft:overworld"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"plant_chorus"
+		]
+	]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:air"
+    },
+    "decor_state": {
+      "Name": "minecraft:end_stone"
+    },
+    "stem_state": {
+      "Name": "minecraft:light_gray_stained_glass"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:white_stained_glass"
+    },
+    "planted": false
+  }
+}

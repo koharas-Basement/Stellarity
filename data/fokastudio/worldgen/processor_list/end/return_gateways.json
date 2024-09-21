@@ -1,0 +1,34 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:repeating_command_block"
+					},
+					"output_state": {
+						"Name": "minecraft:end_gateway"
+					},
+					"output_nbt": {
+						"Age": 0,
+						"ExactTeleport": 1,
+						"ExitPortal": {
+							"X": 12,
+							"Y": 90,
+							"Z": 0
+						}
+					}
+				}
+			]
+		},
+		{
+			"processor_type": "minecraft:protected_blocks",
+			"value": "#fokastudio:end/structure_cannot_replace"
+		}
+	]
+}

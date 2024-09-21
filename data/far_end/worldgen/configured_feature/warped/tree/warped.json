@@ -1,0 +1,293 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.4,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_fungus",
+						"config": {
+							"hat_state": {
+								"Name": "minecraft:warped_wart_block"
+							},
+							"decor_state": {
+								"Name": "minecraft:sea_lantern"
+							},
+							"stem_state": {
+								"Name": "minecraft:warped_stem",
+								"Properties": {
+									"axis": "y"
+								}
+							},
+							"valid_base_block": {
+								"Name": "minecraft:moss_block"
+							},
+							"planted": true
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.4,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_fungus",
+						"config": {
+							"hat_state": {
+								"Name": "minecraft:warped_wart_block"
+							},
+							"decor_state": {
+								"Name": "minecraft:shroomlight"
+							},
+							"stem_state": {
+								"Name": "minecraft:warped_stem",
+								"Properties": {
+									"axis": "y"
+								}
+							},
+							"valid_base_block": {
+								"Name": "minecraft:moss_block"
+							},
+							"planted": true
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.3,
+				"feature": {
+					"feature": {
+						"type": "minecraft:tree",
+						"ignore_vines": true,
+						"config": {
+							"minimum_size": {
+								"type": "minecraft:three_layers_feature_size"
+							},
+							"dirt_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:moss_block"
+								}
+							},
+							"trunk_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "false",
+										"west": "true"
+									}
+								}
+							},
+							"foliage_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 15,
+										"data": {
+											"Name": "minecraft:prismarine"
+										}
+									},
+									{
+										"weight": 7,
+										"data": {
+											"Name": "minecraft:prismarine_bricks"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:white_concrete"
+										}
+									}
+								]
+							},
+							"trunk_placer": {
+								"type": "minecraft:dark_oak_trunk_placer",
+								"base_height": 10,
+								"height_rand_a": 5,
+								"height_rand_b": 11
+							},
+							"foliage_placer": {
+								"type": "minecraft:fancy_foliage_placer",
+								"radius": {
+									"type": "minecraft:uniform",
+									"value": {
+										"min_inclusive": 5,
+										"max_inclusive": 7
+									}
+								},
+								"offset": 1,
+								"height": 3
+							},
+							"decorators": [
+								{
+									"type": "minecraft:alter_ground",
+									"provider": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:end_stone"
+												}
+											},
+											{
+												"weight": 3,
+												"data": {
+													"Name": "minecraft:moss_block"
+												}
+											},
+											{
+												"weight": 7,
+												"data": {
+													"Name": "minecraft:grass_block"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.3,
+				"feature": {
+					"feature": {
+						"type": "minecraft:tree",
+						"ignore_vines": true,
+						"config": {
+							"minimum_size": {
+								"type": "minecraft:three_layers_feature_size"
+							},
+							"dirt_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:moss_block"
+								}
+							},
+							"trunk_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "true",
+										"west": "true"
+									}
+								}
+							},
+							"foliage_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 15,
+										"data": {
+											"Name": "minecraft:warped_wart_block"
+										}
+									},
+									{
+										"weight": 7,
+										"data": {
+											"Name": "minecraft:dark_prismarine"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:white_concrete"
+										}
+									}
+								]
+							},
+							"trunk_placer": {
+								"type": "minecraft:dark_oak_trunk_placer",
+								"base_height": 10,
+								"height_rand_a": 5,
+								"height_rand_b": 11
+							},
+							"foliage_placer": {
+								"type": "minecraft:fancy_foliage_placer",
+								"radius": {
+									"type": "minecraft:uniform",
+									"value": {
+										"min_inclusive": 5,
+										"max_inclusive": 7
+									}
+								},
+								"offset": 1,
+								"height": 3
+							},
+							"decorators": [
+								{
+									"type": "minecraft:alter_ground",
+									"provider": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:end_stone"
+												}
+											},
+											{
+												"weight": 3,
+												"data": {
+													"Name": "minecraft:moss_block"
+												}
+											},
+											{
+												"weight": 7,
+												"data": {
+													"Name": "minecraft:grass_block"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:huge_fungus",
+				"config": {
+					"hat_state": {
+						"Name": "minecraft:warped_wart_block"
+					},
+					"decor_state": {
+						"Name": "minecraft:air"
+					},
+					"stem_state": {
+						"Name": "minecraft:warped_stem",
+						"Properties": {
+							"axis": "y"
+						}
+					},
+					"valid_base_block": {
+						"Name": "minecraft:moss_block"
+					},
+					"planted": true
+				}
+			},
+			"placement": []
+		}
+	}
+}

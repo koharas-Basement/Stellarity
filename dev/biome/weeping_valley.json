@@ -1,0 +1,92 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0.1,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 9442003,
+    "water_color": 8989183,
+    "water_fog_color": 1508659,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.soul_sand_valley",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_obsidian_tear"
+      },
+      "probability": 0.005
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 2,
+        "minCount": 0,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:wither_skeleton": {
+      "energy_budget": 0.2,
+      "charge": 0.6
+    },
+    "minecraft:phantom": {
+      "energy_budget": 0.14,
+      "charge": 0.4
+    }
+  },
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return",
+      "fokastudio:weeping_valley/blackstone_piles",
+      "fokastudio:weeping_valley/top_piles"
+    ],
+    [
+      "fokastudio:spikes",
+      "fokastudio:weeping_valley/river",
+      "fokastudio:weeping_valley/lake",
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [
+      "fokastudio:weeping_valley/springs"
+    ]
+  ]
+}

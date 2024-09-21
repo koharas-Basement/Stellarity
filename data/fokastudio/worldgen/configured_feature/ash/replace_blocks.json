@@ -1,0 +1,80 @@
+{
+	"type": "minecraft:scattered_ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:end_stone"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:basalt"
+				},
+				"state": {
+					"Name": "minecraft:smooth_basalt"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:tuff",
+					"probability": 0.8
+				},
+				"state": {
+					"Name": "minecraft:cobbled_deepslate"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:tuff"
+				},
+				"state": {
+					"Name": "minecraft:deepslate",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:basalt",
+					"probability": 0.8
+				},
+				"state": {
+					"Name": "minecraft:polished_basalt",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:basalt"
+				},
+				"state": {
+					"Name": "minecraft:smooth_basalt"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:blackstone"
+				},
+				"state": {
+					"Name": "minecraft:polished_blackstone"
+				}
+			}
+		]
+	}
+}

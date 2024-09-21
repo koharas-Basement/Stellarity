@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:basalt_deltas",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "under_material": {
+      "Name": "minecraft:end_stone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:end_stone_bricks"
+    }
+  }
+}

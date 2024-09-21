@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:prismarine"
+		},
+		"decor_state": {
+			"Name": "minecraft:dark_prismarine"
+		},
+		"stem_state": {
+			"Name": "minecraft:mushroom_stem",
+			"Properties": {
+				"down": "false",
+				"east": "true",
+				"north": "true",
+				"south": "true",
+				"up": "false",
+				"west": "true"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:grass_block",
+			"Properties": {
+				"snowy": "false"
+			}
+		},
+		"planted": true
+	}
+}

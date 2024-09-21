@@ -1,0 +1,23 @@
+{
+    "values":
+        [
+            "minecraft:end_barrens",
+            "minecraft:end_highlands",
+            "minecraft:end_midlands",
+            "minecraft:the_end",
+            "far_end:amethyst_forest",
+            "far_end:ashfall_delta",
+            "far_end:warped_marsh",
+            "far_end:end_wilds",
+            "far_end:ender_waste",
+            "far_end:flesh_tundra",
+            "far_end:the_nest",
+            "fokastudio:blazing_dunes",
+            "fokastudio:the_hallow",
+            "fokastudio:frosted_hills",
+            "fokastudio:chorus_jungle",
+            "fokastudio:snowy_warped_forest",
+            "fokastudio:glowshroom_valley",
+            "fokastudio:prismarine_forest"
+        ]   
+}

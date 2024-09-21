@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:electrical_canyon/pit",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

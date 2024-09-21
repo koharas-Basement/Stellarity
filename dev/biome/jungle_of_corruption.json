@@ -1,0 +1,85 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 1,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 3067073,
+    "water_color": 8989183,
+    "water_fog_color": 1508659,
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.crimson_forest",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "dolphin"
+      },
+      "probability": 0.08
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 3,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return"
+    ],
+    [
+      "fokastudio:jungle_of_corruption/true_warped_fungus",
+      "fokastudio:jungle_of_corruption/medium_true_warped_fungus",
+      "fokastudio:jungle_of_corruption/replace_dirt"
+    ],
+    [
+      "fokastudio:jungle_of_corruption/replace_end_stone",
+      "fokastudio:jungle_of_corruption/vines",
+      "fokastudio:jungle_of_corruption/wart_pile"
+    ],
+    [
+      "fokastudio:jungle_of_corruption/small_true_warped_stem",
+      "fokastudio:jungle_of_corruption/warped_growth"
+    ]
+  ]
+}

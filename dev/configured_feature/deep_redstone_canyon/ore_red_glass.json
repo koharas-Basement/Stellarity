@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:red_stained_glass"
+          }
+        },
+        {
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:red_terracotta"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:redstone_block"
+          }
+        }
+      ]
+    }
+  }
+}

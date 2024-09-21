@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:entity_scores",
+		"entity": "this",
+		"scores": {
+			"foka.items.sharanga.arrow_age": {
+				"min": -2147483647,
+				"max": 2147483647
+			}
+		}
+	}
+}

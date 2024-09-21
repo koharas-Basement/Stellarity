@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:glowing_haven/dead_pillar",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

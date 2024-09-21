@@ -1,0 +1,12 @@
+{
+	"feature": "far_end:ash/vegetation/land/trees",
+	"placement": [
+		{
+			"type": "count_on_every_layer",
+			"count": 4
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [
+							"minecraft:amethyst_shard"
+						],
+						"nbt": "{foka.special_item:\"ender_insignia\"}"
+					}
+				}
+			}
+		},
+        {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:amethyst_shard"
+						],
+						"nbt": "{foka.special_item:\"ender_insignia\"}"
+					}
+				}
+			}
+		}
+	]
+}

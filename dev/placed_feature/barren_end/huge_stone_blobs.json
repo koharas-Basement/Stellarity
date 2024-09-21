@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:barren_end/huge_stone_blobs",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 128
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

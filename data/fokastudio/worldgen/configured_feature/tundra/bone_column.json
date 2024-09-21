@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:block_column",
+	"config": {
+		"direction": "down",
+		"allowed_placement": {
+			"type": "minecraft:matching_blocks",
+			"offset": [
+				0,
+				1,
+				0
+			],
+			"blocks": [
+				"minecraft:air",
+				"minecraft:water"
+			]
+		},
+		"prioritize_tip": false,
+		"layers": [
+			{
+				"height": 256,
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:bone_block",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				}
+			}
+		]
+	}
+}

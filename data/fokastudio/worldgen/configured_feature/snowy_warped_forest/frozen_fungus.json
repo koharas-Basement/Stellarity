@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:ice"
+		},
+		"decor_state": {
+			"Name": "minecraft:blue_ice"
+		},
+		"stem_state": {
+			"Name": "minecraft:packed_ice"
+		},
+		"valid_base_block": {
+			"Name": "minecraft:snow_block"
+		},
+		"planted": false
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 10518688,
+		"water_color": 6443678,
+		"water_fog_color": 3286873,
+		"grass_color": 7949456,
+		"foliage_color": 7090556,
+		"mood_sound": {
+			"sound": "minecraft:ambient.nether_wastes.mood",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.crimson_forest.additions",
+			"tick_chance": 0
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"axolotls": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
+		],
+		[
+			"fokastudio:midlands/obsidian"
+		],
+		[
+			"fokastudio:midlands/pile_cobblestone"
+		],
+		[],
+		[],
+		[
+			"fokastudio:midlands/patches",
+			"far_end:waste/chorus_plant"
+		],
+		[],
+		[
+			"fokastudio:midlands/rocks"
+		],
+		[],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

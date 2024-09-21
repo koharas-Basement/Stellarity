@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_spawn_egg"
+		},
+		"title": {
+			"translate": "This Block Moves!"
+		},
+		"description": {
+			"translate": "Defeat a Shulker"
+		},
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/find_end_city",
+	"criteria": {
+		"defeat_shulkers": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:shulker"
+				}
+			}
+		}
+	}
+}

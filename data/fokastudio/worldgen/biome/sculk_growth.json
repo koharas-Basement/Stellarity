@@ -1,0 +1,70 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 65597,
+		"water_color": 856599,
+		"water_fog_color": 0,
+		"grass_color": 1186337,
+		"foliage_color": 1186337,
+		"mood_sound": {
+			"sound": "block.sculk_shrieker.shriek",
+			"tick_delay": 1150,
+			"block_search_extent": 10,
+			"offset": 10
+		},
+		"additions_sound": {
+			"sound": "block.sculk_sensor.clicking",
+			"tick_chance": 0.00111
+		},
+		"particle": {
+			"options": {
+				"type": "sculk_charge_pop"
+			},
+			"probability": 0.00333
+		}
+	},
+	"spawners": {
+		"monster": [],
+		"creature": [],
+		"ambient": [],
+		"axolotls": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:sculk_growth/patches",
+			"fokastudio:sculk_growth/sculk_patches",
+			"fokastudio:sculk_growth/sculk_sensor",
+			"fokastudio:sculk_growth/tree"
+		],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:granite",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:polished_granite"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:granite",
+					"probability": 0.15
+				},
+				"state": {
+					"Name": "minecraft:dripstone_block"
+				}
+			}
+		]
+	}
+}

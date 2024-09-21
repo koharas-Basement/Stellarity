@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/armors/hallowed_armor/helmet"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/armors/hallowed_armor/chestplate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/armors/hallowed_armor/leggings"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/armors/hallowed_armor/boots"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"min": 30,
+						"max": 50
+					},
+					"treasure": true,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					]
+				}
+			]
+		}
+	]
+}

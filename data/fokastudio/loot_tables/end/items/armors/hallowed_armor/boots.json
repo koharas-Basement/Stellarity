@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Hallowed Treads",
+								"color": "#FFDD52",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "Become immune to damage periodically",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,foka.special_item:\"hallowed_armor\",display:{color:16768338},HideFlags:64,foka_durability:{enabled:1b,max_dur:481}}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": " ",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": " ",
+									"amount": 0.075,
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": " ",
+									"amount": 0.04,
+									"operation": "multiply_base",
+									"slot": "feet"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 13369344,
+    "water_color": 10027263,
+    "water_fog_color": 2295091,
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.end",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "lava"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:vex",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 3,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:vex": {
+      "energy_budget": 0.2,
+      "charge": 0.85
+    }
+  },
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return",
+      "fokastudio:molten_crystalline_flames/lava_stream",
+      "fokastudio:molten_crystalline_flames/glass",
+      "fokastudio:molten_crystalline_flames/magma",
+      "fokastudio:molten_crystalline_flames/iron_ore",
+      "fokastudio:molten_crystalline_flames/iron_block",
+      "fokastudio:molten_crystalline_flames/diamond_ore"
+    ],
+    [
+      "fokastudio:molten_crystalline_flames/flames_lower"
+    ],
+    [
+      "fokastudio:molten_crystalline_flames/flames_upper"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:molten_crystalline_flames/magma",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 3
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

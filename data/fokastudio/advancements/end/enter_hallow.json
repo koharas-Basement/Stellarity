@@ -1,0 +1,315 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:white_concrete_powder"
+		},
+		"title": [
+			{
+				"text": "H",
+				"color": "red"
+			},
+			{
+				"text": "a",
+				"color": "#eb7139"
+			},
+			{
+				"text": "l",
+				"color": "gold"
+			},
+			{
+				"text": "l",
+				"color": "#ebd039"
+			},
+			{
+				"text": "o",
+				"color": "yellow"
+			},
+			{
+				"text": "w",
+				"color": "#9efe3f"
+			},
+			{
+				"text": "e",
+				"color": "green"
+			},
+			{
+				"text": "d ",
+				"color": "#1fde7e"
+			},
+			{
+				"text": "B",
+				"color": "dark_aqua"
+			},
+			{
+				"text": "y ",
+				"color": "#1fdede"
+			},
+			{
+				"text": "T",
+				"color": "aqua"
+			},
+			{
+				"text": "h",
+				"color": "#3f9efe"
+			},
+			{
+				"text": "y ",
+				"color": "blue"
+			},
+			{
+				"text": "N",
+				"color": "#9e3ffe"
+			},
+			{
+				"text": "a",
+				"color": "light_purple"
+			},
+			{
+				"text": "m",
+				"color": "#de1fde"
+			},
+			{
+				"text": "e",
+				"color": "dark_purple"
+			}
+		],
+		"description": [
+			{
+				"text": "\"",
+				"color": "#ffafaf"
+			},
+			{
+				"text": "O",
+				"color": "#f9b0a4"
+			},
+			{
+				"text": "n",
+				"color": "#f4b19a"
+			},
+			{
+				"text": "c",
+				"color": "#eeb290"
+			},
+			{
+				"text": "e ",
+				"color": "#e9b385"
+			},
+			{
+				"text": "y",
+				"color": "#e3b47b"
+			},
+			{
+				"text": "o",
+				"color": "#deb571"
+			},
+			{
+				"text": "u ",
+				"color": "#ddba6c"
+			},
+			{
+				"text": "e",
+				"color": "#e2c570"
+			},
+			{
+				"text": "n",
+				"color": "#e7d074"
+			},
+			{
+				"text": "t",
+				"color": "#eddb78"
+			},
+			{
+				"text": "e",
+				"color": "#f2e67c"
+			},
+			{
+				"text": "r ",
+				"color": "#f8f180"
+			},
+			{
+				"text": "h",
+				"color": "#fdfc84"
+			},
+			{
+				"text": "a",
+				"color": "#f1ff85"
+			},
+			{
+				"text": "l",
+				"color": "#deff85"
+			},
+			{
+				"text": "l",
+				"color": "#ccff85"
+			},
+			{
+				"text": "o",
+				"color": "#b9ff85"
+			},
+			{
+				"text": "w",
+				"color": "#a7ff85"
+			},
+			{
+				"text": "e",
+				"color": "#95ff85"
+			},
+			{
+				"text": "d ",
+				"color": "#85ff87"
+			},
+			{
+				"text": "l",
+				"color": "#85ff99"
+			},
+			{
+				"text": "a",
+				"color": "#85ffac"
+			},
+			{
+				"text": "n",
+				"color": "#85ffbe"
+			},
+			{
+				"text": "d",
+				"color": "#85ffd0"
+			},
+			{
+				"text": ", ",
+				"color": "#85ffe3"
+			},
+			{
+				"text": "y",
+				"color": "#85fff5"
+			},
+			{
+				"text": "o",
+				"color": "#80fafa"
+			},
+			{
+				"text": "u ",
+				"color": "#78f0f0"
+			},
+			{
+				"text": "w",
+				"color": "#6fe6e6"
+			},
+			{
+				"text": "i",
+				"color": "#67dcdc"
+			},
+			{
+				"text": "l",
+				"color": "#5ed2d2"
+			},
+			{
+				"text": "l ",
+				"color": "#56c8c8"
+			},
+			{
+				"text": "s",
+				"color": "#4ebebe"
+			},
+			{
+				"text": "e",
+				"color": "#52b3c5"
+			},
+			{
+				"text": "e ",
+				"color": "#58a8cf"
+			},
+			{
+				"text": "a ",
+				"color": "#5e9dd9"
+			},
+			{
+				"text": "r",
+				"color": "#6492e3"
+			},
+			{
+				"text": "a",
+				"color": "#6a88ed"
+			},
+			{
+				"text": "i",
+				"color": "#707df7"
+			},
+			{
+				"text": "n",
+				"color": "#7a74ff"
+			},
+			{
+				"text": "b",
+				"color": "#8f74ff"
+			},
+			{
+				"text": "o",
+				"color": "#a373ff"
+			},
+			{
+				"text": "w ",
+				"color": "#b873ff"
+			},
+			{
+				"text": "i",
+				"color": "#cd72ff"
+			},
+			{
+				"text": "n ",
+				"color": "#e271ff"
+			},
+			{
+				"text": "t",
+				"color": "#f771ff"
+			},
+			{
+				"text": "h",
+				"color": "#f86df8"
+			},
+			{
+				"text": "e ",
+				"color": "#ef68ef"
+			},
+			{
+				"text": "s",
+				"color": "#e562e5"
+			},
+			{
+				"text": "k",
+				"color": "#db5ddb"
+			},
+			{
+				"text": "y",
+				"color": "#d257d2"
+			},
+			{
+				"text": ".",
+				"color": "#c852c8"
+			},
+			{
+				"text": "\"",
+				"color": "#bf4dbf"
+			}
+		],
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "fokastudio:end/ender_adventurer",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "fokastudio:the_hallow"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 300
+	}
+}

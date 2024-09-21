@@ -1,0 +1,9 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_flesh_tundra"
+		}
+	]
+}

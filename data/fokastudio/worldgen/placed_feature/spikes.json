@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:spikes",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 19
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:creeping_forest/creep_tree",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 32
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

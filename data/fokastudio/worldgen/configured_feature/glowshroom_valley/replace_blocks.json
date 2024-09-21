@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:brown_terracotta"
+				},
+				"state": {
+					"Name": "minecraft:blue_terracotta"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:orange_terracotta"
+				},
+				"state": {
+					"Name": "minecraft:white_terracotta"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:red_terracotta"
+				},
+				"state": {
+					"Name": "minecraft:light_gray_terracotta"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:terracotta"
+				},
+				"state": {
+					"Name": "minecraft:light_blue_terracotta"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:yellow_terracotta"
+				},
+				"state": {
+					"Name": "minecraft:cyan_terracotta"
+				}
+			}
+		]
+	}
+}

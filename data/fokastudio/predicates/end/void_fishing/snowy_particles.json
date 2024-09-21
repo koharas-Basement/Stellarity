@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_frosted_hills"
+		},
+        {
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_snowy_warped_forest"
+		}
+	]
+}

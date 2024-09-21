@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:oak_leaves",
+			"Properties": {
+				"distance": "7",
+				"persistent": "true",
+				"waterlogged": "false"
+			}
+		},
+		"decor_state": {
+			"Name": "minecraft:jungle_leaves",
+			"Properties": {
+				"distance": "7",
+				"persistent": "true",
+				"waterlogged": "false"
+			}
+		},
+		"stem_state": {
+			"Name": "minecraft:bone_block",
+			"Properties": {
+				"axis": "y"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:nether_wart_block"
+		},
+		"planted": true
+	}
+}

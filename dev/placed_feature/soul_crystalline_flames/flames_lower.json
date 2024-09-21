@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:soul_crystalline_flames/flames_lower",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 32
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

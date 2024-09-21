@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:simple_random_selector",
+	"config": {
+		"features": [
+			{
+				"feature": "fokastudio:snowy_warped_forest/cold_fungus",
+				"placement": []
+			},
+			{
+				"feature": "fokastudio:snowy_warped_forest/frozen_fungus",
+				"placement": []
+			},
+			{
+				"feature": "fokastudio:snowy_warped_forest/cold_warped_fungus",
+				"placement": []
+			}
+		]
+	}
+}

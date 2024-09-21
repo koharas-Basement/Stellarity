@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:soul_sand_valley",
+    "fokastudio:blazing_dunes",
+    "far_end:flesh_tundra",
+    "far_end:the_nest",
+    "fokastudio:frosted_hills",
+    "fokastudio:sculk_growth",
+    "far_end:ashfall_delta",
+    "minecraft:the_end",
+    "far_end:ender_waste"
+  ]
+}

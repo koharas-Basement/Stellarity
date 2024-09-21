@@ -1,0 +1,112 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.9,
+	"precipitation": "none",
+	"temperature_modifier": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 15068927,
+		"water_fog_color": 12895439,
+		"grass_color": 14606046,
+		"foliage_color": 12763842,
+		"ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+		"mood_sound": {
+			"sound": "minecraft:ambient.crimson_forest.mood",
+			"tick_delay": 600,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.basalt_deltas.additions",
+			"tick_chance": 0.05
+		},
+		"particle": {
+			"options": {
+				"type": "white_ash"
+			},
+			"probability": 0.05
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:guardian",
+				"weight": 40,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:wither_skeleton",
+				"weight": 40,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 40,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:elder_guardian",
+				"weight": 70,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:guardian",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"far_end:ash/island/basalt_bottom"
+		],
+		[
+			"far_end:ash/aquatic/lake"
+		],
+		[],
+		[
+			"far_end:ash/aquatic/delta",
+			"far_end:ash/surface/grass_delta",
+			"fokastudio:ash/basalt_columns",
+			"fokastudio:ash/basalt_pillars"
+		],
+		[],
+		[
+			"minecraft:basalt_blobs",
+			"far_end:ash/ore/ancient_debris"
+		],
+		[],
+		[
+			"far_end:ash/vegetation/water/seagrass",
+			"far_end:ash/vegetation/water/sea_pickle",
+			"far_end:ash/vegetation/land/trees",
+			"far_end:ash/vegetation/land/wither_rose",
+			"fokastudio:ash/vegetation"
+		],
+		[],
+		[
+			"fokastudio:ash/replace_blocks",
+			"fokastudio:ash/magma",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

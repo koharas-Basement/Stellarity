@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl",
+			"nbt": "{Enchantments:[{id:\"mending\"}]}"
+		},
+		"title": {
+			"translate": "advancements.end.enter_end_gateway.title"
+		},
+		"description": {
+			"translate": "Enter the End Gateway in the Dragon's Den"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"entered_end_gateway": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "fokastudio:end/locations/in_dragons_den"
+					}
+				],
+				"block": "minecraft:end_gateway"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"entered_end_gateway"
+		]
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"title": {
+			"translate": "Confusing Fruit"
+		},
+		"description": {
+			"translate": "Eat a Chorus Fruit"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"eat_chorus_fruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_chorus_fruit"
+		]
+	]
+}

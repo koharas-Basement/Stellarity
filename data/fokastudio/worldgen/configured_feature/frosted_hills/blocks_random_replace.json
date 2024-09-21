@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:scattered_ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:calcite",
+					"probability": 0.75
+				},
+				"state": {
+					"Name": "minecraft:diorite"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:calcite",
+					"probability": 0.75
+				},
+				"state": {
+					"Name": "minecraft:polished_diorite"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/random_end_spike",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1018075954,
+		"exclusion_zone": {
+			"other_set": "fokastudio:end/giant_mushrooms",
+			"chunk_count": 1
+		},
+		"spacing": 6,
+		"separation": 1
+	}
+}

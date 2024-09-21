@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:gray_concrete_powder"
+    },
+    "target": {
+      "Name": "minecraft:light_gray_concrete_powder"
+    },
+    "radius": 8
+  }
+}

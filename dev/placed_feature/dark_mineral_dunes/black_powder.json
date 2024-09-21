@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:dark_mineral_dunes/black_powder",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 5
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:jungle_of_corruption/warped_growth",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 128
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

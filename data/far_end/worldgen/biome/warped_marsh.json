@@ -1,0 +1,107 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"temperature_modifier": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 10672615,
+		"water_fog_color": 6798273,
+		"grass_color": 117978,
+		"foliage_color": 56800,
+		"ambient_sound": "ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 600,
+			"block_search_extent": 4,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.0111
+		},
+		"particle": {
+			"options": {
+				"type": "falling_spore_blossom"
+			},
+			"probability": 0.007
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:endermite",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:guardian",
+				"weight": 30,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:drowned",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"misc": [
+			{
+				"type": "minecraft:slime",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"fokastudio:warped/patches",
+			"far_end:warped/aquatic/lake"
+		],
+		[],
+		[],
+		[
+			"far_end:warped/aquatic/delta",
+			"fokastudio:warped/spring",
+			"fokastudio:warped/deltas",
+			"fokastudio:warped/cave_vines_patch"
+		],
+		[],
+		[],
+		[],
+		[
+			"far_end:warped/vegetation/grass/patch_grass",
+			"far_end:warped/vegetation/grass/patch_blue_orchid",
+			"far_end:warped/vegetation/grass/patch_warped_roots",
+			"far_end:warped/vegetation/grass/patch_nether_sprouts",
+			"far_end:warped/vegetation/water/sea_pickle",
+			"far_end:warped/vegetation/water/under_island_extra",
+			"far_end:warped/vegetation/water/pool"
+		],
+		[
+			"far_end:warped/tree/warped",
+			"fokastudio:warped/big_oak",
+			"fokastudio:warped/big_oak_rooted"
+		],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

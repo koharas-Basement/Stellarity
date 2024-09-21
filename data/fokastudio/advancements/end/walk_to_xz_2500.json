@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone",
+			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Void Walker"
+		},
+		"description": {
+			"translate": "Travel 2500 blocks away from Dragon's Den"
+		},
+		"frame": "task",
+		"hidden": false
+	},
+	"parent": "fokastudio:end/ender_adventurer",
+	"criteria": {
+		"this_player_is_in_seek_of_medical_attention": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"position": {
+									"x": {
+										"min": -2500,
+										"max": 2500
+									},
+									"z": {
+										"min": -2500,
+										"max": 2500
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

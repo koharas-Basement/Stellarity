@@ -1,0 +1,204 @@
+{
+	"name": "fokastudio:end/stronghold/corridors_only",
+	"fallback": "fokastudio:end/stronghold/fallback_end",
+	"elements": [
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/3_way_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/3_way_crossing_treasure",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/4_way_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/4_way_crossing_treasure",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/ambush_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/fountains_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/library_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/lush_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/ritual_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/sculk_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/spider_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/stairs_round_lower",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/stairs_round_upper",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 16,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/stairs_straight",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 25,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/straight",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/straight_treasure",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/straight_alt",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/straight_alt_treasure",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/turn_1",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/turn_1_treasure",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/turn_2",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/turn_2_treasure",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		}
+	]
+}

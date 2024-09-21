@@ -1,0 +1,122 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:prismarine_forest/tree_1",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:prismarine_forest/tree_2",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:prismarine_forest/tree_3",
+					"placement": []
+				}
+			},
+
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:prismarine_forest/coral_tree",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:tree",
+				"config": {
+					"ignore_vines": true,
+					"minimum_size": {
+						"type": "minecraft:three_layers_feature_size"
+					},
+					"dirt_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:dirt"
+						}
+					},
+					"trunk_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:stripped_oak_log",
+							"Properties": {
+								"axis": "y"
+							}
+						}
+					},
+					"foliage_provider": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 30,
+								"data": {
+									"Name": "minecraft:prismarine"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:dark_prismarine"
+								}
+							},
+							{
+								"weight": 5,
+								"data": {
+									"Name": "minecraft:prismarine_bricks"
+								}
+							},
+							{
+								"weight": 2,
+								"data": {
+									"Name": "minecraft:sea_lantern"
+								}
+							}
+						]
+					},
+					"trunk_placer": {
+						"type": "minecraft:mega_jungle_trunk_placer",
+						"base_height": 20,
+						"height_rand_a": 7,
+						"height_rand_b": 15
+					},
+					"foliage_placer": {
+						"type": "minecraft:jungle_foliage_placer",
+						"radius": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 2,
+								"max_inclusive": 3
+							}
+						},
+						"offset": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0,
+								"max_inclusive": 1
+							}
+						},
+						"height": 3
+					},
+					"decorators": [
+						{
+							"type": "minecraft:leave_vine",
+							"probability": 0.25
+						}
+					]
+				}
+			},
+			"placement": []
+		}
+	}
+}

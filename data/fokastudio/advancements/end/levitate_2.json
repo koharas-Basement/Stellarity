@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:feather"
+		},
+		"title": {
+			"translate": "I Am an Airplane!"
+		},
+		"description": {
+			"translate": "Fly 300 blocks into the sky via the Levitation effect"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:end/levitate",
+	"criteria": {
+		"airplane": {
+			"trigger": "minecraft:levitation",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 300
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"airplane"
+		]
+	],
+	"rewards": {
+		"experience": 800
+	}
+}

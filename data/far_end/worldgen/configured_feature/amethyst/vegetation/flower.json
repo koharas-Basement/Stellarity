@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:flower",
+	"config": {
+		"tries": 32,
+		"xz_spread": 7,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 10,
+								"data": {
+									"Name": "minecraft:allium"
+								}
+							},
+							{
+								"weight": 10,
+								"data": {
+									"Name": "minecraft:pink_tulip"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:peony",
+									"Properties": {
+										"half": "lower"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:lilac",
+									"Properties": {
+										"half": "lower"
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:not",
+								"predicate": {
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										-1,
+										0
+									],
+									"blocks": [
+										"minecraft:end_stone_bricks",
+										"minecraft:end_stone",
+										"minecraft:calcite"
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

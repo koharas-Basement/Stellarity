@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_glowshroom_valley"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_warped_marsh"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_end_wilds"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_snowy_warped_forest"
+		}
+	]
+}

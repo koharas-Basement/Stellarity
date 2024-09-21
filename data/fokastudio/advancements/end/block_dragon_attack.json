@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shield"
+		},
+		"title": {
+			"translate": "Please No!"
+		},
+		"description": {
+			"translate": "Attempt to block the Dragon's attacks"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/root",
+	"criteria": {
+		"block_attack": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "minecraft:ender_dragon"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"block_attack"
+		]
+	]
+}

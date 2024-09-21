@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:air"
+    },
+    "decor_state": {
+      "Name": "minecraft:blue_terracotta"
+    },
+    "stem_state": {
+      "Name": "minecraft:cyan_stained_glass"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:light_blue_terracotta",
+      "Properties": {
+        "age": "5"
+      }
+    },
+    "planted": false
+  }
+}

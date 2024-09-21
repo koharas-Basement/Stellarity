@@ -1,0 +1,16 @@
+{
+    "feature": "far_end:tundra/tree/crimson_2",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        {
+            "type": "minecraft:biome"
+        },
+        {
+            "type": "rarity_filter",
+            "chance": 2
+        }
+    ]
+}

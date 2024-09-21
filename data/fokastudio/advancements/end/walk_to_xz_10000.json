@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:purpur_pillar",
+			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "I Ventured Through Our Whole Galaxy"
+		},
+		"description": {
+			"translate": "Venture 100000 blocks away from Dragon's Den"
+		},
+		"frame": "challenge",
+		"hidden": false
+	},
+	"parent": "fokastudio:end/walk_to_xz_5000",
+	"criteria": {
+		"this_player_is_in_seek_of_medical_attention": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"position": {
+									"x": {
+										"min": -10000,
+										"max": 10000
+									},
+									"z": {
+										"min": -10000,
+										"max": 10000
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

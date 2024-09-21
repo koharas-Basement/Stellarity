@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:feather",
+			"nbt": "{Enchantments:[{id:\"aqua_affinity\",lvl:1}]}"
+		},
+		"title": {
+			"translate": "Head in the Clouds"
+		},
+		"description": {
+			"translate": "Fly up so high you almost leave the atmosphere"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/elytra",
+	"criteria": {
+		"leave_the_orbit": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"min": 500
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"leave_the_orbit"
+		]
+	],
+	"rewards": {
+		"experience": 100
+	}
+}

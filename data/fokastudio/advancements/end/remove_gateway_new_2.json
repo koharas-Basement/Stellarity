@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye",
+			"nbt": "{Enchantments:[{id:\"mending\"}]}"
+		},
+		"title": {
+			"translate": "Return to the Roots"
+		},
+		"description": {
+			"translate": "Return to the Dragon's Den by using a Gateway in Far End"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/remove_gateway_new",
+	"criteria": {
+		"entered_end_gateway": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/in_dragons_den"
+						}
+					}
+				],
+				"block": "minecraft:end_gateway"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"entered_end_gateway"
+		]
+	]
+}

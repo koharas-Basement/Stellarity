@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:dark_mineral_dunes/coal_ore",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

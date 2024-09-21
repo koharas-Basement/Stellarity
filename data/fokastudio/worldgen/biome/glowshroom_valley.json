@@ -1,0 +1,92 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"temperature_modifier": "none",
+	"effects": {
+		"sky_color": 1975338,
+		"fog_color": 1451344,
+		"water_color": 4154283,
+		"water_fog_color": 3092340,
+		"grass_color": 3831201,
+		"foliage_color": 3501714,
+		"ambient_sound": "minecraft:ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "minecraft:ambient.nether_wastes.mood",
+			"tick_delay": 700,
+			"block_search_extent": 10,
+			"offset": 3
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.nether_wastes.additions",
+			"tick_chance": 0.005
+		},
+		"particle": {
+			"options": {
+				"type": "warped_spore"
+			},
+			"probability": 0.0003
+		}
+	},
+	"spawners": {
+		"monster": [],
+		"creature": [
+			{
+				"type": "minecraft:vex",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 15,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:glowshroom_valley/stalactite"
+		],
+		[
+			"fokastudio:glowshroom_valley/lake"
+		],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:glowshroom_valley/blocks_random_replace"
+		],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:glowshroom_valley/glowshroom_1",
+			"fokastudio:glowshroom_valley/glowshroom_2",
+			"fokastudio:glowshroom_valley/glowshroom_3",
+			"fokastudio:glowshroom_valley/glowshroom_4",
+			"fokastudio:glowshroom_valley/glowshroom_5",
+			"fokastudio:glowshroom_valley/jellolands"
+		],
+		[
+			"fokastudio:glowshroom_valley/replace_blocks",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

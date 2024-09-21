@@ -1,0 +1,12 @@
+{
+	"feature": "far_end:ash/vegetation/land/wither_rose",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 200
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "feature": "far_end:ash/vegetation/water/sea_pickle",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "OCEAN_FLOOR_WG"
+        },
+        {
+            "type": "count",
+            "count": 3
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

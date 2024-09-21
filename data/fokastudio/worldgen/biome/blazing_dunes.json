@@ -1,0 +1,94 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 1710618,
+		"water_color": 3881787,
+		"water_fog_color": 3026478,
+		"grass_color": 4342338,
+		"foliage_color": 2697513,
+		"ambient_sound": "ambient.basalt_deltas.loop",
+		"mood_sound": {
+			"sound": "ambient.crimson_forest.mood",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.soul_sand_valley.additions",
+			"tick_chance": 0.005
+		},
+		"particle": {
+			"options": {
+				"type": "lava"
+			},
+			"probability": 0.0005
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:blaze",
+				"weight": 50,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:piglin",
+				"weight": 30,
+				"minCount": 3,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:magma_cube",
+				"weight": 25,
+				"minCount": 3,
+				"maxCount": 3
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"fokastudio:blazing_dunes/stalactite",
+			"fokastudio:blazing_dunes/columns"
+		],
+		[
+			"fokastudio:blazing_dunes/delta",
+			"fokastudio:blazing_dunes/basalt_columns"
+		],
+		[
+			"fokastudio:blazing_dunes/ores",
+			"fokastudio:blazing_dunes/lava_spring",
+			"fokastudio:blazing_dunes/patch_fire"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:blazing_dunes/replace_blocks",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

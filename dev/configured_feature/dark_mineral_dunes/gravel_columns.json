@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:basalt_columns",
+  "config": {
+    "reach": 1,
+    "height": 5
+  }
+}

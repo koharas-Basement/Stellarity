@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:light_blue_stained_glass"
+		},
+		"decor_state": {
+			"Name": "minecraft:glowstone"
+		},
+		"stem_state": {
+			"Name": "minecraft:mushroom_stem",
+			"Properties": {
+				"down": "true",
+				"east": "true",
+				"north": "true",
+				"south": "true",
+				"up": "true",
+				"west": "true"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:light_blue_terracotta"
+		},
+		"planted": false
+	}
+}

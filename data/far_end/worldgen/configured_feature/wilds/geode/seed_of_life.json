@@ -1,0 +1,161 @@
+{
+	"type": "minecraft:geode",
+	"config": {
+		"blocks": {
+			"filling_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:water",
+					"Properties": {
+						"level": "0"
+					}
+				}
+			},
+			"inner_layer_provider": {
+				"type": "minecraft:weighted_state_provider",
+				"entries": [
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:raw_gold_block"
+						}
+					},
+					{
+						"weight": 27,
+						"data": {
+							"Name": "minecraft:rooted_dirt"
+						}
+					},
+					{
+						"weight": 50,
+						"data": {
+							"Name": "minecraft:dirt"
+						}
+					}
+				]
+			},
+			"alternate_inner_layer_provider": {
+				"type": "minecraft:weighted_state_provider",
+				"entries": [
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:raw_gold_block"
+						}
+					},
+					{
+						"weight": 72,
+						"data": {
+							"Name": "minecraft:end_stone"
+						}
+					},
+					{
+						"weight": 72,
+						"data": {
+							"Name": "minecraft:dirt"
+						}
+					}
+				]
+			},
+			"middle_layer_provider": {
+				"type": "minecraft:weighted_state_provider",
+				"entries": [
+					{
+						"weight": 1,
+						"data": {
+							"Name": "minecraft:raw_gold_block"
+						}
+					},
+					{
+						"weight": 72,
+						"data": {
+							"Name": "minecraft:end_stone_bricks"
+						}
+					},
+					{
+						"weight": 72,
+						"data": {
+							"Name": "minecraft:end_stone"
+						}
+					}
+				]
+			},
+			"outer_layer_provider": {
+				"type": "minecraft:weighted_state_provider",
+				"entries": [
+					{
+						"weight": 3,
+						"data": {
+							"Name": "minecraft:air"
+						}
+					},
+					{
+						"weight": 2,
+						"data": {
+							"Name": "minecraft:jungle_leaves",
+							"Properties": {
+								"distance": "7",
+								"persistent": "true",
+								"waterlogged": "false"
+							}
+						}
+					},
+					{
+						"weight": 2,
+						"data": {
+							"Name": "minecraft:oak_leaves",
+							"Properties": {
+								"distance": "7",
+								"persistent": "true",
+								"waterlogged": "false"
+							}
+						}
+					}
+				]
+			},
+			"inner_placements": [
+				{
+					"Name": "minecraft:water",
+					"Properties": {
+						"level": "0"
+					}
+				}
+			],
+			"cannot_replace": "#minecraft:features_cannot_replace",
+			"invalid_blocks": "#far_end:end_stone"
+		},
+		"layers": {
+			"filling": 1.2,
+			"inner_layer": 1.75,
+			"middle_layer": 2.15,
+			"outer_layer": 3.5
+		},
+		"crack": {
+			"generate_crack_chance": 0.01,
+			"base_crack_size": 0.5,
+			"crack_point_offset": 2
+		},
+		"noise_multiplier": 0.065,
+		"use_potential_placements_chance": 0,
+		"use_alternate_layer0_chance": 0,
+		"placements_require_layer0_alternate": false,
+		"outer_wall_distance": 1,
+		"distribution_points": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 3,
+				"max_inclusive": 3
+			}
+		},
+		"point_offset": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 1,
+				"max_inclusive": 5
+			}
+		},
+		"min_gen_offset": -12,
+		"max_gen_offset": 12,
+		"invalid_blocks_threshold": 0
+	}
+}

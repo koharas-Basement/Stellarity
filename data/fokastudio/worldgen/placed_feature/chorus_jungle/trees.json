@@ -1,0 +1,36 @@
+{
+	"feature": "fokastudio:chorus_jungle/trees",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 70,
+						"data": 35
+					},
+					{
+						"weight": 30,
+						"data": 45
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:would_survive",
+				"state": {
+					"Name": "minecraft:oak_sapling",
+					"Properties": {
+						"stage": "0"
+					}
+				}
+			}
+		}
+	]
+}

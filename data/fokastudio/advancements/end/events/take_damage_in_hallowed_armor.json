@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"take_damage_in_hallowed_armor": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{foka.special_item:\"hallowed_armor\"}"
+						},
+						"chest": {
+							"nbt": "{foka.special_item:\"hallowed_armor\"}"
+						},
+						"legs": {
+							"nbt": "{foka.special_item:\"hallowed_armor\"}"
+						},
+						"feet": {
+							"nbt": "{foka.special_item:\"hallowed_armor\"}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"take_damage_in_hallowed_armor"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/armors/hallowed_armor/take_damage"
+	}
+}

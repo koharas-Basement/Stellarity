@@ -1,0 +1,111 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"temperature_modifier": "none",
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 7667712,
+		"water_color": 16711680,
+		"water_fog_color": 16711680,
+		"grass_color": 12860219,
+		"foliage_color": 12860219,
+		"ambient_sound": "ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 800,
+			"block_search_extent": 12,
+			"offset": 150
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.0111
+		},
+		"particle": {
+			"options": {
+				"type": "crimson_spore"
+			},
+			"probability": 0.05
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:silverfish",
+				"weight": 40,
+				"minCount": 4,
+				"maxCount": 5
+			},
+			{
+				"type": "minecraft:cave_spider",
+				"weight": 50,
+				"minCount": 5,
+				"maxCount": 5
+			},
+			{
+				"type": "minecraft:endermite",
+				"weight": 20,
+				"minCount": 4,
+				"maxCount": 5
+			},
+			{
+				"type": "minecraft:zombified_piglin",
+				"weight": 30,
+				"minCount": 6,
+				"maxCount": 6
+			}
+		],
+		"misc": [
+			{
+				"type": "minecraft:husk",
+				"weight": 80,
+				"minCount": 4,
+				"maxCount": 5
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"far_end:tundra/surface/water",
+			"far_end:tundra/surface/water_2",
+			"far_end:tundra/island/island_bottom",
+			"fokastudio:tundra/stalactite"
+		],
+		[
+			"far_end:tundra/aquatic/lake",
+			"far_end:tundra/aquatic/delta"
+		],
+		[
+			"fokastudio:tundra/bone_column",
+			"minecraft:basalt_pillar"
+		],
+		[],
+		[],
+		[],
+		[
+			"far_end:tundra/vegetation/bone_trees",
+			"far_end:tundra/vegetation/surface_plants",
+			"far_end:tundra/tree/crimson",
+			"far_end:tundra/tree/crimson_2",
+			"fokastudio:tundra/weeping_vines",
+			"fokastudio:tundra/bone_ceiling"
+		],
+		[],
+		[],
+		[
+			"fokastudio:shattered_end/bricks_scattered",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

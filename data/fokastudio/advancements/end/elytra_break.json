@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"nbt": "{Damage:431}"
+		},
+		"title": {
+			"translate": "Risky Flier"
+		},
+		"description": {
+			"translate": "Have an Elytra break while flying"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/elytra",
+	"criteria": {
+		"Break": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"durability": 1,
+				"item": {
+					"items": [
+						"minecraft:elytra"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

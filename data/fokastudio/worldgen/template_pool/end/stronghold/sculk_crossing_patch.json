@@ -1,0 +1,14 @@
+{
+	"name":"fokastudio:end/stronghold/sculk_crossing_patch",
+    "fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "terrain_matching",
+				"feature": "minecraft:sculk_patch_ancient_city"
+			}
+		}
+	]
+}

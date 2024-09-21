@@ -1,0 +1,94 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 6297194,
+		"fog_color": 4853627,
+		"water_color": 9462455,
+		"water_fog_color": 5192093,
+		"grass_color": 7945615,
+		"foliage_color": 6766727,
+		"ambient_sound": "ambient.nether_wastes.loop",
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 700,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.ultra_rare",
+			"tick_chance": 0.003
+		},
+		"particle": {
+			"options": {
+				"type": "warped_spore"
+			},
+			"probability": 0.015
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:creeper",
+				"weight": 25,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 15,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:spider",
+				"weight": 30,
+				"minCount": 2,
+				"maxCount": 2
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"far_end:wilds/island/hanging_leaves"
+		],
+		[
+			"fokastudio:chorus_jungle/patches"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:chorus_jungle/vines",
+			"fokastudio:shattered_end/leaves",
+			"fokastudio:chorus_jungle/trees",
+			"fokastudio:chorus_jungle/vegetation",
+			"minecraft:chorus_plant"
+		],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

@@ -1,0 +1,248 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.4,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_red_mushroom",
+						"config": {
+							"cap_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 6,
+										"data": {
+											"Name": "minecraft:cyan_stained_glass"
+										}
+									},
+									{
+										"weight": 20,
+										"data": {
+											"Name": "minecraft:light_blue_stained_glass"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:white_stained_glass"
+										}
+									}
+								]
+							},
+							"stem_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "true",
+										"west": "true"
+									}
+								}
+							}
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.1,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_red_mushroom",
+						"config": {
+							"cap_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 6,
+										"data": {
+											"Name": "minecraft:black_stained_glass"
+										}
+									},
+									{
+										"weight": 20,
+										"data": {
+											"Name": "minecraft:gray_stained_glass"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:light_gray_stained_glass"
+										}
+									}
+								]
+							},
+							"stem_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "true",
+										"west": "true"
+									}
+								}
+							}
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.2,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_red_mushroom",
+						"config": {
+							"cap_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 6,
+										"data": {
+											"Name": "minecraft:brown_stained_glass"
+										}
+									},
+									{
+										"weight": 20,
+										"data": {
+											"Name": "minecraft:orange_stained_glass"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:white_stained_glass"
+										}
+									}
+								]
+							},
+							"stem_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "true",
+										"west": "true"
+									}
+								}
+							}
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.3,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_red_mushroom",
+						"config": {
+							"cap_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 6,
+										"data": {
+											"Name": "minecraft:purple_stained_glass"
+										}
+									},
+									{
+										"weight": 20,
+										"data": {
+											"Name": "minecraft:magenta_stained_glass"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:pink_stained_glass"
+										}
+									}
+								]
+							},
+							"stem_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "true",
+										"west": "true"
+									}
+								}
+							}
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.4,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_red_mushroom",
+						"config": {
+							"cap_provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 6,
+										"data": {
+											"Name": "minecraft:green_stained_glass"
+										}
+									},
+									{
+										"weight": 20,
+										"data": {
+											"Name": "minecraft:lime_stained_glass"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:white_stained_glass"
+										}
+									}
+								]
+							},
+							"stem_provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:mushroom_stem",
+									"Properties": {
+										"down": "true",
+										"east": "true",
+										"north": "true",
+										"south": "true",
+										"up": "true",
+										"west": "true"
+									}
+								}
+							}
+						}
+					},
+					"placement": []
+				}
+			}
+		],
+		"default": "far_end:nothing"
+	}
+}

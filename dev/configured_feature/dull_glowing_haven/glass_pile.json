@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:yellow_stained_glass"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:green_stained_glass"
+          }
+        }
+      ]
+    }
+  }
+}

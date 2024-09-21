@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_shell"
+		},
+		"title": {
+			"translate": "Ninja"
+		},
+		"description": {
+			"translate": "Deflect a Shulker Bullet with a Shield"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/defeat_shulker",
+	"criteria": {
+		"hurtshulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "minecraft:shulker"
+					}
+				}
+			}
+		}
+	}
+}

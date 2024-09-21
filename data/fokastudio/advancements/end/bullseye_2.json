@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:target"
+		},
+		"title": {
+			"translate": "Bullseye?"
+		},
+		"description": {
+			"translate": "Hit a bullseye of a Target Block with an Ender Pearl from at least 30 blocks"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:end/root",
+	"criteria": {
+		"teleport": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"projectile": {
+					"type": "minecraft:ender_pearl",
+					"distance": {
+						"horizontal": {
+							"min": 30
+						}
+					}
+				},
+				"signal_strength": 15
+			}
+		}
+	},
+	"requirements": [
+		[
+			"teleport"
+		]
+	],
+	"rewards": {
+		"experience": 600
+	}
+}

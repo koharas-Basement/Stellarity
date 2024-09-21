@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"nbt": "{Enchantments:[{id:\"unbreaking\",lvl:3},{id:\"mending\",lvl:1}],Damage:431}"
+		},
+		"title": {
+			"translate": "Legally Blind"
+		},
+		"description": {
+			"translate": "Have an Elytra with Unbreaking III and Mending break while flying"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/elytra_break",
+	"criteria": {
+		"Break": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"durability": 1,
+				"item": {
+					"enchantments": [
+						{
+							"enchantment": "minecraft:unbreaking",
+							"levels": {
+								"min": 3
+							}
+						},
+						{
+							"enchantment": "minecraft:mending"
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 300
+	}
+}

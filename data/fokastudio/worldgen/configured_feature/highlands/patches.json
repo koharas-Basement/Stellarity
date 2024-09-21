@@ -1,0 +1,392 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 3,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.3,
+		"vegetation_chance": 0.5,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 3,
+				"max_inclusive": 6
+			}
+		},
+		"replaceable": "#fokastudio:end/highlands/patches_replacable",
+		"ground_state": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:end_stone"
+					}
+				},
+				{
+					"weight": 8,
+					"data": {
+						"Name": "minecraft:grass_block",
+						"Properties": {
+							"snowy": "false"
+						}
+					}
+				}
+			]
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:random_selector",
+				"config": {
+					"features": [
+						{
+							"chance": 0.001,
+							"feature": {
+								"feature": {
+									"type": "minecraft:block_column",
+									"config": {
+										"direction": "up",
+										"allowed_placement": {
+											"type": "minecraft:matching_blocks",
+											"blocks": [
+												"minecraft:air"
+											]
+										},
+										"prioritize_tip": true,
+										"layers": [
+											{
+												"height": {
+													"type": "minecraft:uniform",
+													"value": {
+														"min_inclusive": 0,
+														"max_inclusive": 3
+													}
+												},
+												"provider": {
+													"type": "minecraft:weighted_state_provider",
+													"entries": [
+														{
+															"weight": 7,
+															"data": {
+																"Name": "minecraft:nether_wart_block"
+															}
+														},
+														{
+															"weight": 3,
+															"data": {
+																"Name": "minecraft:red_nether_bricks"
+															}
+														},
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:nether_bricks"
+															}
+														}
+													]
+												}
+											},
+											{
+												"height": {
+													"type": "minecraft:uniform",
+													"value": {
+														"min_inclusive": 0,
+														"max_inclusive": 2
+													}
+												},
+												"provider": {
+													"type": "minecraft:weighted_state_provider",
+													"entries": [
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:red_nether_brick_wall",
+																"Properties": {
+																	"east": "none",
+																	"north": "none",
+																	"up": "true",
+																	"south": "none",
+																	"waterlogged": "false",
+																	"west": "none"
+																}
+															}
+														},
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:nether_brick_wall",
+																"Properties": {
+																	"east": "none",
+																	"south": "none",
+																	"north": "none",
+																	"up": "true",
+																	"waterlogged": "false",
+																	"west": "none"
+																}
+															}
+														},
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:crimson_fence",
+																"Properties": {
+																	"east": "false",
+																	"north": "false",
+																	"south": "false",
+																	"waterlogged": "false",
+																	"west": "false"
+																}
+															}
+														}
+													]
+												}
+											},
+											{
+												"height": 1,
+												"provider": {
+													"type": "minecraft:weighted_state_provider",
+													"entries": [
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:glowstone"
+															}
+														},
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:shroomlight"
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								"placement": []
+							}
+						},
+						{
+							"chance": 0.001,
+							"feature": {
+								"feature": {
+									"type": "minecraft:block_column",
+									"config": {
+										"direction": "up",
+										"allowed_placement": {
+											"type": "minecraft:matching_blocks",
+											"blocks": [
+												"minecraft:air"
+											]
+										},
+										"prioritize_tip": true,
+										"layers": [
+											{
+												"height": {
+													"type": "minecraft:uniform",
+													"value": {
+														"min_inclusive": 0,
+														"max_inclusive": 3
+													}
+												},
+												"provider": {
+													"type": "minecraft:weighted_state_provider",
+													"entries": [
+														{
+															"weight": 7,
+															"data": {
+																"Name": "minecraft:warped_wart_block"
+															}
+														},
+														{
+															"weight": 3,
+															"data": {
+																"Name": "minecraft:prismarine"
+															}
+														},
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:prismarine_bricks"
+															}
+														}
+													]
+												}
+											},
+											{
+												"height": {
+													"type": "minecraft:uniform",
+													"value": {
+														"min_inclusive": 0,
+														"max_inclusive": 2
+													}
+												},
+												"provider": {
+													"type": "minecraft:weighted_state_provider",
+													"entries": [
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:prismarine_wall",
+																"Properties": {
+																	"east": "none",
+																	"north": "none",
+																	"up": "true",
+																	"south": "none",
+																	"waterlogged": "false",
+																	"west": "none"
+																}
+															}
+														},
+														{
+															"weight": 1,
+															"data": {
+																"Name": "minecraft:warped_fence",
+																"Properties": {
+																	"east": "false",
+																	"north": "false",
+																	"south": "false",
+																	"waterlogged": "false",
+																	"west": "false"
+																}
+															}
+														}
+													]
+												}
+											},
+											{
+												"height": 1,
+												"provider": {
+													"type": "minecraft:simple_state_provider",
+													"state": {
+														"Name": "minecraft:sea_lantern"
+													}
+												}
+											}
+										]
+									}
+								},
+								"placement": []
+							}
+						},
+						{
+							"chance": 0.8,
+							"feature": {
+								"feature": {
+									"type": "minecraft:simple_block",
+									"config": {
+										"to_place": {
+											"type": "minecraft:weighted_state_provider",
+											"entries": [
+												{
+													"weight": 40,
+													"data": {
+														"Name": "minecraft:grass"
+													}
+												},
+												{
+													"weight": 20,
+													"data": {
+														"Name": "minecraft:tall_grass",
+														"Properties": {
+															"half": "lower"
+														}
+													}
+												},
+												{
+													"weight": 15,
+													"data": {
+														"Name": "minecraft:fern"
+													}
+												},
+												{
+													"weight": 10,
+													"data": {
+														"Name": "minecraft:large_fern",
+														"Properties": {
+															"half": "lower"
+														}
+													}
+												},
+												{
+													"weight": 3,
+													"data": {
+														"Name": "minecraft:acacia_leaves",
+														"Properties": {
+															"distance": "1",
+															"persistent": "true",
+															"waterlogged": "false"
+														}
+													}
+												},
+												{
+													"weight": 3,
+													"data": {
+														"Name": "minecraft:dark_oak_leaves",
+														"Properties": {
+															"distance": "1",
+															"persistent": "false",
+															"waterlogged": "false"
+														}
+													}
+												},
+												{
+													"weight": 3,
+													"data": {
+														"Name": "minecraft:oak_leaves",
+														"Properties": {
+															"distance": "1",
+															"persistent": "true",
+															"waterlogged": "false"
+														}
+													}
+												},
+												{
+													"weight": 3,
+													"data": {
+														"Name": "minecraft:jungle_leaves",
+														"Properties": {
+															"distance": "1",
+															"persistent": "true",
+															"waterlogged": "false"
+														}
+													}
+												}
+											]
+										}
+									}
+								},
+								"placement": [
+									{
+										"type": "minecraft:block_predicate_filter",
+										"predicate": {
+											"type": "minecraft:all_of",
+											"predicates": [
+												{
+													"type": "minecraft:matching_blocks",
+													"blocks": [
+														"minecraft:air"
+													]
+												},
+												{
+													"type": "minecraft:would_survive",
+													"state": {
+														"Name": "minecraft:grass"
+													}
+												}
+											]
+										}
+									}
+								]
+							}
+						}
+					],
+					"default": "far_end:nothing"
+				}
+			},
+			"placement": []
+		}
+	}
+}

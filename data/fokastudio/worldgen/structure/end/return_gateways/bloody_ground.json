@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "#fokastudio:end/return_gateways/has_bloody_gateway",
+	"step": "surface_structures",
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_thin",
+	"start_pool": "fokastudio:end/return_gateways/bloody_ground",
+	"size": 1,
+	"start_height": {
+		"absolute": 1
+	},
+	"project_start_to_heightmap": "WORLD_SURFACE_WG",
+	"max_distance_from_center": 20,
+	"use_expansion_hack": false
+}

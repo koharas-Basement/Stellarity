@@ -1,0 +1,25 @@
+{
+    "feature": "far_end:general/dragon_egg",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 5
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:noise_based_count",
+            "noise_to_count_ratio": 1,
+            "noise_factor": 75,
+            "noise_offset": 0.075
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

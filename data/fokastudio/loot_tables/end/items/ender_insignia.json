@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"ender_insignia\",CustomModelData:90000,display:{Lore: ['{\"translate\":\"Greatly increases life regen when\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"held and not moving\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The Dragon\\'s Power is withing your hands\",\"font\":\"illageralt\",\"color\":\"dark_purple\",\"italic\":false}'],Name:'{\"translate\":\"Ender Insignia\",\"color\":\"#A25AFF\",\"italic\":false}'},Enchantments:[{}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

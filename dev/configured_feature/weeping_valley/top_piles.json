@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 16,
+          "data": {
+            "Name": "minecraft:blackstone"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:obsidian"
+          }
+        },
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:crying_obsidian"
+          }
+        }
+      ]
+    }
+  }
+}

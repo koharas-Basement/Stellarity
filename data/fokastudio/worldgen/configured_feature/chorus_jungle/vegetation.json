@@ -1,0 +1,73 @@
+{
+	"type": "minecraft:flower",
+	"config": {
+		"tries": 250,
+		"xz_spread": 7,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:crimson_roots"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:warped_roots"
+								}
+							},
+							{
+								"weight": 3,
+								"data": {
+									"Name": "minecraft:nether_sprouts"
+								}
+							},
+							{
+								"weight": 7,
+								"data": {
+									"Name": "minecraft:fern"
+								}
+							},
+							{
+								"weight": 5,
+								"data": {
+									"Name": "minecraft:large_fern",
+									"Properties": {
+										"half": "lower"
+									}
+								}
+							},
+							{
+								"weight": 12,
+								"data": {
+									"Name": "minecraft:tall_grass",
+									"Properties": {
+										"half": "lower"
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				}
+			]
+		}
+	}
+}

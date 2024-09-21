@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Who's The Thief Now?"
+		},
+		"description": {
+			"translate": "Open a Treasure Chest in an End City"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/find_end_city",
+	"criteria": {
+		"open_chest": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/end_city_treasure"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"open_chest"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

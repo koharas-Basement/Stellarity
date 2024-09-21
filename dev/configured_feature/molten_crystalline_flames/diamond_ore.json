@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:diamond_ore"
+    },
+    "target": {
+      "Name": "minecraft:light_gray_terracotta"
+    },
+    "radius": 0
+  }
+}

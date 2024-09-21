@@ -1,0 +1,15 @@
+{
+	"name":"fokastudio:end/stronghold/fallback_end",
+    "fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/dead_end",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		}
+	]
+}

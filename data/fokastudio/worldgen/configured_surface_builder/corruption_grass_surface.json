@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "under_material": {
+      "Name": "minecraft:blue_terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:blue_terracotta"
+    }
+  }
+}

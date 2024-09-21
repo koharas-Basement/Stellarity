@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock",
+			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "True Ending"
+		},
+		"description": {
+			"translate": "Venture so deep into The End that there is barely any way home"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "fokastudio:end/walk_to_xz_10000",
+	"criteria": {
+		"this_player_is_in_seek_of_medical_attention": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"position": {
+									"x": {
+										"min": -20000,
+										"max": 20000
+									},
+									"z": {
+										"min": -20000,
+										"max": 20000
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 2500
+	}
+}

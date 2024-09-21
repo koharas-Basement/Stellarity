@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:air"
+    },
+    "decor_state": {
+      "Name": "minecraft:stripped_crimson_hyphae",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "stem_state": {
+      "Name": "minecraft:magenta_terracotta"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:end_stone",
+      "Properties": {
+        "age": "5"
+      }
+    },
+    "planted": false
+  }
+}

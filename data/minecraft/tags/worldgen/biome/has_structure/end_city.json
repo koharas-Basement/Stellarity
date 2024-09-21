@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "fokastudio:the_hallow",
+    "minecraft:end_barrens",
+    "fokastudio:chorus_jungle",
+    "far_end:end_wilds",
+    "far_end:ender_waste",
+    "far_end:warped_marsh",
+    "fokastudio:frosted_hills"
+  ]
+}

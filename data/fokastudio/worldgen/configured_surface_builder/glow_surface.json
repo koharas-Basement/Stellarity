@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:yellow_stained_glass"
+    },
+    "under_material": {
+      "Name": "minecraft:netherrack"
+    },
+    "underwater_material": {
+      "Name": "minecraft:yellow_terracotta"
+    }
+  }
+}

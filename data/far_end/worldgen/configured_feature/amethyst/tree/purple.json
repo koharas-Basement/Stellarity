@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:dark_oak_leaves",
+			"Properties": {
+				"distance": "7",
+				"persistent": "true",
+				"waterlogged": "false"
+			}
+		},
+		"decor_state": {
+			"Name": "minecraft:jungle_leaves",
+			"Properties": {
+				"distance": "7",
+				"persistent": "true",
+				"waterlogged": "false"
+			}
+		},
+		"stem_state": {
+			"Name": "minecraft:dark_oak_log",
+			"Properties": {
+				"axis": "y"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:grass_block",
+			"Properties": {
+				"snowy": "false"
+			}
+		},
+		"planted": true
+	}
+}

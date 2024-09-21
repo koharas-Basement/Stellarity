@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:silver_mineral_dunes/diamond_ore",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

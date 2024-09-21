@@ -1,0 +1,11 @@
+{
+		"replace": false,
+		"values": [
+			"minecraft:soul_sand",
+			"minecraft:soul_soil",
+			"minecraft:end_stone",
+			"end_stone_bricks",
+			"end_stone_brick_slab",
+			"end_stone_brick_stairs"
+		]
+}

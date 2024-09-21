@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:block_column",
+	"config": {
+		"direction": "down",
+		"allowed_placement": {
+			"type": "minecraft:true"
+		},
+		"prioritize_tip": true,
+		"layers": [
+			{
+				"height": 1,
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:sculk_sensor",
+						"Properties": {
+							"power": "0",
+							"sculk_sensor_phase": "inactive",
+							"waterlogged": "false"
+						}
+					}
+				}
+			},
+			{
+				"height": {
+					"type": "minecraft:weighted_list",
+					"distribution": [
+						{
+							"weight": 340,
+							"data": 0
+						},
+						{
+							"weight": 1,
+							"data": 2
+						},
+						{
+							"weight": 50,
+							"data": 1
+						}
+					]
+				},
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:tnt",
+						"Properties": {
+							"unstable": "true"
+						}
+					}
+				}
+			}
+		]
+	}
+}

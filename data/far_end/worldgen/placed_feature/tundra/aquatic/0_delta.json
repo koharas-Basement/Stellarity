@@ -1,0 +1,9 @@
+{
+    "feature": "far_end:tundra/aquatic/0_delta",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 15
+        }
+    ]
+}

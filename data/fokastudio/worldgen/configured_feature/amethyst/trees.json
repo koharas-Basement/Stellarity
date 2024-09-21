@@ -1,0 +1,133 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:amethyst/tree_1",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:amethyst/tree_2",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:amethyst/tree_3",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "far_end:amethyst/tree/purple",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "far_end:amethyst/tree/umbrella",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:tree",
+				"config": {
+					"ignore_vines": true,
+					"minimum_size": {
+						"type": "minecraft:three_layers_feature_size"
+					},
+					"dirt_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:dirt"
+						}
+					},
+					"trunk_provider": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:mushroom_stem",
+							"Properties": {
+								"down": "true",
+								"east": "true",
+								"north": "true",
+								"south": "true",
+								"up": "true",
+								"west": "true"
+							}
+						}
+					},
+					"foliage_provider": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 30,
+								"data": {
+									"Name": "minecraft:amethyst_block"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:budding_amethyst"
+								}
+							},
+							{
+								"weight": 5,
+								"data": {
+									"Name": "minecraft:purpur_block"
+								}
+							},
+							{
+								"weight": 2,
+								"data": {
+									"Name": "minecraft:glowstone"
+								}
+							}
+						]
+					},
+					"trunk_placer": {
+						"type": "minecraft:mega_jungle_trunk_placer",
+						"base_height": 20,
+						"height_rand_a": 7,
+						"height_rand_b": 15
+					},
+					"foliage_placer": {
+						"type": "minecraft:jungle_foliage_placer",
+						"radius": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 2,
+								"max_inclusive": 3
+							}
+						},
+						"offset": {
+							"type": "minecraft:uniform",
+							"value": {
+								"min_inclusive": 0,
+								"max_inclusive": 1
+							}
+						},
+						"height": 3
+					},
+					"decorators": [
+						{
+							"type": "minecraft:leave_vine",
+							"probability": 0.25
+						}
+					]
+				}
+			},
+			"placement": []
+		}
+	}
+}

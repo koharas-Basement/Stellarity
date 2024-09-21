@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:swamp",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:moss_block"
+    },
+    "under_material": {
+      "Name": "minecraft:end_stone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:end_stone"
+    }
+  }
+}

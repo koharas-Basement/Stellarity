@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/giant_mushrooms",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 65465475613,
+		"spacing": 3,
+		"separation": 1
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:dried_weeping_valley/dried_top_piles",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 32
+    },
+		{
+			"type": "minecraft:biome"
+		}
+  ]
+}

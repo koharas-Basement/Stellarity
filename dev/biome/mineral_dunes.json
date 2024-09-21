@@ -1,0 +1,89 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0.1,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 9737364,
+    "water_color": 8989183,
+    "water_fog_color": 1508659,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "mminecraft:music.nether.nether_wastes",
+      "min_delay": 1,
+      "max_delay": 1,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.07
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:silverfish",
+        "weight": 2,
+        "minCount": 0,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:skeleton": {
+      "energy_budget": 0.18,
+      "charge": 0.7
+    }
+  },
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
+  "features": [
+    [
+      "fokastudio:replace_grass",
+      "fokastudio:replace_snow",
+      "fokastudio:replace_ice",
+      "fokastudio:replace_netherrack",
+      "fokastudio:replace_basalt",
+      "minecraft:end_gateway_return",
+      "fokastudio:mineral_dunes/iron_ore",
+      "fokastudio:mineral_dunes/lapis_ore",
+      "fokastudio:mineral_dunes/diamond_ore",
+      "fokastudio:mineral_dunes/gravel_piles"
+    ],
+    [
+      "fokastudio:mineral_dunes/small_iron_ore",
+      "fokastudio:mineral_dunes/small_lapis_ore",
+      "fokastudio:mineral_dunes/gravel_columns"
+    ],
+    [
+      "fokastudio:mineral_dunes/gray_powder",
+      "fokastudio:mineral_dunes/gravel"
+    ]
+  ]
+}

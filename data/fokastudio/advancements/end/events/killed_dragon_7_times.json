@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"sacrifice": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"stats": [
+							{
+								"type": "minecraft:killed",
+								"stat": "minecraft:ender_dragon",
+								"value": {
+									"min": 6
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sacrifice"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/mechanics/ends_blessing/7_kills"
+	}
+}

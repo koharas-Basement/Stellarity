@@ -1,0 +1,114 @@
+{
+	"type": "minecraft:block_column",
+	"config": {
+		"direction": "down",
+		"allowed_placement": {
+			"type": "minecraft:matching_blocks",
+			"blocks": [
+				"minecraft:air"
+			]
+		},
+		"prioritize_tip": true,
+		"layers": [
+			{
+				"height": {
+					"type": "minecraft:weighted_list",
+					"distribution": [
+						{
+							"weight": 2,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 0,
+									"max_inclusive": 32
+								}
+							}
+						},
+						{
+							"weight": 3,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 0,
+									"max_inclusive": 6
+								}
+							}
+						},
+						{
+							"weight": 10,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 0,
+									"max_inclusive": 9
+								}
+							}
+						}
+					]
+				},
+				"provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 4,
+							"data": {
+								"Name": "minecraft:cave_vines_plant",
+								"Properties": {
+									"berries": "false"
+								}
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:cave_vines_plant",
+								"Properties": {
+									"berries": "true"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"height": 1,
+				"provider": {
+					"type": "minecraft:randomized_int_state_provider",
+					"property": "age",
+					"values": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 23,
+							"max_inclusive": 25
+						}
+					},
+					"source": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 4,
+								"data": {
+									"Name": "minecraft:cave_vines",
+									"Properties": {
+										"berries": "false",
+										"age": "0"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:cave_vines",
+									"Properties": {
+										"berries": "true",
+										"age": "0"
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}

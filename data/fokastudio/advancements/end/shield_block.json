@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shield",
+			"nbt": "{Enchantments:[{id:\"mending\",lvl:1}],BlockEntityTag:{Base:10,Patterns:[{Pattern:\"hh\",Color:15},{Pattern:\"tt\",Color:10},{Pattern:\"mr\",Color:15},{Pattern:\"ms\",Color:10},{Pattern:\"flo\",Color:15},{Pattern:\"sku\",Color:15}]}}"
+		},
+		"title": {
+			"translate": "Time Shield"
+		},
+		"description": {
+			"translate": "Block the hit of an enderman"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/anger_enderman",
+	"criteria": {
+		"Block": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "minecraft:enderman"
+					}
+				}
+			}
+		}
+	}
+}

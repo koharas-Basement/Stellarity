@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:obsidian"
+		},
+		"title": {
+			"translate": "Unavoidable"
+		},
+		"description": {
+			"translate": "Enter The Void biome - the deepest regions of The End"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/ender_adventurer",
+	"criteria": {
+		"enter_void": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:void"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"enter_void"
+		]
+	]
+}

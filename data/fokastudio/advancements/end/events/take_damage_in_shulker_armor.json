@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"take_damage_in_shulker_armor": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						},
+						"chest": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						},
+						"legs": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						},
+						"feet": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"take_damage_in_shulker_armor"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/armors/shulker_armor/take_damage"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"shot_clockwork_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"nbt": "{foka.special_item:\"clockwork_crossbow\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/clockwork_crossbow/shoot"
+	}
+}

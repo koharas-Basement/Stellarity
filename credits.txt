@@ -1,0 +1,78 @@
+=================================================
+	__  ____     ___  ___    ____  ______  _____
+   /  ]|    \   /  _]|   \  |    ||      |/ ___/
+  /  / |  D  ) /  [_ |    \  |  | |      (   \_ 
+ /  /  |    / |    _]|  D  | |  | |_|  |_|\__  |
+/   \_ |    \ |   [_ |     | |  |   |  |  /  \ |
+\     ||  .  \|     ||     | |  |   |  |  \    |
+ \____||__|\_||_____||_____||____|  |__|   \___|
+												
+=================================================
+
+FUNCTIONS:
+
+	Hex - https://www.planetminecraft.com/member/hex_-now_loading-/
+		Base pack, every function in 'far_end' namespace is 99% made by them. 
+		I only did small alterations to apply small tweaks and changes.
+
+	Cloud Wolf - https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g
+		Code in 'rng' namespace
+
+	ICY105 - https://github.com/ICY105
+		Code in 'duitls' namespace
+		In case you didn't notice, this is purely Datapack Utilities,
+		just changed the namespace to avoid incompatibilities
+		with other packs that might use it!
+
+
+
+
+WORLDGEN:
+	
+	Hex - https://www.planetminecraft.com/member/hex_-now_loading-/
+		What did ya expect here?
+
+	_humanoid - https://www.planetminecraft.com/member/_humanoid/
+		Luminous End and Un-Luminous End were an inspiration for me.
+		Also, Humanoid is doing a compatibility patch for both packs, so <3
+	
+	Misode - https://github.com/misode
+		Their generators (https://misode.github.io/) have helped me a lot with development.
+		Especially the Upgrader, which has done like 40% of my tasks for me!
+
+	Starmute - https://www.planetminecraft.com/member/starmute/
+		Nullscapes was also a giantic inspiration, this one for more
+		barren biomes.
+		Also, the Snow Layers in Frosted Hills are from their pack - Terralith.
+
+
+
+
+ADVANCEMENTS:
+
+	Misode - https://github.com/misode
+		Yeah, I used Misode's generators to create Advancements as well...
+	
+	Cavinator1 - https://www.planetminecraft.com/member/cavinator1/
+		'BlazeandCave's Advancement Pack' has been an inspiration for
+		like 20% of the Advancements in this pack.
+		You can clearly see it at some places xD (here read: 'Portable Storage')
+
+	RaiderRoss#6666
+		They made like 6 advancements! Not for the pack,
+		but they were kind enough to share these with me <3
+
+
+
+
+PREDICATES:
+
+	Misode - https://github.com/misode
+		At this point you know what I would write there...
+
+	UltroGhast - https://www.planetminecraft.com/member/ultroghast/
+		Their 'Random Choices and Possibilities' Data Pack made creating chance-based
+		features way more doable
+
+
+

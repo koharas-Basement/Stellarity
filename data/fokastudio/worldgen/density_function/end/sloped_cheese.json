@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:add",
+	"argument1": {
+		"type": "minecraft:mul",
+		"argument1": 4,
+		"argument2": {
+			"type": "minecraft:quarter_negative",
+			"argument": {
+				"type": "minecraft:mul",
+				"argument1": {
+					"type": "minecraft:add",
+					"argument1": "fokastudio:end/depth",
+					"argument2": {
+						"type": "minecraft:mul",
+						"argument1": "fokastudio:end/jaggedness",
+						"argument2": {
+							"type": "minecraft:quarter_negative",
+							"argument": {
+								"type": "minecraft:noise",
+								"noise": "fokastudio:end/jagged",
+								"xz_scale": 800,
+								"y_scale": 0
+							}
+						}
+					}
+				},
+				"argument2": "fokastudio:end/factor"
+			}
+		}
+	},
+	"argument2": "fokastudio:end/base_3d_noise"
+}

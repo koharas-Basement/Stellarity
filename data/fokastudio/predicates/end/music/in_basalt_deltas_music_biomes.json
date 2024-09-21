@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_blazing_dunes"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_ashfall_delta"
+		}
+	]
+}

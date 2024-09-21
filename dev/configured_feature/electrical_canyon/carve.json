@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "minecraft:air"
+    },
+    "rim": {
+      "Name": "minecraft:air"
+    },
+    "size": 1,
+    "rim_size": 0
+  }
+}

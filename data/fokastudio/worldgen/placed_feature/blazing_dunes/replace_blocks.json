@@ -1,0 +1,44 @@
+{
+	"feature": "fokastudio:blazing_dunes/replace_blocks",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 256
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
+		},
+		{
+			"type": "in_square"
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -3,
+					"max_inclusive": 3
+				}
+			},
+			"y_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -3,
+					"max_inclusive": 3
+				}
+			}
+		}
+	]
+}

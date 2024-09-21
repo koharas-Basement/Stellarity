@@ -1,0 +1,12 @@
+{
+	"feature": "fokastudio:global/snowy/freeze_layers",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 256
+		}
+	]
+}
