@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.summon_empress",
+			"fallback": "The Pristine Queen",
+			"color": "light_purple"
+		},
+		"description": {
+			"translate": "stellarity.advancements.summon_empress.description",
+			"fallback": "Throw Pixie Dust onto Altar of The Light to summon Her Majesty"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/enter_hallow",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

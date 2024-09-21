@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/iron_ingot"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"stellarity:item/hallowed_ingot"},{"predicate":{"custom_model_data":90001},"model":"stellarity:item/ancient_plating"}]}

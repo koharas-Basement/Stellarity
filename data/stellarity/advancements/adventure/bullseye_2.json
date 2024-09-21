@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:target"
+		},
+		"title": {
+			"translate": "stellarity.advancements.bullseye_2",
+			"fallback": "Bullseye?"
+		},
+		"description": {
+			"translate": "stellarity.advancements.bullseye_2.description",
+			"fallback": "Hit a bullseye of a Target Block with an Ender Pearl from at least 10 blocks"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:adventure/bullseye",
+	"criteria": {
+		"teleport": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"projectile": {
+					"type": "minecraft:ender_pearl",
+					"distance": {
+						"horizontal": {
+							"min": 10
+						}
+					}
+				},
+				"signal_strength": 15
+			}
+		}
+	},
+	"requirements": [
+		[
+			"teleport"
+		]
+	],
+	"rewards": {
+		"experience": 300
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {}
+				},
+				"player": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {"mainhand": {"items": ["shield"],"nbt": "{stellarity.special_item:\"crest_of_the_end\"}"}}
+								}
+							},
+							{
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {"offhand": {"items": ["shield"],"nbt": "{stellarity.special_item:\"crest_of_the_end\"}"}}
+								}
+							}
+						]
+					}
+				]
+
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/crest_of_the_end/block_damage"
+	}
+}

@@ -1,0 +1,207 @@
+site_name: Stellarity Wiki
+site_url: https://hohy-creates.github.io/Stellarity/
+site_description: >-
+  Wiki for the Stellarity project
+
+repo_url: https://github.com/kohy-creates/Stellarity
+repo_name: Stellarity on Github
+
+nav:
+  - Home:
+    - Home: index.md
+    - Installation: installation.md
+    - Downloads: downloads.md
+    - Troubleshooting: troubleshooting.md
+  - Biomes: 
+    - The Hallow: biomes/the_hallow.md
+  - Items:
+    - Cursed Tome: items/cursed_tome.md
+    - Weapons: 
+      - Sharanga: items/sharanga.md
+      - Clockwork Crossbow: items/clockwork_crossbow.md
+      - Dragonblade: items/dragonblade.md
+      - Prismatic Punch: items/prismatic_punch.md
+      - Zephyr: items/zephyr.md
+      - Sariel: items/sariel.md
+      - Sabrewing: items/sabrewing.md
+      - Spirit Dagger: items/spirit_dagger.md
+      - Tamaris: items/tamaris.md
+      - Frigid Harvester: items/frigid_harvester.md
+      - Stella: items/stella.md
+      - Kaleidoscope: items/kaleidoscope.md
+      - Ancient Wooden Sword: items/ancient_wooden_sword.md
+    - Armor sets:
+      - Ancient Armor: items/armor/ancient_armor.md
+      - Hallowed Armor: items/armor/hallowed_armor.md
+      - Shulker Armor: items/armor/shulker_armor.md
+    - Trinkets:
+      - Ender Insignia: items/trinkets/ender_insignia.md
+      - Crest of The End: items/trinkets/crest_of_the_end.md
+      - Duskberry: items/trinkets/duskberry.md
+      - Starstruck Carcanet: items/trinkets/starstruck_carcanet.md
+      - Soaring Insignia: items/trinkets/soaring_insignia.md
+    - Materials:
+      - Pixie Dust: items/materials/pixie_dust.md
+      - Ancient Plating: items/materials/ancient_plating.md
+      - Hallowed Ingot: items/materials/hallowed_ingot.md
+    - Spellbooks:
+      - Book of Conveyance: items/spellbooks/conveyance.md
+      - Book of Updraft: items/spellbooks/updraft.md
+      - Book of Light: items/spellbooks/light.md
+      - Nature's Wrath: items/spellbooks/natures_wrath.md
+    - Other:
+      - Prismatic Pearl: items/other/prismatic_pearl.md
+      - Shulker Tools: items/tools/shulker_tools.md
+  #    - Pandora's Barrel: items/other/pandoras_barrel.md
+      - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
+  #    - Potions: items/other/potions.md
+  - Mechanics:
+      - Treasure Heads: mechanics/treasure_heads.md
+      - Void Fishing: mechanics/void_fishing.md
+      - Other: mechanics/other.md
+
+markdown_extensions:
+  - extra
+  - admonition
+  - attr_list
+  - md_in_html
+  - meta
+  - abbr
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.magiclink
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - toc:
+      permalink: true
+      title: Contents
+
+copyright: Copyright &copy kohara; 2021 - 2023
+
+plugins:
+  - search:
+      lang: en
+  #- git-revision-date-localized:
+  #    type: datetime
+  #    fallback_to_build_date: true
+  #    enable_creation_date: true
+  - minify:
+      minify_html: true
+  - redirects:
+      redirect_maps:
+          'downloads.md': 'https://modrinth.com/datapack/stellarity/versions#all-versions'
+
+theme:
+  name: material
+  include_search_page: false
+  search_index_only: true
+  font:
+    text: Roboto
+
+  features:
+    - search.suggest
+    - search.share
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    - content.tabs.link
+
+  palette:
+
+    - scheme: hallow
+      toggle:
+        icon: material/brightness-4
+        name: Switch themes
+
+    - scheme: den
+      toggle:
+        icon: material/brightness-7 
+        name: Switch themes
+    
+    - scheme: amethyst
+      toggle:
+        icon: material/brightness-4
+        name: Switch themes
+    
+    - scheme: prismarine
+      toggle:
+        icon: material/brightness-4
+        name: Switch themes
+    
+    - scheme: barrens
+      toggle:
+        icon: material/brightness-4
+        name: Switch themes
+    
+    - scheme: flesh
+      toggle:
+        icon: material/brightness-4
+        name: Switch themes
+  
+  favicon: assets/logo.png
+  logo: assets/text.png
+
+  icon:
+    repo: fontawesome/solid/trash
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+extra_css:
+  - css/extra.css
+  - css/themes.css
+  - css/icons-minecraft-0.5.css
+  - css/icons-stellarity.css
+  - css/advancements.css
+
+extra_javascript:
+  - js/extra.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/J6guYAySN8
+      name: kohara's Discord Server
+    - icon: fontawesome/brands/github
+      link: https://github.com/kohy-creates
+      name: kohara on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCRqeCM1qtK9R8f2Q8mCPJ1g
+      name: kohara's Youtube Channel
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/kohara_
+      name: kohara on Reddit
+  generator: true
+  analytics:
+    provider: google
+    property: G-FGQEDQRDJK

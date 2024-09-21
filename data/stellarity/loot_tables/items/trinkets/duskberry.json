@@ -1,0 +1,127 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.duskberry",
+								"fallback": "Duskberry",
+								"color": "#8100CB",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "stellarity.duskberry.damage",
+									"amount": 0.12,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "stellarity.duskberry.speed",
+									"amount": 0.1,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "stellarity.duskberry.attack_speed",
+									"amount": 0.04,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "stellarity.duskberry.damage",
+									"amount": 0.12,
+									"operation": "multiply_base",
+									"slot": "offhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "stellarity.duskberry.speed",
+									"amount": 0.1,
+									"operation": "multiply_base",
+									"slot": "offhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "stellarity.duskberry.attack_speed",
+									"amount": 0.04,
+									"operation": "multiply_base",
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.duskberry.description.1",
+									"fallback": "Empowers your speed, sight",
+									"color": "#AB6AD1",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.duskberry.description.2",
+									"fallback": "and strength while held",
+									"color": "#AB6AD1",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.duskberry.description.3",
+									"fallback": "Consuming or planting might",
+									"color": "#AB6AD1",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.duskberry.description.4",
+									"fallback": "have dire consequences",
+									"color": "#AB6AD1",
+									"italic": false
+								},
+								" ",
+								[
+									{
+										"text": "- ",
+										"color": "#76389B",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.member_666",
+										"fallback": "Member #666 Item",
+										"color": "#76389B",
+										"font": "illageralt",
+										"italic": false,
+										"obfuscated": false
+									},
+									{
+										"text": " -",
+										"color": "#76389B",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,HideFlags:3,Enchantments:[{}],stellarity.special_item:\"duskberry\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

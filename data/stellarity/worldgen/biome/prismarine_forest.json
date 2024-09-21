@@ -1,0 +1,62 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": false,
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 5818862,
+		"water_fog_color": 1456474,
+		"grass_color": 9764856,
+		"foliage_color": 11403007,
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_delay": 500,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.ultra_rare",
+			"tick_chance": 0.001
+		},
+		"particle": {
+			"options": {
+				"type": "dripping_dripstone_water"
+			},
+			"probability": 0.001
+		}
+	},
+	"spawners": {},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"stellarity:ravine",
+			"stellarity:crack"
+		]
+	},
+	"features": [
+		[
+			"stellarity:prismarine_forest/prismarine_bottom"
+		],
+		[],
+		[
+			"stellarity:prismarine_forest/puddle",
+			"stellarity:prismarine_forest/lake"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"stellarity:prismarine_forest/trees",
+			"stellarity:prismarine_forest/vegetation",
+			"stellarity:prismarine_forest/grass",
+			"stellarity:amethyst/roots"
+		],
+		[]
+	]
+}

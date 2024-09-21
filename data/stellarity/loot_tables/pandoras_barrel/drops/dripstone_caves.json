@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:dripstone_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:pointed_dripstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

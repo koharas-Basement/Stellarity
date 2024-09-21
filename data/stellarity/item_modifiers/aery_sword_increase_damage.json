@@ -1,0 +1,62 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "stellarity:temp"
+        },
+        "ops": [
+            {
+                "source": "aery_sword.lore",
+                "target": "display.Lore",
+                "op": "replace"
+            },
+            {
+                "source": "aery_sword.damage",
+                "target": "AttributeModifiers[{Name:\"stellarity.aery_sword\"}].Amount",
+                "op": "replace"
+            },
+            {
+                "source": "aery_sword.damage",
+                "target": "\"stellarity.aery_sword.damage\"",
+                "op": "replace"
+            },
+            {
+                "source": "aery_sword.cmd",
+                "target": "CustomModelData",
+                "op": "replace"
+            }
+        ]
+    },
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+            [
+                " ",
+                {
+                    "translate": "attribute.modifier.plus.0",
+                    "with": [
+                        [
+                            {
+                                "nbt": "aery_sword.damage_int",
+                                "storage": "stellarity:temp"
+                            },
+                            {
+                                "nbt": "aery_sword.damage_round",
+                                "storage": "stellarity:temp"
+                            }
+                        ],
+                        {
+                            "translate": "stellarity.items.frigid_harvester.attribute",
+                            "fallback": "Extra Damage"
+                        }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                }
+            ]
+		],
+		"replace": false
+	}
+]

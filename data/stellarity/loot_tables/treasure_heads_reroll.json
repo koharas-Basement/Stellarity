@@ -1,0 +1,1230 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:1,stellarity.special_item:\"treasure_head\",SkullOwner:\"ApolloDev\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Don't do worldgen, kids.'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:2,stellarity.special_item:\"treasure_head\",SkullOwner:\"kohara_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'downloading this pack was your last mistake'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:3,stellarity.special_item:\"treasure_head\",SkullOwner:\"kohara_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'nah, i'm feeling fabulous!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:4,stellarity.special_item:\"treasure_head\",SkullOwner:\"kohara_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'hot furry boys... oh god i am drooling again'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:5,stellarity.special_item:\"treasure_head\",SkullOwner:\"ArubikU\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Sometimes the code doesn't work'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:6,stellarity.special_item:\"treasure_head\",SkullOwner:\"ArubikU\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'If u love him...'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:7,stellarity.special_item:\"treasure_head\",SkullOwner:\"ArubikU\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'The darkness is lighter'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:8,stellarity.special_item:\"treasure_head\",SkullOwner:\"Jeany\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Worship the great turtle god!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:9,stellarity.special_item:\"treasure_head\",SkullOwner:\"Devilcasters\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'It must do something...'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:10,stellarity.special_item:\"treasure_head\",SkullOwner:\"purejosh\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Can probably be found in his office,",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+								{
+									"text": "drinking a bougie coffee and creating a github ticket.'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:11,stellarity.special_item:\"treasure_head\",SkullOwner:\"LinerRider\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'We Ride The Lines'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:12,stellarity.special_item:\"treasure_head\",SkullOwner:\"Jxsh_xx11\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'lover of thy mom'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:13,stellarity.special_item:\"treasure_head\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"italic\":false,\"with\":[{\"text\":\"TurtelCult\"}]}'},SkullOwner:{Id:[I;-265624730,1514561203,-1397163669,1742773019],Properties:{textures:[{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg1OWE5MDY5NDg4NDg1ODViNTJjMTRjZDZlNTc2MmJmMDM1YmE1MzRiZDFmMzE1OGY0NDUzZTVkYTAzYzU5YiJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Holds the power and souls of",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+								{
+									"text": "all the Turtel Cult Members'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:14,stellarity.special_item:\"treasure_head\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"italic\":false,\"with\":[{\"text\":\"LabRat\"}]}'},SkullOwner:{Id:[I;1730907666,-1140697607,-1403292245,-583096898],Properties:{textures:[{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc4NzY2MWJkMTY4MDc1NTNlODIzMGY0Zjg5ZWNkOTJkNjRhOTBmN2JhZGY1MDFiZDY3YWI4NzU4ZjBmNmQ1OSJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'A starved volunteer for a certain youtuber'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:15,stellarity.special_item:\"treasure_head\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"italic\":false,\"with\":[{\"text\":\"IbzoRpun\"}]}'},SkullOwner:{Id:[I;1187433109,466504025,-1252916835,-975355548],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQwZDIzNTQxYzhjZWUyY2RhMjYwMmQ4ZjNjMmM0OWVhMjA5OWVjNDU5NjFkMGFjYmQ2ZGQ5MWU1MGFkMTA1OCJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Shift 7'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:16,stellarity.special_item:\"treasure_head\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"italic\":false,\"with\":[{\"text\":\"Bush_King\"}]}'},SkullOwner:{Id:[I;500308892,315704325,-1785840945,1489287011],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQwOTQxMmNiOGQwYTU3ZTI1Yjk3MmVjNTExYTRkNWZlZTYxNjE5ZTE2ODEwNGM3NWQ3YzdiYmRkMjE2ZTNhYSJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'A beautiful plant is like having a friend around the house'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:17,stellarity.special_item:\"treasure_head\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"italic\":false,\"with\":[{\"text\":\"DuskAdler\"}]}'},SkullOwner:{Id:[I;1316295466,466108755,-1417515517,566878893],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFmZDMwOTczYzc1ZDg4ZjY5ZjBhOWI2NDU1MDVhMzNhZmQwMzAzMmRiMGQ3MzQ0MzczMDM1YTBhM2EzOGI1NSJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Plan 3 steps ahead of time'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:18,stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'*Insert Lore Here*'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:19,stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'It is not stealing code if you",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+								{
+									"text": "change variable names!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:20,stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'A mysterious head! Belongs to a",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+								{
+									"text": "developer, youtuber and LoL player'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:21,stellarity.special_item:\"treasure_head\",SkullOwner:\"trikop\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Can't die if you're already dead yk- ;-;'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:22,stellarity.special_item:\"treasure_head\",SkullOwner:\"TheRedmc_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Life is life, Creeper is death'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:23,stellarity.special_item:\"treasure_head\",SkullOwner:\"css_scripter\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[
+									{
+										"text": "'big holes",
+										"color": "#9D9D9D",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": " big holes",
+										"color": "#9D9D9D",
+										"bold": false,
+										"italic": true
+									},
+									{
+										"text": " big holes",
+										"color": "#9D9D9D",
+										"bold": true,
+										"italic": false
+									},
+									{
+										"text": " BIG HOLES",
+										"color": "#9D9D9D",
+										"bold": true,
+										"italic": false
+									}
+								],
+								[
+									{
+										"text": " BIG HOLES",
+										"color": "#9D9D9D",
+										"bold": true,
+										"italic": true
+									},
+									{
+										"text": " B I G H O L E S",
+										"color": "#9D9D9D",
+										"bold": true,
+										"italic": true
+									},
+									{
+										"text": "'",
+										"color": "#9D9D9D",
+										"bold": false,
+										"italic": false
+									}
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:24,stellarity.special_item:\"treasure_head\",SkullOwner:\"IEatPotatoes_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'this is a serious cry for help'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:25,stellarity.special_item:\"treasure_head\",SkullOwner:\"cclack\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Throwing this in lava has a large chance of doing nothing'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:26,stellarity.special_item:\"treasure_head\",SkullOwner:\"Hierol\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Meth... I mean moth :D'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:27,stellarity.special_item:\"treasure_head\",SkullOwner:\"Mizuuwa\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Dont buy no weed from the gas station bro'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:28,stellarity.special_item:\"treasure_head\",SkullOwner:\"SadlyBorger\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Look how they massacred ma boi foka'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:29,stellarity.special_item:\"treasure_head\",SkullOwner:\"MidasDaEpik\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Just here to watch the world burn'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:30,stellarity.special_item:\"treasure_head\",SkullOwner:\"MidasDaEpik\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Would you like to get burned alive?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:31,stellarity.special_item:\"treasure_head\",SkullOwner:\"_Quamsy\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Quam was here'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:32,stellarity.special_item:\"treasure_head\",SkullOwner:\"Sylixa\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Moew~'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:33,stellarity.special_item:\"treasure_head\",SkullOwner:\"Moood\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'this pack is sponsored by church taxes'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:34,stellarity.special_item:\"treasure_head\",SkullOwner:\"INQIZZO\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'FSEEX?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:35,stellarity.special_item:\"treasure_head\",SkullOwner:\"potato10l\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Wisdom always chased me but i was faster'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:36,stellarity.special_item:\"treasure_head\",SkullOwner:\"IEatPotatoes_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'AHGSUHMWOMHIOCANIMC'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:37,stellarity.special_item:\"treasure_head\",SkullOwner:\"Pailomots\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'How did you find me?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:38,stellarity.special_item:\"treasure_head\",SkullOwner:\"catter1\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Did someone say... salmon?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:39,stellarity.special_item:\"treasure_head\",SkullOwner:\"boyjob\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Why don't you make like an RPG and turn based?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:40,stellarity.special_item:\"treasure_head\",SkullOwner:\"MugLoved\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'I used to rule the world, Chunks would load when I gave the Word!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:41,stellarity.special_item:\"treasure_head\",SkullOwner:\"DuckyDev_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Monke'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:42,stellarity.special_item:\"treasure_head\",SkullOwner:\"INQIZZO\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'The best method of suicide is pinging starmute on discord'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:43,stellarity.special_item:\"treasure_head\",SkullOwner:\"TheRedmc_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Gigachad timeee!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:44,stellarity.special_item:\"treasure_head\",SkullOwner:\"jhens_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Exams! -.-'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:45,stellarity.special_item:\"treasure_head\",SkullOwner:\"MoonLuna\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'mom'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:46,stellarity.special_item:\"treasure_head\",SkullOwner:\"KrunchyTaco\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'mmm tacos'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:47,stellarity.special_item:\"treasure_head\",SkullOwner:\"IEatPotatoes_\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'He only had 4K subs, all L’s, no dubs'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:48,stellarity.special_item:\"treasure_head\",SkullOwner:\"Azrotho\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Just a french guy, baguette.'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:49,stellarity.special_item:\"treasure_head\",SkullOwner:\"Portal2001\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'The only boss of The End is the Dragon,",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+								{
+									"text": "all Heads you see are the players killed by it'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:50,stellarity.special_item:\"treasure_head\",SkullOwner:\"MrBoopkins\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Kinda dating a frog'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:51,stellarity.special_item:\"treasure_head\",SkullOwner:\"GreyTree06\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Hello World!...End?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:52,stellarity.special_item:\"treasure_head\",SkullOwner:\"_Demi\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Buranyuu'",
+									"color": "#9D9D9D",
+									"italic": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:53,stellarity.special_item:\"treasure_head\",SkullOwner:\"ArubikU\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Cooding is hard!?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:54,stellarity.special_item:\"treasure_head\",SkullOwner:\"Zichee\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'I'M DYING AGHH, also why do i smell toasts?'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.head_id:55,stellarity.special_item:\"treasure_head\",display:{Name:'{\"translate\":\"block.minecraft.player_head.named\",\"italic\":false,\"with\":[{\"text\":\"TheTechnoFakerz\"}]}'},SkullOwner:{Id:[I;560947704,-1562424989,-1894275595,-546367270],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUwYmQ1M2MyOGU0NWY3OTk3OTZhZjI1NjgxNzM2M2Y5NTZkMjkzZDVlOTNhZDAzZTNiNjc1NDhjOGY2MGNjMiJ9fX0=\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Are you dead yet , i need to eat toasts.'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

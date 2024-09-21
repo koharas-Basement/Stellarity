@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:add",
+	"argument1": {
+		"type": "minecraft:mul",
+		"argument1": 4,
+		"argument2": {
+			"type": "minecraft:quarter_negative",
+			"argument": {
+				"type": "minecraft:mul",
+				"argument1": {
+					"type": "minecraft:range_choice",
+					"input": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": 0,
+						"to_y": 24,
+						"from_value": 0,
+						"to_value": 24
+					},
+					"min_inclusive": 0,
+					"max_exclusive": 24,
+					"when_in_range": 0,
+					"when_out_of_range": "stellarity:depth"
+				},
+				"argument2": {
+					"type": "minecraft:mul",
+					"argument1": {
+						"type": "minecraft:add",
+						"argument1": "stellarity:depth",
+						"argument2": {
+							"type": "minecraft:mul",
+							"argument1": "stellarity:jaggedness",
+							"argument2": {
+								"type": "minecraft:quarter_negative",
+								"argument": {
+									"type": "minecraft:noise",
+									"noise": "stellarity:jagged",
+									"xz_scale": 800,
+									"y_scale": 0
+								}
+							}
+						}
+					},
+					"argument2": "stellarity:factor"
+				}
+			}
+		}
+	},
+	"argument2": "stellarity:base_3d_noise"
+}

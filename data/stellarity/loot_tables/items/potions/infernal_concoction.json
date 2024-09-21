@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:11,Duration:7200},{Id:12,Duration:7200}],CustomPotionColor:16153088}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.infernal_concoction",
+								"fallback": "Infernal Concoction",
+								"color": "white",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

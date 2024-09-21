@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_spawn_egg"
+		},
+		"title": {
+			"translate": "stellarity.advancements.kill_large_phantom",
+			"fallback": "Worsening Nightmares"
+		},
+		"description": {
+			"translate": "stellarity.advancements.kill_large_phantom.description",
+			"fallback": "Kill a Phantom that is bigger than normal"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "stellarity:adventure/night_sky_stalkers",
+	"criteria": {
+		"size_doesnt_matter": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"stellarity.phantom.size": {
+								"min": 2
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:phantom"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 35
+	}
+}

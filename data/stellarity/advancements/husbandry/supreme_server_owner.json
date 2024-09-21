@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.supreme_server_owner",
+			"fallback": "Supreme Server Owner"
+		},
+		"description": {
+			"translate": "stellarity.advancements.supreme_server_owner.description",
+			"fallback": "Fish out an 'ultra super rare (not really)' collectible from The Void"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:husbandry/void_reels",
+	"criteria": {
+		"rngesus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pufferfish"
+						],
+						"nbt": "{stellarity.special_item:\"pufferfish\"}"
+					}
+				]
+			}
+		}
+	}
+}

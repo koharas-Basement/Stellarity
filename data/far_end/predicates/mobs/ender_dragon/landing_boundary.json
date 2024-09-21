@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:ender_dragon",
+    "location": {
+      "position": {
+        "x": {
+          "min": -100,
+          "max": 100
+        },
+        "y": {
+          "min": 120,
+          "max": 132
+        },
+        "z": {
+          "min": -100,
+          "max": 100
+        }
+      },
+      "dimension": "minecraft:the_end"
+    }
+  }
+}

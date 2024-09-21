@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.spellbooks.updraft",
+								"fallback": "Book of Updraft",
+								"color": "#E0E0E0",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90002,stellarity.special_item:\"book_of_updraft\",Recipes:[\"stellarity:events/spellbooks/use_updraft\"]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.updraft.description.1",
+									"fallback": "Right Click to push yourself upwards",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.updraft.description.2",
+									"fallback": "with a light gust of wind, giving you",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.updraft.description.3",
+									"fallback": "the ability to glide freely for a short time",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.cooldown",
+									"fallback": "Cooldown: %s seconds",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "16",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"eat_overgrown_cod": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					],
+					"nbt": "{stellarity.special_item:\"overgrown_cod\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_overgrown_cod"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/fish/overgrown_cod"
+	}
+}

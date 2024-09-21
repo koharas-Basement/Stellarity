@@ -1,0 +1,133 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": [
+								{
+									"text": "P",
+									"color": "red",
+									"italic": false
+								},
+								{
+									"text": "r",
+									"color": "#ea7439",
+									"italic": false
+								},
+								{
+									"text": "i",
+									"color": "#dbaa34",
+									"italic": false
+								},
+								{
+									"text": "s",
+									"color": "#efdb3a",
+									"italic": false
+								},
+								{
+									"text": "m",
+									"color": "#e0fe3f",
+									"italic": false
+								},
+								{
+									"text": "a",
+									"color": "#79fe3f",
+									"italic": false
+								},
+								{
+									"text": "t",
+									"color": "#30ef30",
+									"italic": false
+								},
+								{
+									"text": "i",
+									"color": "#0ecc0e",
+									"italic": false
+								},
+								{
+									"text": "c ",
+									"color": "#13d14e",
+									"italic": false
+								},
+								{
+									"text": "P",
+									"color": "#35f4d6",
+									"italic": false
+								},
+								{
+									"text": "u",
+									"color": "#88b4fe",
+									"italic": false
+								},
+								{
+									"text": "n",
+									"color": "#ef4dfe",
+									"italic": false
+								},
+								{
+									"text": "c",
+									"color": "#e021e0",
+									"italic": false
+								},
+								{
+									"text": "h",
+									"color": "dark_purple",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"prismatic_punch\",Charged:0b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.prismatic_punch.description.1",
+									"fallback": "Converts Arrows to Prismatic Blasts",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.prismatic_punch.description.2",
+									"fallback": "that produce colorful explosions on hit",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								[
+									{
+										"text": "- ",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.developer",
+										"fallback": "Developer Item",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#BA02D7",
+										"italic": false
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

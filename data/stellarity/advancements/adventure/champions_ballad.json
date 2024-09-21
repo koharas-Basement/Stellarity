@@ -1,0 +1,51 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jukebox"
+		},
+		"title": {
+			"translate": "stellarity.advancements.champions_ballad",
+			"fallback": "Champions Ballad"
+		},
+		"description": {
+			"translate": "stellarity.advancements.champions_ballad.description",
+			"fallback": "Can't fight a Boss without some good tunes!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/play_jukebox_in_meadows",
+	"criteria": {
+		"play_jukebox_in_the_end": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "minecraft:music_discs"
+						}
+					},
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:jukebox",
+						"properties": {}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "stellarity:dragons_den"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"play_jukebox_in_the_end"
+		]
+	]
+}

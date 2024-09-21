@@ -1,0 +1,140 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": [
+								{
+									"text": "S",
+									"color": "#f6f6f6",
+									"italic": false
+								},
+								{
+									"text": "a",
+									"color": "#f7f1d4",
+									"italic": false
+								},
+								{
+									"text": "r",
+									"color": "#f9ecb3",
+									"italic": false
+								},
+								{
+									"text": "i",
+									"color": "#fbe791",
+									"italic": false
+								},
+								{
+									"text": "e",
+									"color": "#fde270",
+									"italic": false
+								},
+								{
+									"text": "l",
+									"color": "#ffdd4f",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"sariel\",CustomModelData:90000,stellar_durability:{enabled:1b,max_dur:384},HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.sariel.description.1",
+									"fallback": "Has a chance to heal",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.sariel.description.2",
+									"fallback": "any nearby player on attacks",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.weapons.sariel.flavor_text",
+									"fallback": "'Now, Until The Moment You Die'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "4"
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "2.3"
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -1.7,
+									"operation": "addition",
+									"id": "48369ce8-2a5a-4a76-b617-fe9e596ac1e0",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 3,
+									"operation": "addition",
+									"id": "6994a1a3-f915-4d5b-9fec-1a6fea505586",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

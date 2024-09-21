@@ -1,0 +1,42 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "stellarity:items/wearing_full_shulker_armor"
+						}
+					}
+				],
+				"damage": {
+					"blocked": false
+				},
+				"entity": {
+					"type": "minecraft:player",
+					"equipment": {
+						"head": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"chest": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"legs": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"feet": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/armors/shulker_armor/attack_someone"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bow"
+					],
+					"nbt": "{stellarity.special_item:\"sabrewing\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/sabrewing/charge"
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pufferfish",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"text": "P",
+									"color": "#f9f9f9",
+									"italic": false
+								},
+								{
+									"text": "u",
+									"color": "#f9f1e1",
+									"italic": false
+								},
+								{
+									"text": "f",
+									"color": "#faeaca",
+									"italic": false
+								},
+								{
+									"text": "f",
+									"color": "#fbe3b2",
+									"italic": false
+								},
+								{
+									"text": "e",
+									"color": "#fbdc9b",
+									"italic": false
+								},
+								{
+									"text": "r",
+									"color": "#fcd483",
+									"italic": false
+								},
+								{
+									"text": "f",
+									"color": "#fdcd6c",
+									"italic": false
+								},
+								{
+									"text": "i",
+									"color": "#fdc654",
+									"italic": false
+								},
+								{
+									"text": "s",
+									"color": "#febf3d",
+									"italic": false
+								},
+								{
+									"text": "h",
+									"color": "#ffb826",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "'A highly optimized Paper fork",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								{
+									"text": "designed for large servers",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								{
+									"text": "requiring both maximum performance,",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								{
+									"text": "stability, and \"enterprise\" features.'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"aqua_affinity\",lvl:1}],HideFlags:1,stellarity.special_item:\"pufferfish\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

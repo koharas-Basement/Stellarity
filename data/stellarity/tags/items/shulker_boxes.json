@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#stellarity:colored_shulker_boxes",
+		"minecraft:shulker_box"
+	]
+}

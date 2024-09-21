@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.pandoras_barrel",
+								"fallback": "Pandora's Barrel",
+								"color": "#934C00",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.pandoras_barrel.description.1",
+									"fallback": "Summons mobs and drops loot depending on the biome",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.pandoras_barrel.description.2",
+									"fallback": "Much friendlier mobs spawn while in a lit up area",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								" ",
+								{
+									"translate": "stellarity.items.pandoras_barrel.flavor_text",
+									"fallback": "'Get it? Because it is a barrel and not a box?'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								" ",
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"pandoras_barrel\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

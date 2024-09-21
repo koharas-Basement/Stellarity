@@ -1,0 +1,24 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"eat_crystal_heartfish": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					],
+					"nbt": "{stellarity.special_item:\"crystal_heartfish\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_crystal_heartfish"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/fish/crystal_heartfish/eat"
+	}
+}

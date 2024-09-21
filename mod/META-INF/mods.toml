@@ -1,0 +1,7 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'LicenseRef-'
+showAsResourcePack = false
+mods = [
+	{ modId = 'mr_stellarity', version = 'v2.0d', displayName = 'Stellarity', description = "Extreme rehaul and expansion of The End! 'We have End Update at home.'", logoFile = 'pack.png', credits="Hex, misode, Bush_King, Brokenemp", itemIcon="minecraft:chorus_flower", logoBlur=false, updateJSONURL = 'https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json', authors = 'kohara', displayURL = 'https://modrinth.com/datapack/stellarity' },
+]

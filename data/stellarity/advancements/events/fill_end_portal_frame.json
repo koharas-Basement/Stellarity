@@ -1,0 +1,28 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:ender_eye"
+							]
+						}
+					},
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:end_portal_frame",
+						"properties": {}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:visuals/end_portal_animation/trigger"
+	}
+}

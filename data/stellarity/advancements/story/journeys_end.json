@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_portal_frame"
+		},
+		"title": {
+			"translate": "stellarity.advancements.journeys_end",
+			"fallback": "Journey's End"
+		},
+		"description": {
+			"translate": "stellarity.advancements.journeys_end.description",
+			"fallback": "Use 12 Eyes of Ender to activate an End Portal"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:story/follow_ender_eye",
+	"criteria": {
+		"activate_portal": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

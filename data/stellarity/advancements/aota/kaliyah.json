@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.kaliyah",
+			"fallback": "KALIYAAAAH!"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.kaliyah.description",
+				"fallback": "Deal maximum damage possible with a single Dragonblade's punch"
+			},
+			"\n",
+			{
+				"translate": "stellarity.advancements.kaliyah.tip",
+				"fallback": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴅᴏᴇѕ ᴡᴏɴᴅᴇʀѕ",
+				"color": "#727272",
+				"italic": true
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/obtain_dragonblade",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

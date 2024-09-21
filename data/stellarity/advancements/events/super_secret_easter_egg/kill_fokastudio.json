@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"nbt": "{UUID:[I;-1313431234,2047230377,-2121722025,-2028170220]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:mechanics/super_secret_easter_egg/ded"
+	}
+}

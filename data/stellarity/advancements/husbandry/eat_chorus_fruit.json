@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"title": {
+			"translate": "stellarity.advancements.confusing_fruit",
+			"fallback": "Confusing Fruit"
+		},
+		"description": {
+			"translate": "stellarity.advancements.confusing_fruit.description",
+			"fallback": "Eat a Chorus Fruit"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/balanced_diet",
+	"criteria": {
+		"eat_chorus_fruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_chorus_fruit"
+		]
+	]
+}

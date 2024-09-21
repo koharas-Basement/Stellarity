@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"title": {
+			"translate": "stellarity.advancements.a_step_to_the_end",
+			"fallback": "A Step to The End"
+		},
+		"description": {
+			"translate": "stellarity.advancements.a_step_to_the_end.description",
+			"fallback": "Blaze Powder is usually used for brewing, but perhaps something could be fused with it...?"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:nether/obtain_blaze_rod",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blaze_powder"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.perm_buffs.robust_potato",
+								"fallback": "Robust Potato",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.perm_buffs.robust_potato.increase",
+									"fallback": "become immune to Poison",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.perm_buffs.robust_potato.flavor_text",
+									"fallback": "'What a fancy word!'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"robust_potato\",CustomModelData:90000}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

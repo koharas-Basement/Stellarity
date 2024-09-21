@@ -1,0 +1,27 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"feed_duskberry": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"nbt": "{stellarity.special_item:\"duskberry\"}"
+				},
+				"entity": {
+					"type": "fox"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"feed_duskberry"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/duskberry/feed"
+	}
+}

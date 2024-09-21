@@ -1,0 +1,7 @@
+{
+    "values": [
+        "stellarity:utils/dot/dark_decay/remove",
+        "stellarity:utils/dot/frostburn/remove",
+        "stellarity:utils/dot/prismatic_inferno/remove"
+    ]
+}

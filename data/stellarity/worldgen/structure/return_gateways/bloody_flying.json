@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "#stellarity:return_gateways/has_bloody_gateway",
+	"step": "surface_structures",
+	"spawn_overrides": {},
+	"terrain_adaptation": "none",
+	"start_pool": "stellarity:return_gateways/bloody_flying",
+	"size": 1,
+	"start_height": {
+		"type": "minecraft:uniform",
+		"min_inclusive": {
+			"absolute": 30
+		},
+		"max_inclusive": {
+			"absolute": 70
+		}
+	},
+	"project_start_to_heightmap": "MOTION_BLOCKING",
+	"max_distance_from_center": 20,
+	"use_expansion_hack": false
+}

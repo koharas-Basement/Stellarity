@@ -1,0 +1,52 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"offhand": {
+					"items": [
+						"minecraft:crossbow"
+					],
+					"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:multishot"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:piercing"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

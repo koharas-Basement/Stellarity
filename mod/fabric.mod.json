@@ -1,0 +1,20 @@
+{
+	"schemaVersion":1,
+	"id":"mr_stellarity",
+	"version":"v2.0d",
+	"name":"Stellarity",
+	"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
+	"authors":[
+		"kohara"
+	],
+	"contact":{
+		"homepage":"https://modrinth.com/datapack/stellarity",
+		"sources":"https://github.com/kohy-creates/Stellarity"
+	},
+	"license":"LicenseRef-",
+	"icon":"pack.png",
+	"environment":"*",
+	"depends":{
+		"fabric-resource-loader-v0":"*"
+	}
+}

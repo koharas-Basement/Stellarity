@@ -1,0 +1,53 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.weapons.sabrewing",
+								"fallback": "Sabrewing",
+								"color": "#FFE853",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.sabrewing.description.1",
+									"fallback": "Supercharge your shots",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.sabrewing.description.2",
+									"fallback": "for increased damage and velocity",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.weapons.sabrewing.flavor_text",
+									"fallback": "'It might be broken'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"sabrewing\",stellar_durability:{enabled:1b,max_dur:504}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

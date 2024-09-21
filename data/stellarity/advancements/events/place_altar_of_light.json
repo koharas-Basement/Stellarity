@@ -1,0 +1,24 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:lodestone"
+							],
+							"nbt": "{stellarity.special_item:\"altar_of_light\"}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:mechanics/altar_of_light/place"
+	}
+}

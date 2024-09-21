@@ -1,0 +1,23 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding_starstruck_carcanet"
+					}
+				],
+				"damage": {
+					"blocked": false,
+					"type": {}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/starstruck_carcanet/hurt"
+	}
+}

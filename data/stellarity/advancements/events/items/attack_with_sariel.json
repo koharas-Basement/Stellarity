@@ -1,0 +1,36 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{stellarity.special_item:\"sariel\"}"
+						}
+					}
+				},
+				"damage": {
+					"dealt": {
+						"min": 3
+					},
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/sariel/attack"
+	}
+}

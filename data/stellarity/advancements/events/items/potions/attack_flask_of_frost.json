@@ -1,0 +1,35 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"stellarity.items.flask_of_frost.duration": {
+								"min": 1
+							}
+						}
+					}
+				],
+				"damage": {
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/flask_of_frost_attack"
+	}
+}

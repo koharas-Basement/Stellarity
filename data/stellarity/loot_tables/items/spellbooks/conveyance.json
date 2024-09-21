@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.spellbooks.conveyance",
+								"fallback": "Book of Conveyance",
+								"color": "#A946E7",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"book_of_conveyance\",Recipes:[\"stellarity:events/spellbooks/use_conveyance\"]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.conveyance.description.1",
+									"fallback": "Casts a slow spark that",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.conveyance.description.2",
+									"fallback": "teleports you to the first block it hits",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.conveyance.description.3",
+									"fallback": "Tilt your head around to guide it",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.cooldown",
+									"fallback": "Cooldown: %s seconds",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "16",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

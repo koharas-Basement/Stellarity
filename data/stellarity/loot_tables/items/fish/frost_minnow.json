@@ -1,0 +1,35 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.fish.frost_minnow",
+								"fallback": "Frost Minnow",
+								"color": "#9FEEF1",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90006,stellarity.special_item:\"frost_minnow\"}"
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

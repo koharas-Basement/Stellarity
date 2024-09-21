@@ -1,0 +1,7 @@
+{
+	"values": [
+		"stellarity:utils/dot/dark_decay/tick",
+		"stellarity:utils/dot/frostburn/tick",
+		"stellarity:utils/dot/prismatic_inferno/tick"
+	]
+}

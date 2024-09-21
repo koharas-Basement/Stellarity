@@ -1,0 +1,67 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"normal": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "stellarity:items/prismatic_punch/holding_multishot"
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "stellarity:items/prismatic_punch/holding_piercing"
+						}
+					}
+				],
+				"item": {
+					"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+				}
+			}
+		},
+		"multishot": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/prismatic_punch/holding_multishot"
+					}
+				],
+				"item": {
+					"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+				}
+			}
+		},
+		"piercing": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/prismatic_punch/holding_piercing"
+					}
+				],
+				"item": {
+					"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"normal",
+			"multishot",
+			"piercing"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/prismatic_punch/shoot_event/trigger"
+	}
+}

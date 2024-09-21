@@ -1,0 +1,32 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "stellarity:exploration_map/village",
+							"decoration": "mansion",
+							"zoom": 3,
+							"search_radius": 96,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.explorer_map.end_village",
+								"fallback": "End Village Explorer Map",
+								"color": "light_purple",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

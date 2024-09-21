@@ -1,0 +1,10 @@
+execute if entity @s[tag=stellarity.natures_wrath.spirit.normal] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/normal
+execute if entity @s[tag=stellarity.natures_wrath.spirit.fire] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/fire
+execute if entity @s[tag=stellarity.natures_wrath.spirit.snow] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/snow
+execute if entity @s[tag=stellarity.natures_wrath.spirit.ocean] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/ocean
+execute if entity @s[tag=stellarity.natures_wrath.spirit.mountains] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/mountain
+execute if entity @s[tag=stellarity.natures_wrath.spirit.jungle] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/jungle
+execute if entity @s[tag=stellarity.natures_wrath.spirit.forest] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/forest
+execute if entity @s[tag=stellarity.natures_wrath.spirit.sculk] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/sculk
+execute if entity @s[tag=stellarity.natures_wrath.spirit.swamp] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/swamp
+execute if entity @s[tag=stellarity.natures_wrath.spirit.hallow] run function stellarity:items/spellbooks/natures_wrath/spirit/particles/hallowed

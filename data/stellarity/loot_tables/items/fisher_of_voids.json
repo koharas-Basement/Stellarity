@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellar_durability:{enabled:1b,max_dur:256},stellarity.special_item:\"fisher_of_voids\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.fisher_of_voids",
+								"fallback": "Fisher of Voids",
+								"color": "#8865AF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.fisher_of_voids.description.1",
+									"fallback": "Its hook is covered in weird mucus,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.fisher_of_voids.description.2",
+									"fallback": "fish from the Void",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.fisher_of_voids.description.3",
+									"fallback": "seem really attracted to it",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							],
+							"replace": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

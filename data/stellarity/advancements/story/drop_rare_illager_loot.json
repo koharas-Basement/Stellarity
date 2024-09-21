@@ -1,0 +1,97 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.rare_find",
+			"fallback": "Rare Find"
+		},
+		"description": {
+			"translate": "stellarity.advancements.rare_find.description",
+			"fallback": "Obtain an uncommon drop from the Illagers residing in Strongholds"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:story/follow_ender_eye",
+	"criteria": {
+		"drop1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bow"
+						],
+						"nbt": "{stellarity.special_item:\"sharanga\"}"
+					}
+				]
+			}
+		},
+		"drop2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crossbow"
+						],
+						"nbt": "{stellarity.special_item:\"clockwork_crossbow\"}"
+					}
+				]
+			}
+		},
+		"drop3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:knowledge_book"
+						],
+						"nbt": "{stellarity.special_item:\"book_of_conveyance\"}"
+					}
+				]
+			}
+		},
+		"drop4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:knowledge_book"
+						],
+						"nbt": "{stellarity.special_item:\"book_of_updraft\"}"
+					}
+				]
+			}
+		},
+		"drop5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:knowledge_book"
+						],
+						"nbt": "{stellarity.special_item:\"book_of_light\"}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"drop1",
+			"drop2",
+			"drop3",
+			"drop4",
+			"drop5"
+		]
+	]
+}

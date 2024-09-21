@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": {
+			"translate": "stellarity.advancements.final_showdown",
+			"fallback": "Final Showdown",
+			"color": "#7E00B0"
+		},
+		"description": {
+			"translate": "advancements.end.kill_dragon.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:dragons_den/sacrificial_ritual",
+	"criteria": {
+		"spawn_dragon_first_time": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

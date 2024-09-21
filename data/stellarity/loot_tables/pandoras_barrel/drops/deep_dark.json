@@ -1,0 +1,150 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 4,
+				"max": 6
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:sculk",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:deepslate_iron_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:deepslate_copper_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:deepslate_coal_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:deepslate_diamond_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:deepslate_emerald_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:deepslate_gold_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:deepslate_lapis_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:deepslate_redstone_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:deepslate",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

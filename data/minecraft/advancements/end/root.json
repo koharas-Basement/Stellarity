@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone"
+		},
+		"title": {
+			"translate": "advancements.end.root.title"
+		},
+		"description": {
+			"translate": "stellarity.advancements.enter_end.description",
+			"fallback": "ᴏʀ ᴛʜᴇ ʙᴇɢɢɪɴɪɴɢ?"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"entered_end": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_end"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"entered_end"
+		]
+	]
+}

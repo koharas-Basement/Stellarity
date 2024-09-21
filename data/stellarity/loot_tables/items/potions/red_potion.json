@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.red_potion",
+								"fallback": "Red Potion",
+								"color": "#FF5454",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.potions.red_potion.flavor_text",
+									"fallback": "'Just drink it, what could go wrong?'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{HideFlags:32,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:33,Amplifier:9,Duration:2147483647},{Id:14,Amplifier:9,Duration:2147483647},{Id:2,Amplifier:9,Duration:2147483647},{Id:4,Amplifier:9,Duration:2147483647},{Id:9,Duration:2147483647},{Id:15,Duration:2147483647},{Id:17,Amplifier:9,Duration:2147483647},{Id:18,Amplifier:9,Duration:2147483647},{Id:19,Amplifier:9,Duration:2147483647},{Id:20,Amplifier:9,Duration:2147483647},{Id:24,Duration:2147483647},{Id:27,Amplifier:9,Duration:2147483647},{Id:31,Amplifier:9,Duration:1200}],CustomPotionColor:16056354}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sweet_berries",
+			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.poor_life_choices",
+			"fallback": "Poor Life Choices"
+		},
+		"description": {
+			"translate": "stellarity.advancements.poor_life_choices.description",
+			"fallback": "Eat, plant and feed a Fox a Duskberry"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:husbandry/duskberry/discover",
+	"criteria": {
+		"eat_duskberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"nbt": "{stellarity.special_item:\"duskberry\"}"
+				}
+			}
+		},
+		"feed_duskberry": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"nbt": "{stellarity.special_item:\"duskberry\"}"
+				},
+				"entity": {
+					"type": "fox"
+				}
+			}
+		},
+		"plant_duskberry": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:sweet_berries"
+							],
+							"nbt": "{stellarity.special_item:\"duskberry\"}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"plant_duskberry"
+		],
+		[
+			"eat_duskberry"
+		],
+		[
+			"feed_duskberry"
+		]
+	]
+}

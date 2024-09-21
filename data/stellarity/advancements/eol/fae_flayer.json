@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.fae_flayer",
+			"fallback": "Fae Flayer",
+			"color": "gold"
+		},
+		"description": {
+			"translate": "stellarity.advancements.fae_flayer.description",
+			"fallback": "Move an Altar of The Light to the Overworld, then summon and kill the Empress during the day. Your reward shall be great"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:eol/summon_empress",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

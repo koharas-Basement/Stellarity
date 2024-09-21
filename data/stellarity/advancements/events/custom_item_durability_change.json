@@ -1,0 +1,16 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"nbt": "{stellar_durability:{enabled:1b}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:utils/custom_durability/event"
+	}
+}

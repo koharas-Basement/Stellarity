@@ -1,0 +1,96 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shulker_shell"
+						]
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					},
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"head": {
+											"items": [
+												"minecraft:netherite_helmet"
+											]
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"chest": {
+											"items": [
+												"minecraft:netherite_chestplate"
+											]
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"legs": {
+											"items": [
+												"minecraft:netherite_leggings"
+											]
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"feet": {
+											"items": [
+												"minecraft:netherite_boots"
+											]
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

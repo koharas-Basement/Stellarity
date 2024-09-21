@@ -1,0 +1,17 @@
+execute rotated ~ ~ run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000021 0
+execute rotated ~15 ~ run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000033 0
+execute rotated ~-17 ~ run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000029 0
+execute rotated ~13 ~8 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000048 0
+execute rotated ~-11 ~10 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000024 0
+execute rotated ~-3 ~-6 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000041 0
+execute rotated ~8 ~-7 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000035 0
+execute rotated ~-10 ~7 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000027 0
+execute rotated ~4 ~5 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000047 0
+execute rotated ~-7 ~10 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000025 0
+execute rotated ~8 ~12 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000035 0
+execute rotated ~9 ~9 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000042 0
+execute rotated ~3 ~-4 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000041 0
+execute rotated ~-4 ~-8 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000025 0
+execute rotated ~7 ~6 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000049 0
+execute rotated ~-9 ~3 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000033 0
+execute rotated ~-11 ~-1 run particle minecraft:end_rod ~ ~ ~ ^ ^ ^1000000 0.00000037 0

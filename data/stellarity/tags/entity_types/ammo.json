@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:arrow",
+		"minecraft:firework_rocket",
+		"minecraft:spectral_arrow"
+	]
+}

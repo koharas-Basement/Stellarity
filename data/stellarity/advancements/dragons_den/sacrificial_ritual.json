@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_crystal"
+		},
+		"title": {
+			"translate": "stellarity.advancements.sacrificial_ritual",
+			"fallback": "Sacrificial Ritual",
+			"color": "#E251FF"
+		},
+		"description": {
+			"translate": "stellarity.advancements.sacrificial_ritual.description",
+			"fallback": "Place down 4 End Crystals on top of the 4 elevated Bedrock Blocks to awake the vicious beast..."
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

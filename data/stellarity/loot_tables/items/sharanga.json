@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.weapons.sharanga",
+								"fallback": "Sharanga",
+								"color": "#FF6B6B",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"sharanga\",stellar_durability:{enabled:1b,max_dur:424}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.sharanga.description.1",
+									"fallback": "Converts Spectral Arrows into",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.sharanga.description.2",
+									"fallback": "Spectral Bolts which travel",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.sharanga.description.3",
+									"fallback": "in a straight line",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.sharanga.description.4",
+									"fallback": "33% chance to save Spectral Arrows,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.sharanga.description.5",
+									"fallback": "doubles with Infinity enchantment",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker"
+		},
+		"title": {
+			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark",
+			"fallback": "Gambling Addiction"
+		},
+		"description": {
+			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark.description",
+			"fallback": "Open a Pandora's Barrel inside Deep Dark. Odds are that you will survive..."
+		},
+		"frame": "challenge"
+	},
+	"parent": "stellarity:aota/pandoras_barrel/place",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

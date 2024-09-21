@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "stellarity:fossil",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 14357922,
+		"frequency": 0.3,
+		"spacing": 2,
+		"separation": 1
+	}
+}

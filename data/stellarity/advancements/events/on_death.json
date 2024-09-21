@@ -1,0 +1,11 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"rewards": {
+		"function": "stellarity:utils/dot/on_player_death"
+	}
+}

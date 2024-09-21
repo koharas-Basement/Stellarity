@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 23,
+					"name": "stellarity:items/fish/prismite"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 12,
+					"name": "stellarity:items/fish/crystal_heartfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 13,
+					"name": "stellarity:items/materials/pixie_dust",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:cherry_leaves",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

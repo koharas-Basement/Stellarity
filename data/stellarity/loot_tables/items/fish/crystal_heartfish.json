@@ -1,0 +1,58 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.fish.crystal_heartfish",
+								"fallback": "Crystal Heartfish",
+								"color": "#FF65D7",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90002,stellarity.special_item:\"crystal_heartfish\",Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.fish.crystal_heartfish.description.1",
+									"fallback": "Consume to permanently increase",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.fish.crystal_heartfish.description.2",
+									"fallback": "your maximum health by 1 heart",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.fish.crystal_heartfish.description.3",
+									"fallback": "Allows for up to 10 extra hearts",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

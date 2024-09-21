@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:endermite_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "this",
+							"ops": [
+								{
+									"source": "CustomName",
+									"target": "display.Name",
+									"op": "replace"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag:{PlayerSpawned:1b,PersistenceRequired:1b}}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance_with_looting",
+							"chance": 0,
+							"looting_multiplier": 0.34
+						}
+					]
+				}
+			]
+		}
+	]
+}

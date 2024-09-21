@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:anvil"
+		},
+		"title": {
+			"translate": "stellarity.advancements.rename_shulker_box",
+			"fallback": "Organizational Wizard"
+		},
+		"description": {
+			"translate": "stellarity.advancements.rename_shulker_box.description",
+			"fallback": "Rename a Shulker Box with an Anvil"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:end_city/portable_storage",
+	"criteria": {
+		"shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "stellarity:shulker_boxes",
+						"nbt": "{RepairCost:0}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"shulker_box"
+		]
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Amarene",
+								"color": "#C90D17",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:1,Amplifier:1,Duration:960},{Id:10,Amplifier:2,Duration:960},{Id:18,Duration:960},{Id:23,Amplifier:3,Duration:-1},{Id:26,Duration:4800}],CustomPotionColor:13176087,HideFlags:33}"
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:mending": 1
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.potions.amarena.description",
+									"fallback": "Looks like wine, but it really isn't",
+									"italic": false,
+                                    "color": "#EEEEEE"
+								},
+								"",
+								{
+									"translate": "stellarity.items.potions.amarena.flavor_text",
+									"fallback": "'An English teacher's favorite'",
+									"italic": true,
+                                    "color": "#EEEEEE"
+								}
+							],
+							"replace": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

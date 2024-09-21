@@ -1,0 +1,7 @@
+{
+    "values": [
+        "stellarity:utils/dot/dark_decay/load",
+        "stellarity:utils/dot/frostburn/load",
+        "stellarity:utils/dot/prismatic_inferno/load"
+    ]
+}

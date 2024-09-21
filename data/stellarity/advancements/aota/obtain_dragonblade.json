@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.dragonborn",
+			"fallback": "Dragonborn",
+			"color": "#CD6AFF"
+		},
+		"description": {
+			"translate": "stellarity.advancements.dragonborn.description",
+			"fallback": "Obtain the Dragonblade, a legendary sword of a truly unknown origin..."
+		},
+		"frame": "goal"
+	},
+	"parent": "stellarity:aota/an_introduction_to_dark_magic",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_sword"
+						],
+						"nbt": "{stellarity.special_item:\"dragonblade\"}"
+					}
+				]
+			}
+		}
+	}
+}

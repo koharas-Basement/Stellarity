@@ -1,0 +1,70 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 11235782,
+		"water_fog_color": 8281766,
+		"grass_color": 11301308,
+		"foliage_color": 11429299,
+		"mood_sound": {
+			"sound": "ambient.nether_wastes.mood",
+			"tick_delay": 1000,
+			"block_search_extent": 2,
+			"offset": 1
+		},
+		"additions_sound": {
+			"sound": "ambient.soul_sand_valley.additions",
+			"tick_chance": 0.003
+		},
+		"particle": {
+			"options": {
+				"type": "falling_dust"
+			},
+			"probability": 0.0006
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:phantom",
+				"weight": 12,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 30,
+				"minCount": 3,
+				"maxCount": 3
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:global/stalactite",
+			"stellarity:wastes/hills",
+			"minecraft:end_island_decorated"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"stellarity:small_end_islands/chorus_plant",
+			"stellarity:small_end_islands/leaves"
+		],
+		[
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
+		]
+	]
+}
