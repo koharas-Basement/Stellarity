@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:nether_fossil",
+	"biomes": "#stellarity:has_structure/fossil",
+	"step": "underground_decoration",
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_box",
+	"height": {
+		"type": "minecraft:uniform",
+		"min_inclusive": {
+			"above_bottom": 2
+		},
+		"max_inclusive": {
+			"below_top": 2
+		}
+	}
+}

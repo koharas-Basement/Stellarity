@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.weapons.slayer_crossbow",
+								"fallback": "Slayer Crossbow",
+								"color": "dark_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90002,stellarity.special_item:\"slayer_crossbow\",Charged:0b,kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.slayer_crossbow.description.1",
+									"fallback": "Shoots highly damaging energy bolts",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.slayer_crossbow.description.2",
+									"fallback": "with infinite pierce, but limited range",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

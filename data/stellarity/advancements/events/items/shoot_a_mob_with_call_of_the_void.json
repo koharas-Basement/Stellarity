@@ -1,0 +1,29 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"shot_clockwork_crossbow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding/call_of_the_void"
+					}
+				],
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "stellarity:call_of_the_void_causes_shrapnel",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/call_of_the_void/damage"
+	}
+}

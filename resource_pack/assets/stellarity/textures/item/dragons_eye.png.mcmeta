@@ -1,0 +1,27 @@
+{
+	"animation": {
+		"interpolate": false,
+		"frametime": 2,
+		"frames": [
+			{"index": 0,"time": 40},
+			{"index": 5,"time": 1},{"index": 6,"time": 1},{"index": 7,"time": 1},{"index": 8,"time": 1},{"index": 9,"time": 1},{"index": 10,"time": 1},{"index": 9,"time": 1},{"index": 8,"time": 1},{"index": 7,"time": 1},{"index": 6,"time": 1},{"index": 5,"time": 1},
+			{"index": 0,"time": 49},
+			{"index": 1,"time": 4},{"index": 2,"time": 14},{"index": 1,"time": 10},
+			{"index": 0,"time": 60},
+			{"index": 3,"time": 4},{"index": 4,"time": 22},{"index": 3,"time": 7},
+			{"index": 0,"time": 39},
+			{"index": 5,"time": 1},{"index": 6,"time": 1},{"index": 7,"time": 1},{"index": 8,"time": 1},{"index": 9,"time": 1},{"index": 10,"time": 1},{"index": 9,"time": 1},{"index": 8,"time": 1},{"index": 7,"time": 1},{"index": 6,"time": 1},{"index": 5,"time": 1},
+			{"index": 0,"time": 30},
+			{"index": 1,"time": 14},
+			{"index": 2,"time": 8},
+			{"index": 1,"time": 3},
+			{"index": 0,"time": 4},
+			{"index": 3,"time": 2},
+			{"index": 4,"time": 19},
+			{"index": 3,"time": 15},
+			{"index": 0,"time": 40},
+			{"index": 5,"time": 1},{"index": 6,"time": 1},{"index": 7,"time": 1},{"index": 8,"time": 1},{"index": 9,"time": 1},{"index": 10,"time": 1},{"index": 9,"time": 1},{"index": 8,"time": 1},{"index": 7,"time": 1},{"index": 6,"time": 1},{"index": 5,"time": 1},
+			{"index": 0,"time": 44}
+		]
+	}
+}

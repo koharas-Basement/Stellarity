@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.weapons.spectral_fury",
+								"fallback": "Spectral Fury",
+								"color": "#BDF1FF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"spectral_fury\",kohara.durability:{enabled:1b,max_dur:636}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.spectral_fury.description.1",
+									"fallback": "Overcharged shots convert",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spectral_fury.description.2",
+									"fallback": "Spectral Arrows into wisps",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spectral_fury.description.3",
+									"fallback": "which seek out and attack mobs",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spectral_fury.description.4",
+									"fallback": "25% chance to save Spectral Arrows",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

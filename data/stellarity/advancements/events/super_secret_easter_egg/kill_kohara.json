@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"rewards": {
+		"function": "stellarity:mechanics/super_secret_easter_egg/ded"
+	}
+}

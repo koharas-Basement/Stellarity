@@ -1,0 +1,76 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 5261169,
+		"water_fog_color": 3156295,
+		"grass_color": 4994644,
+		"foliage_color": 5585503,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark"
+		},
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 1100,
+			"block_search_extent": 6,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.nether_wastes.additions",
+			"tick_chance": 0.0111
+		},
+		"particle": {
+			"options": {
+				"type": "ash"
+			},
+			"probability": 0.0055
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 40,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 5,
+				"minCount": 2,
+				"maxCount": 3
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:global/stalactite",
+			"stellarity:wastes/hills"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:waste/chorus_plant"
+		],
+		[
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
+		]
+	]
+}

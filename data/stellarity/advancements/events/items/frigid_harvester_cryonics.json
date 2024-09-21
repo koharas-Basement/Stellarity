@@ -1,0 +1,23 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\",stellarity.aery_sword:{abilities:[\"cryonics\"]}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/frigid_harvester/abilities/cryonics/trigger"
+	}
+}

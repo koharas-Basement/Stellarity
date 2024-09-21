@@ -1,0 +1,11 @@
+{
+	"parent": "kohara:root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"rewards": {
+		"function": "kohara:on_player_death"
+	}
+}

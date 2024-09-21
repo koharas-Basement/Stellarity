@@ -1,0 +1,299 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 16,
+		"xz_spread": 4,
+		"y_spread": 4,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:amethyst_cluster",
+									"Properties": {
+										"facing": "up",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:amethyst_cluster",
+									"Properties": {
+										"facing": "west",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:amethyst_cluster",
+									"Properties": {
+										"facing": "east",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:amethyst_cluster",
+									"Properties": {
+										"facing": "north",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:amethyst_cluster",
+									"Properties": {
+										"facing": "south",
+										"waterlogged": "false"
+									}
+								}
+							},
+
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:large_amethyst_bud",
+									"Properties": {
+										"facing": "up",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:large_amethyst_bud",
+									"Properties": {
+										"facing": "west",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:large_amethyst_bud",
+									"Properties": {
+										"facing": "east",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:large_amethyst_bud",
+									"Properties": {
+										"facing": "north",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:large_amethyst_bud",
+									"Properties": {
+										"facing": "south",
+										"waterlogged": "false"
+									}
+								}
+							},
+
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:medium_amethyst_bud",
+									"Properties": {
+										"facing": "up",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:medium_amethyst_bud",
+									"Properties": {
+										"facing": "west",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:medium_amethyst_bud",
+									"Properties": {
+										"facing": "east",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:medium_amethyst_bud",
+									"Properties": {
+										"facing": "north",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:medium_amethyst_bud",
+									"Properties": {
+										"facing": "south",
+										"waterlogged": "false"
+									}
+								}
+							},
+
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:small_amethyst_bud",
+									"Properties": {
+										"facing": "up",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:small_amethyst_bud",
+									"Properties": {
+										"facing": "west",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:small_amethyst_bud",
+									"Properties": {
+										"facing": "east",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:small_amethyst_bud",
+									"Properties": {
+										"facing": "north",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:small_amethyst_bud",
+									"Properties": {
+										"facing": "south",
+										"waterlogged": "false"
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:any_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											1,
+											0
+										],
+										"blocks": [
+											"minecraft:amethyst_block"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											0,
+											0
+										],
+										"blocks": [
+											"minecraft:amethyst_block"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											0,
+											0
+										],
+										"blocks": [
+											"minecraft:amethyst_block"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											0,
+											1
+										],
+										"blocks": [
+											"minecraft:amethyst_block"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											0,
+											-1
+										],
+										"blocks": [
+											"minecraft:amethyst_block"
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

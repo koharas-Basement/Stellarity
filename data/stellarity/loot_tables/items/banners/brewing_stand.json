@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:creeper",
+									"color": "gray"
+								},
+								{
+									"pattern": "minecraft:rhombus",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:stripe_center",
+									"color": "orange"
+								},
+								{
+									"pattern": "minecraft:stripe_center",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:stripe_top",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:stripe_bottom",
+									"color": "light_gray"
+								},
+								{
+									"pattern": "minecraft:border",
+									"color": "black"
+								}
+							],
+							"append": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

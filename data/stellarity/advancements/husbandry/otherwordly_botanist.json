@@ -1,0 +1,96 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_flower"
+		},
+		"title": {
+			"translate": "stellarity.advancements.otherwordly_botanist",
+			"fallback": "Otherwordly Botanist"
+		},
+		"description": {
+			"translate": "stellarity.advancements.otherwordly_botanist.description",
+			"fallback": "Plant a Chorus Flower in every dimension"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/root",
+	"criteria": {
+		"plant_chorus_fruit_overworld":  {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		},
+		"plant_chorus_fruit_end":  {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_nether"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		},
+		"plant_chorus_fruit_nether": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"plant_chorus_fruit_overworld"
+		],
+		[
+			"plant_chorus_fruit_end"
+		],
+		[
+			"plant_chorus_fruit_nether"
+		]
+	]
+}

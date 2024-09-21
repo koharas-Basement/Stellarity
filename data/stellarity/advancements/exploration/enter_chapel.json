@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cherry_leaves"
+		},
+		"title": {
+			"translate": "stellarity.advancements.enter_chapel",
+			"fallback": "Sacred Gardens"
+		},
+		"description": {
+			"translate": "stellarity.advancements.enter_chapel.description",
+			"fallback": "Enter the Chapel of Light"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/enter_hallow",
+	"criteria": {
+		"enter_chapel": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "stellarity:chapel_of_light"
+					}
+				}
+			}
+		}
+	}
+}

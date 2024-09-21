@@ -1,0 +1,83 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrel"
+		},
+		"title": {
+			"translate": "stellarity.advancements.the_void_provides",
+			"fallback": "The Void Provides"
+		},
+		"description": {
+			"translate": "stellarity.advancements.the_void_provides.description",
+			"fallback": "Fish out and open a Crate from the void through Void Fishing",
+			"color": "aqua"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:void_fishing/void_reels",
+	"criteria": {
+		"open1": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/amethyst"
+			}
+		},
+		"open2": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/ender"
+			}
+		},
+		"open3": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/frozen"
+			}
+		},
+		"open4": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/hallowed"
+			}
+		},
+		"open5": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/hellfire"
+			}
+		},
+		"open6": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/hematic"
+			}
+		},
+		"open7": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/prismarine"
+			}
+		},
+		"open8": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/sculk"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"open1",
+			"open2",
+			"open3",
+			"open4",
+			"open5",
+			"open6",
+			"open7",
+			"open8"
+		]
+	]
+}

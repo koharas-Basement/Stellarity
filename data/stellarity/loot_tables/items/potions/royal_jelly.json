@@ -1,0 +1,60 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"royal_jelly\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.royal_jelly",
+								"fallback": "Royal Jelly",
+								"color": "yellow",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[
+									{
+										"translate": "effect.minecraft.absorption",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"translate": "potion.potency.2",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "(0:48)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

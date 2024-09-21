@@ -1,0 +1,150 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jigsaw",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.materials.enderite_smithing_template",
+								"fallback": "Smithing Template",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"enderite_smithing_template\",CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "stellarity.items.materials.enderite_smithing_template.upgrade",
+									"fallback": "Enderite Upgrade",
+									"color": "gray",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "item.minecraft.smithing_template.applies_to",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "stellarity.items.materials.enderite_smithing_template.applies_to",
+										"fallback": "Netherite Equipment",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "stellarity.items.materials.enderite_smithing_template.description",
+										"fallback": "Only usable at the Altar of The Accursed",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								{
+									"translate": "item.minecraft.smithing_template.ingredients",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+										"fallback": "%1$s %2$s",
+										"color": "blue",
+										"italic": false,
+										"with" : [
+											{
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4",
+												"fallback": "4x"
+											},
+											{
+												"translate": "stellarity.items.materials.hallowed_ingot",
+												"fallback": "Hallowed Ingot"
+											}
+										]
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+										"fallback": "%1$s %2$s",
+										"color": "blue",
+										"italic": false,
+										"with" : [
+											{
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4",
+												"fallback": "4x"
+											},
+											{
+												"translate": "stellarity.items.materials.chorus_plating",
+												"fallback": "Chorus Plating"
+											}
+										]
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+										"fallback": "%1$s %2$s",
+										"color": "blue",
+										"italic": false,
+										"with" : [
+											{
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4",
+												"fallback": "4x"
+											},
+											{
+												"translate": "item.minecraft.shulker_shell"
+											}
+										]
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+										"fallback": "%1$s %2$s",
+										"color": "blue",
+										"italic": false,
+										"with" : [
+											{
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.8",
+												"fallback": "8x"
+											},
+											{
+												"translate": "block.minecraft.cherry_leaves"
+											}
+										]
+									}
+								],
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

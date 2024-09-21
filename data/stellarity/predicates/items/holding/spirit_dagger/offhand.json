@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"items": [
+					"minecraft:netherite_sword"
+				],
+				"nbt": "{stellarity.special_item:\"spirit_dagger\"}"
+			}
+		}
+	}
+}

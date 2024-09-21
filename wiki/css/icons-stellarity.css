@@ -1,0 +1,56 @@
+.icon-stellarity, .icon-stellarity-sm {
+	display: inline-block;
+	vertical-align: middle;
+
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-pixelated;
+	image-rendering: crisp-edges;
+}
+.icon-stellarity {
+	width: 32px;
+	height: 32px;
+	background-size: 32px;
+}
+
+.icon-stellarity-sm {
+	width: 16px;
+	height: 16px;
+	background-size: 16px;
+}
+
+.icon-stellarity-pixie-dust {background-image: url(../assets/items/pixie_dust.png);}
+.icon-stellarity-cursed-tome {background-image: url(../assets/items/cursed_tome.png);}
+.icon-stellarity-ancient-wooden-sword {background-image: url(../assets/items/ancient_wooden_sword.png);}
+.icon-stellarity-ender-insignia {background-image: url(../assets/items/ender_insignia.png);}
+.icon-stellarity-ender-sigil {background-image: url(../assets/items/ender_sigil.png);}
+.icon-stellarity-dragonblade {background-image: url(../assets/items/dragonblade.png);}
+.icon-stellarity-book-of-light {background-image: url(../assets/items/book_of_light.png);}
+.icon-stellarity-book-of-updraft {background-image: url(../assets/items/book_of_updraft.png);}
+.icon-stellarity-book-of-conveynace {background-image: url(../assets/items/book_of_conveyance.png);}
+.icon-stellarity-sariel {background-image: url(../assets/items/sariel.png);}
+.icon-stellarity-sabrewing {background-image: url(../assets/items/sabrewing.png);}
+.icon-stellarity-sharanga {background-image: url(../assets/items/sharanga.png);}
+.icon-stellarity-duskberry {background-image: url(../assets/items/duskberry.png);}
+.icon-stellarity-duskberry-old {background-image: url(../assets/items/duskberry-old.png);}
+.icon-stellarity-clockwork-crossbow {background-image: url(../assets/items/clockwork_crossbow.png);}
+.icon-stellarity-prismatic-pearl {background-image: url(../assets/items/prismatic_pearl.gif);}
+.icon-stellarity-prismatic-punch {background-image: url(../assets/items/prismatic_punch.png);}
+.icon-stellarity-spirit-dagger {background-image: url(../assets/items/spirit_dagger.png);}
+.icon-stellarity-living-flesh {background-image: url(../assets/items/living_flesh.png);}
+.icon-stellarity-zephyr {background-image: url(../assets/items/zephyr.png);}
+.icon-stellarity-battlestick {background-image: url(../assets/items/battlestick.png);}
+.icon-stellarity-ancient-armor {background-image: url(../assets/armor/ancient/chestplate.png);}
+.icon-stellarity-hallowed-armor {background-image: url(../assets/armor/hallowed/chestplate.png);}
+.icon-stellarity-shulker-armor {background-image: url(../assets/armor/shulker/chestplate.png);}
+.icon-stellarity-pandoras-barrel {background-image: url(../assets/items/pandoras_barrel.png);}
+.icon-stellarity-zephyr {background-image: url(../assets/items/zephyr.png);}
+.icon-stellarity-ancient-plating {background-image: url(../assets/items/ancient_plating.png);}
+.icon-stellarity-hallowed-ingot {background-image: url(../assets/items/hallowed_ingot.png);}
+.icon-stellarity-starstruck-carcanet {background-image: url(../assets/items/starstruck_carcanet.png);}
+.icon-stellarity-tamaris {background-image: url(../assets/items/tamaris.png);}
+.icon-stellarity-aota {background-image: url(../assets/aota_large.png);}
+.icon-stellarity-frigid-harvester {background-image: url(../assets/items/frigid_harvester.png);}
+.icon-stellarity-fisher-of-voids {background-image: url(../assets/items/fisher_of_voids.png);}

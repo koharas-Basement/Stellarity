@@ -1,0 +1,59 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"starstruck_carcanet\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.starstruck_carcanet",
+								"fallback": "Starstruck Carcanet",
+								"color": "#FF76D0",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.starstruck_carcanet.description.1",
+									"fallback": "Causes 3 stars to fall when hurt",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

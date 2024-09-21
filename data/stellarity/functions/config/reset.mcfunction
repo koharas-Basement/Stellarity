@@ -1,0 +1,11 @@
+scoreboard players reset #stellarity.config stellarity.config.join_message
+scoreboard players reset #stellarity.config stellarity.config.always_generate_egg
+scoreboard players reset #stellarity.config stellarity.config.dragon_health
+scoreboard players reset #stellarity.config stellarity.config.eol_health
+scoreboard players reset #stellarity.config stellarity.config.allow_disenchanting
+scoreboard players reset #stellarity.config stellarity.config.enable_treasure_heads
+scoreboard players reset #stellarity.config stellarity.config.track_loop_delay.eol
+scoreboard players reset #stellarity.config stellarity.config.track_loop_delay.dragon
+scoreboard players reset #stellarity.config stellarity.config.enable_dragon_screenshake
+scoreboard players reset #stellarity.config stellarity.config.enable_creative_shock
+scoreboard players reset #stellarity.config stellarity.config.nerf_elytra

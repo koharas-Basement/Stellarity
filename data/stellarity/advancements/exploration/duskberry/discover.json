@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sweet_berries",
+			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.duskberry_find",
+			"fallback": "Don't Bush Your Luck!"
+		},
+		"description": {
+			"translate": "stellarity.advancements.duskberry_find.description",
+			"fallback": "Pick up a Duskberry from a Chest in Hallow's End Ship"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/enter_hallow",
+	"criteria": {
+		"obtain_duskberry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sweet_berries"
+						],
+						"nbt": "{stellarity.special_item:\"duskberry\"}"
+					}
+				]
+			}
+		}
+	}
+}

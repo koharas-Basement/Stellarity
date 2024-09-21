@@ -1,0 +1,109 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:base",
+									"color": "purple"
+								},
+								{
+									"pattern": "minecraft:gradient",
+									"color": "magenta"
+								},
+								{
+									"pattern": "minecraft:triangle_top",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:triangle_bottom",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:cross",
+									"color": "purple"
+								},
+								{
+									"pattern": "minecraft:curly_border",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:flower",
+									"color": "purple"
+								},
+								{
+									"pattern": "minecraft:flower",
+									"color": "black"
+								}
+							],
+							"append": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"crest_of_the_end\",CustomModelData:90000,HideFlags:32,kohara.durability:{enabled:1b,max_dur:442},kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.crest_of_the_end",
+								"fallback": "Crest of The End",
+								"color": "#9936D6",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.crest_of_the_end.description.1",
+									"fallback": "Blocking damage adds extra force",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.crest_of_the_end.description.2",
+									"fallback": "to your next attack in retaliation",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "stellarity.crest_of_the_end.attack_damage",
+									"amount": 0.05,
+									"operation": "multiply_total",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "stellarity.crest_of_the_end.attack_damage",
+									"amount": 0.05,
+									"operation": "multiply_total",
+									"slot": "offhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

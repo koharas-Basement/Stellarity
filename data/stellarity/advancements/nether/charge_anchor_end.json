@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:respawn_anchor",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.charge_anchor_end",
+			"fallback": "Anchored"
+		},
+		"description": {
+			"translate": "stellarity.advancements.charge_anchor_end.description",
+			"fallback": "Charge a Respawn Anchor in The End. You can use it to set your respawn point there just like in The Nether"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:nether/charge_respawn_anchor",
+	"criteria": {
+		"charge_respawn_anchor": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end",
+							"block": {
+								"blocks": [
+									"minecraft:respawn_anchor"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:glowstone"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"charge_respawn_anchor"
+		]
+	]
+}

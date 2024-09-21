@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.perm_buffs.energizing_fruit",
+								"fallback": "Energizing Fruit",
+								"color": "#F22AD6",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.perm_buffs.energizing_fruit.increase",
+									"fallback":"increase your movement speed",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"energizing_fruit\",CustomModelData:90001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

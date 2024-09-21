@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.dragonborn",
+			"fallback": "Dragonborn"
+		},
+		"description": {
+			"translate": "stellarity.advancements.dragonborn.description",
+			"fallback": "Obtain the Dragonblade, a mythical sword of a truly unknown origin"
+		},
+		"frame": "goal"
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_sword"
+						],
+						"nbt": "{stellarity.special_item:\"dragonblade\"}"
+					}
+				]
+			}
+		}
+	}
+}

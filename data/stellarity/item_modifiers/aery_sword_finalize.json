@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "stellarity.items.weapons.frigid_harvester",
+			"fallback": "Frigid Harvester",
+			"color": "#F466CC",
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "stellarity:temp"
+		},
+		"ops": [
+			{
+				"source": "aery_sword.lore",
+				"target": "display.Lore",
+				"op": "replace"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Unbreakable:1b,Damage:0,kohara.fireproof:1b}"
+	}
+]

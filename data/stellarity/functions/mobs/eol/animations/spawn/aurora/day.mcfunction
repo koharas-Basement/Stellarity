@@ -1,0 +1,25 @@
+execute rotated ~ ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~30 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~60 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~90 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~120 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~150 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~180 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~210 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~240 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~270 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~300 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~330 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+
+execute rotated ~ ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~30 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~60 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~90 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~120 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~150 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~180 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~210 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~240 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~270 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~300 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~330 ~ run particle dust 1 0.816 0 1.45 ^ ^0.3 ^3 0.6 0.6 0.6 1 4

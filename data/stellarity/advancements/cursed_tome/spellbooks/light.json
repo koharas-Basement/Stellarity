@@ -1,0 +1,40 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:knowledge_book"
+						],
+						"nbt": "{stellarity.special_item:\"book_of_light\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:stronghold"
+					}
+				},
+				"entity": {
+					"type": "minecraft:evoker"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

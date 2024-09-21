@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_hoe",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.absolute_devotion",
+			"fallback": "Absolute Devotion"
+		},
+		"description": {
+			"translate": "stellarity.advancements.absolute_devotion.description",
+			"fallback": "Upgrade your Netherite Hoe to its Shulker version. At this point, it's just pure madness..."
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/obtain_netherite_hoe",
+	"criteria": {
+		"seek_medical_attention_dumbass": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 150
+	}
+}

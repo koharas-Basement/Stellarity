@@ -1,0 +1,19 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					],
+					"nbt": "{stellarity.special_item:\"golden_chorus_fruit\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/golden_chorus_fruit/eat"
+	}
+}

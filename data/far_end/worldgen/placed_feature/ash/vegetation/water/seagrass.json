@@ -1,0 +1,51 @@
+{
+    "feature": "far_end:ash/vegetation/water/seagrass",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 150
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:basalt",
+                            "minecraft:stone",
+                            "minecraft:blackstone"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:water"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:water",
+                            "minecraft:air"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

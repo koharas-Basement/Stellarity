@@ -1,0 +1,71 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.living_flesh",
+								"fallback": "Living Flesh",
+								"color": "#E53F3F",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"living_flesh\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.living_flesh.description.1",
+									"fallback": "Increases life regeneration",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.living_flesh.description.2",
+									"fallback": "and movement speed when hurt",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.living_flesh.flavor_text",
+									"fallback": "'You can feel it beating...'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

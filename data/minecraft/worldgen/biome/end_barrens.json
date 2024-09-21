@@ -1,0 +1,76 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 5261169,
+		"water_fog_color": 3156295,
+		"grass_color": 4994644,
+		"foliage_color": 5585503,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark"
+		},
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 800,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.nether_wastes.additions",
+			"tick_chance": 0.005
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:ash"
+			},
+			"probability": 0.0111
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:silverfish",
+				"weight": 20,
+				"minCount": 3,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:phantom",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 30,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:barrens/hills",
+			"stellarity:global/stalactite",
+			"stellarity:barrens/stalactite"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
+		]
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"values": [
+		"kohara:armor_piercing",
+		"kohara:no_knockback_ignores_iframes",
+		"kohara:ignores_iframes",
+		"minecraft:arrow",
+		"minecraft:fireworks",
+
+		"#stellarity:custom_damage"
+	]
+}

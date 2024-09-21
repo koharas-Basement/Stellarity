@@ -1,0 +1,74 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.9,
+	"has_precipitation": false,
+	"temperature_modifier": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 15068927,
+		"water_fog_color": 12895439,
+		"grass_color": 14606046,
+		"foliage_color": 12763842,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark"
+		},
+		"mood_sound": {
+			"sound": "minecraft:ambient.basalt_deltas.mood",
+			"tick_delay": 1250,
+			"block_search_extent": 3,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.crimson_forest.additions",
+			"tick_chance": 0.0033
+		},
+		"particle": {
+			"options": {
+				"type": "white_ash"
+			},
+			"probability": 0.01
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:skeleton",
+				"weight": 11,
+				"minCount": 2,
+				"maxCount": 2
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:global/stalactite"
+		],
+		[
+			"far_end:ash/aquatic/lake"
+		],
+		[],
+		[
+			"far_end:ash/aquatic/delta",
+			"far_end:ash/surface/grass_delta",
+			"stellarity:ash/basalt_columns"
+		],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:ash/vegetation/water/seagrass",
+			"far_end:ash/vegetation/land/trees",
+			"stellarity:ash/vegetation",
+			"stellarity:ash/grass"
+		],
+		[
+			"stellarity:ash/magma",
+			"stellarity:ash/ash_pile"
+		]
+	]
+}

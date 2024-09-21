@@ -1,0 +1,182 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"pink_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.pink_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"red_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.red_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"lime_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.lime_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"blue_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.blue_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"black_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.black_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"magenta_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.magenta_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"purple_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.purple_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"white_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.white_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"orange_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.orange_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		},
+		"normal_shulker": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"type": "minecraft:shulker",
+							"nbt": "{Tags:[\"stellarity.end_city.normal_shulker\"]}"
+						},
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pink_shulker",
+			"black_shulker",
+			"red_shulker",
+			"blue_shulker",
+			"white_shulker",
+			"lime_shulker",
+			"magenta_shulker",
+			"purple_shulker",
+			"normal_shulker",
+			"orange_shulker"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:mobs/shulker/hit_with_shulker_bullet"
+	}
+}

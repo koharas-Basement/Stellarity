@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker"
+		},
+		"title": {
+			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark",
+			"fallback": "All Bets Are Off"
+		},
+		"description": {
+			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark.description",
+			"fallback": "Open a Pandora's Barrel in the Deep Dark. Odds are that you will survive..."
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:pandoras_barrel/place",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

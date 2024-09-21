@@ -1,0 +1,195 @@
+{
+	"entity.enderman.attack":{
+		"sounds":[
+			"stellarity:mob/enderman/attack_1",
+			"stellarity:mob/enderman/attack_2",
+			"stellarity:mob/enderman/attack_3"
+		],
+		"subtitle":"Enderman attacks"
+	},
+	"entity.endermite.attack":{
+		"sounds":[
+			"stellarity:mob/endermite/attack_1",
+			"stellarity:mob/endermite/attack_2",
+			"stellarity:mob/endermite/attack_3"
+		],
+		"subtitle":"Endermite attacks"
+	},
+	"effect.voided.activate":{
+		"sounds":[
+			{
+				"name":"stellarity:effect/voided/activate_1",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/activate_2",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/activate_3",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/activate_4",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/activate_5",
+				"attenuation_distance": 6
+			}
+		]
+	},
+	"effect.voided.deactivate":{
+		"sounds":[
+			{
+				"name":"stellarity:effect/voided/deactivate_1",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/deactivate_2",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/deactivate_3",
+				"attenuation_distance": 6
+			},
+			{
+				"name":"stellarity:effect/voided/deactivate_4",
+				"attenuation_distance": 6
+			}
+		]
+	},
+	"item.living_flesh.boost":{
+		"sounds":[
+			"stellarity:item/living_flesh/rush_1",
+			"stellarity:item/living_flesh/rush_2"
+		],
+		"subtitle":"Living Flesh hurts"
+	},
+	"item.elektra_shield.recharge":{
+		"sounds":[
+			"stellarity:item/elektra_shield/zap_1",
+			"stellarity:item/elektra_shield/zap_2",
+			"stellarity:item/elektra_shield/zap_3"
+		],
+		"subtitle":"Elektra Shield recharges"
+	},
+	"item.elektra_shield.zap":{
+		"sounds":[
+			"stellarity:item/elektra_shield/zap_1",
+			"stellarity:item/elektra_shield/zap_2",
+			"stellarity:item/elektra_shield/zap_3"
+		]
+	},
+	"item.chorus_dagger.ready":{
+		"sounds":[
+			"stellarity:item/chorus_dagger/cooldown_end"
+		],
+		"subtitle":"Chorus Dagger recharges"
+	},
+	"item.kaleidoscope.ready":{
+		"sounds":[
+			"stellarity:item/kaleidoscope/ready_1",
+			"stellarity:item/kaleidoscope/ready_2",
+			"stellarity:item/kaleidoscope/ready_3",
+			"stellarity:item/kaleidoscope/ready_4",
+			"stellarity:item/kaleidoscope/ready_5"
+		],
+		"subtitle": "Kaleidoscope charges"
+	},
+	"item.kaleidoscope.level_1":{
+		"sounds":[
+			"stellarity:item/kaleidoscope/level_1_1",
+			"stellarity:item/kaleidoscope/level_1_2",
+			"stellarity:item/kaleidoscope/level_1_3"
+		]
+	},
+	"item.kaleidoscope.level_2":{
+		"sounds":[
+			"stellarity:item/kaleidoscope/level_2_1",
+			"stellarity:item/kaleidoscope/level_2_2",
+			"stellarity:item/kaleidoscope/level_2_3"
+		]
+	},
+	"item.kaleidoscope.level_3":{
+		"sounds":[
+			"stellarity:item/kaleidoscope/level_3_1",
+			"stellarity:item/kaleidoscope/level_3_2",
+			"stellarity:item/kaleidoscope/level_3_3"
+		]
+	},
+	"item.dragonblade.damage":{
+		"sounds":[
+			"stellarity:item/dragonblade/damage"
+		]
+	},
+	"item.dragonblade.drop":{
+		"sounds":[
+			"stellarity:item/dragonblade/drop"
+		]
+	},
+	"item.dragonblade.punch":{
+		"sounds":[
+			"stellarity:item/dragonblade/punch"
+		]
+	},
+	"item.tamaris.execute":{
+		"sounds":[
+			"stellarity:item/tamaris/execute"
+		],
+		"subtitle":"subtitles.entity.player.teleport"
+	},
+	"item.tamaris.execute_special":{
+		"sounds":[
+			"stellarity:item/tamaris/execute_special"
+		],
+		"subtitle":"subtitles.entity.player.teleport"
+	},
+	"item.tamaris.execute_bg":{
+		"sounds":[
+			"stellarity:item/tamaris/execute_bg"
+		]
+	},
+	"item.tamaris.rave":{
+		"sounds":[
+			"stellarity:item/tamaris/dance"
+		]
+	},
+	"item.spirit_dagger.charge":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/charge"
+		]
+	},
+	"item.spirit_dagger.teleport":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/slash"
+		],
+		"subtitle": "subtitles.entity.player.teleport"
+	},
+	"item.spirit_dagger.charge_kohara":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/kohara_charge"
+		]
+	},
+	"item.spirit_dagger.slash_kohara":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/kohara_slash"
+		],
+		"subtitle": "subtitles.entity.player.teleport"
+	},
+	"block.end_portal.create":{
+		"sounds":[
+			"stellarity:block/end_portal/create"
+		]
+	},
+	"block.end_portal.travel":{
+		"sounds":[
+			"stellarity:block/end_portal/travel"
+		]
+	},
+	"block.altar_of_light.bless":{
+		"sounds":[
+			"stellarity:block/altar_of_light/blood_sacrifice"
+		]
+	}
+}

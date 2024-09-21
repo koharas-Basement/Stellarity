@@ -1,0 +1,92 @@
+{
+	"attributes_add_in_1_20_5": [
+		{
+			"attribute": "minecraft:generic.gravity",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": -0.1,
+			"operation": "multiply_total",
+			"slot": "chest"
+		},
+		{
+			"attribute": "minecraft:generic.fall_damage_multiplier‌",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": -1,
+			"operation": "multiply_total",
+			"slot": "chest"
+		}
+	],
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.elytra.empress_wings",
+								"fallback": "Empress Wings",
+								"color": "#FF76D0",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.elytra.empress_wings.description.1",
+									"fallback": "Delicate wings provide excellent",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.elytra.empress_wings.description.2",
+									"fallback": "flight speed and agility",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"empress_wings\",kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": -1,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": 0.12,
+									"operation": "multiply_base",
+									"slot": "chest"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

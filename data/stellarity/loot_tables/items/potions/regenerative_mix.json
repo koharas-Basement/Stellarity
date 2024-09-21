@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{custom_potion_effects:[{id:\"minecraft:instant_health\",duration:1},{id:\"minecraft:regeneration\",amplifier:2b,duration:140}],CustomPotionColor:16121975}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.regenerative_mix",
+								"fallback": "Regenerative Mix",
+								"color": "white",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+								
+						}
+					]
+				}
+			]
+		}
+	]
+}

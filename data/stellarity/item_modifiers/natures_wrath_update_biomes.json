@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "stellarity:temp"
+		},
+		"ops": [
+			{
+				"source": "natures_wrath.book_spirits",
+				"target": "\"stellarity.spirits\"",
+				"op": "replace"
+			}
+		]
+	}
+]

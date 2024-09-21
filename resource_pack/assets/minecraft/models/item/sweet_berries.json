@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/sweet_berries"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/duskberry"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/fury_berries"
+		}
+	]
+}

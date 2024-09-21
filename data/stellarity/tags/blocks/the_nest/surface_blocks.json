@@ -1,0 +1,22 @@
+{
+	"values": [
+		"#far_end:end_stone",
+		"basalt",
+		"deepslate",
+		"tuff",
+		"cobbled_deepslate",
+		"#terracotta",
+		"grass_block",
+		"dirt",
+		"polished_deepslate",
+		"deepslate_coal_ore",
+		"deepslate_iron_ore",
+		"deepslate_diamond_ore",
+		"deepslate_emerald_ore",
+		"deepslate_gold_ore",
+		"cobblestone",
+		"andesite",
+		"obsidian",
+		"crying_obsidian"
+	]
+}

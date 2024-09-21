@@ -1,0 +1,17 @@
+{
+	"pack": {
+		"pack_format": 22,
+		"description": [
+			{
+				"translate": "stellarity.pack_mcmeta.rp.music",
+				"fallback": "Music addon for Stellarity",
+				"color": "#CB4BFF"
+			},
+			" ",
+			{
+				"text": "🎵",
+				"color": "gold"
+			}
+		]
+	}
+}

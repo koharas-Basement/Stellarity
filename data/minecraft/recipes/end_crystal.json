@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GGG",
+		"GEG",
+		"GTG"
+	],
+	"key": {
+		"E": {
+			"item": "minecraft:ender_eye"
+		},
+		"G": {
+			"tag": "kohara:glass_blocks"
+		},
+		"T": [
+			{
+				"item": "minecraft:obsidian"
+			},
+			{
+				"item": "minecraft:crying_obsidian"
+			}
+		]
+	},
+	"result": {
+		"item": "minecraft:end_crystal"
+	}
+}

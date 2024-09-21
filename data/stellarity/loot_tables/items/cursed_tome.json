@@ -1,0 +1,89 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.cursed_tome",
+								"fallback": "Cursed Enchiridion",
+								"color": "#8000B8",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"cursed_tome\",title:\"Cursed Enchiridion\",author:\"kohara_\",generation:3,HideFlags:32,pages:['[{\"text\":\"This item is being updated. For now, use Stellarity wiki instead of this. I know it might now have all the info, but beleive it or not, it is going to be updated quicker than the Cursed Tome ~kohara\"}]'],kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.cursed_tome.description.1",
+									"fallback": "Contains all the information",
+									"color": "#BB6BDE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.cursed_tome.description.2",
+									"fallback": "about Stellarity items",
+									"color": "#BB6BDE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.cursed_tome.description.flavor_text",
+									"fallback": "'Your miniature wiki!'",
+									"color": "#BB6BDE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "book.byAuthor",
+									"with": [
+										{
+											"text": "kohara_",
+											"color": "gray",
+											"font": "illageralt"
+										}
+									],
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"translate": "book.generation.3",
+									"color": "gray",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

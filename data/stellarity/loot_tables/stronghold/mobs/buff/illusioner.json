@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.4,
+								"max": 0.8
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:power",
+								"minecraft:flame",
+								"minecraft:punch"
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.8
+				}
+			]
+		}
+	]
+}

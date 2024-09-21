@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:flower",
+	"config": {
+		"tries": 40,
+		"xz_spread": 7,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:dual_noise_provider",
+						"seed": 76543,
+						"noise": {
+							"firstOctave": -6,
+							"amplitudes": [
+								1,
+								1.5
+							]
+						},
+						"scale": 1,
+						"variety": {
+							"min_inclusive": 1,
+							"max_inclusive": 2
+						},
+						"slow_noise": {
+							"firstOctave": -8,
+							"amplitudes": [
+								1,
+								0
+							]
+						},
+						"slow_scale": 1,
+						"states": [
+							{
+								"Name": "minecraft:blue_orchid"
+							},
+							{
+								"Name": "minecraft:allium"
+							},
+							{
+								"Name": "minecraft:flowering_azalea"
+							},
+							{
+								"Name": "minecraft:blue_orchid"
+							},
+							{
+								"Name": "minecraft:cornflower"
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:would_survive",
+								"state": {
+									"Name": "minecraft:blue_orchid"
+								}
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

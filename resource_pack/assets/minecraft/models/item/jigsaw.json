@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/jigsaw",
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/enderite_smithing_template"
+		}
+	]
+}

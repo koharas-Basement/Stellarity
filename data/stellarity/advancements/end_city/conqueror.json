@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magenta_banner",
+			 "nbt": "{Enchantments:[{}],BlockEntityTag:{Patterns:[{Color:15,Pattern:\"bt\"},{Color:15,Pattern:\"tt\"}]}}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.conqueror",
+			"fallback": "Conqueror"
+		},
+		"description": {
+			"translate": "stellarity.advancements.conqueror.description",
+			"fallback": "Destroy all protective End Crystals and fully conquer an End City",
+			"color": "dark_aqua"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:end_city/crystal_crusher",
+	"criteria": {
+		"h": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

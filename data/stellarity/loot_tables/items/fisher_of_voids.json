@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,kohara.durability:{enabled:1b,max_dur:256},stellarity.special_item:\"fisher_of_voids\",kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.fisher_of_voids",
+								"fallback": "Fisher of Voids",
+								"color": "#8865AF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.fisher_of_voids.description",
+									"fallback": "Void Fishing is slightly quicker",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"replace": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

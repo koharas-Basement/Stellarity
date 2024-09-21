@@ -1,0 +1,56 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/netherite_sword"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/dragonblade"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/shulker_sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/tamaris"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90003
+			},
+			"model": "stellarity:item/prismember"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90004
+			},
+			"model": "stellarity:item/chorus_dagger"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90005
+			},
+			"model": "stellarity:item/the_beginning"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90006
+			},
+			"model": "stellarity:item/the_end"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90007
+			},
+			"model": "stellarity:item/stellar_striker"
+		}
+	]
+}

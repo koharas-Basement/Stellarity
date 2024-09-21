@@ -1,0 +1,55 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 12,
+					"name": "stellarity:items/fish/overgrown_cod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:chorus_flower",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:chorus_plant",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

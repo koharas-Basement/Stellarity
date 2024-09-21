@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "stellarity:temp"
+		},
+		"ops": [
+			{
+				"source": "elytra_nerf.damage",
+				"target": "Damage",
+				"op": "replace"
+			}
+		]
+	}
+]

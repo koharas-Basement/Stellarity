@@ -1,0 +1,175 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 8,
+				"p": 0.5
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 13,
+					"name": "stellarity:items/fish/ender_koi"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 4,
+					"name": "stellarity:items/fish/amethyst_budfish",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "far_end:amethyst_forest"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "stellarity:items/fish/crimson_tigerfish",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "far_end:flesh_tundra"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "stellarity:items/fish/fleshy_piranha",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "far_end:flesh_tundra"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"quality": 1,
+					"name": "stellarity:items/fish/crystal_heartfish",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "stellarity:the_hallow"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 8,
+					"name": "stellarity:items/fish/prismite",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "stellarity:the_hallow"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 7,
+					"name": "stellarity:items/fish/flarefin_koi",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "stellarity:blazing_dunes"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 6,
+					"name": "stellarity:items/fish/overgrown_cod",
+					"conditions": [
+						{
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:reference",
+									"name": "stellarity:locations/biomes/in_end_midlands"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "stellarity:locations/biomes/in_end_highlands"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "stellarity:locations/biomes/in_small_end_islands"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "stellarity:locations/biomes/in_end_barrens"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 6,
+					"name": "stellarity:items/fish/frost_minnow",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "stellarity:frosted_hills"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "stellarity:items/fish/bubblefish",
+					"conditions": [
+						{
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biome": "stellarity:prismarine_forest"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:water_bucket"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 8,
+				"p": 0.7
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:seagrass"
+				}
+			]
+		}
+	]
+}

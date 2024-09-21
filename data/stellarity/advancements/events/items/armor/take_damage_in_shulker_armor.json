@@ -1,0 +1,38 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"take_damage_in_shulker_armor": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"chest": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"legs": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"feet": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						}
+					}
+				},
+				"damage": {
+					"blocked": false,
+					"type": {}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"take_damage_in_shulker_armor"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/armors/shulker_armor/take_damage"
+	}
+}

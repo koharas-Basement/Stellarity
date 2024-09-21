@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"#kohara:ammo",
+		"#stellarity:stat_buff",
+		"minecraft:allay",
+		"minecraft:vex",
+		"minecraft:zombified_piglin",
+		"minecraft:area_effect_cloud"
+	]
+}

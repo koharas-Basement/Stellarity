@@ -1,0 +1,19 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rotten_flesh"
+					],
+					"nbt": "{stellarity.special_item:\"living_flesh\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/living_flesh/eat"
+	}
+}

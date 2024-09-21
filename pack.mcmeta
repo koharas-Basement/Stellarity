@@ -1,0 +1,23 @@
+{
+	"pack": {
+		"pack_format": 26,
+		"supported_formats": {
+			"min_inclusive": 18,
+			"max_inclusive": 26
+		},
+		"description": [
+			{
+				"text": "This ender expansion is kinda beyond hardcore :drum:",
+				"color": "#CB4BFF"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": 18,
+				"directory": "overlay_1_20_2"
+			}
+		]
+	}
+}

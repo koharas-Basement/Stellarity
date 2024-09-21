@@ -1,0 +1,32 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:village/entities/1_bee",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:village/entities/2_bees",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:village/entities/3_bees",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

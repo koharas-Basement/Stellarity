@@ -1,0 +1,100 @@
+{
+	"attributes_add_in_1_20_5": [
+		{
+			"attribute": "minecraft:generic.jump_speed",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": 0.15,
+			"operation": "multiply_total",
+			"slot": "chest"
+		},
+		{
+			"attribute": "minecraft:generic.fall_damage_multiplier‌",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": 0.10,
+			"operation": "multiply_base",
+			"slot": "chest"
+		}
+	],
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.elytra.dragon_wings",
+								"fallback": "Dragon Wings",
+								"color": "#9936D6",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.elytra.dragon_wings.description.1",
+									"fallback": "Sturdy scales provide some protection,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.elytra.dragon_wings.description.2",
+									"fallback": "at the cost of flight speed",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"dragon_wings\",kohara.fireproof:1b,kohara.durability:{enabled:1b,max_dur:482}}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.armor_toughness",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": 2,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": -0.08,
+									"operation": "multiply_base",
+									"slot": "chest"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

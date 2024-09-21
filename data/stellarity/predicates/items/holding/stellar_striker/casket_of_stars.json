@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"items": [
+					"minecraft:popped_chorus_fruit"
+				],
+				"nbt": "{stellarity.special_item:\"casket_of_stars\"}"
+			}
+		}
+	}
+}

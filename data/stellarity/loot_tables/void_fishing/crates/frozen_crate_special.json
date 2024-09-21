@@ -1,0 +1,119 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 11
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/frigid_harvester"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:soul_sand",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 7
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:packed_ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 2
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blue_ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

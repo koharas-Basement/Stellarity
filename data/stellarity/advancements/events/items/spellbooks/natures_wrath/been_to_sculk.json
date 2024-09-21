@@ -1,0 +1,76 @@
+{
+	"parent": "stellarity:events/items/spellbooks/natures_wrath/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"sculk\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:deep_dark"
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"sculk\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "stellarity:sculk_growth"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

@@ -1,0 +1,347 @@
+{
+	"fallback": "stellarity:stronghold/fallback_end",
+	"elements": [
+		{
+			"weight": 17,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/3_way_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/3_way_crossing_treasure",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/4_way_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/4_way_crossing_treasure",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/ambush_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/fountains_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/library_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/lush_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/sniffer_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/rascal_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/tuff_golem_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/ritual_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/sculk_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/spider_crossing",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight_treasure",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 14,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight_alt_treasure",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight_binary",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/straight_binary_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/3_way_crossing_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/turn_1_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/turn_2_alt",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/turn_1",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/turn_1_treasure",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/turn_2",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/turn_2_treasure",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/library_big",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/library_small",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/prison",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/living_headquarters",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/conference_room",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/small_storage",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/farm",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/storage_large",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/workshop",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/crypt_small",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/amethyst_enchantery",
+				"processors": "stellarity:stronghold_generic"
+			}
+		}
+	]
+}

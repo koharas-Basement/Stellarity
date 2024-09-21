@@ -1,0 +1,18 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "minecraft:block/purpur_block",
+				"weight": 22
+			},
+			{
+				"model": "stellarity:block/purpur_block_alt1",
+				"weight": 7
+			},
+			{
+				"model": "stellarity:block/purpur_block_alt2",
+				"weight": 3
+			}
+		]
+	}
+}

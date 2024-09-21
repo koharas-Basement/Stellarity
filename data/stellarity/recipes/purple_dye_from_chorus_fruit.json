@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "purple_dye",
+	"category": "building",
+	"ingredients": [
+		{
+			"item": "minecraft:chorus_fruit"
+		}
+	],
+	"result": {
+		"item": "minecraft:purple_dye",
+		"count": 1
+	}
+}
