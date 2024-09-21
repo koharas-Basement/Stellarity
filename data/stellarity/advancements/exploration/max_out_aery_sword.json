@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword",
+			"nbt": "{CustomModelData:90004}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.max_out_aery_sword",
+			"fallback": "Frozen Reaper"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.max_out_aery_sword.description",
+				"fallback": "Reach +9 Extra Damage on Frigid Harvester"
+			},
+			"\n",
+			{
+				"translate": "stellarity.advancements.max_out_aery_sword.tip",
+				"fallback": "ᴛɪᴘ: ᴛʜɪѕ ᴍɪɢʜᴛ ʀᴇǫᴜɪʀᴇ ѕᴏᴍᴇ ɢʀɪɴᴅɪɴɢ...",
+				"color": "#727272",
+				"italic": true
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": {
+			"translate": "stellarity.advancements.obtain_ender_pearl",
+			"fallback": "Eye of Darkness"
+		},
+		"description": {
+			"translate": "stellarity.advancements.obtain_ender_pearl.description",
+			"fallback": "Get your hands on an Ender Pearl - a vital element of your journey"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:story/enter_the_nether",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ender_pearl"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"minecraft:ender_eye"
+		]
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 6141935,
+		"water_fog_color": 6141935,
+		"grass_color": 13652831,
+		"foliage_color": 14498900,
+		"mood_sound": {
+			"sound": "minecraft:ambient.crimson_forest.mood",
+			"tick_delay": 850,
+			"block_search_extent": 2,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.crimson_forest.additions",
+			"tick_chance": 0.0013
+		},
+		"particle": {
+			"options": {
+				"type": "crimson_spore"
+			},
+			"probability": 0.005
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 17,
+				"minCount": 3,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:hoglin",
+				"weight": 8,
+				"minCount": 3,
+				"maxCount": 3
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": [
+		[
+			"stellarity:highlands/stalactite"
+		],
+		[],
+		[
+			"stellarity:highlands/dirt_patches/large",
+			"stellarity:highlands/dirt_patches/small"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"stellarity:highlands/grass",
+			"stellarity:highlands/trees"
+		],
+		[]
+	]
+}

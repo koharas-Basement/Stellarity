@@ -1,0 +1,38 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sweet_berries"
+						],
+						"nbt": "{stellarity.special_item:\"duskberry\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:the_hallow",
+						"structure": "minecraft:end_city"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

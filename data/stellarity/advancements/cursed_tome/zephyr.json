@@ -1,0 +1,23 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:end_city"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

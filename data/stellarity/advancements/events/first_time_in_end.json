@@ -1,0 +1,18 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:enter_end_play_track"
+	}
+}

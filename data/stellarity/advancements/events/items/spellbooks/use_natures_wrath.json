@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stellarity:events/spellbooks/use_natures_wrath"
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/use"
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "8",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.6",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								" ",
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"shulker_tool\",stellar_durability:{enabled:1b,max_dur:2701},HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.tools.shulker.sword",
+								"fallback": "Shulker Sword",
+								"color": "#976A97",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 7,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2.4,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

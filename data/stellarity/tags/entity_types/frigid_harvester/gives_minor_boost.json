@@ -1,0 +1,13 @@
+{
+    "values": [
+        "#stellarity:passive",
+        "minecraft:polar_bear",
+        "minecraft:bee",
+        "minecraft:cave_spider",
+        "minecraft:slime",
+        "minecraft:magma_cube",
+        "minecraft:guardian",
+        "minecraft:snow_golem",
+        "minecraft:iron_golem"
+    ]
+}

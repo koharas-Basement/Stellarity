@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:30,Duration:3000},{Id:28,Duration:3000}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.graceful_potion",
+								"fallback": "Graceful Potion",
+								"color": "white",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.potions.graceful_potion.flavor_text",
+									"fallback": "'I'm like a graceful swan!'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

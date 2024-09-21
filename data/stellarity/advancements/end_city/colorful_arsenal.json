@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_shulker_box"
+		},
+		"title": {
+			"translate": "stellarity.advancements.colorful_arsenal",
+			"fallback": "Colorful Arsenal"
+		},
+		"description": {
+			"translate": "stellarity.advancements.colorful_arsenal.description",
+			"fallback": "Color a Shulker Box any color you want"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "stellarity:end_city/portable_storage",
+	"criteria": {
+		"color_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "stellarity:colored_shulker_boxes"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"color_shulker_box"
+		]
+	]
+}

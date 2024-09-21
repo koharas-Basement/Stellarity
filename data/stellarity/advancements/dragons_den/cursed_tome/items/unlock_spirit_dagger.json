@@ -1,0 +1,40 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diamond_sword"
+						],
+						"nbt": "{stellarity.special_item:\"spirit_dagger\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				},
+				"entity": {
+					"type": "minecraft:phantom"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

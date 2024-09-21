@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90002}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.disassembly",
+			"fallback": "Disassembly"
+		},
+		"description": {
+			"translate": "stellarity.advancements.disassembly.description",
+			"fallback": "Use Tamaris to execute a mob with low health"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/dragon_egg",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

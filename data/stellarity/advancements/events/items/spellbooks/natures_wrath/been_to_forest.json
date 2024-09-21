@@ -1,0 +1,84 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:forest"
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:flower_forest"
+						}
+					}
+				]
+			}
+		},
+		"3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:birch_forest"
+						}
+					}
+				]
+			}
+		},
+		"4": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:old_growth_birch_forest"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3",
+			"4"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

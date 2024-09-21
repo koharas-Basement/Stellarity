@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glowstone_dust",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.materials.pixie_dust",
+								"fallback": "Pixie Dust",
+								"color": "#FFD655",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"pixie_dust\",CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "'May contain Fairy'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

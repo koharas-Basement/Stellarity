@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.aota_intro",
+			"fallback": "An Introduction to Dark Magic",
+            "color": "#8000B8"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.aota_intro.description",
+				"fallback": "Toss any Enchanted Book over the Altar of The Accursed to imbue it with the darkest of magic"
+			}
+		],
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"craft_using_aota": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

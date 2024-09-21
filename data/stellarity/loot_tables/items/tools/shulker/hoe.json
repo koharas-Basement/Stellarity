@@ -1,0 +1,110 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_hoe",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "2",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "4",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								" ",
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"shulker_tool\",stellar_durability:{enabled:1b,max_dur:2701},HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.tools.shulker.hoe",
+								"fallback": "Shulker Hoe",
+								"color": "#976A97",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 1,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

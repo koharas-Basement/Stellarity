@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_portal_frame",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.cursed_crafting",
+			"fallback": "Cursed Crafting",
+            "color": "#B80000"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.cursed_crafting.description",
+				"fallback": "Use the Altar of The Accursed to craft some of the most powerful of gear"
+			}
+		],
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/an_introduction_to_dark_magic",
+	"criteria": {
+		"craft_using_aota": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stellarity:events/spellbooks/use_conveyance"
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/spellbooks/conveyance/use"
+	}
+}

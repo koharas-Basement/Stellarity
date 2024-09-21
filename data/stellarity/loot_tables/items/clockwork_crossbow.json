@@ -1,0 +1,67 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate":  "stellarity.items.weapons.clockwork_crossbow",
+								"fallback": "Clockwork Crossbow",
+								"color": "#873600",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"clockwork_crossbow\",Charged:0b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate":  "stellarity.items.weapons.clockwork_crossbow.description.1",
+									"fallback": "Shoots incredibly fast",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate":  "stellarity.items.weapons.clockwork_crossbow.description.2",
+									"fallback": "but with reduced damage",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+                                {
+									"translate":  "stellarity.items.weapons.clockwork_crossbow.description.3",
+									"fallback": "Chance to save ammunition, increases",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate":  "stellarity.items.weapons.clockwork_crossbow.description.4",
+									"fallback": "with Quick Charge enchantment",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+                                "",
+								{
+									"translate":  "stellarity.items.weapons.clockwork_crossbow.flavor_text",
+									"fallback": "'i'm not using auto!'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

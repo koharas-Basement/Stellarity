@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:barrel",
+							"name": "stellarity:void_fishing/crates/prismarine"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.crates.prismarine",
+								"fallback": "Prismarine Crate",
+								"color": "#27DBFF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.crates.place_down",
+									"fallback": "Place down and open!",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

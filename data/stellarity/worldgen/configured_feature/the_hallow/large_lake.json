@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 24,
+		"xz_spread": 2,
+		"y_spread": 4,
+		"feature": {
+			"feature": {
+				"type": "minecraft:lake",
+				"config": {
+					"fluid": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:water",
+							"Properties": {
+								"level": "0"
+							}
+						}
+					},
+					"barrier": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:calcite"
+						}
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:heightmap",
+					"heightmap": "OCEAN_FLOOR"
+				}
+			]
+		}
+	}
+}

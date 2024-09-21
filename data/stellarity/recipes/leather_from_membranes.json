@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "leather",
+	"category": "misc",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:phantom_membrane"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather"
+	}
+}

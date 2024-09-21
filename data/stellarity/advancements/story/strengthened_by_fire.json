@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"title": {
+			"translate": "stellarity.advancements.craft_ender_eye",
+			"fallback": "Strengthened by Fire"
+		},
+		"description": {
+			"translate": "stellarity.advancements.craft_ender_eye.description",
+			"fallback": "Once you combine Blaze Powder and an Ender Pearl they turn into... something special?"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:story/obtain_an_ender_pearl",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ender_eye"
+						]
+					}
+				]
+			}
+		}
+	}
+}

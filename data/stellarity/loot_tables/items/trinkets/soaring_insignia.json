@@ -1,0 +1,65 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"soaring_insignia\",CustomModelData:90001,Enchantments:[{}],HideFlags:2}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.soaring_insignia",
+								"fallback": "Soaring Insignia",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.soaring_insignia.description.1",
+									"fallback": "Grants infinite flight",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.soaring_insignia.description.2",
+									"fallback": "with fairly limited agility",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.soaring_insignia.description.3",
+									"fallback": "Sneak and look up/down to adjust height",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

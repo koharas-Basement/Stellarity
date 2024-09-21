@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.perm_buffs.ferocious_berries",
+								"fallback": "Ferocious Berries",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.perm_buffs.ferocious_berries.increase",
+									"fallback": "increase your attack speed",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"ferocious_berries\",CustomModelData:90001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

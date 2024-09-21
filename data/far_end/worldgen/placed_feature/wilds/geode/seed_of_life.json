@@ -1,0 +1,30 @@
+{
+	"feature": "far_end:wilds/geode/seed_of_life",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 37
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -12,
+					"max_inclusive": -5
+				}
+			}
+		}
+	]
+}

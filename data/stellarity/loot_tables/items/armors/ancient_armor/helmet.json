@@ -1,0 +1,92 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.armors.ancient_armor.helmet",
+								"fallback": "Ancient Helm",
+								"color": "#A87CC4",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.armors.set_bonus",
+									"fallback": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.ancient_armor.set_bonus.1",
+									"fallback": "Fills you with Wrath of The Ancients,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.ancient_armor.set_bonus.2",
+									"fallback": "providing ramping increasing damage",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.ancient_armor.set_bonus.3",
+									"fallback": "on combo attacks!",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"ancient_armor\",display:{color:11041988},HideFlags:64,stellar_durability:{enabled:1b,max_dur:415}}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": " ",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "head"
+								},
+								{
+									"attribute": "minecraft:generic.armor_toughness",
+									"name": " ",
+									"amount": 3,
+									"operation": "addition",
+									"slot": "head"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": " ",
+									"amount": 0.025,
+									"operation": "multiply_base",
+									"slot": "head"
+								},
+								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": "",
+									"amount": 0.1,
+									"operation": "addition",
+									"slot": "head"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

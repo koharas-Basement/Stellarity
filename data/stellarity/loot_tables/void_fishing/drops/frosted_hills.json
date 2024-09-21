@@ -1,0 +1,79 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 8,
+					"name": "stellarity:items/fish/frost_minnow",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:ice",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:packed_ice",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:blue_ice",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:snow_block",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

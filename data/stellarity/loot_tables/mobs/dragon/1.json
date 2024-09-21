@@ -1,0 +1,22 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/trinkets/ender_insignia"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/tamaris"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.cursed_tome",
+								"fallback": "Cursed Tome",
+								"color": "#8000B8",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"cursed_tome\",title:\"Cursed Tome\",author:\"kohara_\",generation:3,HideFlags:32,pages:['[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{    \"translate\": \"stellarity.items.cursed_tome.discover_hint\",\"fallback\": \"The more you explore, the more knowledge this book will be filled with...\",\"italic\": true}]','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','','[{\"text\": \"\\\\n\\\\n\\\\n\\\\n\"},{\"text\": \"????\",\"italic\": true,\"obfuscated\": true,\"font\": \"illageralt\"},\"\\\\n\",{\"translate\": \"stellarity.items.cursed_tome.not_discovered\",\"fallback\": \"Not discovered yet.\",\"italic\": true}]','']}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.cursed_tome.description.1",
+									"fallback": "Contains all the information",
+									"color": "#BB6BDE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.cursed_tome.description.2",
+									"fallback": "about Stellarity items",
+									"color": "#BB6BDE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.cursed_tome.description.flavor_text",
+									"fallback": "'Your miniature wiki!'",
+									"color": "#BB6BDE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "book.byAuthor",
+									"with": [
+										{
+											"text": "kohara_",
+											"color": "gray",
+											"font": "illageralt"
+										}
+									],
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"translate": "book.generation.3",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.fish.overgrown_cod",
+								"fallback": "Overgrown Cod",
+								"color": "#A24AFF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90003,stellarity.special_item:\"overgrown_cod\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

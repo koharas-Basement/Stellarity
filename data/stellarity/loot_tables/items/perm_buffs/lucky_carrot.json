@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_carrot",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.perm_buffs.lucky_carrot",
+								"fallback": "Lucky Carrot",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+                                {
+									"translate": "stellarity.items.perm_buffs.lucky_carrot.increase",
+									"fallback": "increase your luck",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"lucky_carrot\",CustomModelData:90000}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

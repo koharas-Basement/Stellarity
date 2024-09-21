@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/end_portal_frame","overrides":[{"predicate":{"custom_model_data":9e4},"model":"stellarity:item/technical/aota"}]}

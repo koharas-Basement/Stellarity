@@ -1,0 +1,174 @@
+{
+    "parent": "stellarity:events/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:grove"
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:snowy_beach"
+						}
+					}
+				]
+			}
+		},
+		"3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:snowy_plains"
+						}
+					}
+				]
+			}
+		},
+		"4": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:snowy_taiga"
+						}
+					}
+				]
+			}
+		},
+		"5": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:snowy_slopes"
+						}
+					}
+				]
+			}
+		},
+		"6": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:frozen_peaks"
+						}
+					}
+				]
+			}
+		},
+		"7": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:frozen_river"
+						}
+					}
+				]
+			}
+		},
+		"8": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":[
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:ice_spikes"
+						}
+					}
+				]
+			}
+		},
+		"9": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":[
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "stellarity:frosted_hills"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"take_damage_in_hallowed_armor": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+						},
+						"chest": {
+							"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+						},
+						"legs": {
+							"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+						},
+						"feet": {
+							"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+						}
+					}
+				},
+				"damage": {
+					"blocked": false,
+					"type": {}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"take_damage_in_hallowed_armor"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/armors/hallowed_armor/take_damage"
+	}
+}

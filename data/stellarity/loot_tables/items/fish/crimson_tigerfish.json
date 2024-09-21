@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.fish.crimson_tigerfish",
+								"fallback": "Crimson Tigerfish",
+								"color": "#C24747",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90004,stellarity.special_item:\"crimson_tigerfish\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

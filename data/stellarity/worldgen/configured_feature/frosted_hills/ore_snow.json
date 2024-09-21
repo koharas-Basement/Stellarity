@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 50,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:calcite"
+				},
+				"state": {
+					"Name": "minecraft:snow_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:end_stone"
+				},
+				"state": {
+					"Name": "minecraft:snow_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:diorite"
+				},
+				"state": {
+					"Name": "minecraft:snow_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:netherrack"
+				},
+				"state": {
+					"Name": "minecraft:snow_block"
+				}
+			}
+		]
+	}
+}

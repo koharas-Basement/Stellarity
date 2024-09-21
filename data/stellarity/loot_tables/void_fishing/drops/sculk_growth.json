@@ -1,0 +1,69 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:gunpowder",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:disc_fragment_5",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:sculk",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 7
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

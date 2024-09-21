@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"prismatic_pearl\",CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.prismatic_pearl",
+								"fallback": "Prismatic Pearl",
+								"color": "light_purple",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

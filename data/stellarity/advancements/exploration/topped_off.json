@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_cod",
+			"nbt": "{CustomModelData:90002,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.topped_off",
+			"fallback": "Topped Off",
+			"color": "#FF65D7"
+		},
+		"description": {
+			"translate": "stellarity.advancements.topped_off.description",
+			"fallback": "Attain maximum health by consuming 10 Mystical Heartfish"
+		},
+		"frame": "challenge"
+	},
+	"parent": "stellarity:exploration/enter_hallow",
+	"criteria": {
+		"cardio": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

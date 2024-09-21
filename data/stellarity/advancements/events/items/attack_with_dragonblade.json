@@ -1,0 +1,51 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_sword"
+							],
+							"nbt": "{stellarity.special_item:\"dragonblade\"}"
+						}
+					}
+				},
+				"damage": {
+					"dealt": {
+						"min": 4,
+						"type": {
+							"tags":[
+								{
+									"id": "stellarity:melee",
+									"expected": true
+								}	
+							]
+						}
+					},
+					"blocked": false
+				},
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"stellarity.items.dragonblade.cooldown": {
+									"min": 1
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/dragonblade/attack"
+	}
+}

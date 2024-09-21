@@ -1,0 +1,90 @@
+{
+	"entity.enderman.attack":{
+		"sounds":[
+			"stellarity:mob/enderman/attack_1",
+			"stellarity:mob/enderman/attack_2",
+			"stellarity:mob/enderman/attack_3"
+		],
+		"subtitle":"Enderman attacks"
+	},
+	"entity.endermite.attack":{
+		"sounds":[
+			"stellarity:mob/endermite/attack_1",
+			"stellarity:mob/endermite/attack_2",
+			"stellarity:mob/endermite/attack_3"
+		],
+		"subtitle":"Endermite attacks"
+	},
+	"item.kaleidoscope.ready":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/ready_1",
+				"stellarity:item/kaleidoscope/ready_2",
+				"stellarity:item/kaleidoscope/ready_3",
+				"stellarity:item/kaleidoscope/ready_4",
+				"stellarity:item/kaleidoscope/ready_5"
+		]
+	},
+	"item.kaleidoscope.level_1":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/level_1_1",
+				"stellarity:item/kaleidoscope/level_1_2",
+				"stellarity:item/kaleidoscope/level_1_3"
+		]
+	},
+	"item.kaleidoscope.level_2":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/level_2_1",
+				"stellarity:item/kaleidoscope/level_2_2",
+				"stellarity:item/kaleidoscope/level_2_3"
+		]
+	},
+	"item.kaleidoscope.level_3":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/level_3_1",
+				"stellarity:item/kaleidoscope/level_3_2",
+				"stellarity:item/kaleidoscope/level_3_3"
+		]
+	},
+	"item.tamaris.execute":{
+		"sounds":[
+			"stellarity:item/tamaris/execute"
+		],
+		"subtitle":"Tamaris executes"
+	},
+	"item.tamaris.execute_special":{
+		"sounds":[
+			"stellarity:item/tamaris/execute_special"
+		],
+		"subtitle":"kohy slays"
+	},
+    "music.enter_end":{
+		"sounds":[
+			{
+				"name":"stellarity:music/end",
+				"stream":true,
+                "volume": 1
+			}
+		],
+		"replace":true
+	},
+    "music.kill_dragon":{
+		"sounds":[
+			{
+				"name":"stellarity:music/to_the_beggining",
+				"stream":true,
+                "volume": 1
+			}
+		],
+		"replace":true
+	},
+    "music.create_portal":{
+		"sounds":[
+			{
+				"name":"stellarity:music/threshold",
+				"stream":true,
+                "volume": 1
+			}
+		],
+		"replace":true
+	}
+}

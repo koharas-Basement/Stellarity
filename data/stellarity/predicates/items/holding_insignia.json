@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [
+							"minecraft:gold_nugget"
+						],
+						"nbt": "{stellarity.special_item:\"soaring_insignia\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:gold_nugget"
+						],
+						"nbt": "{stellarity.special_item:\"soaring_insignia\"}"
+					}
+				}
+			}
+		}
+	]
+}

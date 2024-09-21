@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values":[
+		"#stellarity:invalid_targets",
+		"minecraft:player"
+	]
+}

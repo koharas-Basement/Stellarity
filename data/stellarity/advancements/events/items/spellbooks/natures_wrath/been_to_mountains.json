@@ -1,0 +1,102 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:windswept_forest"
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:windswept_hills"
+						}
+					}
+				]
+			}
+		},
+		"3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:windswept_hills"
+						}
+					}
+				]
+			}
+		},
+		"4": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:stony_peaks"
+						}
+					}
+				]
+			}
+		},
+		"5": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:stony_shore"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3",
+			"4",
+			"5"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

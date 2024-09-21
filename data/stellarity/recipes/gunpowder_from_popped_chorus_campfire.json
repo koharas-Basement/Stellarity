@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"group": "gunpowder",
+	"ingredient": {
+		"item": "minecraft:popped_chorus_fruit"
+	},
+	"result": "minecraft:gunpowder",
+	"experience": 0.1,
+	"cookingtime": 600
+}

@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_flower",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.plant_chorus_fruit_2",
+			"fallback": "Otherworldy Botanist"
+		},
+		"description": {
+			"translate": "stellarity.advancements.plant_chorus_fruit_2.description",
+			"fallback": "Plant a Chorus Flower in every of the 3 dimensions"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:husbandry/plant_chorus",
+	"criteria": {
+		"plant_chorus_fruit_overworld":  {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		},
+		"plant_chorus_fruit_end":  {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_nether"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		},
+		"plant_chorus_fruit_nether": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"plant_chorus_fruit_overworld"
+		],
+		[
+			"plant_chorus_fruit_end"
+		],
+		[
+			"plant_chorus_fruit_nether"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

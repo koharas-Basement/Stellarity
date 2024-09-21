@@ -1,0 +1,98 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_name",
+					"name": {
+						"translate": "stellarity.items.weapons.ancient_wooden_sword",
+						"fallback": "Ancient Wooden Sword",
+						"color": "white",
+						"italic": false
+					}
+				},
+				{
+					"function": "minecraft:set_lore",
+					"lore": [
+						"",
+						{
+							"translate": "stellarity.items.weapons.ancient_wooden_sword.flavor_text",
+							"fallback": "'reject Trails&Tales, embrace Indev'",
+							"color": "#EEEEEE",
+							"italic": true
+						},
+						"",
+						{
+							"translate": "item.modifiers.mainhand",
+							"color": "gray",
+							"italic": false
+						},
+						[
+							" ",
+							{
+								"translate": "attribute.modifier.equals.0",
+								"with": [
+									{
+										"text": "4"
+									},
+									{
+										"translate": "attribute.name.generic.attack_damage"
+									}
+								],
+								"color": "dark_green",
+								"italic": false
+							}
+						],
+						[
+							" ",
+							{
+								"translate": "attribute.modifier.equals.0",
+								"with": [
+									{
+										"text": "1.6",
+										"obfuscated": true
+									},
+									{
+										"translate": "attribute.name.generic.attack_speed"
+									}
+								],
+								"color": "dark_green",
+								"italic": false
+							}
+						]
+					]
+				},
+				{
+					"function": "minecraft:set_attributes",
+					"modifiers": [
+						{
+							"attribute": "minecraft:generic.attack_damage",
+							"name": "",
+							"amount": 4,
+							"operation": "addition",
+							"slot": "mainhand"
+						},
+						{
+							"attribute": "minecraft:generic.attack_speed",
+							"name": "",
+							"amount": 2048,
+							"operation": "addition",
+							"slot": "mainhand"
+						}
+					]
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{CustomModelData:90000,stellarity.special_item:\"alpha_wooden_sword\",Unbreakable:1,HideFlags:6}"
+				}
+			]
+		}
+	]
+}

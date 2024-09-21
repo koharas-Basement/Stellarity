@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:crossbow"
+				],
+				"nbt": "{Charged:0b,stellarity.special_item:\"clockwork_crossbow\"}"
+			}
+		}
+	}
+}

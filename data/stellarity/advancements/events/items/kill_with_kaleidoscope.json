@@ -1,0 +1,33 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_sword"
+							],
+							"nbt": "{stellarity.special_item:\"kaleidoscope\"}"
+						}
+					}
+				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/kaleidoscope/kill"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/stella"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.33
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/prismatic_pearl",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.33
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/prismatic_punch"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.33
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/trinkets/starstruck_carcanet",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.33
+						}
+					]
+				}
+			]
+		}
+	]
+}

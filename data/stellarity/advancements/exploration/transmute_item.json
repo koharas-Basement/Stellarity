@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:water_bucket"
+		},
+		"title": {
+			"translate": "stellarity.advancements.transmute_item",
+			"fallback": "Hallowed Alchemy"
+		},
+		"description": {
+			"translate": "stellarity.advancements.transmute_item.description",
+			"fallback": "Transmute an item into a different item in the waters of The Hallow"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/enter_hallow",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

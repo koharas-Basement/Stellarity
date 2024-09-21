@@ -1,0 +1,40 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bow"
+						],
+						"nbt": "{stellarity.special_item:\"sharanga\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:stronghold"
+					}
+				},
+				"entity": {
+					"type": "minecraft:illusioner"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

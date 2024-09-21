@@ -1,0 +1,19 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:potion"
+					],
+					"nbt": "{stellarity.special_item:\"flask_of_frost\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/flask_of_frost"
+	}
+}

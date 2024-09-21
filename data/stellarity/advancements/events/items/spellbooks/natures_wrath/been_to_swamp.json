@@ -1,0 +1,66 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:swamp"
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:mangrove_swamp"
+						}
+					}
+				]
+			}
+		},
+		"3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "far_end:warped_marsh"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

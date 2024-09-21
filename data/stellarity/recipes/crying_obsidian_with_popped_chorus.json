@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"ingredients": [
+		{
+			"item": "minecraft:obsidian"
+		},
+		{
+			"item": "minecraft:popped_chorus_fruit"
+		},
+		{
+			"item": "minecraft:popped_chorus_fruit"
+		},
+		{
+			"item": "minecraft:popped_chorus_fruit"
+		}
+	],
+	"result": {
+		"item": "minecraft:crying_obsidian",
+		"count": 2
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:6541567,HideFlags:32,stellarity.special_item:\"flask_of_frost\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.flask_of_frost",
+								"fallback": "Flask of Frost",
+								"color": "white",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[
+									{
+										"translate": "stellarity.items.potions.flask_of_frost.buff_name",
+										"fallback": "Frost Imbuement",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " (8:00)",
+										"color": "blue"
+									}
+								],
+								"",
+								{
+									"translate": "stellarity.items.potions.flask_of_frost.description",
+									"fallback": "Melee attacks inflict Frostburn",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

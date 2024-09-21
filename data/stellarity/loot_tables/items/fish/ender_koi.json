@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"ender_koi\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.fish.ender_koi",
+								"fallback": "Ender Koi",
+								"color": "#B265FF",
+								"italic": false
+							}
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

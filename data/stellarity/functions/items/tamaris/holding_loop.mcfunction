@@ -1,0 +1,2 @@
+execute unless score @s stellarity.items.tamaris.execute_cooldown matches 1.. if predicate stellarity:utils/player/is_sneaking run tag @s add stellarity.items.tamaris.doing_execute
+execute if score @s[tag=!stellarity.items.tamaris.no_warn] stellarity.items.tamaris.execute_cooldown matches 1.. run title @s actionbar {"translate":"stellarity.items.weapons.tamaris.disabled","fallback":"DISABLED","color":"red"}

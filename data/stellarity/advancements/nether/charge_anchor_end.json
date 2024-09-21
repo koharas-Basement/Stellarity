@@ -1,0 +1,93 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:respawn_anchor",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.charge_anchor_end",
+			"fallback": "A Ship in The Sea of Eternity"
+		},
+		"description": {
+			"translate": "stellarity.advancements.charge_anchor_end.description",
+			"fallback": "Use a Respawn Anchor to change your respawn location in The End"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:nether/charge_respawn_anchor",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end",
+							"block": {
+								"blocks": [
+									"minecraft:respawn_anchor"
+								],
+								"state": {
+									"charges": {
+										"min": 1
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:glowstone"
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end",
+							"block": {
+								"blocks": [
+									"minecraft:respawn_anchor"
+								],
+								"state": {
+									"charges": 4
+								}
+							}
+						}
+					}, 
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:glowstone"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"sends_telemetry_event": true
+}

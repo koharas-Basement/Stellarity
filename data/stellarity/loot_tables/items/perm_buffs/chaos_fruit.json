@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.perm_buffs.chaos_fruit",
+								"fallback": "Chaos Fruit",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.perm_buffs.chaos_fruit.increase",
+									"fallback":"increase your movement speed",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"chaos_fruit\",CustomModelData:90001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

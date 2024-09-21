@@ -1,0 +1,129 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"tamaris\",stellar_durability:{enabled:1b,max_dur:1562},CustomModelData:90002,HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.weapons.tamaris",
+                                "fallback": "Tamaris",
+								"color": "#B2B2B2",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								[
+									{
+										"translate": "stellarity.items.weapons.tamaris.description.1",
+										"fallback": "Press",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									[
+										" [",
+										{
+											"keybind": "key.sneak"
+										},
+										"] "
+									],
+									{
+										"translate": "stellarity.items.weapons.tamaris.description.1_5",
+										"fallback": "to activate your Execute ability,"
+									}
+								],
+								{
+									"translate": "stellarity.items.weapons.tamaris.description.2",
+									"fallback": "instantly killing nearby enemies with low health!",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.tamaris.description.3",
+									"fallback": "Applies Dark Decay on hit",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.tamaris.flavor_text",
+									"fallback": "'Property of Captain Hannah'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "6"
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.4"
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 5,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2.6,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

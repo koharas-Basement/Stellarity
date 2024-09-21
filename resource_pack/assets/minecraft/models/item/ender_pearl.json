@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/ender_pearl"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"stellarity:item/prismatic_pearl"}]}

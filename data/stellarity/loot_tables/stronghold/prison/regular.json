@@ -1,0 +1,68 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:feather"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

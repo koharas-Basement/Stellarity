@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.spellbooks.light",
+								"fallback": "Book of Light",
+								"color": "#FFF300",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90004,stellarity.special_item:\"book_of_light\",Recipes:[\"stellarity:events/spellbooks/use_light\"]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.light.description.1",
+									"fallback": "Right Click to summon a friendly aura",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.light.description.2",
+									"fallback": "which grants healing and damage reduction",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.light.description.3",
+									"fallback": "to all nearby players inside",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.cooldown",
+									"fallback": "Cooldown: %s seconds",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "31",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

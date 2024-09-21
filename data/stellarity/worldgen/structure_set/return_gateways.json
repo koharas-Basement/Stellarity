@@ -1,0 +1,23 @@
+{
+	"structures": [
+		{
+			"structure": "stellarity:return_gateways/bloody_flying",
+			"weight": 1
+		},
+		{
+			"structure": "stellarity:return_gateways/snowy_flying",
+			"weight": 1
+		},
+		{
+			"structure": "stellarity:return_gateways/base_flying",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 5783475,
+		"spread_type": "triangular",
+		"spacing": 35,
+		"separation": 25
+	}
+}

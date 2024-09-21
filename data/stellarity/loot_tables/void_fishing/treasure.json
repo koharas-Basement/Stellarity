@@ -1,0 +1,192 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 9
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 30,
+								"max": 40
+							},
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 17,
+								"max": 29
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"weight": 16,
+							"name": "stellarity:items/crates/amethyst",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "far_end:amethyst_forest"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 15,
+							"name": "stellarity:items/crates/frozen",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "stellarity:frosted_hills"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 15,
+							"name": "stellarity:items/crates/hallowed",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "stellarity:the_hallow"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 15,
+							"name": "stellarity:items/crates/hematic",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "far_end:flesh_tundra"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 15,
+							"name": "stellarity:items/crates/prismarine",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "stellarity:prismarine_forest"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 15,
+							"name": "stellarity:items/crates/hellfire",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "stellarity:blazing_dunes"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"weight": 15,
+							"name": "stellarity:items/crates/ender"
+						}
+					]
+				}
+			]
+		}
+	]
+}

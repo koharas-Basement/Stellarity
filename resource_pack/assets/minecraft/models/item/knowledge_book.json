@@ -1,0 +1,32 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures":{
+		"layer0":"minecraft:item/knowledge_book"
+	},
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":90001
+			},
+			"model":"stellarity:item/spellbooks/conveyance"
+		},
+		{
+			"predicate":{
+				"custom_model_data":90002
+			},
+			"model":"stellarity:item/spellbooks/updraft"
+		},
+		{
+			"predicate":{
+				"custom_model_data":90003
+			},
+			"model":"stellarity:item/spellbooks/light"
+		},
+		{
+			"predicate":{
+				"custom_model_data":90004
+			},
+			"model":"stellarity:item/spellbooks/natures_wrath"
+		}
+	]
+}

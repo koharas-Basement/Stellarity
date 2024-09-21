@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:scattered_ore",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0.44,
+    "targets": [
+      {
+        "state": {
+            "Name": "minecraft:ancient_debris"
+        },
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stellarity:ashfall_deltas/ancient_debris_replacable"
+        }
+      }
+      
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2.4,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "",
+									"amount": 0.075,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.zephyr.description.1",
+									"fallback": "Killing enemies gives a short,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.zephyr.description.2",
+									"fallback": "stacking bonus to movement speed",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								" ",
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "7"
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.6"
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.plus.1",
+										"with": [
+											{
+												"text": "7.5"
+											},
+											{
+												"translate": "attribute.name.generic.movement_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"zephyr\",stellar_durability:{enabled:1b,max_dur:512},HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.weapons.zephyr",
+								"fallback": "Zephyr",
+								"color": "#E3E3E3",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/written_book"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"stellarity:item/cursed_tome"}]}

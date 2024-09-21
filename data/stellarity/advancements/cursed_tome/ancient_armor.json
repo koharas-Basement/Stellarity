@@ -1,0 +1,45 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{stellarity.special_item:\"ancient_armor\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{stellarity.special_item:\"ancient_plating\"}"
+					}
+				]
+			}
+		},
+		"requirement3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:end_city"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2",
+			"requirement3"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

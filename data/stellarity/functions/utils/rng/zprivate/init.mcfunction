@@ -1,0 +1,1 @@
+execute unless score #lcg stellarity.misc matches ..0 unless score #lcg stellarity.misc matches 1.. run function stellarity:utils/rng/zprivate/uuid_reset

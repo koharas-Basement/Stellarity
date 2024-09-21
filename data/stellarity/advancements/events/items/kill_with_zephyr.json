@@ -1,0 +1,33 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"damage1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{stellarity.special_item:\"zephyr\"}"
+						}
+					}
+				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/zephyr/kill"
+	}
+}

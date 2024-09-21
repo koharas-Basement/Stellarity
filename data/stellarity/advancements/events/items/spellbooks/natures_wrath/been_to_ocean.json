@@ -1,0 +1,174 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:ocean"
+						}
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:deep_ocean"
+						}
+					}
+				]
+			}
+		},
+		"3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:cold_ocean"
+						}
+					}
+				]
+			}
+		},
+		"4": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:deep_cold_ocean"
+						}
+					}
+				]
+			}
+		},
+		"5": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:frozen_ocean"
+						}
+					}
+				]
+			}
+		},
+		"6": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:deep_frozen_ocean"
+						}
+					}
+				]
+			}
+		},
+		"7": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:lukewarm_ocean"
+						}
+					}
+				]
+			}
+		},
+		"8": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:deep_lukewarm_ocean"
+						}
+					}
+				]
+			}
+		},
+		"9": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "minecraft:warm_ocean"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/spellbooks/natures_wrath/discover_biomes"
+	}
+}

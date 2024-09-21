@@ -1,0 +1,54 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_chest"
+		},
+		"title": {
+			"translate": "stellarity.advancements.open_chest_in_end_city",
+			"fallback": "Who's The Thief Now?"
+		},
+		"description": {
+			"translate": "stellarity.advancements.open_chest_in_end_city.description",
+			"fallback": "Open a Treasure Chest in an End City. Congrats! You are propably a millionaire now"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/find_end_city",
+	"criteria": {
+		"open_chest_1": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/end_city_treasure"
+			}
+		},
+		"open_chest_2": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:end_city/top_tower"
+			}
+		},
+		"open_chest_3": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:end_city/ship"
+			}
+		},
+		"open_chest_4": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:end_city/ship_treasure"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"open_chest_1",
+			"open_chest_2",
+			"open_chest_3",
+			"open_chest_4"
+		]
+	]
+}

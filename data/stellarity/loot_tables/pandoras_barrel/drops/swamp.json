@@ -1,0 +1,188 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"weight": 10,
+							"name": "minecraft:oak_log",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									},
+									"add": false
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:swamp"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"weight": 10,
+							"name": "minecraft:mangrove_log",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									},
+									"add": false
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:mangrove_swamp"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"weight": 10,
+							"name": "minecraft:oak_leaves",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 5
+									},
+									"add": false
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:swamp"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"weight": 10,
+							"name": "minecraft:mangrove_leaves",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 5
+									},
+									"add": false
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:mangrove_swamp"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:vine",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:slime_ball",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:lily_pad",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar_cane",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+[
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "stellarity:items/prismatic_punch/regular_mainhand"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "stellarity:items/prismatic_punch/regular_offhand"
+			}
+		]
+	}
+]

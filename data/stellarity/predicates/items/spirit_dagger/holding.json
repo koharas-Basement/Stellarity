@@ -1,0 +1,10 @@
+[
+	{
+		"condition": "minecraft:reference",
+		"name": "stellarity:items/spirit_dagger/holding_mainhand"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "stellarity:items/spirit_dagger/holding_offhand"
+	}
+]

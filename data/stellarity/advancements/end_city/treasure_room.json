@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "player_head",
+			"nbt": "{SkullOwner:\"kohara_\"}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.treasure_room",
+			"fallback": "Treasure Room"
+		},
+		"description": {
+			"translate": "stellarity.advancements.treasure_room.description",
+			"fallback": "Obtain a rare Treasure Head from a Chest in an End City. Can you find all 55?"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:end_city/whos_the_thief_now",
+	"criteria": {
+		"obtain_head": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:player_head"
+						],
+						"nbt": "{stellarity.special_item:\"treasure_head\"}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtain_head"
+		]
+	]
+}

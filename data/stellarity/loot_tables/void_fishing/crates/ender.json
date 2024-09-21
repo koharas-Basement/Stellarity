@@ -1,0 +1,111 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:void_fishing/crates/global/treasure"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:void_fishing/crates/global/useful"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:crying_obsidian",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.42
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:obsidian",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

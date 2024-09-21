@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:slime_ball",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.find_gloop",
+			"fallback": "Gloop de Gloop",
+			"color": "#7bc664"
+		},
+		"description": {
+			"translate": "stellarity.advancements.find_gloop.description",
+			"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome."
+		},
+		"frame": "challenge"
+	},
+	"parent": "minecraft:husbandry/tame_an_animal",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 300
+	}
+}

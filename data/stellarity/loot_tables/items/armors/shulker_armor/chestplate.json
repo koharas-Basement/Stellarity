@@ -1,0 +1,99 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.armors.shulker_armor.chestplate",
+								"fallback": "Shulker Breastplate",
+								"color": "#976A97",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.armors.set_bonus",
+									"fallback": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.shulker_armor.set_bonus.1",
+									"fallback": "Shulker Bullets will hunt down your attackers",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.shulker_armor.set_bonus.2",
+									"fallback": "Incoming damage reduced by 20%",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.shulker_armor.set_bonus.3",
+									"fallback": "Immunity to Levitation and Wither",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90002,stellarity.special_item:\"shulker_armor\",display:{color:12219878},HideFlags:64,stellar_durability:{enabled:1b,max_dur:792}}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": " ",
+									"amount": 7,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.armor_toughness",
+									"name": " ",
+									"amount":  4,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": " ",
+									"amount": 0.2,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": " ",
+									"amount": -0.025,
+									"operation": "multiply_base",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": " ",
+									"amount": -0.025,
+									"operation": "multiply_base",
+									"slot": "chest"
+								}
+							]
+						} 
+					]
+				}
+			]
+		}
+	]
+}

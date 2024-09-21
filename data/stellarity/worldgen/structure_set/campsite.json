@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "stellarity:campsite",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 278609929,
+		"exclusion_zone": {
+			"other_set": "minecraft:end_cities",
+			"chunk_count": 10
+		},
+		"spacing": 16,
+		"separation": 9
+	}
+}

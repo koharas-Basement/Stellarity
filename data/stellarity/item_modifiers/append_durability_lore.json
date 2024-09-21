@@ -1,0 +1,38 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "stellarity:temp"
+		},
+		"ops": [
+			{
+				"source": "object.tag",
+				"target": "{}",
+				"op": "merge"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "item.durability",
+				"with": [
+					{
+						"nbt": "object.tag.stellar_durability.dur",
+						"storage": "stellarity:temp"
+					},
+					{
+						"nbt": "object.tag.stellar_durability.max_dur",
+						"storage": "stellarity:temp"
+					}
+			],
+				"color": "gray",
+				"italic": false
+			}
+		],
+		"replace": false
+	}
+]

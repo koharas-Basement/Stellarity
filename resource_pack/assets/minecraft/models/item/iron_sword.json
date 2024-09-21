@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_sword"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"stellarity:item/sariel"},{"predicate":{"custom_model_data":90001},"model":"stellarity:item/zephyr"}]}

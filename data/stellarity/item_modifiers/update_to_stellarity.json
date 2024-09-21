@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "stellarity:temp"
+		},
+		"ops": [
+			{
+				"source": "update",
+				"target": "\"stellarity.special_item\"",
+				"op": "replace"
+			}
+		]
+	}
+]

@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:wither_skeleton",
+        "minecraft:blaze",
+        "minecraft:vindicator",
+        "minecraft:witch",
+        "minecraft:phantom",
+        "minecraft:shulker",
+        "minecraft:hoglin",
+        "minecraft:player",
+        "minecraft:creeper"
+    ]
+}

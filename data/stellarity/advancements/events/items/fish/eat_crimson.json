@@ -1,0 +1,36 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"eat_fleshy_piranha": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					],
+					"nbt": "{stellarity.special_item:\"fleshy_piranha\"}"
+				}
+			}
+		},
+		"eat_crimson_tigerfish": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					],
+					"nbt": "{stellarity.special_item:\"crimson_tigerfish\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_fleshy_piranha",
+			"eat_crimson_tigerfish"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/fish/crimson_fish"
+	}
+}

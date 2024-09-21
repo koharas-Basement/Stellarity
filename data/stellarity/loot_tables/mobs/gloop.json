@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "In The Loving Memory of Gloop",
+								"color": "#7bc664",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "'Gloop de Gloop...'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								[
+									{
+										"text": "[",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "*",
+										"color": "gold",
+										"italic": false
+									},
+									{
+										"text": "]",
+										"color": "gray",
+										"italic": false
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

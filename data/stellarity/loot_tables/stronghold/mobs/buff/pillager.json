@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.32,
+								"max": 0.6
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:quick_charge",
+								"minecraft:multishot",
+								"minecraft:piercing"
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.8
+				}
+			]
+		}
+	]
+}

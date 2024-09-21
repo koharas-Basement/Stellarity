@@ -1,0 +1,20 @@
+{
+	"values": [
+		"minecraft:arrow",
+		"minecraft:fireworks",
+
+		"stellarity:empress_of_light/dash",
+		"stellarity:empress_of_light/projectile",
+		"stellarity:carcanet",
+		"stellarity:dark_decay",
+		"stellarity:dragonblade",
+		"stellarity:armor_piercing",
+		"stellarity:example",
+		"stellarity:frostburn",
+		"stellarity:kaleidoscope",
+		"stellarity:natures_wrath",
+		"stellarity:prismatic_inferno",
+		"stellarity:sharanga",
+		"stellarity:spirit_dagger"
+	]
+}

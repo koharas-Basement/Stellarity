@@ -1,0 +1,28 @@
+{
+	"schema_version":1,
+	"quilt_loader":{
+		"group":"com.modrinth",
+		"id":"mr_stellarity",
+		"version":"v2.0d",
+		"metadata":{
+			"name":"Stellarity",
+			"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
+			"contributors":{
+				"kohara":"Owner"
+			},
+			"contact":{
+				"homepage":"https://modrinth.com/datapack/stellarity",
+				"sources":"https://github.com/kohy-creates/Stellarity"
+			},
+			"icon":"pack.png"
+		},
+		"intermediate_mappings":"net.fabricmc:intermediary",
+		"depends":[
+			{
+				"id":"quilt_resource_loader",
+				"versions":"*",
+				"unless":"fabric-resource-loader-v0"
+			}
+		]
+	}
+}

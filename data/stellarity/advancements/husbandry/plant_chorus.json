@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_flower"
+		},
+		"title": {
+			"translate": "stellarity.advancements.plant_chors_fruit",
+			"fallback": "Otherwordly Biologist"
+		},
+		"description": {
+			"translate": "stellarity.advancements.plant_chors_fruit.description",
+			"fallback": "Plant a Chorus Flower in the Overworld"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "stellarity:husbandry/eat_chorus_fruit",
+	"criteria": {
+		"plant_chorus":  {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"plant_chorus"
+		]
+	]
+}

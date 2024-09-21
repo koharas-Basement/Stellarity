@@ -1,0 +1,152 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.weapons.spirit_dagger",
+								"fallback": "Spirit Dagger",
+								"color": "#8AE0E5",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.description.1",
+									"fallback": "Holding one attracts Spirits on slashes",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.description.2",
+									"fallback": "Holding one in both left and right hand",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.description.3",
+									"fallback": "allows you to consume said Spirits",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.description.4",
+									"fallback": "to instantly teleport to them",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.description.5",
+									"fallback": "and gain a short attack buff",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.description.6",
+									"fallback": "Enchantments scale from both Daggers",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.weapons.spirit_dagger.flavor_text",
+									"fallback": "'yes, I like roblox, okay?'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								[
+									{
+										"text": "- ",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.developer",
+										"fallback": "Developer Item",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#BA02D7",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "5"
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.9"
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2.1,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"spirit_dagger\",stellar_durability:{enabled:1b,max_dur:480},HideFlags:6}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
