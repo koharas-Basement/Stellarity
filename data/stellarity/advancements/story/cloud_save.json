@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_chest"
+		},
+		"title": {
+			"translate": "stellarity.advancements.cloud_save",
+			"fallback": "Cloud Save"
+		},
+		"description": {
+			"translate": "stellarity.advancements.cloud_save.description",
+			"fallback": "Craft an Ender Chest"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:story/strengthened_by_fire",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ender_chest"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.summon_empress",
+			"fallback": "The Queen of Flickering Lights"
+		},
+		"description": {
+			"translate": "stellarity.advancements.summon_empress.description",
+			"fallback": "Sacrifice Pixie Dust at the Altar of The Sacred"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/enter_chapel",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

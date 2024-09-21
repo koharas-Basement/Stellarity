@@ -1,0 +1,83 @@
+{
+	"attributes_add_in_1_20_5": [
+		{
+			"function": "minecraft:set_attributes",
+			"modifiers": [{}]
+		},
+		{
+			"attribute": "minecraft:generic.gravity",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": -0.2,
+			"operation": "multiply_total",
+			"slot": "chest"
+		},
+		{
+			"attribute": "minecraft:generic.safe_fall_distance‌",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": 8,
+			"operation": "addition",
+			"slot": "chest"
+		},
+		{
+			"attribute": "minecraft:generic.fall_damage_multiplier‌",
+			"name": "",
+			"id": "9F3D476D-C118-4544-8365-64846904B48E",
+			"amount": -0.30,
+			"operation": "multiply_total",
+			"slot": "chest"
+		}
+	],
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.elytra.phantom_mantle",
+								"fallback": "Phantom Mantle",
+								"color": "yellow",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.elytra.phantom_mantle.description.1",
+									"fallback": "Wings of this large Phantom",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.elytra.phantom_mantle.description.2",
+									"fallback": "make up for a swift pair of Elytras",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"phantom_mantle\",kohara.durability:{enabled:1b,max_dur:232}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

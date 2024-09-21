@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [
+							"minecraft:crossbow"
+						],
+						"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:crossbow"
+						],
+						"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+					}
+				}
+			}
+		}
+	]
+}

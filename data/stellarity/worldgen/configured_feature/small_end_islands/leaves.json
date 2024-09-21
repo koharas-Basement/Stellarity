@@ -1,0 +1,73 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 150,
+		"xz_spread": 11,
+		"y_spread": 11,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 6,
+								"data": {
+									"Name": "minecraft:oak_leaves",
+									"Properties": {
+										"distance": "1",
+										"persistent": "true",
+										"waterlogged": "false"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:jungle_leaves",
+									"Properties": {
+										"distance": "1",
+										"persistent": "true",
+										"waterlogged": "false"
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									0
+								],
+								"blocks": [
+									"minecraft:jungle_leaves",
+									"minecraft:dark_oak_leaves",
+									"minecraft:oak_leaves",
+									"minecraft:acacia_leaves",
+									"minecraft:end_stone"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

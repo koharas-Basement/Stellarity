@@ -1,0 +1,6 @@
+{
+	"parent": "stellarity:item/misc/particle_base",
+	"textures": {
+		"1": "stellarity:item/misc/jinx_8"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_axe",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.god_slayer",
+			"fallback": "God Slayer"
+		},
+		"description": {
+			"translate": "stellarity.advancements.god_slayer.description",
+			"fallback": "You have proven yourself worthy by defeating the vicious Beast twice",
+			"color": "#E562FF"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:end/respawn_dragon",
+	"criteria": {
+		"kill_dragon_again": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2000
+	}
+}

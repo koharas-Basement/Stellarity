@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:dragons_den/patches",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 2
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

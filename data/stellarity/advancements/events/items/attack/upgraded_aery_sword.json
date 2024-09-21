@@ -1,0 +1,37 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"damage": {
+					"dealt": {
+						"min": 7.7
+					},
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/frigid_harvester/attack"
+	}
+}

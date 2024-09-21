@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding/trinkets/flesh"
+					}
+				],
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "stellarity:triggers_flesh_speed_boost",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/living_flesh/hurt"
+	}
+}

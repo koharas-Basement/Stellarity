@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_stone"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 68
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"quality": 1,
+					"name": "stellarity:items/materials/enderite_shard"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 80
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:shulker_shell"
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"name": "minecraft:phantom_membrane"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:popped_chorus_fruit"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"nbt": "{stellarity.special_item:\"hematic_pickaxe\"}"
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/end_stone"
+}

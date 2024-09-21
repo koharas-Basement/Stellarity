@@ -1,0 +1,60 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.spellbooks.return",
+								"fallback": "Tome of Return",
+								"color": "#9C369F",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90006,stellarity.special_item:\"book_of_return\",Recipes:[\"stellarity:events/spellbooks/use_return\"],Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.return.description",
+									"fallback": "Teleports you to your spawnpoint",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.cooldown_long",
+									"fallback": "Cooldown: %s minutes",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "3",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"stellarity.items.dragonblade.until_stack_reset": {
+							"min": 1
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"stellarity.items.spirit_dagger.attract_cooldown": {
+							"min": 1
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"stellarity.items.dragonblade.cooldown": {
+							"min": 1
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"stellarity.items.spellbook.natures_wrath.homing_time": {
+							"min": 1
+						}
+					}
+				}
+			]
+		}	
+	
+}

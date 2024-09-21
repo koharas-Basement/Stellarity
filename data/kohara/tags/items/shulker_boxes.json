@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#kohara:colored_shulker_boxes",
+		"minecraft:shulker_box"
+	]
+}

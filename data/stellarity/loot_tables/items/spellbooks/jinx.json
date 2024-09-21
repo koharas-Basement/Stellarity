@@ -1,0 +1,72 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.spellbooks.jinx",
+								"fallback": "Book of Jinx",
+								"color": "#F816FF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90005,stellarity.special_item:\"book_of_jinx\",Recipes:[\"stellarity:events/spellbooks/use_jinx\"],Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.jinx.description.1",
+									"fallback": "Shoots a growing cloud",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.jinx.description.2",
+									"fallback": "which temporarily reduces defense",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.jinx.description.3",
+									"fallback": "of anything caught in it",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.cooldown",
+									"fallback": "Cooldown: %s seconds",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "10",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;899093516,-129810043,-1775847829,-1874518738],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTIwYmFmMmVkN2YyMzI2ODAzMTY1YWQ4MDFmYzA1NmQwMDIyNDNiZThjY2YyZDg3ZWEyNmI5Yzc2ZGMzZmE2ZSJ9fX0=\"}]}}}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.anger_enderman",
+			"fallback": "It's Rude to Stare!"
+		},
+		"description": {
+			"translate": "stellarity.advancements.anger_enderman.description",
+			"fallback": "Enrage an Enderman by looking at it"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"anger_enderman": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"looking_at": {
+							"type": "minecraft:enderman",
+							"targeted_entity": {
+								"type": "minecraft:player",
+								"type_specific": {
+									"type": "player",
+									"looking_at": {
+										"type": "minecraft:enderman"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

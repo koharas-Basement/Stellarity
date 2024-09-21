@@ -1,0 +1,19 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"get_hit_by_enderman": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"type": "minecraft:enderman"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:mobs/enderman/no_shield"
+	}
+}

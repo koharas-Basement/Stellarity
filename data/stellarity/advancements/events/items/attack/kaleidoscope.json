@@ -1,0 +1,34 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_axe"
+							],
+							"nbt": "{stellarity.special_item:\"kaleidoscope\"}"
+						}
+					}
+				},
+				"damage": {
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/kaleidoscope/attack"
+	}
+}

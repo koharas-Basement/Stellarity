@@ -1,0 +1,31 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding/trinkets/crest"
+					}
+				],
+				"damage": {
+					"blocked": true,
+					"source_entity": {},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:bypasses_shield",
+								"expected": false
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/crest_of_the_end/block_damage"
+	}
+}

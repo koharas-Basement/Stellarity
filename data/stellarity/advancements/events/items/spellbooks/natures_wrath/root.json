@@ -1,0 +1,13 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"impossible"
+		]
+	]
+}

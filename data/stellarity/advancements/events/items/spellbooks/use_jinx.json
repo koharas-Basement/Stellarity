@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stellarity:events/spellbooks/use_jinx"
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/spellbooks/jinx/use"
+	}
+}

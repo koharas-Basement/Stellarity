@@ -1,0 +1,40 @@
+{
+	"parent": "stellarity:cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_sword"
+						],
+						"nbt": "{stellarity.special_item:\"sariel\"}"
+					}
+				]
+			}
+		},
+		"requirement2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glowstone_dust"
+						],
+						"nbt": "{stellarity.special_item:\"pixie_dust\"}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement",
+			"requirement2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/cursed_tome/unlock/event"
+	}
+}

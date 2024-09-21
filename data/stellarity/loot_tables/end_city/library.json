@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 10,
+				"p": 0.67
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:paper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:feather"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 11,
+								"max": 20
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 21,
+								"max": 30
+							},
+							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 31,
+								"max": 40
+							},
+							"add": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

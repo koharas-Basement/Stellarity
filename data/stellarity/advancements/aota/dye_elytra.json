@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "stellarity.advancements.dye_elytra",
+			"fallback": "Fancy!"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.dye_elytra.description",
+				"fallback": "Combine an Elytra with any Dye to change its flight trail"
+			}
+		],
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/cursed_crafting",
+	"criteria": {
+		"craft_using_aota": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

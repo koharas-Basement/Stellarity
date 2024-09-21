@@ -1,0 +1,48 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{stellarity.special_item:\"chorus_champion_armor\"}"
+						},
+						"chest": {
+							"nbt": "{stellarity.special_item:\"chorus_champion_armor\"}"
+						},
+						"legs": {
+							"nbt": "{stellarity.special_item:\"chorus_champion_armor\"}"
+						},
+						"feet": {
+							"nbt": "{stellarity.special_item:\"chorus_champion_armor\"}"
+						}
+					}
+				},
+				"damage": {
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				},
+				"entity": {
+					"nbt": "{HurtTime:10s}",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/armors/chorus_champion_armor/attack"
+	}
+}

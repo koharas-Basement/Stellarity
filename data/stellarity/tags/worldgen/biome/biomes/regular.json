@@ -1,0 +1,20 @@
+{
+	"values":
+		[
+			"minecraft:end_barrens",
+			"minecraft:end_highlands",
+			"minecraft:end_midlands",
+			"far_end:amethyst_forest",
+			"far_end:ashfall_delta",
+			"far_end:warped_marsh",
+			"far_end:end_wilds",
+			"far_end:ender_waste",
+			"far_end:flesh_tundra",
+			"far_end:the_nest",
+			"stellarity:blazing_dunes",
+			"stellarity:the_hallow",
+			"stellarity:frosted_hills",
+			"stellarity:prismarine_forest",
+			"stellarity:crystal_crags"
+		]
+}

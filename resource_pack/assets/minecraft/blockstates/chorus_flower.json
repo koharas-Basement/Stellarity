@@ -1,0 +1,29 @@
+{
+	"variants": {
+		"age=0": {
+			"model": "minecraft:block/chorus_flower"
+		},
+		"age=1": {
+			"model": "minecraft:block/chorus_flower"
+		},
+		"age=2": {
+			"model": "minecraft:block/chorus_flower"
+		},
+		"age=3": {
+			"model": "minecraft:block/chorus_flower"
+		},
+		"age=4": {
+			"model": "minecraft:block/chorus_flower"
+		},
+		"age=5": [
+			{
+				"model": "minecraft:block/chorus_flower_dead",
+				"weight": 1
+			},
+			{
+				"model": "stellarity:block/chorus_flower_dead_alt",
+				"weight": 2
+			}
+		]
+	}
+}

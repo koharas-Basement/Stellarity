@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "cave_air",
+    "air",
+    "void_air",
+
+    "obsidian"
+  ],
+  "comment_from_stellarity":"I am too lazy to switch the name in every file, so I just added obsidian here to fix the geodes in Amethyst Forest generating in the pillars :/"
+}

@@ -1,0 +1,204 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"minor": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#stellarity:frigid_harvester/gives_minor_boost",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"small": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#stellarity:frigid_harvester/gives_small_boost",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"big": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#stellarity:frigid_harvester/gives_big_boost",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"large": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#stellarity:frigid_harvester/gives_large_boost",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"huge": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#stellarity:frigid_harvester/gives_huge_boost",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		},
+		"boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[\"kohara.boss\"]}",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"minor",
+			"small",
+			"big",
+			"large",
+			"huge",
+			"boss"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:items/frigid_harvester/kill"
+	}
+}

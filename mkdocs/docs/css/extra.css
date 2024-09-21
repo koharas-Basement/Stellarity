@@ -1,0 +1,331 @@
+@font-face {
+	font-family: 'AmaticSC';
+    font-style: normal;
+	font-weight: normal;
+	src: url(../assets/fonts/AmaticSC.ttf);
+}
+
+@font-face {
+	font-family: 'Trebuchet MS';
+	font-style: normal;
+	font-weight: normal;
+	src: url(../assets/fonts/trebuc.ttf);
+}
+
+
+:root {
+    --md-primary-fg-color: #ab47bd;
+
+    --md-hue: 232;
+    --md-default-fg-color: hsla(var(--md-hue),75%,95%,1);
+    --md-default-fg-color--light: hsla(var(--md-hue),75%,90%,0.62);
+    --md-default-fg-color--lighter: hsla(var(--md-hue),75%,90%,0.32);
+    --md-default-fg-color--lightest: hsla(var(--md-hue),75%,90%,0.12);
+    --md-default-bg-color: hsla(var(--md-hue),15%,21%,1);
+    --md-default-bg-color--light: hsla(var(--md-hue),15%,21%,0.54);
+    --md-default-bg-color--lighter: hsla(var(--md-hue),15%,21%,0.26);
+    --md-default-bg-color--lightest: hsla(var(--md-hue),15%,21%,0.07);
+    --md-code-fg-color: hsla(var(--md-hue),18%,86%,1);
+    --md-code-bg-color: hsla(var(--md-hue),15%,15%,1);
+    --md-code-hl-color: rgba(66,135,255,0.15);
+
+    --kohara-bg-darken: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66));
+    --kohara-bg-color: black;
+    --kohara-toc-border: white;
+}
+
+
+/*
+    Background
+*/
+body {
+    background: var(--kohara-bg-darken), var(--kohara-bg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Hide Scrolllbar */
+    -ms-overflow-style: none;
+	scrollbar-width: none;
+
+    /* Hide that annoying and ugly asf blinking cursor */
+    caret-color: transparent;
+}
+
+body::-webkit-scrollbar {
+    /* Also hide Scrolllbar */
+	display: none;
+}
+
+.md-tabs {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-content {
+    background-color: var(--kohara-bg-color);
+    border: var(--kohara-bg-color);
+    border-radius: 10px;
+    min-width: 71.5vw;
+    margin-bottom: 50px;
+}
+
+.md-grid {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h5, h6 {
+    text-transform: none;
+    color: var(--md-typeset-color);
+    margin: 1em 0;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.md-header {
+    background-color: var(--header-color);
+}
+
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title[for=__drawer] {
+        background-color: var(--header-color);
+    }
+}
+
+/*
+    Better anchors
+*/
+.md-main a {
+    color: var(--md-primary-fg-color);
+}
+.md-main a:hover {
+    color: var(--md-primary-fg-color--dark);
+}
+
+.md-main a.headerlink:hover {
+    color: var(--md-primary-fg-color);
+}
+
+/* 
+    Flipping images vertically with just 1 class! 
+*/
+.mirror {
+    transform: scaleX(-1);
+}
+
+/*
+    Table stuff
+    Makes them occupy full width of the textbox and
+    skips empty title cells
+
+    And transform HTML tables into infoboxes
+*/
+.md-typeset__table {
+    width: 100%;
+    vertical-align: middle
+}
+  
+.md-typeset__table table:not(#infobox) {
+    display: table
+}
+
+th {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+th, td, tr {
+    vertical-align: middle !important;
+}
+
+.kohara-infobox-grid {
+    display: grid;
+    grid-template-areas:
+      'text table';
+}
+
+table#kohara-infobox {
+    display: block;
+    display: inline-block;
+    margin: auto;
+}
+
+table#kohara-infobox--item {
+    float: right;
+    margin: 0px;
+    width: 320px;
+    max-width: 100%;
+    margin-left: 10px
+}
+
+table#kohara-infobox--item th.kohara-infobox--top-image {
+    background-color: transparent;
+    border: 2px solid var(--md-primary-fg-color--dark);
+}
+
+div.kohara-infobox-text {
+    grid-area: text,
+}
+
+div.kohara-infobox-table {
+    grid-area: table,
+}
+
+th.kohara-infobox--top-image img {
+    width: 200px;
+    height: 200px;
+}
+
+td span.kohara-infobox-color {
+    border: 1.5px solid whitesmoke;
+    border-radius: 5px;
+    width: .64rem;
+    height: .64rem;
+    border-radius: 50%;
+    display: inline-flex;
+    translate: 0% .08rem;
+}
+
+table#kohara-infobox th, table#kohara-infobox--item th {
+    background-color: var(--md-primary-fg-color--dark);
+    text-align: center;
+}
+
+img#kohara-infobox--image {
+    border: 2px solid rgb(202, 202, 202);
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+    width: 800vw;
+}
+
+/* 
+    Better tittles
+*/
+.md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
+    font-family: 'AmaticSC';
+}
+
+h2, h3, h4, h5, h6 {
+    width: 100%; 
+    text-align: left;
+    padding-left: 25px; 
+    border-bottom: 2px solid var(--md-default-fg-color--light); 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: var(--md-default-fg-color--light);
+} 
+
+.md-content h1 {
+    font-size: 4em;
+    text-align: center;
+    color: inherit;
+}
+
+.md-content h2 {
+    font-size: 3em;
+}
+
+.md-header__inner {
+    min-width: 100%;
+}
+
+/* 
+    Footer
+*/
+.md-footer, .md-footer__inner, .md-footer-meta__inner {
+    max-width: 100%;
+}
+
+/* 
+    Image stuff
+*/
+
+img.border:not(.twemoji) {
+    border: 2px solid rgb(202, 202, 202);
+}
+
+figure.kohara-side-image--right {
+    float: right;
+}
+
+figure.kohara-side-image--left {
+    float: left;
+}
+
+table#kohara-infobox--item img {
+    image-rendering: pixelated;
+}
+
+/* 
+    Lists
+*/
+div.kohara-list ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+/*
+	Padding between each list 
+	(more readable 'Tips' and 'Trivia' sections)
+*/
+ul:not(div.toc ul) > li:not(:only-child) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul:not(div.toc ul) > li:not(:only-child) > ul > li {
+	padding-top: 0;
+	padding-bottom: 0;
+  }
+
+.md-typeset .tabbed-set>input:first-child:checked~.tabbed-labels>:first-child, .md-typeset .tabbed-set>input:nth-child(10):checked~.tabbed-labels>:nth-child(10), .md-typeset .tabbed-set>input:nth-child(11):checked~.tabbed-labels>:nth-child(11), .md-typeset .tabbed-set>input:nth-child(12):checked~.tabbed-labels>:nth-child(12), .md-typeset .tabbed-set>input:nth-child(13):checked~.tabbed-labels>:nth-child(13), .md-typeset .tabbed-set>input:nth-child(14):checked~.tabbed-labels>:nth-child(14), .md-typeset .tabbed-set>input:nth-child(15):checked~.tabbed-labels>:nth-child(15), .md-typeset .tabbed-set>input:nth-child(16):checked~.tabbed-labels>:nth-child(16), .md-typeset .tabbed-set>input:nth-child(17):checked~.tabbed-labels>:nth-child(17), .md-typeset .tabbed-set>input:nth-child(18):checked~.tabbed-labels>:nth-child(18), .md-typeset .tabbed-set>input:nth-child(19):checked~.tabbed-labels>:nth-child(19), .md-typeset .tabbed-set>input:nth-child(2):checked~.tabbed-labels>:nth-child(2), .md-typeset .tabbed-set>input:nth-child(20):checked~.tabbed-labels>:nth-child(20), .md-typeset .tabbed-set>input:nth-child(3):checked~.tabbed-labels>:nth-child(3), .md-typeset .tabbed-set>input:nth-child(4):checked~.tabbed-labels>:nth-child(4), .md-typeset .tabbed-set>input:nth-child(5):checked~.tabbed-labels>:nth-child(5), .md-typeset .tabbed-set>input:nth-child(6):checked~.tabbed-labels>:nth-child(6), .md-typeset .tabbed-set>input:nth-child(7):checked~.tabbed-labels>:nth-child(7), .md-typeset .tabbed-set>input:nth-child(8):checked~.tabbed-labels>:nth-child(8), .md-typeset .tabbed-set>input:nth-child(9):checked~.tabbed-labels>:nth-child(9) {
+    color: var(--md-primary-fg-color);
+}
+
+div.tabbed-labels:before {
+    display: none;
+}
+
+/* 
+    Edit Admonition background
+*/
+.md-typeset .admonition, .md-typeset details {
+    background-color: transparent;
+}
+
+/*
+    Increase list indents to make them more readable
+*/
+.md-content ul {
+    padding-left: 25px;
+}
+
+/*
+    A non-ugly font
+*/
+* {
+    font-family: 'Trebuchet MS';
+}
+
+/*
+    Better table of contents
+*/
+.md-main .md-sidebar--secondary {
+    display: none;
+}
+
+.toc {
+    display: table;
+    padding: 15px;
+    border: 1px solid var(--kohara-toc-border);
+    border-radius: 5px;
+    background-color: var(--kohara-bg-color);
+    font-size: 95%;
+}
+
+.toc ul {
+    padding-left: 12.5px !important;
+    list-style: upper-roman;
+}

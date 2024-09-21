@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit",
+			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.eat_golden_chorus_fruit",
+			"fallback": "(Au)some Delight!"
+		},
+		"description": {
+			"translate": "stellarity.advancements.eat_golden_chorus_fruit.description",
+			"fallback": "Find and eat a Golden Chorus Fruit",
+			"color": "dark_aqua"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:husbandry/eat_chorus_fruit",
+	"criteria": {
+		"eat_golden_chorus_fruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					],
+					"nbt": "{stellarity.special_item:\"golden_chorus_fruit\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_golden_chorus_fruit"
+		]
+	]
+}

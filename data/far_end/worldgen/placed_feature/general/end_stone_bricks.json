@@ -1,0 +1,13 @@
+{
+    "feature": "far_end:general/end_stone_bricks",
+    "placement": [
+        {
+            "type": "carving_mask",
+            "step": "air"
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 3
+        }
+    ]
+}

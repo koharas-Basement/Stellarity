@@ -1,0 +1,8 @@
+{
+	"values": [
+		{
+			"id": "fwaystones:waystone",
+			"required": false
+		}
+	]
+}

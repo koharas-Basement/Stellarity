@@ -1,0 +1,14 @@
+{
+	"parent": "kohara:root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "kohara:unlock_all_recipes"
+			}
+		}
+	},
+	"rewards": {
+		"function": "kohara:unlock_all_recipes"
+	}
+}

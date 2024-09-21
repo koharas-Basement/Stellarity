@@ -1,0 +1,72 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chiseled_quartz_block",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.altar_of_light",
+								"fallback": "Altar of The Sacred",
+								"color": "#FFD655",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"altar_of_light\",CustomModelData:90000,kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.materials.altar_of_light.description.1",
+									"fallback": "Can be placed anywhere at any time",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.materials.altar_of_light.description.2",
+									"fallback": "Sacrifice minerals for long-lasting buffs",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.materials.altar_of_light.description.3",
+									"fallback": "Sacrifice Pixie Dust to draw",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.materials.altar_of_light.description.4",
+									"fallback": "the attention of the Fae Goddess",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.materials.altar_of_light.flavor_text",
+									"fallback": "'Not to be confused with Altar of The Accursed'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]		
+						}
+					]
+				}
+			]
+		}
+	]
+}

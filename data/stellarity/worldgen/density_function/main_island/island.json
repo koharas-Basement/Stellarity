@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:add",
+	"argument1": -0.234375,
+	"argument2": {
+		"type": "minecraft:mul",
+		"argument1": {
+			"type": "minecraft:y_clamped_gradient",
+			"from_y": -4,
+			"to_y": 32,
+			"from_value": 0,
+			"to_value": 1
+		},
+		"argument2": {
+			"type": "minecraft:add",
+			"argument1": 0.234375,
+			"argument2": {
+				"type": "minecraft:add",
+				"argument1": -23.4375,
+				"argument2": {
+					"type": "minecraft:mul",
+					"argument1": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": 45,
+						"to_y": 270,
+						"from_value": 1,
+						"to_value": 0
+					},
+					"argument2": {
+						"type": "minecraft:add",
+						"argument1": 23.4375,
+						"argument2": {
+							"type": "minecraft:add",
+							"argument1": {
+								"type": "minecraft:add",
+								"argument1": {
+									"type": "minecraft:end_islands"
+								},
+								"argument2": {
+									"type": "minecraft:old_blended_noise",
+									"xz_scale": 0.25,
+									"y_scale": 0.25,
+									"xz_factor": 40,
+									"y_factor": 40,
+									"smear_scale_multiplier": 4
+								}
+							},
+							"argument2": 0.666
+						}
+					}
+				}
+			}
+		}
+	}
+}

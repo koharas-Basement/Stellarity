@@ -1,0 +1,35 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"chest": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"legs": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						},
+						"feet": {
+							"nbt": "{stellarity.special_item:\"shulker_armor\"}"
+						}
+					}
+				},
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:shulker_bullet"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/armors/shulker_armor/hit_with_shulker_bullet"
+	}
+}

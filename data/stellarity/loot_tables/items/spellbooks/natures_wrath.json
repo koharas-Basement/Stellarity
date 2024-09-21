@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.spellbooks.natures_wrath",
+								"fallback": "Nature's Wrath",
+								"color": "#04CA01",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90004,stellarity.special_item:\"natures_wrath\",Recipes:[\"stellarity:events/spellbooks/use_natures_wrath\"],Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.spellbooks.natures_wrath.description.1",
+									"fallback": "Hold it while exploring to imbue it with a biome's magic,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.natures_wrath.description.2",
+									"fallback": "permanently unlocking or upgrading its abilities",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.spellbooks.natures_wrath.description.3",
+									"fallback": "Sneak and use to summon a pack of Spirit Wolves",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								" ",
+								{
+									"translate": "- Member #777 Item -",
+									"color": "#04CA01",
+									"font": "illageralt",
+									"italic": false,
+									"obfuscated": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

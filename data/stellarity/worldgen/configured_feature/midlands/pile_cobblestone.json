@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:block_pile",
+	"config": {
+		"state_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:cobblestone"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:cobbled_deepslate"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:blackstone"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:stone"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:infested_stone"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:infested_cobblestone"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:andesite"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:tuff"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:gravel"
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "end_stone",
+    "smooth_red_sandstone",
+    "blackstone",
+    "smooth_basalt",
+    "magma_block"
+  ]
+}

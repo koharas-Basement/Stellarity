@@ -1,0 +1,27 @@
+modLoader = "lowcodefml"
+loaderVersion = "[40,)"
+license = "LicenseRef-Custom"
+showAsResourcePack = false
+issueTrackerURL = "https://discord.kohara.xyz/"
+
+[[mods]]
+modId = "stellarity" 
+version = "2.2.1"
+displayName = "Stellarity"
+displayURL = "https://modrinth.com/datapack/stellarity"
+description = '''
+Extreme rehaul and expansion of The End!
+'We have End Update at home.'
+'''
+logoFile = "pack.png"
+logoBlur = false
+updateJSONURL = "https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json"
+credits="Hex, misode, Bush_King, Brokenemp, Phoenix"
+authors = "kohara"
+
+[[dependencies.stellarity]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.20.2,1.20.4]"
+	ordering="AFTER"
+	side="BOTH"

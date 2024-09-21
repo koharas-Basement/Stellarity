@@ -1,0 +1,267 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pink_shulker_box"
+		},
+		"title": {
+			"text": "jeb_"
+		},
+		"description": {
+			"translate": "stellarity.advancements.jeb_.description",
+			"fallback": "Craft all color variants of Shulker Boxes",
+			"color": "dark_aqua"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:end_city/color_a_shulker_box",
+	"criteria": {
+		"craft1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft6": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft7": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft8": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft9": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft10": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft11": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft12": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft14": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft15": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_shulker_box"
+						]
+					}
+				]
+			}
+		},
+		"craft16": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_shulker_box"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft1"
+		],
+		[
+			"craft2"
+		],
+		[
+			"craft3"
+		],
+		[
+			"craft4"
+		],
+		[
+			"craft5"
+		],
+		[
+			"craft6"
+		],
+		[
+			"craft7"
+		],
+		[
+			"craft8"
+		],
+		[
+			"craft9"
+		],
+		[
+			"craft10"
+		],
+		[
+			"craft11"
+		],
+		[
+			"craft12"
+		],
+		[
+			"craft13"
+		],
+		[
+			"craft14"
+		],
+		[
+			"craft15"
+		],
+		[
+			"craft16"
+		]
+	],
+	"rewards": {
+		"experience": 200
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 12,
+				"p": 0.6
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:beetroot_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:wheat_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:melon_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:pumpkin_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"name": "minecraft:torchflower_seeds"
+				}
+			]
+		}
+	]
+}

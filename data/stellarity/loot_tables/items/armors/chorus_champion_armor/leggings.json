@@ -1,0 +1,102 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.armors.chorus_champion_armor.leggings",
+								"fallback": "Chorus Champion Leggings",
+								"color": "#A87CC4",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.armors.set_bonus",
+									"fallback": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.1",
+									"fallback": "Fills you with Wrath of The Dragon,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.2",
+									"fallback": "providing ramping increasing damage",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.3",
+									"fallback": "on combo attacks!",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"chorus_champion_armor\",display:{color:11041988},HideFlags:64,kohara.durability:{enabled:1b,max_dur:495},kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:generic.armor_toughness",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
+									"amount": 2,
+									"operation": "addition",
+									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
+									"amount": 0.025,
+									"operation": "multiply_base",
+									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
+									"amount": 0.08,
+									"operation": "addition",
+									"slot": "legs"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

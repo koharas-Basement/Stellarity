@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_catalyst"
+		},
+		"title": {
+			"translate": "stellarity.advancements.kill_la_kill",
+			"fallback": "Kill la Kill"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.kill_la_kill.description",
+				"fallback": "Execute a Warden",
+				"color": "dark_aqua"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "stellarity:dragons_den/disassembly",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 1200
+	}
+}

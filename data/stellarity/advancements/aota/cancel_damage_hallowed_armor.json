@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{CustomModelData:90001,display:{color:16768338}}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.hallelujah",
+			"fallback": "Hallelujah!"
+		},
+		"description": {
+			"translate": "stellarity.advancements.hallelujah.description",
+			"fallback": "Dodge an attack with a full set of Hallowed Armor"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/cursed_crafting",
+	"criteria": {
+		"dodge_damage": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

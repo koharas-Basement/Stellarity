@@ -1,0 +1,119 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.tools.hematic_pickaxe",
+								"fallback": "Hematic Pickaxe",
+								"color": "#E53F3F",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.tools.hematic_pickaxe.description.1",
+									"fallback": "Can dig out extra loot",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.tools.hematic_pickaxe.description.2",
+									"fallback": "from various stone blocks",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "6",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.2",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"hematic_pickaxe\",kohara.durability:{enabled:1b,max_dur:1561},HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
+									"amount": 5,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
+									"amount": -2.8,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

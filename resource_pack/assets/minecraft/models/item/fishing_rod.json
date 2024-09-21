@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:item/handheld_rod",
+	"textures": {
+		"layer0": "minecraft:item/fishing_rod"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"cast": 1
+			},
+			"model": "minecraft:item/fishing_rod_cast"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/fisher_of_voids"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90000,
+				"cast": 1
+			},
+			"model": "stellarity:item/fisher_of_voids_cast"
+		}
+	]
+}

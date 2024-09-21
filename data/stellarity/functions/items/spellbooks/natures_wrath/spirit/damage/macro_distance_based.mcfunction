@@ -1,0 +1,1 @@
+$execute as @e[type=!#kohara:invalid_targets,limit=1,sort=nearest,distance=..2] unless entity @s[type=player,predicate=stellarity:items/holding/spellbooks/natures_wrath] at @s run function stellarity:items/spellbooks/natures_wrath/spirit/damage/effects/$(type)

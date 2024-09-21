@@ -1,0 +1,261 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots",
+			"nbt": "{display:{color:7078047},Enchantments:[{id:\"soul_speed\"}]}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.discover_all_biomes",
+			"fallback": "Timeless Traveler"
+		},
+		"description": {
+			"translate": "stellarity.advancements.discover_all_biomes.description",
+			"fallback": "Discover all End biomes"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"amethyst_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:amethyst_forest"
+					}
+				}
+			}
+		},
+		"ashfall_delta": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:ashfall_delta"
+					}
+				}
+			}
+		},
+		"end_wilds": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:end_wilds"
+					}
+				}
+			}
+		},
+		"ender_waste": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:ender_waste"
+					}
+				}
+			}
+		},
+		"flesh_tundra": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:flesh_tundra"
+					}
+				}
+			}
+		},
+		"the_nest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:the_nest"
+					}
+				}
+			}
+		},
+		"blazing_dunes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:blazing_dunes"
+					}
+				}
+			}
+		},
+		"prismarine_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:prismarine_forest"
+					}
+				}
+			}
+		},
+		"end_highlands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:end_highlands"
+					}
+				}
+			}
+		},
+		"end_barrens": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:end_barrens"
+					}
+				}
+			}
+		},
+		"end_midlands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:end_midlands"
+					}
+				}
+			}
+		},
+		"small_end_islands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:small_end_islands"
+					}
+				}
+			}
+		},
+		"the_hallow": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:the_hallow"
+					}
+				}
+			}
+		},
+		"frosted_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:frosted_hills"
+					}
+				}
+			}
+		},
+		"warped_marsh": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:warped_marsh"
+					}
+				}
+			}
+		},
+		"sculk_growth": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:sculk_growth"
+					}
+				}
+			}
+		},
+		"void": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:void"
+					}
+				}
+			}
+		},
+		"crystal_crags": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:crystal_crags"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"amethyst_forest"
+		],
+		[
+			"ashfall_delta"
+		],
+		[
+			"end_wilds"
+		],
+		[
+			"flesh_tundra"
+		],
+		[
+			"the_nest"
+		],
+		[
+			"blazing_dunes"
+		],
+		[
+			"prismarine_forest"
+		],
+		[
+			"end_highlands"
+		],
+		[
+			"end_midlands"
+		],
+		[
+			"small_end_islands"
+		],
+		[
+			"end_barrens"
+		],
+		[
+			"ender_waste"
+		],
+		[
+			"the_hallow"
+		],
+		[
+			"frosted_hills"
+		],
+		[
+			"warped_marsh"
+		],
+		[
+			"sculk_growth"
+		],
+		[
+			"void"
+		],
+		[
+			"crystal_crags"
+		]
+	],
+	"rewards": {
+		"experience": 4500
+	}
+}

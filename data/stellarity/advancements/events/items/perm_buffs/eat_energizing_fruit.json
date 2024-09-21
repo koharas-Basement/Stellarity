@@ -1,0 +1,31 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"stellarity.perm_buffs.energizing_fruit\"]}"
+							}
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					],
+					"nbt": "{stellarity.special_item:\"energizing_fruit\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/perm_buffs/energizing_fruit/eat"
+	}
+}

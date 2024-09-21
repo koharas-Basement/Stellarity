@@ -1,0 +1,19 @@
+loot give @s loot stellarity:items/fish/amethyst_budfish
+loot give @s loot stellarity:items/fish/bubblefish
+loot give @s loot stellarity:items/fish/crimson_tigerfish
+loot give @s loot stellarity:items/fish/crystal_heartfish
+loot give @s loot stellarity:items/fish/ender_koi
+loot give @s loot stellarity:items/fish/flarefin_koi
+loot give @s loot stellarity:items/fish/fleshy_piranha
+loot give @s loot stellarity:items/fish/frost_minnow
+loot give @s loot stellarity:items/fish/overgrown_cod
+loot give @s loot stellarity:items/fish/prismite
+loot give @s loot stellarity:items/fish/pufferfish
+
+loot give @s loot stellarity:items/perm_buffs/cleansing_potato
+loot give @s loot stellarity:items/perm_buffs/endurance_brew
+loot give @s loot stellarity:items/perm_buffs/energizing_fruit
+loot give @s loot stellarity:items/perm_buffs/fury_berries
+loot give @s loot stellarity:items/perm_buffs/lucky_carrot
+loot give @s loot stellarity:items/perm_buffs/miracle_fruit
+loot give @s loot stellarity:items/perm_buffs/rageroot

@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:eye\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{material:\"minecraft:amethyst\",pattern:\"minecraft:eye\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}
+		]
+	},
+	{
+		"function": "minecraft:enchant_with_levels",
+		"levels": {
+			"min": 15,
+			"max": 31
+		},
+		"treasure": true
+	}
+]
