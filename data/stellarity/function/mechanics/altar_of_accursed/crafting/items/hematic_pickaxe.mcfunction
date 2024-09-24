@@ -8,4 +8,6 @@ kill @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5,limit=1]
 loot spawn ~ ~.1 ~ loot stellarity:items/tools/hematic_pickaxe
 tag @n[type=item] add stellarity.aota.skip
 
+data modify entity @n[type=item] Item.components."minecraft:enchantments" set from storage stellarity:temp aota.enchants
+
 function stellarity:mechanics/altar_of_accursed/crafting/global_effects
