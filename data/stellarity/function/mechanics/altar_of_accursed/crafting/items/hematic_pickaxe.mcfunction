@@ -1,3 +1,6 @@
+data modify storage stellarity:temp aota.item set from entity @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5,limit=1] Item.components
+data modify storage stellarity:temp aota.enchants set from storage stellarity:temp aota.item."minecraft:enchantments"
+
 kill @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.living_flesh,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5,limit=1]
