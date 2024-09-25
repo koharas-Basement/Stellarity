@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/light_blue_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/misc/brittle_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/misc/brittle_2"
+		}
+	]
+}

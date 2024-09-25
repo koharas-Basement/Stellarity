@@ -33,24 +33,6 @@
 				"custom_model_data": 90004
 			},
 			"model": "stellarity:item/misc/jinx_5"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 90005
-			},
-			"model": "stellarity:item/misc/jinx_6"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 90006
-			},
-			"model": "stellarity:item/misc/jinx_7"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 90007
-			},
-			"model": "stellarity:item/misc/jinx_8"
 		}
 	]
 }

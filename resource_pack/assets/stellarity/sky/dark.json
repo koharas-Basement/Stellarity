@@ -1,0 +1,78 @@
+{
+	"schemaVersion": 2,
+	"type": "square-textured",
+	"textures": {
+		"north": "stellarity:sky/dark/0.png",
+		"east": "stellarity:sky/dark/1.png",
+		"south": "stellarity:sky/dark/2.png",
+		"west": "stellarity:sky/dark/3.png",
+		"top": "stellarity:sky/dark/4.png",
+		"bottom": "stellarity:sky/dark/5.png"
+	},
+	"blend": {
+		"type": "alpha"
+	},
+	"properties": {
+		"priority": 10,
+		"fade": {
+			"startFadeIn": 1000,
+			"endFadeIn": 2000,
+			"startFadeOut": 3000,
+			"endFadeOut": 4000,
+			"alwaysOn": true
+		},
+		"rotation": {
+			"rotationSpeedY": 0.866,
+			"static": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"axis": [
+				45.0,
+				-180.0,
+				45.0
+			]
+		},
+		"transitionInDuration": 60,
+		"transitionOutDuration": 60,
+		"changeFog": true,
+		"fogColors": {
+			"red": 0,
+			"green": 0,
+			"blue": 0,
+			"alpha": 1.0
+		},
+		"sunSkyTint": false,
+		"inThickFog": true,
+		"minAlpha": 0.0,
+		"maxAlpha": 1.0
+	},
+	"conditions": {
+		"worlds": [],
+		"dimensions": [
+			"minecraft:the_end"
+		],
+		"weather": [],
+		"biomes": [
+			"stellarity:fiery_hills",
+			"far_end:ashfall_delta",
+			"far_end:the_nest"
+		],
+		"xRanges": [],
+		"yRanges": [],
+		"zRanges": [],
+		"loop": {},
+		"effects": []
+	},
+	"decorations": {
+		"blend": {
+			"type": "decorations"
+		},
+		"sun": "minecraft:textures/environment/sun.png",
+		"moon": "minecraft:textures/environment/moon_phases.png",
+		"showSun": false,
+		"showMoon": false,
+		"showStars": true
+	}
+}

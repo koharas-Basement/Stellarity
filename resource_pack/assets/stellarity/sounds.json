@@ -19,23 +19,23 @@
 		"sounds":[
 			{
 				"name":"stellarity:effect/voided/activate_1",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/activate_2",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/activate_3",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/activate_4",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/activate_5",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			}
 		]
 	},
@@ -43,19 +43,27 @@
 		"sounds":[
 			{
 				"name":"stellarity:effect/voided/deactivate_1",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/deactivate_2",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/deactivate_3",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
 			},
 			{
 				"name":"stellarity:effect/voided/deactivate_4",
-				"attenuation_distance": 6
+				"attenuation_distance": 7
+			}
+		]
+	},
+	"effect.voided.loop":{
+		"sounds":[
+			{
+				"name":"stellarity:effect/voided/loop",
+				"volume": 0.25
 			}
 		]
 	},
