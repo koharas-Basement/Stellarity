@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 64,
+		"xz_spread": 0,
+		"y_spread": 0,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_random_selector",
+				"config": {
+					"features": [
+						{
+							"feature": "stellarity:prismatic_dunes/lake/lake",
+							"placement": []
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/lake/vegetation",
+							"placement": []
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/lake/vegetation_water",
+							"placement": []
+						}
+					]
+				}
+			},
+			"placement": []
+		}
+	}
+}

@@ -32,7 +32,7 @@ For more info look into `stellarity/worldgen/density_function/end/depth.json` fi
     }
 },
 {
-    "biome": "far_end:void",
+    "biome": "stellarity:the_void",
     "parameters": {
         "temperature": 0,
         "humidity": 0,

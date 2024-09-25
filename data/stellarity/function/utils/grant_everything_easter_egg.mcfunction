@@ -1,7 +1,7 @@
 advancement revoke @s only stellarity:events/super_secret_easter_egg/advancement_grant_everything
 
 title @s times 20 200 20
-title @s title {"translate":"stellarity.advancement_grant_everything","fallbak":"Don't use this command","bold":true,"color":"gray"}
+title @s title {"translate":"stellarity.advancement_grant_everything","fallback":"Don't use this command","bold":true,"color":"gray"}
 
 tag @s remove stellarity.ender_blessed
 

@@ -1,0 +1,161 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 12,
+		"xz_spread": 12,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_random_selector",
+				"config": {
+					"features": [
+						{
+							"feature": {
+								"type": "minecraft:block_column",
+								"config": {
+									"direction": "up",
+									"allowed_placement": {
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									"prioritize_tip": false,
+									"layers": [
+										{
+											"height": {
+												"type": "minecraft:biased_to_bottom",
+												"min_inclusive": 2,
+												"max_inclusive": 3
+											},
+											"provider": {
+												"type": "minecraft:simple_state_provider",
+												"state": {
+													"Name": "minecraft:cherry_leaves",
+													"Properties": {
+														"distance": "1",
+														"persistent": "true",
+														"waterlogged": "false"
+													}
+												}
+											}
+										}
+									]
+								}
+							},
+							"placement": []
+						},
+						{
+							"feature": {
+								"type": "minecraft:simple_block",
+								"config": {
+									"to_place": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 5,
+												"data": {
+													"Name": "minecraft:cherry_leaves",
+													"Properties": {
+														"distance": "1",
+														"persistent": "true",
+														"waterlogged": "false"
+													}
+												}
+											}
+										]
+									}
+								}
+							},
+							"placement": []
+						},
+						{
+							"feature": {
+								"type": "minecraft:block_column",
+								"config": {
+									"direction": "down",
+									"allowed_placement": {
+										"type": "minecraft:true"
+									},
+									"prioritize_tip": false,
+									"layers": [
+										{
+											"height": 1,
+											"provider": {
+												"type": "minecraft:simple_state_provider",
+												"state": {
+													"Name": "minecraft:air"
+												}
+											}
+										},
+										{
+											"height": 1,
+											"provider": {
+												"type": "minecraft:weighted_state_provider",
+												"entries": [
+													{
+														"weight": 1,
+														"data": {
+															"Name": "minecraft:rooted_dirt"
+														}
+													},
+													{
+														"weight": 1,
+														"data": {
+															"Name": "minecraft:coarse_dirt"
+														}
+													},
+													{
+														"weight": 2,
+														"data": {
+															"Name": "minecraft:amethyst_block"
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							},
+							"placement": []
+						}
+					]
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									0
+								],
+								"blocks": [
+									"minecraft:white_concrete_powder",
+									"minecraft:white_concrete",
+									"minecraft:calcite"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

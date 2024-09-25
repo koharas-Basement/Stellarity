@@ -26,7 +26,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:enchantments/void_strike/apply_voided"
+					"function": "stellarity:mechanics/enchantments/void_strike/apply_voided"
 				},
 				"requirements": {
 					"condition": "minecraft:damage_source_properties",

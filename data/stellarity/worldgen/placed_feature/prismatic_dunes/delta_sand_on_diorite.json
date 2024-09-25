@@ -1,0 +1,26 @@
+{
+	"feature": "stellarity:prismatic_dunes/delta_sand_on_diorite",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 40
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:diorite"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

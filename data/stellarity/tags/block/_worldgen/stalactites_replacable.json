@@ -17,6 +17,8 @@
 		"basalt",
 		"smooth_sandstone",
 		"snow_block",
-		"ice"
+		"ice",
+		"white_concrete_powder",
+		"calcite"
 	]
 }

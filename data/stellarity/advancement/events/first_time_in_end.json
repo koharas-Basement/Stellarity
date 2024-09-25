@@ -9,6 +9,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:enter_end_play_track"
+		"function": "stellarity:utils/enter_end_play_track"
 	}
 }
