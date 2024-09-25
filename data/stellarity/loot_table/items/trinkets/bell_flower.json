@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.bell_flower\",\"fallback\": \"Bell Flower\",\"color\": \"#EEEEEE\",\"italic\": false}"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.bell_flower.description",
+									"fallback": "Reveals nearby entities while held",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	]
+}
