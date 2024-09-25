@@ -48,13 +48,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_data": "something",
-								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": "{stellarity.special_item:\"excalibur\"}",
+								"minecraft:custom_model_data": 90009,
+								"minecraft:rarity": "uncommon",
 								"minecraft:fire_resistant": {},
-								"minecraft:unbreakable": {
-									"show_in_tooltip": false
-								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.excalibur\",\"fallback\": \"Excalibur\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.excalibur\",\"fallback\": \"Excalibur\"}"
 							}
 						}
 					]

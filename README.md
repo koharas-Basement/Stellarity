@@ -46,3 +46,4 @@ Haro everynyan.
 - `models` - saved models for use with [BDEngine](https://block-display.com/bdengine/).
 - `stellarity.snowcapped.json` - current biome layout for use with [Snowcapped](https://snowcapped.jacobsjo.eu/).
 - `LICENSE.md` - copy of the license.
+- `generate_translations.py` - run it to grab all the translation components and their fallbacks in the `data` folder and compile them into a nice JSON, which can be then uploaded to the resource pack. Make sure to only replace the part which can be replaced though, as not everything is put there!

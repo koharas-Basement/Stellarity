@@ -14,7 +14,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "sand_rune"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.sand_rune\",\"fallback\": \"Snad Rune\",\"color\": \"#A372C3\",\"italic\": false}"
+								"minecraft:rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.sand_rune\",\"fallback\": \"Sand Rune\"}"
 							}
 						},
 						{
@@ -22,13 +23,6 @@
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.materials.upgrade",
-									"fallback": "Used to upgrade Netherite Armor",
-									"color": "#EEEEEE",
-									"italic": false
-								},
 								"",
 								{
 									"translate": "Stellarity",

@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/ominous_trial_key"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/gilded_purpur_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/winged_key"
+		}
+	]
+}

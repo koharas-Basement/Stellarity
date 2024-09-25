@@ -1,0 +1,53 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/elytra"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"broken": 1
+			},
+			"model": "minecraft:item/broken_elytra"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90000
+			},
+			"model": "stellarity:item/elytra/dragon_wings"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90000,
+				"broken": 1
+			},
+			"model": "stellarity:item/elytra/dragon_wings_broken"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/elytra/empress_wings"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001,
+				"broken": 1
+			},
+			"model": "stellarity:item/elytra/empress_wings_broken"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/elytra/phantom_wings"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90002,
+				"broken": 1
+			},
+			"model": "stellarity:item/elytra/phantom_wings_broken"
+		}
+	]
+}
