@@ -1,2 +1,4 @@
-particle minecraft:dust{color:[0.925, 0.733, 0.318], scale:1.25} ~ ~0.5 ~ .15 .15 .15 0 4 force @a[distance=..48]
-particle minecraft:dust{color:[0.996, 1.0, 0.655], scale:1.25} ~ ~0.5 ~ .15 .15 .15 0 4 force @a[distance=..48]
+execute if score @s stellarity.misc3 matches 1 run function stellarity:mobs/pixie/particles/idle/yellow
+execute if score @s stellarity.misc3 matches 2 run function stellarity:mobs/pixie/particles/idle/magenta
+execute if score @s stellarity.misc3 matches 3 run function stellarity:mobs/pixie/particles/idle/light_blue
+execute if score @s stellarity.misc3 matches 4 run function stellarity:mobs/pixie/particles/idle/lime
