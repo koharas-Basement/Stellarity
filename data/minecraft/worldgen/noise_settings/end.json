@@ -705,7 +705,7 @@
 										"if_true": {
 											"type": "minecraft:noise_threshold",
 											"noise": "stellarity:surface_4x",
-											"min_threshold": -0.31,
+											"min_threshold": -0.305,
 											"max_threshold": -0.3
 										},
 										"then_run": {
@@ -720,7 +720,7 @@
 											"then_run": {
 												"type": "minecraft:block",
 												"result_state": {
-													"Name": "minecraft:coarse_dirt"
+													"Name": "minecraft:amethyst_block"
 												}
 											}
 										}
@@ -751,7 +751,7 @@
 															"then_run": {
 																"type": "minecraft:block",
 																"result_state": {
-																	"Name": "minecraft:white_concrete"
+																	"Name": "minecraft:calcite"
 																}
 															}
 														},

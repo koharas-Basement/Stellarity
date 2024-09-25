@@ -66,7 +66,7 @@ execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["hellfi
 execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["hellfire_treader_potion","minecraft:glowstone_dust"],amount:2}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/hellfire_treader_potion_ii",breath:3}
 
 # Lifeforce Potion
-execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:nether_wart","minecraft:glass_bottle","prismite","pixie_dust","minecraft:sweet_berries"],amount:5}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/lifeforce_potion",breath:3}
+execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:nether_wart","minecraft:glass_bottle","prismite","starlight_soot","minecraft:sweet_berries"],amount:5}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/lifeforce_potion",breath:3}
 
 execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["lifeforce_potion","minecraft:redstone"],amount:2}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/lifeforce_potion_ext",breath:4}
 
@@ -91,9 +91,9 @@ execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecr
 # Regeneraga
 execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["crimson_tigerfish","prismite","minecraft:glistering_melon_slice","minecraft:ghast_tear","minecraft:nether_wart","minecraft:glass_bottle"],amount:6}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/regeneraga",breath:4}
 
-execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["regeneraga","pixie_dust"],amount:2}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/regeneraga_ii",breath:4}
+execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["regeneraga","starlight_soot"],amount:2}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/regeneraga_ii",breath:4}
 
 # Royal Jelly
 execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:honey_block","minecraft:gold_ingot","minecraft:amethyst_shard","minecraft:amethyst_shard_2","minecraft:nether_wart","minecraft:glass_bottle"],amount:6}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/royal_jelly",breath:5}
 
-execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["royal_jelly","pixie_dust"],amount:2}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/royal_jelly_ii",breath:3}
+execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["royal_jelly","starlight_soot"],amount:2}} run function stellarity:mechanics/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:items/potions/royal_jelly_ii",breath:3}
