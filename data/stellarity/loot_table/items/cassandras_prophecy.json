@@ -5,17 +5,23 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:trident",
+					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.weapons.sandstorm_trident.description",
-									"fallback": "Creates wind tunnels when thrown",
+									"translate": "stellarity.items.weapons.cassandras_prophecy.description",
+									"fallback": "Attacks create extra slashes",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.cassandras_prophecy.flavor_text",
+									"fallback": "'cause it sounds cool'",
+									"color": "#EEEEEE",
+									"italic": true
 								},
 								"",
 								{
@@ -32,14 +38,14 @@
 								{
 									"id": "minecraft:base_attack_damage",
 									"attribute": "minecraft:generic.attack_damage",
-									"amount": 7,
+									"amount": 4,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
 									"attribute": "minecraft:generic.attack_speed",
-									"amount": -3,
+									"amount": -2.4,
 									"operation": "add_value",
 									"slot": "mainhand"
 								}
@@ -54,7 +60,7 @@
 								"minecraft:unbreakable": {
 									"show_in_tooltip": false
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.cassandras_prophecy\",\"fallback\": \"Cassandra's Prophecy\",\"color\": \"white\",\"italic\": false}"
 							}
 						}
 					]
