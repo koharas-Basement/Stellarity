@@ -10,9 +10,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
-								"minecraft:custom_data": {},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.bell_flower\",\"fallback\": \"Bell Flower\",\"color\": \"#EEEEEE\",\"italic\": false}"
+								"minecraft:custom_model_data": 90002,
+								"minecraft:custom_data": {"stellarity.special_item":"bell_flower"},
+								"minecraft:rarity": "rare",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.bell_flower\",\"fallback\": \"Bell Flower\"}"
 							}
 						},
 						{

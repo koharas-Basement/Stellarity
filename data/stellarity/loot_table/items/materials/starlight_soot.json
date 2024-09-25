@@ -14,7 +14,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "starlight_soot"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.starlight_soot\",\"fallback\": \"Starlight Soot\",\"color\": \"#FFD655\",\"italic\": false}"
+								"minecraft:rarity": "common",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.starlight_soot\",\"fallback\": \"Starlight Soot\"}"
 							}
 						},
 						{

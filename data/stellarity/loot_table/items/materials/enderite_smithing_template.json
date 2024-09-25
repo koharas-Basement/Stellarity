@@ -14,7 +14,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "enderite_smithing_template"
 								},
-								"rarity": "epic",
+								"minecraft:rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.enderite_smithing_template\",\"fallback\": \"Smithing Template\",\"color\": \"light_purple\",\"italic\": false}"
 							}
 						},

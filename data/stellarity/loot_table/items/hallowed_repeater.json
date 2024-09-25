@@ -15,16 +15,17 @@
 									"attribute": "minecraft:generic.movement_speed",
 									"amount": 0.05,
 									"operation": "add_multiplied_base",
-									"slot": "mainhand"
+									"slot": "hand"
 								}
 							]
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
-								"minecraft:custom_data": {},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.hallowed_repeater\",\"fallback\": \"Hallowed Repeater\",\"color\": \"#873600\",\"italic\": false}"
+								"minecraft:custom_model_data": 90003,
+								"rarity": "uncommon",
+								"minecraft:custom_data": "{stellarity.special_item:\"cassandras_prophecy\"}",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.hallowed_repeater\",\"fallback\": \"Hallowed Repeater\"}"
 							}
 						},
 						{

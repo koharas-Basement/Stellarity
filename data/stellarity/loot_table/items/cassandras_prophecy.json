@@ -17,6 +17,7 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								"",
 								{
 									"translate": "stellarity.items.weapons.cassandras_prophecy.flavor_text",
 									"fallback": "'cause it sounds cool'",
@@ -54,13 +55,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_data": "something",
-								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": "{stellarity.special_item:\"cassandras_prophecy\"}",
+								"minecraft:custom_model_data": 90008,
 								"minecraft:fire_resistant": {},
-								"minecraft:unbreakable": {
-									"show_in_tooltip": false
-								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.cassandras_prophecy\",\"fallback\": \"Cassandra's Prophecy\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:rarity": "epic",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.cassandras_prophecy\",\"fallback\": \"Cassandra's Prophecy\"}"
 							}
 						}
 					]

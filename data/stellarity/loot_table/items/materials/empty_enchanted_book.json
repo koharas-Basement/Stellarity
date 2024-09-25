@@ -11,7 +11,9 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": "{\"translate\":\"item.minecraft.enchanted_book\",\"color\":\"red\"}",
-								"enchantment_glint_override": true
+								"enchantment_glint_override": true,
+								"minecraft:rarity": "uncommon",
+								"minecraft:fire_resistant": {}
 							}
 						},
 						{
