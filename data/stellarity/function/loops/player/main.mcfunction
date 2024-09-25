@@ -2,7 +2,8 @@
 function stellarity:items/main_player
 
 # Totem of Undying gives Levitation when falling out of the world
-execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:locations/in_void] run function stellarity:mechanics/void_totem_protection/save
+execute if score #stellarity.config stellarity.config.enable_totem_void_saving matches 1 run \
+    execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:locations/in_void] run function stellarity:mechanics/void_totem_protection/save
 
 execute if entity @s[scores={kohara.flight_speed=1..},tag=!stellarity.elytra.flying] run function stellarity:mechanics/elytra/start_flying
 execute if entity @s[tag=stellarity.elytra.flying] run function stellarity:mechanics/elytra/flying

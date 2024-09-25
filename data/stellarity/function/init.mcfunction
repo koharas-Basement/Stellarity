@@ -3,6 +3,7 @@
 scoreboard objectives add stellarity.config.join_message dummy
 scoreboard objectives add stellarity.config.always_generate_egg dummy
 scoreboard objectives add stellarity.config.enable_end_crystal_drop dummy
+scoreboard objectives add stellarity.config.enable_totem_void_saving dummy
 scoreboard objectives add stellarity.config.dragon_health dummy
 scoreboard objectives add stellarity.config.eol_health dummy
 scoreboard objectives add stellarity.config.allow_disenchanting dummy

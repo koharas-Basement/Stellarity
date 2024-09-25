@@ -20,6 +20,8 @@ function stellarity:utils/tellraw/config {title:"Join Message",description:"Whet
 
 function stellarity:utils/tellraw/config {title:"Enable End Crystal Drop",description:"Makes End Crystals drop themselves on left-click instead of exploding.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_end_crystal_drop",numerical:0,suggested_value:1}
 
+function stellarity:utils/tellraw/config {title:"Enable Totem Void Saving",description:"Makes Totems of Undying save you from falling into the void by teleporting you to y270 instead of dying in it.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_totem_void_saving",numerical:0,suggested_value:1}
+
 function stellarity:utils/tellraw/config {title:"Always Generate Egg",description:"Always spawns a Dragon Egg after killing the Ender Dragon. If disabled, follows vanilla spawn rules of only 1 Egg and only the first kill.",default:'{"translate":"stellarity.config.disabled","fallback":"Disabled","color":"#FF7B7B"}',score:"always_generate_egg",numerical:0,suggested_value:0}
 
 function stellarity:utils/tellraw/config {title:"Dragon Max Health",description:"Changes maximum health of the Ender Dragon. Max: 1024",default:'{"text":"300","color":"#EEEEEE"}',score:"dragon_health",numerical:1,suggested_value:300}
