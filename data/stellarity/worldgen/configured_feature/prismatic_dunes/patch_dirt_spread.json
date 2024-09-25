@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 100,
+		"xz_spread": 6,
+		"y_spread": 2,
+		"feature": {
+			"feature": {
+				"type": "minecraft:replace_single_block",
+				"config": {
+					"targets": [
+						{
+							"target": {
+								"predicate_type": "minecraft:tag_match",
+								"tag": "stellarity:_worldgen/endless_dunes/dune_replaceables"
+							},
+							"state": {
+								"Name": "minecraft:dirt"
+							}
+						}
+					]
+				}
+			},
+			"placement": []
+		}
+	}
+}

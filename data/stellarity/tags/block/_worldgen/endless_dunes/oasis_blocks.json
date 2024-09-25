@@ -6,6 +6,9 @@
 		"end_stone",
 		"grass_block",
 		"moss_block",
-		"terracotta"
+		"terracotta",
+		"white_concrete_powder",
+		"diorite",
+		"calcite"
 	]
 }

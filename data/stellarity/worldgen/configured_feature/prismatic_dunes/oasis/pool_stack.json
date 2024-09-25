@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 64,
+		"xz_spread": 0,
+		"y_spread": 0,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_random_selector",
+				"config": {
+					"features": [
+						{
+							"feature": "stellarity:prismatic_dunes/oasis/dirt_patch",
+							"placement": []
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/oasis/grass_patch_spread",
+							"placement": []
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/oasis/palm_patch",
+							"placement": []
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/oasis/vegetation_middle",
+							"placement": []
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/oasis/pool",
+							"placement": [
+								{
+									"type": "minecraft:block_predicate_filter",
+									"predicate": {
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": "#stellarity:_worldgen/endless_dunes/oasis_blocks"
+									}
+								}
+							]
+						},
+						{
+							"feature": "stellarity:prismatic_dunes/oasis/rock",
+							"placement": [
+								{
+									"type": "minecraft:block_predicate_filter",
+									"predicate": {
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"grass_block"
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+			},
+			"placement": []
+		}
+	}
+}

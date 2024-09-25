@@ -1,0 +1,20 @@
+{
+	"feature": "stellarity:prismatic_dunes/amethyst",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 1,
+				"max_inclusive": 4
+			}
+		},
+		{
+			"type": "rarity_filter",
+			"chance": 3
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}
