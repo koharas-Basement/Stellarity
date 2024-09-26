@@ -3,25 +3,33 @@
 	"pools": [
 		{
 			"rolls": {
-				"type": "minecraft:binomial",
-				"n": 10,
-				"p": 0.67
+				"min": 11,
+				"max": 21
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:paper"
+					"name": "minecraft:paper",
+					"weight": 8
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:book"
+					"name": "minecraft:book",
+					"weight": 12
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:feather"
+					"name": "minecraft:feather",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ink_sac",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:writable_book"
 				}
 			]
 		},
@@ -33,8 +41,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:book",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -48,31 +56,31 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:book",
+					"weight": 2,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
 								"min": 21,
 								"max": 30
 							},
-							"add": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
 					"name": "minecraft:book",
+					"quality": 1,
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
 								"min": 31,
 								"max": 40
 							},
-							"add": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				}

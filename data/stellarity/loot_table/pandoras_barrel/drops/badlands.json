@@ -8,8 +8,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 20,
 					"name": "minecraft:red_sand",
+					"weight": 20,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -23,8 +23,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 13,
 					"name": "minecraft:red_sandstone",
+					"weight": 13,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -38,9 +38,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:terracotta",
-					"expand": true,
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -54,9 +53,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:white_terracotta",
-					"expand": true,
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -70,9 +68,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:light_gray_terracotta",
-					"expand": true,
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -86,9 +83,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:red_terracotta",
-					"expand": true,
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -102,25 +98,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:orange_terracotta",
-					"expand": true,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 6,
-								"max": 9
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 8,
-					"name": "minecraft:brown_terracotta",
-					"expand": true,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -134,8 +113,23 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"name": "minecraft:brown_terracotta",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 6,
+								"max": 9
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:gold_ingot",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -149,18 +143,18 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:gold_ore"
+					"name": "minecraft:gold_ore",
+					"weight": 6
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:deepslate_gold_ore"
+					"name": "minecraft:deepslate_gold_ore",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 9,
 					"name": "minecraft:raw_gold",
+					"weight": 9,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -174,8 +168,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
 					"name": "minecraft:cactus",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -189,8 +183,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 13,
 					"name": "minecraft:dead_bush",
+					"weight": 13,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

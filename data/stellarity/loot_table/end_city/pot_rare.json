@@ -35,14 +35,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:spire_armor_trim_smithing_template",
-					"weight": 2
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/music_disc/fires_of_hokkai",
-					"weight": 2,
-					"quality": 1
+					"name": "minecraft:spire_armor_trim_smithing_template"
 				}
 			]
 		}
