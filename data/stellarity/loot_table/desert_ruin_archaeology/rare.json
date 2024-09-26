@@ -27,7 +27,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/cassandras_prophecy"
+					"weight": 3,
+					"value": "stellarity:items/materials/sand_rune"
 				}
 			]
 		}
