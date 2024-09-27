@@ -1,4 +1,4 @@
-loot spawn ~ 400 ~ loot stellarity:items/food/perm_buffs/energizing_fruit
+loot spawn ~ 400 ~ loot stellarity:items/materials/keys/purpur
 execute positioned ~ 400 ~ run data modify storage stellarity:temp consecration.drop set from entity @n[type=item] Item
 execute positioned ~ 400 ~ run kill @n[type=item]
 
