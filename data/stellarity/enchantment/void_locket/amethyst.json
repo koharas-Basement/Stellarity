@@ -1,0 +1,45 @@
+{
+	"description": {
+		"translate": "stellarity.items.trinkets.void_locket.enchantment.amethyst",
+		"fallback": "Vision",
+		"color": "dark_purple"
+	},
+	"supported_items": [
+		"minecraft:iron_nugget"
+	],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:night_vision",
+					"min_duration": 16,
+					"max_duration": 16,
+					"min_amplifier": 0,
+					"max_amplifier": 0
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"periodic_tick": 100
+					}
+				}
+			}
+		]
+	}
+}
