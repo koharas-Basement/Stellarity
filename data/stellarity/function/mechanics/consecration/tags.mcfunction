@@ -218,6 +218,10 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.cat"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_disc_5"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.5"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_disc_creator"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.creator"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_disc_creator_music_box"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.creator_music_box"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sand"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sand"

@@ -114,6 +114,10 @@ execute if entity @s[tag=stellarity.consecration.music_disc.cat] run \
 	function stellarity:mechanics/consecration/drops/convert_to {item:"music_disc_13"}
 execute if entity @s[tag=stellarity.consecration.music_disc.5] run \
 	function stellarity:mechanics/consecration/drops/convert_to {item:"music_disc_relic"}
+execute if entity @s[tag=stellarity.consecration.music_disc.creator] run \
+	function stellarity:mechanics/consecration/drops/convert_to {item:"music_disc_creator_music_box"}
+execute if entity @s[tag=stellarity.consecration.music_disc.creator_music_box] run \
+	function stellarity:mechanics/consecration/drops/convert_to {item:"music_disc_creator"}
 
 # Hallowed Ingots
 execute if entity @s[tag=stellarity.consecration.iron_ingot] run function stellarity:mechanics/consecration/drops/hallowed_ingot
