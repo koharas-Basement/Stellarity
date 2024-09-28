@@ -1,5 +1,5 @@
 {
-	"pools":[
+	"pools": [
 		{
 			"rolls": 1,
 			"entries": [
@@ -7,6 +7,12 @@
 					"type": "minecraft:item",
 					"name": "minecraft:map",
 					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "rare"
+							}
+						},
 						{
 							"function": "minecraft:exploration_map",
 							"destination": "stellarity:exploration_map/chapel",
@@ -20,13 +26,11 @@
 							"name": {
 								"translate": "stellarity.explorer_map.chapel_of_light",
 								"fallback": "Chapel of Light Explorer Map",
-								"color": "light_purple",
 								"italic": false
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
-							"mode": "replace_all",
+							"function": "minecraft:set_lore",
 							"lore": [
 								"",
 								{
@@ -34,8 +38,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
-								
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

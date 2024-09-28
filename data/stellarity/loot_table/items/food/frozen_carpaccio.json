@@ -14,8 +14,8 @@
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"frozen_carpaccio\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.frozen_carpaccio\",\"fallback\":\"Frozen Carpaccio\",\"color\":\"white\"}",
 								"minecraft:food": {
-									"nutrition": 6,
-									"saturation": 7.2,
+									"nutrition": 7,
+									"saturation": 8.4,
 									"can_always_eat": true,
 									"eat_seconds": 1.5,
 									"effects": []
@@ -28,7 +28,7 @@
 							"lore": [
 								[
 									{
-										"text": "6",
+										"text": "7",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -39,7 +39,7 @@
 									},
 									" ",
 									{
-										"text": "7.2",
+										"text": "8.4",
 										"color": "#EEEEEE",
 										"italic": false
 									},

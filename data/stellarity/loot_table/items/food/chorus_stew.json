@@ -14,8 +14,8 @@
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_stew\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.chorus_stew\",\"fallback\":\"Chorus Stew\",\"color\":\"white\"}",
 								"minecraft:food": {
-									"nutrition": 7,
-									"saturation": 8.4,
+									"nutrition": 6,
+									"saturation": 7.2,
 									"can_always_eat": false,
 									"eat_seconds": 1.5,
 									"effects": []
@@ -28,7 +28,7 @@
 							"lore": [
 								[
 									{
-										"text": "7",
+										"text": "6",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -39,7 +39,7 @@
 									},
 									" ",
 									{
-										"text": "8.4",
+										"text": "7.2",
 										"color": "#EEEEEE",
 										"italic": false
 									},

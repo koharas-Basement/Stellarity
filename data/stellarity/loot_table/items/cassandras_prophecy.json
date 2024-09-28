@@ -13,7 +13,7 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.cassandras_prophecy.description",
-									"fallback": "Attacks create extra slashes",
+									"fallback": "Attacks create extra slashes of darkness",
 									"color": "#EEEEEE",
 									"italic": false
 								},
