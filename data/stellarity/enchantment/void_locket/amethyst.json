@@ -25,12 +25,8 @@
 		"minecraft:tick": [
 			{
 				"effect": {
-					"type": "minecraft:apply_mob_effect",
-					"to_apply": "minecraft:night_vision",
-					"min_duration": 16,
-					"max_duration": 16,
-					"min_amplifier": 0,
-					"max_amplifier": 0
+					"type": "minecraft:run_function",
+					"function": "stellarity:mechanics/enchantments/void_locket/amethyst"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

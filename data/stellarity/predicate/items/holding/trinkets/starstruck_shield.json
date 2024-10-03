@@ -8,9 +8,11 @@
 				"equipment": {
 					"mainhand": {
 						"items": [
-							"minecraft:gold_nugget"
+							"minecraft:shield"
 						],
-						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"starstruck_carcanet\"}"}
+						"predicates": {
+							"minecraft:custom_data": "{stellarity.special_item:\"starstruck_shield\"}"
+						}
 					}
 				}
 			}
@@ -22,9 +24,11 @@
 				"equipment": {
 					"offhand": {
 						"items": [
-							"minecraft:gold_nugget"
+							"minecraft:shield"
 						],
-						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"starstruck_carcanet\"}"}
+						"predicates": {
+							"minecraft:custom_data": "{stellarity.special_item:\"starstruck_shield\"}"
+						}
 					}
 				}
 			}

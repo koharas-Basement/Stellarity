@@ -7,17 +7,23 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/holding/trinkets/starstruck_carcanet"
+						"name": "stellarity:items/holding/trinkets/starstruck_shield"
 					}
 				],
 				"damage": {
-					"blocked": false,
-					"type": {}
+					"blocked": true,
+					"source_entity": {
+						"distance": {
+							"absolute": {
+								"max": 7
+							}
+						}
+					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "stellarity:items/starstruck_carcanet/hurt"
+		"function": "stellarity:items/starstruck_shield/hurt"
 	}
 }

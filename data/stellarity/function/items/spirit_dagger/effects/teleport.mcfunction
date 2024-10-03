@@ -25,18 +25,18 @@ execute store result score #temp_2 stellarity.misc run data get entity @s Invent
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #sweeping stellarity.misc = #temp_1 stellarity.misc
 # Fire Aspect
-execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:fire_aspect".lvl 1
-execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:fire_aspect".lvl 1
+execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:fire_aspect" 1
+execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:fire_aspect" 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #fire_aspect stellarity.misc = #temp_1 stellarity.misc
 # Knockback
-execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:knockback".lvl 1
-execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:knockback".lvl 1
+execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:knockback" 1
+execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:knockback" 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #knockback stellarity.misc = #temp_1 stellarity.misc
 # Bane of Arthropods
-execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:bane_of_arthropods".lvl 1
-execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:bane_of_arthropods".lvl 1
+execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:bane_of_arthropods" 1
+execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:bane_of_arthropods" 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #bane stellarity.misc = #temp_1 stellarity.misc
 
