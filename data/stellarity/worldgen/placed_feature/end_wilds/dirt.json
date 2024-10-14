@@ -1,22 +1,18 @@
 {
-	"feature": "far_end:wilds/surface/grassy_plain",
+	"feature": "stellarity:end_wilds/dirt",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 250
-		},
-		{
-			"type": "minecraft:count",
-			"count": 2
+			"count": 40
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 30,
+			"noise_to_count_ratio": 40,
 			"noise_factor": 100,
-			"noise_offset": 0.14
+			"noise_offset": -0.22
 		},
 		{
 			"type": "minecraft:height_range",
@@ -42,7 +38,7 @@
 					"minecraft:air"
 				]
 			},
-			"max_steps": 8
+			"max_steps": 16
 		},
 		{
 			"type": "minecraft:biome"
