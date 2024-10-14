@@ -1,4 +1,4 @@
-execute store result score #count stellarity.misc run data get entity @s Item.Count 1
+execute store result score #count stellarity.misc run data get entity @s Item.count 1
 kill @s
 
 function stellarity:mechanics/consecration/checks

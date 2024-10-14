@@ -1,0 +1,40 @@
+{
+	"description": {
+		"translate": "stellarity.items.trinkets.void_locket.enchantment.netherite",
+		"fallback": "Rage",
+		"color": "dark_red"
+	},
+	"supported_items": [
+		"minecraft:iron_nugget"
+	],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "stellarity:void_locket.sweeping",
+				"attribute": "minecraft:player.sweeping_damage_ratio",
+				"amount": 0.35,
+				"operation": "add_value"
+			},
+			{
+				"id": "stellarity:void_locket.damage",
+				"attribute": "minecraft:generic.attack_damage",
+				"amount": 2,
+				"operation": "add_value"
+			}
+		]
+	}
+}

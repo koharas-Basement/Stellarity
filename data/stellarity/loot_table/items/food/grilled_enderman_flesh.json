@@ -15,8 +15,8 @@
 									"stellarity.special_item": "grilled_enderman_flesh"
 								},
 								"minecraft:food": {
-									"nutrition": 8,
-									"saturation": 12.8,
+									"nutrition": 6,
+									"saturation": 9.6,
 									"can_always_eat": false,
 									"eat_seconds": 1.5,
 									"effects": []
@@ -30,7 +30,7 @@
 							"lore": [
 								[
 									{
-										"text": "8",
+										"text": "6",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -41,7 +41,7 @@
 									},
 									" ",
 									{
-										"text": "12.8",
+										"text": "9.6",
 										"color": "#EEEEEE",
 										"italic": false
 									},

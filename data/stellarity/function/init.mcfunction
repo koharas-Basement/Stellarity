@@ -177,6 +177,8 @@ scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
 scoreboard objectives add stellarity.mechanics.consecration.time dummy
 scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
+scoreboard objectives add stellarity.mechanics.cauldron_crafting.items_inside dummy
+scoreboard objectives add stellarity.mechanics.cauldron_crafting.breath_left dummy
 
 ## Misc
 # Temporar variables OR things that don't need its own variable

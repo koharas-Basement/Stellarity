@@ -28,19 +28,25 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.1",
-									"fallback": "Grants infinite flight",
+									"fallback": "Grants infinite flight but with",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.2",
-									"fallback": "with fairly limited agility",
+									"fallback": "limited speed and agility",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.3",
-									"fallback": "Sneak and look up/down to adjust height",
+									"fallback": "Look up or down while sneaking to",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.soaring_insignia.description.4",
+									"fallback": "ascend or descend respectively",
 									"color": "#EEEEEE",
 									"italic": false
 								},

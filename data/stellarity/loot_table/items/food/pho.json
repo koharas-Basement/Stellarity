@@ -13,16 +13,16 @@
 								"minecraft:custom_model_data": 90001,
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"pho\"}",
 								"minecraft:food": {
-									"nutrition": 10,
-									"saturation": 16,
+									"nutrition": 13,
+									"saturation": 20,
 									"can_always_eat": true,
 									"eat_seconds": 3.5,
 									"effects": [
 										{
 											"effect": {
 												"id": "minecraft:regeneration",
-												"duration": 560,
-												"ambient": false,
+												"duration": 640,
+												"ambient": true,
 												"show_particles": true,
 												"show_icon": true
 											}
@@ -30,8 +30,8 @@
 										{
 											"effect": {
 												"id": "minecraft:strength",
-												"duration": 2400,
-												"ambient": false,
+												"duration": 3000,
+												"ambient": true,
 												"show_particles": true,
 												"show_icon": true
 											}
@@ -39,8 +39,8 @@
 										{
 											"effect": {
 												"id": "minecraft:absorption",
-												"duration": 2400,
-												"ambient": false,
+												"duration": 3000,
+												"ambient": true,
 												"show_particles": true,
 												"show_icon": true
 											}
@@ -56,7 +56,7 @@
 							"lore": [
 								[
 									{
-										"text": "10",
+										"text": "13",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -67,7 +67,7 @@
 									},
 									" ",
 									{
-										"text": "16",
+										"text": "20",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -85,7 +85,7 @@
 									},
 									" ",
 									{
-										"text": "(2:00)",
+										"text": "(2:30)",
 										"color": "blue",
 										"italic": false
 									}
@@ -98,7 +98,7 @@
 									},
 									" ",
 									{
-										"text": "(2:00)",
+										"text": "(2:30)",
 										"color": "blue",
 										"italic": false
 									}
@@ -111,7 +111,7 @@
 									},
 									" ",
 									{
-										"text": "(0:28)",
+										"text": "(0:32)",
 										"color": "blue",
 										"italic": false
 									}

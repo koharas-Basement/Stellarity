@@ -14,7 +14,7 @@
 								"",
 								{
 									"translate": "stellarity.items.tools.hematic_pickaxe.description.1",
-									"fallback": "Can dig out extra loot",
+									"fallback": "Sometimes digs out extra loot",
 									"color": "#EEEEEE",
 									"italic": false
 								},

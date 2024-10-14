@@ -16,8 +16,8 @@
 			"minecraft:food": {
 				"nutrition": 5,
 				"saturation": 6,
-				"can_always_eat": true,
-				"eat_seconds": 1,
+				"can_always_eat": false,
+				"eat_seconds": 1.5,
 				"using_converts_to": {
 					"id": "minecraft:bread",
 					"components": {

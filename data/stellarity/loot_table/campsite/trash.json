@@ -105,22 +105,21 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:cornflower"
+					"name": "minecraft:pitcher_plant"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:lily_of_the_valley"
+					"name": "minecraft:torchflower"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:cobblestone"
+					"name": "minecraft:end_stone"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:poisonous_potato"
+					"name": "minecraft:popped_chorus_fruit"
 				}
 			]
 		}
-	],
-	"random_sequence": "minecraft:chests/shipwreck_supply"
+	]
 }

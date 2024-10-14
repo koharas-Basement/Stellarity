@@ -6,7 +6,7 @@ execute if entity @s[tag=stellarity.damage.example_cause] run tellraw @a {"trans
 execute if entity @s[tag=stellarity.damage.sharanga_explosion] run tellraw @a {"translate":"stellarity.death_messages.sharanga_explosion","fallback":"%1$s was torn apart by %2$s's Spectral Boom Boom","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:items/holding/sharanga]"}]}
 
 #> Starstruck Carcanet falling stars
-execute if entity @s[tag=stellarity.damage.carcanet] run function stellarity:utils/damage/death_messages/starstruck_carcanet
+execute if entity @s[tag=stellarity.damage.carcanet] run function stellarity:utils/damage/death_messages/starstruck_shield
 
 #> The Beginning and The End teleport slash
 execute if entity @s[tag=stellarity.damage.spirit_dagger] run function stellarity:utils/damage/death_messages/spirit_dagger
