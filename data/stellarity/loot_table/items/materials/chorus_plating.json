@@ -25,7 +25,7 @@
 								"",
 								{
 									"translate": "stellarity.items.materials.upgrade",
-									"fallback": "Used to upgrade Netherite Armor",
+									"fallback": "Used to reinforce Netherite Armor",
 									"color": "#EEEEEE",
 									"italic": false
 								},

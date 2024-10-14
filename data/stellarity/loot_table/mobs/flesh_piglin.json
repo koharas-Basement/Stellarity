@@ -50,8 +50,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:nether_wart",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

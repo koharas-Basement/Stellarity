@@ -9,57 +9,31 @@
 					"name": "minecraft:sweet_berries",
 					"functions": [
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.attack_damage",
-									"amount": 0.12,
-									"operation": "add_multiplied_base",
-									"slot": "hand"
-								},
-								{
-									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.movement_speed",
-									"amount": 0.1,
-									"operation": "add_multiplied_base",
-									"slot": "hand"
-								},
-								{
-									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.attack_speed",
-									"amount": 0.04,
-									"operation": "add_multiplied_base",
-									"slot": "hand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								"",
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.1",
 									"fallback": "Empowers your speed, sight",
-									"color": "#AB6AD1",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.2",
 									"fallback": "and strength while held",
-									"color": "#AB6AD1",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.3",
 									"fallback": "Consuming or planting might",
-									"color": "#AB6AD1",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.4",
 									"fallback": "have dire consequences",
-									"color": "#AB6AD1",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								" ",
@@ -80,20 +54,64 @@
 							"mode": "replace_all"
 						},
 						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "stellarity:duskberry",
+									"attribute": "minecraft:generic.attack_damage",
+									"amount": 0.12,
+									"operation": "add_multiplied_base",
+									"slot": "hand"
+								},
+								{
+									"id": "stellarity:duskberry",
+									"attribute": "minecraft:generic.movement_speed",
+									"amount": 0.1,
+									"operation": "add_multiplied_base",
+									"slot": "hand"
+								},
+								{
+									"id": "stellarity:duskberry",
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": 0.08,
+									"operation": "add_multiplied_base",
+									"slot": "hand"
+								},
+								{
+									"id": "stellarity:duskberry",
+									"attribute": "minecraft:player.sweeping_damage_ratio",
+									"amount": 0.1,
+									"operation": "add_value",
+									"slot": "hand"
+								},
+								{
+									"id": "stellarity:duskberry",
+									"attribute": "minecraft:generic.movement_efficiency",
+									"amount": 0.1,
+									"operation": "add_multiplied_total",
+									"slot": "hand"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:custom_model_data": 90000,
-								"minecraft:custom_data": {
-									"stellarity.special_item": "duskberry"
-								},
+								"minecraft:custom_data": {},
 								"minecraft:max_stack_size": 1,
 								"minecraft:attribute_modifiers": {
 									"modifiers": [],
 									"show_in_tooltip": false
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.duskberry\",\"fallback\": \"Duskberry\",\"color\": \"#8100CB\",\"italic\": false}",
-								"minecraft:rarity": "epic"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.duskberry\",\"fallback\": \"Duskberry\",\"color\": \"#AB6AD1\",\"italic\": false}",
+								"minecraft:rarity": "epic",
+								"minecraft:enchantments": {
+									"levels": {
+										"stellarity:void_locket/amethyst": 1
+									},
+									"show_in_tooltip": false
+								}
 							}
 						}
 					]

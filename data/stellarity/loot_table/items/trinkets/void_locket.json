@@ -11,8 +11,9 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_model_data": 90000,
-								"minecraft:custom_data": {},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.void_locket\",\"fallback\": \"Void Locket\",\"color\": \"#EEEEEE\",\"italic\": false}"
+								"minecraft:custom_data": {"stellarity.special_item":"void_locket","stellarity.void_locket_imbuement":"none"},
+								"rarity": "rare",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.void_locket\",\"fallback\": \"Void Locket\"}"
 							}
 						},
 						{
@@ -20,8 +21,14 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.trinkets.void_locket.description",
-									"fallback": "Can be imbued with any gem over the Altar of The Accursed",
+									"translate": "stellarity.items.trinkets.void_locket.description.1",
+									"fallback": "Can be imbued with any gem",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.void_locket.description.2",
+									"fallback": "on the Altar of The Accursed",
 									"color": "#EEEEEE",
 									"italic": false
 								},

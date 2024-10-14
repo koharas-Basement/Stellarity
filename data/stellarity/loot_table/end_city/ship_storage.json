@@ -3,30 +3,39 @@
 	"pools": [
 		{
 			"rolls": {
-				"type": "minecraft:binomial",
-				"n": 10,
-				"p": 0.6
+				"min": 11,
+				"max": 28
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:sugar"
+					"name": "minecraft:sugar",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:stick"
+					"name": "minecraft:paper",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:nether_wart"
+					"name": "minecraft:chorus_fruit",
+					"weight": 5
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:blaze_powder"
+					"name": "minecraft:ender_pearl",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_stone_bricks",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_rod",
+					"weight": 2
 				}
 			]
 		}

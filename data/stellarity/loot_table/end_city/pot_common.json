@@ -15,24 +15,12 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:ender_pearl",
-					"weight": 6,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": {
-									"min": 1,
-									"max": 2
-								}
-							}
-						}
-					]
+					"name": "minecraft:ender_eye",
+					"weight": 6
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:end_stone",
+					"name": "minecraft:gunpowder",
 					"weight": 8
 				},
 				{

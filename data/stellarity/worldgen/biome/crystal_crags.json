@@ -45,7 +45,12 @@
 		"water_ambient": [],
 		"misc": []
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"charge": 0.7,
+			"energy_budget": 1
+		}
+	},
 	"carvers": {},
 	"features": [
 		[

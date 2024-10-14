@@ -1,0 +1,29 @@
+{
+	"parent": "stellarity:events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:items/holding/trinkets/starstruck_shield"
+					}
+				],
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"distance": {
+							"absolute": {
+								"max": 7
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:items/starstruck_shield/hurt"
+	}
+}

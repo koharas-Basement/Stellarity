@@ -5,8 +5,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:emerald",
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/materials/enderite_shard",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -20,39 +20,36 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 4,
-				"max": 6
-			},
+			"rolls": 2,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:emerald_block"
+					"name": "minecraft:emerald_block",
+					"quality": 1
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:emerald",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:book"
+					"name": "minecraft:book",
+					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
 					"name": "minecraft:book",
+					"quality": 1,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -67,10 +64,7 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 3
-			},
+			"rolls": 1,
 			"bonus_rolls": 0,
 			"entries": [
 				{
@@ -243,8 +237,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:splash_potion",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_potion",
@@ -254,8 +248,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:splash_potion",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_potion",
@@ -264,23 +258,9 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:bread",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 11,
-					"name": "minecraft:pumpkin_pie",
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/food/chorus_pie",
+					"weight": 22,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -292,14 +272,29 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 8,
-					"name": "minecraft:golden_apple"
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/food/chorus_juice",
+					"weight": 7
 				},
 				{
-					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:enchanted_golden_apple"
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:enchanted_golden_apple",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.1
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:golden_apple",
+							"weight": 3
+						}
+					]
 				}
 			]
 		}
