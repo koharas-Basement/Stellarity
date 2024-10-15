@@ -12,20 +12,26 @@
 			"min_inclusive": 1,
 			"max_inclusive": 3
 		},
-		"replaceable": "#stellarity:_worldgen/single/grass_block",
+		"replaceable": "#stellarity:_worldgen/single/snow_block",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 6,
+					"weight": 12,
 					"data": {
-						"Name": "minecraft:rooted_dirt"
+						"Name": "minecraft:coarse_dirt"
 					}
 				},
 				{
-					"weight": 50,
+					"weight": 1,
 					"data": {
-						"Name": "minecraft:grass_block",
+						"Name": "minecraft:cobblestone"
+					}
+				},
+				{
+					"weight": 100,
+					"data": {
+						"Name": "minecraft:snow_block",
 						"Properties": {
 							"snowy": "false"
 						}

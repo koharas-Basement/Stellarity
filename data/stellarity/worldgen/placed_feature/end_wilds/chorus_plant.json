@@ -1,5 +1,5 @@
 {
-    "feature": "far_end:wilds/vegetation/chorus_plant",
+    "feature": "stellarity:end_wilds/chorus_plant",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
