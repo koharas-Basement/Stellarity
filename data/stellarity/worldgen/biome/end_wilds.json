@@ -70,9 +70,9 @@
 		[
 			"stellarity:end_wilds/single_tree",
 			"stellarity:end_wilds/baobab_forest",
-			"far_end:wilds/vegetation/chorus_plant",
+			"stellarity:end_wilds/chorus_plant",
 			"stellarity:end_wilds/grass",
-			"far_end:wilds/vegetation/patch_leaves"
+			"stellarity:end_wilds/large_bushes"
 		],
 		[
 			"stellarity:global/end_dungeon",

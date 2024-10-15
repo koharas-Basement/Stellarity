@@ -1,24 +1,18 @@
 {
-	"feature": "far_end:wilds/vegetation/patch_leaves",
+	"feature": "stellarity:frozen_shrubland/dirt",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 80
+			"count": 40
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 30,
+			"noise_to_count_ratio": 40,
 			"noise_factor": 100,
-			"noise_offset": 0.1
-		},
-		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 300,
-			"noise_factor": 30,
-			"noise_offset": -0.1
+			"noise_offset": -0.22
 		},
 		{
 			"type": "minecraft:height_range",
@@ -35,7 +29,6 @@
 		{
 			"type": "minecraft:environment_scan",
 			"direction_of_search": "down",
-			"max_steps": 6,
 			"target_condition": {
 				"type": "minecraft:solid"
 			},
@@ -44,7 +37,8 @@
 				"blocks": [
 					"minecraft:air"
 				]
-			}
+			},
+			"max_steps": 16
 		},
 		{
 			"type": "minecraft:biome"

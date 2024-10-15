@@ -12,7 +12,7 @@
             "min_inclusive": 0,
             "max_inclusive": 5
         },
-        "replaceable": "#stellarity:_worldgen/grass_block",
+        "replaceable": "#stellarity:_worldgen/single/grass_block",
         "ground_state": {
             "type": "minecraft:weighted_state_provider",
             "entries": [
