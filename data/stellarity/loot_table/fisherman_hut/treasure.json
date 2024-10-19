@@ -2,13 +2,13 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 5,
+				"max": 7
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_nugget",
+					"name": "minecraft:string",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -21,13 +21,60 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:gold_nugget",
+					"name": "minecraft:paper",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
 							}
 						}
 					]

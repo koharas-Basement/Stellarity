@@ -1,0 +1,67 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "stellarity:sky/end.png",
+	"blend": {
+		"type": "alpha"
+	},
+	"properties": {
+		"priority": 1,
+		"fade": {
+			"startFadeIn": 1000,
+			"endFadeIn": 2000,
+			"startFadeOut": 3000,
+			"endFadeOut": 4000,
+			"alwaysOn": true
+		},
+		"rotation": {
+			"rotationSpeedY": 0.866,
+			"static": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"axis": [
+				45.0,
+				-180.0,
+				45.0
+			]
+		},
+		"transitionInDuration": 60,
+		"transitionOutDuration": 60,
+		"changeFog": true,
+		"fogColors": {
+			"red": 0.05,
+			"green": 0,
+			"blue": 0.05,
+			"alpha": 1.0
+		},
+		"sunSkyTint": false,
+		"inThickFog": true,
+		"minAlpha": 0.0,
+		"maxAlpha": 1.0
+	},
+	"conditions": {
+		"worlds": [],
+		"dimensions": [
+			"minecraft:the_end"
+		],
+		"weather": [],
+		"biomes": [],
+		"xRanges": [],
+		"yRanges": [],
+		"zRanges": [],
+		"loop": {},
+		"effects": []
+	},
+	"decorations": {
+		"blend": {
+			"type": "decorations"
+		},
+		"sun": "minecraft:textures/environment/sun.png",
+		"moon": "minecraft:textures/environment/moon_phases.png",
+		"showSun": false,
+		"showMoon": false,
+		"showStars": true
+	}
+}

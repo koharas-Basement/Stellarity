@@ -1,0 +1,63 @@
+{
+	"feature": "stellarity:prismatic_dunes/prismatic_cacti",
+	"placement": [
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 40,
+			"noise_factor": 90,
+			"noise_offset": -0.22
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 170
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:end_stone",
+							"minecraft:diorite"
+						],
+						"offset": [
+							0,
+							1,
+							0
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air",
+							"minecraft:cave_air"
+						],
+						"offset": [
+							0,
+							0,
+							0
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

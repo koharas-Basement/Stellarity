@@ -16,7 +16,7 @@
 									"nutrition": 4,
 									"saturation": 2.4,
 									"can_always_eat": false,
-									"eat_seconds": 1.5,
+									"eat_seconds": 1,
 									"effects": []
 								},
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.sushi\",\"fallback\":\"Sushi\",\"color\":\"white\"}"

@@ -5,7 +5,7 @@ execute if data storage stellarity:temp {aots:{item:{components:{"minecraft:cust
 
 execute unless score #difficulty stellarity.misc matches 0 \
 	unless score #eol.is_alive stellarity.misc matches 1 \
-	if data storage stellarity:temp {aots:{item:{components:{"minecraft:custom_data":{stellarity.special_item:"pixie_dust"}}}}} run \
+	if data storage stellarity:temp {aots:{item:{components:{"minecraft:custom_data":{stellarity.special_item:"starlight_soot"}}}}} run \
 	function stellarity:mechanics/altar_of_light/spawn_empress
 
 execute if data storage stellarity:temp {aots:{item:{id:"minecraft:iron_ingot"}}} run \

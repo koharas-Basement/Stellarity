@@ -16,7 +16,7 @@
             "min_inclusive": 2,
             "max_inclusive": 5
         },
-        "replaceable": "#stellarity:_worldgen/end_stone",
+        "replaceable": "#stellarity:_worldgen/single/end_stone",
         "ground_state": {
             "type": "minecraft:weighted_state_provider",
             "entries": [

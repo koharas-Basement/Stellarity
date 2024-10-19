@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "stellarity:item/endermans_hand"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -0.5, -0.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -0.5, -0.25],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 0, -7.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

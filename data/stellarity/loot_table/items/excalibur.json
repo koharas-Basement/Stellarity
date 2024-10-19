@@ -1,0 +1,63 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.weapons.excalibur.description",
+									"fallback": "Holy energy will arc between targets",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "minecraft:base_attack_damage",
+									"attribute": "minecraft:generic.attack_damage",
+									"amount": 8,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"id": "minecraft:base_attack_speed",
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": -3.2,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"excalibur\"}",
+								"minecraft:custom_model_data": 90009,
+								"minecraft:rarity": "uncommon",
+								"minecraft:fire_resistant": {},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.excalibur\",\"fallback\": \"Excalibur\"}"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

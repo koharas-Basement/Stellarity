@@ -52,7 +52,12 @@
 			}
 		]
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:skeleton": {
+			"charge": 0.8,
+			"energy_budget": 1
+		}
+	},
 	"carvers": {
 		"air": [
 			 

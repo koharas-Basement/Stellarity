@@ -21,13 +21,6 @@
 									"effects": [
 										{
 											"effect": {
-												"id": "minecraft:nausea",
-												"duration": 840
-											},
-											"probability": 0.5
-										},
-										{
-											"effect": {
 												"id": "minecraft:hunger",
 												"amplifier": 840
 											},

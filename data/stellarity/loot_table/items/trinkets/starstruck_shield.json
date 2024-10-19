@@ -1,0 +1,70 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90003,
+								"minecraft:hide_additional_tooltip": {},
+								"minecraft:max_damage": 512,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "starstruck_shield"
+								},
+								"banner_patterns": [
+									{
+										"pattern": "gradient_up",
+										"color": "orange"
+									},
+									{
+										"pattern": "curly_border",
+										"color": "orange"
+									},
+									{
+										"pattern": "curly_border",
+										"color": "yellow"
+									},
+									{
+										"pattern": "rhombus",
+										"color": "orange"
+									},
+									{
+										"pattern": "rhombus",
+										"color": "yellow"
+									}
+								],
+								"rarity": "epic",
+								"minecraft:fire_resistant": {},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.starstruck_shield\",\"fallback\": \"Starstruck Shield\",\"color\": \"#FF76D0\",\"italic\": false}"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"mode": "replace_all",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.starstruck_shield.description.1",
+									"fallback": "Stars will fall after blocking damage",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

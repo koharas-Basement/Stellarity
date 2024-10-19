@@ -51,7 +51,16 @@
 		"water_ambient": [],
 		"misc": []
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"charge": 0.6,
+			"energy_budget": 1
+		},
+		"minecraft:skeleton": {
+			"charge": 0.6,
+			"energy_budget": 1
+		}
+	},
 	"carvers": {},
 	"features": [
 		[
@@ -69,7 +78,6 @@
 			"far_end:waste/chorus_plant"
 		],
 		[
-			"stellarity:small_end_islands/bricks_scattered",
 			"stellarity:global/end_dungeon",
 			"stellarity:global/fossil"
 		]

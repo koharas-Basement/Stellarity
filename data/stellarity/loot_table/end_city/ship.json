@@ -3,18 +3,32 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 5
+				"min": 4,
+				"max": 7
 			},
 			"bonus_rolls": 0,
 			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
 				{
 					"type": "minecraft:alternatives",
 					"children": [
 						{
 							"type": "minecraft:loot_table",
+							"value": "stellarity:items/materials/starlight_soot",
 							"weight": 5,
-							"value": "stellarity:items/materials/pixie_dust",
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -37,8 +51,8 @@
 						},
 						{
 							"type": "minecraft:item",
-							"weight": 5,
 							"name": "minecraft:glowstone_dust",
+							"weight": 5,
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -53,8 +67,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:potion",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_potion",
@@ -64,8 +78,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
 					"name": "minecraft:blaze_powder",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -78,8 +92,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
 					"name": "minecraft:nether_wart",
+					"weight": 4,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -92,8 +106,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
 					"name": "minecraft:potion",
+					"quality": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_potion",
@@ -108,8 +122,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:firework_rocket",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -123,8 +137,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
 					"name": "minecraft:ender_pearl",
+					"weight": 4,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -138,8 +152,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:phantom_membrane",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -153,8 +167,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:gunpowder",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -167,8 +181,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:paper",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

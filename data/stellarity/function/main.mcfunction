@@ -4,8 +4,8 @@ function stellarity:mobs/main
 function stellarity:sfx/main
 function stellarity:utils/main
 
-execute as @a at @s run function stellarity:loops/player_loop
-execute as @e[type=marker,tag=stellarity.marker] at @s run function stellarity:loops/marker_loop
+execute as @a at @s run function stellarity:loops/player/main
+execute as @e[type=marker,tag=stellarity.marker] at @s run function stellarity:loops/marker/main
 execute as @e[type=item,tag=stellarity.item] at @s run function stellarity:loops/item_loop
 
 # Some Minecraft change causes default Ender Dragon to spawn

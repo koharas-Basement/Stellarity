@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jigsaw",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "sand_rune"
+								},
+								"minecraft:rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.sand_rune\",\"fallback\": \"Sand Rune\"}"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

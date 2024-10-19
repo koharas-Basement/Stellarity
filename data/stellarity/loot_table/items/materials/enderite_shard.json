@@ -14,8 +14,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "enderite_shard"
 								},
-								"rarity": "epic",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.enderite_shard\",\"fallback\": \"Enderite Shard\",\"color\": \"light_purple\",\"italic\": false}"
+								"minecraft:rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.enderite_shard\",\"fallback\": \"Enderite Shard\"}"
 							}
 						},
 						{

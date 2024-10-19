@@ -12,7 +12,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.summon_empress.description",
-			"fallback": "Sacrifice Pixie Dust at the Altar of The Sacred"
+			"fallback": "Sacrifice Starlight Soot at the Altar of The Sacred"
 		},
 		"frame": "goal",
 		"show_toast": true,

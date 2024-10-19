@@ -8,6 +8,12 @@
 					"name": "minecraft:map",
 					"functions": [
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "rare"
+							}
+						},
+						{
 							"function": "minecraft:exploration_map",
 							"destination": "stellarity:exploration_map/end_city",
 							"decoration": "banner_purple",
@@ -20,7 +26,6 @@
 							"name": {
 								"translate": "stellarity.explorer_map.end_city",
 								"fallback": "End City Explorer Map",
-								"color": "light_purple",
 								"italic": false
 							}
 						},

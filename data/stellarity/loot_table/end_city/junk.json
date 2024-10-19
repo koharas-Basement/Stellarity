@@ -9,6 +9,25 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:magenta_dye",
 					"weight": 4,
 					"functions": [

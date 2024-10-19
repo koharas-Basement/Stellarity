@@ -17,6 +17,24 @@
 			]
 		},
 		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/materials/enderite_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		},
+		{
 			"rolls": {
 				"type": "minecraft:uniform",
 				"min": 2,
@@ -54,8 +72,7 @@
 					"type": "minecraft:loot_table",
 					"value": "stellarity:end_city/vault/normal/equipment"
 				}
-			],
-			"conditions": []
+			]
 		},
 		{
 			"rolls": 1,

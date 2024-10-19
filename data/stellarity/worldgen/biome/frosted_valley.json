@@ -49,11 +49,11 @@
 	},
 	"spawn_costs": {
 		"minecraft:enderman": {
-			"energy_budget": 0.15,
+			"energy_budget": 0.4,
 			"charge": 1
 		},
 		"minecraft:skeleton": {
-			"energy_budget": 0.15,
+			"energy_budget": 0.4,
 			"charge": 1
 		}
 	},
@@ -79,10 +79,10 @@
 		[],
 		[],
 		[],
+		[],
 		[
-//			"stellarity:frosted_valley/leaves"
-		],
-		[
+			"stellarity:global/end_dungeon",
+			"stellarity:global/fossil",
 			"stellarity:frozen_spikes/replace_dripstone/1",
 			"stellarity:frozen_spikes/replace_dripstone/2",
 			"stellarity:frozen_spikes/replace_dripstone/3",

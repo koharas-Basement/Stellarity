@@ -1,0 +1,53 @@
+{
+	"feature": "stellarity:end_wilds/large_bushes",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 80
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 30,
+			"noise_factor": 100,
+			"noise_offset": 0.1
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 300,
+			"noise_factor": 30,
+			"noise_offset": -0.1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 6,
+			"target_condition": {
+				"type": "minecraft:solid"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"blocks": [
+					"minecraft:air"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

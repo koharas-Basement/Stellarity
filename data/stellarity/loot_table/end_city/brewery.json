@@ -10,23 +10,28 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:sugar"
+					"name": "minecraft:ghast_tear",
+					"weight": 4
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:stick"
+					"name": "minecraft:sugar",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:nether_wart"
+					"name": "minecraft:stick",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:blaze_powder"
+					"name": "minecraft:nether_wart",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_powder",
+					"weight": 2
 				}
 			]
 		}

@@ -24,13 +24,6 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.materials.upgrade",
-									"fallback": "Used to upgrade Netherite Armor",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true

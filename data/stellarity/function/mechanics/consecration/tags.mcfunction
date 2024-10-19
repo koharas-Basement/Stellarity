@@ -1,5 +1,12 @@
+# Is this inefficient? Yes
+# Could it be better? Absolutely
+
 data modify storage stellarity:temp consecration.nbt set from entity @s Item
 data remove storage stellarity:temp consecration.item_tag
+
+#
+# START
+#
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:golden_carrot"}}} \
 	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
@@ -107,11 +114,8 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripp
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_mangrove_wood"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
 
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_block"}}} run \
-	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.iron_block"
-
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:turtle_egg"}}} run \
-	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.turtle_egg"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_ingot"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.iron_ingot"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:apple"}}} \
 	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
@@ -214,6 +218,10 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.cat"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_disc_5"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.5"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_disc_creator"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.creator"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:music_disc_creator_music_box"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.music_disc.creator_music_box"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sand"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sand"
@@ -270,6 +278,55 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_l
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_boots"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.iron_armor.boots"
 
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stone"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stone"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:deepslate"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.deepslate"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:blackstone"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.blackstone"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:fire_charge"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.fire_charge"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:wind_charge"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.wind_charge"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:rotten_flesh"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.rotten_flesh"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:feather"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.feather"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:turtle_scute"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.turtle_scute"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:armadillo_scute"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.armadillo_scute"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sticky_piston"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sticky_piston"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dispenser"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.dispenser"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ominous_trial_key"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.ominous_trial_key"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ominous_trial_key","components":{"minecraft:custom_data":{stellarity.special_item:"gilded_purpur_key"}}}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.gilded_purpur_key"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sculk_catalyst"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sculk_catalyst"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sculk_shrieker"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sculk_shrieker"
+
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ochre_froglight"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.ochre_froglight"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:verdant_froglight"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.verdant_froglight"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:pearlescent_froglight"}}} run \
+	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.pearlescent_froglight"
+
+#
+# END
+#
 
 data modify storage stellarity:temp consecration.valid set value 0b
 execute if data storage stellarity:temp consecration.item_tag run data modify storage stellarity:temp consecration.valid set value 1b

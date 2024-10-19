@@ -65,7 +65,7 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.1",
-									"fallback": "Blocking damage adds extra force",
+									"fallback": "Blocking damage adds extra damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},

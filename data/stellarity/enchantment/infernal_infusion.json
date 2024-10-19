@@ -33,7 +33,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:enchantments/infernal_infusion/apply_prismatic_inferno"
+					"function": "stellarity:mechanics/enchantments/infernal_infusion/apply_prismatic_inferno"
 				},
 				"requirements": {
 					"condition": "minecraft:damage_source_properties",

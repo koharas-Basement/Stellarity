@@ -3,7 +3,7 @@
 		"": [
 			{
 				"model": "minecraft:block/purpur_block",
-				"weight": 22
+				"weight": 50
 			},
 			{
 				"model": "stellarity:block/purpur_block_alt1",

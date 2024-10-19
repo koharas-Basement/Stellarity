@@ -7,56 +7,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:diamond",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:iron_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:gold_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:emerald",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -64,6 +16,54 @@
 								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}
@@ -96,42 +96,42 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:gold_nugget",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 5
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_nugget",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 5
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 2,
-					"name": "minecraft:lapis_lazuli",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 4
+								"min": 5,
+								"max": 11
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_nugget",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 11
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8
 							}
 						}
 					]

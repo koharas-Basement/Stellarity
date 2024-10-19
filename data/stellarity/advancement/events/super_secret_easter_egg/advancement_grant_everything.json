@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:utils/advancements/grant_everything_easter_egg"
+		"function": "stellarity:grant_everything_easter_egg"
 	}
 }
