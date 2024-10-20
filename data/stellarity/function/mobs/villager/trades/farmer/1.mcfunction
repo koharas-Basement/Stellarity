@@ -17,6 +17,6 @@ execute if score #trade stellarity.misc matches 4 run \
     function stellarity:mobs/villager/trade_editor/add_enderite_buy {max_uses:10,price_multiplier:0.05,buy_a_id:"beetroot",buy_a_count:20,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:2}
 
 # Second Trade
-function stellarity:mobs/villager/trade_editor/add_enderite_sell {max_uses:12,price_multiplier:0.05,sell:"bread",buy_a_count:1,buy_b_id:"air",buy_b_count:1,sell_count:6,xp:2}
+function stellarity:mobs/villager/trade_editor/add_enderite_sell {max_uses:12,price_multiplier:0.05,buy_a_count:1,buy_b_id:"air",buy_b_count:1,sell:"bread",sell_count:6,xp:2}
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades

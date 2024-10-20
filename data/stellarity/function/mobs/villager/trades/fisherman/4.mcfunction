@@ -8,6 +8,6 @@ data remove storage stellarity:temp villager_trades[-1]
 
 
 # Second Trade
-
+# Think of more second trades!
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades
