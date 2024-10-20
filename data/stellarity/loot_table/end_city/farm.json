@@ -10,28 +10,31 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:beetroot_seeds"
+					"name": "minecraft:beetroot_seeds",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:wheat_seeds"
+					"name": "minecraft:wheat_seeds",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:melon_seeds"
+					"name": "minecraft:melon_seeds",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:pumpkin_seeds"
+					"name": "minecraft:pumpkin_seeds",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
 					"name": "minecraft:torchflower_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pitcher_pod"
 				}
 			]
 		}

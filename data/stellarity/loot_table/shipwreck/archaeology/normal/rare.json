@@ -1,1 +1,35 @@
-{}
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skull_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prize_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:explorer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:friend_pottery_sherd"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/materials/enderite_smithing_template"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/music_disc/fires_of_hokkai"
+				}
+			]
+		}
+	]
+}

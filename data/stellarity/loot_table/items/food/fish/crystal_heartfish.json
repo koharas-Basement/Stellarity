@@ -16,7 +16,7 @@
 									"stellarity.special_item": "crystal_heartfish"
 								},
 								"rarity": "epic",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.crystal_heartfish\",\"fallback\":\"Crystal Hearfish\",\"color\":\"light_purple\"}",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.crystal_heartfish\",\"fallback\":\"Crystal Hearfish\"}",
 								"food": {
 									"nutrition": 0,
 									"saturation": 0,

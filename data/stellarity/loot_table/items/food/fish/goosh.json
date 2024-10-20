@@ -1,0 +1,56 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 011010010110010001101011,
+                                "minecraft:custom_data": {},
+                                "minecraft:item_name": "{\"translate\":\"stellarity.items.fish.goosh\",\"fallback\":\"Goosh\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                "",
+                                {
+                                    "translate": "stellarity.items.food.fish.goosh.description.1",
+                                    "fallback": "Can be used in place of",
+                                    "color": "#EEEEEE",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "stellarity.items.food.dish.goosh.description.2",
+                                    "fallback": "Slime Balls in recipes",
+                                    "color": "#EEEEEE",
+                                    "italic": false
+                                },
+                                "",
+                                {
+                                    "translate": "stellarity.items.food.fish.goosh.flavor_text",
+                                    "fallback": "'Yuck...'",
+                                    "color": "#EEEEEE",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "translate": "Stellarity",
+                                    "color": "#CC26FF",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

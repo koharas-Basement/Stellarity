@@ -28,9 +28,16 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:sandstone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:terracotta"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/materials/enderite_shard"
 				}
 			]
 		}
-	],
-	"random_sequence": "minecraft:archaeology/ocean_ruin_warm"
+	]
 }

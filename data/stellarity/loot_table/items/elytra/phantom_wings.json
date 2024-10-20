@@ -14,19 +14,7 @@
 								"",
 								{
 									"translate": "stellarity.items.elytra.phantom_wings.description.1",
-									"fallback": "Wings of this large Phantom",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.elytra.phantom_wings.description.2",
-									"fallback": "make up for a swift pair of Elytras,",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.elytra.phantom_wings.description.3",
-									"fallback": "though they leave a lot to wish for...",
+									"fallback": "They leave a lot to wish for...",
 									"color": "#EEEEEE",
 									"italic": false
 								},

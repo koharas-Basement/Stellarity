@@ -3,8 +3,8 @@ function stellarity:items/spellbooks/main
 # Prismatic Punch
 execute if entity @s[tag=stellarity.prismatic_blast] run function stellarity:items/prismatic_punch/blast_loop
 
-# Starstruck Carcanet
-execute if entity @s[tag=stellarity.carcanet.star] run function stellarity:items/starstruck_carcanet/star_loop
+# Starstruck Shield
+execute if entity @s[tag=stellarity.starstruck_shield.star] run function stellarity:items/starstruck_shield/star_loop
 
 # Prismember
 execute if entity @s[tag=stellarity.prismember] run function stellarity:items/prismember/spin/animation/main
@@ -21,4 +21,5 @@ execute if entity @s[tag=stellarity.star] run function stellarity:items/stellar_
 # Pandora's Barrel
 execute if entity @s[tag=stellarity.pandoras_barrel] run function stellarity:items/pandoras_barrel/animation/main
 
+# Phantom Item Frame
 execute if entity @s[tag=stellarity.phantom_item_frame] run function stellarity:items/phantom_item_frame/main_marker

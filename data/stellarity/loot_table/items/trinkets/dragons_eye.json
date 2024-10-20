@@ -26,7 +26,7 @@
 								},
 								{
 									"translate": "stellarity.items.trinkets.dragons_eye.description.3",
-									"fallback": "These effects work only while held",
+									"fallback": "Works only while held",
 									"color": "#EEEEEE",
 									"italic": false
 								},

@@ -1,7 +1,7 @@
 {
 	"values": [
 		"#terracotta",
-		"#stellarity:_worldgen/end_stone",
+		"#stellarity:_worldgen/single/end_stone",
 		"#base_stone_nether",
 		"#base_stone_overworld",
 		"dirt",

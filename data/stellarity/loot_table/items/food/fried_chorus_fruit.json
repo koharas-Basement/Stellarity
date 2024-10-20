@@ -14,8 +14,8 @@
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"fried_chorus_fruit\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.fried_chorus_fruit\",\"fallback\":\"Fried Chorus Fruit\",\"color\":\"white\"}",
 								"minecraft:food": {
-									"nutrition": 8,
-									"saturation": 12.8,
+									"nutrition": 7,
+									"saturation": 11.2,
 									"can_always_eat": true,
 									"eat_seconds": 1.5,
 									"effects": []
@@ -28,7 +28,7 @@
 							"lore": [
 								[
 									{
-										"text": "8",
+										"text": "7",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -39,7 +39,7 @@
 									},
 									" ",
 									{
-										"text": "12.8",
+										"text": "11.2",
 										"color": "#EEEEEE",
 										"italic": false
 									},

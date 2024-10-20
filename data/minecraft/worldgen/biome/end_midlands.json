@@ -28,32 +28,37 @@
 			{
 				"type": "minecraft:enderman",
 				"weight": 10,
-				"minCount": 3,
-				"maxCount": 3
+				"minCount": 4,
+				"maxCount": 4
 			}
 		]
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"charge": 0.8,
+			"energy_budget": 1
+		}
+	},
 	"carvers": {},
 	"features": [
 		[
 			"stellarity:global/stalactite"
 		],
 		[
-			"stellarity:midlands/obsidian",
-			"stellarity:midlands/rocks"
+			"stellarity:end_midlands/obsidian_spike",
+			"stellarity:end_midlands/rocks"
 		],
 		[],
 		[],
 		[],
 		[
-			"stellarity:midlands/patches"
+			"stellarity:end_midlands/vegetation"
 		],
 		[],
 		[],
 		[],
 		[
-			"stellarity:midlands/chorus_plant"
+			"stellarity:end_midlands/chorus_plant"
 		],
 		[
 			"stellarity:global/end_dungeon",

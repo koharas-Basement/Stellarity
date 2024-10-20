@@ -19,14 +19,14 @@
 									"custom_effects": [
 										{
 											"id": "minecraft:speed",
-											"duration": 1500,
+											"duration": 1000,
 											"ambient": false,
 											"show_particles": true,
 											"show_icon": true
 										},
 										{
 											"id": "minecraft:jump_boost",
-											"duration": 1500,
+											"duration": 1000,
 											"ambient": false,
 											"show_particles": true,
 											"show_icon": true

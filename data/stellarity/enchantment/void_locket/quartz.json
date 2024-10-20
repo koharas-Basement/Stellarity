@@ -1,0 +1,46 @@
+{
+	"description": {
+		"translate": "stellarity.items.trinkets.void_locket.enchantment.quartz",
+		"fallback": "Agility",
+		"color": "white"
+	},
+	"supported_items": [
+		"minecraft:iron_nugget"
+	],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"hand"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "stellarity:void_locket.movement_speed",
+				"attribute": "minecraft:generic.movement_speed",
+				"amount": 0.04,
+				"operation": "add_multiplied_total"
+			},
+			{
+				"id": "stellarity:void_locket.movement_speed",
+				"attribute": "minecraft:generic.jump_strength",
+				"amount": 0.04,
+				"operation": "add_multiplied_total"
+			},
+			{
+				"id": "stellarity:void_locket.movement_eff",
+				"attribute": "minecraft:generic.movement_efficiency",
+				"amount": 0.4,
+				"operation": "add_value"
+			}
+		]
+	}
+}
