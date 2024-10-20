@@ -26,7 +26,7 @@
                                 },
                                 {
                                     "translate": "stellarity.items.trinkets.tackle_bag.description.2",
-                                    "fallback": "with a diminishing effect",
+                                    "fallback": "Same trinkets won't stack in power",
                                     "color": "#EEEEEE",
                                     "italic": false
                                 },
