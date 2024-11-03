@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "stellarity:particles",
+		"particle": "stellarity:particles"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#missing"},
+				"down": {"uv": [8, 0, 0, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0, 0, 7.99],
+			"to": [16, 16, 7.99],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#0"},
+				"east": {"uv": [8, 0, 0, 0], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [4, 4, 8, 8], "texture": "#0"},
+				"west": {"uv": [8, 0, 0, 0], "rotation": 270, "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing"}
+			}
+		}
+	]
+}
