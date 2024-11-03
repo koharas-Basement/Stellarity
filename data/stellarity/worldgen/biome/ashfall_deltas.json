@@ -41,7 +41,12 @@
 			}
 		]
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"skeleton": {
+			"charge": 1,
+			"energy_budget": 0.75
+		}
+	},
 	"carvers": {},
 	"features": [
 		[

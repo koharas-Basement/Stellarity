@@ -1,19 +1,19 @@
 {
 	"parent": "stellarity:events/root",
 	"criteria": {
-		"get_hit_by_enderman": {
+		"get_hit_by_endermite": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
 				"damage": {
-					"blocked": false,
 					"source_entity": {
-						"type": "minecraft:enderman"
+						"type": "minecraft:zombie",
+						"nbt": "{Tags:[\"stellarity.buffed\"]}"
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "stellarity:mobs/enderman/no_shield"
+		"function": "stellarity:mobs/voided_zombie/attack"
 	}
 }
