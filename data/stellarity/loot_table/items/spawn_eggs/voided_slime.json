@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_dragon_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.spawn_eggs.voided_slime\",\"fallback\":\"Voided Slime Spawn Egg\"}",
+								"minecraft:entity_data": {
+									"id": "minecraft:marker",
+									"Tags": ["stellarity.spawn_egg"],
+									"data": {"mob":"voided_slime"}
+								},
+								"rarity": "common"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

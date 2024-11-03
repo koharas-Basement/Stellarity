@@ -35,15 +35,21 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 20,
+				"weight": 60,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:skeleton",
-				"weight": 10,
+				"weight": 40,
 				"minCount": 4,
 				"maxCount": 4
+			},
+			{
+				"type": "minecraft:silverfish",
+				"weight": 10,
+				"minCount": 2,
+				"maxCount": 2
 			}
 		]
 	},
@@ -54,6 +60,10 @@
 		},
 		"minecraft:skeleton": {
 			"energy_budget": 0.4,
+			"charge": 1
+		},
+		"minecraft:silverfish": {
+			"energy_budget": 0.5,
 			"charge": 1
 		}
 	},
