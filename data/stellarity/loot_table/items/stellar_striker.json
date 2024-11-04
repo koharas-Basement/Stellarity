@@ -74,7 +74,7 @@
 								{
 									"id": "stellarity:weapon_reach",
 									"attribute": "minecraft:player.entity_interaction_range",
-									"amount": 0.5,
+									"amount": 0.3,
 									"operation": "add_value",
 									"slot": "mainhand"
 								}
