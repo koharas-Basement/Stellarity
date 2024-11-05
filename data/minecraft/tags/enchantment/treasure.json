@@ -1,6 +1,7 @@
 {
 	"values": [
 		"stellarity:void_strike",
-		"stellarity:void_shot"
+		"stellarity:void_shot",
+		"stellarity:critical_strike"
 	]
 }

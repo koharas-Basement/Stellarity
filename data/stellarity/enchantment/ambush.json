@@ -1,0 +1,49 @@
+{
+    "description": {
+      "translate": "enchantment.stellarity.ambush",
+      "fallback": "Ambush"
+    },
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "primary_items": "#minecraft:enchantable/sword",
+    "weight": 5,
+    "max_level": 3,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 17
+    },
+    "max_cost": {
+      "base": 28,
+      "per_level_above_first": 17
+    },
+    "anvil_cost": 2,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 2,
+              "per_level_above_first": 1.5
+            }
+          },
+          "requirements": {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "targeted_entity": {
+                  "type": "minecraft:player"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }  
