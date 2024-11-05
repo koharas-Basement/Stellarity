@@ -88,6 +88,13 @@
 									"operation": "add_value",
 									"id": "minecraft:base_attack_speed",
 									"slot": "mainhand"
+								},
+								{
+									"id": "stellarity:weapon_reach",
+									"attribute": "minecraft:player.entity_interaction_range",
+									"amount": -0.3,
+									"operation": "add_value",
+									"slot": "mainhand"
 								}
 							]
 						},
@@ -194,6 +201,13 @@
 									"amount": -2,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_speed",
+									"slot": "mainhand"
+								},
+								{
+									"id": "stellarity:weapon_reach",
+									"attribute": "minecraft:player.entity_interaction_range",
+									"amount": -0.3,
+									"operation": "add_value",
 									"slot": "mainhand"
 								}
 							]
