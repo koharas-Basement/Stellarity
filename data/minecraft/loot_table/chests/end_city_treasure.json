@@ -1,418 +1,424 @@
 {
 	"type": "minecraft:chest",
 	"pools": [
-		{
-			"rolls": {
-				"min": 0,
-				"max": 2
-			},
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:diamond"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 12,
-					"name": "minecraft:iron_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 9,
-					"name": "minecraft:gold_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 7,
-					"name": "minecraft:emerald",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				}
-			]
+	  {
+		"rolls": {
+		  "min": 0,
+		  "max": 2
 		},
-		{
-			"rolls": {
-				"min": -1,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_sword"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_boots",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "stellarity:end_city_armor_trim"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_chestplate",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "stellarity:end_city_armor_trim"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_leggings",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "stellarity:end_city_armor_trim"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_helmet",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "stellarity:end_city_armor_trim"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_pickaxe"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_shovel"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_hoe"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_axe"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond_horse_armor"
-				}
-			],
+		"bonus_rolls": 0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond",
+			"quality": 1
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:iron_ingot",
+			"weight": 12,
 			"functions": [
-				{
-					"function": "minecraft:enchant_with_levels",
-					"levels": {
-						"type": "minecraft:uniform",
-						"min": 25,
-						"max": 35
-					},
-					"options": "#minecraft:on_random_loot"
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 2
 				},
-				{
-					"function": "minecraft:set_damage",
-					"damage": {
-						"min": 0.57,
-						"max": 0.94
-					},
-					"add": false,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.66
-						}
-					]
-				}
+				"add": false
+			  }
 			]
-		},
-		{
-			"rolls": 2,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:purpur_block",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:gold_ingot",
+			"weight": 9,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 2
 				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:end_stone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:alternatives",
-					"children": [
-						{
-							"type": "minecraft:item",
-							"weight": 3,
-							"name": "minecraft:crying_obsidian",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.33333
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 3,
-							"name": "minecraft:obsidian",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							]
-						}
-					]
-				}
+				"add": false
+			  }
 			]
-		},
-		{
-			"rolls": 3,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:end_crystal"
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:emerald",
+			"weight": 7,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
 				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:ender_pearl",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:amethyst_shard",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:shulker_shell",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:phantom_membrane",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:chorus_fruit",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"quality": 1,
-					"name": "minecraft:book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 25,
-								"max": 35
-							},
-							"options": "#minecraft:on_random_loot"
-						}
-					]
-				},
-				{
-					"type": "minecraft:empty",
-					"weight": 3
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:ender_eye",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
-				}
+				"add": false
+			  }
 			]
+		  }
+		]
+	  },
+	  {
+		"rolls": {
+		  "min": -1,
+		  "max": 1
 		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:empty",
-					"weight": 5
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:spire_armor_trim_smithing_template"
-				}
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_sword",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_boots",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:reference",
+				"name": "stellarity:end_city_armor_trim"
+			  }
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/chorus_dagger"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/the_beginning_and_the_end"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/starless_scythe"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/spellbooks/jinx"
-				}
-			],
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_chestplate",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:reference",
+				"name": "stellarity:end_city_armor_trim"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_leggings",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:reference",
+				"name": "stellarity:end_city_armor_trim"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_helmet",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:reference",
+				"name": "stellarity:end_city_armor_trim"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_pickaxe",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_shovel",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_hoe",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_axe",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_horse_armor"
+		  }
+		],
+		"functions": [
+		  {
+			"function": "minecraft:enchant_with_levels",
+			"levels": {
+			  "type": "minecraft:uniform",
+			  "min": 25,
+			  "max": 35
+			},
+			"options": "#minecraft:on_random_loot"
+		  },
+		  {
+			"function": "minecraft:set_damage",
+			"damage": {
+			  "min": 0.57,
+			  "max": 0.94
+			},
+			"add": false,
 			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.15
-				}
+			  {
+				"condition": "minecraft:random_chance",
+				"chance": 0.66
+			  }
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:empty",
-					"weight": 9
+		  }
+		]
+	  },
+	  {
+		"rolls": 2,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:purpur_block",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
 				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_smithing_template"
-				}
+				"add": false
+			  }
 			]
-		}
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:end_stone",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 3
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:alternatives",
+			"children": [
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:crying_obsidian",
+				"weight": 3,
+				"functions": [
+				  {
+					"function": "minecraft:set_count",
+					"count": {
+					  "min": 2,
+					  "max": 4
+					}
+				  }
+				],
+				"conditions": [
+				  {
+					"condition": "minecraft:random_chance",
+					"chance": 0.33333
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:item",
+				"name": "minecraft:obsidian",
+				"weight": 3,
+				"functions": [
+				  {
+					"function": "minecraft:set_count",
+					"count": {
+					  "min": 2,
+					  "max": 4
+					}
+				  }
+				]
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"rolls": 3,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:end_crystal",
+			"weight": 5
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:ender_pearl",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:amethyst_shard",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:shulker_shell",
+			"weight": 4,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:phantom_membrane",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:chorus_fruit",
+			"weight": 6,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				},
+				"add": false
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"weight": 1,
+			"quality": 1,
+			"functions": [
+			  {
+				"function": "minecraft:enchant_with_levels",
+				"levels": {
+				  "min": 25,
+				  "max": 35
+				},
+				"options": "#minecraft:on_random_loot"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:empty",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:ender_eye",
+			"weight": 3,
+			"functions": [
+			  {
+				"function": "minecraft:set_count",
+				"count": {
+				  "min": 1,
+				  "max": 2
+				}
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:empty",
+			"weight": 5
+		  },
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:spire_armor_trim_smithing_template"
+		  }
+		]
+	  },
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"functions": [
+			  {
+				"function": "minecraft:enchant_randomly",
+				"options": "stellarity:critical_strike"
+			  }
+			]
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "stellarity:items/the_beginning_and_the_end"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "stellarity:items/starless_scythe"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "stellarity:items/spellbooks/jinx"
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "minecraft:random_chance",
+			"chance": 0.15
+		  }
+		]
+	  },
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:empty",
+			"weight": 9
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "stellarity:items/materials/enderite_smithing_template"
+		  }
+		]
+	  }
 	]
-}
+  }  
