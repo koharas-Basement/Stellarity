@@ -180,6 +180,9 @@ scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
 scoreboard objectives add stellarity.mechanics.cauldron_crafting.items_inside dummy
 scoreboard objectives add stellarity.mechanics.cauldron_crafting.breath_left dummy
 
+## Enchantments
+scoreboard objectives add stellarity.enchantments.critical_strike.can_crit dummy
+
 ## Misc
 # Temporar variables OR things that don't need its own variable
 scoreboard objectives add stellarity.misc dummy
