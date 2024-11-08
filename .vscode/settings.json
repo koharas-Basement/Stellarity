@@ -2,5 +2,6 @@
 	"workbench.iconTheme": "mc-dp-icons",
 	"[mcfunction]": {
 		"editor.inlayHints.enabled": "off"
-	}
+	},
+	"keyboard.layout": "com.apple.keylayout.German"
 }
