@@ -48,7 +48,9 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_data": "something",
+								"minecraft:custom_data": {
+									"stellarity.special_item": "sandstorm_trident"
+								},
 								"minecraft:custom_model_data": 90000,
 								"minecraft:fire_resistant": {},
 								"minecraft:unbreakable": {

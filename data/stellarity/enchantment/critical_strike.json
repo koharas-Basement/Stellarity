@@ -1,0 +1,52 @@
+{
+  "description": {
+    "translate": "enchantment.stellarity.critical_strike",
+    "fallback": "Critical Strike"
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 10,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "stellarity:enchantments/crit_strike"
+            }
+          ]
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:random_chance_with_enchanted_bonus",
+            "enchantment": "stellarity:critical_strike",
+            "unenchanted_chance": 0,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.1,
+              "per_level_above_first": 0.1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

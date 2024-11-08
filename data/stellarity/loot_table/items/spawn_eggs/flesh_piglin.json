@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:hoglin_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.spawn_eggs.flesh_piglin\",\"fallback\":\"Flesh Piglin Spawn Egg\"}",
+								"minecraft:entity_data": {
+									"id": "minecraft:marker",
+									"Tags": ["stellarity.spawn_egg"],
+									"data": {"mob":"flesh_piglin"}
+								},
+								"rarity": "common"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

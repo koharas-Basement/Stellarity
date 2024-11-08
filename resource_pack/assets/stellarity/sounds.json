@@ -67,6 +67,14 @@
 			}
 		]
 	},
+	"item.starstruck_shield.spawn_star":{
+		"sounds":[
+			{
+				"name":"stellarity:item/starstruck_shield/summon_star",
+				"volume": 1
+			}
+		]
+	},
 	"item.living_flesh.boost":{
 		"sounds":[
 			"stellarity:item/living_flesh/rush_1",

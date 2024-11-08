@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biomes": "far_end:amethyst_forest"
+		"biomes": "stellarity:amethyst_forest"
 	}
 }

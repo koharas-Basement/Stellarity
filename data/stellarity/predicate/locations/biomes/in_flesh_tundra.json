@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biomes": "far_end:flesh_tundra"
+		"biomes": "stellarity:flesh_tundra"
 	}
 }
