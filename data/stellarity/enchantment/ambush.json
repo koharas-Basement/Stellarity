@@ -31,17 +31,53 @@
 					}
 				},
 				"requirements": {
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"targeted_entity": {
-								"type": "minecraft:player"
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{NoAI:1b}"
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:player"
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "#kohara:invalid_targets"
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"targeted_entity": {
+										"type": "minecraft:player"
+									}
+								}
 							}
 						}
-					}
+					]
 				}
+				
 			}
 		],
 		"minecraft:post_attack": [
@@ -221,28 +257,55 @@
 								"base": 0
 							},
 							"speed": 0.2
-						},
-						{
-							"type": "minecraft:play_sound",
-							"sound": {
-								"sound_id": "stellarity:enchantment.ambush.level_1"
-							},
-							"volume": 0.75,
-							"pitch": 1
 						}
 					]
 				},
 				"requirements": {
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"targeted_entity": {
-								"type": "minecraft:player"
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{NoAI:1b}"
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:player"
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "#kohara:invalid_targets"
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"targeted_entity": {
+										"type": "minecraft:player"
+									}
+								}
 							}
 						}
-					}
+					]
 				}
 			},
 			{
@@ -257,16 +320,68 @@
 					"pitch": 1
 				},
 				"requirements": {
-					"condition": "minecraft:value_check",
-					"value": {
-						"type": "minecraft:enchantment_level",
-						"amount": {
-							"type": "minecraft:linear",
-							"base": 1,
-							"per_level_above_first": 1
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{NoAI:1b}"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "minecraft:player"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "#kohara:invalid_targets"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"targeted_entity": {
+												"type": "minecraft:player"
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:enchantment_level",
+								"amount": {
+									"type": "minecraft:linear",
+									"base": 1,
+									"per_level_above_first": 1
+								}
+							},
+							"range": 1
 						}
-					},
-					"range": 1
+					]
 				}
 			},
 			{
@@ -281,16 +396,68 @@
 					"pitch": 1
 				},
 				"requirements": {
-					"condition": "minecraft:value_check",
-					"value": {
-						"type": "minecraft:enchantment_level",
-						"amount": {
-							"type": "minecraft:linear",
-							"base": 1,
-							"per_level_above_first": 1
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{NoAI:1b}"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "minecraft:player"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "#kohara:invalid_targets"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"targeted_entity": {
+												"type": "minecraft:player"
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:enchantment_level",
+								"amount": {
+									"type": "minecraft:linear",
+									"base": 1,
+									"per_level_above_first": 1
+								}
+							},
+							"range": 2
 						}
-					},
-					"range": 2
+					]
 				}
 			},
 			{
@@ -305,18 +472,70 @@
 					"pitch": 1
 				},
 				"requirements": {
-					"condition": "minecraft:value_check",
-					"value": {
-						"type": "minecraft:enchantment_level",
-						"amount": {
-							"type": "minecraft:linear",
-							"base": 1,
-							"per_level_above_first": 1
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{NoAI:1b}"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "minecraft:player"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "#kohara:invalid_targets"
+										}
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"targeted_entity": {
+												"type": "minecraft:player"
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:enchantment_level",
+								"amount": {
+									"type": "minecraft:linear",
+									"base": 1,
+									"per_level_above_first": 1
+								}
+							},
+							"range": {
+								"min": 3
+							}
 						}
-					},
-					"range": {
-						"min": 3
-					}
+					]
 				}
 			}
 		]
