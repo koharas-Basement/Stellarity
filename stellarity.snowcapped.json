@@ -196,7 +196,7 @@
 			"name": "Highlands",
 			"array": [
 				[
-					"biome_m17zkf14/biome_lzllxejs",
+					"biome_m17zkf14",
 					"biome_m17zkf14",
 					"biome_m17zkf14",
 					"biome_m17zkf14/biome_lzllxejs",
@@ -207,38 +207,6 @@
 					"biome_lcwbgvyx",
 					"biome_lcwbgvyx",
 					"biome_lcwbgvyx",
-					"biome_lcwbl8lk",
-					"biome_lcwbl8lk",
-					"biome_lcwbl8lk"
-				],
-				[
-					"biome_lzlnnkbb",
-					"biome_lzlnnkbb",
-					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"biome_lcwbgvyx",
-					"biome_lcwbgvyx",
-					"biome_lcwbl8lk",
-					"biome_lcwbl8lk",
-					"biome_lcwbgvyx",
-					"biome_lcwbgvyx",
-					"biome_lcwbgvyx",
-					"biome_lcwbl8lk",
-					"biome_lcwbl8lk",
-					"biome_lcwbl8lk"
-				],
-				[
-					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"minecraft:end_highlands",
-					"biome_lcwbgvyx",
-					"biome_lcwbgvyx",
-					"biome_lcwbl8lk",
-					"biome_lcwbl8lk",
-					"biome_lcwbgvyx",
-					"biome_lcwbgvyx",
-					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwbl8lk"
@@ -248,6 +216,38 @@
 					"minecraft:end_highlands",
 					"minecraft:end_highlands",
 					"minecraft:end_highlands/biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk"
+				],
+				[
+					"minecraft:end_highlands",
+					"minecraft:end_highlands",
+					"minecraft:end_highlands",
+					"minecraft:end_highlands/biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwbgvyx",
+					"biome_lcwbgvyx",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk"
+				],
+				[
+					"minecraft:end_highlands",
+					"minecraft:end_highlands",
+					"minecraft:end_highlands",
+					"biome_lcwbgvyx",
 					"biome_lcwbgvyx",
 					"biome_lcwbgvyx",
 					"biome_lcwbl8lk",
@@ -672,7 +672,7 @@
 					"minecraft:end_midlands"
 				],
 				[
-					"biome_lzlnnkbb",
+					"biome_lcwc1w5o",
 					"biome_lcwc1w5o",
 					"biome_lcwc1w5o/biome_m17ze20a",
 					"minecraft:end_midlands",
@@ -688,7 +688,7 @@
 					"minecraft:end_midlands"
 				],
 				[
-					"biome_lzlnnkbb",
+					"biome_lcwc1w5o",
 					"biome_lcwc1w5o",
 					"biome_lcwc1w5o/biome_m17ze20a",
 					"minecraft:end_midlands",
@@ -704,7 +704,7 @@
 					"minecraft:end_midlands"
 				],
 				[
-					"biome_lzlnnkbb",
+					"biome_lcwc1w5o",
 					"biome_lcwc1w5o",
 					"biome_m17ze20a",
 					"minecraft:end_midlands",
@@ -906,22 +906,6 @@
 					"biome_lcwe40kp",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
-					"biome_lcwe3is3",
-					"biome_lcwbl8lk",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe40kp"
-				],
-				[
-					"biome_lcwe40kp",
-					"biome_lcwe40kp",
-					"biome_lcwe3is3",
-					"biome_lcwe3is3",
 					"biome_lcwe3is3/biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwe40kp",
@@ -938,7 +922,23 @@
 					"biome_lcwe40kp",
 					"biome_lcwe3is3",
 					"biome_lcwe3is3",
-					"biome_lcwe3is3/biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwbl8lk",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe40kp"
+				],
+				[
+					"biome_lcwe40kp",
+					"biome_lcwe40kp",
+					"biome_lcwe3is3",
+					"biome_lcwe3is3",
+					"biome_lcwbl8lk",
 					"biome_lcwbl8lk",
 					"biome_lcwe40kp",
 					"biome_lcwe40kp",
@@ -1621,11 +1621,6 @@
 			"key": "biome_lzllxt08",
 			"name": "stellarity:endless_dunes",
 			"color": "#ffc800"
-		},
-		{
-			"key": "biome_lzlnnkbb",
-			"name": "stellarity:starbound_valley",
-			"color": "#2f99da"
 		},
 		{
 			"key": "biome_lzlno3tw",
