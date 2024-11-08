@@ -11,7 +11,7 @@ execute if score #trade stellarity.misc matches 2 run \
     function stellarity:mobs/villager/trade_editor/add_enderite_buy {max_uses:12,price_multiplier:0.05,buy_a_id:"bone",buy_a_count:28,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:2}
 
 execute if score #trade stellarity.misc matches 3 run \
-    function stellarity:mobs/villager/trade_editor/add_enderite_buy {max_uses:12,price_multiplier:0.05,buy_a_id:"rotten_flesh",buy_a_count:40,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:2}
+    function stellarity:mobs/villager/trade_editor/add_enderite_buy_for_loot_table {max_uses:12,price_multiplier:0.05,loot_table:"stellarity:items/food/enderman_flesh",buy_a_count:40,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:3}
 
 
 # Second Trade

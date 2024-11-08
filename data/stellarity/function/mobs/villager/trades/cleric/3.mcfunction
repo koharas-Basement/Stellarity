@@ -9,6 +9,6 @@ function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:3,p
 # ^ The Healing/Speed/Leaping Potions from the Trades-Document that you wanted to add Kohara.
 
 # Second Trade
-function stellarity:mobs/villager/trade_editor/add_enderite_sell {max_uses:12,price_multiplier:0.05,sell:"glowstone",buy_a_count:2,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:5}
+function stellarity:mobs/villager/trade_editor/add_enderite_sell {max_uses:12,price_multiplier:0.05,sell:"glowstone",buy_a_count:1,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:5}
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades

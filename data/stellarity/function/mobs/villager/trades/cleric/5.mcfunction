@@ -10,6 +10,6 @@ function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:2,p
 
 
 # Second Trade
-# Non-Existent -SkyKing_PX
+function stellarity:mobs/villager/trade_editor/add_from_loot_table_reverse_order {max_uses:4,xp:12,price_multiplier:0.2,buy_a_id:"ender_chest",buy_a_count:1,buy_b_count:18,loot_table:"stellarity:items/pandoras_barrel",sell_count:1}
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades
