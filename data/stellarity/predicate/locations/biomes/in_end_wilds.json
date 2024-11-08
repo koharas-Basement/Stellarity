@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biomes": "far_end:end_wilds"
+		"biomes": "stellarity:end_wilds"
 	}
 }

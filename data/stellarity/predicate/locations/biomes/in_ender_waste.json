@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biomes": "far_end:ender_waste"
+		"biomes": "stellarity:ender_wastes"
 	}
 }

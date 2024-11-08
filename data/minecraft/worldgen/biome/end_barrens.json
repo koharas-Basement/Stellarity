@@ -32,16 +32,10 @@
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:silverfish",
-				"weight": 20,
-				"minCount": 3,
-				"maxCount": 3
-			},
-			{
-				"type": "minecraft:phantom",
-				"weight": 5,
-				"minCount": 1,
-				"maxCount": 2
+				"type": "minecraft:zombie",
+				"weight": 30,
+				"minCount": 4,
+				"maxCount": 4
 			},
 			{
 				"type": "minecraft:enderman",
@@ -53,7 +47,11 @@
 	},
 	"spawn_costs": {
 		"minecraft:enderman": {
-			"charge": 0.7,
+			"charge": 0.8,
+			"energy_budget": 1
+		},
+		"minecraft:zombie": {
+			"charge": 0.68,
 			"energy_budget": 1
 		}
 	},

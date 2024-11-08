@@ -32,20 +32,35 @@
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:cave_spider",
-				"weight": 20,
+				"type": "minecraft:silverfish",
+				"weight": 7,
 				"minCount": 2,
-				"maxCount": 3
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 15,
+				"minCount": 2,
+				"maxCount": 2
 			},
 			{
 				"type": "minecraft:zombified_piglin",
-				"weight": 42,
+				"weight": 40,
 				"minCount": 4,
 				"maxCount": 4
 			}
 		]
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:skeleton": {
+			"energy_budget": 0.8,
+			"charge": 1
+		},
+		"minecraft:silverfish": {
+			"energy_budget": 0.5,
+			"charge": 1
+		}
+	},
 	"carvers": {},
 	"features": [
 		[

@@ -35,13 +35,19 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 35,
+				"weight": 60,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:zombie",
+				"weight": 30,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:phantom",
-				"weight": 5,
+				"weight": 10,
 				"minCount": 2,
 				"maxCount": 2
 			}
@@ -49,6 +55,10 @@
 	},
 	"spawn_costs": {
 		"minecraft:enderman": {
+			"charge": 0.7,
+			"energy_budget": 1
+		},
+		"minecraft:zombie": {
 			"charge": 0.7,
 			"energy_budget": 1
 		}

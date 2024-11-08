@@ -8,8 +8,7 @@
 					"name": "minecraft:netherite_pickaxe",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
-							"mode": "replace_all",
+							"function": "minecraft:set_lore",
 							"lore": [
 								"",
 								{
@@ -30,32 +29,44 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_model_data": 90001,
-								"minecraft:custom_data": {
-									"stellarity.special_item": "hematic_pickaxe"
-								},
+								"minecraft:custom_data": {},
 								"minecraft:max_damage": 1561,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.tools.hematic_pickaxe\",\"fallback\": \"Hematic Pickaxe\",\"color\": \"#E53F3F\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.tools.hematic_pickaxe\",\"fallback\": \"Hematic Pickaxe\",\"color\": \"#E53F3F\",\"italic\": false}",
+								"minecraft:tool": {
+									"rules": [
+										{
+											"blocks": "#minecraft:incorrect_for_netherite_tool",
+											"correct_for_drops": false
+										},
+										{
+											"blocks": "#minecraft:mineable/pickaxe",
+											"speed": 9,
+											"correct_for_drops": true
+										}
+									]
+								}
 							}
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
 									"id": "minecraft:base_attack_damage",
+									"attribute": "minecraft:generic.attack_damage",
 									"amount": 5,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
 									"id": "minecraft:base_attack_speed",
+									"attribute": "minecraft:generic.attack_speed",
 									"amount": -2.8,
 									"operation": "add_value",
 									"slot": "mainhand"

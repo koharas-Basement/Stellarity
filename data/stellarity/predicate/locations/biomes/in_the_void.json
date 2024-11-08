@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biomes": "far_end:void"
+		"biomes": "stellarity:the_void"
 	}
 }

@@ -33,7 +33,7 @@
 		"monster": [
 			{
 				"type": "minecraft:magma_cube",
-				"weight": 16,
+				"weight": 20,
 				"minCount": 1,
 				"maxCount": 2
 			}

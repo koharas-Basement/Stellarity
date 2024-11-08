@@ -547,74 +547,14 @@
 					}
 				},
 				{
-					"biome": "stellarity:starbound_valley",
-					"parameters": {
-						"temperature": [
-							-0.405,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.47000000000000003
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-1,
-							0.545
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "stellarity:starbound_valley",
-					"parameters": {
-						"temperature": [
-							-0.405,
-							-0.15
-						],
-						"humidity": [
-							-0.47000000000000003,
-							-0.19
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-1,
-							-0.065
-						],
-						"weirdness": [
-							-1,
-							-0.26666668
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "minecraft:end_highlands",
 					"parameters": {
 						"temperature": [
 							-0.405,
-							0.48
+							0.2
 						],
 						"humidity": [
-							-0.19,
+							-1,
 							0.265
 						],
 						"continentalness": [
@@ -670,12 +610,42 @@
 					"biome": "minecraft:end_highlands",
 					"parameters": {
 						"temperature": [
-							-0.15,
+							0.2,
 							0.48
 						],
 						"humidity": [
 							-1,
-							0.265
+							0.045
+						],
+						"continentalness": [
+							-0.15,
+							1
+						],
+						"erosion": [
+							-1,
+							-0.065
+						],
+						"weirdness": [
+							-1,
+							-0.26666668
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "stellarity:amethyst_forest",
+					"parameters": {
+						"temperature": [
+							0.2,
+							0.48
+						],
+						"humidity": [
+							0.045,
+							1
 						],
 						"continentalness": [
 							-0.15,
@@ -764,7 +734,7 @@
 							0.48
 						],
 						"humidity": [
-							-0.47000000000000003,
+							-1,
 							-0.19
 						],
 						"continentalness": [
@@ -868,36 +838,6 @@
 						"weirdness": [
 							-1,
 							-0.05
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "stellarity:starbound_valley",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.48
-						],
-						"humidity": [
-							-1,
-							-0.47000000000000003
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.065,
-							0.545
-						],
-						"weirdness": [
-							-1,
-							1
 						],
 						"depth": [
 							0,
@@ -1091,11 +1031,11 @@
 					"parameters": {
 						"temperature": [
 							-0.405,
-							-0.15
+							0.48
 						],
 						"humidity": [
 							-0.19,
-							0.685
+							0.265
 						],
 						"continentalness": [
 							-0.15,
@@ -1108,6 +1048,36 @@
 						"weirdness": [
 							-1,
 							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "stellarity:warped_marsh",
+					"parameters": {
+						"temperature": [
+							-0.405,
+							-0.15
+						],
+						"humidity": [
+							0.265,
+							0.685
+						],
+						"continentalness": [
+							-0.15,
+							1
+						],
+						"erosion": [
+							0.545,
+							1
+						],
+						"weirdness": [
+							-1,
+							-0.05
 						],
 						"depth": [
 							0,
@@ -1147,37 +1117,7 @@
 					}
 				},
 				{
-					"biome": "stellarity:warped_marsh",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.48
-						],
-						"humidity": [
-							-0.19,
-							0.265
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							0.545,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "stellarity:warped_marsh",
+					"biome": "stellarity:prismarine_forest",
 					"parameters": {
 						"temperature": [
 							-0.15,
@@ -1185,7 +1125,7 @@
 						],
 						"humidity": [
 							0.265,
-							0.685
+							1
 						],
 						"continentalness": [
 							-0.15,
@@ -1197,7 +1137,7 @@
 						],
 						"weirdness": [
 							-1,
-							-0.05
+							1
 						],
 						"depth": [
 							0,
@@ -1237,15 +1177,15 @@
 					}
 				},
 				{
-					"biome": "stellarity:starbound_valley",
+					"biome": "minecraft:end_highlands",
 					"parameters": {
 						"temperature": [
 							-0.405,
-							-0.15
+							0.48
 						],
 						"humidity": [
-							-0.47000000000000003,
-							-0.19
+							-1,
+							0.045
 						],
 						"continentalness": [
 							-0.15,
@@ -1274,7 +1214,7 @@
 							0.2
 						],
 						"humidity": [
-							-0.19,
+							0.045,
 							0.265
 						],
 						"continentalness": [
@@ -1287,7 +1227,7 @@
 						],
 						"weirdness": [
 							-0.26666668,
-							1
+							-0.05
 						],
 						"depth": [
 							0,
@@ -1327,67 +1267,7 @@
 					}
 				},
 				{
-					"biome": "minecraft:end_highlands",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.2
-						],
-						"humidity": [
-							-1,
-							0.265
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-1,
-							-0.375
-						],
-						"weirdness": [
-							-0.26666668,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_highlands",
-					"parameters": {
-						"temperature": [
-							0.2,
-							0.48
-						],
-						"humidity": [
-							-1,
-							0.045
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-1,
-							-0.375
-						],
-						"weirdness": [
-							-0.26666668,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_highlands",
+					"biome": "stellarity:amethyst_forest",
 					"parameters": {
 						"temperature": [
 							0.2,
@@ -1395,7 +1275,7 @@
 						],
 						"humidity": [
 							0.045,
-							0.265
+							1
 						],
 						"continentalness": [
 							-0.15,
@@ -1407,7 +1287,7 @@
 						],
 						"weirdness": [
 							-0.26666668,
-							-0.05
+							1
 						],
 						"depth": [
 							0,
@@ -1454,7 +1334,7 @@
 							0.48
 						],
 						"humidity": [
-							-0.47000000000000003,
+							-1,
 							-0.19
 						],
 						"continentalness": [
@@ -1558,36 +1438,6 @@
 						"weirdness": [
 							-0.26666668,
 							-0.05
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "stellarity:starbound_valley",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.48
-						],
-						"humidity": [
-							-1,
-							-0.47000000000000003
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.545
-						],
-						"weirdness": [
-							-0.26666668,
-							0.05
 						],
 						"depth": [
 							0,
@@ -1927,36 +1777,6 @@
 					}
 				},
 				{
-					"biome": "stellarity:frosted_valley",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.405
-						],
-						"humidity": [
-							-1,
-							-0.47000000000000003
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-1,
-							-0.375
-						],
-						"weirdness": [
-							-0.05,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "stellarity:frozen_shrubland",
 					"parameters": {
 						"temperature": [
@@ -1964,7 +1784,7 @@
 							-0.405
 						],
 						"humidity": [
-							-0.47000000000000003,
+							-1,
 							0.045
 						],
 						"continentalness": [
@@ -2020,7 +1840,7 @@
 					"biome": "stellarity:amethyst_forest",
 					"parameters": {
 						"temperature": [
-							0.2,
+							-0.405,
 							0.48
 						],
 						"humidity": [
@@ -2200,7 +2020,7 @@
 					"biome": "stellarity:prismarine_forest",
 					"parameters": {
 						"temperature": [
-							-0.15,
+							-0.405,
 							0.48
 						],
 						"humidity": [
@@ -2227,36 +2047,6 @@
 					}
 				},
 				{
-					"biome": "stellarity:frosted_valley",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.405
-						],
-						"humidity": [
-							-1,
-							-0.47000000000000003
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.375,
-							-0.065
-						],
-						"weirdness": [
-							0.05,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "stellarity:frozen_shrubland",
 					"parameters": {
 						"temperature": [
@@ -2264,7 +2054,7 @@
 							-0.405
 						],
 						"humidity": [
-							-0.47000000000000003,
+							-1,
 							0.045
 						],
 						"continentalness": [
@@ -2287,130 +2077,10 @@
 					}
 				},
 				{
-					"biome": "stellarity:starbound_valley",
-					"parameters": {
-						"temperature": [
-							-0.405,
-							-0.15
-						],
-						"humidity": [
-							-0.47000000000000003,
-							-0.19
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.375,
-							-0.065
-						],
-						"weirdness": [
-							0.05,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "minecraft:end_highlands",
 					"parameters": {
 						"temperature": [
 							-0.405,
-							0.2
-						],
-						"humidity": [
-							-0.19,
-							0.265
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.375,
-							-0.065
-						],
-						"weirdness": [
-							0.05,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "stellarity:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							-0.405,
-							0.48
-						],
-						"humidity": [
-							0.265,
-							1
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.375,
-							-0.065
-						],
-						"weirdness": [
-							0.05,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_highlands",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.2
-						],
-						"humidity": [
-							-1,
-							0.265
-						],
-						"continentalness": [
-							-0.15,
-							1
-						],
-						"erosion": [
-							-0.375,
-							-0.065
-						],
-						"weirdness": [
-							0.05,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_highlands",
-					"parameters": {
-						"temperature": [
-							0.2,
 							0.48
 						],
 						"humidity": [
@@ -2440,7 +2110,7 @@
 					"biome": "stellarity:amethyst_forest",
 					"parameters": {
 						"temperature": [
-							0.2,
+							-0.405,
 							0.48
 						],
 						"humidity": [

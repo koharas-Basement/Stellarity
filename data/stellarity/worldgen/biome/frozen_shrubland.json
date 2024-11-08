@@ -35,13 +35,25 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
+				"weight": 45,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:skeleton",
 				"weight": 35,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
+				"type": "minecraft:silverfish",
+				"weight": 10,
+				"minCount": 2,
+				"maxCount": 2
+			},
+			{
 				"type": "minecraft:phantom",
-				"weight": 5,
+				"weight": 15,
 				"minCount": 2,
 				"maxCount": 2
 			}
@@ -49,8 +61,16 @@
 	},
 	"spawn_costs": {
 		"minecraft:enderman": {
-			"charge": 0.7,
-			"energy_budget": 1
+			"energy_budget": 0.6,
+			"charge": 1
+		},
+		"minecraft:skeleton": {
+			"energy_budget": 0.4,
+			"charge": 1
+		},
+		"minecraft:silverfish": {
+			"energy_budget": 0.5,
+			"charge": 1
 		}
 	},
 	"carvers": {},

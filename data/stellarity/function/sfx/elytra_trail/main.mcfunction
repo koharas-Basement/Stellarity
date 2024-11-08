@@ -4,7 +4,6 @@ data remove storage stellarity:temp elytra_trail
 data modify storage stellarity:temp elytra_trail.item set from entity @s Inventory[{Slot:102b}].components."minecraft:custom_data"
 
 data modify storage stellarity:temp elytra_trail.color set from storage stellarity:temp elytra_trail.item."stellarity.elytra_color"
-data modify storage stellarity:temp elytra_trail.special set from storage stellarity:temp elytra_trail.item."stellarity.special_item"
 
 execute if entity @s[x_rotation=-75..40] run function stellarity:sfx/elytra_trail/position/0
 execute if entity @s[x_rotation=41..50] run function stellarity:sfx/elytra_trail/position/1
@@ -34,7 +33,7 @@ execute unless data storage stellarity:temp elytra_trail.color run function stel
 
 execute if score @s kohara.flight_speed matches 460.. run function stellarity:sfx/elytra_trail/fire with storage stellarity:temp elytra_trail.position
 
-data remove storage stellarity:temp elytra_trail.color
+#data remove storage stellarity:temp elytra_trail.color
 data remove storage stellarity:temp elytra_trail.special
 
 #execute if score @s kohara.flight_speed matches 450.. run particle minecraft:flame ^ ^0.3 ^-1 0.5 0.5 0.5 0 8
