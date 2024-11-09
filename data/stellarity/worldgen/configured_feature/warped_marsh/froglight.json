@@ -18,16 +18,24 @@
 			{
 				"height": {
 					"type": "minecraft:uniform",
-					"min_inclusive": 4,
-					"max_inclusive": 16
+					"min_inclusive": 3,
+					"max_inclusive": 9
 				},
 				"provider": {
 					"type": "minecraft:simple_state_provider",
 					"state": {
-						"Name": "minecraft:chain",
+						"Name": "minecraft:cave_vines_plant"
+					}
+				}
+			},
+			{
+				"height": 1,
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:cave_vines",
 						"Properties": {
-							"axis": "y",
-							"waterlogged": "false"
+							"age": "25"
 						}
 					}
 				}
@@ -37,10 +45,9 @@
 				"provider": {
 					"type": "minecraft:simple_state_provider",
 					"state": {
-						"Name": "minecraft:lantern",
+						"Name": "minecraft:verdant_froglight",
 						"Properties": {
-							"hanging": "true",
-							"waterlogged": "false"
+							"axis": "y"
 						}
 					}
 				}

@@ -1,12 +1,12 @@
 {
-	"feature": "stellarity:the_hallow/lanterns",
+	"feature": "stellarity:warped_marsh/froglight",
 	"placement": [
 		{
 			"type": "minecraft:count",
 			"count": {
 				"type": "minecraft:uniform",
 				"min_inclusive": 0,
-				"max_inclusive": 13
+				"max_inclusive": 6
 			}
 		},
 		{
@@ -38,10 +38,7 @@
 					{
 						"type": "minecraft:matching_blocks",
 						"blocks": [
-							"minecraft:diorite",
-							"minecraft:calcite",
-							"minecraft:dirt",
-							"minecraft:grass_block"
+							"minecraft:end_stone"
 						]
 					}
 				]

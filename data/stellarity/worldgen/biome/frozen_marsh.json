@@ -2,8 +2,6 @@
 	"temperature": -0.5,
 	"downfall": 0.4,
 	"has_precipitation": false,
-	"temperature_modifier": "none",
-	"creature_spawn_probability": 0,
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
@@ -16,13 +14,19 @@
 		},
 		"mood_sound": {
 			"sound": "ambient.warped_forest.mood",
-			"tick_delay": 200,
+			"tick_delay": 800,
 			"block_search_extent": 4,
 			"offset": 4
 		},
 		"additions_sound": {
 			"sound": "ambient.nether_wastes.additions",
 			"tick_chance": 0.011111
+		},
+		"music": {
+			"sound": "minecraft:music.nether.crimson_forest",
+			"min_delay": 1,
+			"max_delay": 10,
+			"replace_current_music": true
 		},
 		"particle": {
 			"options": {
@@ -31,69 +35,32 @@
 			"probability": 0.0094
 		}
 	},
-	"spawners": {
-		"monster": [
-			{
-				"type": "minecraft:enderman",
-				"weight": 45,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:skeleton",
-				"weight": 35,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:silverfish",
-				"weight": 10,
-				"minCount": 2,
-				"maxCount": 2
-			},
-			{
-				"type": "minecraft:phantom",
-				"weight": 15,
-				"minCount": 2,
-				"maxCount": 2
-			}
+	"spawners": {},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"stellarity:ravine",
+			"stellarity:crack"
 		]
 	},
-	"spawn_costs": {
-		"minecraft:enderman": {
-			"energy_budget": 0.6,
-			"charge": 1
-		},
-		"minecraft:skeleton": {
-			"energy_budget": 0.4,
-			"charge": 1
-		},
-		"minecraft:silverfish": {
-			"energy_budget": 0.5,
-			"charge": 1
-		}
-	},
-	"carvers": {},
 	"features": [
 		[
 			"stellarity:global/stalactite",
-			"stellarity:frozen_spikes/large_dripstone",
-			"stellarity:frozen_shrubland/dirt",
-			"stellarity:frozen_shrubland/snow_covering_end_stone"
+			"stellarity:frozen_spikes/large_dripstone"
 		],
 		[],
 		[],
 		[
+			"stellarity:frozen_marsh/puddles",
 			"stellarity:frozen_spikes/ore_blue_ice"
 		],
 		[],
 		[],
 		[],
 		[],
+		[],
 		[
-			"stellarity:frozen_shrubland/chorus_plant",
-			"stellarity:frozen_shrubland/shrubs",
-			"stellarity:frozen_shrubland/grass"
+			"stellarity:frozen_marsh/vegetation_land"
 		],
 		[
 			"stellarity:global/end_dungeon",
@@ -108,7 +75,8 @@
 			"stellarity:frozen_spikes/replace_dripstone/8",
 			"stellarity:frozen_spikes/replace_dripstone/9",
 			"stellarity:frozen_spikes/replace_dripstone/10",
-			"stellarity:frozen_spikes/replace_dripstone/11"
+			"stellarity:frozen_spikes/replace_dripstone/11",
+			"stellarity:frozen_marsh/freeze_water"
 		]
 	]
 }

@@ -967,7 +967,7 @@
 					}
 				},
 				{
-					"biome": "stellarity:permafrozen_bog",
+					"biome": "stellarity:frozen_marsh",
 					"parameters": {
 						"temperature": [
 							-1,
