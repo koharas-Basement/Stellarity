@@ -7,7 +7,6 @@ scoreboard objectives add stellarity.config.enable_totem_void_saving dummy
 scoreboard objectives add stellarity.config.dragon_health dummy
 scoreboard objectives add stellarity.config.eol_health dummy
 scoreboard objectives add stellarity.config.allow_disenchanting dummy
-scoreboard objectives add stellarity.config.enable_treasure_heads dummy
 scoreboard objectives add stellarity.config.track_loop_delay.eol dummy
 scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
 scoreboard objectives add stellarity.config.enable_dragon_screenshake dummy

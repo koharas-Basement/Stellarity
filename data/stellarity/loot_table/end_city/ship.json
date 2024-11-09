@@ -197,22 +197,6 @@
 		},
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:treasure_heads"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.25
-				}
-			]
-		},
-		{
-			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
