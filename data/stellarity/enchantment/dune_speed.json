@@ -1,162 +1,163 @@
 {
-  "description": {
-    "translate": "enchantment.stellarity.dune_speed",
-    "fallback": "Dune Speed"
-  },
-  "exclusive_set": "minecraft:soul_speed",
-  "supported_items": "#minecraft:enchantable/foot_armor",
-  "weight": 1,
-  "max_level": 3,
-  "min_cost": {
-    "base": 10,
-    "per_level_above_first": 10
-  },
-  "max_cost": {
-    "base": 25,
-    "per_level_above_first": 10
-  },
-  "anvil_cost": 8,
-  "slots": [
-    "feet"
-  ],
-  "effects": {
-    "minecraft:location_changed": [
-      {
-        "effect": {
-          "type": "minecraft:all_of",
-          "effects": [
-            {
-              "type": "minecraft:attribute",
-              "id": "minecraft:stellarity.dune_speed",
-              "attribute": "minecraft:generic.movement_speed",
-              "amount": {
-                "type": "minecraft:linear",
-                "base": 0.0405,
-                "per_level_above_first": 0.0105
-              },
-              "operation": "add_value"
-            }
-          ]
-        },
-        "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "vehicle": {}
-                }
-              }
-            },
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:enchantment_active_check",
-                      "active": true
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "flags": {
-                          "is_flying": false
-                        }
-                      }
-                    },
-                    {
-                      "condition": "minecraft:any_of",
-                      "terms": [
-                        {
-                          "condition": "minecraft:entity_properties",
-                          "entity": "this",
-                          "predicate": {
-                            "stepping_on": {
-                              "block": {
-                                "blocks": "#minecraft:sand"
-                              }
-                            }
-                          }
-                        },
-                        {
-                          "condition": "minecraft:entity_properties",
-                          "entity": "this",
-                          "predicate": {
-                            "flags": {
-                              "is_on_ground": false
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:enchantment_active_check",
-                      "active": false
-                    },
-                    {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "stepping_on": {
-                          "block": {
-                            "blocks": "#minecraft:sand"
-                          }
-                        },
-                        "flags": {
-                          "is_flying": false
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:damage_item",
-          "amount": 1
-        },
-        "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": {
-                "type": "minecraft:enchantment_level",
-                "amount": 0.04
-              }
-            },
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "stepping_on": {
-                  "block": {
-                    "blocks": "#minecraft:sand"
-                  }
-                },
-                "flags": {
-                  "is_on_ground": true
-                }
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
+	"description": {
+		"translate": "enchantment.stellarity.dune_speed",
+		"fallback": "Dune Speed",
+		"color": "#ffd026"
+	},
+	"exclusive_set": "minecraft:soul_speed",
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 1,
+	"max_level": 3,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 10
+	},
+	"anvil_cost": 8,
+	"slots": [
+		"feet"
+	],
+	"effects": {
+		"minecraft:location_changed": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:attribute",
+							"id": "minecraft:stellarity.dune_speed",
+							"attribute": "minecraft:generic.movement_speed",
+							"amount": {
+								"type": "minecraft:linear",
+								"base": 0.025,
+								"per_level_above_first": 0.009
+							},
+							"operation": "add_value"
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"vehicle": {}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:all_of",
+									"terms": [
+										{
+											"condition": "minecraft:enchantment_active_check",
+											"active": true
+										},
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"flags": {
+													"is_flying": false
+												}
+											}
+										},
+										{
+											"condition": "minecraft:any_of",
+											"terms": [
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"stepping_on": {
+															"block": {
+																"blocks": "#minecraft:sand"
+															}
+														}
+													}
+												},
+												{
+													"condition": "minecraft:entity_properties",
+													"entity": "this",
+													"predicate": {
+														"flags": {
+															"is_on_ground": false
+														}
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"condition": "minecraft:all_of",
+									"terms": [
+										{
+											"condition": "minecraft:enchantment_active_check",
+											"active": false
+										},
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"stepping_on": {
+													"block": {
+														"blocks": "#minecraft:sand"
+													}
+												},
+												"flags": {
+													"is_flying": false
+												}
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:damage_item",
+					"amount": 1
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": {
+								"type": "minecraft:enchantment_level",
+								"amount": 0.04
+							}
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"stepping_on": {
+									"block": {
+										"blocks": "#minecraft:sand"
+									}
+								},
+								"flags": {
+									"is_on_ground": true
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	}
 }

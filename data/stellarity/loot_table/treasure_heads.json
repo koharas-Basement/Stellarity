@@ -3807,21 +3807,7 @@
 					]
 				}
 			],
-			"conditions": [
-				{
-					"condition": "minecraft:value_check",
-					"value": {
-						"type": "minecraft:score",
-						"target": {
-							"type": "minecraft:fixed",
-							"name": "#stellarity.config"
-						},
-						"score": "stellarity.config.enable_treasure_heads",
-						"scale": 1
-					},
-					"range": 1
-				}
-			]
+			"conditions": []
 		}
 	]
 }
