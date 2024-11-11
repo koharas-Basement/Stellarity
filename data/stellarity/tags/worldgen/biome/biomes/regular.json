@@ -20,6 +20,8 @@
 			"stellarity:endless_dunes",
 			"stellarity:hallowed_tundra",
 			"stellarity:prismatic_dunes",
-			"stellarity:frozen_marsh"
+			"stellarity:frozen_marsh",
+			"stellarity:frozen_shrubland",
+			"stellarity:end_shrubland"
 		]
 }

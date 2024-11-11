@@ -22,12 +22,6 @@
 			"sound": "ambient.nether_wastes.additions",
 			"tick_chance": 0.011111
 		},
-		"music": {
-			"sound": "minecraft:music.nether.crimson_forest",
-			"min_delay": 1,
-			"max_delay": 10,
-			"replace_current_music": true
-		},
 		"particle": {
 			"options": {
 				"type": "minecraft:white_ash"

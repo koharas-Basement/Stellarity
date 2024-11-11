@@ -37,15 +37,8 @@
 							},
 							"vegetation_feature": {
 								"feature": {
-									"type": "minecraft:simple_block",
-									"config": {
-										"to_place": {
-											"type": "minecraft:simple_state_provider",
-											"state": {
-												"Name": "minecraft:ice"
-											}
-										}
-									}
+									"config": {},
+									"type": "no_op"
 								},
 								"placement": []
 							}
@@ -68,7 +61,7 @@
 					"vertical_range": 10,
 					"extra_bottom_block_chance": 0.6,
 					"extra_edge_column_chance": 0.4,
-					"vegetation_chance": 0,
+					"vegetation_chance": 0.04,
 					"xz_radius": {
 						"type": "minecraft:biased_to_bottom",
 						"min_inclusive": 2,
@@ -82,17 +75,7 @@
 						}
 					},
 					"vegetation_feature": {
-						"feature": {
-							"type": "minecraft:simple_block",
-							"config": {
-								"to_place": {
-									"type": "minecraft:simple_state_provider",
-									"state": {
-										"Name": "minecraft:ice"
-									}
-								}
-							}
-						},
+						"feature": "stellarity:frozen_marsh/pond_plants",
 						"placement": []
 					}
 				}
