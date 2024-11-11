@@ -1,0 +1,12 @@
+{
+	"feature": "stellarity:frozen_marsh/freeze_water",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 160
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

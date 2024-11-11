@@ -6,7 +6,6 @@ scoreboard objectives remove stellarity.config.enable_end_crystal_drop
 scoreboard objectives remove stellarity.config.dragon_health
 scoreboard objectives remove stellarity.config.eol_health
 scoreboard objectives remove stellarity.config.allow_disenchanting
-scoreboard objectives remove stellarity.config.enable_treasure_heads
 scoreboard objectives remove stellarity.config.track_loop_delay.eol
 scoreboard objectives remove stellarity.config.track_loop_delay.dragon
 scoreboard objectives remove stellarity.config.enable_dragon_screenshake

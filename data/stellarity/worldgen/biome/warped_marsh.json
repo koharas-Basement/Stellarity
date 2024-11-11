@@ -16,7 +16,7 @@
 		},
 		"mood_sound": {
 			"sound": "ambient.warped_forest.mood",
-			"tick_delay": 600,
+			"tick_delay": 1200,
 			"block_search_extent": 4,
 			"offset": 1
 		},
@@ -26,9 +26,9 @@
 		},
 		"particle": {
 			"options": {
-				"type": "falling_spore_blossom"
+				"type": "spore_blossom_air"
 			},
-			"probability": 0.003
+			"probability": 0.001
 		}
 	},
 	"spawners": {
@@ -48,26 +48,22 @@
 			"stellarity:global/stalactite"
 		],
 		[
-			"stellarity:warped/dripping_water"
+			"stellarity:warped_marsh/dripping_water"
 		],
 		[],
 		[
-			"far_end:warped/aquatic/delta",
-			"stellarity:warped/deltas",
-			"far_end:warped/vegetation/water/under_island_extra",
-			"far_end:warped/vegetation/water/pool",
-			"stellarity:warped/patches"
+			"stellarity:warped_marsh/puddles"
 		],
 		[],
 		[],
 		[],
 		[],
 		[
-			"far_end:warped/vegetation/grass/patch_grass",
-			"far_end:warped/vegetation/grass/patch_blue_orchid",
-			"far_end:warped/vegetation/grass/patch_warped_roots",
-			"far_end:warped/vegetation/water/sea_pickle",
-			"stellarity:warped/slime"
+			"stellarity:warped_marsh/vegetation_grass",
+			"stellarity:warped_marsh/vegetation_water",
+			"stellarity:warped_marsh/vegetation_land",
+			"stellarity:warped_marsh/slime",
+			"stellarity:warped_marsh/froglight"
 		],
 		[]
 	]
