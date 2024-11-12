@@ -5,6 +5,7 @@
 		"minecraft:phantom",
 		"minecraft:silverfish",
 		"minecraft:skeleton",
-		"minecraft:zombified_piglin"
+		"minecraft:zombified_piglin",
+		"minecraft:zombie"
 	]
 }
