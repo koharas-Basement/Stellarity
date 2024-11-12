@@ -19,13 +19,7 @@
 				{
 					"weight": 12,
 					"data": {
-						"Name": "minecraft:coarse_dirt"
-					}
-				},
-				{
-					"weight": 1,
-					"data": {
-						"Name": "minecraft:cobblestone"
+						"Name": "minecraft:white_concrete_powder"
 					}
 				},
 				{
