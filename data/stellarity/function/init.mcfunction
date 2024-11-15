@@ -138,6 +138,10 @@ scoreboard objectives add stellarity.items.spectral_fury.until_charge_reset dumm
 scoreboard objectives add stellarity.items.spectral_fury.pierce_count dummy
 scoreboard objectives add stellarity.items.spectral_fury.damage dummy
 
+# Sandstorm Trident
+scoreboard objectives add stellarity.items.sandstorm_trident.id dummy
+scoreboard objectives add stellarity.items.sandstorm_trident.trail_pos dummy
+
 ## Mobs
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy

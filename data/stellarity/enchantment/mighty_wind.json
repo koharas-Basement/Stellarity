@@ -1,0 +1,36 @@
+{
+	"description": {
+		"translate": "enchantment.stellarity.mighty_wind",
+		"fallback": "Mighty Wind",
+		"color": "#ffd026"
+	},
+	"exclusive_set": [
+		"minecraft:riptide",
+		"minecraft:channeling"
+	],
+	"supported_items": "#minecraft:enchantable/trident",
+	"weight": 5,
+	"max_level": 1,
+	"min_cost": {
+		"base": 999,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 999,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 8,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "stellarity:items/sandstorm_trident/thrown"
+				}
+			}
+		]
+	}
+}

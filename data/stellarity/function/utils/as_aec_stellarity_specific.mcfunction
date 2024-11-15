@@ -11,3 +11,5 @@ execute if entity @s[tag=stellarity.items.fish.crystal_heartfish.aec] rotated as
 
 # Void Fishing
 execute if entity @s[tag=stellarity.void_fishing_aec] run function stellarity:mechanics/void_fishing/as_aec/tick
+
+execute if entity @s[tag=stellarity.wind_tunnel] run function stellarity:items/sandstorm_trident/wind_tunnel/aec_tick

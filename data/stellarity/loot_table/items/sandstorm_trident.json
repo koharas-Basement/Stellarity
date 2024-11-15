@@ -56,7 +56,10 @@
 								"minecraft:unbreakable": {
 									"show_in_tooltip": false
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"color\": \"white\",\"italic\": false}",
+								"minecraft:enchantments": {
+									"stellarity:mighty_wind": 1
+								}
 							}
 						}
 					]
