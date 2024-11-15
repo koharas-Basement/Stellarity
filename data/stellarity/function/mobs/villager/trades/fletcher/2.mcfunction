@@ -8,6 +8,6 @@ data remove storage stellarity:temp villager_trades[-1]
 function stellarity:mobs/villager/trade_editor/add_enderite_buy {max_uses:12,xp:2,price_multiplier:0.05,buy_a_id:"stick",buy_a_count:48,buy_b_id:"air",buy_b_count:1,sell_count:1}
 
 # Second Trade
-function stellarity:mobs/villager/trade_editor/add_enderite_sell_with_modifier {max_uses:4,price_multiplier:0.05,buy_a_count:8,buy_b_id:"air",buy_b_count:1,sell:"bow",sell_count:1,modifier:"stellarity:enchanted_bow_fisherman",xp:10}
+function stellarity:mobs/villager/trade_editor/add_enderite_sell_with_modifier {max_uses:4,price_multiplier:0.05,buy_a_count:8,buy_b_id:"air",buy_b_count:1,sell:"bow",sell_count:1,modifier:"stellarity:villager/fletcher/2/2/1",xp:10}
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades
