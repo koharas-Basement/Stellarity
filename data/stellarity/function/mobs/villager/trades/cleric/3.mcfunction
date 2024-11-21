@@ -5,7 +5,7 @@ data remove storage stellarity:temp villager_trades[-1]
 data remove storage stellarity:temp villager_trades[-1]
 
 # First Trade
-function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:3,price_multiplier:0.05,loot_table:"stellarity:villager/cleric/lvl3",buy_a_count:7,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:10}
+function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:3,price_multiplier:0.05,loot_table:"stellarity:villager/cleric/3/1",buy_a_count:7,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:10}
 # ^ The Healing/Speed/Leaping Potions from the Trades-Document that you wanted to add Kohara.
 
 # Second Trade

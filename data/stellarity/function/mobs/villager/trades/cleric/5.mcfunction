@@ -5,7 +5,7 @@ data remove storage stellarity:temp villager_trades[-1]
 data remove storage stellarity:temp villager_trades[-1]
 
 # First Trade
-function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:2,price_multiplier:0.2,loot_table:"stellarity:villager/cleric/lvl5",buy_a_count:12,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:25}
+function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:2,price_multiplier:0.2,loot_table:"stellarity:villager/cleric/5/1",buy_a_count:12,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:25}
 # ^ The Lifeforce/Red Potion Loot Table
 
 

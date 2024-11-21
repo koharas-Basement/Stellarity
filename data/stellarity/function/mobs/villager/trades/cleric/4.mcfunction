@@ -15,7 +15,7 @@ execute if score #trade stellarity.misc matches 2 run \
 
 
 # Second Trade
-function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:3,price_multiplier:0.2,loot_table:"stellarity:villager/cleric/lvl4",buy_a_count:7,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:15}
+function stellarity:mobs/villager/trade_editor/add_from_loot_table {max_uses:3,price_multiplier:0.2,loot_table:"stellarity:villager/cleric/4/2",buy_a_count:7,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:15}
 # ^ The Strength/Resistance Potions from the loot Table
 
 
