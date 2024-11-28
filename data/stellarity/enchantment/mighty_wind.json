@@ -6,7 +6,8 @@
 	},
 	"exclusive_set": [
 		"minecraft:riptide",
-		"minecraft:channeling"
+		"minecraft:channeling",
+		"minecraft:loyalty"
 	],
 	"supported_items": "#minecraft:enchantable/trident",
 	"weight": 5,
@@ -29,6 +30,14 @@
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "stellarity:items/sandstorm_trident/thrown"
+				}
+			}
+		],
+		"trident_return_acceleration": [
+			{
+				"effect": {
+					"type": "add",
+					"value": 3
 				}
 			}
 		]
