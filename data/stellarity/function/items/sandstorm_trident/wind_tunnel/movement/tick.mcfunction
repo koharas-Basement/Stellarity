@@ -1,0 +1,1 @@
+execute if entity @s[tag=!stellarity.in_wind_tunnel] unless entity @n[type=area_effect_cloud,tag=stellarity.wind_tunnel.end,distance=..3] run function stellarity:items/sandstorm_trident/wind_tunnel/movement/start

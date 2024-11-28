@@ -63,6 +63,13 @@ execute if data storage stellarity:temp {aota:{item:{id:"minecraft:dragon_breath
 # Hematic Pickaxe
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:rotten_flesh",count:1,components:{"minecraft:custom_data":{stellarity.special_item:"living_flesh"}}}}} run tag @s add stellarity.aota.living_flesh
 
+# Sandstorm Trident
+tag @s remove stellarity.aota.2_breeze_rods
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:breeze_rod",count:2}}} run tag @s add stellarity.aota.2_breeze_rods
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:trident",count:1}}} run tag @s add stellarity.aota.trident
+tag @s remove stellarity.aota.sand_rune
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_data":{stellarity.special_item:"sand_rune"}}}}} run tag @s add stellarity.aota.sand_rune
+
 # Elytra trails
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:elytra",count:1}}} run tag @s add stellarity.aota.elytra
 

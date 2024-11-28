@@ -30,7 +30,7 @@
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.materials.starlight_soot.description.1",
+									"translate": "stellarity.items.materials.starlight_soot.description.2",
 									"fallback": "to allow for temporary item transmutation",
 									"color": "#EEEEEE",
 									"italic": false

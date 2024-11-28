@@ -38,3 +38,10 @@ execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,di
 	if entity @e[type=item,tag=stellarity.aota.16_enderite_shards,distance=..1.5] \
 	if entity @e[type=item,tag=stellarity.aota.8_dragon_breath,distance=..1.5] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/call_of_the_void
+
+# Sandstorm Trident
+execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
+	if entity @e[type=item,tag=stellarity.aota.trident,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.2_breeze_rods,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.sand_rune,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/items/sandstorm_trident

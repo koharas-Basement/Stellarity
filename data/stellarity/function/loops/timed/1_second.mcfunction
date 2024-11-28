@@ -14,7 +14,7 @@ execute as @e[type=trident,predicate=stellarity:locations/below_y_0,predicate=st
 # Villagers
 execute as @e[type=villager,tag=!stellarity.aware,tag=!stellarity.villager,predicate=stellarity:locations/structures/in_end_village] at @s run function stellarity:mobs/villager/check
 
-execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.buffed,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/stat_buff/main
+execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.buffed,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/convert_to_end_variants
 
 execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware
 

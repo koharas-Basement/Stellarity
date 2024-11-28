@@ -14,7 +14,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.topped_off.description",
-			"fallback": "Increase your maximum health by eating 10 Crystal Heartfish"
+			"fallback": "Increase your maximum health by eating 10 Fish of Vitality"
 		},
 		"frame": "challenge"
 	},

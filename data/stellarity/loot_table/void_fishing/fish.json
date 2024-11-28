@@ -26,6 +26,11 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"value": "stellarity:items/food/fish/crystal_heartfish",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
 					"weight": 30,
 					"value": "stellarity:void_fishing/drops/the_hallow",
 					"conditions": [
