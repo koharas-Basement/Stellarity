@@ -10,3 +10,5 @@ execute if entity @s[tag=stellarity.wind_tunnel.activated] as @n[type=!#kohara:i
 
 scoreboard players add @s stellarity.misc2 1
 execute at @s[scores={stellarity.misc2=2}] facing entity @n[type=trident,tag=stellarity.sandstorm_trident] eyes run tp @s ~ ~ ~ ~ ~
+
+execute if predicate kohara:chance/1percent run playsound minecraft:entity.breeze.slide player @p ~ ~ ~ 0.5 1

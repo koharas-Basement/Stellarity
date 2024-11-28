@@ -12,6 +12,4 @@ execute as @e[type=area_effect_cloud,tag=stellarity.wind_tunnel] \
 
 tag @n[type=area_effect_cloud,tag=stellarity.wind_tunnel.activated] add stellarity.wind_tunnel.end
 
-playsound item.trident.return player @a[distance=..64] ~ ~ ~ 0 1 1
-
 kill @n[type=marker,tag=stellarity.sandstorm_trident]
