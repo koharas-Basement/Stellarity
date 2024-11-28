@@ -9,12 +9,12 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 13,
+					"weight": 26,
 					"value": "stellarity:items/food/fish/ender_koi"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 4,
+					"weight": 8,
 					"value": "stellarity:items/food/fish/amethyst_budfish",
 					"conditions": [
 						{
@@ -29,7 +29,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 3,
+					"weight": 6,
 					"value": "stellarity:items/food/fish/crimson_tigerfish",
 					"conditions": [
 						{
@@ -44,7 +44,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 3,
+					"weight": 6,
 					"value": "stellarity:items/food/fish/fleshy_piranha",
 					"conditions": [
 						{
@@ -61,20 +61,11 @@
 					"type": "minecraft:loot_table",
 					"quality": 1,
 					"value": "stellarity:items/food/fish/crystal_heartfish",
-					"conditions": [
-						{
-							"condition": "minecraft:location_check",
-							"predicate": {
-								"biomes": [
-									"stellarity:the_hallow"
-								]
-							}
-						}
-					]
+					"conditions": []
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 8,
+					"weight": 12,
 					"value": "stellarity:items/food/fish/prismite",
 					"conditions": [
 						{
@@ -89,7 +80,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 7,
+					"weight": 12,
 					"value": "stellarity:items/food/fish/flarefin_koi",
 					"conditions": [
 						{
@@ -104,7 +95,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 6,
+					"weight": 12,
 					"value": "stellarity:items/food/fish/overgrown_cod",
 					"conditions": [
 						{
@@ -132,7 +123,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 6,
+					"weight": 12,
 					"value": "stellarity:items/food/fish/frost_minnow",
 					"conditions": [
 						{
@@ -147,7 +138,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 5,
+					"weight": 10,
 					"value": "stellarity:items/food/fish/bubblefish",
 					"conditions": [
 						{
