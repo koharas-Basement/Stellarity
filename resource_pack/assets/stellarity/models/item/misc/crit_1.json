@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "stellarity:particles",
+		"particle": "stellarity:particles"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [10, 0, 12, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"south": {"uv": [10, 0, 12, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#missing"},
+				"down": {"uv": [10, 0, 12, 2], "texture": "#0"}
+			}
+		}
+	]
+}

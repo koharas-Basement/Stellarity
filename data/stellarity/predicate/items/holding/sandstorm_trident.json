@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [
+							"minecraft:trident"
+						],
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"sandstorm_trident\"}"}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:trident"
+						],
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"sandstorm_trident\"}"}
+					}
+				}
+			}
+		}
+	]
+}

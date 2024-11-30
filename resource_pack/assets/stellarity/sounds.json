@@ -218,5 +218,32 @@
 		"sounds":[
 			"stellarity:block/altar_of_light/blood_sacrifice"
 		]
+	},
+	"enchantment.ambush.level_1":{
+		"sounds":[
+			"stellarity:enchantment/ambush/ambush_1_1",
+			"stellarity:enchantment/ambush/ambush_1_2",
+			"stellarity:enchantment/ambush/ambush_1_3"
+		]
+	},
+	"enchantment.ambush.level_2":{
+		"sounds":[
+			"stellarity:enchantment/ambush/ambush_2_1",
+			"stellarity:enchantment/ambush/ambush_2_2",
+			"stellarity:enchantment/ambush/ambush_2_3"
+		]
+	},
+	"enchantment.ambush.level_3":{
+		"sounds":[
+			"stellarity:enchantment/ambush/ambush_3_1",
+			"stellarity:enchantment/ambush/ambush_3_2",
+			"stellarity:enchantment/ambush/ambush_3_3"
+		]
+	},
+	"enchantment.critical_strike.crit":{
+		"sounds":[
+			"stellarity:enchantment/critical_strike/critical_hit_1",
+			"stellarity:enchantment/critical_strike/critical_hit_2"
+		]
 	}
 }
