@@ -6,6 +6,7 @@
 		"minecraft:silverfish",
 		"minecraft:skeleton",
 		"minecraft:zombified_piglin",
-		"minecraft:zombie"
+		"minecraft:zombie",
+		"minecraft:slime"
 	]
 }
