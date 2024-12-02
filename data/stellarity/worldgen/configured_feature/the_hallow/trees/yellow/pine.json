@@ -99,8 +99,8 @@
 			"offset": 0,
 			"crown_height": {
 				"type": "minecraft:uniform",
-				"min_inclusive": 9,
-				"max_inclusive": 18
+				"min_inclusive": 12,
+				"max_inclusive": 24
 			}
 		},
 		"decorators": []

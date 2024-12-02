@@ -1,3 +1,6 @@
+data remove storage stellarity:temp aota.enchants
+data remove storage stellarity:temp aota.trim
+
 particle minecraft:flash ~ ~-.4 ~ 0 0 0 0 0 force
 
 particle end_rod ~ ~-.4 ~ 0 0 0 0.13 17 normal

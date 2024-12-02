@@ -18,5 +18,3 @@ function stellarity:mechanics/altar_of_accursed/crafting/global_effects
 
 advancement grant @p only stellarity:aota/craft_full_shulker_armor craft_shulker_chestplate
 
-data remove storage stellarity:temp aota.enchants
-data remove storage stellarity:temp aota.trim

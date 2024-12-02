@@ -39,6 +39,8 @@ execute if entity @s[tag=stellarity.cauldron_crafting] run function stellarity:m
 
 execute if entity @s[tag=stellarity.cauldron_consecration] run function stellarity:mechanics/consecration/cauldron/main
 
+execute if entity @s[tag=stellarity.trial_spawner] run function stellarity:post_gen/end_city/trial_spawner_marker_loop
+
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker/main_1s

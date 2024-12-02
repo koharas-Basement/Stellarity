@@ -43,4 +43,5 @@ particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force @a[distance=..32]
 playsound entity.generic.explode block @a[distance=0..] ~ ~ ~ 1 0.75
 playsound minecraft:block.respawn_anchor.deplete block @a[distance=0..] ~ ~ ~ 1 0
 
-execute unless entity @e[type=end_crystal,distance=..200,tag=stellarity.end_city.crystal] run advancement grant @a[distance=..32] only stellarity:end_city/conqueror
+advancement grant @a[distance=..48] only stellarity:end_city/crystal_crusher
+execute unless entity @e[type=end_crystal,distance=..200,tag=stellarity.end_city.crystal] run advancement grant @a[distance=..48] only stellarity:end_city/conqueror

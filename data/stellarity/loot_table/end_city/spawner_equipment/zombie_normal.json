@@ -7,12 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:end_city/spawner_equipment/pools/weapon_normal",
-					"weight": 3
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:end_city/spawner_equipment/pools/ranged_normal"
+					"value": "stellarity:end_city/spawner_equipment/pools/weapon_normal"
 				}
 			]
 		},

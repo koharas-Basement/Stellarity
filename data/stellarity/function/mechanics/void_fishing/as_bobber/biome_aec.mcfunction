@@ -1,58 +1,9 @@
-execute if biome ~ ~ ~ stellarity:fiery_hills run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"flame",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
+ride @n[type=minecraft:fishing_bobber] mount @s
 
-execute if biome ~ ~ ~ stellarity:crystal_crags run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"witch",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ far_end:amethyst_forest run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"witch",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
+data merge entity @s {Radius:0,Tags:["stellarity.void_fishing.aec","stellarity.aec"],Duration:2147483647}
+data modify entity @s Particle.block_state set from storage stellarity:temp void_fishing.particle
 
-execute if biome ~ ~ ~ far_end:warped_marsh run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"splash",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ stellarity:prismarine_forest run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"splash",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
+execute if entity @p[predicate=stellarity:items/holding/fisher_of_voids] run tag @s add stellarity.using_fisher
 
-execute if biome ~ ~ ~ stellarity:the_hallow run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"end_rod",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-
-execute if biome ~ ~ ~ far_end:ashfall_delta run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"smoke",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ far_end:the_nest run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"smoke",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-
-execute if biome ~ ~ ~ far_end:void run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-
-execute if biome ~ ~ ~ far_end:flesh_tundra run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ stellarity:frozen_spikes run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-
-execute if biome ~ ~ ~ far_end:end_wilds run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ far_end:ender_waste run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ minecraft:end_barrens run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ minecraft:end_highlands run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ minecraft:end_midlands run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-execute if biome ~ ~ ~ minecraft:small_end_islands run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
+function stellarity:mechanics/void_fishing/as_aec/lure
+function stellarity:mechanics/void_fishing/as_aec/roll_time/roll
