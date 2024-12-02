@@ -7,8 +7,8 @@
 		"fog_color": 12638463,
 		"water_color": 15368447,
 		"water_fog_color": 15034111,
-		"grass_color": 6078719,
-		"foliage_color": 5819646,
+		"grass_color": 11723263,
+		"foliage_color": 10937599,
 		"ambient_sound": {
 			"sound_id": "stellarity:ambient.end.heavenly.blessed"
 		},
@@ -48,7 +48,9 @@
 	"carvers": {},
 	"features": [
 		[
-			"stellarity:the_hallow/stalactite"
+			"stellarity:the_hallow/stalactite",
+			"stellarity:frozen_spikes/large_dripstone",
+			"stellarity:frosted_valley/hills"
 		],
 		[
 			"stellarity:the_hallow/crystals",
@@ -56,7 +58,7 @@
 			"stellarity:the_hallow/rock"
 		],
 		[
-			"stellarity:the_hallow/large_lake"
+			"stellarity:hallowed_tundra/large_lake"
 		],
 		[],
 		[],
@@ -65,17 +67,24 @@
 		[],
 		[],
 		[
-			"stellarity:the_hallow/trees",
-			"stellarity:the_hallow/cherry_petals",
-			"stellarity:the_hallow/flowers",
-			"stellarity:the_hallow/grass",
+			"stellarity:hallowed_tundra/trees",
 			"stellarity:the_hallow/lanterns",
 			"stellarity:the_hallow/lanterns_trees",
 			"stellarity:the_hallow/weeping_vines",
 			"stellarity:the_hallow/roots"
 		],
 		[
-			"stellarity:the_hallow/calcite"
+			"stellarity:frozen_spikes/replace_dripstone/1",
+			"stellarity:frozen_spikes/replace_dripstone/2",
+			"stellarity:frozen_spikes/replace_dripstone/3",
+			"stellarity:frozen_spikes/replace_dripstone/4",
+			"stellarity:frozen_spikes/replace_dripstone/5",
+			"stellarity:frozen_spikes/replace_dripstone/6",
+			"stellarity:frozen_spikes/replace_dripstone/7",
+			"stellarity:frozen_spikes/replace_dripstone/8",
+			"stellarity:frozen_spikes/replace_dripstone/9",
+			"stellarity:frozen_spikes/replace_dripstone/10",
+			"stellarity:frozen_spikes/replace_dripstone/11"
 		]
 	]
 }
