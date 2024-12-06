@@ -2,4 +2,6 @@ execute if predicate {"condition":"minecraft:location_check","predicate":{"biome
 
 execute if predicate stellarity:locations/below_y_0 run title @p[predicate=stellarity:void_fishing/holding_fishing_rod/any] actionbar {"translate":"stellarity.void_fishing.warning.too_deep","fallback": "Something tells you that you should fish higher...","color":"dark_purple"}
 
-execute unless predicate {"condition":"minecraft:location_check","predicate":{"biomes":["stellarity:dragons_den","minecraft:the_end"]}} unless predicate stellarity:locations/below_y_0 if biome ~ ~ ~ #stellarity:biomes/all run function stellarity:mechanics/void_fishing/as_bobber/start
+execute unless predicate {"condition":"minecraft:location_check","predicate":{"biomes":["stellarity:dragons_den","minecraft:the_end"]}} \
+    unless predicate stellarity:locations/below_y_0 \
+    run function stellarity:mechanics/void_fishing/as_bobber/start

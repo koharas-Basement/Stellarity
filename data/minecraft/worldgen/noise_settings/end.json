@@ -516,29 +516,50 @@
 								}
 							},
 							{
-								"type": "minecraft:condition",
-								"if_true": {
-									"type": "minecraft:stone_depth",
-									"offset": 0,
-									"surface_type": "floor",
-									"add_surface_depth": false,
-									"secondary_depth_range": 0
-								},
-								"then_run": {
-									"type": "minecraft:block",
-									"result_state": {
-										"Name": "minecraft:grass_block",
-										"Properties": {
-											"snowy": "false"
+								"type": "sequence",
+								"sequence": [
+									{
+										"type": "minecraft:condition",
+										"if_true": {
+											"type": "minecraft:biome",
+											"biome_is": [
+												"stellarity:hallowed_tundra"
+											]
+										},
+										"then_run": {
+											"type": "minecraft:block",
+											"sequence": [],
+											"result_state": {
+												"Name": "snow_block"
+											}
+										}
+									},
+									{
+										"type": "minecraft:condition",
+										"if_true": {
+											"type": "minecraft:stone_depth",
+											"offset": 0,
+											"surface_type": "floor",
+											"add_surface_depth": false,
+											"secondary_depth_range": 0
+										},
+										"then_run": {
+											"type": "minecraft:block",
+											"result_state": {
+												"Name": "minecraft:grass_block",
+												"Properties": {
+													"snowy": "false"
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dirt"
 										}
 									}
-								}
-							},
-							{
-								"type": "minecraft:block",
-								"result_state": {
-									"Name": "minecraft:dirt"
-								}
+								]
 							}
 						]
 					}
@@ -1043,21 +1064,6 @@
 							"type": "minecraft:block",
 							"result_state": {
 								"Name": "minecraft:calcite"
-							}
-						}
-					},
-					{
-						"type": "minecraft:condition",
-						"if_true": {
-							"type": "minecraft:biome",
-							"biome_is": [
-								"stellarity:the_void"
-							]
-						},
-						"then_run": {
-							"type": "minecraft:block",
-							"result_state": {
-								"Name": "minecraft:blackstone"
 							}
 						}
 					}

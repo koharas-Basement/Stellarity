@@ -16,5 +16,3 @@ data modify entity @n[type=item] Item.components."minecraft:trim" set from stora
 particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 function stellarity:mechanics/altar_of_accursed/crafting/global_effects
 
-data remove storage stellarity:temp aota.enchants
-data remove storage stellarity:temp aota.trim

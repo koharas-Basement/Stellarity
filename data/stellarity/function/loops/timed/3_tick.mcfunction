@@ -5,6 +5,6 @@ execute as @e[type=minecraft:shulker_bullet,tag=stellarity.defensive_shulker_bul
 tag @a[tag=stellarity.items.shulker_armor.attacker] remove stellarity.items.shulker_armor.attacker
 
 # Villagers
-execute as @e[type=villager,tag=stellarity.villager] at @s run function stellarity:mobs/villager/main
+#execute as @e[type=villager,tag=stellarity.villager] at @s run function stellarity:mobs/villager/main
 
 schedule function stellarity:loops/timed/3_tick 3t
