@@ -61,6 +61,14 @@ execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1
 execute if entity @s[predicate=stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/loop
 execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/stop
 
+# Sandstorm Trident
+# Note to self: all of these lines can be
+# removed once in 1.21.2+ for good as the throwing
+# event will be handled through the Mighty Wind enchant
+execute if entity @s[tag=stellarity.sandstorm_trident.holding,scores={kohara.thrown_trident=1..}] run function stellarity:items/sandstorm_trident/thrown
+tag @s[tag=stellarity.sandstorm_trident.holding] remove stellarity.sandstorm_trident.holding
+execute if entity @s[predicate=stellarity:items/holding/sandstorm_trident] run tag @s add stellarity.sandstorm_trident.holding
+
 ## Armor sets
 # Has to be ticked after everything so
 # that Floral Armor effects can work

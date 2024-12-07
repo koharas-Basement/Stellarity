@@ -11,11 +11,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/crystal_heartfish",
-					"weight": 18
-				},
-				{
-					"type": "minecraft:loot_table",
 					"value": "stellarity:items/materials/starlight_soot",
 					"weight": 9,
 					"functions": [

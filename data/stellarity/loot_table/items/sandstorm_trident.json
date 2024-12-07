@@ -19,6 +19,19 @@
 								},
 								"",
 								{
+									"translate": "stellarity.items.weapons.sandstorm_trident.flavor_text",
+									"fallback": "'he didn't want to do a portal gun'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
+									"translate": "- Donator Item -",
+									"color": "#F96854",
+									"italic": false
+								},
+								"",
+								{
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
@@ -32,14 +45,14 @@
 								{
 									"id": "minecraft:base_attack_damage",
 									"attribute": "minecraft:generic.attack_damage",
-									"amount": 7,
+									"amount": 5,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
 									"attribute": "minecraft:generic.attack_speed",
-									"amount": -3,
+									"amount": -3.1,
 									"operation": "add_value",
 									"slot": "mainhand"
 								}
@@ -53,10 +66,12 @@
 								},
 								"minecraft:custom_model_data": 90000,
 								"minecraft:fire_resistant": {},
-								"minecraft:unbreakable": {
-									"show_in_tooltip": false
+								"max_damage": 1264,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"italic\": false}",
+								"minecraft:enchantments": {
+									"stellarity:mighty_wind": 1
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

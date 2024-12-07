@@ -18,23 +18,9 @@
 	},
 	"parent": "minecraft:end/find_end_city",
 	"criteria": {
-		"open_chest_1": {
-			"trigger": "minecraft:player_generates_container_loot",
-			"conditions": {
-				"loot_table": "stellarity:end_city/small_tower"
-			}
-		},
-		"open_chest_2": {
-			"trigger": "minecraft:player_generates_container_loot",
-			"conditions": {
-				"loot_table": "stellarity:end_city/top_tower"
-			}
+		"criteria": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [
-		[
-			"open_chest_1",
-			"open_chest_2"
-		]
-	]
+	"requirements": []
 }

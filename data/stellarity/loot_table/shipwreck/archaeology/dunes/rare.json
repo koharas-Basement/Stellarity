@@ -36,8 +36,16 @@
 					"value": "stellarity:items/music_disc/fires_of_hokkai"
 				},
 				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/cassandras_prophecy"
+					"type": "minecraft:item",
+					"name": "book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"stellarity:dune_speed"
+							]
+						}
+					]
 				}
 			]
 		}

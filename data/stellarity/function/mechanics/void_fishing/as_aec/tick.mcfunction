@@ -20,3 +20,6 @@ execute unless entity @s[tag=stellarity.can_fish_out] unless entity @e[type=fish
 	function stellarity:mechanics/void_fishing/as_aec/stop
 execute if entity @s[tag=stellarity.can_fish_out] unless entity @e[type=fishing_bobber,tag=stellarity.checked_bobber,distance=..2,limit=1] run \
 	function stellarity:mechanics/void_fishing/as_aec/fish
+
+particle dragon_breath ~ ~ ~ 2 0.25 2 0.015 2 force @a[distance=..40]
+particle end_rod ~ ~ ~ 2 0.25 2 0.015 1 force @a[distance=..40]

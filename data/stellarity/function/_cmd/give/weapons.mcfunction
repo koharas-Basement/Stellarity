@@ -12,7 +12,6 @@ loot give @s loot stellarity:items/starless_scythe
 loot give @s loot stellarity:items/tamaris
 loot give @s loot stellarity:items/spectral_fury
 loot give @s loot stellarity:items/stellar_striker
-loot give @s loot stellarity:items/cassandras_prophecy
 
 loot give @s loot stellarity:items/tools/shulker/axe
 loot give @s loot stellarity:items/tools/shulker/pickaxe

@@ -35,7 +35,8 @@
 						"type": "minecraft:matching_blocks",
 						"blocks": [
 							"minecraft:dirt",
-							"minecraft:grass_block"
+							"minecraft:grass_block",
+							"minecraft:snow_block"
 						]
 					}
 				]

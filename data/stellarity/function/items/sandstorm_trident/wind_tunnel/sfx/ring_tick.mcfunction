@@ -1,0 +1,13 @@
+execute if predicate kohara:chance/15percent positioned ^ ^3 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^1.5 ^2.59808 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^2.59808 ^1.5 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^3 ^ ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^2.59808 ^-1.5 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^1.5 ^-2.59808 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^ ^-3 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^-1.5 ^-2.59808 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^-2.59808 ^-1.5 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^-3 ^ ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^-2.59808 ^1.5 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+execute if predicate kohara:chance/15percent positioned ^-1.5 ^2.59808 ^ run particle dust{color:[0.937, 0.898, 0.643],scale:1.3} ~ ~ ~ 0.35 0.35 0.35 0 11 force @a[distance=..64]
+
