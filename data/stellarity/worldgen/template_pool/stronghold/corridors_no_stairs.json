@@ -317,6 +317,15 @@
 			}
 		},
 		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/sculk_lab",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
 			"weight": 5,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
