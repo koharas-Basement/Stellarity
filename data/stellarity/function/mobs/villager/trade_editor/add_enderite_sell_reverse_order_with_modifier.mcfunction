@@ -1,0 +1,5 @@
+$data modify storage stellarity:temp villager_trades append value {xp:$(xp),maxUses:$(max_uses),rewardExp:1b,priceMultiplier:$(price_multiplier),buy:{id:"minecraft:$(buy_a_id)",count:$(buy_a_count)},buyB:{id:"minecraft:amethyst_shard",count:$(buy_b_count),components:{"minecraft:item_name":"{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"stellarity.items.materials.enderite_shard\",\"fallback\":\"Enderite Shard\"}","minecraft:lore":["{\"text\":\"\"}","{\"italic\":false,\"color\":\"#EEEEEE\",\"translate\":\"stellarity.items.materials.enderite_shard.description\",\"fallback\":\"Contains a fraction of the unknown\"}","{\"text\":\"\"}","{\"italic\":true,\"color\":\"#CC26FF\",\"translate\":\"Stellarity\"}"],"minecraft:custom_model_data":90001,"minecraft:custom_data":{stellarity.special_item:"enderite_shard"}}},sell:{id:"minecraft:stone",count:1}}
+
+$item replace entity @s villager.0 with minecraft:$(sell) $(sell_count)
+$item modify entity @s villager.0 $(modifier)
+data modify storage stellarity:temp villager_trades[-1].sell set from entity @s Inventory[0]

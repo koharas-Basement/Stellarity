@@ -84,7 +84,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:amethyst_shard",
+					"name": "minecraft:",
 					"weight": 6,
 					"functions": [
 						{

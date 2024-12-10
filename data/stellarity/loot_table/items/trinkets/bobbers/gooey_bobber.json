@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 011010010110010001101011,
+                                "minecraft:custom_data": {},
+                                "minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.bobbers.gooey_bobber\",\"fallback\": \"Gooey Bobber\",\"color\": \"#EEEEEE\",\"italic\": false}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                "",
+                                {
+                                    "translate": "stellarity.items.trinkets.bobbers.gooey_bobber.description",
+                                    "fallback": "Void Fishing can catch Gooshes",
+                                    "color": "#EEEEEE",
+                                    "italic": false
+                                },
+                                "",
+                                {
+                                    "translate": "Stellarity",
+                                    "color": "#CC26FF",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
