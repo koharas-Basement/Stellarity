@@ -6,7 +6,7 @@ data remove storage stellarity:temp villager_trades[-1]
 
 # First Trade
 
-function stellarity:mobs/villager/trade_editor/add_enderite_buy_for_loot_table {max_uses:8,xp:4,price_multiplier:0.05,loot_table:"stellarity:villager/fisherman/lvl2",buy_a_count:6,buy_b_id:"air",buy_b_count:1,sell_count:1}
+function stellarity:mobs/villager/trade_editor/add_enderite_buy_for_loot_table {max_uses:8,xp:4,price_multiplier:0.05,loot_table:"stellarity:villager/fisherman/2/1",buy_a_count:6,buy_b_id:"air",buy_b_count:1,sell_count:1}
 
 # Second Trade
 execute store result score #trade stellarity.misc run random value 1..2
