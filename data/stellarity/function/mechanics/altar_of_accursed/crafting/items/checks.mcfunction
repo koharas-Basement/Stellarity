@@ -1,47 +1,55 @@
 # Cursed Enchiridion/Enchillada/Tome/Whatever
-execute if entity @e[type=item,tag=stellarity.aota.enchanted_book,distance=..1.5] run \
+execute if score @s stellarity.misc matches 1 \ 
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.enchanted_book] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/cursed_tome
 
 # Chorus Plating
-execute if entity @e[type=item,tag=stellarity.aota.iron_ingot,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.popped_chorus_fruit,distance=..1.5] run \
+execute if score @s stellarity.misc matches 2 \ 
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.iron_ingot] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.popped_chorus_fruit,scores={stellarity.aota.count=2}] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/chorus_plating
 
 # Copying Enderite Upgrade Smithing Template
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.9_purpur_blocks,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.5_enderite_shards,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \  
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.purpur_block,scores={stellarity.aota.count=9}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_shard,scores={stellarity.aota.count=5}] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/smithing_template
 
 # Pandora's Barrel
-execute if entity @e[type=item,tag=stellarity.aota.barrel,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.1_iron_block,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.1_gold_block,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \   
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.barrel,scores={stellarity.aota.count=1}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.iron_block,scores={stellarity.aota.count=1}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.gold_block,scores={stellarity.aota.count=1}] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/pandoras_barrel
 
 # Spectral Fury
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.sharanga,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.8_membranes,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.3_diamonds,distance=..1.5] run \
+execute if score @s stellarity.misc matches 4 \ 
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.sharanga] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.phantom_membrane,scores={stellarity.aota.count=8}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.diamond,scores={stellarity.aota.count=3}] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/spectral_fury
 
 # Hematic Pickaxe
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.living_flesh,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \   
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.living_flesh] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_pickaxe] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/hematic_pickaxe
 
 # Call of The Void
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
-	if entity @e[type=item,tag=stellarity.aota.bow,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.16_enderite_shards,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.8_dragon_breath,distance=..1.5] run \
+execute if score @s stellarity.misc matches 4 \    
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.bow] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_shard,scores={stellarity.aota.count=16}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.dragon_breath,scores={stellarity.aota.count=8}] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/call_of_the_void
 
 # Sandstorm Trident
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
-	if entity @e[type=item,tag=stellarity.aota.trident,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.2_breeze_rods,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.sand_rune,distance=..1.5] run \
+execute if score @s stellarity.misc matches 4 \    
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.trident] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.breeze_rod,scores={stellarity.aota.count=2}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.sand_rune,scores={stellarity.aota.count=1}] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/sandstorm_trident

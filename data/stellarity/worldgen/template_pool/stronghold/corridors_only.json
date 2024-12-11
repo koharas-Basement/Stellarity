@@ -137,6 +137,15 @@
 			}
 		},
 		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "stellarity:stronghold/corridors/stairs_round_trap",
+				"processors": "stellarity:stronghold_generic"
+			}
+		},
+		{
 			"weight": 15,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
