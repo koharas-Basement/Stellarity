@@ -13,9 +13,9 @@
 							"components": {
 								"minecraft:custom_model_data": 90009,
 								"minecraft:custom_data": {
-									"stellarity.special_item": "amethyst_budfish"
+									"stellarity.special_item": ""
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.amethyst_budfish\",\"fallback\":\"Amethyst Budfish\"}",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.\",\"fallback\":\"Amethyst Budfish\"}",
 								"food": {
 									"nutrition": 1,
 									"saturation": 0.4,
