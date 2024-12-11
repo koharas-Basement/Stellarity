@@ -175,6 +175,8 @@ scoreboard objectives add stellarity.music.ender_dragon.timer dummy
 scoreboard objectives add stellarity.music.empress_of_light.timer dummy
 
 ## Mechanics
+scoreboard objectives add stellarity.aota.count dummy
+
 scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
@@ -208,6 +210,8 @@ scoreboard objectives add stellarity.misc.loop.5t dummy
 scoreboard objectives add stellarity.misc.loop.1s dummy
 scoreboard objectives add stellarity.misc.loop.10s dummy
 scoreboard objectives add stellarity.misc.loop.15s dummy
+
+function stellarity:utils/stringlib/zprivate/load
 
 ## Creating teams
 team add stellarity.purple_glow

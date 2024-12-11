@@ -9,6 +9,9 @@ playsound minecraft:ui.loom.take_result block @a[distance=0..] ~ ~-.4 ~ 0.8 1.1
 
 function stellarity:mechanics/altar_of_accursed/crafting/global_effects_wave
 
+tag @n[type=item,tag=stellarity.aota.minecraft.elytra] add stellarity.aota.skip
+kill @e[type=item,distance=..1.5,tag=!stellarity.aota.minecraft.elytra]
+
 advancement grant @p only stellarity:aota/dye_elytra
 
-execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] unless data entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color" run data modify entity @s Item.components."minecraft:lore" insert 0 value '{"translate":"item.dyed","color":"gray","italic":true}'
+execute as @n[type=item,distance=..1.5,tag=stellarity.aota.minecraft.elytra] unless data entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color" run data modify entity @s Item.components."minecraft:lore" insert 0 value '{"translate":"item.dyed","color":"gray","italic":true}'

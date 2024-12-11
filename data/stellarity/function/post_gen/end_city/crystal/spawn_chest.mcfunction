@@ -1,6 +1,4 @@
-kill @s
-kill @n[type=interaction,tag=stellarity.end_city.crystal]
-kill @n[type=marker,tag=stellarity.end_city.crystal]
+advancement grant @a[distance=..10] only stellarity:end_city/crystal_crusher
 
 execute if entity @s[tag=stellarity.end_city.crystal_small_tower] run setblock ~ ~-1 ~ vault[ominous=false,vault_state=inactive]{config:{loot_table:"stellarity:end_city/vault/normal",key_item:{id:"minecraft:trial_key",count:1,components:{"minecraft:custom_model_data": 90000, "minecraft:item_name": '{"fallback":"Purpur Key","translate":"stellarity.items.materials.keys.purpur"}', "minecraft:lore": ['""', '{"color":"#EEEEEE","fallback":"Opens Vaults in End Cities","italic":false,"translate":"stellarity.items.materials.keys.purpur.description"}', '""', '{"color":"#CC26FF","italic":true,"translate":"Stellarity"}'], "minecraft:rarity": "uncommon", "minecraft:custom_data": {stellarity.special_item: "purpur_key"}}}}} replace
 
@@ -45,3 +43,7 @@ playsound minecraft:block.respawn_anchor.deplete block @a[distance=0..] ~ ~ ~ 1 
 
 advancement grant @a[distance=..48] only stellarity:end_city/crystal_crusher
 execute unless entity @e[type=end_crystal,distance=..200,tag=stellarity.end_city.crystal] run advancement grant @a[distance=..48] only stellarity:end_city/conqueror
+
+kill @s
+kill @n[type=interaction,tag=stellarity.end_city.crystal]
+kill @n[type=marker,tag=stellarity.end_city.crystal]

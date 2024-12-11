@@ -21,6 +21,5 @@
 		"criteria": {
 			"trigger": "minecraft:impossible"
 		}
-	},
-	"requirements": []
+	}
 }

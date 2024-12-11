@@ -1,29 +1,34 @@
 # Pickaxe
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_pickaxe] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/shulker_tools/pickaxe
 
 # Axe
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.netherite_axe,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_axe] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/shulker_tools/axe
 
 # Shovel
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.netherite_shovel,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_shovel] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/shulker_tools/shovel
 
 # Hoe
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.netherite_hoe,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_hoe] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/shulker_tools/hoe
 
 # Sword
-execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5] \
-	if entity @e[type=item,tag=stellarity.aota.netherite_sword,distance=..1.5] run \
+execute if score @s stellarity.misc matches 3 \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_sword] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/shulker_tools/sword
