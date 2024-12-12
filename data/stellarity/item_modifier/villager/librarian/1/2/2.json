@@ -1,1 +1,11 @@
-[]
+{
+	"function": "minecraft:enchant_randomly",
+	"options": [
+		"minecraft:fire_aspect",
+		"minecraft:flame",
+		"minecraft:knockback",
+		"minecraft:unbreaking",
+		"minecraft:aqua_affinity"
+	],
+	"only_compatible": true
+}

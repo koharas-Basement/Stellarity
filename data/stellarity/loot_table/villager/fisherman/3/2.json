@@ -1,1 +1,21 @@
-{}
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/food/fish/crimson_tigerfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/food/fish/fleshy_piranha"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/food/fish/flarefin_koi"
+				}
+			]
+		}
+	]
+}
