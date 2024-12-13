@@ -1,8 +1,9 @@
-data merge entity @s {Offers:{Recipes:[]}}
 data remove storage stellarity:temp villager_trades
+data modify storage stellarity:temp villager_trades set from entity @s Offers.Recipes
 
 data remove storage stellarity:temp villager_trades[-1]
 data remove storage stellarity:temp villager_trades[-1]
+
 
 # First Trade
 function stellarity:mobs/villager/trade_editor/add_from_loot_table {xp:8,max_uses:6,price_multiplier:0.05,buy_a_count:1,buy_b_id:"air",buy_b_count:1,loot_table:"stellarity:villager/shepherd/banner",sell_count:1}

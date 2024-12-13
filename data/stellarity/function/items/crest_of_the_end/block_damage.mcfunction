@@ -1,7 +1,7 @@
 advancement revoke @s only stellarity:events/items/crest/block
 
 execute unless score @s stellarity.items.crest.bonus_dmg matches 3.. run scoreboard players add @s stellarity.items.crest.bonus_dmg 1
-scoreboard players set @s stellarity.items.crest.time 50
+scoreboard players set @s stellarity.items.crest.time 80
 
 attribute @s generic.attack_damage modifier remove stellarity:crest
 attribute @s[scores={stellarity.items.crest.bonus_dmg=1}] \

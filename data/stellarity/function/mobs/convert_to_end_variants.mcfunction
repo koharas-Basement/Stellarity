@@ -1,4 +1,4 @@
-execute if entity @s[type=enderman,predicate=!stellarity:locations/dragons_den/in_biome] run function stellarity:mobs/stat_buff/enderman
+execute if entity @s[type=enderman] run function stellarity:mobs/stat_buff/enderman
 execute if entity @s[type=phantom] run function stellarity:mobs/stat_buff/phantom
 execute if entity @s[type=silverfish] run function stellarity:mobs/voided_silverfish/convert
 execute if entity @s[type=slime] run function stellarity:mobs/voided_slime/convert

@@ -84,21 +84,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:",
-					"weight": 6,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:phantom_membrane",
 					"weight": 6,
 					"functions": [
