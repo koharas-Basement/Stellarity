@@ -26,5 +26,28 @@
 	"slots": [
 		"mainhand"
 	],
-	"effects": {}
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"tags": [
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}
+						],
+						"is_direct": true
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "stellarity:items/frigid_harvester/attack"
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			}
+		]
+	}
 }
