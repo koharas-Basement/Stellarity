@@ -1,5 +1,5 @@
-data merge entity @s {Offers:{Recipes:[]}}
 data remove storage stellarity:temp villager_trades
+data modify storage stellarity:temp villager_trades set from entity @s Offers.Recipes
 
 data remove storage stellarity:temp villager_trades[-1]
 data remove storage stellarity:temp villager_trades[-1]

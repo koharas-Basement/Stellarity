@@ -1,8 +1,12 @@
 data modify storage stellarity:temp villager_data set from entity @s VillagerData
 
-execute unless data storage stellarity:temp {villager_data:{profession:"minecraft:none"}} if entity @s[tag=!stellarity.villager.employed] run function stellarity:mobs/villager/mark_as_employed
+execute if entity @s[tag=!stellarity.villager.employed] \
+    unless data storage stellarity:temp {villager_data:{profession:"minecraft:none"}} run function stellarity:mobs/villager/mark_as_employed
 
-execute if data storage stellarity:temp {villager_data:{profession:"minecraft:none"}} if entity @s[tag=stellarity.villager.employed] run function stellarity:mobs/villager/unemploy
+execute unless entity @s[tag=stellarity.villager.level_2] \
+    if entity @s[tag=stellarity.villager.employed] \
+    if data storage stellarity:temp {villager_data:{profession:"minecraft:none"}} \
+    run function stellarity:mobs/villager/unemploy
 
 execute if data storage stellarity:temp {villager_data:{level:2}} if entity @s[tag=!stellarity.villager.level_2] run function stellarity:mobs/villager/update_trades_level_2
 execute if data storage stellarity:temp {villager_data:{level:3}} if entity @s[tag=!stellarity.villager.level_3] run function stellarity:mobs/villager/update_trades_level_3

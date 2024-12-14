@@ -1,8 +1,9 @@
-data merge entity @s {Offers:{Recipes:[]}}
 data remove storage stellarity:temp villager_trades
+data modify storage stellarity:temp villager_trades set from entity @s Offers.Recipes
 
 data remove storage stellarity:temp villager_trades[-1]
 data remove storage stellarity:temp villager_trades[-1]
+
 
 # First Trade
 function stellarity:mobs/villager/trade_editor/add_enderite_sell_reverse_order_with_modifier {xp:8,max_uses:6,price_multiplier:0.05,buy_a_id:"arrow",buy_a_count:8,buy_b_count:2,sell:"tipped_arrow",sell_count:8,modifier:"stellarity:villager/fletcher/4/1"}

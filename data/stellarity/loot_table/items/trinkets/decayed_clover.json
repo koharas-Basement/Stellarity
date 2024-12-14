@@ -1,70 +1,73 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:popped_chorus_fruit",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "id": "stellarity:decayed_clover.1",
-                                    "attribute": "minecraft:generic.luck",
-                                    "amount": 1,
-                                    "operation": "add_value",
-                                    "slot": "offhand"
-                                },
-                                {
-                                    "id": "stellarity:decayed_clover.2",
-                                    "attribute": "minecraft:generic.luck",
-                                    "amount": 0.1,
-                                    "operation": "add_multiplied_base",
-                                    "slot": "offhand"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_model_data": 011010010110010001101011,
-                                "minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.decayed_clover\",\"fallback\": \"Decayed Clover\",\"italic\": false}",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [],
-                                    "show_in_tooltip": false
-                                }
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                "",
-                                {
-                                    "translate": "stellarity.items.trinkets.decayed_clover.description.1",
-                                    "fallback": "Increases loot quality",
-                                    "color": "#EEEEEE",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "stellarity.items.trinkets.decayed_clover.description.2",
-                                    "fallback": "Increases Void Fishing luck",
-                                    "color": "#EEEEEE",
-                                    "italic": false
-                                },
-                                "",
-                                {
-                                    "translate": "Stellarity",
-                                    "color": "#CC26FF",
-                                    "italic": true
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "stellarity:decayed_clover.1",
+									"attribute": "minecraft:generic.luck",
+									"amount": 1,
+									"operation": "add_value",
+									"slot": "offhand"
+								},
+								{
+									"id": "stellarity:decayed_clover.2",
+									"attribute": "minecraft:generic.luck",
+									"amount": 0.1,
+									"operation": "add_multiplied_base",
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.decayed_clover\",\"fallback\": \"Decayed Clover\",\"italic\": false}",
+								"minecraft:attribute_modifiers": {
+									"modifiers": [],
+									"show_in_tooltip": false
+								},
+                                "minecraft:custom_data": {
+									"stellarity.special_item": "decayed_clover"
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.decayed_clover.description.1",
+									"fallback": "Increases loot quality",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.decayed_clover.description.2",
+									"fallback": "Increases Void Fishing luck",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	]
 }

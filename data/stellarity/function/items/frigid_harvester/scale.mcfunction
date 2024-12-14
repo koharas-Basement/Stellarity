@@ -17,6 +17,8 @@ execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={huge
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={boss=true}}] run \
 	scoreboard players set #damage_extra stellarity.misc 78
 
+execute if score #damage stellarity.misc matches 1200.. run return 1
+
 # Contants
 scoreboard players set #3 stellarity.misc 3
 scoreboard players set #100 stellarity.misc 100

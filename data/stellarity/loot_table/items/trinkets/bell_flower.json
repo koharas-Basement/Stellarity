@@ -11,7 +11,9 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_model_data": 90002,
-								"minecraft:custom_data": {"stellarity.special_item":"bell_flower"},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "bell_flower"
+								},
 								"minecraft:rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.bell_flower\",\"fallback\": \"Bell Flower\"}"
 							}
@@ -24,6 +26,12 @@
 									"translate": "stellarity.items.trinkets.bell_flower.description",
 									"fallback": "Reveals nearby entities while held",
 									"color": "#EEEEEE",
+									"italic": false
+								},
+								" ",
+								{
+									"translate": "- Donator Item -",
+									"color": "#F96854",
 									"italic": false
 								},
 								"",

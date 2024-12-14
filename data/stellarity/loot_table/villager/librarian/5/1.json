@@ -1,1 +1,21 @@
-{}
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/spellbooks/conveyance"
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/spellbooks/updraft"
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/spellbooks/light"
+				}
+			]
+		}
+	]
+}

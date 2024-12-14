@@ -18,7 +18,10 @@
 										"abilities": []
 									}
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.frigid_harvester\",\"fallback\": \"Frigid Harvester\",\"color\": \"#4BC6FF\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.frigid_harvester\",\"fallback\": \"Frigid Harvester\",\"color\": \"#4BC6FF\"}",
+								"enchantments": {
+									"stellarity:soul_harvest": 1
+								}
 							}
 						},
 						{
