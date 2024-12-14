@@ -4,6 +4,11 @@ scoreboard players operation @s stellarity.status_effects.jinx.level = #effect.l
 execute store result storage stellarity:temp status_effects.jinx.luck int 0.5 run scoreboard players get #effect.level stellarity.misc
 execute store result storage stellarity:temp status_effects.jinx.armor float 0.1 run scoreboard players get #effect.level stellarity.misc
 
+attribute @s generic.armor modifier remove stellarity:jinx
+attribute @s generic.armor_toughness modifier remove stellarity:jinx
+attribute @s generic.knockback_resistance modifier remove stellarity:jinx
+attribute @s generic.luck modifier remove stellarity:jinx
+
 function stellarity:utils/status_effects/jinx/attributes with storage stellarity:temp status_effects.jinx
 
 playsound minecraft:entity.elder_guardian.curse neutral @s[tag=!stellarity.jinxed] ~ ~ ~ 0.4 1.2

@@ -1,1 +1,1 @@
-$summon item ~ ~ ~ {Item:{id:"$(id)",count:$(Count),tag:$(tag)}}
+$summon item ~ ~ ~ {Item:{id:"$(id)",count:$(count),components:$(components)}}

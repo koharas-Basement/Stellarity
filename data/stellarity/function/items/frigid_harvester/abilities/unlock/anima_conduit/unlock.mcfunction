@@ -2,7 +2,7 @@ data modify storage stellarity:temp aery_sword.custom_data set from storage stel
 
 data modify storage stellarity:temp aery_sword.custom_data."stellarity.aery_sword".abilities append value "anima_conduit"
 
-tellraw @s {"translate":"stellarity.items.weapons.frigid_harvester.ability.tellraw.1","feedback":"--------< %1$s - %2$s >--------","color":"gray","with":[{"translate":"stellarity.items.weapons.frigid_harvester.ability.tellraw.2","fallback":"ABILITY UNLOCK","bold":true,"color":"#EEEEEE"},{"translate":"stellarity.items.weapons.frigid_harvester.ability.anima_conduit","fallback":"Anima Conduit","color":"#4BC6FF"}]}
+tellraw @s {"translate":"stellarity.items.weapons.frigid_harvester.ability.tellraw.1","fallback":"--------< %1$s - %2$s >--------","color":"gray","with":[{"translate":"stellarity.items.weapons.frigid_harvester.ability.tellraw.2","fallback":"ABILITY UNLOCK","bold":true,"color":"#EEEEEE"},{"translate":"stellarity.items.weapons.frigid_harvester.ability.anima_conduit","fallback":"Anima Conduit","color":"#4BC6FF"}]}
 tellraw @s " "
 tellraw @s {"translate":"stellarity.items.weapons.frigid_harvester.ability.anima_conduit.description","fallback":"Souls are crushed down and converted into a healing force","color":"#EEEEEE"}
 tellraw @s " "

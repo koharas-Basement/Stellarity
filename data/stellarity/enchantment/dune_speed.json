@@ -9,11 +9,11 @@
 	"weight": 1,
 	"max_level": 3,
 	"min_cost": {
-		"base": 10,
+		"base": 35,
 		"per_level_above_first": 10
 	},
 	"max_cost": {
-		"base": 25,
+		"base": 50,
 		"per_level_above_first": 10
 	},
 	"anvil_cost": 8,
@@ -80,7 +80,7 @@
 													"predicate": {
 														"stepping_on": {
 															"block": {
-																"blocks": "#minecraft:sand"
+																"blocks": "#stellarity:dune_speed_procs_speed_bonus"
 															}
 														}
 													}
@@ -111,7 +111,7 @@
 											"predicate": {
 												"stepping_on": {
 													"block": {
-														"blocks": "#minecraft:sand"
+														"blocks": "#stellarity:dune_speed_procs_speed_bonus"
 													}
 												},
 												"flags": {
@@ -147,7 +147,7 @@
 							"predicate": {
 								"stepping_on": {
 									"block": {
-										"blocks": "#minecraft:sand"
+										"blocks": "#stellarity:dune_speed_procs_speed_bonus"
 									}
 								},
 								"flags": {
