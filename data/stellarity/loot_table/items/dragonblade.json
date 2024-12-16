@@ -19,7 +19,10 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.dragonblade\",\"fallback\": \"Dragonblade\",\"color\": \"#CD6AFF\",\"italic\": false}",
-								"minecraft:rarity": "epic"
+								"minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "stellarity:draconic": 1
+                                }
 							}
 						},
 						{
