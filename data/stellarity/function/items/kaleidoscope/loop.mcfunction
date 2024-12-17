@@ -1,14 +1,14 @@
-execute if score @s stellarity.items.kaleidoscope.charge_progress matches 159 run playsound stellarity:item.kaleidoscope.ready player @s ~ ~ ~ 1 1
-execute if score @s stellarity.items.kaleidoscope.charge_progress matches 159 run playsound minecraft:item.firecharge.use player @s ~ ~ ~ 1 2
+execute if score @s stellarity.items.kaleidoscope.charge_progress matches 119 run playsound stellarity:item.kaleidoscope.ready player @s ~ ~ ~ 1 1
+execute if score @s stellarity.items.kaleidoscope.charge_progress matches 119 run playsound minecraft:item.firecharge.use player @s ~ ~ ~ 1 2
 
-execute unless score @s stellarity.items.kaleidoscope.charge_progress matches 160.. run scoreboard players add @s stellarity.items.kaleidoscope.charge_progress 1
+execute unless score @s stellarity.items.kaleidoscope.charge_progress matches 120.. run scoreboard players add @s stellarity.items.kaleidoscope.charge_progress 1
 
-# charge = charge_progress / 1.6
+# charge = charge_progress / 1.2
 scoreboard players set #10 stellarity.misc 10
-scoreboard players set #16 stellarity.misc 16
+scoreboard players set #12 stellarity.misc 12
 scoreboard players operation @s stellarity.items.kaleidoscope.charge = @s stellarity.items.kaleidoscope.charge_progress
 scoreboard players operation @s stellarity.items.kaleidoscope.charge *= #10 stellarity.misc
-scoreboard players operation @s stellarity.items.kaleidoscope.charge /= #16 stellarity.misc
+scoreboard players operation @s stellarity.items.kaleidoscope.charge /= #12 stellarity.misc
 
 title @s actionbar [{"text":"•","color":"#EEEEEE"},{"text":" ⭐ ","color":"#FFCF37"},{"score":{"name": "@s","objective": "stellarity.items.kaleidoscope.charge"},"color":"#EEEEEE"},{"text":" ⭐ ","color":"#FFCF37"},{"text":"•","color":"#EEEEEE"}]
 

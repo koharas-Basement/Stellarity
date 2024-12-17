@@ -18,7 +18,10 @@
 									"stellarity.special_item": "kaleidoscope"
 								},
 								"minecraft:fire_resistant": {},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.kaleidoscope\",\"fallback\": \"Kaleidoscope\",\"color\": \"#FFCF37\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.kaleidoscope\",\"fallback\": \"Kaleidoscope\",\"color\": \"#FFCF37\",\"italic\": false}",
+                                "minecraft:enchantments": {
+                                    "stellarity:daybroken": 1
+                                }
 							}
 						},
 						{

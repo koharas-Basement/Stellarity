@@ -255,25 +255,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/starless_scythe"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/spellbooks/jinx"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.2
-				}
-			]
 		}
 	]
 }
