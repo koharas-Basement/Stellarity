@@ -16,18 +16,18 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 	logoFile = "pack.png"
 	logoBlur = false
 	updateJSONURL = "https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json"
-	credits="misode, Bush_King, Brokenemp, Phoenix, Hex"
+	credits="brokenemp (Artist)","Dat1Mexican (RP Bedrock Port)","Bush_King (Builder)","Opliz (Builder)"
 	authors = "kohara"
 
 [[dependencies.stellarity]]
-	modId="neoforge"
-	mandatory=false
-	versionRange="[20.2,)"
-	ordering="NONE"
-	side="BOTH"
+    modId="neoforge"
+    mandatory=false
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.stellarity]]
-	modId="minecraft"
-	mandatory=true
-	versionRange="[1.21,1.21]"
-	ordering="NONE"
-	side="BOTH"
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21,1.21.1]"
+    ordering="NONE"
+    side="BOTH"
