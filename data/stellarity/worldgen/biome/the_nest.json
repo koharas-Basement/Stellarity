@@ -56,8 +56,8 @@
 	"features": [
 		[
 			"stellarity:global/stalactite",
-			"far_end:nest/hills/deepslate",
-			"far_end:nest/surface/tuff"
+			"stellarity:the_nest/deepslate",
+			"stellarity:the_nest/tuff"
 		],
 		[],
 		[
@@ -68,11 +68,11 @@
 		[],
 		[],
 		[
-			"far_end:nest/vegetation/dead_corals"
+			"stellarity:the_nest/dead_corals"
 		],
 		[],
 		[
-			"stellarity:nest/transition"
+			"stellarity:the_nest/transition"
 		]
 	]
 }

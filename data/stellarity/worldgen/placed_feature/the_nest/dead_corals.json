@@ -1,18 +1,12 @@
 {
-    "feature": "far_end:nest/hills/deepslate",
+    "feature": "stellarity:the_nest/dead_corals",
     "placement": [
         {
-            "type": "minecraft:count",
-            "count": 50
+            "type": "count",
+            "count": 75
         },
         {
             "type": "minecraft:in_square"
-        },
-        {
-            "type": "minecraft:noise_based_count",
-            "noise_to_count_ratio": 30,
-            "noise_factor": 100,
-            "noise_offset": 0
         },
         {
             "type": "minecraft:height_range",
@@ -38,7 +32,7 @@
                     "minecraft:air"
                 ]
             },
-            "max_steps": 32
+            "max_steps": 12
         },
         {
             "type": "minecraft:biome"
