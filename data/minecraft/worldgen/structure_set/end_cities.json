@@ -2,11 +2,11 @@
 	"structures": [
 		{
 			"structure": "minecraft:end_city",
-			"weight": 5
+			"weight": 3
 		},
 		{
 			"structure": "stellarity:village",
-			"weight": 2
+			"weight": 1
 		}
 	],
 	"placement": {
@@ -15,6 +15,6 @@
 		"frequency": 0.5,
 		"spread_type": "triangular",
 		"spacing": 25,
-		"separation": 16
+		"separation": 24
 	}
 }

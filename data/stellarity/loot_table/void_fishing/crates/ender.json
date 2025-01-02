@@ -188,25 +188,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/the_beginning_and_the_end"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/chorus_dagger"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.2
-				}
-			]
 		}
 	]
 }

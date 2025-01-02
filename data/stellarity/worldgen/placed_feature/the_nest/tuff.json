@@ -1,12 +1,18 @@
 {
-	"feature": "stellarity:nest/transition",
+	"feature": "stellarity:the_nest/tuff",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 256
+			"count": 30
 		},
 		{
 			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 1,
+			"noise_factor": 100,
+			"noise_offset": 1
 		},
 		{
 			"type": "minecraft:height_range",
@@ -22,7 +28,7 @@
 		},
 		{
 			"type": "minecraft:environment_scan",
-			"direction_of_search": "up",
+			"direction_of_search": "down",
 			"max_steps": 32,
 			"target_condition": {
 				"type": "minecraft:solid"
@@ -36,11 +42,6 @@
 		},
 		{
 			"type": "minecraft:biome"
-		},
-		{
-			"type": "random_offset",
-			"y_spread": 1,
-			"xz_spread": 0
 		}
 	]
 }

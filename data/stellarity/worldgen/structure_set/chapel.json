@@ -12,7 +12,7 @@
 			"other_set": "minecraft:end_cities",
 			"chunk_count": 10
 		},
-		"spacing": 17,
-		"separation": 16
+		"spacing": 21,
+		"separation": 20
 	}
 }

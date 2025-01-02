@@ -137,21 +137,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/trinkets/bell_flower"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.16666
-				}
-			]
 		}
 	]
 }

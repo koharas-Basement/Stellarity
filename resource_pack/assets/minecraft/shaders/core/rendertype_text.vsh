@@ -20,18 +20,18 @@ out vec2 texCoord0;
 
 /* START OF STELLARITY SHADER CODE */
 vec3 hsvToRgb(float h, float s, float v) {
-    vec3 rgb = clamp(abs(mod(h * 6.0 + vec3(0.0, 4.0, 2.0), 6.0) - 3.0) - 1.0, 0.0, 1.0);
-    return v * mix(vec3(1.0), rgb, s);
+	vec3 rgb = clamp(abs(mod(h * 6.0 + vec3(0.0, 4.0, 2.0), 6.0) - 3.0) - 1.0, 0.0, 1.0);
+	return v * mix(vec3(1.0), rgb, s);
 }
 /* END OF STELLARITY SHADER CODE */
 
 void main() {
 	vec4 color = Color; // added: 'color' is a vector that can be changed, unlike 'Color'
-    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
+	gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 	/* START OF STELLARITY SHADER CODE */
-	#moj_import <stellarity_text.glsl>
+	#moj_import <animated_text.glsl>
 	/* END OF STELLARITY SHADER CODE */
-    vertexDistance = fog_distance(Position, FogShape);
-    vertexColor = color * texelFetch(Sampler2, UV2 / 16, 0); // changed: 'Color' -> 'color'
-    texCoord0 = UV0;
+	vertexDistance = fog_distance(Position, FogShape);
+	vertexColor = color * texelFetch(Sampler2, UV2 / 16, 0); // changed: 'Color' -> 'color'
+	texCoord0 = UV0;
 }

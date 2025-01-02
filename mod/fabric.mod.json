@@ -1,31 +1,28 @@
 {
-	"schemaVersion":1,
-	"id":"stellarity",
-	"version":"3.0.0",
-	"name":"Stellarity",
-	"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
-	"authors":[
+	"schemaVersion": 1,
+	"id": "stellarity",
+	"version": "3.0.2",
+	"name": "Stellarity",
+	"description": "Extreme rehaul and expansion of The End! 'We have End Update at home.'",
+	"authors": [
 		"kohara"
 	],
 	"contributors": [
+		"brokenemp (Artist)",
+		"Dat1Mexican (RP Bedrock Port)",
 		"Bush_King (Builder)",
-		"Brokenemp (Artist)",
-		"Phoenix",
-		"misode",
-		"Hex"
+		"Opliz (Builder)"
 	],
-	"contact":{
-		"homepage":"https://modrinth.com/datapack/stellarity",
-		"sources":"https://github.com/kohy-creates/Stellarity",
+	"contact": {
+		"homepage": "https://modrinth.com/datapack/stellarity",
+		"sources": "https://github.com/kohy-creates/Stellarity",
 		"issues": "https://discord.gg/kohara"
 	},
-	"license":"LicenseRef-Custom",
-	"icon":"pack.png",
-	"environment":"*",
-	"depends":{
-		"fabricloader": ">=0.12.7",
-        "fabric-api-base": "*",
-        "minecraft": ">=1.21.1"
+	"license": "LicenseRef-Custom",
+	"icon": "pack.png",
+	"environment": "*",
+	"depends": {
+		"fabric-resource-loader-v0": "*"
 	},
 	"custom": {
 		"modmenu": {

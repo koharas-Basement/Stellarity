@@ -169,21 +169,6 @@
 					"value": "stellarity:items/materials/enderite_smithing_template"
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/the_beginning_and_the_end"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.05
-				}
-			]
 		}
 	]
 }
