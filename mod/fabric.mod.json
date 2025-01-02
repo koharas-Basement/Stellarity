@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "stellarity",
-	"version": "3.0.0",
+	"version": "3.0.2",
 	"name": "Stellarity",
 	"description": "Extreme rehaul and expansion of The End! 'We have End Update at home.'",
 	"authors": [
@@ -22,9 +22,7 @@
 	"icon": "pack.png",
 	"environment": "*",
 	"depends": {
-		"fabricloader": ">=0.12.7",
-		"fabric-api-base": "*",
-		"minecraft": ">=1.21.1"
+		"fabric-resource-loader-v0": "*"
 	},
 	"custom": {
 		"modmenu": {

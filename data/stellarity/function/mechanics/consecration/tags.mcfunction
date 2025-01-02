@@ -117,10 +117,6 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripp
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_ingot"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.iron_ingot"
 
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:apple"}}} \
-	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
-	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.apple"
-
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ink_sac"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.ink_sac"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:glow_ink_sac"}}} run \
@@ -130,13 +126,6 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:brick"
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.brick"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:nether_brick"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.nether_brick"
-
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:lapis_lazuli"}}} run \
-	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.lapis_lazuli"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:redstone"}}} run \
-	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.redstone"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:quartz"}}} run \
-	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.quartz"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:honey_block"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.honey_block"

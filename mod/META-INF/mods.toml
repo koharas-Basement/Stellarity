@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 
 [[mods]]
 	modId = "stellarity" 
-	version = "3.0.0"
+	version = "3.0.2"
 	displayName = "Stellarity"
 	displayURL = "https://modrinth.com/datapack/stellarity"
 	description = '''
@@ -16,7 +16,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 	logoFile = "pack.png"
 	logoBlur = false
 	updateJSONURL = "https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json"
-	credits="brokenemp (Artist)","Dat1Mexican (RP Bedrock Port)","Bush_King (Builder)","Opliz (Builder)"
+	credits="brokenemp (Artist), Dat1Mexican (RP Bedrock Port), Bush_King (Builder), Opliz (Builder)"
 	authors = "kohara"
 
 [[dependencies.stellarity]]

@@ -8,7 +8,7 @@
 			"predicate": {
 				"custom_model_data": 90000
 			},
-			"model": "stellarity:item/cursed_tome"
+			"model": "stellarity:item/cursed_enchiridion"
 		}
 	]
 }
