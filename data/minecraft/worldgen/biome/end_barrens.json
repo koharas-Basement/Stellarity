@@ -55,7 +55,7 @@
 			"energy_budget": 1
 		}
 	},
-	"carvers": {},
+	"carvers": [],
 	"features": [
 		[
 			"stellarity:barrens/hills",

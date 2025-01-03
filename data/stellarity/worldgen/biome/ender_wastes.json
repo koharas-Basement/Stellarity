@@ -61,7 +61,7 @@
 			"energy_budget": 1
 		}
 	},
-	"carvers": {},
+	"carvers": [],
 	"features": [
 		[
 			"stellarity:global/stalactite",

@@ -33,12 +33,10 @@
 	},
 	"spawners": {},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			"stellarity:ravine",
-			"stellarity:crack"
-		]
-	},
+	"carvers": [
+		"stellarity:ravine",
+		"stellarity:crack"
+	],
 	"features": [
 		[
 			"stellarity:prismarine_forest/island_bottom"

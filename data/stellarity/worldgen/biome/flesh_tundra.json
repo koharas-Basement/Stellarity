@@ -61,7 +61,7 @@
 			"charge": 1
 		}
 	},
-	"carvers": {},
+	"carvers": [],
 	"features": [
 		[
 			"stellarity:tundra/stalactite",
