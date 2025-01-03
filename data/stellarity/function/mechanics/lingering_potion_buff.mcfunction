@@ -1,3 +1,3 @@
-data merge entity @s {Duration:900,Radius:4f,ReapplicationDelay:12,RadiusPerTick:-0.00165f,RadiusOnUse:-0.25f}
+data merge entity @s {Duration:900,Radius:3f,ReapplicationDelay:12,RadiusPerTick:-0.00165f,RadiusOnUse:0}
 
-say a
+tag @s add stellarity.aware

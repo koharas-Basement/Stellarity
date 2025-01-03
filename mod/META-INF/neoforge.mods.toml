@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 
 [[mods]]
 	modId = "stellarity" 
-	version = "3.0.2"
+	version = "3.0.3"
 	displayName = "Stellarity"
 	displayURL = "https://modrinth.com/datapack/stellarity"
 	description = '''
@@ -20,14 +20,14 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 	authors = "kohara"
 
 [[dependencies.stellarity]]
-    modId="neoforge"
-    mandatory=false
-    versionRange="[21,)"
-    ordering="NONE"
-    side="BOTH"
+	modId="neoforge"
+	mandatory=false
+	versionRange="[21,)"
+	ordering="NONE"
+	side="BOTH"
 [[dependencies.stellarity]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.21,1.21.1]"
-    ordering="NONE"
-    side="BOTH"
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.21,1.21.1]"
+	ordering="NONE"
+	side="BOTH"
