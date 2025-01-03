@@ -60,35 +60,35 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.helmet",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.helmet",
 									"amount":  4,
 									"operation": "add_value",
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:knockback_resistance",
 									"id": "minecraft:armor.helmet",
 									"amount": 0.2,
 									"operation": "add_value",
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"id": "minecraft:armor.helmet",
 									"amount": -0.03,
 									"operation": "add_multiplied_total",
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"id": "minecraft:armor.helmet",
 									"amount": -0.03,
 									"operation": "add_multiplied_total",

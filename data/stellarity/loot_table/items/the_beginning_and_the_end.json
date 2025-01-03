@@ -69,21 +69,21 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 4,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_damage",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 1,
 									"operation": "add_value",
 									"id": "stellarity:the_beginning",
 									"slot": "offhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -2,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_speed",
@@ -91,7 +91,7 @@
 								},
 								{
 									"id": "stellarity:weapon_reach",
-									"attribute": "minecraft:player.entity_interaction_range",
+									"attribute": "minecraft:entity_interaction_range",
 									"amount": -0.3,
 									"operation": "add_value",
 									"slot": "mainhand"
@@ -183,21 +183,21 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 4,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_damage",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"amount": 0.05,
 									"operation": "add_multiplied_total",
 									"id": "stellarity:the_end",
 									"slot": "offhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -2,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_speed",
@@ -205,7 +205,7 @@
 								},
 								{
 									"id": "stellarity:weapon_reach",
-									"attribute": "minecraft:player.entity_interaction_range",
+									"attribute": "minecraft:entity_interaction_range",
 									"amount": -0.3,
 									"operation": "add_value",
 									"slot": "mainhand"

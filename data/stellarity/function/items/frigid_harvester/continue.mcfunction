@@ -76,9 +76,9 @@ execute store result storage stellarity:temp aery_sword.damage double 0.01 run \
 	scoreboard players get #damage stellarity.misc
 
 data modify storage stellarity:temp aery_sword.custom_data."stellarity.aery_sword".damage set from storage stellarity:temp aery_sword.damage
-data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:generic.attack_damage"}].amount set from storage stellarity:temp aery_sword.damage_inc
-data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:generic.movement_speed"}].amount set from storage stellarity:temp aery_sword.speed
-data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:generic.attack_speed"}].amount set from storage stellarity:temp aery_sword.atk_speed
+data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:attack_damage"}].amount set from storage stellarity:temp aery_sword.damage_inc
+data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:movement_speed"}].amount set from storage stellarity:temp aery_sword.speed
+data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:attack_speed"}].amount set from storage stellarity:temp aery_sword.atk_speed
 
 data modify storage stellarity:temp aery_sword.custom_data set string storage stellarity:temp aery_sword.custom_data
 data modify storage stellarity:temp aery_sword.attributes set string storage stellarity:temp aery_sword.custom_data

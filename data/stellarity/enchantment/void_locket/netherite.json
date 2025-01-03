@@ -25,13 +25,13 @@
 		"minecraft:attributes": [
 			{
 				"id": "stellarity:void_locket.sweeping",
-				"attribute": "minecraft:player.sweeping_damage_ratio",
+				"attribute": "minecraft:sweeping_damage_ratio",
 				"amount": 0.35,
 				"operation": "add_value"
 			},
 			{
 				"id": "stellarity:void_locket.damage",
-				"attribute": "minecraft:generic.attack_damage",
+				"attribute": "minecraft:attack_damage",
 				"amount": 2,
 				"operation": "add_value"
 			}

@@ -13,7 +13,7 @@ execute at @s run tp @e[type=marker,tag=stellarity.dragon_marker] ~ ~ ~
 # Get health
 execute store result score @s stellarity.dragon.health run data get entity @s Health 1
 # Convert to percentage
-execute store result score #max stellarity.misc run attribute @s generic.max_health get
+execute store result score #max stellarity.misc run attribute @s max_health get
 scoreboard players set #100 stellarity.misc 100
 scoreboard players operation @s stellarity.dragon.health_percent = @s stellarity.dragon.health
 scoreboard players operation @s stellarity.dragon.health_percent *= #100 stellarity.misc

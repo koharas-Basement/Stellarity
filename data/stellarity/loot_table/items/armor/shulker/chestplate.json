@@ -73,35 +73,35 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.chestplate",
 									"amount": 8,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.chestplate",
 									"amount":  4,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:knockback_resistance",
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.2,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"id": "minecraft:armor.chestplate",
 									"amount": -0.03,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"id": "minecraft:armor.chestplate",
 									"amount": -0.03,
 									"operation": "add_multiplied_total",

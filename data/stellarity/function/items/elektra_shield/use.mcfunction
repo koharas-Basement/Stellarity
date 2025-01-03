@@ -6,8 +6,8 @@ tag @s add stellarity.items.elektra_shield.using
 effect give @s levitation infinite 0 true
 
 # Immunity to knockback
-attribute @s generic.knockback_resistance modifier add stellarity:elektra_shield 1000 add_value
-attribute @s generic.gravity modifier add stellarity:elektra_shield -1 add_multiplied_total
+attribute @s knockback_resistance modifier add stellarity:elektra_shield 1000 add_value
+attribute @s gravity modifier add stellarity:elektra_shield -1 add_multiplied_total
 
 function stellarity:items/elektra_shield/dash/spawn_marker
 

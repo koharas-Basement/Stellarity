@@ -58,35 +58,35 @@
 							"modifiers": [
 								{
 									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 0.12,
 									"operation": "add_multiplied_base",
 									"slot": "hand"
 								},
 								{
 									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"amount": 0.1,
 									"operation": "add_multiplied_base",
 									"slot": "hand"
 								},
 								{
 									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": 0.08,
 									"operation": "add_multiplied_base",
 									"slot": "hand"
 								},
 								{
 									"id": "stellarity:duskberry",
-									"attribute": "minecraft:player.sweeping_damage_ratio",
+									"attribute": "minecraft:sweeping_damage_ratio",
 									"amount": 0.1,
 									"operation": "add_value",
 									"slot": "hand"
 								},
 								{
 									"id": "stellarity:duskberry",
-									"attribute": "minecraft:generic.movement_efficiency",
+									"attribute": "minecraft:movement_efficiency",
 									"amount": 0.1,
 									"operation": "add_multiplied_total",
 									"slot": "hand"

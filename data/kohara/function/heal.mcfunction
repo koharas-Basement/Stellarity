@@ -1,6 +1,6 @@
 # get max health and current health
-attribute @s minecraft:generic.max_health modifier remove kohara:heal
-execute store result score #max_health kohara.misc run attribute @s minecraft:generic.max_health get 1000
+attribute @s minecraft:max_health modifier remove kohara:heal
+execute store result score #max_health kohara.misc run attribute @s minecraft:max_health get 1000
 execute store result score #current_health kohara.misc run data get entity @s Health 1000
 
 # if your current health is at your max health (or greater somehow), exit the function as there is no need to heal

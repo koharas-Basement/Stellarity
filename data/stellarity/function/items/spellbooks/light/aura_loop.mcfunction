@@ -33,5 +33,5 @@ execute if score @s stellarity.misc2 matches 40 run function stellarity:items/sp
 execute if score @s stellarity.misc2 matches 40 run scoreboard players reset @s stellarity.misc2
 
 # Aura timeout
-execute if score @s stellarity.misc matches 441.. as @a run attribute @s minecraft:generic.knockback_resistance modifier remove stellarity:book_of_light
+execute if score @s stellarity.misc matches 441.. as @a run attribute @s minecraft:knockback_resistance modifier remove stellarity:book_of_light
 execute if score @s stellarity.misc matches 441.. run kill @e[type=marker,limit=2,sort=nearest,tag=stellarity.book_of_light]

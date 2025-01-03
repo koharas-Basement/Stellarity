@@ -25,19 +25,19 @@
 		"minecraft:attributes": [
 			{
 				"id": "stellarity:void_locket.movement_speed",
-				"attribute": "minecraft:generic.movement_speed",
+				"attribute": "minecraft:movement_speed",
 				"amount": 0.04,
 				"operation": "add_multiplied_total"
 			},
 			{
 				"id": "stellarity:void_locket.movement_speed",
-				"attribute": "minecraft:generic.jump_strength",
+				"attribute": "minecraft:jump_strength",
 				"amount": 0.04,
 				"operation": "add_multiplied_total"
 			},
 			{
 				"id": "stellarity:void_locket.movement_eff",
-				"attribute": "minecraft:generic.movement_efficiency",
+				"attribute": "minecraft:movement_efficiency",
 				"amount": 0.4,
 				"operation": "add_value"
 			}

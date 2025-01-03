@@ -11,28 +11,28 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.body",
 									"amount": 16,
 									"operation": "add_value",
 									"slot": "body"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.body",
 									"amount": 6,
 									"operation": "add_value",
 									"slot": "body"
 								},
 								{
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"id": "minecraft:armor.body",
 									"amount": 0.1,
 									"operation": "add_multiplied_base",
 									"slot": "body"
 								},
 								{
-									"attribute": "minecraft:generic.movement_efficiency",
+									"attribute": "minecraft:movement_efficiency",
 									"id": "minecraft:armor.body",
 									"amount": 0.5,
 									"operation": "add_value",

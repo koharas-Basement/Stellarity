@@ -19,7 +19,7 @@ scoreboard players operation @s stellarity.phantom.size = #size stellarity.misc
 
 # Modify HP
 # 15 + size * 2
-attribute @s generic.max_health base set 15
+attribute @s max_health base set 15
 
 scoreboard players operation #mul stellarity.misc = @s stellarity.phantom.size
 scoreboard players set #2 stellarity.misc 2
@@ -28,7 +28,7 @@ scoreboard players set #hp stellarity.misc 15
 scoreboard players operation #mul stellarity.misc *= #2 stellarity.misc
 scoreboard players operation #hp stellarity.misc += #mul stellarity.misc
 
-execute store result entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base float 1 run scoreboard players get #hp stellarity.misc
+execute store result entity @s Attributes[{Name:"minecraft:max_health"}].Base float 1 run scoreboard players get #hp stellarity.misc
 
 # Heal missing HP
 scoreboard players set #heal stellarity.misc 15
@@ -39,7 +39,7 @@ execute store result entity @s Health float 1 run scoreboard players get #heal s
 # Equal to half of the size
 scoreboard players operation #armor stellarity.misc = #size stellarity.misc
 scoreboard players operation #armor stellarity.misc /= #2 stellarity.misc
-execute store result entity @s Attributes[{Name:"minecraft:generic.armor"}].Base float 1 run scoreboard players get #armor stellarity.misc
+execute store result entity @s Attributes[{Name:"minecraft:armor"}].Base float 1 run scoreboard players get #armor stellarity.misc
 
 tag @s add stellarity.phantom.aware
 

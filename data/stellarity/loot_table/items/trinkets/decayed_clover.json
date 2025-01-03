@@ -12,14 +12,14 @@
 							"modifiers": [
 								{
 									"id": "stellarity:decayed_clover.1",
-									"attribute": "minecraft:generic.luck",
+									"attribute": "minecraft:luck",
 									"amount": 1,
 									"operation": "add_value",
 									"slot": "offhand"
 								},
 								{
 									"id": "stellarity:decayed_clover.2",
-									"attribute": "minecraft:generic.luck",
+									"attribute": "minecraft:luck",
 									"amount": 0.1,
 									"operation": "add_multiplied_base",
 									"slot": "offhand"

@@ -1,4 +1,4 @@
-execute store result score #damage kohara.misc run attribute @p[predicate=stellarity:items/holding/prismember] generic.attack_damage get 10
+execute store result score #damage kohara.misc run attribute @p[predicate=stellarity:items/holding/prismember] attack_damage get 10
 
 tag @p[predicate=stellarity:items/holding/prismember,distance=0.001..] add kohara.attacker
 

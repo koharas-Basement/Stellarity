@@ -42,7 +42,7 @@
 							"modifiers": [
 								{
 									"id": "stellarity:endermans_hand",
-									"attribute": "minecraft:player.block_interaction_range",
+									"attribute": "minecraft:block_interaction_range",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "hand"

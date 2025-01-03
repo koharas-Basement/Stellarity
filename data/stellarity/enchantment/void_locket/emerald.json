@@ -25,7 +25,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "stellarity:void_locket.luck",
-				"attribute": "minecraft:generic.luck",
+				"attribute": "minecraft:luck",
 				"amount": 1,
 				"operation": "add_value"
 			}

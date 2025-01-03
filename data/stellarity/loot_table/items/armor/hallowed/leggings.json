@@ -60,35 +60,35 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.leggings",
 									"amount": 6,
 									"operation": "add_value",
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.leggings",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:knockback_resistance",
 									"id": "minecraft:armor.leggings",
 									"amount": 0.1,
 									"operation": "add_value",
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.jump_strength",
+									"attribute": "minecraft:jump_strength",
 									"id": "minecraft:armor.boots",
 									"amount": 0.15,
 									"operation": "add_multiplied_base",
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:player.sneaking_speed",
+									"attribute": "minecraft:sneaking_speed",
 									"id": "minecraft:armor.boots",
 									"amount": 0.25,
 									"operation": "add_multiplied_base",

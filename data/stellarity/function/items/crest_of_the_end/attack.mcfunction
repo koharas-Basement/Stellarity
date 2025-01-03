@@ -1,6 +1,6 @@
 advancement revoke @s only stellarity:events/items/crest/attack
 
-attribute @s generic.attack_damage modifier remove stellarity:crest
+attribute @s attack_damage modifier remove stellarity:crest
 
 title @s actionbar " "
 

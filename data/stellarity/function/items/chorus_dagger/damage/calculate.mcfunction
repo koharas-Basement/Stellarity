@@ -1,4 +1,4 @@
-execute store result score #temp stellarity.misc run attribute @s minecraft:generic.attack_damage get 1000
+execute store result score #temp stellarity.misc run attribute @s minecraft:attack_damage get 1000
 
 scoreboard players set #150 stellarity.misc 150
 scoreboard players set #100 stellarity.misc 100

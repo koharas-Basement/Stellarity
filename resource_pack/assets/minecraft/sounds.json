@@ -150,7 +150,7 @@
 			"step/stone4",
 			"step/stone5"
 		],
-		"subtitle":"subtitles.block.generic.place",
+		"subtitle":"subtitles.block.place",
 		"replace":true
 	},
 	"entity.ender_pearl.throw": {

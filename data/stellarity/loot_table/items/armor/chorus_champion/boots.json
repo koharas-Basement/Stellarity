@@ -66,28 +66,28 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.boots",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.boots",
 									"amount": 2,
 									"operation": "add_value",
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:knockback_resistance",
 									"id": "minecraft:armor.boots",
 									"amount": 0.08,
 									"operation": "add_value",
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"id": "minecraft:armor.boots",
 									"amount": 0.025,
 									"operation": "add_multiplied_base",

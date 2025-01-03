@@ -55,28 +55,28 @@
 							"modifiers": [
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"amount": 0.1,
 									"operation": "add_multiplied_base",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.fall_damage_multiplier",
+									"attribute": "minecraft:fall_damage_multiplier",
 									"amount": -0.25,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.safe_fall_distance",
+									"attribute": "minecraft:safe_fall_distance",
 									"amount": 4,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.gravity",
+									"attribute": "minecraft:gravity",
 									"amount": -0.35,
 									"operation": "add_multiplied_total",
 									"slot": "chest"

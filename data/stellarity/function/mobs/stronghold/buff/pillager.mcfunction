@@ -12,5 +12,5 @@ execute if score #arrow stellarity.misc matches 10 run \
 
 tag @s add stellarity.stronghold.buffed
 
-attribute @s generic.armor modifier add stellarity:stronghold.defense_buff 2 add_value
-attribute @s generic.movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base
+attribute @s armor modifier add stellarity:stronghold.defense_buff 2 add_value
+attribute @s movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base
