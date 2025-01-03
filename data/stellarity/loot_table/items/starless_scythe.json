@@ -69,7 +69,9 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_model_data": 90001,
-								"minecraft:custom_data": {},
+								"minecraft:custom_data": {
+                                    "stellarity.special_item": "starless_scythe"
+                                },
 								"minecraft:max_damage": 1232,
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.starless_scythe\",\"fallback\": \"Starless Scythe\",\"color\": \"#FFD70C\",\"italic\": false}",
 								"!minecraft:tool": {}

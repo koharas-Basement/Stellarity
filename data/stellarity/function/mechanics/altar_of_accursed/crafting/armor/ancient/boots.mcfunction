@@ -10,4 +10,3 @@ data modify entity @n[type=item,tag=!stellarity.aota.checked_type] Item.componen
 
 particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 function stellarity:mechanics/altar_of_accursed/crafting/global_effects
-

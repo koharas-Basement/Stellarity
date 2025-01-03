@@ -3,7 +3,7 @@
 	"quilt_loader": {
 		"group": "xyz.kohara",
 		"id": "stellarity",
-		"version": "3.0.2",
+		"version": "3.0.3",
 		"metadata": {
 			"name": "Stellarity",
 			"description": "Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
@@ -28,10 +28,10 @@
 		],
 		"depends": [
 			{
-                "id": "quilt_resource_loader",
-                "versions": "*",
-                "unless": "fabric-resource-loader-v0"
-            }
+				"id": "quilt_resource_loader",
+				"versions": "*",
+				"unless": "fabric-resource-loader-v0"
+			}
 		],
 		"intermediate_mappings": "net.fabricmc:intermediary"
 	}
