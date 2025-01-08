@@ -11,7 +11,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90005,
+								"minecraft:item_model": "stellarity:fleshy_piranha",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "fleshy_piranha"
 								},
@@ -45,7 +45,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -55,11 +55,10 @@
 									"italic": true
 								}
 							]
-								
 						}
 					]
 				}
-            ]
-        }
-    ]
+			]
+		}
+	]
 }

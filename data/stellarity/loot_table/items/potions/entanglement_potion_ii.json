@@ -28,7 +28,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -38,7 +38,6 @@
 									"italic": true
 								}
 							]
-								
 						}
 					]
 				}

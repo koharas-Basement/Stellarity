@@ -8,14 +8,14 @@
 					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "ғᴜʟʟ sᴇᴛ ʙᴏɴᴜs:",
+									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
@@ -34,7 +34,7 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.piece_bonus",
-									"fallback": "ᴘɪᴇᴄᴇ ʙᴏɴᴜs:",
+									"fallback": "\u1d18\u026a\u1d07\u1d04\u1d07 \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
@@ -59,11 +59,13 @@
 									"rgb": 12219878,
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 90002,
+								"minecraft:item_model": "stellarity:shulker_leggings",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "shulker_armor"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_damage": 755,
 								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.shulker_armor.leggings\",\"fallback\": \"Shulker Leggings\",\"color\": \"#976A97\",\"italic\": false}"
@@ -82,7 +84,7 @@
 								{
 									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.leggings",
-									"amount":  4,
+									"amount": 4,
 									"operation": "add_value",
 									"slot": "legs"
 								},
@@ -108,7 +110,7 @@
 									"slot": "legs"
 								}
 							]
-						} 
+						}
 					]
 				}
 			]

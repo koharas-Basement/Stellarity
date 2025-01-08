@@ -29,13 +29,13 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:decayed_clover",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.decayed_clover\",\"fallback\": \"Decayed Clover\",\"italic\": false}",
 								"minecraft:attribute_modifiers": {
 									"modifiers": [],
 									"show_in_tooltip": false
 								},
-                                "minecraft:custom_data": {
+								"minecraft:custom_data": {
 									"stellarity.special_item": "decayed_clover"
 								}
 							}

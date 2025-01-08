@@ -13,19 +13,21 @@
 								"minecraft:unbreakable": {
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 90001,
+								"minecraft:item_model": "stellarity:kaleidoscope",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "kaleidoscope"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.kaleidoscope\",\"fallback\": \"Kaleidoscope\",\"color\": \"#FFCF37\",\"italic\": false}",
-                                "minecraft:enchantments": {
-                                    "stellarity:daybroken": 1
-                                }
+								"minecraft:enchantments": {
+									"stellarity:daybroken": 1
+								}
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -41,7 +43,7 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
-                                {
+								{
 									"translate": "stellarity.items.weapons.kaleidoscope.description.3",
 									"fallback": "all at once in a powerful discharge",
 									"color": "#EEEEEE",
@@ -52,7 +54,7 @@
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
-								} 
+								}
 							]
 						},
 						{

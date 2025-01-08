@@ -8,7 +8,7 @@
 					"name": "minecraft:popped_chorus_fruit",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -42,11 +42,13 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:dragons_eye",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "dragons_eye"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_stack_size": 1,
 								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.dragons_eye\",\"fallback\": \"Dragon's Eye\",\"color\": \"#9936D6\",\"italic\": false}"

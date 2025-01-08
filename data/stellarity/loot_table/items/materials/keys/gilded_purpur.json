@@ -30,7 +30,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:gilded_purpur",
 								"minecraft:custom_data": "{stellarity.special_item:\"gilded_purpur_key\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.materials.keys.gilded_purpur\",\"fallback\": \"Gilded Purpur Key\"}",
 								"rarity": "rare"

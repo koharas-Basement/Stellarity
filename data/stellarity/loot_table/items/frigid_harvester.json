@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90031,
+								"minecraft:item_model": "stellarity:frigid_harvester",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "frigid_harvester",
 									"stellarity.aery_sword": {
@@ -25,7 +25,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -70,7 +70,7 @@
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
-								} 
+								}
 							]
 						},
 						{

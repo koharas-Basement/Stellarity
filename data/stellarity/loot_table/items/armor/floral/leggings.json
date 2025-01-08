@@ -8,14 +8,14 @@
 					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "ғᴜʟʟ sᴇᴛ ʙᴏɴᴜs:",
+									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
@@ -40,13 +40,13 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.piece_bonus",
-									"fallback": "ᴘɪᴇᴄᴇ ʙᴏɴᴜs:",
+									"fallback": "\u1d18\u026a\u1d07\u1d04\u1d07 \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.floral_armor.piece_bonus.leggings",
-									"fallback": "+10% Arrow Damage",
+									"fallback": "+10%% Arrow Damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -65,11 +65,13 @@
 									"rgb": 16552659,
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 90003,
+								"minecraft:item_model": "stellarity:floral_leggings",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "floral_armor"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_damage": 555,
 								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.floral_armor.boots\",\"fallback\": \"Floral Boots\",\"color\": \"#FC92D3\",\"italic\": false}"
@@ -107,7 +109,7 @@
 									"slot": "legs"
 								}
 							]
-						} 
+						}
 					]
 				}
 			]

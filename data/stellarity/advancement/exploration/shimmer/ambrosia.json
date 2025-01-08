@@ -4,7 +4,7 @@
 			"id": "minecraft:rabbit_stew",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 90000
+				"minecraft:item_model": "stellarity:endurance_stew"
 			}
 		},
 		"title": {

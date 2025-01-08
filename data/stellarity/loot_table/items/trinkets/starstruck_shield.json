@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90003,
+								"minecraft:item_model": "stellarity:starstruck_shield",
 								"minecraft:hide_additional_tooltip": {},
 								"minecraft:max_damage": 512,
 								"minecraft:custom_data": {
@@ -39,7 +39,9 @@
 									}
 								],
 								"rarity": "epic",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.starstruck_shield\",\"fallback\": \"Starstruck Shield\",\"color\": \"#FF76D0\",\"italic\": false}"
 							}
 						},

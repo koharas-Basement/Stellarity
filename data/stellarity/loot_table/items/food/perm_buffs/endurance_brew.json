@@ -8,7 +8,7 @@
 					"name": "minecraft:rabbit_stew",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
@@ -44,7 +44,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:endurance_brew",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"endurance_brew\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.perm_buffs.endurance_brew\",\"fallback\":\"Endurance Brew\",\"color\":\"#F22AD6\"}",
 								"rarity": "epic",

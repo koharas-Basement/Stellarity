@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:fishing_rod",
 			"components": {
-				"minecraft:custom_model_data": 90000
+				"minecraft:item_model": "stellarity:fisher_of_voids"
 			}
 		},
 		"title": {

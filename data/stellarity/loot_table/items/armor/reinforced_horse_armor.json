@@ -47,11 +47,13 @@
 									"rgb": 12219878,
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:reinforced_horse_armor",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "reinforced_horse_armor"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.reinforced_horse_armor\",\"fallback\": \"Reinforced Horse Armor\",\"color\": \"#976A97\"}"
 							}

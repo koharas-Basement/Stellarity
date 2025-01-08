@@ -14,8 +14,12 @@
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.spawn_eggs.voided_zombie\",\"fallback\":\"Voided Zombie Spawn Egg\"}",
 								"minecraft:entity_data": {
 									"id": "minecraft:marker",
-									"Tags": ["stellarity.spawn_egg"],
-									"data": {"mob":"voided_zombie"}
+									"Tags": [
+										"stellarity.spawn_egg"
+									],
+									"data": {
+										"mob": "voided_zombie"
+									}
 								},
 								"rarity": "common"
 							}

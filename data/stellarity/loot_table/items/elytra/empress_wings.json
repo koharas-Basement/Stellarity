@@ -43,9 +43,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90001,
+								"minecraft:item_model": "stellarity:empress_wings",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"empress_wings\"}",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"rarity": "epic",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.empress_wings\",\"fallback\": \"Empress Wings\",\"color\": \"#FF76D0\",\"italic\": false}"
 							}

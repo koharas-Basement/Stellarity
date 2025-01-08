@@ -8,7 +8,7 @@
 					"name": "minecraft:golden_carrot",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
@@ -37,7 +37,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:lucky_carrot",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"lucky_carrot\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.perm_buffs.lucky_carrot\",\"fallback\":\"Lucky Carrot\",\"color\":\"#F22AD6\"}",
 								"rarity": "epic",

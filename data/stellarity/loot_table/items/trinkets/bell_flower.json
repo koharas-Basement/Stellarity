@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90002,
+								"minecraft:item_model": "stellarity:bell_flower",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "bell_flower"
 								},

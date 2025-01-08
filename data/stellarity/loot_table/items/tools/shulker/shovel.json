@@ -8,7 +8,7 @@
 					"name": "minecraft:netherite_shovel",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								" ",
@@ -28,7 +28,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:shovel",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "shulker_tool"
 								},

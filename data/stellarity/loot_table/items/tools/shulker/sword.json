@@ -8,7 +8,7 @@
 					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								" ",
@@ -28,7 +28,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90001,
+								"minecraft:item_model": "stellarity:sword",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "shulker_tool"
 								},

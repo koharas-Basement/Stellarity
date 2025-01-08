@@ -11,7 +11,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:ender_koi",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "ender_koi"
 								},
@@ -26,7 +26,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -36,11 +36,10 @@
 									"italic": true
 								}
 							]
-								
 						}
 					]
 				}
-            ]
-        }
-    ]
+			]
+		}
+	]
 }

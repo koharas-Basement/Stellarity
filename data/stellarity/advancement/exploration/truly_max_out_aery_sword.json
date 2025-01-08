@@ -4,7 +4,7 @@
 			"id": "minecraft:diamond_sword",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 90035
+				"minecraft:item_model": "stellarity:frigid_harvester"
 			}
 		},
 		"title": {

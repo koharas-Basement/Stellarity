@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
+							"components": {
 								"minecraft:potion_contents": {
 									"custom_color": 13176087,
 									"custom_effects": [
@@ -47,7 +47,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
@@ -56,14 +56,14 @@
 									"translate": "stellarity.items.potions.amarena.description",
 									"fallback": "Looks like wine, but it really isn't",
 									"italic": false,
-                                    "color": "#EEEEEE"
+									"color": "#EEEEEE"
 								},
 								"",
 								{
 									"translate": "stellarity.items.potions.amarena.flavor_text",
 									"fallback": "'forbidden juice'",
 									"italic": true,
-                                    "color": "#EEEEEE"
+									"color": "#EEEEEE"
 								},
 								"",
 								{

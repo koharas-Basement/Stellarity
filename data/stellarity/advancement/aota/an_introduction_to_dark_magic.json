@@ -1,10 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:written_book",
-			"components": {
-				"minecraft:custom_model_data": 90000
-			}
+			"id": "minecraft:enchanted_book"
 		},
 		"title": {
 			"translate": "stellarity.advancements.aota_intro",

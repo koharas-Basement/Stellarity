@@ -8,7 +8,7 @@
 					"name": "minecraft:item_frame",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
@@ -32,7 +32,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:phantom_item_frame",
 								"minecraft:entity_data": {
 									"id": "minecraft:item_frame",
 									"Tags": [

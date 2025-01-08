@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90003,
+								"minecraft:item_model": "stellarity:prismember",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "prismember"
 								},

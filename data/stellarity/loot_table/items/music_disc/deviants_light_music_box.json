@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"music_disc.deviants_light_music_box\"}",
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:deviants_light_music_box",
 								"minecraft:jukebox_playable": {
 									"song": "stellarity:deviants_light_music_box",
 									"show_in_tooltip": true
@@ -23,7 +23,7 @@
 							"lore": [
 								{
 									"translate": "stellarity.music_disc.requires_addon",
-									"fallback": "ʀᴇᴏ̨ᴜɪʀᴇs ᴍᴜsɪᴄ ᴀᴅᴅᴏɴ",
+									"fallback": "\u0280\u1d07\u1d0f\u0328\u1d1c\u026a\u0280\u1d07s \u1d0d\u1d1cs\u026a\u1d04 \u1d00\u1d05\u1d05\u1d0f\u0274",
 									"color": "dark_gray"
 								},
 								"",

@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:netherite_sword",
 			"components": {
-				"minecraft:custom_model_data": 90006
+				"minecraft:item_model": "stellarity:the_beginning"
 			}
 		},
 		"title": {

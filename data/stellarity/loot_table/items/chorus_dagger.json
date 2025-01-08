@@ -69,7 +69,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"chorus_dagger\"}",
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:chorus_dagger",
 								"minecraft:max_damage": 764,
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.chorus_dagger\",\"fallback\": \"Chorus Dagger\",\"color\": \"#A773B2\"}"
 							}
