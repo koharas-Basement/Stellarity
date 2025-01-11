@@ -11,6 +11,6 @@ function stellarity:mobs/villager/trade_editor/add_enderite_sell_with_modifier {
 execute store result score #trade stellarity.misc run random value 1..2
 
 execute if score #trade stellarity.misc matches 1 run \
-    function stellarity:mobs/villager/trade_editor/add_from_loot_table_reverse_order {xp:0,max_uses:0,price_multiplier:0.05,buy_a_id:"golden_sword",buy_a_count:1,buy_b_count:64,loot_table:"stellarity:items/stellar_striker",sell_count:1}
+    function stellarity:mobs/villager/trade_editor/add_from_loot_table_reverse_order {xp:25,max_uses:1,price_multiplier:0.2,buy_a_id:"golden_sword",buy_a_count:1,buy_b_count:64,loot_table:"stellarity:items/stellar_striker",sell_count:1}
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades
