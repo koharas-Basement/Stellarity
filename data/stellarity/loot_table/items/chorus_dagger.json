@@ -37,28 +37,28 @@
 							"modifiers": [
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 4,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -2,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"amount": 0.05,
 									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								},
 								{
 									"id": "stellarity:weapon_reach",
-									"attribute": "minecraft:player.entity_interaction_range",
+									"attribute": "minecraft:entity_interaction_range",
 									"amount": -0.3,
 									"operation": "add_value",
 									"slot": "mainhand"
@@ -69,7 +69,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"chorus_dagger\"}",
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:chorus_dagger",
 								"minecraft:max_damage": 764,
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.chorus_dagger\",\"fallback\": \"Chorus Dagger\",\"color\": \"#A773B2\"}"
 							}

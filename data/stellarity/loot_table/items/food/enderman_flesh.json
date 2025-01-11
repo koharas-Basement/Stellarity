@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90001,
+								"minecraft:item_model": "stellarity:enderman_flesh",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"enderman_flesh\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.enderman_flesh\",\"fallback\":\"Enderman Flesh\",\"color\":\"white\"}",
 								"minecraft:food": {
@@ -40,7 +40,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#587653",
 										"italic": false
 									},
@@ -51,7 +51,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#FFDE4C",
 										"italic": false
 									}

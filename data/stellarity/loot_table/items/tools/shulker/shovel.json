@@ -8,7 +8,7 @@
 					"name": "minecraft:netherite_shovel",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								" ",
@@ -28,7 +28,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:shovel",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "shulker_tool"
 								},
@@ -40,14 +40,14 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"id": "minecraft:base_attack_damage",
 									"amount": 6,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"id": "minecraft:base_attack_speed",
 									"amount": -3,
 									"operation": "add_value",
@@ -55,14 +55,14 @@
 								},
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:player.block_break_speed",
+									"attribute": "minecraft:block_break_speed",
 									"amount": 0.2,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": 0.1,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"

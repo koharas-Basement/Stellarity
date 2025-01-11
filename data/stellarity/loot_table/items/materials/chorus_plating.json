@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90001,
+								"minecraft:item_model": "stellarity:chorus_plating",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "chorus_plating"
 								},
@@ -18,7 +18,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [

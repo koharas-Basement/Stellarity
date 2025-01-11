@@ -1,4 +1,4 @@
-summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon"],Health:300,attributes:[{id:"generic.max_health",base:300.0},{id:"generic.armor",base:8d},{id:"generic.armor_toughness",base:4d},{id:"generic.knockback_resistance",base:1d},{id:"generic.follow_range",base:80d}]}
+summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon"],Health:300,attributes:[{id:"max_health",base:300.0},{id:"armor",base:8d},{id:"armor_toughness",base:4d},{id:"knockback_resistance",base:1d},{id:"follow_range",base:80d}]}
 summon marker ~ ~ ~ {Tags:["stellarity.dragon_marker","stellarity.marker"]}
 item replace entity @e[type=ender_dragon] weapon.mainhand with totem_of_undying
 
@@ -14,7 +14,7 @@ playsound minecraft:entity.ender_dragon.growl hostile @a[distance=0..] ~ ~ ~ 10 
 playsound minecraft:entity.lightning_bolt.thunder hostile @a[distance=0..] ~ ~ ~ 10 0
 playsound minecraft:entity.generic.explode hostile @a[distance=0..] ~ ~ ~ 10 0
 
-execute store result entity @e[type=ender_dragon,limit=1] Attributes[{id:"minecraft:generic.max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
+execute store result entity @e[type=ender_dragon,limit=1] Attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result entity @e[type=ender_dragon,limit=1] Health float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result bossbar stellarity:ender_dragon max run scoreboard players get #stellarity.config stellarity.config.dragon_health
 

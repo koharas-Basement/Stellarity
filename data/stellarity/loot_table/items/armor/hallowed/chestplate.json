@@ -8,14 +8,14 @@
 					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "ғᴜʟʟ sᴇᴛ ʙᴏɴᴜs:",
+									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
@@ -46,11 +46,13 @@
 									"rgb": 16768338,
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 90001,
+								"minecraft:item_model": "stellarity:hallowed_chestplate",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "hallowed_armor"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_damage": 592,
 								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.hallowed_armor.chestplate\",\"fallback\": \"Hallowed Chestplate\",\"color\": \"#FFDD52\",\"italic\": false}"
@@ -60,28 +62,28 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.chestplate",
 									"amount": 8,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.chestplate",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:knockback_resistance",
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.1,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.safe_fall_distance",
+									"attribute": "minecraft:safe_fall_distance",
 									"id": "minecraft:armor.chestplate",
 									"amount": 1,
 									"operation": "add_value",

@@ -9,7 +9,7 @@ execute if score @s stellarity.items.spellbook.updraft.animation matches ..20 ru
 execute if score @s stellarity.items.spellbook.updraft.animation matches 30.. run particle end_rod ~ ~1 ~ .3 .55 .3 0 2 force
 
 # execute if score @s stellarity.items.spellbook.updraft.animation matches 30 run effect give @s slow_falling infinite 0 true
-execute if score @s stellarity.items.spellbook.updraft.animation matches 32.. run attribute @s generic.gravity modifier add stellarity:spellbook.updraft -0.95 add_multiplied_total
-execute if score @s stellarity.items.spellbook.updraft.animation matches 32.. run attribute @s generic.fall_damage_multiplier modifier add stellarity:spellbook.updraft -1 add_multiplied_total
+execute if score @s stellarity.items.spellbook.updraft.animation matches 32.. run attribute @s gravity modifier add stellarity:spellbook.updraft -0.95 add_multiplied_total
+execute if score @s stellarity.items.spellbook.updraft.animation matches 32.. run attribute @s fall_damage_multiplier modifier add stellarity:spellbook.updraft -1 add_multiplied_total
 execute if score @s stellarity.items.spellbook.updraft.animation matches 5.. if data entity @s {OnGround:1b} run function stellarity:items/spellbooks/updraft/animation_finish
 execute if predicate kohara:player/is_sneaking run function stellarity:items/spellbooks/updraft/animation_finish

@@ -4,5 +4,5 @@ loot replace entity @s weapon.mainhand loot stellarity:stronghold/mobs/buff/evok
 
 tag @s add stellarity.stronghold.buffed
 
-attribute @s generic.armor modifier add stellarity:stronghold.defense_buff 4 add_value
-attribute @s generic.movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base
+attribute @s armor modifier add stellarity:stronghold.defense_buff 4 add_value
+attribute @s movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base

@@ -13,10 +13,10 @@ effect clear @s blindness
 effect clear @s resistance
 effect clear @s fire_resistance
 
-attribute @s generic.knockback_resistance modifier remove stellarity:cryonics
-attribute @s generic.fall_damage_multiplier modifier remove stellarity:cryonics
-attribute @s generic.jump_strength modifier remove stellarity:cryonics
-attribute @s generic.movement_speed modifier remove stellarity:cryonics
+attribute @s knockback_resistance modifier remove stellarity:cryonics
+attribute @s fall_damage_multiplier modifier remove stellarity:cryonics
+attribute @s jump_strength modifier remove stellarity:cryonics
+attribute @s movement_speed modifier remove stellarity:cryonics
 
 effect give @s absorption 12 3 true
 effect give @s resistance 12 2 true

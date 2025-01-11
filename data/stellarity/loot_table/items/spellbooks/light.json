@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90003,
+								"minecraft:item_model": "stellarity:light",
 								"minecraft:recipes": [
 									"stellarity:events/spellbooks/use_light"
 								],
@@ -23,7 +23,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",

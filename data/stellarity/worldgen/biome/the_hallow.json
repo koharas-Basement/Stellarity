@@ -45,7 +45,7 @@
 			"charge": 1
 		}
 	},
-	"carvers": {},
+	"carvers": [],
 	"features": [
 		[
 			"stellarity:the_hallow/stalactite"

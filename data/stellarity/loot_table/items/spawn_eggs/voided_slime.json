@@ -14,8 +14,12 @@
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.spawn_eggs.voided_slime\",\"fallback\":\"Voided Slime Spawn Egg\"}",
 								"minecraft:entity_data": {
 									"id": "minecraft:marker",
-									"Tags": ["stellarity.spawn_egg"],
-									"data": {"mob":"voided_slime"}
+									"Tags": [
+										"stellarity.spawn_egg"
+									],
+									"data": {
+										"mob": "voided_slime"
+									}
 								},
 								"rarity": "common"
 							}

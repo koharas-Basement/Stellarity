@@ -11,7 +11,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90009,
+								"minecraft:item_model": "stellarity:food/fish/amethyst_budfish",
 								"minecraft:custom_data": {
 									"stellarity.special_item": ""
 								},
@@ -36,7 +36,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -46,7 +46,6 @@
 									"italic": true
 								}
 							]
-								
 						}
 					]
 				}

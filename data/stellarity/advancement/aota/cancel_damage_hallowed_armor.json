@@ -4,7 +4,7 @@
 			"id": "minecraft:leather_chestplate",
 			"components": {
 				"minecraft:dyed_color": 16768338,
-				"minecraft:custom_model_data": 90001
+				"minecraft:item_model": "stellarity:hallowed_chestplate"
 			}
 		},
 		"title": {

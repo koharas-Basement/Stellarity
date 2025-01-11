@@ -8,7 +8,7 @@
 					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -69,21 +69,21 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 4,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_damage",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 1,
 									"operation": "add_value",
 									"id": "stellarity:the_beginning",
 									"slot": "offhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -2,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_speed",
@@ -91,7 +91,7 @@
 								},
 								{
 									"id": "stellarity:weapon_reach",
-									"attribute": "minecraft:player.entity_interaction_range",
+									"attribute": "minecraft:entity_interaction_range",
 									"amount": -0.3,
 									"operation": "add_value",
 									"slot": "mainhand"
@@ -101,7 +101,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90005,
+								"minecraft:item_model": "stellarity:the_beginning",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "spirit_dagger"
 								},
@@ -122,7 +122,7 @@
 					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -183,21 +183,21 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 4,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_damage",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"amount": 0.05,
 									"operation": "add_multiplied_total",
 									"id": "stellarity:the_end",
 									"slot": "offhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -2,
 									"operation": "add_value",
 									"id": "minecraft:base_attack_speed",
@@ -205,7 +205,7 @@
 								},
 								{
 									"id": "stellarity:weapon_reach",
-									"attribute": "minecraft:player.entity_interaction_range",
+									"attribute": "minecraft:entity_interaction_range",
 									"amount": -0.3,
 									"operation": "add_value",
 									"slot": "mainhand"
@@ -215,7 +215,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90006,
+								"minecraft:item_model": "stellarity:the_end",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "spirit_dagger"
 								},

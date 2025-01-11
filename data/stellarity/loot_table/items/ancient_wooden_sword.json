@@ -31,14 +31,14 @@
 							"modifiers": [
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": 2133,
 									"operation": "add_value",
 									"slot": "mainhand"
@@ -49,8 +49,10 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"alpha_wooden_sword\"}",
-								"minecraft:custom_model_data": 90000,
-								"minecraft:fire_resistant": {},
+								"minecraft:item_model": "stellarity:ancient_wooden_sword",
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:unbreakable": {
 									"show_in_tooltip": false
 								},

@@ -74,7 +74,7 @@ execute if score @s stellarity.dragon.health_percent matches ..25 run function s
 # Fly to portal to die
 execute if score @s[tag=!stellarity.at_portal] stellarity.dragon.health matches 0..1 run function stellarity:mobs/dragon/death/fly_to_portal
 execute if score @s stellarity.dragon.health matches 1 if score @s[tag=stellarity.to_portal] stellarity.misc matches 5..7 run tag @s add stellarity.at_portal
-execute if score @s[tag=stellarity.at_portal] stellarity.dragon.health matches 0..1 run function stellarity:mobs/dragon/death/at_portal_loop
+execute if entity @s[tag=stellarity.at_portal] run function stellarity:mobs/dragon/death/at_portal_loop
 
 execute as @e[type=shulker,tag=stellarity.dragon_shulker] at @s run particle witch ~ ~0.2 ~ 0.4 0.4 0.4 0.04 1 normal
 execute as @e[type=shulker_bullet,tag=stellarity.dragon_bullet] at @s run function stellarity:mobs/dragon/attacks/shulker_hell/loop_as_bullet

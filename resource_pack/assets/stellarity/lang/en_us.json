@@ -577,9 +577,9 @@
 	"Living Flesh hurts": "Living Flesh hurts",
 	"Kaleidoscope charges": "Kaleidoscope charges",
 
-	"attribute.name.player.block_interaction_range": "Block Placement Reach",
-	"attribute.name.player.entity_interaction_range": "Attack Reach",
-	"attribute.name.generic.scale": "Size",
+	"attribute.name.block_interaction_range": "Block Placement Reach",
+	"attribute.name.entity_interaction_range": "Attack Reach",
+	"attribute.name.scale": "Size",
 
 	"stellarity.items.weapons.frigid_harvester.description.ultra": "It refuses to absorb any but a few more souls",
 

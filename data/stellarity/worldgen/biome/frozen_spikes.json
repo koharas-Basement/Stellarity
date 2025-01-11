@@ -67,12 +67,10 @@
 			"charge": 1
 		}
 	},
-	"carvers": {
-		"air": [
-			"stellarity:ravine",
-			"stellarity:crack"
-		]
-	},
+	"carvers": [
+		"stellarity:ravine",
+		"stellarity:crack"
+	],
 	"features": [
 		[
 			"stellarity:global/stalactite",

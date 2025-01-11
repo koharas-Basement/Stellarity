@@ -4,7 +4,7 @@
 			"id": "minecraft:leather_chestplate",
 			"components": {
 				"minecraft:dyed_color": 11041988,
-				"minecraft:custom_model_data": 90002
+				"minecraft:item_model": "stellarity:shulker_chestplate"
 			}
 		},
 		"title": {

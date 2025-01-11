@@ -36,9 +36,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:dragon_wings",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"dragon_wings\"}",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_damage": 648,
 								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.dragon_wings\",\"fallback\": \"Dragon Wings\",\"color\": \"#9936D6\",\"italic\": false}"
@@ -49,21 +51,21 @@
 							"modifiers": [
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"amount": 2,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.movement_speed",
+									"attribute": "minecraft:movement_speed",
 									"amount": -0.08,
 									"operation": "add_multiplied_base",
 									"slot": "chest"

@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:netherite_sword",
 			"components": {
-				"minecraft:custom_model_data": 90001
+				"minecraft:item_model": "stellarity:shulker_sword"
 			}
 		},
 		"title": {

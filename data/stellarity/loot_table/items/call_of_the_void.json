@@ -11,14 +11,14 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"call_of_the_void\"}",
-								"minecraft:custom_model_data": 90002,
+								"minecraft:item_model": "stellarity:call_of_the_void",
 								"minecraft:max_damage": 424,
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.call_of_the_void\",\"fallback\": \"Call of The Void\",\"color\": \"dark_purple\"}",
 								"minecraft:fire_resistant": {}
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [

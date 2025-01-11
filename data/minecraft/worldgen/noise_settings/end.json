@@ -528,7 +528,6 @@
 										},
 										"then_run": {
 											"type": "minecraft:block",
-											"sequence": [],
 											"result_state": {
 												"Name": "snow_block"
 											}

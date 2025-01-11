@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:cursed_tome",
 								"minecraft:written_book_content": {
 									"pages": [
 										"[{\"text\":\"This item is being updated. For now, use Stellarity wiki instead of this. I know it might now have all the info, but beleive it or not, it is going to be updated quicker than the Cursed Tome ~kohara\"}]"
@@ -24,12 +24,14 @@
 									"stellarity.special_item": "cursed_tome"
 								},
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.cursed_tome\",\"fallback\": \"Cursed Enchiridion\",\"color\": \"#FFD655\"}",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_stack_size": 1
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",

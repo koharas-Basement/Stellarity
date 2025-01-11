@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90004,
+								"minecraft:item_model": "stellarity:fried_chorus_fruit",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"fried_chorus_fruit\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.fried_chorus_fruit\",\"fallback\":\"Fried Chorus Fruit\",\"color\":\"white\"}",
 								"minecraft:food": {
@@ -23,7 +23,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								[
@@ -33,7 +33,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -44,7 +44,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#FFDE4C",
 										"italic": false
 									}

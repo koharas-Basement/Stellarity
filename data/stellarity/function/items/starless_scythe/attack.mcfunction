@@ -20,7 +20,7 @@ scoreboard players reset @s stellarity.items.starless_scythe.time_since_attack
 
 ## Get damage (used for both sweep attack and heal calculations)
 # Get base damage
-execute store result score #damage stellarity.misc run attribute @s generic.attack_damage get 1000
+execute store result score #damage stellarity.misc run attribute @s attack_damage get 1000
 # If critical, increase by 50% (only if attack speed gauge is full though!)
 execute if score #is_critcal stellarity.misc matches 1 \
 	if score #attack_cooldown kohara.misc = #time_since_last_attack kohara.misc run \

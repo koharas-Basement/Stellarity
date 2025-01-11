@@ -7,6 +7,6 @@ scoreboard players reset @s[type=player] stellarity.status_effects.voided.sound_
 
 stopsound @s player stellarity:effect.voided.loop
 
-attribute @s generic.max_health modifier remove stellarity:voided
+attribute @s max_health modifier remove stellarity:voided
 
 function kohara:status_effect/stop_ticking

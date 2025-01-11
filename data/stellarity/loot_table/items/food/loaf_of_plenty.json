@@ -22,7 +22,7 @@
 									"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 								],
 								"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:loaf_of_plenty",
 								"minecraft:max_stack_size": 1,
 								"minecraft:food": {
 									"nutrition": 5,
@@ -44,7 +44,7 @@
 												"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 											],
 											"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-											"minecraft:custom_model_data": 90000,
+											"minecraft:item_model": "stellarity:loaf_of_plenty",
 											"minecraft:max_stack_size": 1,
 											"minecraft:food": {
 												"nutrition": 5,
@@ -66,7 +66,7 @@
 															"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 														],
 														"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-														"minecraft:custom_model_data": 90000,
+														"minecraft:item_model": "stellarity:loaf_of_plenty",
 														"minecraft:max_stack_size": 1,
 														"minecraft:food": {
 															"nutrition": 5,
@@ -87,7 +87,7 @@
 																		"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																	],
 																	"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																	"minecraft:custom_model_data": 90000,
+																	"minecraft:item_model": "stellarity:loaf_of_plenty",
 																	"minecraft:max_stack_size": 1,
 																	"minecraft:food": {
 																		"nutrition": 5,
@@ -109,7 +109,7 @@
 																					"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																				],
 																				"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																				"minecraft:custom_model_data": 90000,
+																				"minecraft:item_model": "stellarity:loaf_of_plenty",
 																				"minecraft:max_stack_size": 1,
 																				"minecraft:food": {
 																					"nutrition": 5,
@@ -130,7 +130,7 @@
 																								"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																							],
 																							"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																							"minecraft:custom_model_data": 90000,
+																							"minecraft:item_model": "stellarity:loaf_of_plenty",
 																							"minecraft:max_stack_size": 1,
 																							"minecraft:food": {
 																								"nutrition": 5,
@@ -152,7 +152,7 @@
 																											"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																										],
 																										"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																										"minecraft:custom_model_data": 90000,
+																										"minecraft:item_model": "stellarity:loaf_of_plenty",
 																										"minecraft:max_stack_size": 1,
 																										"minecraft:food": {
 																											"nutrition": 5,
@@ -174,7 +174,7 @@
 																														"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																													],
 																													"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																													"minecraft:custom_model_data": 90000,
+																													"minecraft:item_model": "stellarity:loaf_of_plenty",
 																													"minecraft:max_stack_size": 1,
 																													"minecraft:food": {
 																														"nutrition": 5,
@@ -195,7 +195,7 @@
 																																	"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																],
 																																"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																																"minecraft:custom_model_data": 90000,
+																																"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																"minecraft:max_stack_size": 1,
 																																"minecraft:food": {
 																																	"nutrition": 5,
@@ -217,7 +217,7 @@
 																																				"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																			],
 																																			"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																																			"minecraft:custom_model_data": 90000,
+																																			"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																			"minecraft:max_stack_size": 1,
 																																			"minecraft:food": {
 																																				"nutrition": 5,
@@ -239,7 +239,7 @@
 																																							"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																						],
 																																						"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																																						"minecraft:custom_model_data": 90000,
+																																						"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																						"minecraft:max_stack_size": 1,
 																																						"minecraft:food": {
 																																							"nutrition": 5,
@@ -261,7 +261,7 @@
 																																										"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																									],
 																																									"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																																									"minecraft:custom_model_data": 90000,
+																																									"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																									"minecraft:max_stack_size": 1,
 																																									"minecraft:food": {
 																																										"nutrition": 5,
@@ -283,7 +283,7 @@
 																																													"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																												],
 																																												"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																																												"minecraft:custom_model_data": 90000,
+																																												"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																												"minecraft:max_stack_size": 1,
 																																												"minecraft:food": {
 																																													"nutrition": 5,
@@ -305,7 +305,7 @@
 																																																"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																															],
 																																															"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}",
-																																															"minecraft:custom_model_data": 90000,
+																																															"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																															"minecraft:max_stack_size": 1,
 																																															"minecraft:food": {
 																																																"nutrition": 5,
@@ -324,7 +324,7 @@
 																																																			"{\"translate\":\"Stellarity\",\"color\":\"#CC26FF\",\"italic\":true}"
 																																																		],
 																																																		"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\",stellarity.loaf_of_plenty_final:1b}",
-																																																		"minecraft:custom_model_data": 90000,
+																																																		"minecraft:item_model": "stellarity:loaf_of_plenty",
 																																																		"minecraft:max_stack_size": 1,
 																																																		"minecraft:food": {
 																																																			"nutrition": 1,

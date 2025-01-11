@@ -11,18 +11,20 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:living_flesh",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "living_flesh"
 								},
 								"rarity": "uncommon",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_stack_size": 1,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.living_flesh\",\"fallback\": \"Living Flesh\",\"color\": \"#E53F3F\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",

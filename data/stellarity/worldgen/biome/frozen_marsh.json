@@ -31,12 +31,10 @@
 	},
 	"spawners": {},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			"stellarity:ravine",
-			"stellarity:crack"
-		]
-	},
+	"carvers": [
+		"stellarity:ravine",
+		"stellarity:crack"
+	],
 	"features": [
 		[
 			"stellarity:global/stalactite",

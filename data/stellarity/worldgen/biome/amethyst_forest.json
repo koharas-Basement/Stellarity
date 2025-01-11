@@ -41,7 +41,7 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": [],
 	"features": [
 		[
 			"far_end:amethyst/island/calcite_bottom"

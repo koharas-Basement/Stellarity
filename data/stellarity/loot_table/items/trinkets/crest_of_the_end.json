@@ -48,7 +48,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:crest_of_the_end",
 								"minecraft:hide_additional_tooltip": {},
 								"minecraft:custom_data": {
 									"stellarity.special_item": "crest_of_the_end"
@@ -59,7 +59,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -87,7 +87,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"id": "stellarity:crest_of_the_end.attack_damage",
 									"amount": 0.05,
 									"operation": "add_multiplied_total",

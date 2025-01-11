@@ -40,7 +40,7 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": [],
 	"features": [
 		[
 			"stellarity:global/stalactite"

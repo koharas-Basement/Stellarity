@@ -9,18 +9,18 @@
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
+							"components": {
 								"minecraft:potion_contents": {
 									"custom_color": 16153088,
 									"custom_effects": [
 										{
-										"id": "minecraft:speed",
-										"duration": 9600,
-										"amplifier": 0
+											"id": "minecraft:speed",
+											"duration": 9600,
+											"amplifier": 0
 										},
 										{
-										"id": "minecraft:fire_resistance",
-										"duration": 9600
+											"id": "minecraft:fire_resistance",
+											"duration": 9600
 										}
 									]
 								},
@@ -31,7 +31,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -41,7 +41,6 @@
 									"italic": true
 								}
 							]
-								
 						}
 					]
 				}

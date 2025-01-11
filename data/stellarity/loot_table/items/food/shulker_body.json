@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90002,
+								"minecraft:item_model": "stellarity:shulker_body",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"shulker_body\"}",
 								"minecraft:food": {
 									"nutrition": 4,
@@ -43,7 +43,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#587653",
 										"italic": false
 									},
@@ -54,7 +54,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#FFDE4C",
 										"italic": false
 									}

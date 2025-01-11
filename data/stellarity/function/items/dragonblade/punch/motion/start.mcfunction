@@ -12,7 +12,7 @@ execute store result score #enchant stellarity.misc run data get entity @p[predi
 
 # Punch distance gets reduced by half of knockback resistance
 # Scale = 50 so that I don't have to set it to 100 and then divide by 2
-execute store result score #knockback_res stellarity.misc run attribute @s generic.knockback_resistance get 50
+execute store result score #knockback_res stellarity.misc run attribute @s knockback_resistance get 50
 # 10 units = 1 block of punch distance
 # Base distance = 7.8 blocks (+1.4 per every Knockback level)
 # No, this does not have a cap, same applies to damage

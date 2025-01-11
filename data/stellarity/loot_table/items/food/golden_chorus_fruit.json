@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:golden_chorus_fruit",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "golden_chorus_fruit"
 								},
@@ -27,7 +27,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								[
@@ -37,7 +37,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -48,7 +48,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#FFDE4C",
 										"italic": false
 									}

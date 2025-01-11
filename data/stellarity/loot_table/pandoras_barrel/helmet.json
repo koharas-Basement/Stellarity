@@ -11,7 +11,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 1,
 									"operation": "add_value",
@@ -46,7 +46,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 2,
 									"operation": "add_value",
@@ -79,7 +79,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 3,
 									"operation": "add_value",
@@ -112,7 +112,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 4,
 									"operation": "add_value",
@@ -147,7 +147,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 5,
 									"operation": "add_value",
@@ -180,7 +180,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 6,
 									"operation": "add_value",
@@ -219,7 +219,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 7,
 									"operation": "add_value",
@@ -254,7 +254,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 8,
 									"operation": "add_value",
@@ -289,7 +289,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 9,
 									"operation": "add_value",
@@ -326,7 +326,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 10,
 									"operation": "add_value",
@@ -366,7 +366,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 11,
 									"operation": "add_value",
@@ -399,7 +399,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 12,
 									"operation": "add_value",
@@ -432,7 +432,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 13,
 									"operation": "add_value",
@@ -467,7 +467,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 14,
 									"operation": "add_value",
@@ -500,7 +500,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 15,
 									"operation": "add_value",
@@ -535,7 +535,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 16,
 									"operation": "add_value",
@@ -569,7 +569,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 17,
 									"operation": "add_value",
@@ -602,7 +602,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 18,
 									"operation": "add_value",
@@ -636,7 +636,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 19,
 									"operation": "add_value",
@@ -669,7 +669,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": 20,
 									"operation": "add_value",
@@ -702,7 +702,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": -10,
 									"operation": "add_value",
@@ -735,7 +735,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": -11,
 									"operation": "add_value",
@@ -768,7 +768,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": -12,
 									"operation": "add_value",
@@ -801,7 +801,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": -13,
 									"operation": "add_value",
@@ -834,7 +834,7 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.max_health",
+									"attribute": "minecraft:max_health",
 									"id": "stellarity:pandoras_barrel_biome",
 									"amount": -14,
 									"operation": "add_value",

@@ -7,7 +7,7 @@ playsound entity.player.levelup hostile @a[distance=0..] ~ ~ ~ .33 .55
 playsound minecraft:entity.warden.sonic_boom hostile @a[distance=0..] ~ ~1 ~ 0.5 1
 
 # Vindicator for hitbox and HP
-summon minecraft:vindicator ~ ~-1.5 ~ {NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:0b}],Tags:["stellarity.eol","kohara.boss","stellarity.eol.phase_1"],Invulnerable:1b,attributes:[{id:"generic.armor",base:12d},{id:"generic.armor_toughness",base:4d},{id:"generic.max_health",base:500d}],HandItems:[{id:"minecraft:totem_of_undying",count:1b}],HandDropChances:[0f,0f],Health:500f,DeathLootTable:"minecraft:empty"}
+summon minecraft:vindicator ~ ~-1.5 ~ {NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:0b}],Tags:["stellarity.eol","kohara.boss","stellarity.eol.phase_1"],Invulnerable:1b,attributes:[{id:"armor",base:12d},{id:"armor_toughness",base:4d},{id:"max_health",base:500d}],HandItems:[{id:"minecraft:totem_of_undying",count:1b}],HandDropChances:[0f,0f],Health:500f,DeathLootTable:"minecraft:empty"}
 
 # Armor Stand for the model
 summon armor_stand ~ ~-1.5 ~ {Pose:{LeftLeg:[8f,347f,0f],RightLeg:[10f,18f,0f],LeftArm:[349f,333f,355f],RightArm:[341f,12f,5f]},ShowArms:1,Tags:["stellarity.eol.as"],Marker:1b,Invisible:0b,NoGravity:1b,NoBasePlate:1b}
@@ -22,7 +22,7 @@ scoreboard players set @n[type=vindicator,tag=stellarity.eol] stellarity.eol.att
 
 execute if predicate stellarity:mobs/eol/is_daytime run tag @n[type=vindicator,tag=stellarity.eol] add stellarity.eol.full_daytime
 
-execute store result entity @n[type=vindicator,tag=stellarity.eol] Attributes[{Name:"minecraft:generic.max_health"}].Base float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
+execute store result entity @n[type=vindicator,tag=stellarity.eol] Attributes[{Name:"minecraft:max_health"}].Base float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
 execute store result entity @n[type=vindicator,tag=stellarity.eol] Health float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
 execute store result bossbar stellarity:eol max run scoreboard players get #stellarity.config stellarity.config.eol_health
 

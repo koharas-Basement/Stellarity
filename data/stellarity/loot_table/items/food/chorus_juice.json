@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90003,
+								"minecraft:item_model": "stellarity:chorus_juice",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_juice\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.chorus_juice\",\"fallback\":\"Chorus Juice\",\"color\":\"white\"}",
 								"minecraft:potion_contents": {

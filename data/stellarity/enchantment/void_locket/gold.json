@@ -25,13 +25,13 @@
 		"minecraft:attributes": [
 			{
 				"id": "stellarity:void_locket.mining_speed",
-				"attribute": "minecraft:player.block_break_speed",
+				"attribute": "minecraft:block_break_speed",
 				"amount": 0.15,
 				"operation": "add_multiplied_total"
 			},
 			{
 				"id": "stellarity:void_locket.mining_eff",
-				"attribute": "minecraft:player.mining_efficiency",
+				"attribute": "minecraft:mining_efficiency",
 				"amount": 5,
 				"operation": "add_value"
 			}

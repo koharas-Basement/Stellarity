@@ -11,7 +11,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90006,
+								"minecraft:item_model": "stellarity:frost_minnow",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "frost_minnow"
 								},
@@ -36,7 +36,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -46,11 +46,10 @@
 									"italic": true
 								}
 							]
-								
 						}
 					]
 				}
-            ]
-        }
-    ]
+			]
+		}
+	]
 }

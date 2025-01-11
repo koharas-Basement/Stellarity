@@ -13,5 +13,5 @@ execute if entity @s[tag=stellarity.holy_protection] run summon minecraft:area_e
 
 # Remove knockback resistance
 execute if score @s stellarity.items.armors.holy_protection_cooldown matches 500..539 run particle minecraft:poof ~ ~1 ~ 0.3 0.5 0.3 0 1
-execute if score @s stellarity.items.armors.holy_protection_cooldown matches 500 run attribute @s generic.knockback_resistance modifier remove stellarity:holy_protection
+execute if score @s stellarity.items.armors.holy_protection_cooldown matches 500 run attribute @s knockback_resistance modifier remove stellarity:holy_protection
 execute if score @s stellarity.items.armors.holy_protection_cooldown matches 460 run function stellarity:items/armor/hallowed/holy_protection/remove_speed

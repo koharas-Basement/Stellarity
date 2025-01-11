@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90003,
+								"minecraft:item_model": "stellarity:prismember",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "prismember"
 								},
@@ -54,14 +54,14 @@
 							"modifiers": [
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 7,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -2.4,
 									"operation": "add_value",
 									"slot": "mainhand"

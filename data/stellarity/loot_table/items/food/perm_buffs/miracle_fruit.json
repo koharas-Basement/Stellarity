@@ -8,7 +8,7 @@
 					"name": "minecraft:apple",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
@@ -21,7 +21,7 @@
 								},
 								{
 									"translate": "stellarity.items.perm_buffs.miracle_fruit.increase",
-									"fallback":"increase your life regeneration",
+									"fallback": "increase your life regeneration",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -37,7 +37,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:miracle_fruit",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"miracle_fruit\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.perm_buffs.miracle_fruit\",\"fallback\":\"Miracle Fruit\",\"color\":\"#F22AD6\"}",
 								"rarity": "epic",

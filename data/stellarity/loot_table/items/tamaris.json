@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90002,
+								"minecraft:item_model": "stellarity:tamaris",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "tamaris"
 								},
@@ -20,7 +20,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"lore": [
 								"",
@@ -61,14 +61,14 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"id": "minecraft:base_attack_damage",
 									"amount": 6,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"id": "minecraft:base_attack_speed",
 									"amount": -2.4,
 									"operation": "add_value",

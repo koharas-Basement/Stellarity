@@ -10,18 +10,20 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:fisher_of_voids",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "fisher_of_voids"
 								},
 								"rarity": "uncommon",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_damage": 264,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.fisher_of_voids\",\"fallback\": \"Fisher of Voids\",\"color\": \"#8865AF\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [

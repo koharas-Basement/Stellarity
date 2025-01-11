@@ -8,14 +8,14 @@
 					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
+							"function": "minecraft:set_lore",
 							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "ғᴜʟʟ sᴇᴛ ʙᴏɴᴜs:",
+									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
@@ -52,11 +52,13 @@
 									"rgb": 11041988,
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:chorus_champion_chestplate",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "chorus_champion_armor"
 								},
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:max_damage": 528,
 								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.chorus_champion_armor.chestplate\",\"fallback\": \"Chorus Champion Chestplate\",\"color\": \"#A87CC4\",\"italic\": false}"
@@ -66,35 +68,35 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
+									"attribute": "minecraft:armor",
 									"id": "minecraft:armor.chestplate",
 									"amount": 8,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
+									"attribute": "minecraft:armor_toughness",
 									"id": "minecraft:armor.chestplate",
 									"amount": 2,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:knockback_resistance",
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.08,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.025,
 									"operation": "add_multiplied_base",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.15,
 									"operation": "add_multiplied_base",

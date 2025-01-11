@@ -22,7 +22,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "stellarity:enchantment.soaring",
-				"attribute": "minecraft:generic.gravity",
+				"attribute": "minecraft:gravity",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": -0.05,

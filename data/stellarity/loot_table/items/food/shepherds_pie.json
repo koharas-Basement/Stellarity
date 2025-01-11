@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:item_model": "stellarity:shepherds_pie",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"shepherds_pie\"}",
 								"minecraft:food": {
 									"nutrition": 20,
@@ -54,7 +54,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -65,7 +65,7 @@
 										"italic": false
 									},
 									{
-										"text": " 🍖",
+										"text": " \ud83c\udf56",
 										"color": "#FFDE4C",
 										"italic": false
 									}

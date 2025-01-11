@@ -31,14 +31,14 @@
 							"modifiers": [
 								{
 									"id": "minecraft:base_attack_damage",
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:attack_damage",
 									"amount": 8,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:attack_speed",
 									"amount": -3.2,
 									"operation": "add_value",
 									"slot": "mainhand"
@@ -49,9 +49,11 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"excalibur\"}",
-								"minecraft:custom_model_data": 90009,
+								"minecraft:item_model": "stellarity:excalibur",
 								"minecraft:rarity": "uncommon",
-								"minecraft:fire_resistant": {},
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								},
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.excalibur\",\"fallback\": \"Excalibur\"}"
 							}
 						}
