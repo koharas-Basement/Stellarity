@@ -1,4 +1,4 @@
-execute store result score #count stellarity.misc run data get storage stellarity:temp aots.item.Count 10
+execute store result score #count stellarity.misc run data get storage stellarity:temp aots.item.count 10
 
 scoreboard players set #mul stellarity.misc 85
 

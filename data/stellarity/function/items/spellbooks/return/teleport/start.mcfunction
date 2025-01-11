@@ -1,3 +1,5 @@
+scoreboard players set @s stellarity.items.spellbook.return.cooldown 120
+
 data remove storage stellarity:temp book_of_return
 
 data modify storage stellarity:temp book_of_return.player_data set from entity @p[predicate=stellarity:items/holding/spellbooks/return]
