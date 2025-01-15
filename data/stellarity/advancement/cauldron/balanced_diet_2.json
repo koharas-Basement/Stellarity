@@ -20,332 +20,59 @@
 	},
 	"parent": "stellarity:cauldron/dilute_breath",
 	"criteria": {
-		"candiend_chorus_fruit": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"candiend_chorus_fruit\"}"
-					}
-				}
-			}
-		},
-		"chorus_juice": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"chorus_juice\"}"
-					}
-				}
-			}
-		},
-		"chorus_pie": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"chorus_pie\"}"
-					}
-				}
-			}
-		},
-		"chorus_stew": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"chorus_stew\"}"
-					}
-				}
-			}
-		},
-		"enderman_flesh": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"enderman_flesh\"}"
-					}
-				}
-			}
-		},
-		"fried_chorus_fruit": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"fried_chorus_fruit\"}"
-					}
-				}
-			}
-		},
-		"frozen_carpaccio": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"frozen_carpaccio\"}"
-					}
-				}
-			}
-		},
-		"golden_chorus_fruit": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"golden_chorus_fruit\"}"
-					}
-				}
-			}
-		},
-		"grilled_enderman_flesh": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"grilled_enderman_flesh\"}"
-					}
-				}
-			}
-		},
-		"pho": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"pho\"}"
-					}
-				}
-			}
-		},
-		"prismatic_sushi": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"prismatic_sushi\"}"
-					}
-				}
-			}
-		},
-		"shepherds_pie": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"shepherds_pie\"}"
-					}
-				}
-			}
-		},
-		"shulker_body": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"shulker_body\"}"
-					}
-				}
-			}
-		},
-		"sushi": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"sushi\"}"
-					}
-				}
-			}
-		},
-		"amethyst_budfish": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"amethyst_budfish\"}"
-					}
-				}
-			}
-		},
-		"bubblefish": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"bubblefish\"}"
-					}
-				}
-			}
-		},
-		"crimson_tigerfish": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"crimson_tigerfish\"}"
-					}
-				}
-			}
-		},
-		"crystal_heartfish": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"crystal_heartfish\"}"
-					}
-				}
-			}
-		},
-		"ender_koi": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"ender_koi\"}"
-					}
-				}
-			}
-		},
-		"flarefin_koi": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"flarefin_koi\"}"
-					}
-				}
-			}
-		},
-		"fleshy_piranha": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"fleshy_piranha\"}"
-					}
-				}
-			}
-		},
-		"frost_minnow": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"frost_minnow\"}"
-					}
-				}
-			}
-		},
-		"overgrown_cod": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"overgrown_cod\"}"
-					}
-				}
-			}
-		},
-		"prismite": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"prismite\"}"
-					}
-				}
-			}
-		},
-		"pufferfish": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"pufferfish\"}"
-					}
-				}
-			}
-		}
+		"candied_chorus_fruit":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"candied_chorus_fruit\"}"}}}},
+		"chorus_juice":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"chorus_juice\"}"}}}},
+		"chorus_pie":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"chorus_pie\"}"}}}},
+		"chorus_stew":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"chorus_stew\"}"}}}},
+		"enderman_flesh":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"enderman_flesh\"}"}}}},
+		"fried_chorus_fruit":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"fried_chorus_fruit\"}"}}}},
+		"frozen_carpaccio":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"\"}"}}}},
+		"golden_chorus_fruit":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"golden_chorus_fruit\"}"}}}},
+		"grilled_enderman_flesh":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"grilled_enderman_flesh\"}"}}}},
+		"pho":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"pho\"}"}}}},
+		"prismatic_sushi":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"prismatic_sushi\"}"}}}},
+		"shepherds_pie":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"shepherds_pie\"}"}}}},
+		"shulker_body":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"shulker_body\"}"}}}},
+		"sushi":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"sushi\"}"}}}},
+		"amethyst_budfish":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"\"}"}}}},
+		"bubblefish":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"bubblefish\"}"}}}},
+		"crimson_tigerfish":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"crimson_tigerfish\"}"}}}},
+		"crystal_heartfish":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"crystal_heartfish\"}"}}}},
+		"ender_koi":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"ender_koi\"}"}}}},
+		"flarefin_koi":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"flarefin_koi\"}"}}}},
+		"fleshy_piranha":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"fleshy_piranha\"}"}}}},
+		"frost_minnow":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"frost_minnow\"}"}}}},
+		"overgrown_cod":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"overgrown_cod\"}"}}}},
+		"prismite":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"prismite\"}"}}}},
+		"pufferfish":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"pufferfish\"}"}}}},
+		"loaf_of_plenty":{"trigger":"minecraft:consume_item","conditions":{"item":{"components":{"minecraft:custom_data":"{stellarity.special_item:\"loaf_of_plenty\"}"}}}}
 	},
 	"requirements": [
-		[
-			"candiend_chorus_fruit"
-		],
-		[
-			"chorus_juice"
-		],
-		[
-			"chorus_pie"
-		],
-		[
-			"chorus_stew"
-		],
-		[
-			"enderman_flesh"
-		],
-		[
-			"fried_chorus_fruit"
-		],
-		[
-			"frozen_carpaccio"
-		],
-		[
-			"golden_chorus_fruit"
-		],
-		[
-			"grilled_enderman_flesh"
-		],
-		[
-			"pho"
-		],
-		[
-			"prismatic_sushi"
-		],
-		[
-			"shepherds_pie"
-		],
-		[
-			"shulker_body"
-		],
-		[
-			"sushi"
-		],
-		[
-			"amethyst_budfish"
-		],
-		[
-			"bubblefish"
-		],
-		[
-			"crimson_tigerfish"
-		],
-		[
-			"crystal_heartfish"
-		],
-		[
-			"ender_koi"
-		],
-		[
-			"flarefin_koi"
-		],
-		[
-			"fleshy_piranha"
-		],
-		[
-			"frost_minnow"
-		],
-		[
-			"overgrown_cod"
-		],
-		[
-			"prismite"
-		],
-		[
-			"pufferfish"
-		]
+		["candied_chorus_fruit"],
+		["chorus_juice"],
+		["chorus_pie"],
+		["chorus_stew"],
+		["enderman_flesh"],
+		["fried_chorus_fruit"],
+		["frozen_carpaccio"],
+		["golden_chorus_fruit"],
+		["grilled_enderman_flesh"],
+		["pho"],
+		["prismatic_sushi"],
+		["shepherds_pie"],
+		["shulker_body"],
+		["sushi"],
+		["amethyst_budfish"],
+		["bubblefish"],
+		["crimson_tigerfish"],
+		["crystal_heartfish"],
+		["ender_koi"],
+		["flarefin_koi"],
+		["fleshy_piranha"],
+		["frost_minnow"],
+		["overgrown_cod"],
+		["prismite"],
+		["pufferfish"],
+		["loaf_of_plenty"]
 	]
 }
