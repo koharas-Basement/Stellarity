@@ -33,6 +33,11 @@
 								"minecraft:item_model": "stellarity:phantom_wings",
 								"minecraft:custom_data": "{\"stellarity.special_item\":\"phantom_wings\"}",
 								"rarity": "uncommon",
+								"minecraft:equippable": {
+									"slot": "chest",
+									"asset_id": "stellarity:phantom_wings",
+									"damage_on_hurt": false
+								},
 								"minecraft:max_damage": 104,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.phantom_wings\",\"fallback\": \"Phantom Wings\",\"color\": \"yellow\",\"italic\": false}"
 							}

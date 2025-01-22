@@ -1,10 +1,8 @@
 {
 	"type": "minecraft:blasting",
-    "group": "gunpowder",
-    "category": "misc",
-	"ingredient": {
-		"item": "minecraft:popped_chorus_fruit"
-	},
+  "group": "gunpowder",
+  "category": "misc",
+	"ingredient": "minecraft:popped_chorus_fruit",
 	"result": {
 		"id": "minecraft:gunpowder"
 	},

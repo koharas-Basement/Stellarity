@@ -10,7 +10,6 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "stellarity:starstruck_shield",
 								"minecraft:hide_additional_tooltip": {},
 								"minecraft:max_damage": 512,
 								"minecraft:custom_data": {

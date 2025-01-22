@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:leather_helmet",
+					"name": "minecraft:iron_helmet",
 					"functions": [
 						{
 							"function": "minecraft:set_lore",
@@ -52,6 +52,12 @@
 								},
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
+								},
+								"minecraft:equippable": {
+									"slot": "head",
+									"asset_id": "stellarity:hallowed",
+									"damage_on_hurt": true,
+									"equip_sound": "minecraft:item.armor.equip_netherite"
 								},
 								"minecraft:max_damage": 407,
 								"rarity": "uncommon",

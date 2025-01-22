@@ -3,9 +3,7 @@
 	"group": "bonemeal",
 	"category": "misc",
 	"ingredients": [
-		{
-			"item": "minecraft:chorus_flower"
-		}
+		"minecraft:chorus_flower"
 	],
 	"result": {
 		"id": "minecraft:purple_dye",

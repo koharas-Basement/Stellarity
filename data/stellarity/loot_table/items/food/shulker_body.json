@@ -15,18 +15,20 @@
 								"minecraft:food": {
 									"nutrition": 4,
 									"saturation": 0.8,
-									"can_always_eat": true,
-									"eat_seconds": 1.5,
-									"effects": [
+									"can_always_eat": true
+								},
+								"minecraft:consumable": {
+									"animation": "eat",
+									"consume_seconds": 3.5,
+									"has_consume_particles": true,
+									"sound": "entity.generic.eat",
+									"on_consume_effects": [
 										{
-											"effect": {
-												"id": "minecraft:hunger",
-												"duration": 800,
-												"ambient": false,
-												"show_particles": true,
-												"show_icon": true
-											},
-											"probability": 0.3
+											"type": "apply_effects",
+											"probability": 0.3,
+											"effects": [
+												{"id": "minecraft:hunger","duration": 800,"ambient": false,"show_particles": true,"show_icon": true}
+											]
 										}
 									]
 								},

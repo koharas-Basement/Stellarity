@@ -1,7 +1,6 @@
 {
 	"values": [
 		"stellarity:items/food/fish/crystal_heartfish/increase_max_hp",
-		"stellarity:items/food/fish/crystal_heartfish/respawn_heal",
-		"stellarity:items/food/perm_buffs/respawn"
+		"stellarity:items/food/fish/crystal_heartfish/respawn_heal"
 	]
 }

@@ -36,7 +36,9 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "stellarity:hematic_pickaxe",
-								"minecraft:custom_data": {},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "hematic_pickaxe"
+								},
 								"minecraft:max_damage": 1561,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.tools.hematic_pickaxe\",\"fallback\": \"Hematic Pickaxe\",\"color\": \"#E53F3F\",\"italic\": false}",
 								"minecraft:tool": {

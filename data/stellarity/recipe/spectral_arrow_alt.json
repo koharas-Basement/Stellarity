@@ -3,12 +3,8 @@
 	"category": "equipment",
 	"group": "spectral_arrow",
 	"ingredients": [
-		{
-			"item": "minecraft:arrow"
-		},
-		{
-			"item": "minecraft:glowstone"
-		}
+		"minecraft:arrow",
+		"minecraft:glowstone"
 	],
 	"result": {
 		"id": "minecraft:spectral_arrow",

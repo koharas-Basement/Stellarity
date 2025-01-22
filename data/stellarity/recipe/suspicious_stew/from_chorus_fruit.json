@@ -3,18 +3,10 @@
 	"category": "misc",
 	"group": "suspicious_stew",
 	"ingredients": [
-		{
-			"item": "minecraft:bowl"
-		},
-		{
-			"item": "minecraft:red_mushroom"
-		},
-		{
-			"item": "minecraft:brown_mushroom"
-		},
-		{
-			"item": "minecraft:chorus_fruit"
-		}
+		"minecraft:bowl",
+		"minecraft:red_mushroom",
+		"minecraft:brown_mushroom",
+		"minecraft:chorus_fruit"
 	],
 	"result": {
 		"id": "minecraft:suspicious_stew",

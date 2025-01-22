@@ -16,15 +16,20 @@
 								"minecraft:food": {
 									"nutrition": 4,
 									"saturation": 0.8,
-									"can_always_eat": false,
-									"eat_seconds": 1.5,
-									"effects": [
+									"can_always_eat": false
+								},
+								"minecraft:consumable": {
+									"animation": "eat",
+									"consume_seconds": 1.6,
+									"has_consume_particles": true,
+									"sound": "entity.generic.eat",
+									"on_consume_effects": [
 										{
-											"effect": {
-												"id": "minecraft:hunger",
-												"amplifier": 840
-											},
-											"probability": 0.8
+											"type": "apply_effects",
+											"probability": 0.8,
+											"effects": [
+												{"id": "hunger","duration": 840}
+											]
 										}
 									]
 								}

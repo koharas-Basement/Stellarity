@@ -1,12 +1,12 @@
 scoreboard players set #damage kohara.misc 10
 scoreboard players operation #damage kohara.misc *= @s stellarity.status_effects.brittle.level
 
-execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
-execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
-execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
-execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
-execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
-execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,item:light_blue_dye,despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,custommodeldata:90000,id:brittle}
+execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,model:"stellarity:particle/brittle",despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,id:brittle}
+execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,model:"stellarity:particle/brittle",despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,id:brittle}
+execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,model:"stellarity:particle/brittle",despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,id:brittle}
+execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,model:"stellarity:particle/brittle",despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,id:brittle}
+execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,model:"stellarity:particle/brittle",despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,id:brittle}
+execute positioned ~ ~1.3 ~ run function kohara:particles/spawn_particle {speed:10,billboard:center,model:"stellarity:particle/brittle",despawn_value:30,state:spread,spread_initial:1.3,spread_radius:2.5,id:brittle}
 
 function kohara:damage/calculate {armor_penetration:40,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"kohara:no_knockback_ignores_iframes",tag:"stellarity.damage.embrittlement"}
 

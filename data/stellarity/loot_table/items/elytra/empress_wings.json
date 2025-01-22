@@ -48,6 +48,11 @@
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								},
+								"minecraft:equippable": {
+									"slot": "chest",
+									"asset_id": "stellarity:empress_wings",
+									"damage_on_hurt": false
+								},
 								"rarity": "epic",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.empress_wings\",\"fallback\": \"Empress Wings\",\"color\": \"#FF76D0\",\"italic\": false}"
 							}

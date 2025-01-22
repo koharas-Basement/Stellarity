@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:item_model": "stellarity:updraft",
+								"minecraft:item_model": "stellarity:book_of_updraft",
 								"minecraft:recipes": [
 									"stellarity:events/spellbooks/use_updraft"
 								],

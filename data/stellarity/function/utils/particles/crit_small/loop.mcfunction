@@ -9,3 +9,5 @@ tp @s ~ ~-0.08 ~
 #execute if score @s kohara.misc matches 9 run data merge entity @s {transformation:{right_rotation:[0f,0f,0f,0f]},interpolation_duration:8,start_interpolation:-1}
 
 #execute if score @s kohara.misc matches 18 run data merge entity @s {transformation:{right_rotation:[1f,0f,0f,0f],scale:[0f,0f,0f]},interpolation_duration:12,start_interpolation:-1}
+
+say a

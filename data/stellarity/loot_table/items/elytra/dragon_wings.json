@@ -41,6 +41,11 @@
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								},
+								"minecraft:equippable": {
+									"slot": "chest",
+									"asset_id": "stellarity:dragon_wings",
+									"damage_on_hurt": false
+								},
 								"minecraft:max_damage": 648,
 								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.dragon_wings\",\"fallback\": \"Dragon Wings\",\"color\": \"#9936D6\",\"italic\": false}"

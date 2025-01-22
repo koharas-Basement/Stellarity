@@ -1,6 +1,6 @@
 ##Spawn settings
 
-$data merge entity @s {Tags:["kohara.particles","kohara.particle.$(id)",$(state)],billboard:"$(billboard)",item:{id:"minecraft:$(item)",count:1,components:{"minecraft:item_model":$(custommodeldata)}},transformation:[0.3f,0f,0f,0f,0f,0.3f,0f,0f,0f,0f,0.0000000001f,0f,0f,0f,0f,1f],teleport_duration:$(speed),view_range:32}
+$data merge entity @s {Tags:["kohara.particles","kohara.particle.$(id)",$(state)],billboard:"$(billboard)",item:{id:"minecraft:dirt",count:1,components:{"minecraft:item_model":'$(model)'}},transformation:[0.3f,0f,0f,0f,0f,0.3f,0f,0f,0f,0f,0.0000000001f,0f,0f,0f,0f,1f],teleport_duration:$(speed),view_range:32}
 
 #execute store result score @s[tag=!spawned,tag=!falling,tag=!floating] kohara.particles.spread.pos run data get entity @s Pos[1] 1
 

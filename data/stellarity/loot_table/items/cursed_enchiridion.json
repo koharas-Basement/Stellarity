@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "stellarity:cursed_tome",
+								"minecraft:item_model": "stellarity:cursed_enchiridion",
 								"minecraft:written_book_content": {
 									"pages": [
 										"[{\"text\":\"This item is being updated. For now, use Stellarity wiki instead of this. I know it might now have all the info, but beleive it or not, it is going to be updated quicker than the Cursed Tome ~kohara\"}]"
