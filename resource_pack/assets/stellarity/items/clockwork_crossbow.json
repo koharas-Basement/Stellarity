@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/clockwork_crossbow_arrow"
+				},
+				"when": "arrow"
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "stellarity:item/clockwork_crossbow"
+		},
+		"property": "minecraft:charge_type"
+	}
+}

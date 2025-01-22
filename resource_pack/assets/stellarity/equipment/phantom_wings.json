@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"wings": [
+			{
+				"texture": "stellarity:phantom",
+				"use_player_texture": false
+			}
+		]
+	}
+}

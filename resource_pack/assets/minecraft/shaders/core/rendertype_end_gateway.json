@@ -1,6 +1,6 @@
 {
-	"vertex": "rendertype_end_portal",
-	"fragment": "stellarity_end_gateway",
+	"vertex": "minecraft:core/rendertype_end_portal",
+	"fragment": "stellarity:core/end_gateway",
 	"samplers": [
 		{
 			"name": "Sampler0"

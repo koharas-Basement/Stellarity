@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"wings": [
+			{
+				"texture": "stellarity:empress",
+				"use_player_texture": false
+			}
+		]
+	}
+}
