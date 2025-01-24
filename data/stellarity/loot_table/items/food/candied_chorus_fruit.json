@@ -32,6 +32,10 @@
 													"duration": 280
 												}
 											]
+										},
+										{
+											"type": "teleport_randomly",
+											"diameter": 16
 										}
 									]
 								}

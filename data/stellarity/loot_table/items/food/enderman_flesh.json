@@ -30,6 +30,10 @@
 											"effects": [
 												{"id": "hunger","duration": 840}
 											]
+										},
+										{
+											"type": "teleport_randomly",
+											"diameter": 8
 										}
 									]
 								}

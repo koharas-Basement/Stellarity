@@ -29,6 +29,10 @@
 											"effects": [
 												{"id": "minecraft:hunger","duration": 800,"ambient": false,"show_particles": true,"show_icon": true}
 											]
+										},
+										{
+											"type": "teleport_randomly",
+											"diameter": 16
 										}
 									]
 								},
