@@ -7,6 +7,5 @@ execute store result score @n[type=marker,tag=stellarity.prismatic_blast] stella
 	data get storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments".levels."minecraft:piercing" 1
 execute if data storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments".levels."minecraft:multishot" run \
 	tag @n[type=marker,tag=stellarity.prismatic_blast] add stellarity.prismatic_blast.multishot
-	
-playsound minecraft:block.enchantment_table.use player @a[distance=0..] ~ ~ ~ .75 1.25
-playsound minecraft:entity.blaze.shoot player @a[distance=0..] ~ ~ ~ 1 1.35
+
+playsound stellarity:item.prismatic_punch.shoot player @a[distance=0..] ~ ~ ~

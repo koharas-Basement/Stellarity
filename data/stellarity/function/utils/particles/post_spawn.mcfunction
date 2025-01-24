@@ -3,3 +3,4 @@ execute if entity @s[tag=kohara.particle.brittle] run function stellarity:utils/
 execute if entity @s[tag=kohara.particle.crit] run function stellarity:utils/particles/crit/spawn
 execute if entity @s[tag=kohara.particle.crit_small] run function stellarity:utils/particles/crit_small/spawn
 execute if entity @s[tag=kohara.particle.scythe_sweep] run function stellarity:utils/particles/scythe_sweep/spawn
+execute if entity @s[tag=kohara.particle.dragonblade_sigil] run function stellarity:utils/particles/dragonblade_sigil/spawn

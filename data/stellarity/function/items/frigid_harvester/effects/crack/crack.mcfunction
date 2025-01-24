@@ -13,6 +13,5 @@ execute if score #sound stellarity.misc matches 4 run \
 execute if score #sound stellarity.misc matches 5 run \
 	playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.8 1.2
 
-playsound minecraft:block.glass.break player @s ~ ~ ~ 1 0.66
 playsound minecraft:block.enchantment_table.use player @s ~ ~ ~ 0.3 0.66
 playsound minecraft:block.amethyst_block.break player @s ~ ~ ~ 1 0.8

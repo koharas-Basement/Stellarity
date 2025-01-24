@@ -16,7 +16,7 @@
 		}
 	},
 	"dimension_padding": {
-		"bottom": 1
+		"bottom": 30
 	},	
 	"project_start_to_heightmap": "WORLD_SURFACE",
 	"max_distance_from_center": 40,
