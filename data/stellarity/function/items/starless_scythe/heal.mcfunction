@@ -15,3 +15,5 @@ scoreboard players operation #heal kohara.misc *= #percent stellarity.misc
 scoreboard players operation #heal kohara.misc /= #100 stellarity.misc
 
 function kohara:heal
+
+particle vault_connection ~ ~1 ~ 0 0 0 1 30
