@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": "{stellarity.special_item:\"music_disc.deviants_light_music_box\"}",
-								"minecraft:item_model": "stellarity:deviants_light_music_box",
+								"minecraft:item_model": "stellarity:music_disc_deviants_light_music_box",
 								"minecraft:jukebox_playable": {
 									"song": "stellarity:deviants_light_music_box",
 									"show_in_tooltip": true

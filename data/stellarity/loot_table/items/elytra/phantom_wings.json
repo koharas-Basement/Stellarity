@@ -38,7 +38,7 @@
 									"asset_id": "stellarity:phantom_wings",
 									"damage_on_hurt": false
 								},
-								"minecraft:max_damage": 104,
+								"minecraft:max_damage": 70,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.phantom_wings\",\"fallback\": \"Phantom Wings\",\"color\": \"yellow\",\"italic\": false}"
 							}
 						}

@@ -73,7 +73,7 @@
 									"types": "#is_fire"
 								},
 								"minecraft:equippable": {
-									"slot": "body",
+									"slot": "chest",
 									"asset_id": "stellarity:floral",
 									"damage_on_hurt": true,
 									"equip_sound": "minecraft:item.armor.equip_netherite"

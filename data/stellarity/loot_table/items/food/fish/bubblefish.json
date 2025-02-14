@@ -19,7 +19,7 @@
 								"!food": {},
 								"minecraft:consumable": {
 									"animation": "eat",
-									"consume_seconds": 1,
+									"consume_seconds": 0.5,
 									"has_consume_particles": true,
 									"sound": "entity.generic.eat",
 									"on_consume_effects": [
