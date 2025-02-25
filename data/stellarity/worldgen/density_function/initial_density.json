@@ -1,46 +1,15 @@
 {
-	"type": "minecraft:add",
-	"argument1": -0.234375,
+	"argument1": 4,
 	"argument2": {
-		"type": "minecraft:mul",
-		"argument1": {
-			"type": "minecraft:y_clamped_gradient",
-			"from_y": 4,
-			"to_y": 32,
-			"from_value": 0,
-			"to_value": 1
-		},
-		"argument2": {
-			"type": "minecraft:add",
-			"argument1": 0.234375,
+		"argument": {
+			"argument1": "stellarity:climate/depth",
 			"argument2": {
-				"type": "minecraft:add",
-				"argument1": -23.4375,
-				"argument2": {
-					"type": "minecraft:mul",
-					"argument1": {
-						"type": "minecraft:y_clamped_gradient",
-						"from_y": 56,
-						"to_y": 312,
-						"from_value": 1,
-						"to_value": 0
-					},
-					"argument2": {
-						"type": "minecraft:add",
-						"argument1": 23.4375,
-						"argument2": {
-							"type": "minecraft:add",
-							"argument1": -0.703125,
-							"argument2": {
-								"type": "minecraft:cache_2d",
-								"argument": {
-									"type": "minecraft:end_islands"
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+				"argument": "stellarity:factor",
+				"type": "minecraft:cache_2d"
+			},
+			"type": "minecraft:mul"
+		},
+		"type": "minecraft:quarter_negative"
+	},
+	"type": "minecraft:mul"
 }
