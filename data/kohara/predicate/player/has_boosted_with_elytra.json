@@ -1,25 +1,7 @@
 [
 	{
-		"condition": "minecraft:entity_scores",
-		"entity": "this",
-		"scores": {
-			"kohara.flight_speed": {
-				"min": 1
-			}
-		}
-	},
-	{
-		"condition": "minecraft:entity_properties",
-		"entity": "this",
-		"predicate": {
-			"equipment": {
-				"chest": {
-					"items": [
-						"minecraft:elytra"
-					]
-				}
-			}
-		}
+		"condition": "reference",
+		"name": "kohara:player/gliding"
 	},
 	{
 		"condition": "minecraft:any_of",
@@ -35,7 +17,7 @@
 								"entity": "this",
 								"predicate": {
 									"equipment": {
-										"offhand": {
+										"mainhand": {
 											"items": [
 												"minecraft:trident"
 											],

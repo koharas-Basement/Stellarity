@@ -6,8 +6,8 @@ execute if data storage stellarity:temp {elytra_nerf:{player_data:{Inventory:[{S
 # Mimic vanilla behavior
 execute if score #mainhand stellarity.misc matches 1 run scoreboard players set #offhand stellarity.misc 0
 
-execute if score #mainhand stellarity.misc matches 1 store result score #enchantment stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.SelectedItem.components."minecraft:enchantments".levels."minecraft:riptide" 2
-execute if score #offhand stellarity.misc matches 1 store result score #enchantment stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:riptide" 2
+execute if score #mainhand stellarity.misc matches 1 store result score #enchantment stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.SelectedItem.components."minecraft:enchantments".levels."minecraft:riptide" 3
+execute if score #offhand stellarity.misc matches 1 store result score #enchantment stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.Inventory[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:riptide" 3
 
-scoreboard players set #temp stellarity.misc 6
+scoreboard players set #temp stellarity.misc 8
 scoreboard players operation #temp stellarity.misc += #enchantment stellarity.misc
