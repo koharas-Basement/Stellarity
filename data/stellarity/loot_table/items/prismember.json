@@ -71,7 +71,7 @@
 						{
 							"function": "minecraft:set_enchantments",
 							"enchantments": {
-								"stellarity:infernal_infusion": 1
+								"stellarity:_technical/infernal_infusion": 1
 							}
 						}
 					]

@@ -27,6 +27,13 @@
 	"effects": {
 		"minecraft:projectile_spawned": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:trident"
+					}
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "stellarity:items/sandstorm_trident/thrown"
