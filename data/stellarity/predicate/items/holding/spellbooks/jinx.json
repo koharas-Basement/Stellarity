@@ -8,7 +8,7 @@
 				"equipment": {
 					"mainhand": {
 						"items": [
-							"minecraft:knowledge_book"
+							"minecraft:warped_fungus_on_a_stick"
 						],
 						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_jinx\"}"}
 					}
@@ -22,7 +22,7 @@
 				"equipment": {
 					"offhand": {
 						"items": [
-							"minecraft:knowledge_book"
+							"minecraft:warped_fungus_on_a_stick"
 						],
 						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_jinx\"}"}
 					}

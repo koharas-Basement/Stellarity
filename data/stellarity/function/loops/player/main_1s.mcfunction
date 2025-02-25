@@ -2,7 +2,6 @@
 execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=0..}] run function stellarity:items/spellbooks/conveyance/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.updraft.cooldown=0..}] run function stellarity:items/spellbooks/updraft/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=0..}] run function stellarity:items/spellbooks/light/cooldown_countdown
-#execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.wolves=0..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/wolves
 execute if entity @s[scores={stellarity.items.spellbook.jinx.cooldown=0..}] run function stellarity:items/spellbooks/jinx/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.return.cooldown=0..}] run function stellarity:items/spellbooks/return/cooldown_countdown
 

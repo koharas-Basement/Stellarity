@@ -29,15 +29,6 @@
 							"min": 1
 						}
 					}
-				},
-				{
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"stellarity.items.spellbook.natures_wrath.homing_time": {
-							"min": 1
-						}
-					}
 				}
 			]
 		}	

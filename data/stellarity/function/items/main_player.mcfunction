@@ -12,11 +12,6 @@ execute if entity @s[predicate=stellarity:items/holding/clockwork_crossbow/unloa
 execute if entity @s[predicate=stellarity:items/holding/spirit_dagger/both,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
 execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:items/spirit_dagger/charge/reset_countdown
 
-# Prismatic Pearl
-execute if entity @s[tag=stellarity.prismatic_pearl.holding,scores={kohara.used_ender_pearl=1..}] run function stellarity:items/prismatic_pearl/throw
-tag @s[tag=stellarity.prismatic_pearl.holding] remove stellarity.prismatic_pearl.holding
-execute if entity @s[predicate=stellarity:items/holding/prismatic_pearl] run tag @s add stellarity.prismatic_pearl.holding
-
 # Ender Insignia
 execute if entity @s[predicate=stellarity:items/life_crystal_can_heal] run function stellarity:items/life_crystal/heal
 execute if entity @s[tag=stellarity.life_crystal.active,predicate=!stellarity:items/life_crystal_can_heal] run function stellarity:items/life_crystal/stop
@@ -33,9 +28,6 @@ execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] at @s run 
 
 # Book of Updraft
 execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stellarity:items/spellbooks/updraft/animation
-
-# Nature's Wrath
-# execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.shoot=1..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/shoot
 
 # Prismember
 execute if entity @s[predicate=stellarity:items/holding/prismember] run function stellarity:items/prismember/main

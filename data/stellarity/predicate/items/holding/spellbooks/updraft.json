@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:warped_fungus_on_a_stick"
 						],
-						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_updraft\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:warped_fungus_on_a_stick"
 						],
-						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_updraft\"}"}
 					}
 				}
 			}

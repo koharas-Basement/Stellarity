@@ -61,10 +61,6 @@ scoreboard objectives remove stellarity.items.spellbook.conveyance.id
 scoreboard objectives remove stellarity.items.spellbook.updraft.cooldown
 scoreboard objectives remove stellarity.items.spellbook.updraft.animation
 scoreboard objectives remove stellarity.items.spellbook.light.cooldown
-scoreboard objectives remove stellarity.items.spellbook.natures_wrath.cooldown.shoot
-scoreboard objectives remove stellarity.items.spellbook.natures_wrath.cooldown.wolves
-scoreboard objectives remove stellarity.items.spellbook.natures_wrath.homing_time
-scoreboard objectives remove stellarity.items.spellbook.natures_wrath.order
 scoreboard objectives remove stellarity.items.spellbook.jinx.cooldown
 scoreboard objectives remove stellarity.items.spellbook.return.cooldown
 scoreboard objectives remove stellarity.items.spellbook.return.progress

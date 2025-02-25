@@ -5,21 +5,20 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:knowledge_book",
+					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:item_model": "stellarity:book_of_conveyance",
-								"minecraft:recipes": [
-									"stellarity:events/spellbooks/use_conveyance"
-								],
 								"minecraft:custom_data": {
-									"stellarity.special_item": "book_of_conveyance"
+									"stellarity.special_item": "book_of_conveyance",
+									"kohara.right_click": true
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.conveyance\",\"fallback\": \"Book of Conveyance\",\"color\": \"#A946E7\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.conveyance\",\"fallback\": \"Grand Tome of Teleportation\",\"color\": \"#A946E7\",\"italic\": false}",
+								"!max_damage": {}
 							}
 						},
 						{
@@ -29,7 +28,7 @@
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.conveyance.description.1",
-									"fallback": "Casts a slow spark that",
+									"fallback": "Casts a controllable spark that",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -53,7 +52,7 @@
 									"italic": false,
 									"with": [
 										{
-											"text": "14",
+											"text": "20",
 											"color": "#C6C6C6",
 											"italic": false
 										}

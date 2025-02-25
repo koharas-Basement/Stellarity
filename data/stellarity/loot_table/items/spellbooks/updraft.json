@@ -5,21 +5,20 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:knowledge_book",
+					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:item_model": "stellarity:book_of_updraft",
-								"minecraft:recipes": [
-									"stellarity:events/spellbooks/use_updraft"
-								],
 								"minecraft:custom_data": {
-									"stellarity.special_item": "book_of_updraft"
+									"stellarity.special_item": "book_of_updraft",
+									"kohara.right_click": true
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.updraft\",\"fallback\": \"Book of Updraft\",\"color\": \"#E0E0E0\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.updraft\",\"fallback\": \"Book of Updraft\",\"color\": \"#E0E0E0\",\"italic\": false}",
+								"!max_damage": {}
 							}
 						},
 						{
@@ -29,19 +28,19 @@
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.updraft.description.1",
-									"fallback": "Right Click to push yourself upwards",
+									"fallback": "Propels you upwards with a strong gust of wind",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.updraft.description.2",
-									"fallback": "with a light gust of wind, giving you",
+									"fallback": "and then grants the ability to glide for a short time",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.updraft.description.3",
-									"fallback": "the ability to glide freely for a short time",
+									"fallback": "Cooldown starts ticking after landing",
 									"color": "#EEEEEE",
 									"italic": false
 								},

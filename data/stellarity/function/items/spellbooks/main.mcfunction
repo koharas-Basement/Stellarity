@@ -6,9 +6,6 @@ execute if entity @s[tag=stellarity.book_of_conveyance] run function stellarity:
 # Light
 execute if entity @s[tag=stellarity.book_of_light.aura] run function stellarity:items/spellbooks/light/aura_loop
 
-# Nature's Wrath
-execute if entity @s[tag=stellarity.natures_wrath.spirit] run function stellarity:items/spellbooks/natures_wrath/spirit/loop
-
 # Jinx
 execute if entity @s[tag=stellarity.book_of_jinx] run function stellarity:items/spellbooks/jinx/loop
 
