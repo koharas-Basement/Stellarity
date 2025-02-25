@@ -1,5 +1,5 @@
-execute if entity @s[tag=!stellarity.prismatic_blast.multishot] summon firework_rocket run function stellarity:items/prismatic_punch/detonate/edit_firework
-execute if entity @s[tag=stellarity.prismatic_blast.multishot] summon firework_rocket run function stellarity:items/prismatic_punch/detonate/edit_firework_multishot
+execute if entity @s[tag=!stellarity.prismatic_blast.multishot] run function stellarity:items/prismatic_punch/detonate/explode
+execute if entity @s[tag=stellarity.prismatic_blast.multishot] run function stellarity:items/prismatic_punch/detonate/explode_multishot
 
 execute if score @s stellarity.items.prismatic_punch.piercing matches 0 run kill @s
 scoreboard players remove @s stellarity.items.prismatic_punch.piercing 1

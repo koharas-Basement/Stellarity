@@ -6,8 +6,8 @@
 		"kohara:true_damage_difficulty_scaling",
 		"kohara:no_knockback_ignores_iframes",
 		"kohara:ignores_iframes",
+		"kohara:simulated_explosion",
 		"minecraft:arrow",
-		"minecraft:fireworks",
 
 		"#stellarity:custom_damage"
 	]
