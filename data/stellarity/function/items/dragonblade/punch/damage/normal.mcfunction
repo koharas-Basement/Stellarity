@@ -13,4 +13,4 @@ tag @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is
 effect give @s slowness 1 6 true
 effect give @s weakness 7 0 false
 
-function kohara:damage/calculate {armor_penetration:40,damage_boost_efficiency:40,ap_damage_type:"kohara:true_damage",damage_type:"stellarity:dragonblade",tag:"stellarity.damage.dragonblade"}
+function kohara:damage/calculate {armor_penetration:40,damage_boost_efficiency:40,ap_damage_type:"kohara:true_damage_respects_resistance",damage_type:"stellarity:dragonblade",tag:"stellarity.damage.dragonblade"}

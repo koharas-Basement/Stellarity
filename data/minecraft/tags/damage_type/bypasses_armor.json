@@ -3,6 +3,7 @@
 		"kohara:armor_piercing",
 		"kohara:armor_piercing_difficulty_scaling",
 		"kohara:true_damage",
+		"kohara:true_damage_respects_resistance",
 		"kohara:true_damage_difficulty_scaling",
 		"stellarity:electric",
 		"stellarity:dot/frostburn",
