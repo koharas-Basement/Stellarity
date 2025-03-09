@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_hoe",
+					"name": "minecraft:wooden_hoe",
 					"functions": [
 						{
 							"function": "minecraft:set_lore",

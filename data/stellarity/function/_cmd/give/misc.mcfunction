@@ -1,5 +1,5 @@
-loot give @s loot stellarity:items/altar_of_light
-loot give @s loot stellarity:items/cursed_tome
+loot give @s loot stellarity:items/altar_of_the_sacred
+loot give @s loot stellarity:items/cursed_enchiridion
 loot give @s loot stellarity:items/tools/fisher_of_voids
 loot give @s loot stellarity:items/pandoras_barrel
 loot give @s loot stellarity:items/prismatic_pearl

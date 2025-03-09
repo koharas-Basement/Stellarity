@@ -22,6 +22,12 @@
 				"fallback": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɪɴᴄʀᴇᴀsᴇs ᴘᴜɴᴄʜ ᴅᴀᴍᴀɢᴇ",
 				"color": "#727272",
 				"italic": true
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
 			}
 		],
 		"frame": "challenge",

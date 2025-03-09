@@ -10,10 +10,18 @@
 			"translate": "stellarity.advancements.dragonborn",
 			"fallback": "Dragonborn"
 		},
-		"description": {
-			"translate": "stellarity.advancements.dragonborn.description",
-			"fallback": "Obtain the Dragonblade, a mythical sword of a truly unknown origin"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.dragonborn.description",
+				"fallback": "Obtain the Dragonblade, a mythical sword of a truly unknown origin"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "goal"
 	},
 	"parent": "minecraft:end/kill_dragon",

@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:campfire_cooking",
 	"group": "gunpowder",
-	"ingredient": {
-		"item": "minecraft:popped_chorus_fruit"
-	},
+	"ingredient": "minecraft:popped_chorus_fruit",
 	"result": {
 		"id": "minecraft:gunpowder"
 	},

@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.pandoras_barrel_place",
 			"fallback": "Like a Box of Chocolates"
 		},
-		"description": {
-			"translate": "stellarity.advancements.pandoras_barrel_place.description",
-			"fallback": "Place down and open a Pandora's Barrel. You never know what you're gonna get!"
-		}
+		"description": [
+			{
+				"translate": "stellarity.advancements.pandoras_barrel_place.description",
+				"fallback": "Place down and open a Pandora's Barrel. You never know what you're gonna get!"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		]
 	},
 	"parent": "stellarity:exploration/find_end_village",
 	"criteria": {

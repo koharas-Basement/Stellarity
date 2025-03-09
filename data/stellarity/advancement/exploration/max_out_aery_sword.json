@@ -14,6 +14,12 @@
 			{
 				"translate": "stellarity.advancements.max_out_aery_sword.description",
 				"fallback": "Absorb enough souls to upgrade a Frigid Harvester to 13 damage in total"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
 			}
 		],
 		"frame": "task",

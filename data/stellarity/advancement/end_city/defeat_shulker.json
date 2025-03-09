@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.kill_shulker",
 			"fallback": "This Block Moves!"
 		},
-		"description": {
-			"translate": "stellarity.advancements.kill_shulker.description",
-			"fallback": "Kill a Shulker for its Shells"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.kill_shulker.description",
+				"fallback": "Kill a Shulker for its Shells"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"show_toast": true,
 		"announce_to_chat": true
 	},

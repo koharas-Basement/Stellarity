@@ -15,6 +15,12 @@
 			{
 				"translate": "stellarity.advancements.i_am_titanium.description",
 				"fallback": "Craft a full set of Shulker Armor"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
 			}
 		],
 		"frame": "challenge",

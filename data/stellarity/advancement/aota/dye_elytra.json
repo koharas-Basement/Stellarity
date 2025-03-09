@@ -11,6 +11,12 @@
 			{
 				"translate": "stellarity.advancements.dye_elytra.description",
 				"fallback": "Combine an Elytra with any Dye to change its flight trail"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
 			}
 		],
 		"frame": "task",

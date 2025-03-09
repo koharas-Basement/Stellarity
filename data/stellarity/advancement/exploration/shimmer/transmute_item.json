@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.transmute_item",
 			"fallback": "Hallowed Alchemy"
 		},
-		"description": {
-			"translate": "stellarity.advancements.transmute_item.description",
-			"fallback": "Transmute any item into something different by throwing it into the water in The Hallow"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.transmute_item.description",
+				"fallback": "Transmute any item into something different by throwing it into the water in The Hallow"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

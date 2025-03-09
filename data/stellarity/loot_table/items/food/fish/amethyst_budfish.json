@@ -11,28 +11,13 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "stellarity:food/fish/amethyst_budfish",
+								"minecraft:item_model": "stellarity:amethyst_budfish",
 								"minecraft:custom_data": {
-									"stellarity.special_item": ""
+									"stellarity.special_item": "amethyst_budfish"
 								},
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.\",\"fallback\":\"Amethyst Budfish\"}",
-								"food": {
-									"nutrition": 1,
-									"saturation": 0.4,
-									"can_always_eat": false,
-									"eat_seconds": 1.5,
-									"effects": [
-										{
-											"effect": {
-												"id": "minecraft:weakness",
-												"duration": 760,
-												"ambient": false,
-												"show_particles": true,
-												"show_icon": true
-											}
-										}
-									]
-								}
+								"!food": {},
+								"!consumable": {}
 							}
 						},
 						{

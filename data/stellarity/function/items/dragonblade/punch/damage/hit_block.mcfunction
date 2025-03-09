@@ -15,4 +15,4 @@ execute if score #damage kohara.misc matches 320.. run advancement grant @p[pred
 effect give @s slowness 2 6 true
 effect give @s weakness 11 0 false
 
-function kohara:damage/calculate {armor_penetration:70,damage_boost_efficiency:40,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:dragonblade",tag:"stellarity.damage.dragonblade"}
+function kohara:damage/calculate {armor_penetration:40,damage_boost_efficiency:40,ap_damage_type:"kohara:true_damage_respects_resistance",damage_type:"stellarity:dragonblade",tag:"stellarity.damage.dragonblade"}

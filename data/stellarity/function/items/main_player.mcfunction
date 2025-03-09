@@ -12,11 +12,6 @@ execute if entity @s[predicate=stellarity:items/holding/clockwork_crossbow/unloa
 execute if entity @s[predicate=stellarity:items/holding/spirit_dagger/both,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
 execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:items/spirit_dagger/charge/reset_countdown
 
-# Prismatic Pearl
-execute if entity @s[tag=stellarity.prismatic_pearl.holding,scores={kohara.used_ender_pearl=1..}] run function stellarity:items/prismatic_pearl/throw
-tag @s[tag=stellarity.prismatic_pearl.holding] remove stellarity.prismatic_pearl.holding
-execute if entity @s[predicate=stellarity:items/holding/prismatic_pearl] run tag @s add stellarity.prismatic_pearl.holding
-
 # Ender Insignia
 execute if entity @s[predicate=stellarity:items/life_crystal_can_heal] run function stellarity:items/life_crystal/heal
 execute if entity @s[tag=stellarity.life_crystal.active,predicate=!stellarity:items/life_crystal_can_heal] run function stellarity:items/life_crystal/stop
@@ -29,13 +24,10 @@ execute if entity @s[predicate=stellarity:items/holding/trinkets/soaring_insigni
 execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/holding/trinkets/soaring_insignia] run function stellarity:items/soaring_insignia/stop_flight
 
 # Kaleidoscope
-execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] at @s run function stellarity:items/kaleidoscope/loop
+execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] run function stellarity:items/kaleidoscope/loop
 
 # Book of Updraft
 execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stellarity:items/spellbooks/updraft/animation
-
-# Nature's Wrath
-# execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.shoot=1..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/shoot
 
 # Prismember
 execute if entity @s[predicate=stellarity:items/holding/prismember] run function stellarity:items/prismember/main
@@ -60,14 +52,6 @@ execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1
 # Stellar Striker
 execute if entity @s[predicate=stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/loop
 execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/stop
-
-# Sandstorm Trident
-# Note to self: all of these lines can be
-# removed once in 1.21.2+ for good as the throwing
-# event will be handled through the Mighty Wind enchant
-execute if entity @s[tag=stellarity.sandstorm_trident.holding,scores={kohara.thrown_trident=1..}] run function stellarity:items/sandstorm_trident/thrown
-tag @s[tag=stellarity.sandstorm_trident.holding] remove stellarity.sandstorm_trident.holding
-execute if entity @s[predicate=stellarity:items/holding/sandstorm_trident] run tag @s add stellarity.sandstorm_trident.holding
 
 ## Armor sets
 # Has to be ticked after everything so

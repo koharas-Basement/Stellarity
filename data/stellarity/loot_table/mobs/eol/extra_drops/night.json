@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/elytra/empress_wings"
+					"value": "stellarity:items/armor/elytra/empress_wings"
 				}
 			],
 			"conditions": [

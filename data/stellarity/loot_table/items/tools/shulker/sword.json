@@ -28,7 +28,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "stellarity:sword",
+								"minecraft:item_model": "stellarity:shulker_sword",
 								"minecraft:custom_data": {
 									"stellarity.special_item": "shulker_tool"
 								},

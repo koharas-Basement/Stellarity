@@ -12,7 +12,7 @@
 			},
 			{
 				"translate": "stellarity.advancements.follow_ender_eye.extra",
-				"fallback": ". Something is definitely hidden there..."
+				"fallback": ". It definitely leads towards something..."
 			}
 		],
 		"frame": "task",
@@ -20,7 +20,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:story/strengthened_by_fire",
+	"parent": "stellarity:minecraft/story/strengthened_by_fire",
 	"criteria": {
 		"in_stronghold": {
 			"trigger": "minecraft:location",

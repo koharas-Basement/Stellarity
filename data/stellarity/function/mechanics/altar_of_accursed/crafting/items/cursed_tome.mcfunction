@@ -1,4 +1,4 @@
-loot spawn ~ ~.1 ~ loot stellarity:items/cursed_tome
+loot spawn ~ ~.1 ~ loot stellarity:items/cursed_enchiridion
 
 particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 

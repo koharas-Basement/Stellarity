@@ -1,8 +1,5 @@
 execute if entity @s[predicate=stellarity:items/holding/tamaris] as @e[type=!#kohara:invalid_targets,distance=0.1..20] run function stellarity:items/tamaris/execute/calculate_percentage
 
-# Cleansing Potato
-effect clear @s[tag=stellarity.perm_buffs.cleansing_potato] poison
-
 # Crest of The End
 execute if entity @s[scores={stellarity.items.crest.time=1..}] run function stellarity:items/crest_of_the_end/countdown
 

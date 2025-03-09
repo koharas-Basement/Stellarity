@@ -71,7 +71,7 @@
 								"max_damage": 1264,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"italic\": false}",
 								"minecraft:enchantments": {
-									"stellarity:mighty_wind": 1
+									"stellarity:_technical/mighty_wind": 1
 								},
 								"minecraft:rarity": "epic"
 							}

@@ -8,6 +8,6 @@ particle minecraft:flash ~ ~1.45 ~ 0 0 0 0 1 force
 
 playsound minecraft:item.chorus_fruit.teleport player @a[distance=0..] ~ ~ ~
 
-advancement grant @s only stellarity:adventure/postmortal_2
+advancement grant @s only stellarity:minecraft/adventure/postmortal_2
 
 tag @s remove stellarity.scheduled_void_totem_effect

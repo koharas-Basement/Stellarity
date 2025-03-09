@@ -14,7 +14,9 @@
 								"minecraft:item_model": "stellarity:call_of_the_void",
 								"minecraft:max_damage": 424,
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.call_of_the_void\",\"fallback\": \"Call of The Void\",\"color\": \"dark_purple\"}",
-								"minecraft:fire_resistant": {}
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								}
 							}
 						},
 						{

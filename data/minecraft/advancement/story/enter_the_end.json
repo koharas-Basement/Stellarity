@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:story/journeys_end",
+	"parent": "stellarity:minecraft/story/journeys_end",
 	"criteria": {
 		"entered_end": {
 			"trigger": "minecraft:changed_dimension",

@@ -23,9 +23,6 @@ execute if entity @s[tag=stellarity.damage.dot.prismaric_inferno] run function s
 #> Frostburn
 execute if entity @s[tag=stellarity.damage.dot.frostburn] run function stellarity:utils/damage/death_messages/frostburn
 
-#> Nature's Wrath
-execute if entity @s[tag=stellarity.damage.natures_wrath] run function stellarity:utils/damage/death_messages/natures_wrath
-
 #> Kaleidoscope
 execute if entity @s[tag=stellarity.damage.kaleidoscope] run function stellarity:utils/damage/death_messages/kaleidoscope
 

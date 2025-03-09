@@ -62,10 +62,6 @@ scoreboard objectives add stellarity.items.spellbook.conveyance.id dummy
 scoreboard objectives add stellarity.items.spellbook.updraft.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.updraft.animation dummy
 scoreboard objectives add stellarity.items.spellbook.light.cooldown dummy
-scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.shoot dummy
-scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.wolves dummy
-scoreboard objectives add stellarity.items.spellbook.natures_wrath.homing_time dummy
-scoreboard objectives add stellarity.items.spellbook.natures_wrath.order dummy
 scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy

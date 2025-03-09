@@ -6,9 +6,7 @@
 		"##"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:phantom_membrane"
-		}
+		"#": "minecraft:phantom_membrane"
 	},
 	"result": {
 		"id": "minecraft:leather",

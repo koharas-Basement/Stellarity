@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"wings": [
+			{
+				"texture": "stellarity:dragon",
+				"use_player_texture": false
+			}
+		]
+	}
+}

@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.color_a_shulker_box",
 			"fallback": "Organizational Wizard"
 		},
-		"description": {
-			"translate": "stellarity.advancements.color_a_shulker_box.description",
-			"fallback": "Color a Shulker Box any color you want"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.color_a_shulker_box.description",
+				"fallback": "Color a Shulker Box any color you want"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true

@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:leather_leggings",
+					"name": "minecraft:iron_leggings",
 					"functions": [
 						{
 							"function": "minecraft:set_lore",
@@ -71,6 +71,12 @@
 								},
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
+								},
+								"minecraft:equippable": {
+									"slot": "legs",
+									"asset_id": "stellarity:floral",
+									"damage_on_hurt": true,
+									"equip_sound": "minecraft:item.armor.equip_netherite"
 								},
 								"minecraft:max_damage": 555,
 								"rarity": "uncommon",

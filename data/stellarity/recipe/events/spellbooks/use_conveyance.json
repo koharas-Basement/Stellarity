@@ -6,9 +6,7 @@
 		"   "
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:barrier"
-		}
+		"#": "minecraft:barrier"
 	},
 	"result": {
 		"id": "minecraft:structure_void"

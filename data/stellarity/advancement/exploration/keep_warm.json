@@ -10,10 +10,18 @@
 			"translate": "stellarity.advancements.keep_warm",
 			"fallback": "Keep Warm!"
 		},
-		"description": {
-			"translate": "stellarity.advancements.keep_warm.description",
-			"fallback": "Wear a full set of Leather Armor in any of the coldest biomes of The End"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.keep_warm.description",
+				"fallback": "Wear a full set of Leather Armor in any of the coldest biomes of The End"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_sword",
+			"components": {
+				"minecraft:item_model": "stellarity:tamaris"
+			}
+		},
+		"title": {
+			"translate": "stellarity.advancements.blood_for_blood",
+			"fallback": "Blood for Blood"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.blood_for_blood.description",
+				"fallback": "Use Tamaris to execute a mob with low health"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "stellarity:aota/cursed_crafting",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -56,7 +56,6 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "stellarity:copper_elektra_shield",
 								"minecraft:hide_additional_tooltip": {},
 								"minecraft:custom_data": {
 									"stellarity.special_item": "copper_elektra_shield"

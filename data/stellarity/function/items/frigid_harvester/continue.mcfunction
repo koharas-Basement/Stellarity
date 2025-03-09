@@ -14,23 +14,23 @@ execute unless score #damage stellarity.misc matches 1200.. run \
 ## Item modifier part thingy
 # Make the sword fireproof after reaching 6 extra damage (10 total)
 data modify storage stellarity:temp aery_sword.fire_resistant set value ""
-execute if score #damage stellarity.misc matches 600.. run data modify storage stellarity:temp aery_sword.fire_resistant set value "\"minecraft:fire_resistant\": {},"
+execute if score #damage stellarity.misc matches 600.. run data modify storage stellarity:temp aery_sword.fire_resistant set value "\"minecraft:damage_resistant\": {types:\"#is_fire\"},"
 # Custom model data depending on extra damage
 # Level 0 (Base)
 execute if score #damage stellarity.misc matches 0..299 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90031
+	data modify storage stellarity:temp aery_sword.cmd set value {floats:[0]}
 # Level 1
 execute if score #damage stellarity.misc matches 300..599 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90032
+	data modify storage stellarity:temp aery_sword.cmd set value {floats:[1]}
 # Level 2
 execute if score #damage stellarity.misc matches 600..899 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90033
+	data modify storage stellarity:temp aery_sword.cmd set value {floats:[2]}
 # Level 3
 execute if score #damage stellarity.misc matches 900..1199 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90034
+	data modify storage stellarity:temp aery_sword.cmd set value {floats:[3]}
 # Level 4 (Maxed)
 execute if score #damage stellarity.misc matches 1200.. run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90035
+	data modify storage stellarity:temp aery_sword.cmd set value {floats:[4]}
 # Movement Speed reduction
 # Level 0 (Base)
 execute if score #damage stellarity.misc matches 0..299 run \

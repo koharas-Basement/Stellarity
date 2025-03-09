@@ -6,11 +6,19 @@
 		"title": {
 			"text": "jeb_"
 		},
-		"description": {
-			"translate": "stellarity.advancements.jeb_.description",
-			"fallback": "Craft all color variants of Shulker Boxes",
-			"color": "dark_aqua"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.jeb_.description",
+				"fallback": "Craft all color variants of Shulker Boxes",
+				"color": "dark_aqua"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -5,6 +5,7 @@ scoreboard objectives add kohara.detect.thrown_trident minecraft.used:minecraft.
 scoreboard objectives add kohara.detect.used_ender_pearl minecraft.used:minecraft.ender_pearl
 scoreboard objectives add kohara.detect.flight_speed minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add kohara.detect.used_firework minecraft.used:minecraft.firework_rocket
+scoreboard objectives add kohara.detect.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 
 scoreboard objectives add kohara.shot_bow dummy
 scoreboard objectives add kohara.thrown_trident dummy

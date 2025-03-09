@@ -1,34 +1,43 @@
 {
-	"type": "minecraft:add",
-	"argument1": -0.234375,
-	"argument2": {
-		"type": "minecraft:mul",
-		"argument1": {
-			"type": "minecraft:y_clamped_gradient",
-			"from_y": -4,
-			"to_y": 32,
-			"from_value": 0,
-			"to_value": 1
-		},
-		"argument2": {
-			"type": "minecraft:add",
-			"argument1": 0.234375,
-			"argument2": {
-				"type": "minecraft:add",
-				"argument1": -23.4375,
+	"type": "minecraft:squeeze",
+	"argument": {
+		"type": "minecraft:interpolated",
+		"argument": {
+			"type": "minecraft:interpolated",
+			"argument": {
+				"type": "add",
+				"argument1": -1,
 				"argument2": {
-					"type": "minecraft:mul",
+					"type": "mul",
 					"argument1": {
-						"type": "minecraft:y_clamped_gradient",
-						"from_y": 45,
-						"to_y": 270,
+						"type": "y_clamped_gradient",
 						"from_value": 1,
-						"to_value": 0
+						"to_value": 0,
+						"from_y": 45,
+						"to_y": 65
 					},
 					"argument2": {
-						"type": "minecraft:add",
-						"argument1": 23.4375,
-						"argument2": "stellarity:main_island/sloped_cheese"
+						"type": "add",
+						"argument1": 1,
+						"argument2": {
+							"type": "add",
+							"argument1": -1,
+							"argument2": {
+								"type": "mul",
+								"argument1": {
+									"type": "y_clamped_gradient",
+									"from_value": 0,
+									"to_value": 1,
+									"from_y": 2,
+									"to_y": 26
+								},
+								"argument2": {
+									"type": "add",
+									"argument1": 1,
+									"argument2": "stellarity:main_island/island_builder"
+								}
+							}
+						}
 					}
 				}
 			}

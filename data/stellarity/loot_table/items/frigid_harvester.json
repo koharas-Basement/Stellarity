@@ -20,7 +20,7 @@
 								},
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.frigid_harvester\",\"fallback\": \"Frigid Harvester\",\"color\": \"#4BC6FF\"}",
 								"enchantments": {
-									"stellarity:soul_harvest": 1
+									"stellarity:_technical/soul_harvest": 1
 								}
 							}
 						},

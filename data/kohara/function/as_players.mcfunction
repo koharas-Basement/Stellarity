@@ -12,3 +12,5 @@ scoreboard players reset @s kohara.detect.used_firework
 
 # Respawn detection
 execute if score @s kohara.respawn_detection matches 1 run function #kohara:on_respawn
+
+execute if score @s kohara.detect.right_click matches 1.. run function kohara:right_click/check

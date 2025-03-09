@@ -48,14 +48,15 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "stellarity:crest_of_the_end",
 								"minecraft:hide_additional_tooltip": {},
 								"minecraft:custom_data": {
 									"stellarity.special_item": "crest_of_the_end"
 								},
 								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.crest_of_the_end\",\"fallback\": \"Crest of The End\",\"color\": \"#9936D6\",\"italic\": false}",
-								"minecraft:fire_resistant": {}
+								"minecraft:damage_resistant": {
+									"types": "#is_fire"
+								}
 							}
 						},
 						{

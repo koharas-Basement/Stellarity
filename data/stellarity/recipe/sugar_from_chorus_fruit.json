@@ -3,9 +3,7 @@
 	"group": "purple_dye",
 	"category": "building",
 	"ingredients": [
-		{
-			"item": "minecraft:chorus_fruit"
-		}
+		"minecraft:chorus_fruit"
 	],
 	"result": {
 		"id": "minecraft:sugar",

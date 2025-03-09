@@ -18,8 +18,13 @@
 								"minecraft:food": {
 									"nutrition": 1,
 									"saturation": 0,
-									"can_always_eat": true,
-									"eat_seconds": 5
+									"can_always_eat": true
+								},
+								"minecraft:consumable": {
+									"animation": "eat",
+									"consume_seconds": 5,
+									"has_consume_particles": true,
+									"sound": "entity.generic.eat"
 								}
 							}
 						},

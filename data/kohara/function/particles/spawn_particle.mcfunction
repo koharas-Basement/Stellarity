@@ -1,1 +1,1 @@
-$execute summon item_display run function kohara:particles/settings/spawn_settings {speed:$(speed),billboard:$(billboard),item:$(item),custommodeldata:$(custommodeldata),despawn_value:$(despawn_value),state:$(state),spread_initial:$(spread_initial),spread_radius:$(spread_radius),id:$(id)}
+$execute summon item_display run function kohara:particles/settings/spawn_settings {speed:$(speed),billboard:$(billboard),model:'$(model)',despawn_value:$(despawn_value),state:$(state),spread_initial:$(spread_initial),spread_radius:$(spread_radius),id:$(id)}

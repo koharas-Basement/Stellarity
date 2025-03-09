@@ -3,12 +3,8 @@
 	"group": "glass",
 	"category": "building",
 	"ingredients": [
-		{
-			"item": "minecraft:end_stone"
-		},
-		{
-			"item": "minecraft:blaze_powder"
-		}
+		"minecraft:end_stone",
+		"minecraft:blaze_powder"
 	],
 	"result": {
 		"id": "minecraft:glass",

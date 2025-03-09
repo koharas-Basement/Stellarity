@@ -6,9 +6,7 @@
 		"FF"
 	],
 	"key": {
-		"F": {
-			"item": "minecraft:chorus_fruit"
-		}
+		"F": "minecraft:chorus_fruit"
 	},
 	"result": {
 		"id": "minecraft:chorus_plant",

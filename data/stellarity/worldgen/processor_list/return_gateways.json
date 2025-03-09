@@ -9,7 +9,7 @@
 					},
 					"input_predicate": {
 						"predicate_type": "minecraft:block_match",
-						"block": "minecraft:repeating_command_block"
+						"block": "minecraft:end_gateway"
 					},
 					"output_state": {
 						"Name": "minecraft:end_gateway"
@@ -17,13 +17,7 @@
 					"block_entity_modifier": {
 						"type": "minecraft:append_static",
 						"data": {
-							"Age": 0,
-							"ExactTeleport": 1,
-							"ExitPortal": {
-								"X": 12,
-								"Y": 60,
-								"Z": 0
-							}
+							"Age": 0
 						}
 					}
 				}

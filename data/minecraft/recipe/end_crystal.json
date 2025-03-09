@@ -6,19 +6,11 @@
 		"GTG"
 	],
 	"key": {
-		"E": {
-			"item": "minecraft:ender_eye"
-		},
-		"G": {
-			"tag": "kohara:glass_blocks"
-		},
+		"E": "minecraft:ender_eye",
+		"G": "#kohara:glass_blocks",
 		"T": [
-			{
-				"item": "minecraft:obsidian"
-			},
-			{
-				"item": "minecraft:crying_obsidian"
-			}
+			"minecraft:obsidian",
+			"minecraft:crying_obsidian"
 		]
 	},
 	"result": {

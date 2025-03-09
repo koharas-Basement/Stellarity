@@ -13,7 +13,7 @@ execute at @s run tp @e[type=marker,tag=stellarity.dragon_marker] ~ ~ ~
 # Get health
 execute store result score @s stellarity.dragon.health run data get entity @s Health 1
 # Convert to percentage
-execute store result score #max stellarity.misc run attribute @s generic.max_health get
+execute store result score #max stellarity.misc run attribute @s max_health get
 scoreboard players set #100 stellarity.misc 100
 scoreboard players operation @s stellarity.dragon.health_percent = @s stellarity.dragon.health
 scoreboard players operation @s stellarity.dragon.health_percent *= #100 stellarity.misc
@@ -73,7 +73,7 @@ execute if score @s stellarity.dragon.health_percent matches ..25 run function s
 
 # Fly to portal to die
 execute if score @s[tag=!stellarity.at_portal] stellarity.dragon.health matches 0..1 run function stellarity:mobs/dragon/death/fly_to_portal
-execute if score @s stellarity.dragon.health matches 1 if score @s[tag=stellarity.to_portal] stellarity.misc matches 5..7 run tag @s add stellarity.at_portal
+execute if score @s stellarity.dragon.health matches 0..1 if score @s[tag=stellarity.to_portal] stellarity.misc matches 5..7 run tag @s add stellarity.at_portal
 execute if entity @s[tag=stellarity.at_portal] run function stellarity:mobs/dragon/death/at_portal_loop
 
 execute as @e[type=shulker,tag=stellarity.dragon_shulker] at @s run particle witch ~ ~0.2 ~ 0.4 0.4 0.4 0.04 1 normal

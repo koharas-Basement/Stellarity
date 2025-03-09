@@ -10,22 +10,30 @@
 			"translate": "stellarity.advancements.balanced_diet_2",
 			"fallback": "Feast of The Otherworld"
 		},
-		"description": {
-			"translate": "stellarity.advancements.balanced_diet_2.description",
-			"fallback": "Eat every food item added by Stellarity, good or bad."
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.balanced_diet_2.description",
+				"fallback": "Eat every food item added by Stellarity, good or bad."
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "stellarity:cauldron/dilute_breath",
+	"parent": "minecraft:husbandry/balanced_diet",
 	"criteria": {
-		"candiend_chorus_fruit": {
+		"candied_chorus_fruit": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"candiend_chorus_fruit\"}"
+						"minecraft:custom_data": "{stellarity.special_item:\"candied_chorus_fruit\"}"
 					}
 				}
 			}
@@ -85,7 +93,7 @@
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"frozen_carpaccio\"}"
+						"minecraft:custom_data": "{stellarity.special_item:\"\"}"
 					}
 				}
 			}
@@ -156,16 +164,6 @@
 				"item": {
 					"components": {
 						"minecraft:custom_data": "{stellarity.special_item:\"sushi\"}"
-					}
-				}
-			}
-		},
-		"amethyst_budfish": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": "{stellarity.special_item:\"amethyst_budfish\"}"
 					}
 				}
 			}
@@ -269,11 +267,21 @@
 					}
 				}
 			}
+		},
+		"loaf_of_plenty": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"loaf_of_plenty\"}"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
 		[
-			"candiend_chorus_fruit"
+			"candied_chorus_fruit"
 		],
 		[
 			"chorus_juice"
@@ -315,9 +323,6 @@
 			"sushi"
 		],
 		[
-			"amethyst_budfish"
-		],
-		[
 			"bubblefish"
 		],
 		[
@@ -346,6 +351,9 @@
 		],
 		[
 			"pufferfish"
+		],
+		[
+			"loaf_of_plenty"
 		]
 	]
 }
