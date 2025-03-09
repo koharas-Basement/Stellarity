@@ -54,10 +54,18 @@
 			"translate": "stellarity.advancements.electrified",
 			"fallback": "Electrified!"
 		},
-		"description": {
-			"translate": "stellarity.advancements.electrified.description",
-			"fallback": "Dash through 5 different mobs with a single Copper Elektra Shield dash"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.electrified.description",
+				"fallback": "Dash through 5 different mobs with a single Copper Elektra Shield dash"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true

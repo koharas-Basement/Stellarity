@@ -9,7 +9,6 @@ playsound minecraft:entity.wither_skeleton.death player @a[distance=0..] ~ ~1.05
 
 execute if entity @p[name="Senjuukotentaiho"] run playsound stellarity:item.tamaris.chime player @a[distance=0..] ~ ~1.05 ~ 1 1
 
-advancement grant @p[predicate=stellarity:items/holding/tamaris,predicate=kohara:player/is_sneaking] only stellarity:dragons_den/disassembly
-execute if entity @s[type=warden] run advancement grant @p[predicate=stellarity:items/holding/tamaris,predicate=kohara:player/is_sneaking] only stellarity:dragons_den/kill_la_kill
+advancement grant @p[predicate=stellarity:items/holding/tamaris,predicate=kohara:player/is_sneaking] only stellarity:dragons_den/blood_for_blood
 
 function stellarity:items/tamaris/execute/blood_for_blood

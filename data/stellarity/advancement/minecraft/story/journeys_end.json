@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.journeys_end",
 			"fallback": "Journey's End"
 		},
-		"description": {
-			"translate": "stellarity.advancements.journeys_end.description",
-			"fallback": "Use 12 Eyes of Ender to activate the End Portal"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.journeys_end.description",
+				"fallback": "Use 12 Eyes of Ender to activate the End Portal"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

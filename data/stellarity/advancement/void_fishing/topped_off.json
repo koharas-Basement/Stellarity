@@ -4,7 +4,7 @@
 			"id": "minecraft:cooked_cod",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:item_model": "stellarity:fish_of_vitality"
+				"minecraft:item_model": "stellarity:crystal_heartfish"
 			}
 		},
 		"title": {
@@ -12,10 +12,18 @@
 			"fallback": "Topped Off",
 			"color": "#FF65D7"
 		},
-		"description": {
-			"translate": "stellarity.advancements.topped_off.description",
-			"fallback": "Increase your maximum health by eating 10 Fish of Vitality"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.topped_off.description",
+				"fallback": "Increase your maximum health by eating 10 Fish of Vitality"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge"
 	},
 	"parent": "stellarity:void_fishing/void_reels",

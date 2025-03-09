@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.sacrificial_ritual",
 			"fallback": "Sacrificial Ritual"
 		},
-		"description": {
-			"translate": "stellarity.advancements.sacrificial_ritual.description",
-			"fallback": "Place down 4 End Crystals on top of the 4 elevated Bedrock blocks"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.sacrificial_ritual.description",
+				"fallback": "Place down 4 End Crystals on top of the 4 elevated Bedrock blocks"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

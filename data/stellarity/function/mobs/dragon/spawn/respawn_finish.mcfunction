@@ -7,9 +7,8 @@ kill @e[type=marker,tag=stellarity.dragon_respawn.marker]
 kill @e[type=marker,tag=stellarity.dragon_respawn.marker2]
 kill @e[type=marker,tag=stellarity.dragon_respawn.beam]
 
-advancement grant @a[distance=..100,advancements={stellarity:dragons_den/final_showdown=true,minecraft:end/respawn_dragon=true}] only stellarity:dragons_den/third_times_the_charm
-advancement grant @a[distance=..100,advancements={stellarity:dragons_den/final_showdown=true}] only minecraft:end/respawn_dragon
-advancement grant @a[distance=..100] only stellarity:dragons_den/final_showdown
+advancement grant @a[distance=..100,advancements={end/kill_dragon=true,minecraft:end/respawn_dragon=true}] only stellarity:dragons_den/third_times_the_charm
+advancement grant @a[distance=..100,advancements={end/kill_dragon=true}] only minecraft:end/respawn_dragon
 
 tag @s add fe.deactivated.spawn_dragon
 tag @s remove fe.respawn

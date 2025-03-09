@@ -277,6 +277,12 @@
 				"text": "'",
 				"color": "#bf4dbf",
 				"italic": true
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
 			}
 		],
 		"frame": "task",

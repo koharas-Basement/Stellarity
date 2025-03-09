@@ -23,10 +23,18 @@
 			"translate": "stellarity.advancements.anger_enderman",
 			"fallback": "It's Rude to Stare!"
 		},
-		"description": {
-			"translate": "stellarity.advancements.anger_enderman.description",
-			"fallback": "Enrage an Enderman by looking at it"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.anger_enderman.description",
+				"fallback": "Enrage an Enderman by looking at it"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

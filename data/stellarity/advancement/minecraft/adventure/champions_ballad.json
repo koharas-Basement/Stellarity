@@ -7,11 +7,19 @@
 			"translate": "stellarity.advancements.champions_ballad",
 			"fallback": "Champions Ballad"
 		},
-		"description": {
-			"translate": "stellarity.advancements.champions_ballad.description",
-			"fallback": "Can't fight a Dragon without some good tunes!",
-			"color": "aqua"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.champions_ballad.description",
+				"fallback": "Can't fight a Dragon without some good tunes!",
+				"color": "aqua"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

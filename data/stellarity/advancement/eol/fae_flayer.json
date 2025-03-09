@@ -11,11 +11,19 @@
 			"translate": "stellarity.advancements.fae_flayer",
 			"fallback": "Fae Flayer"
 		},
-		"description": {
-			"translate": "stellarity.advancements.fae_flayer.description",
-			"fallback": "Move an Altar of The Sacred to the Overworld, then summon and kill the Empress during the day",
-			"color": "gold"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.fae_flayer.description",
+				"fallback": "Move an Altar of The Sacred to the Overworld, then summon and kill the Empress during the day",
+				"color": "gold"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

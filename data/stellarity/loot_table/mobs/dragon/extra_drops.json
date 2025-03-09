@@ -39,7 +39,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/elytra/dragon_wings"
+					"value": "stellarity:items/armor/elytra/dragon_wings"
 				}
 			],
 			"conditions": [

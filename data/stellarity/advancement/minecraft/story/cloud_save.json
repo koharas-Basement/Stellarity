@@ -7,16 +7,24 @@
 			"translate": "stellarity.advancements.cloud_save",
 			"fallback": "Cloud Save"
 		},
-		"description": {
-			"translate": "stellarity.advancements.cloud_save.description",
-			"fallback": "Craft an Ender Chest"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.cloud_save.description",
+				"fallback": "Craft an Ender Chest"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:story/strengthened_by_fire",
+	"parent": "stellarity:minecraft/story/strengthened_by_fire",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",

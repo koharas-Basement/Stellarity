@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.obtain_ender_pearl",
 			"fallback": "Eye of Darkness"
 		},
-		"description": {
-			"translate": "stellarity.advancements.obtain_ender_pearl.description",
-			"fallback": "Pick up an Ender Pearl..."
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.obtain_ender_pearl.description",
+				"fallback": "Pick up an Ender Pearl..."
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

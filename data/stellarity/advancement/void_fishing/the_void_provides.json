@@ -7,11 +7,19 @@
 			"translate": "stellarity.advancements.the_void_provides",
 			"fallback": "The Void Provides"
 		},
-		"description": {
-			"translate": "stellarity.advancements.the_void_provides.description",
-			"fallback": "Fish out and open a Crate from the void through Void Fishing",
-			"color": "aqua"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.the_void_provides.description",
+				"fallback": "Fish out and open a Crate from the void through Void Fishing",
+				"color": "aqua"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

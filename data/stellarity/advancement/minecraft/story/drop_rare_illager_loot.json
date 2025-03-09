@@ -10,11 +10,19 @@
 			"translate": "stellarity.advancements.rare_find",
 			"fallback": "Robbing the Fortress"
 		},
-		"description": {
-			"translate": "stellarity.advancements.rare_find.description",
-			"fallback": "Get a rare item from an Illager in the Stronghold",
-			"color": "aqua"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.rare_find.description",
+				"fallback": "Get a rare item from an Illager in the Stronghold",
+				"color": "aqua"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

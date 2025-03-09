@@ -13,10 +13,18 @@
 			"translate": "stellarity.advancements.discover_all_biomes",
 			"fallback": "Timeless Traveler"
 		},
-		"description": {
-			"translate": "stellarity.advancements.discover_all_biomes.description",
-			"fallback": "Discover all End biomes"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.discover_all_biomes.description",
+				"fallback": "Discover all End biomes"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true

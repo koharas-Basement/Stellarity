@@ -11,10 +11,18 @@
 			"translate": "stellarity.advancements.poor_life_choices",
 			"fallback": "Poor Life Choices"
 		},
-		"description": {
-			"translate": "stellarity.advancements.poor_life_choices.description",
-			"fallback": "Eat, plant and feed a Fox a Duskberry"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.poor_life_choices.description",
+				"fallback": "Eat, plant and feed a Fox a Duskberry"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

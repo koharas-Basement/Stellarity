@@ -7,15 +7,23 @@
 			"translate": "stellarity.advancements.kill_large_phantom",
 			"fallback": "Worsening Nightmares"
 		},
-		"description": {
-			"translate": "stellarity.advancements.kill_large_phantom.description",
-			"fallback": "Kill a Phantom that is bigger than usually"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.kill_large_phantom.description",
+				"fallback": "Kill a Phantom that is bigger than usually"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "stellarity:adventure/night_sky_stalkers",
+	"parent": "stellarity:minecraft/adventure/night_sky_stalkers",
 	"criteria": {
 		"size_doesnt_matter": {
 			"trigger": "minecraft:player_killed_entity",

@@ -7,8 +7,7 @@
 			"translate": "advancements.end.root.title"
 		},
 		"description": {
-			"translate": "stellarity.advancements.enter_end.description",
-			"fallback": "ᴏʀ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ?",
+			"translate": "advancements.end.root.description",
 			"color": "#E562FF"
 		},
 		"background": "minecraft:textures/gui/advancements/backgrounds/end.png",

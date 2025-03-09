@@ -24,7 +24,7 @@ execute if entity @s[predicate=stellarity:items/holding/trinkets/soaring_insigni
 execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/holding/trinkets/soaring_insignia] run function stellarity:items/soaring_insignia/stop_flight
 
 # Kaleidoscope
-execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] at @s run function stellarity:items/kaleidoscope/loop
+execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] run function stellarity:items/kaleidoscope/loop
 
 # Book of Updraft
 execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stellarity:items/spellbooks/updraft/animation

@@ -1,7 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:enchanted_book"
+			"id": "minecraft:book",
+			"components": {
+				"item_model": "stellarity:cursed_enchiridion"
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.aota_intro",
@@ -11,6 +14,12 @@
 			{
 				"translate": "stellarity.advancements.aota_intro.description",
 				"fallback": "Toss any Enchanted Book over the Altar of The Accursed to imbue it with the darkest of magic"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
 			}
 		],
 		"frame": "goal",

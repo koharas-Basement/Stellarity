@@ -7,10 +7,18 @@
 			"translate": "stellarity.advancements.crystal_crusher",
 			"fallback": "Crystal Crusher"
 		},
-		"description": {
-			"translate": "stellarity.advancements.crystal_crusher.description",
-			"fallback": "Destroy a protective End Crystal of an End City and collect its loot"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.crystal_crusher.description",
+				"fallback": "Destroy a protective End Crystal of an End City and collect its loot"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

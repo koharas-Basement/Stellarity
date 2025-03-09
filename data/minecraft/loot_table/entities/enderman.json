@@ -142,14 +142,54 @@
 					"value": "stellarity:items/trinkets/endermans_hand",
 					"conditions": [
 						{
-							"condition": "minecraft:random_chance_with_enchanted_bonus",
-							"enchantment": "minecraft:looting",
-							"unenchanted_chance": 0.02,
-							"enchanted_chance": {
-								"type": "minecraft:linear",
-								"base": 0.025,
-								"per_level_above_first": 0.005
-							}
+							"condition": "any_of",
+							"terms": [
+								{
+									"condition": "all_of",
+									"terms": [
+										{
+											"condition": "minecraft:random_chance_with_enchanted_bonus",
+											"enchantment": "minecraft:looting",
+											"unenchanted_chance": 0.02,
+											"enchanted_chance": {
+												"type": "minecraft:linear",
+												"base": 0.02,
+												"per_level_above_first": 0.01
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"dimension": "the_end"
+											}
+										}
+									]
+								},
+								{
+									"condition": "all_of",
+									"terms": [
+										{
+											"condition": "minecraft:random_chance_with_enchanted_bonus",
+											"enchantment": "minecraft:looting",
+											"unenchanted_chance": 0.1,
+											"enchanted_chance": {
+												"type": "minecraft:linear",
+												"base": 0.025,
+												"per_level_above_first": 0.015
+											}
+										},
+										{
+											"condition": "inverted",
+											"term": {
+												"condition": "location_check",
+												"predicate": {
+													"dimension": "the_end"
+												}
+											}
+										}
+									]
+								}
+							]
 						}
 					]
 				}

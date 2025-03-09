@@ -11,10 +11,18 @@
 			"fallback": "Gloop de Gloop",
 			"color": "#7bc664"
 		},
-		"description": {
-			"translate": "stellarity.advancements.find_gloop.description",
-			"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.find_gloop.description",
+				"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "task"
 	},
 	"parent": "stellarity:pandoras_barrel/place",

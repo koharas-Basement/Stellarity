@@ -11,10 +11,18 @@
 			"translate": "stellarity.advancements.absolute_devotion",
 			"fallback": "Absolute Devotion"
 		},
-		"description": {
-			"translate": "stellarity.advancements.absolute_devotion.description",
-			"fallback": "Upgrade your Netherite Hoe to its Shulker version. At this point, it's just pure madness..."
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.absolute_devotion.description",
+				"fallback": "Upgrade your Netherite Hoe to its Shulker version. At this point, it's just pure madness..."
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

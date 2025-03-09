@@ -1,25 +1,22 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:netherite_sword",
-			"components": {
-				"minecraft:item_model": "stellarity:shulker_sword"
-			}
+			"id": "dragon_head"
 		},
 		"title": {
 			"translate": "advancements.end.kill_dragon.title"
 		},
 		"description": {
-			"translate": "stellarity.advancements.kill_dragon.description",
-			"fallback": "The Beast is dead and The End is waiting for you to discover its secrets...",
-			"color": "#E562FF"
+			"translate": "advancements.end.kill_dragon.description",
+			"color": "#E562FF",
+			"italic": true
 		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": true
+		"hidden": false
 	},
-	"parent": "stellarity:dragons_den/final_showdown",
+	"parent": "stellarity:dragons_den/sacrificial_ritual",
 	"criteria": {
 		"kill_dragon": {
 			"trigger": "minecraft:impossible"

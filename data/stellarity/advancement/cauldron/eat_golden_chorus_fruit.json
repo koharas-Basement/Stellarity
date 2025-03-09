@@ -11,10 +11,18 @@
 			"translate": "stellarity.advancements.eat_golden_chorus_fruit",
 			"fallback": "[Au]some Delight!"
 		},
-		"description": {
-			"translate": "stellarity.advancements.eat_golden_chorus_fruit.description",
-			"fallback": "Eat a Golden Chorus Fruit"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.eat_golden_chorus_fruit.description",
+				"fallback": "Eat a Golden Chorus Fruit"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true

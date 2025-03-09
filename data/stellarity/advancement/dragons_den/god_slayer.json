@@ -10,11 +10,19 @@
 			"translate": "stellarity.advancements.god_slayer",
 			"fallback": "God Slayer"
 		},
-		"description": {
-			"translate": "stellarity.advancements.god_slayer.description",
-			"fallback": "You have proven yourself worthy by defeating the vicious Beast twice",
-			"color": "#E562FF"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.god_slayer.description",
+				"fallback": "You have proven yourself worthy by defeating the vicious Beast twice",
+				"color": "#E562FF"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

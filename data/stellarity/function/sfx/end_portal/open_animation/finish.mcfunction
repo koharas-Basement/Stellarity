@@ -33,4 +33,4 @@ schedule function stellarity:sfx/end_portal/open_animation/scheduled_poof 1t app
 
 function stellarity:sfx/end_portal/ambient_sounds
 
-advancement grant @a[distance=..48] only stellarity:story/journeys_end
+advancement grant @a[distance=..48] only stellarity:minecraft/story/journeys_end

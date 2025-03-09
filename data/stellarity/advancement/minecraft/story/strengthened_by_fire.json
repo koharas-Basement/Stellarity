@@ -7,16 +7,24 @@
 			"translate": "stellarity.advancements.craft_ender_eye",
 			"fallback": "Strengthened by Fire"
 		},
-		"description": {
-			"translate": "stellarity.advancements.craft_ender_eye.description",
-			"fallback": "...and fuse it with some Blaze Powder"
-		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.craft_ender_eye.description",
+				"fallback": "...and fuse it with some Blaze Powder"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:story/obtain_an_ender_pearl",
+	"parent": "stellarity:minecraft/story/obtain_an_ender_pearl",
 	"criteria": {
 		"criteria": {
 			"trigger": "minecraft:inventory_changed",
