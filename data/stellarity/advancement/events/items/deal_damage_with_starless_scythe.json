@@ -8,7 +8,7 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:netherite_hoe"
+								"minecraft:wooden_hoe"
 							],
 							"components":{
 								"minecraft:custom_data": {
@@ -38,7 +38,7 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:netherite_hoe"
+								"minecraft:wooden_hoe"
 							],
 							"components":{
 								"minecraft:custom_data": {
