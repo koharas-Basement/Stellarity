@@ -6,3 +6,4 @@ execute if entity @s[tag=kohara.particle.scythe_sweep] run function stellarity:u
 execute if entity @s[tag=kohara.particle.dragonblade_sigil] run function stellarity:utils/particles/dragonblade_sigil/spawn
 execute if entity @s[tag=kohara.particle.prismatic_punch] run function stellarity:utils/particles/prismatic_punch/spawn
 execute if entity @s[tag=kohara.particle.prismatic_punch_large] run function stellarity:utils/particles/prismatic_punch/spawn_large
+execute if entity @s[tag=kohara.particle.end_portal_fill] run function stellarity:utils/particles/end_portal_fill/spawn

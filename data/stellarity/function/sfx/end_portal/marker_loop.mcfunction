@@ -19,7 +19,9 @@ execute rotated ~300 ~ positioned ^ ^-2 ^5 facing entity @s eyes run tp @n[type=
 execute rotated ~330 ~ positioned ^ ^-2 ^5 facing entity @s eyes run tp @n[type=armor_stand,tag=stellarity.end_portal_animation.eye_12] ^ ^ ^ ~ ~
 
 particle mycelium ~ ~-1.65 ~ .8 0 .8 0 1 normal
-execute if predicate kohara:chance/3percent run particle sculk_soul ~ ~-1.65 ~ .8 0 .8 0 3 normal
+execute if predicate kohara:chance/3percent run function stellarity:sfx/end_portal/beam_thingy/spawn
 
 scoreboard players add @s stellarity.misc2 1
-execute if entity @s[scores={stellarity.misc2=300}] run function stellarity:sfx/end_portal/ambient_sounds
+execute if entity @s[scores={stellarity.misc2=200..}] run function stellarity:sfx/end_portal/ambient_sounds
+
+execute unless block ~ ~-2 ~ end_portal run function stellarity:sfx/end_portal/remove_portal

@@ -1,5 +1,3 @@
-# This happens every 15 seconds btw
-
 #playsound block.beacon.ambient block @a[distance=0..] ~ ~ ~ .4 0
 
 execute store result score #ran stellarity.misc run random value 1..5
@@ -18,3 +16,4 @@ execute if score #ran stellarity.misc matches 4 run \
 execute if score #ran stellarity.misc matches 5 run \
 	playsound block.respawn_anchor.ambient block @a[distance=0..] ~ ~ ~ 1 0.7
 
+scoreboard players reset @s stellarity.misc2
