@@ -4,7 +4,9 @@
 	"predicate": {
 		"equipment": {
 			"legs": {
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"shulker_armor\"}"}
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"shulker_armor\"}"
+				}
 			}
 		}
 	}

@@ -1,33 +1,13 @@
 {
-	"condition": "minecraft:any_of",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"mainhand": {
-						"items": [
-							"minecraft:warped_fungus_on_a_stick"
-						],
-						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"items": [
-							"minecraft:warped_fungus_on_a_stick"
-						],
-						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
-					}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"weapon.*": {
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"
 				}
 			}
 		}
-	]
+	}
 }

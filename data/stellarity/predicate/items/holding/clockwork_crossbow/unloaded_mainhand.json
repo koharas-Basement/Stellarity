@@ -2,16 +2,13 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"equipment": {
-			"mainhand": {
-				"items": [
-					"minecraft:crossbow"
-				],
+		"slots": {
+			"weapon.mainhand": {
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"
+				},
 				"components": {
-					"minecraft:custom_data": {
-						"stellarity.special_item": "clockwork_crossbow"
-					},
-					"minecraft:charged_projectiles":[]
+					"minecraft:charged_projectiles": []
 				}
 			}
 		}

@@ -5,42 +5,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"equipment": {
-					"mainhand": {
-						"items": [
-							"minecraft:crossbow"
-						],
-						"components": {
-							"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"
-						},
+				"slots": {
+					"weapon.*": {
 						"predicates": {
-							"minecraft:enchantments": [
+							"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}",
+							"enchantments": [
 								{
-									"enchantments": "minecraft:quick_charge",
-									"levels": 2
-								}
-							]
-						}
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"offhand": {
-						"items": [
-							"minecraft:crossbow"
-						],
-						"components": {
-							"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"
-						},
-						"predicates": {
-							"minecraft:enchantments": [
-								{
-									"enchantments": "minecraft:quick_charge",
+									"enchantments": "quick_charge",
 									"levels": 2
 								}
 							]

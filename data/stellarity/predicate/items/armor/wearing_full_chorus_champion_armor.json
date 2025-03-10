@@ -4,16 +4,24 @@
 	"predicate": {
 		"equipment": {
 			"head": {
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"}
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"
+				}
 			},
 			"chest": {
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"}
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"
+				}
 			},
 			"legs": {
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"}
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"
+				}
 			},
 			"feet": {
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"}
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"chorus_champion_armor\"}"
+				}
 			}
 		}
 	}

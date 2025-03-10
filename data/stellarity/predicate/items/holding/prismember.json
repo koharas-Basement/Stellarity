@@ -2,12 +2,11 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"equipment": {
-			"mainhand": {
-				"items": [
-					"minecraft:netherite_sword"
-				],
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"prismember\"}"}
+		"slots": {
+			"weapon.mainhand": {
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"prismember\"}"
+				}
 			}
 		}
 	}

@@ -2,12 +2,11 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"equipment": {
-			"mainhand": {
-				"items": [
-					"minecraft:diamond_sword"
-				],
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"}
+		"slots": {
+			"weapon.mainhand": {
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+				}
 			}
 		}
 	}
