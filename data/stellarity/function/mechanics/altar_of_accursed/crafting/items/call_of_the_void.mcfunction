@@ -1,4 +1,4 @@
-data modify storage stellarity:temp aota.item set from entity @n[type=item,tag=stellarity.aota.bow,distance=..1.5] Item.components
+data modify storage stellarity:temp aota.item set from entity @n[type=item,tag=stellarity.aota.minecraft.bow,distance=..1.5] Item.components
 data modify storage stellarity:temp aota.enchants set from storage stellarity:temp aota.item."minecraft:enchantments"
 
 loot spawn ~ ~.1 ~ loot stellarity:items/call_of_the_void

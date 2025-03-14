@@ -1,4 +1,4 @@
-data modify storage stellarity:temp aota.enchants set from entity @n[type=item,tag=stellarity.aota.netherite_axe,distance=..1.5] Item.components."minecraft:enchantments"
+data modify storage stellarity:temp aota.enchants set from entity @n[type=item,tag=stellarity.aota.minecraft.netherite_axe,distance=..1.5] Item.components."minecraft:enchantments"
 
 loot spawn ~ ~-.4 ~ loot stellarity:items/tools/shulker/axe
 
