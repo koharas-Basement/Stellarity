@@ -23,3 +23,6 @@ execute if entity @s[tag=stellarity.pandoras_barrel] run function stellarity:ite
 
 # Phantom Item Frame
 execute if entity @s[tag=stellarity.phantom_item_frame] run function stellarity:items/phantom_item_frame/main_marker
+
+execute if entity @s[tag=stellarity.porta_altar,tag=!stellarity.porta_altar.stationary] run function stellarity:items/porta_altar/marker_loop
+execute if entity @s[tag=stellarity.porta_altar.stationary] run function stellarity:items/porta_altar/marker_loop_stationary

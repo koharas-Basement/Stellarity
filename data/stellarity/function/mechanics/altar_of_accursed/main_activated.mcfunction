@@ -1,6 +1,8 @@
 execute as @n[type=interaction,tag=stellarity.aota.sword_hitbox] run function stellarity:mechanics/altar_of_accursed/main_interaction
 
-function stellarity:mechanics/altar_of_accursed/sfx/loop
+execute unless entity @s[tag=stellarity.porta_altar] run function stellarity:mechanics/altar_of_accursed/sfx/loop
+execute if entity @s[tag=stellarity.porta_altar,tag=!stellarity.porta_altar.stationary] run function stellarity:items/porta_altar/visuals/sigil
+execute if entity @s[tag=stellarity.porta_altar,tag=stellarity.porta_altar.stationary] run function stellarity:items/porta_altar/visuals/stationary
 
 execute if score @s stellarity.misc.loop.1s matches 20 run function stellarity:mechanics/altar_of_accursed/loop_1s
 

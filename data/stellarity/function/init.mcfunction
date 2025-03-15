@@ -67,6 +67,8 @@ scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy
 scoreboard objectives add stellarity.items.spellbook.give_back.hand dummy
 
+scoreboard objectives add stellarity.items.porta_altar.cooldown dummy
+
 # Empress Wings
 scoreboard objectives add stellarity.items.empress_wings.particles dummy
 

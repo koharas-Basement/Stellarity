@@ -5,6 +5,8 @@ execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=0..}] run
 execute if entity @s[scores={stellarity.items.spellbook.jinx.cooldown=0..}] run function stellarity:items/spellbooks/jinx/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.return.cooldown=0..}] run function stellarity:items/spellbooks/return/cooldown_countdown
 
+execute if entity @s[scores={stellarity.items.porta_altar.cooldown=0..}] run scoreboard players remove @s stellarity.items.porta_altar.cooldown 1
+
 execute if entity @s[scores={stellarity.items.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.items.aery_sword.cryonics.cooldown 1
 
 execute if entity @s[tag=stellarity.flesh_piglin.aggro_target] run function stellarity:mobs/flesh_piglin/set_follow_range_1s_loop

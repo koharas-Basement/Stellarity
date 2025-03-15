@@ -14,6 +14,4 @@ playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~-.4 ~ 1
 
 kill @e[type=item,distance=..1.5,tag=!stellarity.aota.skip]
 
-function stellarity:mechanics/altar_of_accursed/crafting/global_effects_wave
-
 advancement grant @p only stellarity:aota/cursed_crafting

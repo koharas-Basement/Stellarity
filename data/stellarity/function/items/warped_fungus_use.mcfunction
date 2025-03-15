@@ -3,3 +3,7 @@ execute if entity @s[predicate=stellarity:items/holding/spellbooks/conveyance] r
 execute if entity @s[predicate=stellarity:items/holding/spellbooks/updraft] run function stellarity:items/spellbooks/updraft/use
 execute if entity @s[predicate=stellarity:items/holding/spellbooks/light] run function stellarity:items/spellbooks/light/use
 execute if entity @s[predicate=stellarity:items/holding/spellbooks/return] run function stellarity:items/spellbooks/return/use
+
+execute if entity @s[predicate=stellarity:items/holding/porta_altar] run function stellarity:items/porta_altar/use
+
+execute if entity @s[predicate=stellarity:items/holding/endonomicon_no_lavender] run function stellarity:items/endonomicon/right_click_no_lavender

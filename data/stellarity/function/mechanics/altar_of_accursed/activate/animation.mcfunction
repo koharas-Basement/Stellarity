@@ -12,7 +12,7 @@ playsound minecraft:entity.blaze.death block @a[distance=0..] ~ ~ ~ 5 0
 summon armor_stand ~0.50450701485292 ~-1.27415153937696 ~-0.34230595720676 {Invulnerable:0b,Pose:{RightArm:[80.0f,0.0f,0.0f]},Rotation:[-90.0f, 0.0f],Tags:["stellarity.aota.sword_holder"],Invisible:1b,NoGravity:1b,NoBasePlate:0b,DisabledSlots:4144959,ShowArms:1b,Small:0b,Marker:1b}
 loot replace entity @n[type=minecraft:armor_stand,tag=stellarity.aota.sword_holder] weapon.mainhand loot stellarity:items/dragonblade
 
-summon minecraft:interaction ~ ~-.8 ~ {width:0.4f,height:1f,response:1,Tags:["stellarity.aota.sword_hitbox"]}
+summon minecraft:interaction ~ ~-.8 ~ {width:0.4f,height:1f,response:1b,Tags:["stellarity.aota.sword_hitbox"]}
 
 function stellarity:mechanics/altar_of_accursed/activate/wave
 

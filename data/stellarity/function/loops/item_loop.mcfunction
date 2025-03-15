@@ -20,3 +20,5 @@ execute \
 	function stellarity:mechanics/consecration/cauldron/summon_marker
 
 execute if entity @s[tag=stellarity.molten_harvester,nbt={OnGround:1b}] run function stellarity:items/frigid_harvester/molten_refund/copy_data
+
+execute if entity @s[tag=stellarity.pandoras_barrel] run function stellarity:items/pandoras_barrel/animation/item/trail
