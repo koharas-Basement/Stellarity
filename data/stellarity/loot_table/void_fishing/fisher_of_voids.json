@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/tools/fisher_of_voids",
+					"value": "stellarity:item/tool/fisher_of_voids",
 					"functions": [
 						{
 							"function": "minecraft:set_damage",

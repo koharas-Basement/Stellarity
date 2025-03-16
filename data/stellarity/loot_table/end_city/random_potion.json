@@ -125,20 +125,20 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/potions/endurance_potion"
+					"value": "stellarity:item/potion/endurance_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/potions/luck_potion"
+					"value": "stellarity:item/potion/luck_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/potions/lifeforce_potion"
+					"value": "stellarity:item/potion/lifeforce_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
 					"quality": 1,
-					"value": "stellarity:items/potions/red_potion"
+					"value": "stellarity:item/potion/red_potion"
 				}
 			]
 		}

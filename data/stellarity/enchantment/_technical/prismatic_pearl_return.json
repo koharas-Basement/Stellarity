@@ -31,7 +31,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:items/prismatic_pearl/throw"
+					"function": "stellarity:item/prismatic_pearl/throw"
 				}
 			}
 		]

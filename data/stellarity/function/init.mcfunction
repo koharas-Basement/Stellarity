@@ -28,8 +28,8 @@ scoreboard objectives add stellarity.items.dragonblade.punch_progress dummy
 scoreboard objectives add stellarity.items.dragonblade.until_punch_reset dummy
 # Armor sets
 scoreboard objectives add stellarity.items.armors.holy_protection_cooldown dummy
-scoreboard objectives add stellarity.items.armors.chorus_champion_armor.combo dummy
-scoreboard objectives add stellarity.items.armors.chorus_champion_armor.until_combo_reset dummy
+scoreboard objectives add stellarity.items.armors.champion_armor.combo dummy
+scoreboard objectives add stellarity.items.armors.champion_armor.until_combo_reset dummy
 
 # Clockwork Crossbow
 scoreboard objectives add stellarity.items.clockwork_crossbow.time_since_last_shot dummy
@@ -66,6 +66,8 @@ scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy
 scoreboard objectives add stellarity.items.spellbook.give_back.hand dummy
+
+scoreboard objectives add stellarity.items.porta_altar.cooldown dummy
 
 # Empress Wings
 scoreboard objectives add stellarity.items.empress_wings.particles dummy
@@ -207,7 +209,7 @@ scoreboard objectives add stellarity.misc.loop.1s dummy
 scoreboard objectives add stellarity.misc.loop.10s dummy
 scoreboard objectives add stellarity.misc.loop.15s dummy
 
-function stellarity:utils/stringlib/zprivate/load
+function stellarity:util/stringlib/zprivate/load
 
 ## Creating teams
 team add stellarity.purple_glow
@@ -267,11 +269,11 @@ bossbar set stellarity:eol style progress
 
 # Scheduling loops that do not need
 # to be executed every single tick
-schedule function stellarity:loops/timed/2_tick 2t append
-schedule function stellarity:loops/timed/3_tick 3t append
-schedule function stellarity:loops/timed/5_tick 5t append
-schedule function stellarity:loops/timed/1_second 1s append
-schedule function stellarity:loops/timed/5_second 5s append
+schedule function stellarity:loop/timed/2_tick 2t append
+schedule function stellarity:loop/timed/3_tick 3t append
+schedule function stellarity:loop/timed/5_tick 5t append
+schedule function stellarity:loop/timed/1_second 1s append
+schedule function stellarity:loop/timed/5_second 5s append
 
 # Get world difficulty
 execute store result score #difficulty stellarity.misc run difficulty

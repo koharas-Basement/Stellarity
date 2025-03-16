@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/call_of_the_void",
+					"value": "stellarity:item/weapon/call_of_the_void",
 					"functions": [
 						{
 							"function": "minecraft:set_enchantments",

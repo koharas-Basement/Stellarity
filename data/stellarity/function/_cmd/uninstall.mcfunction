@@ -27,8 +27,8 @@ scoreboard objectives remove stellarity.items.dragonblade.punch_progress
 scoreboard objectives remove stellarity.items.dragonblade.until_punch_reset
 # Armor sets
 scoreboard objectives remove stellarity.items.armors.holy_protection_cooldown
-scoreboard objectives remove stellarity.items.armors.chorus_champion_armor.combo
-scoreboard objectives remove stellarity.items.armors.chorus_champion_armor.until_combo_reset
+scoreboard objectives remove stellarity.items.armors.champion_armor.combo
+scoreboard objectives remove stellarity.items.armors.champion_armor.until_combo_reset
 
 # Clockwork Crossbow
 scoreboard objectives remove stellarity.items.clockwork_crossbow.time_since_last_shot
@@ -218,10 +218,10 @@ bossbar remove stellarity:eol
 
 # Scheduling loops that do not need
 # to be executed every single tick
-schedule clear stellarity:loops/timed/2_tick
-schedule clear stellarity:loops/timed/3_tick
-schedule clear stellarity:loops/timed/5_tick
-schedule clear stellarity:loops/timed/1_second
-schedule clear stellarity:loops/timed/5_second
+schedule clear stellarity:loop/timed/2_tick
+schedule clear stellarity:loop/timed/3_tick
+schedule clear stellarity:loop/timed/5_tick
+schedule clear stellarity:loop/timed/1_second
+schedule clear stellarity:loop/timed/5_second
 
-function stellarity:utils/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}
+function stellarity:util/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}

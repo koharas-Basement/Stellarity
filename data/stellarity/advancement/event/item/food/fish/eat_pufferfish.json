@@ -1,0 +1,26 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"eat_pufferfish": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					],
+					"predicates": {
+						"minecraft:custom_data": "{stellarity.special_item:\"pufferfish\"}"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_pufferfish"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:item/food/fish/pufferfish/eat"
+	}
+}

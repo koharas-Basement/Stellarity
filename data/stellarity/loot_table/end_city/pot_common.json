@@ -40,7 +40,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/keys/purpur",
+					"value": "stellarity:item/keys/purpur_key",
 					"quality": 1
 				},
 				{
@@ -59,7 +59,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/suspicious_stew/levitation",
+					"value": "stellarity:item/food/suspicious_stew/levitation",
 					"weight": 3
 				}
 			]

@@ -117,7 +117,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/empty_enchanted_book"
+					"value": "stellarity:item/material/empty_enchanted_book"
 				}
 			]
 		}

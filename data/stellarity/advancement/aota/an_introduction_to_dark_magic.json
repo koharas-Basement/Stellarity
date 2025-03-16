@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:book",
 			"components": {
-				"item_model": "stellarity:cursed_enchiridion"
+				"item_model": "stellarity:endonomicon"
 			}
 		},
 		"title": {

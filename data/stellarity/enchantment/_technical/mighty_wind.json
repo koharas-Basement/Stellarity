@@ -36,7 +36,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:items/sandstorm_trident/thrown"
+					"function": "stellarity:item/sandstorm_trident/thrown"
 				}
 			}
 		],

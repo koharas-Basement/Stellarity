@@ -1,0 +1,21 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_beef"
+					],
+					"predicates": {
+						"minecraft:custom_data": "{stellarity.special_item:\"frozen_carpaccio\"}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:item/food/frozen_carpaccio"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"drawing_bow": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bow"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "kohara:bow_detection/drawing"
+	}
+}

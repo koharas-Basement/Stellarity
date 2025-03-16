@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"weapon.mainhand": {
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"
+				},
+				"components": {
+					"minecraft:charged_projectiles": []
+				}
+			}
+		}
+	}
+}

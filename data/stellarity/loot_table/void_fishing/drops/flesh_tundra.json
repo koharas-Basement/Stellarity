@@ -6,12 +6,12 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/crimson_tigerfish",
+					"value": "stellarity:item/food/fish/crimson_tigerfish",
 					"weight": 27
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/fleshy_piranha",
+					"value": "stellarity:item/food/fish/fleshy_piranha",
 					"weight": 19
 				},
 				{

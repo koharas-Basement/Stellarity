@@ -7,7 +7,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 7,
-					"value": "stellarity:items/food/fish/frost_minnow",
+					"value": "stellarity:item/food/fish/frost_minnow",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

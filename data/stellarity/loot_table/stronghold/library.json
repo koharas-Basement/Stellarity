@@ -163,7 +163,7 @@
 			"entries": [
 				{
 					"type": "minecraft:empty",
-					"weight": 14
+					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -174,24 +174,11 @@
 								"entries": [
 									{
 										"type": "minecraft:loot_table",
-										"value": "stellarity:items/spellbooks/conveyance"
+										"value": "stellarity:item/spellbook/book_of_light"
 									},
 									{
 										"type": "minecraft:loot_table",
-										"value": "stellarity:items/spellbooks/light"
-									},
-									{
-										"type": "minecraft:loot_table",
-										"value": "stellarity:items/spellbooks/updraft"
-									}
-								],
-								"functions": [
-									{
-										"function": "minecraft:set_damage",
-										"damage": {
-											"min": 0.15,
-											"max": 0.7
-										}
+										"value": "stellarity:item/spellbook/book_of_updraft"
 									}
 								]
 							}

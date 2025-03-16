@@ -46,7 +46,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "stellarity:mechanics/enchantments/crit_strike/critical_hit"
+							"function": "stellarity:mechanic/enchantments/crit_strike/critical_hit"
 						}
 					]
 				},
@@ -79,7 +79,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "stellarity:mechanics/enchantments/crit_strike/next_attack_will_crit"
+							"function": "stellarity:mechanic/enchantments/crit_strike/next_attack_will_crit"
 						}
 					]
 				},

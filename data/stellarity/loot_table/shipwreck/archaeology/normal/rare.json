@@ -23,11 +23,11 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:item/material/enderite_smithing_template"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/music_disc/fires_of_hokkai"
+					"value": "stellarity:item/music_disc/fires_of_hokkai"
 				}
 			]
 		}

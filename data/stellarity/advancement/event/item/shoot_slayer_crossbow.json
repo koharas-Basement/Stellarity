@@ -1,0 +1,20 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"shot_clockwork_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"components":{
+						"minecraft:custom_data": {
+							"stellarity.special_item": "slayer_crossbow"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:item/slayer_crossbow/shoot"
+	}
+}

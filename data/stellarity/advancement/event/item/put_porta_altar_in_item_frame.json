@@ -1,0 +1,26 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{stellarity.special_item:\"porta_altar\"}"
+					}
+				},
+				"entity": {
+					"type": "#kohara:item_frames"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"trigger"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:item/porta_altar/item_frame/advancement"
+	}
+}

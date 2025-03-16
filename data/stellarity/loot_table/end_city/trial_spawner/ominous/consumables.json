@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/candied_chorus_fruit",
+					"value": "stellarity:item/food/candied_chorus_fruit",
 					"weight": 2,
 					"functions": [
 						{
@@ -23,7 +23,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/frozen_carpaccio",
+					"value": "stellarity:item/food/frozen_carpaccio",
 					"weight": 3,
 					"functions": [
 						{
@@ -39,16 +39,16 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/chorus_juice",
+					"value": "stellarity:item/food/chorus_juice",
 					"weight": 2
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/potions/lifeforce_potion"
+					"value": "stellarity:item/potion/lifeforce_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/potions/endurance_potion"
+					"value": "stellarity:item/potion/endurance_potion"
 				}
 			]
 		}

@@ -1,0 +1,38 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"weapon.*": {
+						"predicates": {
+							"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "entity_properties",
+				"entity": "this",
+				"predicate": {
+					"slots": {
+						"weapon.*": {
+							"predicates": {
+								"enchantments": [
+									{
+										"enchantments": "quick_charge"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

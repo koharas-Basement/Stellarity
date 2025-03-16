@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:item/material/enderite_shard",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -167,7 +167,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/explorer_maps/village"
+					"value": "stellarity:item/explorer_map/village"
 				}
 			]
 		},
@@ -274,7 +274,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/chorus_pie",
+					"value": "stellarity:item/food/chorus_pie",
 					"weight": 22,
 					"functions": [
 						{
@@ -288,7 +288,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/chorus_juice",
+					"value": "stellarity:item/food/chorus_juice",
 					"weight": 7
 				},
 				{

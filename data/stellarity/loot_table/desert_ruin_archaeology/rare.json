@@ -28,7 +28,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 3,
-					"value": "stellarity:items/materials/sand_rune"
+					"value": "stellarity:item/material/sand_rune"
 				}
 			]
 		}

@@ -28,7 +28,7 @@
 					"type": "minecraft:loot_table",
 					"weight": 2,
 					"quality": 1,
-					"value": "stellarity:items/materials/enderite_shard"
+					"value": "stellarity:item/material/enderite_shard"
 				}
 			],
 			"conditions": [

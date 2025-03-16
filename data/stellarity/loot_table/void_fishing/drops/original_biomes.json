@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/overgrown_cod",
+					"value": "stellarity:item/food/fish/overgrown_cod",
 					"weight": 8
 				},
 				{

@@ -1,4 +1,4 @@
-loot give @s loot stellarity:items/spawn_eggs/flesh_piglin
-loot give @s loot stellarity:items/spawn_eggs/voided_skeleton
-loot give @s loot stellarity:items/spawn_eggs/voided_slime
-loot give @s loot stellarity:items/spawn_eggs/voided_zombie
+loot give @s loot stellarity:item/spawn_egg/flesh_piglin
+loot give @s loot stellarity:item/spawn_egg/voided_skeleton
+loot give @s loot stellarity:item/spawn_egg/voided_slime
+loot give @s loot stellarity:item/spawn_egg/voided_zombie

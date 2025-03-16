@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/flarefin_koi",
+					"value": "stellarity:item/food/fish/flarefin_koi",
 					"weight": 20
 				},
 				{

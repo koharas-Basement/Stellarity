@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"container.*": {
+				"predicates": {
+					"minecraft:custom_data": "{stellarity.special_item:\"dragons_eye\"}"
+				}
+			}
+		}
+	}
+}

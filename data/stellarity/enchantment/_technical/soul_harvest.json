@@ -43,7 +43,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:items/frigid_harvester/attack"
+					"function": "stellarity:item/frigid_harvester/attack"
 				},
 				"enchanted": "attacker",
 				"affected": "victim"

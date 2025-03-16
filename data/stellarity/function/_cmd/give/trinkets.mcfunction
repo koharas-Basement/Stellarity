@@ -1,9 +1,7 @@
-loot give @s loot stellarity:items/trinkets/copper_elektra_shield
-loot give @s loot stellarity:items/trinkets/crest_of_the_end
-loot give @s loot stellarity:items/trinkets/dragons_eye
-loot give @s loot stellarity:items/trinkets/duskberry
-loot give @s loot stellarity:items/trinkets/life_crystal
-loot give @s loot stellarity:items/trinkets/living_flesh
-loot give @s loot stellarity:items/trinkets/soaring_insignia
-loot give @s loot stellarity:items/trinkets/starstruck_shield
-loot give @s loot stellarity:items/trinkets/endermans_hand
+loot give @s loot stellarity:item/trinket/copper_elektra_shield
+loot give @s loot stellarity:item/trinket/crest_of_the_end
+loot give @s loot stellarity:item/trinket/duskberry
+loot give @s loot stellarity:item/trinket/life_crystal
+loot give @s loot stellarity:item/trinket/soaring_insignia
+loot give @s loot stellarity:item/trinket/starstruck_shield
+loot give @s loot stellarity:item/trinket/endermans_hand

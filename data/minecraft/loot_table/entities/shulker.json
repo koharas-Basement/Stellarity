@@ -33,7 +33,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/shulker_body",
+					"value": "stellarity:item/food/shulker_body",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance_with_enchanted_bonus",

@@ -10,12 +10,12 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 26,
-					"value": "stellarity:items/food/fish/ender_koi"
+					"value": "stellarity:item/food/fish/ender_koi"
 				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 8,
-					"value": "stellarity:items/food/fish/amethyst_budfish",
+					"value": "stellarity:item/food/fish/amethyst_budfish",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -30,7 +30,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 6,
-					"value": "stellarity:items/food/fish/crimson_tigerfish",
+					"value": "stellarity:item/food/fish/crimson_tigerfish",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -45,7 +45,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 6,
-					"value": "stellarity:items/food/fish/fleshy_piranha",
+					"value": "stellarity:item/food/fish/fleshy_piranha",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -60,13 +60,13 @@
 				{
 					"type": "minecraft:loot_table",
 					"quality": 1,
-					"value": "stellarity:items/food/fish/crystal_heartfish",
+					"value": "stellarity:item/food/fish/crystal_heartfish",
 					"conditions": []
 				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 12,
-					"value": "stellarity:items/food/fish/prismite",
+					"value": "stellarity:item/food/fish/prismite",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -81,7 +81,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 12,
-					"value": "stellarity:items/food/fish/flarefin_koi",
+					"value": "stellarity:item/food/fish/flarefin_koi",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -96,26 +96,26 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 12,
-					"value": "stellarity:items/food/fish/overgrown_cod",
+					"value": "stellarity:item/food/fish/overgrown_cod",
 					"conditions": [
 						{
 							"condition": "minecraft:any_of",
 							"terms": [
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_midlands"
+									"name": "stellarity:location/in_biome/end_midlands"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_highlands"
+									"name": "stellarity:location/in_biome/end_highlands"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_small_end_islands"
+									"name": "stellarity:location/in_biome/small_end_islands"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_barrens"
+									"name": "stellarity:location/in_biome/end_barrens"
 								}
 							]
 						}
@@ -124,7 +124,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 12,
-					"value": "stellarity:items/food/fish/frost_minnow",
+					"value": "stellarity:item/food/fish/frost_minnow",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -139,7 +139,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 10,
-					"value": "stellarity:items/food/fish/bubblefish",
+					"value": "stellarity:item/food/fish/bubblefish",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
