@@ -90,7 +90,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/armor/elytra/phantom_wings"
+					"value": "stellarity:item/armor/elytra/phantom_wings"
 				}
 			],
 			"conditions": [

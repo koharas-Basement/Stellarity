@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:item/material/enderite_shard",
 					"weight": 4,
 					"quality": 1
 				},

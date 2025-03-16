@@ -48,7 +48,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:mechanics/enchantments/void_shot/spawn_shrapnel"
+					"function": "stellarity:mechanic/enchantments/void_shot/spawn_shrapnel"
 				},
 				"requirements": {
 					"condition": "minecraft:all_of",
@@ -94,7 +94,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:mechanics/enchantments/void_shot/apply_voided"
+					"function": "stellarity:mechanic/enchantments/void_shot/apply_voided"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

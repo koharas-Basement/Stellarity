@@ -27,7 +27,7 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
-							"value": "stellarity:items/materials/starlight_soot",
+							"value": "stellarity:item/material/starlight_soot",
 							"weight": 5,
 							"functions": [
 								{
@@ -200,7 +200,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/trinkets/duskberry"
+					"value": "stellarity:item/trinket/duskberry"
 				}
 			],
 			"conditions": [

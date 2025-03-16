@@ -1,0 +1,26 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"eat_duskberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"predicates": {
+						"minecraft:custom_data": "{stellarity.special_item:\"duskberry\"}"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_duskberry"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:item/duskberry/eat"
+	}
+}

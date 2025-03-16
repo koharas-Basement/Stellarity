@@ -1,7 +1,7 @@
 # Post-animation loop for extra details, like orbiting Eyes and ambient sounds
 
 # Prevent Eyes of Ender being placed back into frames
-execute if predicate stellarity:utils/end_portal_eye_delete run function stellarity:sfx/end_portal/fill_stop/checks
+execute if predicate stellarity:util/end_portal_eye_delete run function stellarity:sfx/end_portal/fill_stop/checks
 
 tp @s ~ ~ ~ ~0.25 ~
 

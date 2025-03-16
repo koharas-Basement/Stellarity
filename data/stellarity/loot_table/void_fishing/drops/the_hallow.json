@@ -6,12 +6,12 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/prismite",
+					"value": "stellarity:item/food/fish/prismite",
 					"weight": 25
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/starlight_soot",
+					"value": "stellarity:item/material/starlight_soot",
 					"weight": 9,
 					"functions": [
 						{

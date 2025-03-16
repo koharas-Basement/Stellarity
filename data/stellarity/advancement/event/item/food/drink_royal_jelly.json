@@ -1,0 +1,40 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:honey_bottle"
+					],
+					"predicates": {
+						"minecraft:custom_data": "{stellarity.special_item:\"royal_jelly\"}"
+					}
+				}
+			}
+		},
+		"2": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:honey_bottle"
+					],
+					"predicates": {
+						"minecraft:custom_data": "{stellarity.special_item:\"royal_jelly_ii\"}"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+		"function": "stellarity:item/food/royal_jelly"
+	}
+}

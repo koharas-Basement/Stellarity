@@ -102,6 +102,35 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": {
+						"pools": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:item/spellbook/book_of_light"
+									},
+									{
+										"type": "minecraft:loot_table",
+										"value": "stellarity:item/spellbook/book_of_updraft"
+									}
+								]
+							}
+						]
+					}
+				}
+			]
 		}
 	]
 }

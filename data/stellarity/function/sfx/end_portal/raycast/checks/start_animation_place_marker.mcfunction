@@ -1,5 +1,3 @@
-# Insant stopsound didn't work 100% of the time
-function stellarity:sfx/end_portal/stopsound
 fill ~5 ~5 ~5 ~-5 ~-5 ~-5 air replace end_portal
 
 # Facing north

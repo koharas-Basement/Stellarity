@@ -1,5 +1,5 @@
 {
 	"values": [
-		"stellarity:utils/damage/post_damage"
+		"stellarity:util/damage/post_damage"
 	]
 }

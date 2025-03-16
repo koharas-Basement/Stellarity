@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/amethyst_budfish",
+					"value": "stellarity:item/food/fish/amethyst_budfish",
 					"weight": 16
 				},
 				{

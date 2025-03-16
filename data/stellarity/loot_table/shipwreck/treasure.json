@@ -132,7 +132,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:item/material/enderite_smithing_template"
 				}
 			]
 		}

@@ -204,15 +204,11 @@
 								"entries": [
 									{
 										"type": "minecraft:loot_table",
-										"value": "stellarity:items/sharanga"
+										"value": "stellarity:item/weapon/sharanga"
 									},
 									{
 										"type": "minecraft:loot_table",
-										"value": "stellarity:items/clockwork_crossbow"
-									},
-									{
-										"type": "minecraft:loot_table",
-										"value": "stellarity:items/trinkets/copper_elektra_shield"
+										"value": "stellarity:item/trinket/copper_elektra_shield"
 									}
 								],
 								"functions": [

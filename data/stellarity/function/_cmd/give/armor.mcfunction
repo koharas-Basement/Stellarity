@@ -1,23 +1,23 @@
-loot give @s loot stellarity:items/armor/chorus_champion/helmet
-loot give @s loot stellarity:items/armor/chorus_champion/chestplate
-loot give @s loot stellarity:items/armor/chorus_champion/leggings
-loot give @s loot stellarity:items/armor/chorus_champion/boots
+loot give @s loot stellarity:item/armor/champion/helmet
+loot give @s loot stellarity:item/armor/champion/chestplate
+loot give @s loot stellarity:item/armor/champion/leggings
+loot give @s loot stellarity:item/armor/champion/boots
 
-loot give @s loot stellarity:items/armor/hallowed/helmet
-loot give @s loot stellarity:items/armor/hallowed/chestplate
-loot give @s loot stellarity:items/armor/hallowed/leggings
-loot give @s loot stellarity:items/armor/hallowed/boots
+loot give @s loot stellarity:item/armor/hallowed/helmet
+loot give @s loot stellarity:item/armor/hallowed/chestplate
+loot give @s loot stellarity:item/armor/hallowed/leggings
+loot give @s loot stellarity:item/armor/hallowed/boots
 
-loot give @s loot stellarity:items/armor/shulker/helmet
-loot give @s loot stellarity:items/armor/shulker/chestplate
-loot give @s loot stellarity:items/armor/shulker/leggings
-loot give @s loot stellarity:items/armor/shulker/boots
+loot give @s loot stellarity:item/armor/shulker/helmet
+loot give @s loot stellarity:item/armor/shulker/chestplate
+loot give @s loot stellarity:item/armor/shulker/leggings
+loot give @s loot stellarity:item/armor/shulker/boots
 
-loot give @s loot stellarity:items/armor/floral/helmet
-loot give @s loot stellarity:items/armor/floral/chestplate
-loot give @s loot stellarity:items/armor/floral/leggings
-loot give @s loot stellarity:items/armor/floral/boots
+loot give @s loot stellarity:item/armor/floral/helmet
+loot give @s loot stellarity:item/armor/floral/chestplate
+loot give @s loot stellarity:item/armor/floral/leggings
+loot give @s loot stellarity:item/armor/floral/boots
 
-loot give @s loot stellarity:items/armor/elytra/dragon_wings
-loot give @s loot stellarity:items/armor/elytra/empress_wings
-loot give @s loot stellarity:items/armor/elytra/phantom_wings
+loot give @s loot stellarity:item/armor/elytra/dragon_wings
+loot give @s loot stellarity:item/armor/elytra/empress_wings
+loot give @s loot stellarity:item/armor/elytra/phantom_wings

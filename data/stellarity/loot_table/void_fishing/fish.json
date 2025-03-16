@@ -7,7 +7,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 15,
-					"value": "stellarity:items/food/fish/ender_koi",
+					"value": "stellarity:item/food/fish/ender_koi",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -26,7 +26,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/fish/crystal_heartfish",
+					"value": "stellarity:item/food/fish/crystal_heartfish",
 					"weight": 4
 				},
 				{
@@ -36,7 +36,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_the_hallow"
+							"name": "stellarity:location/in_biome/the_hallow"
 						}
 					]
 				},
@@ -47,7 +47,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_flesh_tundra"
+							"name": "stellarity:location/in_biome/flesh_tundra"
 						}
 					]
 				},
@@ -58,7 +58,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_frozen_spikes"
+							"name": "stellarity:location/in_biome/frozen_spikes"
 						}
 					]
 				},
@@ -72,19 +72,19 @@
 							"terms": [
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_midlands"
+									"name": "stellarity:location/in_biome/end_midlands"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_highlands"
+									"name": "stellarity:location/in_biome/end_highlands"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_small_end_islands"
+									"name": "stellarity:location/in_biome/small_end_islands"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_barrens"
+									"name": "stellarity:location/in_biome/end_barrens"
 								}
 							]
 						}
@@ -97,7 +97,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_fiery_hills"
+							"name": "stellarity:location/in_biome/fiery_hills"
 						}
 					]
 				},
@@ -111,11 +111,11 @@
 							"terms": [
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_amethyst_forest"
+									"name": "stellarity:location/in_biome/amethyst_forest"
 								},
 								{
 									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_crystal_crags"
+									"name": "stellarity:location/in_biome/crystal_crags"
 								}
 							]
 						}
@@ -128,7 +128,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
-							"name": "stellarity:locations/biomes/in_prismarine_forest"
+							"name": "stellarity:location/in_biome/prismarine_forest"
 						}
 					]
 				}

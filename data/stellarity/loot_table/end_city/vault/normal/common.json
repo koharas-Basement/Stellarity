@@ -68,7 +68,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/hallowed_ingot",
+					"value": "stellarity:item/material/hallowed_ingot",
 					"weight": 7,
 					"functions": [
 						{
@@ -84,7 +84,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/chorus_plating",
+					"value": "stellarity:item/material/chorus_plating",
 					"weight": 7,
 					"functions": [
 						{

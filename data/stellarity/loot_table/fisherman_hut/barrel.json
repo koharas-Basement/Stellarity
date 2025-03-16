@@ -10,12 +10,12 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 13,
-					"value": "stellarity:items/food/fish/ender_koi"
+					"value": "stellarity:item/food/fish/ender_koi"
 				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 4,
-					"value": "stellarity:items/food/fish/amethyst_budfish",
+					"value": "stellarity:item/food/fish/amethyst_budfish",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -30,7 +30,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 3,
-					"value": "stellarity:items/food/fish/crimson_tigerfish",
+					"value": "stellarity:item/food/fish/crimson_tigerfish",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -45,7 +45,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 3,
-					"value": "stellarity:items/food/fish/fleshy_piranha",
+					"value": "stellarity:item/food/fish/fleshy_piranha",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -60,13 +60,13 @@
 				{
 					"type": "minecraft:loot_table",
 					"quality": 1,
-					"value": "stellarity:items/food/fish/crystal_heartfish",
+					"value": "stellarity:item/food/fish/crystal_heartfish",
 					"conditions": []
 				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 8,
-					"value": "stellarity:items/food/fish/prismite",
+					"value": "stellarity:item/food/fish/prismite",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -81,7 +81,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 7,
-					"value": "stellarity:items/food/fish/flarefin_koi",
+					"value": "stellarity:item/food/fish/flarefin_koi",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -96,7 +96,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 6,
-					"value": "stellarity:items/food/fish/overgrown_cod",
+					"value": "stellarity:item/food/fish/overgrown_cod",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -114,7 +114,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 6,
-					"value": "stellarity:items/food/fish/frost_minnow",
+					"value": "stellarity:item/food/fish/frost_minnow",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",
@@ -129,7 +129,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 5,
-					"value": "stellarity:items/food/fish/bubblefish",
+					"value": "stellarity:item/food/fish/bubblefish",
 					"conditions": [
 						{
 							"condition": "minecraft:location_check",

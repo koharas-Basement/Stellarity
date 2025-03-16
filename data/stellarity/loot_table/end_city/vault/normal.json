@@ -21,7 +21,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:item/material/enderite_shard",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -58,7 +58,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.5
+					"chance": 0.2
 				}
 			]
 		},
@@ -79,7 +79,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:item/material/enderite_smithing_template"
 				},
 				{
 					"type": "minecraft:item",
@@ -98,7 +98,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/music_disc/fires_of_hokkai"
+					"value": "stellarity:item/music_disc/fires_of_hokkai"
 				}
 			],
 			"conditions": [

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:item/material/enderite_shard",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -166,7 +166,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:item/material/enderite_smithing_template"
 				}
 			]
 		}

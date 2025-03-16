@@ -39,7 +39,7 @@ setblock ~ ~ ~ trial_spawner{\
 		loot_tables_to_eject:[\
 			{\
 					weight:1,\
-					data:"stellarity:items/materials/keys/winged"\
+					data:"stellarity:item/keys/winged_key"\
 			},\
 			{\
 				weight:1,\
@@ -84,7 +84,7 @@ setblock ~ ~ ~ trial_spawner{\
 		loot_tables_to_eject:[\
 			{\
 				weight:1,\
-				data:"stellarity:items/materials/keys/winged"\
+				data:"stellarity:item/keys/winged_key"\
 			}\
 		],\
 		"items_to_drop_when_ominous":"stellarity:end_city/trial_spawner/ominous_item_spawn"\

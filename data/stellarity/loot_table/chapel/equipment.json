@@ -52,7 +52,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"quality": 1,
-					"value": "stellarity:items/starless_scythe",
+					"value": "stellarity:item/weapon/starless_scythe",
 					"functions": [
 						{
 							"function": "minecraft:set_damage",

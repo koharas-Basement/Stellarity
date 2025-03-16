@@ -85,7 +85,7 @@
 				],
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:items/dragonblade/apply_stacks"
+					"function": "stellarity:item/dragonblade/apply_stacks"
 				},
 				"enchanted": "attacker",
 				"affected": "victim"

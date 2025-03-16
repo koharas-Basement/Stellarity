@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:item/potion/lifeforce_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:item/potion/red_potion"
+				}
+			]
+		}
+	]
+}

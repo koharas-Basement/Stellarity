@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/keys/purpur"
+					"value": "stellarity:item/keys/purpur_key"
 				}
 			]
 		}

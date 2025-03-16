@@ -1,0 +1,10 @@
+execute if entity @s[tag=kohara.particle.jinx] run function stellarity:util/particles/jinx/spawn
+execute if entity @s[tag=kohara.particle.brittle] run function stellarity:util/particles/brittle/spawn
+execute if entity @s[tag=kohara.particle.crit] run function stellarity:util/particles/crit/spawn
+execute if entity @s[tag=kohara.particle.crit_small] run function stellarity:util/particles/crit_small/spawn
+execute if entity @s[tag=kohara.particle.scythe_sweep] run function stellarity:util/particles/scythe_sweep/spawn
+execute if entity @s[tag=kohara.particle.dragonblade_sigil] run function stellarity:util/particles/dragonblade_sigil/spawn
+execute if entity @s[tag=kohara.particle.prismatic_punch] run function stellarity:util/particles/prismatic_punch/spawn
+execute if entity @s[tag=kohara.particle.prismatic_punch_large] run function stellarity:util/particles/prismatic_punch/spawn_large
+execute if entity @s[tag=kohara.particle.end_portal_fill] run function stellarity:util/particles/end_portal_fill/spawn
+execute if entity @s[tag=kohara.particle.porta_altar] run function stellarity:util/particles/porta_altar/spawn

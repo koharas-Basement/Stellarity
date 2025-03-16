@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/chorus_pie",
+					"value": "stellarity:item/food/chorus_pie",
 					"weight": 2,
 					"functions": [
 						{
@@ -23,7 +23,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/food/frozen_carpaccio",
+					"value": "stellarity:item/food/frozen_carpaccio",
 					"weight": 2,
 					"functions": [
 						{
@@ -65,7 +65,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/potions/endurance_potion"
+					"value": "stellarity:item/potion/endurance_potion"
 				}
 			]
 		}

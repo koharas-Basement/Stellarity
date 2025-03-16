@@ -7,18 +7,8 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/chorus_dagger",
-					"weight": 2
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/trinkets/crest_of_the_end",
-					"weight": 2
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/spellbooks/jinx",
-					"weight": 2
+					"value": "stellarity:item/spellbook/tome_of_return",
+					"weight": 3
 				}
 			]
 		}

@@ -21,7 +21,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:item/material/enderite_shard",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -58,7 +58,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.8
+					"chance": 0.1
 				}
 			]
 		},
@@ -80,7 +80,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:item/material/enderite_smithing_template"
 				},
 				{
 					"type": "minecraft:item",
@@ -93,7 +93,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/music_disc/deviants_light_music_box"
+					"value": "stellarity:item/music_disc/deviants_light_music_box"
 				}
 			],
 			"conditions": [

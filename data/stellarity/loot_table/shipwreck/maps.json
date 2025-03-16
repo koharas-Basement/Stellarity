@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/explorer_maps/end_city"
+					"value": "stellarity:item/explorer_map/end_city"
 				}
 			]
 		},

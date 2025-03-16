@@ -1,0 +1,41 @@
+{
+	"parent": "stellarity:event/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "stellarity:item/armor/floral/wearing_full_set"
+					}
+				],
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "stellarity:procs_floral_armor_bloom",
+								"expected": true
+							}
+						]
+					}
+				},
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#kohara:invalid_targets"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:item/armor/floral/bloom/shot_entity"
+	}
+}

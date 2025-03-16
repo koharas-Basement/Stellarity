@@ -1,5 +1,5 @@
 {
     "values": [
-        "stellarity:utils/status_effects/stop_ticking"
+        "stellarity:util/status_effects/stop_ticking"
     ]
 }

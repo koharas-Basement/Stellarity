@@ -26,7 +26,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:mechanics/enchantments/void_locket/amethyst"
+					"function": "stellarity:mechanic/enchantments/void_locket/amethyst"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

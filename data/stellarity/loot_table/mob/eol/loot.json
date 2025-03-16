@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:item/weapon/prismember"
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "stellarity:item/prismatic_pearl"
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "stellarity:item/weapon/prismatic_punch"
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "stellarity:item/trinket/starstruck_shield"
+				}
+			]
+		}
+	]
+}
