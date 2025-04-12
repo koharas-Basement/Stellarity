@@ -33,7 +33,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "poseidons_nectar"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.poseidons_nectar\",\"fallback\": \"Poseidon's Nectar\",\"color\": \"yellow\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.poseidons_nectar\", \"color\": \"yellow\", \"italic\": false}"
 							}
 						},
 						{

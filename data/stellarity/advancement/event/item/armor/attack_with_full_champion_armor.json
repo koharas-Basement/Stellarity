@@ -12,22 +12,22 @@
 							"equipment": {
 								"head": {
 									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
 									}
 								},
 								"chest": {
 									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
 									}
 								},
 								"legs": {
 									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
 									}
 								},
 								"feet": {
 									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
 									}
 								}
 							}
@@ -49,6 +49,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:item/armor/chorus_champion/attack"
+		"function": "stellarity:item/armor/champion/attack"
 	}
 }

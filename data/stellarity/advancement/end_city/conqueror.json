@@ -17,13 +17,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.conqueror",
-			"fallback": "Conqueror"
+			"translate": "stellarity.advancements.conqueror"
 		},
 		"description": [
 			{
 				"translate": "stellarity.advancements.conqueror.description",
-				"fallback": "Destroy all protective End Crystals and fully conquer an End City",
 				"color": "dark_aqua"
 			},
 			"\n\n",

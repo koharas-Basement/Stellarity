@@ -4,13 +4,11 @@
 			"id": "minecraft:elytra"
 		},
 		"title": {
-			"translate": "stellarity.advancements.dye_elytra",
-			"fallback": "Fancy!"
+			"translate": "stellarity.advancements.dye_elytra"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.dye_elytra.description",
-				"fallback": "Combine an Elytra with any Dye to change its flight trail"
+				"translate": "stellarity.advancements.dye_elytra.description"
 			},
 			"\n\n",
 			{

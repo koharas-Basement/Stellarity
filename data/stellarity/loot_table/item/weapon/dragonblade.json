@@ -20,7 +20,7 @@
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.dragonblade\",\"fallback\": \"Dragonblade\",\"color\": \"#CD6AFF\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.dragonblade\", \"color\": \"#CD6AFF\", \"italic\": false}",
 								"minecraft:rarity": "epic",
 								"minecraft:enchantments": {
 									"stellarity:_technical/draconic": 1
@@ -33,20 +33,17 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.dragonblade.description",
-									"fallback": "A fearsome sword with an otherwordly punch!",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.dragonblade.flavor_text",
-									"fallback": "'It came from the edge of The End'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
 								{
 									"translate": "stellarity.items.weapons.dragonblade.tip",
-									"fallback": "\u1d1b\u026a\u1d18: \u1d18\u1d1c\u0274\u1d04\u029c \u1d1b\u029c\u1d07\u1d0d \u026a\u0274\u1d1b\u1d0f \u1d21\u1d00\u029f\u029fs",
 									"color": "#727272",
 									"italic": true
 								},

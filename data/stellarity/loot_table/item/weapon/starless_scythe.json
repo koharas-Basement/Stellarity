@@ -13,13 +13,11 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.starless_scythe.description.1",
-									"fallback": "Part of dealt damage is converted into healing",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.starless_scythe.description.2",
-									"fallback": "Can damage multiple mobs in one swing",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -73,7 +71,7 @@
 									"stellarity.special_item": "starless_scythe"
 								},
 								"minecraft:max_damage": 1232,
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.starless_scythe\",\"fallback\": \"Starless Scythe\",\"color\": \"#FFD70C\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.starless_scythe\", \"color\": \"#FFD70C\", \"italic\": false}",
 								"!minecraft:tool": {}
 							}
 						}

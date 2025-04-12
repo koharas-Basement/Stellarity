@@ -4,13 +4,11 @@
 			"id": "minecraft:phantom_spawn_egg"
 		},
 		"title": {
-			"translate": "stellarity.advancements.kill_large_phantom",
-			"fallback": "Worsening Nightmares"
+			"translate": "stellarity.advancements.kill_large_phantom"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.kill_large_phantom.description",
-				"fallback": "Kill a Phantom that is bigger than usually"
+				"translate": "stellarity.advancements.kill_large_phantom.description"
 			},
 			"\n\n",
 			{

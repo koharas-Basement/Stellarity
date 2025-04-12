@@ -26,7 +26,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "hellfire_treader_potion"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.hellfire_treader_potion\",\"fallback\": \"Hellfire Treader Potion\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.hellfire_treader_potion\", \"color\": \"white\", \"italic\": false}"
 							}
 						},
 						{

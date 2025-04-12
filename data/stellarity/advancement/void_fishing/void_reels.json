@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.void_reels",
-			"fallback": "Void Reels"
+			"translate": "stellarity.advancements.void_reels"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.void_reels.description",
-				"fallback": "Cast your Fishing Rod into the open darkness below"
+				"translate": "stellarity.advancements.void_reels.description"
 			},
 			"\n\n",
 			{

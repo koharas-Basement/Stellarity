@@ -15,7 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "frost_minnow"
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.frost_minnow\",\"fallback\":\"Frost Minnow\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.frost_minnow\"}",
 								"food": {
 									"nutrition": 1,
 									"saturation": 0.2,
@@ -51,7 +51,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#587653",
 										"italic": false
 									},
@@ -62,7 +62,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

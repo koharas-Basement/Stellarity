@@ -1,7 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.stellarity.prismatic_pearl_return",
-		"fallback": "Technical Enchant that makes the Prismatic Pearl return to the player because it was the most efficient way to handle right click detection"
+		"translate": "enchantment.stellarity.prismatic_pearl_return"
 	},
 	"exclusive_set": [],
 	"supported_items": [],

@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand [{"function":"minecraft:set_name","entity":"this","name":{"translate":"stellarity.items.weapons.harvester","color":"#20c1e8","italic":false}},{"function":"minecraft:set_components","components":{"minecraft:unbreakable":{"show_in_tooltip":true},"!minecraft:damage":{}}}]

@@ -39,8 +39,8 @@ execute if entity @s[predicate=stellarity:item/holding/trinket/elektra_shield,sc
 # Chorus Dagger
 execute if entity @s[predicate=stellarity:item/holding/chorus_dagger,predicate=kohara:player/is_sneaking] unless score @s stellarity.items.chorus_dagger.cooldown matches 1.. if entity @e[type=!#kohara:invalid_targets,distance=0.01..8] run function stellarity:item/chorus_dagger/dash
 
-# Frigid Harvester
-execute if entity @s[tag=stellarity.cryonics] run function stellarity:item/frigid_harvester/abilities/cryonics/loop
+# Harvester
+execute if entity @s[tag=stellarity.cryonics] run function stellarity:item/harvester/abilities/cryonics/loop
 
 # Starless Scythe
 execute if entity @s[predicate=stellarity:item/holding/starless_scythe] run function stellarity:item/starless_scythe/hold/loop

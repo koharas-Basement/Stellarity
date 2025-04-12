@@ -82,20 +82,16 @@ scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy
 scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy
 
-# Frigid Harvester, AKA Aery Sword
+# Harvester, AKA Aery Sword
 scoreboard objectives add stellarity.items.aery_sword.damage dummy
-scoreboard objectives add stellarity.items.aery_sword.kills.iron_golem minecraft.killed:minecraft.iron_golem
-scoreboard objectives add stellarity.items.aery_sword.kills.ender_dragon minecraft.killed:minecraft.ender_dragon
-scoreboard objectives add stellarity.items.aery_sword.kills.witch minecraft.killed:minecraft.witch
-scoreboard objectives add stellarity.items.aery_sword.kills.blaze minecraft.killed:minecraft.blaze
-scoreboard objectives add stellarity.items.aery_sword.kills.stray minecraft.killed:minecraft.stray
-scoreboard objectives add stellarity.items.aery_sword.kills.wither minecraft.killed:minecraft.wither
-scoreboard objectives add stellarity.items.aery_sword.kills.warden minecraft.killed:minecraft.warden
-scoreboard objectives add stellarity.items.aery_sword.kills.wither_skeleton minecraft.killed:minecraft.wither_skeleton
-scoreboard objectives add stellarity.items.aery_sword.kills.witch.count dummy
-scoreboard objectives add stellarity.items.aery_sword.kills.blaze.count dummy
-scoreboard objectives add stellarity.items.aery_sword.kills.stray.count dummy
-scoreboard objectives add stellarity.items.aery_sword.kills.wither_skeleton.count dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.frost_barrier dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.cryonics dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.piercing_cold dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.frostburn dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.arctic_wind dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.anima_conduit dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.echo dummy
+scoreboard objectives add stellarity.items.aery_sword.progress.embrittlement dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.duration dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.cooldown dummy
 
@@ -253,14 +249,14 @@ bossbar set stellarity:ender_dragon max 300
 bossbar set stellarity:ender_dragon style progress
 bossbar set stellarity:ender_dragon visible true
 # 'Crystals Left'
-bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","fallback":"Crystals Left: %s","color":"#4C0081"}
+bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","color":"#4C0081"}
 bossbar set stellarity:crystal_count color purple
 bossbar set stellarity:crystal_count visible true
 bossbar set stellarity:crystal_count players
 bossbar set stellarity:crystal_count max 10
 bossbar set stellarity:crystal_count style notched_10
 # Empress of Light
-bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"#FF55FF"}
+bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","color":"#FF55FF"}
 bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players

@@ -1,4 +1,4 @@
-loot replace entity @s weapon.mainhand loot stellarity:item/weapon/frigid_harvester
+loot replace entity @s weapon.mainhand loot stellarity:item/weapon/harvester
 
 item replace entity @s armor.head with diamond_helmet[trim={material:"amethyst",pattern:"minecraft:flow",show_in_tooltip:false},enchantments={protection:4}]
 item replace entity @s armor.chest with diamond_chestplate[trim={material:"amethyst",pattern:"minecraft:eye",show_in_tooltip:false},enchantments={protection:4}]

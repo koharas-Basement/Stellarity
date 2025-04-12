@@ -25,7 +25,6 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.explorer_map.end_city",
-								"fallback": "End City Explorer Map",
 								"italic": false
 							}
 						},

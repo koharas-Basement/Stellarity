@@ -14,7 +14,6 @@
 								"",
 								{
 									"translate": "stellarity.items.materials.keys.winged.description",
-									"fallback": "Opens the Elytra Vault on End Ships",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -32,7 +31,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:winged_key",
 								"minecraft:custom_data": "{stellarity.special_item:\"winged_key\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.materials.keys.winged\",\"fallback\": \"Winged Key\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.keys.winged\"}",
 								"rarity": "rare"
 							}
 						}

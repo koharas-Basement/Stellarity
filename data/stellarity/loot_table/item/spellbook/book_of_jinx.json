@@ -17,7 +17,7 @@
 									"kohara.right_click": true
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.jinx\",\"fallback\": \"Book of Jinx\",\"color\": \"#F816FF\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.spellbooks.jinx\", \"color\": \"#F816FF\", \"italic\": false}",
 								"!max_damage": {}
 							}
 						},
@@ -28,26 +28,22 @@
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.jinx.description.1",
-									"fallback": "Shoots a growing cloud of jinx",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.jinx.description.2",
-									"fallback": "which temporarily reduces defense",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.jinx.description.3",
-									"fallback": "of mobs caught in it",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.cooldown",
-									"fallback": "Cooldown: %s seconds",
 									"color": "#9E9E9E",
 									"italic": false,
 									"with": [

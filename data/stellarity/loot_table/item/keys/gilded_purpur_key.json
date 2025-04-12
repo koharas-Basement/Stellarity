@@ -14,7 +14,6 @@
 								"",
 								{
 									"translate": "stellarity.items.materials.keys.gilded_purpur.description",
-									"fallback": "Opens Ominous Vaults in End Cities",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -32,7 +31,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:gilded_purpur_key",
 								"minecraft:custom_data": "{stellarity.special_item:\"gilded_purpur_key\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.materials.keys.gilded_purpur\",\"fallback\": \"Gilded Purpur Key\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.keys.gilded_purpur\"}",
 								"rarity": "rare"
 							}
 						}

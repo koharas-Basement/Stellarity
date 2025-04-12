@@ -14,25 +14,21 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.1",
-									"fallback": "Empowers your speed, sight",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.2",
-									"fallback": "and strength while in your inventory",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.3",
-									"fallback": "Consuming or planting might",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.4",
-									"fallback": "have dire consequences",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -64,7 +60,7 @@
 									"modifiers": [],
 									"show_in_tooltip": false
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.duskberry\",\"fallback\": \"Duskberry\",\"color\": \"#AB6AD1\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.duskberry\", \"color\": \"#AB6AD1\", \"italic\": false}",
 								"minecraft:rarity": "epic",
 								"minecraft:enchantments": {
 									"levels": {

@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.blood_for_blood",
-			"fallback": "Blood for Blood"
+			"translate": "stellarity.advancements.blood_for_blood"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.blood_for_blood.description",
-				"fallback": "Use Tamaris to execute a mob with low health"
+				"translate": "stellarity.advancements.blood_for_blood.description"
 			},
 			"\n\n",
 			{

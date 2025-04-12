@@ -55,7 +55,7 @@
 									"types": "#is_fire"
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.reinforced_horse_armor\",\"fallback\": \"Reinforced Horse Armor\",\"color\": \"#976A97\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.reinforced_horse_armor\", \"color\": \"#976A97\"}"
 							}
 						}
 					]

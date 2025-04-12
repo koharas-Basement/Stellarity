@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.soul_harvest",
-		"fallback": "Soul Harvest",
 		"color": "#20c1e8"
 	},
 	"exclusive_set": [
@@ -43,7 +42,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "stellarity:item/frigid_harvester/attack"
+					"function": "stellarity:item/harvester/attack"
 				},
 				"enchanted": "attacker",
 				"affected": "victim"

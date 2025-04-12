@@ -14,7 +14,6 @@
 								"",
 								{
 									"translate": "stellarity.items.potions.red_potion.flavor_text",
-									"fallback": "'Just drink it, what could go wrong?'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
@@ -97,7 +96,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "red_potion"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.red_potion\",\"fallback\": \"Red Potion\",\"color\": \"#FF5454\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.red_potion\", \"color\": \"#FF5454\", \"italic\": false}"
 							}
 						}
 					]

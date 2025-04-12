@@ -19,7 +19,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt":"{Tags:[\"stellarity.items.elektra_shield.using\"]}"
+								"nbt": "{Tags:[\"stellarity.items.elektra_shield.using\"]}"
 							}
 						}
 					},
@@ -38,7 +38,7 @@
 					"items": [
 						"minecraft:shield"
 					],
-					"components":{
+					"components": {
 						"minecraft:custom_data": "{\"stellarity.special_item\": \"copper_elektra_shield\"}"
 					}
 				}

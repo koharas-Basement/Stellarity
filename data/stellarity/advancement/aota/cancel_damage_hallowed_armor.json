@@ -8,13 +8,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.hallelujah",
-			"fallback": "Hallelujah!"
+			"translate": "stellarity.advancements.hallelujah"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.hallelujah.description",
-				"fallback": "Dodge an attack with a full set of Hallowed Armor"
+				"translate": "stellarity.advancements.hallelujah.description"
 			},
 			"\n\n",
 			{

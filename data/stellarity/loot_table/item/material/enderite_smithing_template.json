@@ -15,7 +15,7 @@
 									"stellarity.special_item": "enderite_smithing_template"
 								},
 								"minecraft:rarity": "rare",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.enderite_smithing_template\",\"fallback\": \"Smithing Template\",\"color\": \"light_purple\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.enderite_smithing_template\", \"color\": \"light_purple\", \"italic\": false}"
 							}
 						},
 						{
@@ -25,7 +25,6 @@
 							"lore": [
 								{
 									"translate": "stellarity.items.materials.enderite_smithing_template.upgrade",
-									"fallback": "Enderite Upgrade",
 									"color": "gray",
 									"italic": false
 								},
@@ -39,7 +38,6 @@
 									" ",
 									{
 										"translate": "stellarity.items.materials.enderite_smithing_template.applies_to",
-										"fallback": "Netherite Equipment",
 										"color": "blue",
 										"italic": false
 									}
@@ -48,7 +46,6 @@
 									" ",
 									{
 										"translate": "stellarity.items.materials.enderite_smithing_template.description",
-										"fallback": "Only usable at the Altar of The Accursed",
 										"color": "blue",
 										"italic": false
 									}
@@ -62,17 +59,14 @@
 									" ",
 									{
 										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
-										"fallback": "%1$s %2$s",
 										"color": "blue",
 										"italic": false,
 										"with": [
 											{
-												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4",
-												"fallback": "4x"
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4"
 											},
 											{
-												"translate": "stellarity.items.materials.hallowed_ingot",
-												"fallback": "Hallowed Ingot"
+												"translate": "stellarity.items.materials.hallowed_ingot"
 											}
 										]
 									}
@@ -81,17 +75,14 @@
 									" ",
 									{
 										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
-										"fallback": "%1$s %2$s",
 										"color": "blue",
 										"italic": false,
 										"with": [
 											{
-												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4",
-												"fallback": "4x"
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4"
 											},
 											{
-												"translate": "stellarity.items.materials.chorus_plating",
-												"fallback": "Chorus Plating"
+												"translate": "stellarity.items.materials.chorus_plating"
 											}
 										]
 									}
@@ -100,13 +91,11 @@
 									" ",
 									{
 										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
-										"fallback": "%1$s %2$s",
 										"color": "blue",
 										"italic": false,
 										"with": [
 											{
-												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4",
-												"fallback": "4x"
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4"
 											},
 											{
 												"translate": "item.minecraft.shulker_shell"
@@ -118,13 +107,11 @@
 									" ",
 									{
 										"translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
-										"fallback": "%1$s %2$s",
 										"color": "blue",
 										"italic": false,
 										"with": [
 											{
-												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.8",
-												"fallback": "8x"
+												"translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.8"
 											},
 											{
 												"translate": "block.minecraft.cherry_leaves"

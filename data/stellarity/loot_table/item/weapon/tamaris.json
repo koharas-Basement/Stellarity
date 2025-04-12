@@ -16,7 +16,7 @@
 								},
 								"minecraft:rarity": "rare",
 								"minecraft:max_damage": 1562,
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.tamaris\",\"fallback\": \"Tamaris\",\"color\": \"#9936D6\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.tamaris\", \"color\": \"#9936D6\", \"italic\": false}"
 							}
 						},
 						{
@@ -26,20 +26,17 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.tamaris.description.1",
-									"fallback": "Sneak to instantly kill",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.tamaris.description.2",
-									"fallback": "a nearby enemy with low health",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.tamaris.flavor_text",
-									"fallback": "'Property of Captain Charo'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

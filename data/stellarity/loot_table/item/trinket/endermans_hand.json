@@ -13,7 +13,6 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.endermans_hand.flavor_text",
-									"fallback": "'tbh, Armadillos aren't that bad...'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
@@ -34,7 +33,7 @@
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"endermans_hand\"}",
 								"minecraft:max_stack_size": 1,
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.endermans_hand\",\"fallback\": \"Enderman's Hand\",\"color\": \"#ed8cff\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.endermans_hand\", \"color\": \"#ed8cff\", \"italic\": false}"
 							}
 						},
 						{

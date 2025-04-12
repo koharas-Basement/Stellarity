@@ -26,13 +26,19 @@
 										{
 											"type": "apply_effects",
 											"effects": [
-												{"id": "minecraft:health_boost","duration": 800,"ambient": true,"show_particles": true,"show_icon": true}
+												{
+													"id": "minecraft:health_boost",
+													"duration": 800,
+													"ambient": true,
+													"show_particles": true,
+													"show_icon": true
+												}
 											]
 										}
 									]
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.prismatic_sushi\",\"fallback\":\"Prismatic Sushi\",\"color\":\"yellow\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.prismatic_sushi\", \"color\": \"yellow\"}"
 							}
 						},
 						{
@@ -46,7 +52,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -57,7 +63,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

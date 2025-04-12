@@ -4,13 +4,11 @@
 			"id": "minecraft:cauldron"
 		},
 		"title": {
-			"translate": "stellarity.advancements.dilute_breath",
-			"fallback": "Little Alchemy"
+			"translate": "stellarity.advancements.dilute_breath"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.dilute_breath.description",
-				"fallback": "Throw Dragon's Breath into a Water Cauldron to dilute it. You can then toss in different items to do a little bit of brewing!"
+				"translate": "stellarity.advancements.dilute_breath.description"
 			},
 			"\n\n",
 			{

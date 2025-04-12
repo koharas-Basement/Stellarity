@@ -26,15 +26,33 @@
 										{
 											"type": "apply_effects",
 											"effects": [
-												{"id": "minecraft:regeneration","duration": 640,"ambient": true,"show_particles": true,"show_icon": true},
-												{"id": "minecraft:strength","duration": 3000,"ambient": true,"show_particles": true,"show_icon": true},
-												{"id": "minecraft:absorption","duration": 3000,"ambient": true,"show_particles": true,"show_icon": true}
+												{
+													"id": "minecraft:regeneration",
+													"duration": 640,
+													"ambient": true,
+													"show_particles": true,
+													"show_icon": true
+												},
+												{
+													"id": "minecraft:strength",
+													"duration": 3000,
+													"ambient": true,
+													"show_particles": true,
+													"show_icon": true
+												},
+												{
+													"id": "minecraft:absorption",
+													"duration": 3000,
+													"ambient": true,
+													"show_particles": true,
+													"show_icon": true
+												}
 											]
 										}
 									]
 								},
 								"rarity": "rare",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.pho\",\"fallback\":\"Pho\",\"color\":\"aqua\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.pho\", \"color\": \"aqua\"}"
 							}
 						},
 						{
@@ -47,7 +65,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -58,7 +76,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

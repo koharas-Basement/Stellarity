@@ -15,7 +15,7 @@
 									"stellarity.special_item": "bell_flower"
 								},
 								"minecraft:rarity": "rare",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.bell_flower\",\"fallback\": \"Bell Flower\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.bell_flower\"}"
 							}
 						},
 						{
@@ -24,7 +24,6 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.bell_flower.description",
-									"fallback": "Reveals nearby entities while held",
 									"color": "#EEEEEE",
 									"italic": false
 								},

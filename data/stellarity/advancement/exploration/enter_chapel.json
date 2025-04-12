@@ -4,13 +4,11 @@
 			"id": "minecraft:cherry_leaves"
 		},
 		"title": {
-			"translate": "stellarity.advancements.enter_chapel",
-			"fallback": "Sacred Gardens"
+			"translate": "stellarity.advancements.enter_chapel"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.enter_chapel.description",
-				"fallback": "Enter the Chapel of Light"
+				"translate": "stellarity.advancements.enter_chapel.description"
 			},
 			"\n\n",
 			{

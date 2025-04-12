@@ -14,7 +14,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "hallowed_ingot"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.hallowed_ingot\",\"fallback\": \"Hallowed Ingot\",\"color\": \"#D9E3ED\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.hallowed_ingot\", \"color\": \"#D9E3ED\", \"italic\": false}"
 							}
 						},
 						{

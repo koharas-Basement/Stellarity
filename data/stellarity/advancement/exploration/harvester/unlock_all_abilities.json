@@ -1,0 +1,95 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_sword",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:item_model": "stellarity:harvester",
+				"custom_model_data": {
+					"floats": [
+						4
+					]
+				}
+			}
+		},
+		"title": {
+			"translate": "stellarity.advancements.harvester.all_abilities"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.harvester.all_abilities.description"
+			},
+			"\n",
+			{
+				"translate": "stellarity.advancements.harvester.all_abilities.tip",
+				"color": "dark_gray"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "stellarity:exploration/harvester/frozen_reaper",
+	"criteria": {
+		"anima_conduit": {
+			"trigger": "minecraft:impossible"
+		},
+		"arctic_wind": {
+			"trigger": "minecraft:impossible"
+		},
+		"cryonics": {
+			"trigger": "minecraft:impossible"
+		},
+		"echo": {
+			"trigger": "minecraft:impossible"
+		},
+		"embrittlement": {
+			"trigger": "minecraft:impossible"
+		},
+		"frost_barrier": {
+			"trigger": "minecraft:impossible"
+		},
+		"frostburn": {
+			"trigger": "minecraft:impossible"
+		},
+		"piercing_cold": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"anima_conduit"
+		],
+		[
+			"arctic_wind"
+		],
+		[
+			"cryonics"
+		],
+		[
+			"echo"
+		],
+		[
+			"embrittlement"
+		],
+		[
+			"frost_barrier"
+		],
+		[
+			"frostburn"
+		],
+		[
+			"piercing_cold"
+		]
+	],
+	"rewards": {
+		"experience": 1000
+	}
+}

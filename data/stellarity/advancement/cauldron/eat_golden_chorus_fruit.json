@@ -8,13 +8,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.eat_golden_chorus_fruit",
-			"fallback": "[Au]some Delight!"
+			"translate": "stellarity.advancements.eat_golden_chorus_fruit"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.eat_golden_chorus_fruit.description",
-				"fallback": "Eat a Golden Chorus Fruit"
+				"translate": "stellarity.advancements.eat_golden_chorus_fruit.description"
 			},
 			"\n\n",
 			{

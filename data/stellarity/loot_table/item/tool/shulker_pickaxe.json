@@ -33,7 +33,7 @@
 									"stellarity.special_item": "shulker_tool"
 								},
 								"minecraft:max_damage": 2701,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.tools.shulker.pickaxe\",\"fallback\": \"Shulker Pickaxe\",\"color\": \"#976A97\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.tools.shulker.pickaxe\", \"color\": \"#976A97\", \"italic\": false}"
 							}
 						},
 						{

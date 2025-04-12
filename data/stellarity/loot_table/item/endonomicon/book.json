@@ -15,7 +15,7 @@
 									"stellarity.special_item": "endonomicon"
 								},
 								"minecraft:rarity": "epic",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.endonomicon\",\"fallback\": \"Endonomicon\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.endonomicon\"}",
 								"damage_resistant": {
 									"types": "#is_fire"
 								},
@@ -29,7 +29,6 @@
 								"",
 								{
 									"translate": "stellarity.items.cursed_tome.description.flavor_text",
-									"fallback": "'Your miniature wiki!'",
 									"color": "#BB6BDE",
 									"italic": true
 								},

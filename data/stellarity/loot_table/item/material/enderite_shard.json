@@ -15,7 +15,7 @@
 									"stellarity.special_item": "enderite_shard"
 								},
 								"minecraft:rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.enderite_shard\",\"fallback\": \"Enderite Shard\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.enderite_shard\"}"
 							}
 						},
 						{
@@ -26,7 +26,6 @@
 								"",
 								{
 									"translate": "stellarity.items.materials.enderite_shard.description",
-									"fallback": "Contains a fraction of the unknown",
 									"color": "#EEEEEE",
 									"italic": false
 								},

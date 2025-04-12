@@ -27,7 +27,13 @@
 											"type": "apply_effects",
 											"probability": 0.3,
 											"effects": [
-												{"id": "minecraft:hunger","duration": 800,"ambient": false,"show_particles": true,"show_icon": true}
+												{
+													"id": "minecraft:hunger",
+													"duration": 800,
+													"ambient": false,
+													"show_particles": true,
+													"show_icon": true
+												}
 											]
 										},
 										{
@@ -36,7 +42,7 @@
 										}
 									]
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.shulker_body\",\"fallback\":\"Shulker Body\",\"color\":\"white\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.shulker_body\", \"color\": \"white\"}"
 							}
 						},
 						{
@@ -49,7 +55,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#587653",
 										"italic": false
 									},
@@ -60,7 +66,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}
@@ -68,7 +74,6 @@
 								"",
 								{
 									"translate": "stellarity.items.food.shulker_body.flavor_text",
-									"fallback": "'They are kinda like clams'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

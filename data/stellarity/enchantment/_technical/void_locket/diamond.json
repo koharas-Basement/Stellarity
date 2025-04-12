@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.diamond",
-		"fallback": "Furor",
 		"color": "aqua"
 	},
 	"supported_items": [

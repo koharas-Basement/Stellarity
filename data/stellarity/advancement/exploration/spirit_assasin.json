@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.spirit_assasin",
-			"fallback": "Spirit Assasin"
+			"translate": "stellarity.advancements.spirit_assasin"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.spirit_assasin.description",
-				"fallback": "Teleport over 60 blocks with The Beginning and The End"
+				"translate": "stellarity.advancements.spirit_assasin.description"
 			},
 			"\n\n",
 			{

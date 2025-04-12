@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.super_sonic",
-			"fallback": "Super Sonic"
+			"translate": "stellarity.advancements.super_sonic"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.super_sonic.description",
-				"fallback": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s"
+				"translate": "stellarity.advancements.super_sonic.description"
 			},
 			"\n\n",
 			{

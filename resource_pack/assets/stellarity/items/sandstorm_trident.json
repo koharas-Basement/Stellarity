@@ -1,0 +1,31 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/sandstorm_trident"
+				},
+				"when": [
+					"gui",
+					"ground",
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "stellarity:item/sandstorm_trident_in_hand"
+			},
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "stellarity:item/sandstorm_trident_throwing"
+			},
+			"property": "minecraft:using_item"
+		},
+		"property": "minecraft:display_context"
+	}
+}

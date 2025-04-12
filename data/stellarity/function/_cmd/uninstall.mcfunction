@@ -79,7 +79,7 @@ scoreboard objectives remove stellarity.items.spirit_dagger.consume_time
 scoreboard objectives remove stellarity.items.spirit_dagger.until_consume_reset
 scoreboard objectives remove stellarity.items.spirit_dagger.effects_duration
 
-# Frigid Harvester, AKA Aery Sword
+# Harvester, AKA Aery Sword
 scoreboard objectives remove stellarity.items.aery_sword.damage
 scoreboard objectives remove stellarity.items.aery_sword.kills.iron_golem
 scoreboard objectives remove stellarity.items.aery_sword.kills.ender_dragon

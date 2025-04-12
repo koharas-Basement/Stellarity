@@ -1,7 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.stellarity.ambush",
-		"fallback": "Ambush"
+		"translate": "enchantment.stellarity.ambush"
 	},
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"primary_items": "#minecraft:enchantable/sword",
@@ -77,7 +76,6 @@
 						}
 					]
 				}
-				
 			}
 		],
 		"minecraft:post_attack": [

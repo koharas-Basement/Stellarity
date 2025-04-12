@@ -15,19 +15,16 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.hallowed_armor.set_bonus.1",
-									"fallback": "Grants the ability to dodge attacks,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.hallowed_armor.set_bonus.2",
-									"fallback": "nullifying all damage and knockback",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -61,7 +58,7 @@
 								},
 								"minecraft:max_damage": 481,
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.hallowed_armor.boots\",\"fallback\": \"Hallowed Boots\",\"color\": \"#FFDD52\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.hallowed_armor.boots\", \"color\": \"#FFDD52\", \"italic\": false}"
 							}
 						},
 						{

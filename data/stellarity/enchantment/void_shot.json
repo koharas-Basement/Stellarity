@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.void_shot",
-		"fallback": "Void Shot",
 		"color": "#D600F4"
 	},
 	"supported_items": "#stellarity:enchantable/ranged",

@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:enderman_flesh",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"enderman_flesh\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.enderman_flesh\",\"fallback\":\"Enderman Flesh\",\"color\":\"white\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.enderman_flesh\", \"color\": \"white\"}",
 								"minecraft:food": {
 									"nutrition": 4,
 									"saturation": 0.8,
@@ -28,7 +28,10 @@
 											"type": "apply_effects",
 											"probability": 0.8,
 											"effects": [
-												{"id": "hunger","duration": 840}
+												{
+													"id": "hunger",
+													"duration": 840
+												}
 											]
 										},
 										{
@@ -49,7 +52,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#587653",
 										"italic": false
 									},
@@ -60,7 +63,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

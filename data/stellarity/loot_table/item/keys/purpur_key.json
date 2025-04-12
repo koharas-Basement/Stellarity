@@ -14,7 +14,6 @@
 								"",
 								{
 									"translate": "stellarity.items.materials.keys.purpur.description",
-									"fallback": "Opens Vaults in End Cities",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -32,7 +31,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:purpur_key",
 								"minecraft:custom_data": "{stellarity.special_item:\"purpur_key\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.materials.keys.purpur\",\"fallback\": \"Purpur Key\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.keys.purpur\"}",
 								"rarity": "uncommon"
 							}
 						}

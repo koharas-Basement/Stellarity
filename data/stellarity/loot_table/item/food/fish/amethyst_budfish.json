@@ -15,7 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "amethyst_budfish"
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.\",\"fallback\":\"Amethyst Budfish\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.\"}",
 								"!food": {},
 								"!consumable": {}
 							}

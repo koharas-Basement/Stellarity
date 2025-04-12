@@ -8,13 +8,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.i_am_titanium",
-			"fallback": "I am Titanium!"
+			"translate": "stellarity.advancements.i_am_titanium"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.i_am_titanium.description",
-				"fallback": "Craft a full set of Shulker Armor"
+				"translate": "stellarity.advancements.i_am_titanium.description"
 			},
 			"\n\n",
 			{

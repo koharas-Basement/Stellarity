@@ -60,7 +60,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "copper_elektra_shield"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.copper_elektra_shield\",\"fallback\": \"Copper Elektra Shield\",\"color\": \"#E0976B\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.copper_elektra_shield\", \"color\": \"#E0976B\", \"italic\": false}",
 								"minecraft:rarity": "uncommon"
 							}
 						},
@@ -70,25 +70,21 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.copper_elektra_shield.description.1",
-									"fallback": "Sneak to perform an elektrifying dash!",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.copper_elektra_shield.description.2",
-									"fallback": "Can charge up to 3 dashes every 8 seconds",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.copper_elektra_shield.description.3",
-									"fallback": "Third dash takes longer to recharge",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.copper_elektra_shield.description.4",
-									"fallback": "Dashing through mobs halves recharge time",
 									"color": "#EEEEEE",
 									"italic": false
 								},

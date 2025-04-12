@@ -20,7 +20,7 @@
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.kaleidoscope\",\"fallback\": \"Kaleidoscope\",\"color\": \"#FFCF37\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.kaleidoscope\", \"color\": \"#FFCF37\", \"italic\": false}",
 								"minecraft:enchantments": {
 									"stellarity:_technical/daybroken": 1
 								}
@@ -33,19 +33,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.kaleidoscope.description.1",
-									"fallback": "Channels power from the core of the sun",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.kaleidoscope.description.2",
-									"fallback": "Strike enemies to release stored energy",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.kaleidoscope.description.3",
-									"fallback": "all at once in a powerful discharge",
 									"color": "#EEEEEE",
 									"italic": false
 								},

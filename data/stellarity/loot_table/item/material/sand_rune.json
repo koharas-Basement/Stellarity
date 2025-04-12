@@ -15,7 +15,7 @@
 									"stellarity.special_item": "sand_rune"
 								},
 								"minecraft:rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.sand_rune\",\"fallback\": \"Sand Rune\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.sand_rune\"}"
 							}
 						},
 						{

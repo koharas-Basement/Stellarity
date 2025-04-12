@@ -20,13 +20,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.the_beginning",
-			"fallback": "The End of The Beginning"
+			"translate": "stellarity.advancements.the_beginning"
 		},
 		"description": [
 			{
 				"translate": "stellarity.advancements.the_beginning.description",
-				"fallback": "Summon and kill the Wither in The End",
 				"color": "aqua"
 			},
 			"\n\n",

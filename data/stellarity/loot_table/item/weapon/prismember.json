@@ -15,7 +15,7 @@
 									"stellarity.special_item": "prismember"
 								},
 								"minecraft:rarity": "epic",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismember\",\"fallback\": \"Prismember\",\"color\": \"#FF76D0\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismember\", \"color\": \"#FF76D0\", \"italic\": false}"
 							}
 						},
 						{
@@ -24,19 +24,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.prismember.description.1",
-									"fallback": "Sneak to charge up a fiery spin,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.prismember.description.2",
-									"fallback": "igniting all nearby mobs and setting",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.prismember.description.3",
-									"fallback": "them on Prismatic Inferno",
 									"color": "#EEEEEE",
 									"italic": false
 								},

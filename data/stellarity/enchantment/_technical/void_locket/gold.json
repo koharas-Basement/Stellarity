@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.gold",
-		"fallback": "Spelunking",
 		"color": "yellow"
 	},
 	"supported_items": [

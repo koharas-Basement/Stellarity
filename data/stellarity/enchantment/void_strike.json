@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.void_strike",
-		"fallback": "Void Strike",
 		"color": "#D600F4"
 	},
 	"supported_items": "#enchantable/weapon",

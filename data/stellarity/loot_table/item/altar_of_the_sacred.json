@@ -16,7 +16,7 @@
 									"types": "#is_fire"
 								},
 								"minecraft:enchantment_glint_override": true,
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.altar_of_light\",\"fallback\": \"Altar of The Sacred\",\"color\": \"#FFD655\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.altar_of_light\", \"color\": \"#FFD655\"}",
 								"minecraft:max_stack_size": 1
 							}
 						},
@@ -26,24 +26,20 @@
 								"",
 								{
 									"translate": "stellarity.items.altar_of_light.description.1",
-									"fallback": "Can be placed anywhere at any time",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.altar_of_light.description.2",
-									"fallback": "Sacrifice minerals for long-lasting buffs",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.altar_of_light.description.3",
-									"fallback": "Sacrificing %s will be",
 									"with": [
 										{
 											"translate": "stellarity.items.materials.starlight_soot",
-											"fallback": "Starlight Soot",
 											"color": "#FFD655",
 											"italic": false
 										}
@@ -53,14 +49,12 @@
 								},
 								{
 									"translate": "stellarity.items.altar_of_light.description.4",
-									"fallback": "considered a blasphemy and shouldn't be done",
 									"color": "gray",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.altar_of_light.flavor_text",
-									"fallback": "'Not to be confused with Altar of The Accursed'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

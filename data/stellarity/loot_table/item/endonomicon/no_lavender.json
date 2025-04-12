@@ -16,7 +16,7 @@
 									"kohara.right_click": true
 								},
 								"minecraft:rarity": "epic",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.endonomicon\",\"fallback\": \"Endonomicon\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.endonomicon\"}",
 								"!max_damage": {},
 								"damage_resistant": {
 									"types": "#is_fire"
@@ -30,14 +30,13 @@
 								"",
 								{
 									"translate": "stellarity.items.endonomicon.description.1",
-									"fallback": "%s MOD REQUIRED TO USE",
 									"color": "#EEEEEE",
 									"italic": false,
 									"bold": false,
 									"with": [
 										{
 											"text": "LAVENDER",
-											"color":"#d979ff",
+											"color": "#d979ff",
 											"bold": true
 										}
 									]

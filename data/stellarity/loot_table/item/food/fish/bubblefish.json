@@ -15,7 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "bubblefish"
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.bubblefish\",\"fallback\":\"Bubblefish\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.bubblefish\"}",
 								"!food": {},
 								"minecraft:consumable": {
 									"animation": "eat",

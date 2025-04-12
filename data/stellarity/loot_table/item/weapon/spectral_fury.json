@@ -16,7 +16,7 @@
 								},
 								"minecraft:rarity": "uncommon",
 								"minecraft:max_damage": 636,
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.spectral_fury\",\"fallback\": \"Spectral Fury\",\"color\": \"#BDF1FF\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.spectral_fury\", \"color\": \"#BDF1FF\", \"italic\": false}"
 							}
 						},
 						{
@@ -27,19 +27,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.spectral_fury.description.1",
-									"fallback": "Overcharged shots convert",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.spectral_fury.description.2",
-									"fallback": "Spectral Arrows into wisps",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.spectral_fury.description.3",
-									"fallback": "which seek out and attack mobs",
 									"color": "#EEEEEE",
 									"italic": false
 								},

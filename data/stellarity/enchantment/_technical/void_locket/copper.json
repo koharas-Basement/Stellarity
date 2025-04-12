@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.copper",
-		"fallback": "Power",
 		"color": "gold"
 	},
 	"supported_items": [
@@ -21,7 +20,5 @@
 	"slots": [
 		"hand"
 	],
-	"effects": {
-		
-	}
+	"effects": {}
 }

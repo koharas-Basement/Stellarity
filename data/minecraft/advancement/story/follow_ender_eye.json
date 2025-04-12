@@ -11,8 +11,7 @@
 				"translate": "advancements.story.follow_ender_eye.description"
 			},
 			{
-				"translate": "stellarity.advancements.follow_ender_eye.extra",
-				"fallback": ". It definitely leads towards something..."
+				"translate": "stellarity.advancements.follow_ender_eye.extra"
 			}
 		],
 		"frame": "task",

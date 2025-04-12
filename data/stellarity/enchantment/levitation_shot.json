@@ -1,7 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.stellarity.levitation_shot",
-		"fallback": "Levitation Shot"
+		"translate": "enchantment.stellarity.levitation_shot"
 	},
 	"supported_items": "#minecraft:enchantable/bow",
 	"weight": 2,

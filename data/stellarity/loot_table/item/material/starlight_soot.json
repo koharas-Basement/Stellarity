@@ -15,7 +15,7 @@
 									"stellarity.special_item": "starlight_soot"
 								},
 								"minecraft:rarity": "common",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.materials.starlight_soot\",\"fallback\": \"Starlight Soot\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.starlight_soot\"}"
 							}
 						},
 						{
@@ -25,20 +25,17 @@
 								"",
 								{
 									"translate": "stellarity.items.materials.starlight_soot.description.1",
-									"fallback": "Toss it into a Cauldron with water",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.materials.starlight_soot.description.2",
-									"fallback": "to allow for temporary item transmutation",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.materials.starlight_soot.flavor_text",
-									"fallback": "'May contain Fairy'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

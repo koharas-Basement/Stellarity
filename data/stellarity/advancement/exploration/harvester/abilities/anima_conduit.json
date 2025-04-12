@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_sword",
+			"components": {
+				"minecraft:item_model": "stellarity:harvester"
+			}
+		},
+		"title": {
+			"translate": "stellarity.advancements.harvester.abilities.anima_conduit",
+			"with": [
+				{
+					"translate": "stellarity.items.harvester.ability"
+				},
+				{
+					"translate": "stellarity.items.harvester.ability.anima_conduit"
+				}
+			]
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.harvester.abilities.anima_conduit.description"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "stellarity:exploration/harvester/unlock_all_abilities",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -15,25 +15,21 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.1",
-									"fallback": "Fills you with Wrath of The Dragon,",
+									"translate": "stellarity.items.armors.champion_armor.set_bonus.1",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.2",
-									"fallback": "providing ramping increasing damage",
+									"translate": "stellarity.items.armors.champion_armor.set_bonus.2",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.3",
-									"fallback": "on combo attacks!",
+									"translate": "stellarity.items.armors.champion_armor.set_bonus.3",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -52,9 +48,9 @@
 									"rgb": 11041988,
 									"show_in_tooltip": false
 								},
-								"minecraft:item_model": "stellarity:chorus_champion_boots",
+								"minecraft:item_model": "stellarity:champion_boots",
 								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_champion_armor"
+									"stellarity.special_item": "champion_armor"
 								},
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
@@ -67,7 +63,7 @@
 								},
 								"minecraft:max_damage": 429,
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.chorus_champion_armor.boots\",\"fallback\": \"Champion Boots\",\"color\": \"#A87CC4\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.champion_armor.boots\", \"color\": \"#A87CC4\", \"italic\": false}"
 							}
 						},
 						{

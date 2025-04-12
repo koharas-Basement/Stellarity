@@ -8,13 +8,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.poor_life_choices",
-			"fallback": "Poor Life Choices"
+			"translate": "stellarity.advancements.poor_life_choices"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.poor_life_choices.description",
-				"fallback": "Eat, plant and feed a Fox a Duskberry"
+				"translate": "stellarity.advancements.poor_life_choices.description"
 			},
 			"\n\n",
 			{
@@ -74,10 +72,10 @@
 								"minecraft:sweet_berries"
 							],
 							"components": {
-						"minecraft:custom_data": {
-							"stellarity.special_item": "duskberry"
-						}
-					}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "duskberry"
+								}
+							}
 						}
 					}
 				]

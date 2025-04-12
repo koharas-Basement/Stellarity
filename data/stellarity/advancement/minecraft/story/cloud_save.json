@@ -4,13 +4,11 @@
 			"id": "minecraft:ender_chest"
 		},
 		"title": {
-			"translate": "stellarity.advancements.cloud_save",
-			"fallback": "Cloud Save"
+			"translate": "stellarity.advancements.cloud_save"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.cloud_save.description",
-				"fallback": "Craft an Ender Chest"
+				"translate": "stellarity.advancements.cloud_save.description"
 			},
 			"\n\n",
 			{

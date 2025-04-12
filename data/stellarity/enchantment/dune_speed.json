@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.dune_speed",
-		"fallback": "Dune Speed",
 		"color": "#ffd026"
 	},
 	"exclusive_set": "minecraft:soul_speed",

@@ -17,7 +17,7 @@ execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run function stell
 scoreboard players reset @s stellarity.dragon.respawn_animation_progress
 tag @s remove fe.activated
 
-execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.dragon.death","fallback":"%s has been defeated!","with":[{"translate":"entity.minecraft.ender_dragon"}],"color":"#AF4BFF"},"\n"]
+execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.dragon.death","with":[{"translate":"entity.minecraft.ender_dragon"}],"color":"#AF4BFF"},"\n"]
 
 ## Advancement
 ## They are in reverse order for a reason I cannot remember,

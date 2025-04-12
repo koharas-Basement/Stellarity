@@ -14,7 +14,7 @@
 								"minecraft:custom_data": "{\"stellarity.special_item\":\"pufferfish]\"}",
 								"minecraft:enchantment_glint_override": true,
 								"rarity": "rare",
-								"minecraft:item_name": "[{\"text\":\"P\",\"color\":\"#f9f9f9\",\"italic\":false},{\"text\":\"u\",\"color\":\"#f9f1e1\",\"italic\":false},{\"text\":\"f\",\"color\":\"#faeaca\",\"italic\":false},{\"text\":\"f\",\"color\":\"#fbe3b2\",\"italic\":false},{\"text\":\"e\",\"color\":\"#fbdc9b\",\"italic\":false},{\"text\":\"r\",\"color\":\"#fcd483\",\"italic\":false},{\"text\":\"f\",\"color\":\"#fdcd6c\",\"italic\":false},{\"text\":\"i\",\"color\":\"#fdc654\",\"italic\":false},{\"text\":\"s\",\"color\":\"#febf3d\",\"italic\":false},{\"text\":\"h\",\"color\":\"#ffb826\",\"italic\":false}]",
+								"minecraft:item_name": "[{\"text\": \"P\", \"color\": \"#f9f9f9\", \"italic\": false}, {\"text\": \"u\", \"color\": \"#f9f1e1\", \"italic\": false}, {\"text\": \"f\", \"color\": \"#faeaca\", \"italic\": false}, {\"text\": \"f\", \"color\": \"#fbe3b2\", \"italic\": false}, {\"text\": \"e\", \"color\": \"#fbdc9b\", \"italic\": false}, {\"text\": \"r\", \"color\": \"#fcd483\", \"italic\": false}, {\"text\": \"f\", \"color\": \"#fdcd6c\", \"italic\": false}, {\"text\": \"i\", \"color\": \"#fdc654\", \"italic\": false}, {\"text\": \"s\", \"color\": \"#febf3d\", \"italic\": false}, {\"text\": \"h\", \"color\": \"#ffb826\", \"italic\": false}]",
 								"minecraft:food": {
 									"nutrition": 1,
 									"saturation": 0,

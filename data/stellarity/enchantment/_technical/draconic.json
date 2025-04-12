@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.draconic",
-		"fallback": "Draconic",
 		"color": "#d600f4"
 	},
 	"exclusive_set": [],

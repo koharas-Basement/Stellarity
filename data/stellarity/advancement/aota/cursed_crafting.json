@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.craft_with_aota",
-			"fallback": "Cursed Crafting"
+			"translate": "stellarity.advancements.craft_with_aota"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.craft_with_aota.description",
-				"fallback": "Use the Altar of The Accursed to craft some of the most powerful of gear"
+				"translate": "stellarity.advancements.craft_with_aota.description"
 			},
 			"\n\n",
 			{

@@ -1,4 +1,4 @@
-$tellraw @s ["\n",{"text":"ℹ ","color":"#C076E5","bold": true},{"translate":"stellarity.messages.cmd.$(string)","fallback":"$(fallback)","color":"#C8ADD6"},"\n"]
+$tellraw @s ["\n",{"text":"ℹ ","color":"#C076E5","bold": true},{"translate":"stellarity.messages.cmd.$(string)","color":"#C8ADD6"},"\n"]
 
 # [
 #	"\n",
@@ -9,7 +9,7 @@ $tellraw @s ["\n",{"text":"ℹ ","color":"#C076E5","bold": true},{"translate":"s
 #	},
 #	{
 #		"translate":"$(string)",
-#		"fallback":"$(fallback)",
+#		,
 #		"color":"#C8ADD6"
 #	},
 #	"\n"

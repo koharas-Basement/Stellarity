@@ -4,8 +4,7 @@
 			"id": "minecraft:amethyst_cluster"
 		},
 		"title": {
-			"translate": "stellarity.advancements.enter_hallow",
-			"fallback": "Hallowed Be Thy Name"
+			"translate": "stellarity.advancements.enter_hallow"
 		},
 		"description": [
 			{

@@ -4,13 +4,11 @@
 			"id": "minecraft:chorus_flower"
 		},
 		"title": {
-			"translate": "stellarity.advancements.otherwordly_botanist",
-			"fallback": "Otherwordly Botanist"
+			"translate": "stellarity.advancements.otherwordly_botanist"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.otherwordly_botanist.description",
-				"fallback": "Plant a Chorus Flower in every dimension"
+				"translate": "stellarity.advancements.otherwordly_botanist.description"
 			},
 			"\n\n",
 			{
@@ -26,7 +24,7 @@
 	},
 	"parent": "minecraft:husbandry/root",
 	"criteria": {
-		"plant_chorus_fruit_overworld":  {
+		"plant_chorus_fruit_overworld": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"location": [
@@ -47,7 +45,7 @@
 				]
 			}
 		},
-		"plant_chorus_fruit_end":  {
+		"plant_chorus_fruit_end": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"location": [
