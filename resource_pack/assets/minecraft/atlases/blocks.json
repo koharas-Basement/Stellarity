@@ -1,8 +1,9 @@
 {
 	"sources": [
 		{
-            "type": "single",
-            "resource": "stellarity:particles"
-        }
+			"type": "directory",
+			"source": "particle_custom",
+			"prefix": "particle_custom/"
+		}
 	]
 }

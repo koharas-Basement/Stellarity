@@ -1,0 +1,31 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"chars": [
+				"\u00a1"
+			],
+			"ascent": 25,
+			"height": 32,
+			"file": "stellarity:font/ability_unlock_notification.png"
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\u00b1": -1,
+				"\u00b2": -30,
+				"\u00b3": -153,
+				"\u00b4": -10
+			}
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/sprites/toast/advancement.png",
+			"ascent": 25,
+			"height": 32,
+			"chars": [
+				"abcdefghijklmnopqrst"
+			]
+		}
+	]
+}

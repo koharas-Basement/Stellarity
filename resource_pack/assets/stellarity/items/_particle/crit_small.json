@@ -1,0 +1,35 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:custom_model_data",
+		"index": 0,
+		"scale": 1,
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/crit/2"
+				}
+			},
+			{
+				"threshold": 2,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/crit/3"
+				}
+			},
+			{
+				"threshold": 3,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/crit/4"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "stellarity:item/_particle/crit/1"
+		}
+	}
+}

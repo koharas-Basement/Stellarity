@@ -1,4 +1,12 @@
 {
+	"block.end_portal.spawn": {
+		"sounds": [],
+		"replace": true
+	},
+	"block.end_portal_frame.fill": {
+		"sounds": [],
+		"replace": true
+	},
 	"entity.enderman.ambient":{
 		"sounds":[
 			"mob/endermen/idle1",

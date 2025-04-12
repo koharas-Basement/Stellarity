@@ -1,0 +1,91 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:custom_model_data",
+		"index": 0,
+		"scale": 1,
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/2"
+				}
+			},
+			{
+				"threshold": 2,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/3"
+				}
+			},
+			{
+				"threshold": 3,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/4"
+				}
+			},
+			{
+				"threshold": 4,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/5"
+				}
+			},
+			{
+				"threshold": 5,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/6"
+				}
+			},
+			{
+				"threshold": 6,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/7"
+				}
+			},
+			{
+				"threshold": 7,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/8"
+				}
+			},
+			{
+				"threshold": 8,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/9"
+				}
+			},
+			{
+				"threshold": 9,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/10"
+				}
+			},
+			{
+				"threshold": 10,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/11"
+				}
+			},
+			{
+				"threshold": 11,
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:item/_particle/prismatic_punch/shockwave/12"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "stellarity:item/_particle/prismatic_punch/shockwave/1"
+		}
+	}
+}
