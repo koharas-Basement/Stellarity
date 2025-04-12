@@ -21,7 +21,7 @@ Haro everynyan.
     - `timed` - loops that don't trigger every tick and are ran directly by the server
     - `player` - loops called by all online players **at** their location
     - `marker` - loops called by all Markers **from Stellarity** (basically just all markers with the `stellarity.marker` tag).
-    - `item_loop.mcfunction` - extra loop called by items with the `stellarity.item` tag. Used for animations, consecration, fixing a Netherite Frigid Harvester and preventing boss drops from despawning.
+    - `item_loop.mcfunction` - extra loop called by items with the `stellarity.item` tag. Used for animations, consecration, fixing a Netherite Harvester and preventing boss drops from despawning.
 - `mechanics` - self-explanatory. But in case it's not - used for stuff like Totems protecting from the Void, cauldron crafting, void fishing, etc.
 	- `enchantments` - extra code related to enchantments added by Stellarity, e.g. making Void Strike apply Voided.
 - `mobs` - self-explanatory.

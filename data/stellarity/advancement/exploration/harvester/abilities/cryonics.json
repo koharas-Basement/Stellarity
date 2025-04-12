@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_sword",
+			"components": {
+				"minecraft:item_model": "stellarity:harvester"
+			}
+		},
+		"title": {
+			"translate": "stellarity.advancements.harvester.abilities.cryonics",
+			"fallback": "Ability - Cryonics"
+		},
+		"description": [
+			{
+				"translate": "stellarity.advancements.harvester.abilities.cryonics.description",
+				"fallback": "Using a Totem of Undying encases you in a protective ice barrier which grants immunity to all incoming damage and immense healing for its duration. After the effect expires, a large explosion will damage all nearby mobs. Cooldown of 60 seconds"
+			},
+			"\n\n",
+			{
+				"translate": "Stellarity",
+				"color": "#CC26FF",
+				"italic": true
+			}
+		],
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"parent": "stellarity:exploration/harvester/abilities/arctic_wind",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

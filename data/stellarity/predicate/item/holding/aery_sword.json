@@ -5,7 +5,7 @@
 		"slots": {
 			"weapon.mainhand": {
 				"predicates": {
-					"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+					"minecraft:custom_data": "{stellarity.special_item:\"harvester\"}"
 				}
 			}
 		}

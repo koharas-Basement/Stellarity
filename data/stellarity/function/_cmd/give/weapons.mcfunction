@@ -1,6 +1,6 @@
 loot give @s loot stellarity:item/weapon/ancient_wooden_sword
 loot give @s loot stellarity:item/weapon/dragonblade
-loot give @s loot stellarity:item/weapon/frigid_harvester
+loot give @s loot stellarity:item/weapon/harvester
 loot give @s loot stellarity:item/weapon/kaleidoscope
 loot give @s loot stellarity:item/weapon/prismatic_punch
 loot give @s loot stellarity:item/weapon/prismember

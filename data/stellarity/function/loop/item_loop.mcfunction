@@ -18,5 +18,3 @@ execute \
 	unless entity @e[type=marker,tag=stellarity.cauldron_crafting,distance=..0.1] \
 	unless entity @e[type=marker,tag=stellarity.cauldron_consecration,distance=..0.1] run \
 	function stellarity:mechanic/consecration/cauldron/summon_marker
-
-execute if entity @s[tag=stellarity.molten_harvester,nbt={OnGround:1b}] run function stellarity:item/frigid_harvester/molten_refund/copy_data

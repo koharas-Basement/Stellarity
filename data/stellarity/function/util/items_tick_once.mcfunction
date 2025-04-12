@@ -4,7 +4,6 @@ execute if data storage kohara:temp {item_nbt:{Item:{id:"minecraft:glowstone_dus
 
 execute if data storage kohara:temp {item_nbt:{Item:{id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{stellarity.special_item:"dragonblade"}}}}} run function stellarity:sfx/boss_drop/dragonblade
 
-execute if data storage kohara:temp {item_nbt:{Item:{id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{stellarity.special_item:"frigid_harvester"}}}}} run function stellarity:item/frigid_harvester/molten_refund/add_tags
 
 execute if biome ~ ~ ~ #stellarity:hallow run tag @s add stellarity.item
 
