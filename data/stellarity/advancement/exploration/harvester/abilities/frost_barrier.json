@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.abilities.frost_barrier",
-			"fallback": "Ability - Frost Barrier"
+			"translate": "stellarity.advancements.harvester.abilities.frost_barrier"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.abilities.frost_barrier.description",
-				"fallback": "Killing any mobs gives Absorption and damage reduction"
+				"translate": "stellarity.advancements.harvester.abilities.frost_barrier.description"
 			},
 			"\n\n",
 			{

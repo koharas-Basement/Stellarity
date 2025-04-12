@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.abilities.frostburn",
-			"fallback": "Ability - Frostburn"
+			"translate": "stellarity.advancements.harvester.abilities.frostburn"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.abilities.frostburn.description",
-				"fallback": "Attacks burn enemies for extra damage. Fiery mobs take extra damage from the debuff"
+				"translate": "stellarity.advancements.harvester.abilities.frostburn.description"
 			},
 			"\n\n",
 			{

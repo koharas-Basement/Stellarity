@@ -4,7 +4,12 @@
 		"anima_conduit": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/anima_conduit",
 					"distance": {
@@ -18,7 +23,12 @@
 		"arctic_wind": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/arctic_wind",
 					"distance": {
@@ -32,7 +42,12 @@
 		"cryonics": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/cryonics",
 					"distance": {
@@ -46,7 +61,12 @@
 		"echo": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/echo",
 					"distance": {
@@ -60,7 +80,12 @@
 		"embrittlement": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/embrittlement",
 					"distance": {
@@ -74,7 +99,12 @@
 		"frost_barrier": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/frost_barrier",
 					"distance": {
@@ -88,7 +118,12 @@
 		"piercing_cold": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/piercing_cold",
 					"distance": {
@@ -102,7 +137,12 @@
 		"frostburn": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [{"condition": "reference","name": "stellarity:item/holding/aery_sword"}],
+				"player": [
+					{
+						"condition": "reference",
+						"name": "stellarity:item/holding/aery_sword"
+					}
+				],
 				"entity": {
 					"type": "#stellarity:harvester/ability/frostburn",
 					"distance": {

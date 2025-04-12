@@ -14,16 +14,19 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "prismatic_pearl"
 								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.prismatic_pearl\",\"fallback\": \"Prismatic Pearl\",\"color\": \"#FF76D0\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.prismatic_pearl\", \"color\": \"#FF76D0\", \"italic\": false}",
 								"minecraft:rarity": "epic",
 								"enchantments": {
-									"levels":{
+									"levels": {
 										"stellarity:_technical/prismatic_pearl_return": 1
 									},
 									"show_in_tooltip": false
 								},
 								"enchantment_glint_override": false,
-								"use_cooldown": {"seconds":4.9,"cooldown_group":"prismatic_pearl"}
+								"use_cooldown": {
+									"seconds": 4.9,
+									"cooldown_group": "prismatic_pearl"
+								}
 							}
 						},
 						{

@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.dragonborn",
-			"fallback": "Dragonborn"
+			"translate": "stellarity.advancements.dragonborn"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.dragonborn.description",
-				"fallback": "Obtain the Dragonblade, a mythical sword of a truly unknown origin"
+				"translate": "stellarity.advancements.dragonborn.description"
 			},
 			"\n\n",
 			{
@@ -36,7 +34,7 @@
 						],
 						"components": {
 							"minecraft:custom_data": {
-							  "stellarity.special_item": "dragonblade"
+								"stellarity.special_item": "dragonblade"
 							}
 						}
 					}

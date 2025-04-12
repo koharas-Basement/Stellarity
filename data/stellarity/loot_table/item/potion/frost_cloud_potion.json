@@ -25,7 +25,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "frost_cloud_potion"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.frost_cloud_potion\",\"fallback\": \"Frost Cloud Potion\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.frost_cloud_potion\", \"color\": \"white\", \"italic\": false}"
 							}
 						},
 						{

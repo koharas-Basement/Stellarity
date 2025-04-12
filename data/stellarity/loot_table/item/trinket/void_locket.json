@@ -15,7 +15,7 @@
 									"stellarity.special_item": "void_locket"
 								},
 								"rarity": "rare",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.void_locket\",\"fallback\": \"Void Locket\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.void_locket\"}"
 							}
 						},
 						{
@@ -24,19 +24,16 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.void_locket.description.1",
-									"fallback": "Can be imbued with any gem",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.void_locket.description.2",
-									"fallback": "on the Altar of The Accursed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.void_locket.description.2",
-									"fallback": "An Enderite Shard is needed for imbuements",
 									"color": "#EEEEEE",
 									"italic": false
 								},

@@ -8,22 +8,18 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.harvester.abilities.anima_conduit",
-			"fallback": "%1$s - %2$s",
 			"with": [
 				{
-					"translate": "stellarity.items.harvester.ability",
-					"fallback": "Ability"
+					"translate": "stellarity.items.harvester.ability"
 				},
 				{
-					"translate": "stellarity.items.harvester.ability.anima_conduit",
-					"fallback": "Anima Conduit"
+					"translate": "stellarity.items.harvester.ability.anima_conduit"
 				}
 			]
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.abilities.anima_conduit.description",
-				"fallback": "Absorbed souls restore health and hunger, even if the sword doesn't gain any damage from them"
+				"translate": "stellarity.advancements.harvester.abilities.anima_conduit.description"
 			},
 			"\n\n",
 			{

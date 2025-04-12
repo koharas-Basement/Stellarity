@@ -38,7 +38,7 @@
 										}
 									]
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.amarena\",\"fallback\": \"Amarene\",\"color\": \"#C90D17\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.amarena\", \"color\": \"#C90D17\", \"italic\": false}",
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:hide_additional_tooltip": {},
 								"minecraft:custom_data": {
@@ -54,14 +54,12 @@
 								"",
 								{
 									"translate": "stellarity.items.potions.amarena.description",
-									"fallback": "Looks like wine, but it really isn't",
 									"italic": false,
 									"color": "#EEEEEE"
 								},
 								"",
 								{
 									"translate": "stellarity.items.potions.amarena.flavor_text",
-									"fallback": "'forbidden juice'",
 									"italic": true,
 									"color": "#EEEEEE"
 								},

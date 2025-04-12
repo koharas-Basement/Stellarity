@@ -8,11 +8,11 @@
 		},
 		"title": [
 			{
-				"text": "\u00b2a\u00b1b\u00b1c\u00b1d\u00b1e\u00b1f\u00b1g\u00b1h\u00b1i\u00b1j\u00b1k\u00b1l\u00b1m\u00b1n\u00b1o\u00b1p\u00b1q\u00b1r\u00b1s",
+				"text": "²a±b±c±d±e±f±g±h±i±j±k±l±m±n±o±p±q±r±s",
 				"font": "stellarity:util"
 			},
 			{
-				"text": "\u00b3\u00a1",
+				"text": "³¡",
 				"font": "stellarity:util",
 				"color": "white"
 			}

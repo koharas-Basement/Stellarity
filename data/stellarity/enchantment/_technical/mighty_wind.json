@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.mighty_wind",
-		"fallback": "Mighty Wind",
 		"color": "#ffd026"
 	},
 	"exclusive_set": [

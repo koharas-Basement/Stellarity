@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:chorus_stew",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_stew\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.chorus_stew\",\"fallback\":\"Chorus Stew\",\"color\":\"white\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.chorus_stew\", \"color\": \"white\"}",
 								"minecraft:food": {
 									"nutrition": 6,
 									"saturation": 7.2,
@@ -37,7 +37,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -48,7 +48,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

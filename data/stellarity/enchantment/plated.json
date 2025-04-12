@@ -1,7 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.stellarity.plated",
-		"fallback": "Plated"
+		"translate": "enchantment.stellarity.plated"
 	},
 	"exclusive_set": [
 		"stellarity:soaring"

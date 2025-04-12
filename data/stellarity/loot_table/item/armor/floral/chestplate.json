@@ -15,38 +15,32 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.floral_armor.set_bonus.1",
-									"fallback": "Shooting an enemy will bloom a flower over",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.floral_armor.set_bonus.2",
-									"fallback": "their head, which will explode shortly after",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.floral_armor.set_bonus.3",
-									"fallback": "Sneak while in tall plants to blend in with them",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.armors.piece_bonus",
-									"fallback": "\u1d18\u026a\u1d07\u1d04\u1d07 \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.floral_armor.piece_bonus.chestplate",
-									"fallback": "+25%% Arrow Velocity",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -80,7 +74,7 @@
 								},
 								"minecraft:max_damage": 592,
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.floral_armor.chestplate\",\"fallback\": \"Floral Chestplate\",\"color\": \"#FC92D3\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.floral_armor.chestplate\", \"color\": \"#FC92D3\", \"italic\": false}"
 							}
 						},
 						{

@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.postmortal_2",
-			"fallback": "Overconfident"
+			"translate": "stellarity.advancements.postmortal_2"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.postmortal_2.description",
-				"fallback": "Save yourself from death in The Void with a Totem of Undying"
+				"translate": "stellarity.advancements.postmortal_2.description"
 			},
 			"\n\n",
 			{

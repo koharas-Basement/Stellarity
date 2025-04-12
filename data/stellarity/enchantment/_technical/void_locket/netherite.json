@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.netherite",
-		"fallback": "Rage",
 		"color": "dark_red"
 	},
 	"supported_items": [

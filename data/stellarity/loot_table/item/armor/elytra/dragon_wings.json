@@ -14,13 +14,11 @@
 								"",
 								{
 									"translate": "stellarity.items.elytra.dragon_wings.description.1",
-									"fallback": "Sturdy scales provide decent protection,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.elytra.dragon_wings.description.2",
-									"fallback": "at the cost of flight speed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -48,7 +46,7 @@
 								},
 								"minecraft:max_damage": 648,
 								"rarity": "rare",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.dragon_wings\",\"fallback\": \"Dragon Wings\",\"color\": \"#9936D6\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.elytra.dragon_wings\", \"color\": \"#9936D6\", \"italic\": false}"
 							}
 						},
 						{

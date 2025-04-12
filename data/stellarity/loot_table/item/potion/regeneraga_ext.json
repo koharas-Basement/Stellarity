@@ -28,7 +28,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "regeneraga_ext"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.regeneraga\",\"fallback\": \"Regeneraga\",\"color\": \"yellow\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.regeneraga\", \"color\": \"yellow\", \"italic\": false}"
 							}
 						},
 						{

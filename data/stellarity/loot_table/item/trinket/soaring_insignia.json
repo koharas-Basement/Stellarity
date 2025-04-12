@@ -20,7 +20,7 @@
 									"types": "#is_fire"
 								},
 								"minecraft:max_stack_size": 1,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.soaring_insignia\",\"fallback\": \"Soaring Insignia\",\"color\": \"#FF76D0\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.soaring_insignia\", \"color\": \"#FF76D0\", \"italic\": false}"
 							}
 						},
 						{
@@ -30,25 +30,21 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.1",
-									"fallback": "Grants infinite flight but with",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.2",
-									"fallback": "limited speed and agility",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.3",
-									"fallback": "Look up or down while sneaking to",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.4",
-									"fallback": "ascend or descend respectively",
 									"color": "#EEEEEE",
 									"italic": false
 								},

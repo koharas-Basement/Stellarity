@@ -13,7 +13,6 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.ancient_wooden_sword.flavor_text",
-									"fallback": "'reject Trails&Tales, embrace Indev'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
@@ -56,7 +55,7 @@
 								"minecraft:unbreakable": {
 									"show_in_tooltip": false
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.ancient_wooden_sword\",\"fallback\": \"Ancient Wooden Sword\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.ancient_wooden_sword\", \"color\": \"white\", \"italic\": false}"
 							}
 						}
 					]

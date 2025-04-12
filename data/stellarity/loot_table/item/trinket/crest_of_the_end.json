@@ -53,7 +53,7 @@
 									"stellarity.special_item": "crest_of_the_end"
 								},
 								"rarity": "rare",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.crest_of_the_end\",\"fallback\": \"Crest of The End\",\"color\": \"#9936D6\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.crest_of_the_end\", \"color\": \"#9936D6\", \"italic\": false}",
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								}
@@ -66,13 +66,11 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.1",
-									"fallback": "Blocking damage adds extra power",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.2",
-									"fallback": "to your next attack in retaliation",
 									"color": "#EEEEEE",
 									"italic": false
 								},

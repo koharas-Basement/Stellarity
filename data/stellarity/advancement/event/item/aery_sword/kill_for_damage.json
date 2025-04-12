@@ -8,7 +8,9 @@
 					"equipment": {
 						"mainhand": {
 							"predicates": {
-								"minecraft:custom_data": {"stellarity.special_item":"harvester"}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "harvester"
+								}
 							}
 						}
 					}
@@ -30,7 +32,9 @@
 					"equipment": {
 						"mainhand": {
 							"predicates": {
-								"minecraft:custom_data": {"stellarity.special_item":"harvester"}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "harvester"
+								}
 							}
 						}
 					}
@@ -52,7 +56,9 @@
 					"equipment": {
 						"mainhand": {
 							"predicates": {
-								"minecraft:custom_data": {"stellarity.special_item":"harvester"}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "harvester"
+								}
 							}
 						}
 					}
@@ -74,7 +80,9 @@
 					"equipment": {
 						"mainhand": {
 							"predicates": {
-								"minecraft:custom_data": {"stellarity.special_item":"harvester"}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "harvester"
+								}
 							}
 						}
 					}
@@ -96,7 +104,9 @@
 					"equipment": {
 						"mainhand": {
 							"predicates": {
-								"minecraft:custom_data": {"stellarity.special_item":"harvester"}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "harvester"
+								}
 							}
 						}
 					}
@@ -118,7 +128,9 @@
 					"equipment": {
 						"mainhand": {
 							"predicates": {
-								"minecraft:custom_data": {"stellarity.special_item":"harvester"}
+								"minecraft:custom_data": {
+									"stellarity.special_item": "harvester"
+								}
 							}
 						}
 					}

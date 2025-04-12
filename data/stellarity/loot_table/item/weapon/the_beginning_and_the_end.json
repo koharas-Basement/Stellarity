@@ -14,19 +14,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.1",
-									"fallback": "Attracts Spirits on attacks",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.2",
-									"fallback": "Hold %s in the other hand and look",
 									"color": "#EEEEEE",
 									"italic": false,
 									"with": [
 										{
 											"translate": "stellarity.items.weapons.spirit_dagger.2",
-											"fallback": "The End",
 											"color": "#68C6F5",
 											"italic": false
 										}
@@ -34,20 +31,17 @@
 								},
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.3",
-									"fallback": "at them to teleport to their location,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.4",
-									"fallback": "damaging all mobs and gaining a short buff",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.flavor_text",
-									"fallback": "'RIP Spirit Daggers [*]'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
@@ -128,19 +122,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.1",
-									"fallback": "Attracts Spirits on attacks",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.2",
-									"fallback": "Hold %s in the other hand and look",
 									"color": "#EEEEEE",
 									"italic": false,
 									"with": [
 										{
 											"translate": "stellarity.items.weapons.spirit_dagger.1",
-											"fallback": "The Beginning",
 											"color": "#F5DC68",
 											"italic": false
 										}
@@ -148,20 +139,17 @@
 								},
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.3",
-									"fallback": "at them to teleport to their location,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.description.4",
-									"fallback": "damaging all mobs and gaining a short buff",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.spirit_dagger.flavor_text",
-									"fallback": "'RIP Spirit Daggers [*]'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

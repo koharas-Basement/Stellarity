@@ -17,11 +17,11 @@
 				],
 				"damage": {
 					"type": {
-						"tags":[
+						"tags": [
 							{
 								"id": "stellarity:melee",
 								"expected": true
-							}	
+							}
 						]
 					}
 				}

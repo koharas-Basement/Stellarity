@@ -17,7 +17,7 @@
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismatic_punch\",\"fallback\": \"Prismatic Punch\",\"color\": \"#FF76D0\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismatic_punch\", \"color\": \"#FF76D0\", \"italic\": false}",
 								"minecraft:rarity": "epic"
 							}
 						},
@@ -29,19 +29,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.prismatic_punch.description.1",
-									"fallback": "Shoots exploding Prismatic Blasts",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.prismatic_punch.description.2",
-									"fallback": "which explode multiple times",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.prismatic_punch.description.3",
-									"fallback": "and set mobs on Prismatic Inferno",
 									"color": "#EEEEEE",
 									"italic": false
 								},

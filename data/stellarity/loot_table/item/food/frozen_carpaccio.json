@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:frozen_carpaccio",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"frozen_carpaccio\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.frozen_carpaccio\",\"fallback\":\"Frozen Carpaccio\",\"color\":\"white\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.frozen_carpaccio\", \"color\": \"white\"}",
 								"minecraft:food": {
 									"nutrition": 7,
 									"saturation": 8.4,
@@ -37,7 +37,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -48,14 +48,13 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}
 								],
 								{
 									"translate": "stellarity.items.frozen_carpaccio.usage",
-									"fallback": "Random positive effect",
 									"color": "blue",
 									"italic": false
 								},

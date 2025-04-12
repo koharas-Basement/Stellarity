@@ -249,14 +249,14 @@ bossbar set stellarity:ender_dragon max 300
 bossbar set stellarity:ender_dragon style progress
 bossbar set stellarity:ender_dragon visible true
 # 'Crystals Left'
-bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","fallback":"Crystals Left: %s","color":"#4C0081"}
+bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","color":"#4C0081"}
 bossbar set stellarity:crystal_count color purple
 bossbar set stellarity:crystal_count visible true
 bossbar set stellarity:crystal_count players
 bossbar set stellarity:crystal_count max 10
 bossbar set stellarity:crystal_count style notched_10
 # Empress of Light
-bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"#FF55FF"}
+bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","color":"#FF55FF"}
 bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players

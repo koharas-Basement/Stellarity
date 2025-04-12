@@ -5,7 +5,7 @@
 			"trigger": "minecraft:shot_crossbow",
 			"conditions": {
 				"item": {
-					"components":{
+					"components": {
 						"minecraft:custom_data": {
 							"stellarity.special_item": "slayer_crossbow"
 						}

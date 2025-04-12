@@ -17,7 +17,7 @@
 									"kohara.right_click": true
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.light\",\"fallback\": \"Book of Light\",\"color\": \"#FFF300\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.spellbooks.light\", \"color\": \"#FFF300\", \"italic\": false}",
 								"!max_damage": {}
 							}
 						},
@@ -28,26 +28,22 @@
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.light.description.1",
-									"fallback": "Summons an aura of light",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.light.description.2",
-									"fallback": "which grants healing and damage reduction",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.light.description.3",
-									"fallback": "to all players inside",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.cooldown",
-									"fallback": "Cooldown: %s seconds",
 									"color": "#9E9E9E",
 									"italic": false,
 									"with": [

@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.critical_strike",
-		"fallback": "Critical Strike",
 		"color": "#d600f4"
 	},
 	"exclusive_set": "#minecraft:exclusive_set/damage",

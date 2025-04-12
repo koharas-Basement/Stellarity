@@ -17,7 +17,7 @@
 									"kohara.right_click": true
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.return\",\"fallback\": \"Tome of Return\",\"color\": \"#9C369F\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.spellbooks.return\", \"color\": \"#9C369F\", \"italic\": false}",
 								"!max_damage": {}
 							}
 						},
@@ -28,14 +28,12 @@
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.return.description",
-									"fallback": "Teleports you to your spawnpoint",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.cooldown_long",
-									"fallback": "Cooldown: %s minute",
 									"color": "#9E9E9E",
 									"italic": false,
 									"with": [

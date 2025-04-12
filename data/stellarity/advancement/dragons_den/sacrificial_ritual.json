@@ -4,13 +4,11 @@
 			"id": "minecraft:end_crystal"
 		},
 		"title": {
-			"translate": "stellarity.advancements.sacrificial_ritual",
-			"fallback": "Sacrificial Ritual"
+			"translate": "stellarity.advancements.sacrificial_ritual"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.sacrificial_ritual.description",
-				"fallback": "Place down 4 End Crystals on top of the 4 elevated Bedrock blocks"
+				"translate": "stellarity.advancements.sacrificial_ritual.description"
 			},
 			"\n\n",
 			{

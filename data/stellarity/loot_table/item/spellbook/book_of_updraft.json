@@ -17,7 +17,7 @@
 									"kohara.right_click": true
 								},
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.updraft\",\"fallback\": \"Book of Updraft\",\"color\": \"#E0E0E0\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.spellbooks.updraft\", \"color\": \"#E0E0E0\", \"italic\": false}",
 								"!max_damage": {}
 							}
 						},
@@ -28,26 +28,22 @@
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.updraft.description.1",
-									"fallback": "Propels you upwards with a strong gust of wind",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.updraft.description.2",
-									"fallback": "and then grants the ability to glide for a short time",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.spellbooks.updraft.description.3",
-									"fallback": "Cooldown starts ticking after landing",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.spellbooks.cooldown",
-									"fallback": "Cooldown: %s seconds",
 									"color": "#9E9E9E",
 									"italic": false,
 									"with": [

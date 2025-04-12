@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.lapis",
-		"fallback": "Wisdom",
 		"color": "blue"
 	},
 	"supported_items": [

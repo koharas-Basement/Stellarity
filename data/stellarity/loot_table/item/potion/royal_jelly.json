@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"royal_jelly\"}",
 								"minecraft:max_stack_size": 1,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.royal_jelly\",\"fallback\": \"Royal Jelly\",\"color\": \"yellow\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.royal_jelly\", \"color\": \"yellow\", \"italic\": false}",
 								"minecraft:food": {
 									"nutrition": 6,
 									"saturation": 3.6,
@@ -54,7 +54,6 @@
 								],
 								{
 									"translate": "stellarity.items.potions.royal_jelly.usage",
-									"fallback": "Cleanses all debuffs",
 									"color": "blue",
 									"italic": false
 								},

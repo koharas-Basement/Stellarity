@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.gain_damage",
-			"fallback": "The Grind Never Stops"
+			"translate": "stellarity.advancements.harvester.gain_damage"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.gain_damage.description",
-				"fallback": "Kill any mob to slightly upgrade a Harvester"
+				"translate": "stellarity.advancements.harvester.gain_damage.description"
 			},
 			"\n\n",
 			{

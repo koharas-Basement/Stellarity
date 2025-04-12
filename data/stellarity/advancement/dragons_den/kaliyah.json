@@ -8,18 +8,15 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.kaliyah",
-			"fallback": "KALIYAAAAH!"
+			"translate": "stellarity.advancements.kaliyah"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.kaliyah.description",
-				"fallback": "Deal maximum damage possible with a single Dragonblade punch"
+				"translate": "stellarity.advancements.kaliyah.description"
 			},
 			"\n",
 			{
 				"translate": "stellarity.advancements.kaliyah.tip",
-				"fallback": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɪɴᴄʀᴇᴀsᴇs ᴘᴜɴᴄʜ ᴅᴀᴍᴀɢᴇ",
 				"color": "#727272",
 				"italic": true
 			},

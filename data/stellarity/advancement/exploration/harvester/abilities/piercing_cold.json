@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.abilities.piercing_cold",
-			"fallback": "Ability - Piercing Cold"
+			"translate": "stellarity.advancements.harvester.abilities.piercing_cold"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.abilities.piercing_cold.description",
-				"fallback": "Attacks have a chance to apply a stacking defense reduction effect"
+				"translate": "stellarity.advancements.harvester.abilities.piercing_cold.description"
 			},
 			"\n\n",
 			{

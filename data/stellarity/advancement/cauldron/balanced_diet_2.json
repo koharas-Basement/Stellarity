@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.balanced_diet_2",
-			"fallback": "Feast of The Otherworld"
+			"translate": "stellarity.advancements.balanced_diet_2"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.balanced_diet_2.description",
-				"fallback": "Eat every food item added by Stellarity, good or bad."
+				"translate": "stellarity.advancements.balanced_diet_2.description"
 			},
 			"\n\n",
 			{

@@ -4,13 +4,11 @@
 			"id": "minecraft:jukebox"
 		},
 		"title": {
-			"translate": "stellarity.advancements.champions_ballad",
-			"fallback": "Champions Ballad"
+			"translate": "stellarity.advancements.champions_ballad"
 		},
 		"description": [
 			{
 				"translate": "stellarity.advancements.champions_ballad.description",
-				"fallback": "Can't fight a Dragon without some good tunes!",
 				"color": "aqua"
 			},
 			"\n\n",

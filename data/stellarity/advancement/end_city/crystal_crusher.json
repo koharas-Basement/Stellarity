@@ -4,13 +4,11 @@
 			"id": "minecraft:end_crystal"
 		},
 		"title": {
-			"translate": "stellarity.advancements.crystal_crusher",
-			"fallback": "Crystal Crusher"
+			"translate": "stellarity.advancements.crystal_crusher"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.crystal_crusher.description",
-				"fallback": "Destroy a protective End Crystal of an End City and collect its loot"
+				"translate": "stellarity.advancements.crystal_crusher.description"
 			},
 			"\n\n",
 			{

@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.keep_warm",
-			"fallback": "Keep Warm!"
+			"translate": "stellarity.advancements.keep_warm"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.keep_warm.description",
-				"fallback": "Wear a full set of Leather Armor in any of the coldest biomes of The End"
+				"translate": "stellarity.advancements.keep_warm.description"
 			},
 			"\n\n",
 			{

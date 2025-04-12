@@ -4,13 +4,11 @@
 			"id": "minecraft:ender_pearl"
 		},
 		"title": {
-			"translate": "stellarity.advancements.obtain_ender_pearl",
-			"fallback": "Eye of Darkness"
+			"translate": "stellarity.advancements.obtain_ender_pearl"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.obtain_ender_pearl.description",
-				"fallback": "Pick up an Ender Pearl..."
+				"translate": "stellarity.advancements.obtain_ender_pearl.description"
 			},
 			"\n\n",
 			{

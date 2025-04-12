@@ -17,7 +17,7 @@
 								},
 								"rarity": "rare",
 								"minecraft:max_stack_size": 1,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.life_crystal\",\"fallback\": \"Life Crystal\",\"color\": \"#9936D6\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.life_crystal\", \"color\": \"#9936D6\", \"italic\": false}"
 							}
 						},
 						{
@@ -27,7 +27,6 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.life_crystal.description",
-									"fallback": "Standing still rapidly replenishes health",
 									"color": "#EEEEEE",
 									"italic": false
 								},

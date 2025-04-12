@@ -10,7 +10,7 @@
 							"items": [
 								"minecraft:wooden_hoe"
 							],
-							"components":{
+							"components": {
 								"minecraft:custom_data": {
 									"stellarity.special_item": "starless_scythe"
 								}
@@ -40,7 +40,7 @@
 							"items": [
 								"minecraft:wooden_hoe"
 							],
-							"components":{
+							"components": {
 								"minecraft:custom_data": {
 									"stellarity.special_item": "starless_scythe"
 								}
@@ -60,7 +60,7 @@
 		}
 	},
 	"requirements": [
-		[	
+		[
 			"attack",
 			"kill"
 		]

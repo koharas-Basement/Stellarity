@@ -1,7 +1,6 @@
 {
 	"description": {
-		"translate": "enchantment.stellarity.soaring",
-		"fallback": "Soaring"
+		"translate": "enchantment.stellarity.soaring"
 	},
 	"supported_items": "#stellarity:enchantable/elytra",
 	"weight": 2,

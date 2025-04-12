@@ -13,18 +13,15 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.all_abilities",
-			"fallback": "Baleful Harvest"
+			"translate": "stellarity.advancements.harvester.all_abilities"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.all_abilities.description",
-				"fallback": "Gotta catch 'em all!"
+				"translate": "stellarity.advancements.harvester.all_abilities.description"
 			},
 			"\n",
 			{
 				"translate": "stellarity.advancements.harvester.all_abilities.tip",
-				"fallback": "ᴛɪᴘ: ᴏɴᴇ ʜᴀʀᴠᴇsᴛᴇʀ ᴄᴀɴ ᴏɴʟʏ ɢᴇᴛ 3 ᴀʙɪʟɪᴛɪᴇs, sᴏ ɢᴇᴛ ᴀ ғᴇᴡ ғᴏʀ ᴛʜᴇ ᴄᴏᴍᴘʟᴇᴛɪᴏɴ ᴏғ ᴛʜɪs ᴄʜᴀʟʟᴇɴɢᴇ",
 				"color": "dark_gray"
 			},
 			"\n\n",

@@ -4,13 +4,11 @@
 			"id": "minecraft:end_portal_frame"
 		},
 		"title": {
-			"translate": "stellarity.advancements.journeys_end",
-			"fallback": "Journey's End"
+			"translate": "stellarity.advancements.journeys_end"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.journeys_end.description",
-				"fallback": "Use 12 Eyes of Ender to activate the End Portal"
+				"translate": "stellarity.advancements.journeys_end.description"
 			},
 			"\n\n",
 			{

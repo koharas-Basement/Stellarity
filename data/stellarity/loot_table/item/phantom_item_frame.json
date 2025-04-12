@@ -17,7 +17,6 @@
 								},
 								{
 									"translate": "stellarity.items.phantom_item_frame.description",
-									"fallback": "Turns invisible when an item is put inside",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -41,7 +40,7 @@
 								},
 								"minecraft:rarity": "uncommon",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"phantom_item_frame\"}",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.phantom_item_frame\",\"fallback\": \"Phantom Item Frame\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.phantom_item_frame\"}"
 							}
 						}
 					]

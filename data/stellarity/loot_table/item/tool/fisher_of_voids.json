@@ -19,7 +19,7 @@
 									"types": "#is_fire"
 								},
 								"minecraft:max_damage": 264,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.fisher_of_voids\",\"fallback\": \"Fisher of Voids\",\"color\": \"#8865AF\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.fisher_of_voids\", \"color\": \"#8865AF\", \"italic\": false}"
 							}
 						},
 						{
@@ -30,7 +30,6 @@
 								"",
 								{
 									"translate": "stellarity.items.fisher_of_voids.description",
-									"fallback": "Void Fishing is slightly quicker",
 									"color": "#EEEEEE",
 									"italic": false
 								},

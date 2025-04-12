@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.charge_anchor_end",
-			"fallback": "Anchored"
+			"translate": "stellarity.advancements.charge_anchor_end"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.charge_anchor_end.description",
-				"fallback": "Charge a Respawn Anchor in The End. You can use it to set your respawn point there just like in The Nether"
+				"translate": "stellarity.advancements.charge_anchor_end.description"
 			},
 			"\n\n",
 			{

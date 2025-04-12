@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.god_slayer",
-			"fallback": "God Slayer"
+			"translate": "stellarity.advancements.god_slayer"
 		},
 		"description": [
 			{
 				"translate": "stellarity.advancements.god_slayer.description",
-				"fallback": "You have proven yourself worthy by defeating the vicious Beast twice",
 				"color": "#E562FF"
 			},
 			"\n\n",

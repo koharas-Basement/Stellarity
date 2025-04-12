@@ -17,7 +17,7 @@
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.slayer_crossbow\",\"fallback\": \"Slayer Crossbow\",\"color\": \"gold\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.slayer_crossbow\", \"color\": \"gold\", \"italic\": false}",
 								"rarity": "rare"
 							}
 						},
@@ -29,13 +29,11 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.slayer_crossbow.description.1",
-									"fallback": "Shoots highly damaging energy bolts",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.slayer_crossbow.description.2",
-									"fallback": "with infinite pierce, but limited range",
 									"color": "#EEEEEE",
 									"italic": false
 								},

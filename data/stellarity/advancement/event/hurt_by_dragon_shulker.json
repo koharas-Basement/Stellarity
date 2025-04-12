@@ -8,7 +8,7 @@
 					"type": {
 						"source_entity": {
 							"type": "minecraft:shulker",
-							"nbt":"{Tags:[\"stellarity.dragon_shulker\"]}"
+							"nbt": "{Tags:[\"stellarity.dragon_shulker\"]}"
 						},
 						"direct_entity": {
 							"type": "minecraft:shulker_bullet"

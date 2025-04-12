@@ -4,13 +4,11 @@
 			"id": "minecraft:shulker_shell"
 		},
 		"title": {
-			"translate": "stellarity.advancements.kill_shulker",
-			"fallback": "This Block Moves!"
+			"translate": "stellarity.advancements.kill_shulker"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.kill_shulker.description",
-				"fallback": "Kill a Shulker for its Shells"
+				"translate": "stellarity.advancements.kill_shulker.description"
 			},
 			"\n\n",
 			{

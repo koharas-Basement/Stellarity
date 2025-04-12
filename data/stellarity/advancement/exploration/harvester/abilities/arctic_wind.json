@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.abilities.arctic_wind",
-			"fallback": "Ability - Arctic Wind"
+			"translate": "stellarity.advancements.harvester.abilities.arctic_wind"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.abilities.arctic_wind.description",
-				"fallback": "Super cold aura slows nearby mobs, with the effect getting stronger closer to the player"
+				"translate": "stellarity.advancements.harvester.abilities.arctic_wind.description"
 			},
 			"\n\n",
 			{

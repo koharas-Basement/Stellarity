@@ -16,7 +16,6 @@
 								},
 								{
 									"translate": "stellarity.items.materials.chorus_petal.flavor_text",
-									"fallback": "'Soft and delicate'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
@@ -36,7 +35,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "chorus_petal"
 								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.chorus_petal\",\"fallback\": \"Chorus Petal\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.chorus_petal\", \"italic\": false}"
 							}
 						}
 					]

@@ -23,7 +23,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "endurance_potion_ext"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.endurance_potion\",\"fallback\": \"Endurance Potion\",\"color\": \"white\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.potions.endurance_potion\", \"color\": \"white\", \"italic\": false}"
 							}
 						},
 						{

@@ -15,25 +15,21 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.1",
-									"fallback": "Fills you with Wrath of The Dragon,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.2",
-									"fallback": "providing ramping increasing damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.3",
-									"fallback": "on combo attacks!",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -67,7 +63,7 @@
 								},
 								"minecraft:max_damage": 415,
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.chorus_champion_armor.helmet\",\"fallback\": \"Champion Helmet\",\"color\": \"#A87CC4\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.chorus_champion_armor.helmet\", \"color\": \"#A87CC4\", \"italic\": false}"
 							}
 						},
 						{

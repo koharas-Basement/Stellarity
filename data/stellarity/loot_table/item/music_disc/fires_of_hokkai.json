@@ -23,7 +23,6 @@
 							"lore": [
 								{
 									"translate": "stellarity.music_disc.requires_addon",
-									"fallback": "\u0280\u1d07\u1d0f\u0328\u1d1c\u026a\u0280\u1d07s \u1d0d\u1d1cs\u026a\u1d04 \u1d00\u1d05\u1d05\u1d0f\u0274",
 									"color": "dark_gray"
 								},
 								"",

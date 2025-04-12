@@ -46,18 +46,16 @@
 					}
 				],
 				"minecraft:block_entity_data": {
-				  "id": "minecraft:banner"
+					"id": "minecraft:banner"
 				}
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.electrified",
-			"fallback": "Electrified!"
+			"translate": "stellarity.advancements.electrified"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.electrified.description",
-				"fallback": "Dash through 5 different mobs with a single Copper Elektra Shield dash"
+				"translate": "stellarity.advancements.electrified.description"
 			},
 			"\n\n",
 			{

@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.summon_empress",
-			"fallback": "The Queen of Flickering Lights"
+			"translate": "stellarity.advancements.summon_empress"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.summon_empress.description",
-				"fallback": "Sacrifice Starlight Soot at the Altar of The Sacred"
+				"translate": "stellarity.advancements.summon_empress.description"
 			},
 			"\n\n",
 			{

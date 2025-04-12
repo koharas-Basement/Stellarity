@@ -4,13 +4,11 @@
 			"id": "minecraft:shulker_box"
 		},
 		"title": {
-			"translate": "stellarity.advancements.portable_storage",
-			"fallback": "Portable Storage"
+			"translate": "stellarity.advancements.portable_storage"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.portable_storage.description",
-				"fallback": "Craft a Shulker Box"
+				"translate": "stellarity.advancements.portable_storage.description"
 			},
 			"\n\n",
 			{

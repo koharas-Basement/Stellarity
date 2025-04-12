@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.daybroken",
-		"fallback": "Daybroken",
 		"color": "#e88b20"
 	},
 	"exclusive_set": [

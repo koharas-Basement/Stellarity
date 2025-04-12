@@ -7,13 +7,11 @@
 			}
 		},
 		"title": {
-			"translate": "stellarity.advancements.harvester.abilities.echo",
-			"fallback": "Ability - Echo"
+			"translate": "stellarity.advancements.harvester.abilities.echo"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.harvester.abilities.echo.description",
-				"fallback": "Attacks will deal extra unmitigated damage after a short while"
+				"translate": "stellarity.advancements.harvester.abilities.echo.description"
 			},
 			"\n\n",
 			{

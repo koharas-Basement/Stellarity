@@ -15,32 +15,27 @@
 								"",
 								{
 									"translate": "stellarity.items.armors.set_bonus",
-									"fallback": "\u0493\u1d1c\u029f\u029f s\u1d07\u1d1b \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.set_bonus.1",
-									"fallback": "Shulker Bullets will hunt down your attackers",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.set_bonus.2",
-									"fallback": "Take less damage when swarmed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.armors.piece_bonus",
-									"fallback": "\u1d18\u026a\u1d07\u1d04\u1d07 \u0299\u1d0f\u0274\u1d1cs:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.piece_bonus.leggings",
-									"fallback": "Immunity to Levitation",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -74,7 +69,7 @@
 								},
 								"minecraft:max_damage": 755,
 								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.shulker_armor.leggings\",\"fallback\": \"Shulker Leggings\",\"color\": \"#976A97\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.shulker_armor.leggings\", \"color\": \"#976A97\", \"italic\": false}"
 							}
 						},
 						{

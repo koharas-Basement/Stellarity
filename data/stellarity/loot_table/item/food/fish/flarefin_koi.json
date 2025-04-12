@@ -15,7 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "flarefin_koi"
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.flarefin_koi\",\"fallback\":\"Flarefin Koi\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.flarefin_koi\"}",
 								"food": {
 									"nutrition": 2,
 									"saturation": 1.2,
@@ -51,7 +51,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -62,7 +62,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

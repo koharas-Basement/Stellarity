@@ -9,13 +9,11 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.topped_off",
-			"fallback": "Topped Off",
 			"color": "#FF65D7"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.topped_off.description",
-				"fallback": "Increase your maximum health by eating 10 Fish of Vitality"
+				"translate": "stellarity.advancements.topped_off.description"
 			},
 			"\n\n",
 			{

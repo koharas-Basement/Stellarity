@@ -18,7 +18,7 @@
 										"abilities": []
 									}
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.harvester\",\"fallback\": \"Harvester\",\"color\": \"#4BC6FF\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.harvester\", \"color\": \"#4BC6FF\"}",
 								"enchantments": {
 									"stellarity:_technical/soul_harvest": 1
 								}
@@ -31,19 +31,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.harvester.description.1",
-									"fallback": "Absorbs souls of slain mobs and permanently",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.harvester.description.2",
-									"fallback": "increases its size and damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.harvester.description.3",
-									"fallback": "Certains souls imbue it with magical abilities",
 									"color": "#EEEEEE",
 									"italic": false
 								},

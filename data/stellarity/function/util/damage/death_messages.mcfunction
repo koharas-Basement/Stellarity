@@ -1,9 +1,9 @@
 #> Example
 # Kept just for funzies tbh
-execute if entity @s[tag=stellarity.damage.example_cause] run tellraw @a {"translate":"stellarity.death_messages.example_cause","fallback":"%s died randomly due to an example of Stellarity's custom damage system","with":[{"selector":"@s"}]}
+execute if entity @s[tag=stellarity.damage.example_cause] run tellraw @a {"translate":"stellarity.death_messages.example_cause","with":[{"selector":"@s"}]}
 
 #> Sharanga Explosion
-execute if entity @s[tag=stellarity.damage.sharanga_explosion] run tellraw @a {"translate":"stellarity.death_messages.sharanga_explosion","fallback":"%1$s was torn apart by %2$s's Spectral Boom Boom","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:item/holding/sharanga]"}]}
+execute if entity @s[tag=stellarity.damage.sharanga_explosion] run tellraw @a {"translate":"stellarity.death_messages.sharanga_explosion","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:item/holding/sharanga]"}]}
 
 #> Starstruck Carcanet falling stars
 execute if entity @s[tag=stellarity.damage.carcanet] run function stellarity:util/damage/death_messages/starstruck_shield
@@ -28,10 +28,10 @@ execute if entity @s[tag=stellarity.damage.kaleidoscope] run function stellarity
 
 ###> Empress of Light
 #> Prismatic Bolts
-execute if entity @s[tag=stellarity.damage.eol.prismatic_bolts] run tellraw @a {"translate":"stellarity.death_messages.eol.prismatic_bolts","fallback":"%1$s forgot to dodge the Empress of Light's attacks","with":[{"selector":"@s"}]}
+execute if entity @s[tag=stellarity.damage.eol.prismatic_bolts] run tellraw @a {"translate":"stellarity.death_messages.eol.prismatic_bolts","with":[{"selector":"@s"}]}
 
 #> Ethereal Lance
-execute if entity @s[tag=stellarity.damage.eol.ethereal_lance] run tellraw @a {"translate":"stellarity.death_messages.eol.ethereal_lance","fallback":"%1$s was pierced through with the Empress of Light's Ethereal Lance","with":[{"selector":"@s"}]}
+execute if entity @s[tag=stellarity.damage.eol.ethereal_lance] run tellraw @a {"translate":"stellarity.death_messages.eol.ethereal_lance","with":[{"selector":"@s"}]}
 
 #> Dash
-execute if entity @s[tag=stellarity.damage.eol.dash] run tellraw @a {"translate":"stellarity.death_messages.eol.dash","fallback":"%1$s didn't move out of the Empress of Light's way in time","with":[{"selector":"@s"}]}
+execute if entity @s[tag=stellarity.damage.eol.dash] run tellraw @a {"translate":"stellarity.death_messages.eol.dash","with":[{"selector":"@s"}]}

@@ -4,13 +4,11 @@
 			"id": "minecraft:phantom_membrane"
 		},
 		"title": {
-			"translate": "stellarity.advancements.night_sky_stalkers",
-			"fallback": "Night Sky Stalkers"
+			"translate": "stellarity.advancements.night_sky_stalkers"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.night_sky_stalkers.description",
-				"fallback": "Kill a Phantom. They will vanish as soon as you get some sleep"
+				"translate": "stellarity.advancements.night_sky_stalkers.description"
 			},
 			"\n\n",
 			{

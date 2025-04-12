@@ -13,14 +13,12 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.sandstorm_trident.description",
-									"fallback": "Creates wind tunnels when thrown",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.sandstorm_trident.flavor_text",
-									"fallback": "'he didn't want to do a portal gun'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
@@ -69,7 +67,7 @@
 									"types": "#is_fire"
 								},
 								"max_damage": 1264,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.sandstorm_trident\",\"fallback\": \"Sandstorm Trident\",\"italic\": false}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.sandstorm_trident\", \"italic\": false}",
 								"minecraft:enchantments": {
 									"stellarity:_technical/mighty_wind": 1
 								},

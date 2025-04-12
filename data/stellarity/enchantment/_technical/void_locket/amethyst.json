@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.amethyst",
-		"fallback": "Vision",
 		"color": "dark_purple"
 	},
 	"supported_items": [

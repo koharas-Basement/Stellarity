@@ -9,7 +9,6 @@
 		"description": [
 			{
 				"translate": "stellarity.advancements.jeb_.description",
-				"fallback": "Craft all color variants of Shulker Boxes",
 				"color": "dark_aqua"
 			},
 			"\n\n",

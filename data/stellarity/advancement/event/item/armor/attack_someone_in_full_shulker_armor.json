@@ -20,32 +20,32 @@
 					"type": "minecraft:player",
 					"equipment": {
 						"head": {
-							"components":{
-						"minecraft:custom_data": {
-							"stellarity.special_item": "shulker_armor"
-						}
-					}
+							"components": {
+								"minecraft:custom_data": {
+									"stellarity.special_item": "shulker_armor"
+								}
+							}
 						},
 						"chest": {
-							"components":{
-						"minecraft:custom_data": {
-							"stellarity.special_item": "shulker_armor"
-						}
-					}
+							"components": {
+								"minecraft:custom_data": {
+									"stellarity.special_item": "shulker_armor"
+								}
+							}
 						},
 						"legs": {
-							"components":{
-						"minecraft:custom_data": {
-							"stellarity.special_item": "shulker_armor"
-						}
-					}
+							"components": {
+								"minecraft:custom_data": {
+									"stellarity.special_item": "shulker_armor"
+								}
+							}
 						},
 						"feet": {
-							"components":{
-						"minecraft:custom_data": {
-							"stellarity.special_item": "shulker_armor"
-						}
-					}
+							"components": {
+								"minecraft:custom_data": {
+									"stellarity.special_item": "shulker_armor"
+								}
+							}
 						}
 					}
 				}

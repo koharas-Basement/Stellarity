@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:candied_chorus_fruit",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"candied_chorus_fruit\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.candied_chorus_fruit\",\"fallback\":\"Candied Chorus Fruit\",\"color\":\"white\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.candied_chorus_fruit\", \"color\": \"white\"}",
 								"minecraft:food": {
 									"nutrition": 4,
 									"saturation": 2.4,
@@ -51,7 +51,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -62,7 +62,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

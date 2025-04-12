@@ -4,13 +4,11 @@
 			"id": "minecraft:ender_dragon_spawn_egg"
 		},
 		"title": {
-			"translate": "stellarity.advancements.third_times_the_charm",
-			"fallback": "Third Time's the Charm"
+			"translate": "stellarity.advancements.third_times_the_charm"
 		},
 		"description": [
 			{
 				"translate": "stellarity.advancements.third_times_the_charm.description",
-				"fallback": "Summon the Ender Dragon for the third time",
 				"color": "aqua"
 			},
 			"\n\n",

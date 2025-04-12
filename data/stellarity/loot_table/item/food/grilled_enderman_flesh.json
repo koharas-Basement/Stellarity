@@ -25,7 +25,7 @@
 									"has_consume_particles": true,
 									"sound": "entity.generic.eat"
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.grilled_enderman_flesh\",\"fallback\":\"Grilled Enderman Flesh\",\"color\":\"white\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.grilled_enderman_flesh\", \"color\": \"white\"}"
 							}
 						},
 						{
@@ -39,7 +39,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -50,7 +50,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

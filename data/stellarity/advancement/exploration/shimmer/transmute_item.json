@@ -4,13 +4,11 @@
 			"id": "minecraft:water_bucket"
 		},
 		"title": {
-			"translate": "stellarity.advancements.transmute_item",
-			"fallback": "Hallowed Alchemy"
+			"translate": "stellarity.advancements.transmute_item"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.transmute_item.description",
-				"fallback": "Transmute any item into something different by throwing it into the water in The Hallow"
+				"translate": "stellarity.advancements.transmute_item.description"
 			},
 			"\n\n",
 			{

@@ -13,7 +13,7 @@
 								"minecraft:custom_data": "{stellarity.special_item:\"call_of_the_void\"}",
 								"minecraft:item_model": "stellarity:call_of_the_void",
 								"minecraft:max_damage": 424,
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.call_of_the_void\",\"fallback\": \"Call of The Void\",\"color\": \"dark_purple\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.call_of_the_void\", \"color\": \"dark_purple\"}",
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
 								}
@@ -27,13 +27,11 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.call_of_the_void.description.1",
-									"fallback": "Shoots Void Arrows, which reduce",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.call_of_the_void.description.2",
-									"fallback": "enemy HP and shatter on impact",
 									"color": "#EEEEEE",
 									"italic": false
 								},

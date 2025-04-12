@@ -8,7 +8,7 @@
 					"items": [
 						"minecraft:rotten_flesh"
 					],
-					"components":{
+					"components": {
 						"minecraft:custom_data": {
 							"stellarity.special_item": "living_flesh"
 						}

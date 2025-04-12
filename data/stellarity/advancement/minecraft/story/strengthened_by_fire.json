@@ -4,13 +4,11 @@
 			"id": "minecraft:blaze_powder"
 		},
 		"title": {
-			"translate": "stellarity.advancements.craft_ender_eye",
-			"fallback": "Strengthened by Fire"
+			"translate": "stellarity.advancements.craft_ender_eye"
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.craft_ender_eye.description",
-				"fallback": "...and fuse it with some Blaze Powder"
+				"translate": "stellarity.advancements.craft_ender_eye.description"
 			},
 			"\n\n",
 			{

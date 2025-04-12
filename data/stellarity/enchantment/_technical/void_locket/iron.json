@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "stellarity.items.trinkets.void_locket.enchantment.iron",
-		"fallback": "Fortitude",
 		"color": "white"
 	},
 	"supported_items": [

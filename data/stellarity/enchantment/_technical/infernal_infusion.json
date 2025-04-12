@@ -1,7 +1,6 @@
 {
 	"description": {
 		"translate": "enchantment.stellarity.infernal_infusion",
-		"fallback": "Infernal Infusion",
 		"color": "#E27E13"
 	},
 	"exclusive_set": [

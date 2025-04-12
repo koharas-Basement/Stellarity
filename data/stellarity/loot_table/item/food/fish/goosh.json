@@ -15,7 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "goosh"
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.goosh\",\"fallback\":\"Goosh\"}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.goosh\"}"
 							}
 						},
 						{
@@ -24,20 +24,17 @@
 								"",
 								{
 									"translate": "stellarity.items.food.fish.goosh.description.1",
-									"fallback": "Can be used in place of",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.food.dish.goosh.description.2",
-									"fallback": "Slime Balls in recipes",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.food.fish.goosh.flavor_text",
-									"fallback": "'Yuck...'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

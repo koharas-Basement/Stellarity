@@ -11,7 +11,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.spawn_eggs.voided_slime\",\"fallback\":\"Voided Slime Spawn Egg\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.spawn_eggs.voided_slime\"}",
 								"minecraft:entity_data": {
 									"id": "minecraft:marker",
 									"Tags": [

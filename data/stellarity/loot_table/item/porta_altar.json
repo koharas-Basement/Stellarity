@@ -16,37 +16,31 @@
 								},
 								{
 									"translate": "stellarity.items.porta_altar.description.1",
-									"fallback": "Right click on the ground to draw a sigil that",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.porta_altar.description.2",
-									"fallback": "allows you to access Altar of The Accursed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.porta_altar.description.3",
-									"fallback": "from anywhere in the world",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.porta_altar.description.4",
-									"fallback": "Place in a vertical item frame attached",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.porta_altar.description.5",
-									"fallback": "to a block of Crying Obsidian",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.porta_altar.description.5",
-									"fallback": "to create your own permanent copy of the Altar",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -68,7 +62,7 @@
 									"kohara.right_click": true
 								},
 								"rarity": "epic",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.porta_altar\",\"fallback\": \"Satchel of Voids\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.porta_altar\"}",
 								"!max_damage": {},
 								"damage_resistant": {
 									"types": "#is_fire"

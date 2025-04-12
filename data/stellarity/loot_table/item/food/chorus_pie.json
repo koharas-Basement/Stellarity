@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:item_model": "stellarity:chorus_pie",
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_pie\"}",
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.chorus_pie\",\"fallback\":\"Chorus Pie\",\"color\":\"white\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.food.chorus_pie\", \"color\": \"white\"}",
 								"minecraft:food": {
 									"nutrition": 8,
 									"saturation": 4.8,
@@ -37,7 +37,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#B88458",
 										"italic": false
 									},
@@ -48,7 +48,7 @@
 										"italic": false
 									},
 									{
-										"text": " \ud83c\udf56",
+										"text": " 🍖",
 										"color": "#FFDE4C",
 										"italic": false
 									}

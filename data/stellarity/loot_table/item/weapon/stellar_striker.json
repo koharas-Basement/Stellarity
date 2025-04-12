@@ -14,19 +14,16 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.stellar_striker.description.1",
-									"fallback": "Attack or kill mobs to collect stars",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.stellar_striker.description.2",
-									"fallback": "Sneak and attack to send the stars flying",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.stellar_striker.description.3",
-									"fallback": "all at once to deal high burst damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -51,7 +48,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "stellar_striker"
 								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.stellar_striker\",\"fallback\": \"Stellar Striker\",\"color\": \"#FFF593\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.stellar_striker\", \"color\": \"#FFF593\", \"italic\": false}"
 							}
 						},
 						{
