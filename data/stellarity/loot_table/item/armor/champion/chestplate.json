@@ -19,17 +19,17 @@
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.1",
+									"translate": "stellarity.items.armors.champion_armor.set_bonus.1",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.2",
+									"translate": "stellarity.items.armors.champion_armor.set_bonus.2",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.armors.chorus_champion_armor.set_bonus.3",
+									"translate": "stellarity.items.armors.champion_armor.set_bonus.3",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -48,9 +48,9 @@
 									"rgb": 11041988,
 									"show_in_tooltip": false
 								},
-								"minecraft:item_model": "stellarity:chorus_champion_chestplate",
+								"minecraft:item_model": "stellarity:champion_chestplate",
 								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_champion_armor"
+									"stellarity.special_item": "champion_armor"
 								},
 								"minecraft:damage_resistant": {
 									"types": "#is_fire"
