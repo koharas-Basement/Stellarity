@@ -1,6 +1,6 @@
 {
-	"values":[
-		"kohara:main",
-		"stellarity:main"
-	]
+  "values": [
+    "kohara:main",
+    "stellarity:main"
+  ]
 }

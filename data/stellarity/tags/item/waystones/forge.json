@@ -1,8 +1,8 @@
 {
-	"values": [
-		{
-			"id": "waystones:waystone",
-			"required": false
-		}
-	]
+  "values": [
+    {
+      "id": "waystones:waystone",
+      "required": false
+    }
+  ]
 }

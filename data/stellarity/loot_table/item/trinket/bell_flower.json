@@ -1,50 +1,52 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:gold_nugget",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "stellarity:bell_flower",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "bell_flower"
-								},
-								"minecraft:rarity": "rare",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.trinkets.bell_flower\"}"
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.trinkets.bell_flower.description",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								" ",
-								{
-									"translate": "- Donator Item -",
-									"color": "#F96854",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							],
-							"mode": "replace_all"
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:bell_flower",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "bell_flower"
+                },
+                "minecraft:rarity": "rare",
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.trinkets.bell_flower"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "stellarity.items.trinkets.bell_flower.description",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                " ",
+                {
+                  "translate": "- Donator Item -",
+                  "color": "#F96854",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

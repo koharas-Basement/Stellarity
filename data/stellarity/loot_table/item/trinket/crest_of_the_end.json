@@ -61,7 +61,9 @@
                   "types": "#is_fire"
                 },
                 "tooltip_display": {
-                  "hidden_components": ["banner_patterns"]
+                  "hidden_components": [
+                    "banner_patterns"
+                  ]
                 }
               }
             },

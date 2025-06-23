@@ -1,7 +1,7 @@
 {
-	"values": [
-		"item_display",
-		"block_display",
-		"text_display"
-	]
+  "values": [
+    "item_display",
+    "block_display",
+    "text_display"
+  ]
 }

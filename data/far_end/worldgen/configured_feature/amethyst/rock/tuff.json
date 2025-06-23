@@ -1,8 +1,8 @@
 {
-	"type": "minecraft:forest_rock",
-	"config": {
-		"state": {
-			"Name": "minecraft:tuff"
-		}
-	}
+  "type": "minecraft:forest_rock",
+  "config": {
+    "state": {
+      "Name": "minecraft:tuff"
+    }
+  }
 }

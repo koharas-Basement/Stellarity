@@ -14,7 +14,11 @@
           "italic": false
         },
         "\"\"",
-        { "translate": "Stellarity", "color": "#CC26FF", "italic": true }
+        {
+          "translate": "Stellarity",
+          "color": "#CC26FF",
+          "italic": true
+        }
       ],
       "minecraft:custom_data": {
         "stellarity.special_item": "loaf_of_plenty",
@@ -53,7 +57,11 @@
               "italic": false
             },
             "\"\"",
-            { "translate": "Stellarity", "color": "#CC26FF", "italic": true }
+            {
+              "translate": "Stellarity",
+              "color": "#CC26FF",
+              "italic": true
+            }
           ],
           "minecraft:custom_data": {
             "stellarity.special_item": "loaf_of_plenty",

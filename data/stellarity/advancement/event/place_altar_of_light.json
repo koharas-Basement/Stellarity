@@ -8,7 +8,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": ["minecraft:chiseled_quartz_block"],
+              "items": [
+                "minecraft:chiseled_quartz_block"
+              ],
               "predicates": {
                 "minecraft:custom_data": {
                   "stellarity.special_item": "altar_of_light"

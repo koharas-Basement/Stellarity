@@ -1,62 +1,64 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:cooked_cod",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "stellarity:crystal_heartfish",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "crystal_heartfish"
-								},
-								"rarity": "epic",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.crystal_heartfish\"}",
-								"!food": {},
-								"minecraft:consumable": {
-									"animation": "eat",
-									"consume_seconds": 3.5,
-									"has_consume_particles": true,
-									"sound": "entity.generic.eat"
-								}
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"mode": "replace_all",
-							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.fish.crystal_heartfish.description.1",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.fish.crystal_heartfish.description.2",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.fish.crystal_heartfish.description.3",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_cod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:crystal_heartfish",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "crystal_heartfish"
+                },
+                "rarity": "epic",
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.fish.crystal_heartfish"
+                },
+                "!food": {},
+                "minecraft:consumable": {
+                  "animation": "eat",
+                  "consume_seconds": 3.5,
+                  "has_consume_particles": true,
+                  "sound": "entity.generic.eat"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                "",
+                {
+                  "translate": "stellarity.items.fish.crystal_heartfish.description.1",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.fish.crystal_heartfish.description.2",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.fish.crystal_heartfish.description.3",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

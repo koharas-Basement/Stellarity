@@ -1,5 +1,5 @@
 {
-	"values": [
-		"stellarity:util/damage/pre_damage"
-	]
+  "values": [
+    "stellarity:util/damage/pre_damage"
+  ]
 }

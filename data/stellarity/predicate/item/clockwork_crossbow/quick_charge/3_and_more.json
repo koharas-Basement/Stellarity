@@ -1,26 +1,28 @@
 {
-	"condition": "minecraft:any_of",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"slots": {
-					"weapon.*": {
-						"predicates": {
-							"minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}",
-							"enchantments": [
-								{
-									"enchantments": "quick_charge",
-									"levels": {
-										"min": 3
-									}
-								}
-							]
-						}
-					}
-				}
-			}
-		}
-	]
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "stellarity.special_item": "clockwork_crossbow"
+              },
+              "enchantments": [
+                {
+                  "enchantments": "quick_charge",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
 }

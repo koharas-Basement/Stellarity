@@ -1,7 +1,7 @@
 {
-	"values": [
-		"minecraft:piglin_brute",
-		"minecraft:iron_golem",
-		"minecraft:shulker"
-	]
+  "values": [
+    "minecraft:piglin_brute",
+    "minecraft:iron_golem",
+    "minecraft:shulker"
+  ]
 }

@@ -20,7 +20,6 @@
                     }
                   ]
                 },
-
                 "minecraft:custom_data": {
                   "stellarity.special_item": "frost_cloud_potion"
                 },

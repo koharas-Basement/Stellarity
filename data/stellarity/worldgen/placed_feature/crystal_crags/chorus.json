@@ -1,23 +1,23 @@
 {
-    "feature": {
-        "type": "minecraft:chorus_plant",
-        "config": {}
+  "feature": {
+    "type": "minecraft:chorus_plant",
+    "config": {}
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 3
+      }
     },
-    "placement": [
-        {
-            "type": "minecraft:count_on_every_layer",
-            "count": {
-                "type": "minecraft:uniform",
-                "min_inclusive": 0,
-                "max_inclusive": 3
-            }
-        },
-        {
-            "type": "minecraft:biome"
-        },
-        {
-            "type": "minecraft:rarity_filter",
-            "chance": 2
-        }
-    ]
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    }
+  ]
 }

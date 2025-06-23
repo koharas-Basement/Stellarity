@@ -1,14 +1,14 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:tag",
-					"name": "minecraft:beds",
-					"expand": true
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:beds",
+          "expand": true
+        }
+      ]
+    }
+  ]
 }

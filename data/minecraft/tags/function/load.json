@@ -1,6 +1,6 @@
 {
-	"values":[
-		"kohara:load",
-		"stellarity:init"
-	]
+  "values": [
+    "kohara:load",
+    "stellarity:init"
+  ]
 }

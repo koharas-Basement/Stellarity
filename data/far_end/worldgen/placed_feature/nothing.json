@@ -1,7 +1,7 @@
 {
-	"feature": {
-		"type": "minecraft:no_op",
-		"config": {}
-	},
-	"placement": []
+  "feature": {
+    "type": "minecraft:no_op",
+    "config": {}
+  },
+  "placement": []
 }

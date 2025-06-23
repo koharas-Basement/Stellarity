@@ -57,7 +57,10 @@
                 "minecraft:custom_data": {},
                 "minecraft:max_stack_size": 1,
                 "tooltip_display": {
-                  "hidden_components": ["attribute_modifiers", "enchantments"]
+                  "hidden_components": [
+                    "attribute_modifiers",
+                    "enchantments"
+                  ]
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.trinkets.duskberry",

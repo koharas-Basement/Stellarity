@@ -11,7 +11,9 @@
               "function": "minecraft:set_components",
               "components": {
                 "tooltip_display": {
-                  "hidden_components": ["banner_patterns"]
+                  "hidden_components": [
+                    "banner_patterns"
+                  ]
                 },
                 "minecraft:max_damage": 512,
                 "minecraft:custom_data": {

@@ -21,7 +21,6 @@
                 },
                 "consumable": {
                   "consume_seconds": 1.5,
-
                   "on_consume_effects": [
                     {
                       "type": "apply_effects",

@@ -66,7 +66,11 @@
                 },
                 "minecraft:max_damage": 755,
                 "rarity": "uncommon",
-                "minecraft:item_name": "{\"translate\": \"stellarity.items.armors.shulker_armor.leggings\", \"color\": \"#976A97\", \"italic\": false}"
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.armors.shulker_armor.leggings",
+                  "color": "#976A97",
+                  "italic": false
+                }
               }
             },
             {

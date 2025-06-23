@@ -5,7 +5,9 @@
     "slots": {
       "weapon.*": {
         "predicates": {
-          "minecraft:custom_data": "{stellarity.special_item:\"endonomicon\"}"
+          "minecraft:custom_data": {
+            "stellarity.special_item": "endonomicon"
+          }
         }
       }
     }

@@ -54,9 +54,10 @@
                     "slot": "chest"
                   }
                 ],
-
                 "tooltip_display": {
-                  "hidden_components": ["attribute_modifiers"]
+                  "hidden_components": [
+                    "attribute_modifiers"
+                  ]
                 }
               }
             }

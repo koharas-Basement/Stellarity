@@ -34,7 +34,6 @@
                   "translate": "stellarity.items.trinkets.decayed_clover",
                   "italic": false
                 },
-
                 "minecraft:custom_data": {
                   "stellarity.special_item": "decayed_clover"
                 }

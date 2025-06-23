@@ -1,7 +1,7 @@
 {
-	"values":[
-		"#stellarity:_worldgen/stalactites_replacable",
-		"obsidian",
-		"crying_obsidian"
-	]
+  "values": [
+    "#stellarity:_worldgen/stalactites_replacable",
+    "obsidian",
+    "crying_obsidian"
+  ]
 }

@@ -24,7 +24,9 @@
                   "stellarity:_technical/prismatic_pearl_return": 1
                 },
                 "tooltip_display": {
-                  "hidden_components": ["enchantments"]
+                  "hidden_components": [
+                    "enchantments"
+                  ]
                 },
                 "enchantment_glint_override": false,
                 "use_cooldown": {

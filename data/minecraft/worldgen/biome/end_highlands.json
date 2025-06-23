@@ -1,77 +1,77 @@
 {
-	"temperature": 0.5,
-	"downfall": 0.5,
-	"has_precipitation": false,
-	"effects": {
-		"sky_color": 0,
-		"fog_color": 0,
-		"water_color": 6057456,
-		"water_fog_color": 6060528,
-		"grass_color": 12669904,
-		"foliage_color": 15652590,
-		"ambient_sound": {
-			"sound_id": "stellarity:ambient.end.heavenly.grim"
-		},
-		"mood_sound": {
-			"sound": "minecraft:ambient.crimson_forest.mood",
-			"tick_delay": 850,
-			"block_search_extent": 2,
-			"offset": 2
-		},
-		"additions_sound": {
-			"sound": "minecraft:ambient.crimson_forest.additions",
-			"tick_chance": 0.0013
-		},
-		"particle": {
-			"options": {
-				"type": "white_ash"
-			},
-			"probability": 0.003
-		}
-	},
-	"spawners": {
-		"monster": [
-			{
-				"type": "minecraft:enderman",
-				"weight": 20,
-				"minCount": 4,
-				"maxCount": 4
-			}
-		]
-	},
-	"spawn_costs": {},
-	"carvers": [],
-	"features": [
-		[
-			"stellarity:global/stalactite"
-		],
-		[
-			"stellarity:end_midlands/obsidian_spike"
-		],
-		[
-			"stellarity:highlands/dirt_patches/large",
-			"stellarity:highlands/dirt_patches/small"
-		],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[
-			"stellarity:highlands/huge_chorus/bud",
-			"stellarity:highlands/huge_chorus/stacked_trees_1",
-			"stellarity:highlands/huge_chorus/stacked_trees_2",
-			"stellarity:highlands/chorus_patch",
-			"stellarity:highlands/chorus_patch_leaves",
-			"stellarity:highlands/bush",
-			"stellarity:highlands/patch_pitcher_pod",
-			"stellarity:highlands/grass",
-			"stellarity:highlands/roots"
-		],
-		[
-			"stellarity:global/end_dungeon",
-			"stellarity:global/fossil"
-		]
-	]
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 6057456,
+    "water_fog_color": 6060528,
+    "grass_color": 12669904,
+    "foliage_color": 15652590,
+    "ambient_sound": {
+      "sound_id": "stellarity:ambient.end.heavenly.grim"
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 850,
+      "block_search_extent": 2,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0013
+    },
+    "particle": {
+      "options": {
+        "type": "white_ash"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [
+      "stellarity:global/stalactite"
+    ],
+    [
+      "stellarity:end_midlands/obsidian_spike"
+    ],
+    [
+      "stellarity:highlands/dirt_patches/large",
+      "stellarity:highlands/dirt_patches/small"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "stellarity:highlands/huge_chorus/bud",
+      "stellarity:highlands/huge_chorus/stacked_trees_1",
+      "stellarity:highlands/huge_chorus/stacked_trees_2",
+      "stellarity:highlands/chorus_patch",
+      "stellarity:highlands/chorus_patch_leaves",
+      "stellarity:highlands/bush",
+      "stellarity:highlands/patch_pitcher_pod",
+      "stellarity:highlands/grass",
+      "stellarity:highlands/roots"
+    ],
+    [
+      "stellarity:global/end_dungeon",
+      "stellarity:global/fossil"
+    ]
+  ]
 }

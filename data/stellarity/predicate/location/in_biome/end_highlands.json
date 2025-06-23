@@ -1,6 +1,6 @@
 {
-	"condition": "minecraft:location_check",
-	"predicate": {
-		"biomes": "minecraft:end_highlands"
-	}
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": "minecraft:end_highlands"
+  }
 }

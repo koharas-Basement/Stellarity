@@ -17,7 +17,11 @@
       }
     }
   },
-  "requirements": [["trigger"]],
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ],
   "rewards": {
     "function": "stellarity:item/porta_altar/item_frame/advancement"
   }

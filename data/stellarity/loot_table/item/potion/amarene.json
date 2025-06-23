@@ -39,7 +39,9 @@
                   ]
                 },
                 "tooltip_display": {
-                  "hidden_components": ["potion_contents"]
+                  "hidden_components": [
+                    "potion_contents"
+                  ]
                 },
                 "minecraft:custom_name": {
                   "translate": "stellarity.items.potions.amarena",
@@ -47,7 +49,6 @@
                   "italic": false
                 },
                 "minecraft:enchantment_glint_override": true,
-
                 "minecraft:custom_data": {
                   "stellarity.special_item": "amarene"
                 }
