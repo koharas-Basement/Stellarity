@@ -47,7 +47,7 @@
                 },
                 "attribute_modifiers": [
                   {
-                    "id": "minecraft:",
+                    "id": "stellarity.phantom_wings.gravity",
                     "type": "gravity",
                     "operation": "add_multiplied_total",
                     "amount": 0.65,
