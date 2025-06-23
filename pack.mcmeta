@@ -1,15 +1,15 @@
 {
-	"pack": {
-		"pack_format": 61,
-		"supported_formats": {
-			"min_inclusive": 61,
-			"max_inclusive": 61
-		},
-		"description": [
-			{
-				"text": "This ender expansion is kinda beyond hardcore :drum:",
-				"color": "#CB4BFF"
-			}
-		]
-	}
+  "pack": {
+    "pack_format": 80,
+    "supported_formats": {
+      "min_inclusive": 80,
+      "max_inclusive": 80
+    },
+    "description": [
+      {
+        "text": "This ender expansion is kinda beyond hardcore :drum:",
+        "color": "#CB4BFF"
+      }
+    ]
+  }
 }

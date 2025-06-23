@@ -6,4 +6,4 @@ execute if entity @s[predicate=stellarity:item/holding/spellbooks/return] run fu
 
 execute if entity @s[predicate=stellarity:item/holding/porta_altar] run function stellarity:item/porta_altar/use
 
-execute if entity @s[predicate=stellarity:item/holding/endonomicon_no_lavender] run function stellarity:item/endonomicon/right_click_no_lavender
+execute if entity @s[predicate=stellarity:item/holding/endonomicon] run function stellarity:item/endonomicon/right_click
