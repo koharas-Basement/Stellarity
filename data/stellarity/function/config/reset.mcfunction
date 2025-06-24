@@ -10,3 +10,4 @@ scoreboard players reset #stellarity.config stellarity.config.enable_creative_sh
 scoreboard players reset #stellarity.config stellarity.config.nerf_elytra
 scoreboard players reset #stellarity.config stellarity.config.enable_end_crystal_drop
 scoreboard players reset #stellarity.config stellarity.config.enable_totem_void_saving
+scoreboard players reset #stellarity.config stellarity.config.migrate_vaults

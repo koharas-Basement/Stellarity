@@ -1,20 +1,20 @@
 tellraw @s ["\n",{"text":"Stellarity","color":"#f100f1","bold":true}," ",{"text":"Configuration","color":"white","bold":true}]
 
 tellraw @s [\
-	"\n",\
-	{"text":"Click config entries' names to edit them through the use of scoreboards!","color":"white"},\
-	"\n",\
-	{"text":"Set a scoreboard to ","color":"white"},\
-	{"text":"1","color":"green"},\
-	{"text":" to ","color":"white"},\
-	{"text":"Enable","color":"green"},\
-	{"text":" something, or set it to ","color":"white"},\
-	{"text":"0","color":"red"},\
-	{"text":" to ","color":"white"},\
-	{"text":"Disable","color":"red"},\
-	{"text":" it instead! ","color":"white"},\
-	"\n"\
-	]
+"\n",\
+{"text":"Click config entries' names to edit them through the use of scoreboards!","color":"white"},\
+"\n",\
+{"text":"Set a scoreboard to ","color":"white"},\
+{"text":"1","color":"green"},\
+{"text":" to ","color":"white"},\
+{"text":"Enable","color":"green"},\
+{"text":" something, or set it to ","color":"white"},\
+{"text":"0","color":"red"},\
+{"text":" to ","color":"white"},\
+{"text":"Disable","color":"red"},\
+{"text":" it instead! ","color":"white"},\
+"\n"\
+]
 
 function stellarity:util/tellraw/config {title:"Join Message",description:"Whether to send a short message about Stellarity being loaded upon entering this world. Modpack developers are asked to check the 'Disable Join Message Globally' addon!",default:'{"translate":"stellarity.config.enabled","color":"#91FF7B"}',score:"join_message",numerical:0,suggested_value:1}
 
@@ -39,6 +39,8 @@ function stellarity:util/tellraw/config {title:"Enable End City Creative Shock",
 function stellarity:util/tellraw/config {title:"Nerf Elytra",description:"Nerfs the Elytra by making them take extra damage from boosting.",default:'{"translate":"stellarity.config.enabled","color":"#91FF7B"}',score:"nerf_elytra",numerical:0,suggested_value:1}
 
 function stellarity:util/tellraw/config {title:"Boss Status Messages",description:"Sends global messages when a Stellarity boss is summoned, killed or despawns.",default:'{"translate":"stellarity.config.enabled","color":"#91FF7B"}',score:"boss_status_messages",numerical:0,suggested_value:1}
+
+function stellarity:util/tellraw/config {title:"Enable Vault Migrations",description:"Allows conversion from old vaults to be work with new keys.",default:'{"translate":"stellarity.config.enabled","color":"#91FF7B"}',score:"migrate_vaults",numerical:0,suggested_value:1}
 
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 

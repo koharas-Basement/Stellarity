@@ -65,6 +65,8 @@
   "stellarity.config.boss_status_messages.description": "Sends global messages when a Stellarity boss is summoned, killed or despawns.",
   "stellarity.config.enable_end_crystal_drop.title": "Enable End Crystal Drop",
   "stellarity.config.enable_end_crystal_drop.description": "Makes End Crystals drop themselves on left-click instead of exploding.",
+  "stellarity.config.migrate_vaults.title": "Migrate Vaults",
+  "stellarity.config.migrate_vaults.description": "Migrates old bugged vaults to be compatiable with new keys. Enable if you have old vaults. Migration happens when player is holding the associated key next to the vault for about 5 seconds.",
 
   "enchantment.stellarity.ambush.description": "Deals extra damage to mobs that aren't actively targetting you",
   "enchantment.stellarity.critical_strike.description": "Chance to deal double damage",
