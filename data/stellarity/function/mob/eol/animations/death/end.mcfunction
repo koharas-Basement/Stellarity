@@ -18,4 +18,4 @@ bossbar set stellarity:eol players
 
 execute as @a run function stellarity:mob/eol/music/reset
 
-execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.empress_of_light.death","with":[{"translate":"stellarity.mobs.empress"}],"color":"#AF4BFF"},"\n"]
+execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.eol.death","with":[{"translate":"stellarity.mobs.empress"}],"color":"#AF4BFF"},"\n"]
