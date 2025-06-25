@@ -5,8 +5,9 @@ tp @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing] ^ ^-1.5 ^
 ## Wings
   # Start
 
-  execute if score #eol.wing_flap stellarity.eol.animation matches 1 as @n[type=block_display,tag=stellarity.eol.wing.1] on passengers run rotate @s ~7.5 ~
-  execute if score #eol.wing_flap stellarity.eol.animation matches 1 as @n[type=block_display,tag=stellarity.eol.wing.2] on passengers run rotate @s ~172.5 ~
+
+execute if score #eol.wing_flap stellarity.eol.animation matches 1 as @n[type=block_display,tag=stellarity.eol.wing.1] on passengers run rotate @s ~7.5 ~
+execute if score #eol.wing_flap stellarity.eol.animation matches 1 as @n[type=block_display,tag=stellarity.eol.wing.2] on passengers run rotate @s ~172.5 ~
 
 execute if score #eol.wing_flap stellarity.eol.animation matches 2 as @n[type=block_display,tag=stellarity.eol.wing.1] on passengers run rotate @s ~11.25 ~
 execute if score #eol.wing_flap stellarity.eol.animation matches 2 as @n[type=block_display,tag=stellarity.eol.wing.2] on passengers run rotate @s ~168.75 ~

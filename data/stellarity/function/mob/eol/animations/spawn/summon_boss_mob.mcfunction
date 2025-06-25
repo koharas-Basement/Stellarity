@@ -16,15 +16,13 @@ execute if predicate stellarity:mob/eol/is_daytime run data merge entity @n[type
 head:{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;27748125,144067456,-1274466997,-1657885897],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjNzA1ZDhkZTc4ZTZiMDdjNjdiMTVlNDRiM2NlY2VlNDM0OWZmMTJlODFlNWU0NzdiYWU2YjYyZDI2OGJmIn19fQ=="}]}},count:1b},\
 chest:{id:"minecraft:leather_chestplate",components:{"minecraft:dyed_color":16765255},count:1b},\
 legs:{id:"minecraft:leather_leggings",components:{"minecraft:dyed_color":16765255},count:1b},\
-feet:{id:"minecraft:leather_boots",components:{"minecraft:dyed_color":3847130},count:1b}}}
-
-# execute unless predicate stellarity:mob/eol/is_daytime run data merge entity @n[type=armor_stand,tag=stellarity.eol.as] {ArmorItems:[{id:"minecraft:leather_boots",components:{"minecraft:dyed_color":3847130},count:1b},{id:"minecraft:leather_leggings",components:{"minecraft:dyed_color":13061821},count:1b},{id:"minecraft:leather_chestplate",components:{"minecraft:dyed_color":13061821},count:1b},{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;27748125,144067456,-1274466997,-1657885897],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjNzA1ZDhkZTc4ZTZiMDdjNjdiMTVlNDRiM2NlY2VlNDM0OWZmMTJlODFlNWU0NzdiYWU2YjYyZDI2OGJmIn19fQ=="}]}},count:1b}]}
+feet:{id:"minecraft:leather_boots",components:{"minecraft:dyed_color":3847130},count:1b}, mainhand:{id:"acacia_boat",components:{item_model:"stellarity:soaring_insignia"}},offhand:{id:"acacia_boat",components:{item_model:"stellarity:kaleidoscope"}}}}
 
 execute unless predicate stellarity:mob/eol/is_daytime run data merge entity @n[type=armor_stand,tag=stellarity.eol.as] {equipment:{\
 head:{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;27748125,144067456,-1274466997,-1657885897],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjNzA1ZDhkZTc4ZTZiMDdjNjdiMTVlNDRiM2NlY2VlNDM0OWZmMTJlODFlNWU0NzdiYWU2YjYyZDI2OGJmIn19fQ=="}]}},count:1b},\
 chest:{id:"minecraft:leather_chestplate",components:{"minecraft:dyed_color":13061821},count:1b},\
 legs:{id:"minecraft:leather_leggings",components:{"minecraft:dyed_color":13061821},count:1b},\
-feet:{id:"minecraft:leather_boots",components:{"minecraft:dyed_color":3847130},count:1b}}}
+feet:{id:"minecraft:leather_boots",components:{"minecraft:dyed_color":3847130},count:1b},mainhand:{id:"acacia_boat",components:{item_model:"stellarity:prismatic_punch"}},offhand:{id:"acacia_boat",components:{item_model:"stellarity:prismember"}}}}
 
 # Rotate the armor stand to face the nearest player
   execute as @n[type=vindicator,tag=stellarity.eol] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
