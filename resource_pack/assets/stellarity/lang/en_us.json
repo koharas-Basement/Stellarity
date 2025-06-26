@@ -49,6 +49,8 @@
   "stellarity.config.eol_health.description": "Changes maximum health of the Empress of Light. Max: 1024",
   "stellarity.config.allow_disenchanting.title": "Enable Disenchanting",
   "stellarity.config.allow_disenchanting.description": "Makes Altar of The Accursed able to unbind enchantments from an enchanted item by combining it with a normal book. Could be considered a bit overpowered.",
+  "stellarity.config.enable_totem_void_saving.title": "Enable Totem Void Saving",
+  "stellarity.config.enable_totem_void_saving.description": "Makes Totems of Undying save you from The Void.",
   "stellarity.config.enable_treasure_heads.title": "Enable Treasure Heads",
   "stellarity.config.enable_treasure_heads.description": "Makes Treasure Heads randomly generate inside of some loot chests (The End). They serve as some funny little collectibles.",
   "stellarity.config.track_loop_delay.dragon.title": "Dragon Music Loop Delay",
