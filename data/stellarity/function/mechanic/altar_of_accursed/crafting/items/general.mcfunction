@@ -1,7 +1,7 @@
 # Cursed Enchiridion
 execute if score @s stellarity.misc matches 1 \
    if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.enchanted_book,scores={stellarity.aota.count=1}] \
-   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_generic {loot:"stellarity:item/special/endonomicon"}
+   run function stellarity:mechanic/altar_of_accursed/crafting/items/special/endonomicon
 
 # Chorus Plating
 execute if score @s stellarity.misc matches 2 \
