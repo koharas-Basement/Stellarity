@@ -14,7 +14,7 @@
                 "minecraft:custom_data": {
                   "stellarity.special_item": "chorus_juice"
                 },
-                "minecraft:item_name": {
+                "minecraft:custom_name": {
                   "translate": "stellarity.items.food.chorus_juice"
                 },
                 "minecraft:potion_contents": {
