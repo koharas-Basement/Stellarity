@@ -12,27 +12,27 @@
     "description": [
       "\n",
       {
-        "text": "%",
         "font": "stellarity:aota",
+        "text": "%",
         "color": "white"
       },
       " ",
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       {
-        "text": "&",
         "font": "stellarity:aota",
+        "text": "&",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
-        "text": "2",
         "font": "default",
+        "text": "2",
         "color": "white"
       }
     ],

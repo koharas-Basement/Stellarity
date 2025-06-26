@@ -12,82 +12,82 @@
     "description": [
       "\n",
       {
-        "text": ".",
         "font": "stellarity:aota",
+        "text": ".",
         "color": "white"
       },
       " ",
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       {
+        "font": "stellarity:aota",
         "text": "/",
-        "font": "stellarity:aota",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
-      },
-      {
-        "text": "64",
         "font": "default",
+        "translate": "space.-3"
+      },
+      {
+        "font": "default",
+        "text": "64",
         "color": "white"
       },
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       {
+        "font": "stellarity:aota",
         "text": "0",
-        "font": "stellarity:aota",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
+        "font": "default",
         "text": "2",
-        "font": "default",
         "color": "white"
       },
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       {
-        "text": "(",
         "font": "stellarity:aota",
+        "text": "(",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
-      },
-      {
-        "text": "64",
         "font": "default",
+        "translate": "space.-3"
+      },
+      {
+        "font": "default",
+        "text": "64",
         "color": "white"
       },
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       "\n\n",
       {
-        "text": "-",
         "font": "stellarity:aota",
+        "text": "-",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
-        "text": "4",
         "font": "default",
+        "text": "4",
         "color": "white"
       }
     ],

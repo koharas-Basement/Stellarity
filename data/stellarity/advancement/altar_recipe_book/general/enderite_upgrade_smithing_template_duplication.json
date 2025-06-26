@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "stellarity.enderite_smithing_template",
-      "components": {}
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "stellarity:enderite_smithing_template"
+      }
     },
     "title": [
       "Enderite Upgrade Smithing Template Duplication"
@@ -10,45 +12,45 @@
     "description": [
       "\n",
       {
-        "text": "!",
         "font": "stellarity:aota",
+        "text": "!",
         "color": "white"
       },
       " ",
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       {
+        "font": "stellarity:aota",
         "text": "'",
-        "font": "stellarity:aota",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
+        "font": "default",
         "text": "9",
-        "font": "default",
         "color": "white"
       },
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.3"
       },
       {
-        "text": "(",
         "font": "stellarity:aota",
+        "text": "(",
         "color": "white"
       },
       {
-        "translate": "space.-3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
-        "text": "5",
         "font": "default",
+        "text": "5",
         "color": "white"
       }
     ],

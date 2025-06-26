@@ -12,36 +12,36 @@
     "description": [
       "\n",
       {
-        "text": "!",
         "font": "stellarity:aota",
+        "text": "!",
         "color": "white"
       },
       " ",
       {
-        "translate": "space.3",
-        "font": "default"
-      },
-      {
-        "text": "#",
-        "font": "stellarity:aota",
-        "color": "white"
-      },
-      {
-        "translate": "space.-3",
-        "font": "default"
-      },
-      {
-        "text": "4",
         "font": "default",
+        "translate": "space.3"
+      },
+      {
+        "font": "stellarity:aota",
+        "text": "#",
         "color": "white"
       },
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
-        "text": "5",
+        "font": "default",
+        "text": "4",
+        "color": "white"
+      },
+      {
+        "font": "default",
+        "translate": "space.3"
+      },
+      {
         "font": "stellarity:aota",
+        "text": "5",
         "color": "white"
       },
       " "

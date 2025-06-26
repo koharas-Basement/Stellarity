@@ -7,13 +7,13 @@
       }
     },
     "title": [
-      "Cursed Enchiridion"
+      "Endonomicon"
     ],
     "description": [
       "\n",
       {
-        "text": " ",
         "font": "stellarity:aota",
+        "text": " ",
         "color": "white"
       },
       " "

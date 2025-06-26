@@ -12,46 +12,46 @@
     "description": [
       "\n",
       {
+        "font": "stellarity:aota",
         "text": "!",
-        "font": "stellarity:aota",
         "color": "white"
       },
       " ",
       {
-        "translate": "space.3",
-        "font": "default"
-      },
-      {
-        "text": "9",
-        "font": "stellarity:aota",
-        "color": "white"
-      },
-      " ",
-      {
-        "translate": "space.3",
-        "font": "default"
-      },
-      {
-        "text": "(",
-        "font": "stellarity:aota",
-        "color": "white"
-      },
-      {
-        "translate": "space.-3",
-        "font": "default"
-      },
-      {
-        "text": "8",
         "font": "default",
+        "translate": "space.3"
+      },
+      {
+        "font": "stellarity:aota",
+        "text": "9",
+        "color": "white"
+      },
+      " ",
+      {
+        "font": "default",
+        "translate": "space.3"
+      },
+      {
+        "font": "stellarity:aota",
+        "text": "(",
         "color": "white"
       },
       {
-        "translate": "space.3",
-        "font": "default"
+        "font": "default",
+        "translate": "space.-3"
       },
       {
-        "text": "@",
+        "font": "default",
+        "text": "8",
+        "color": "white"
+      },
+      {
+        "font": "default",
+        "translate": "space.3"
+      },
+      {
         "font": "stellarity:aota",
+        "text": "@",
         "color": "white"
       },
       " "
