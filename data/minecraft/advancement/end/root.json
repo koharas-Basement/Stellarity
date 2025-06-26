@@ -10,7 +10,7 @@
       "translate": "advancements.end.root.description",
       "color": "#E562FF"
     },
-    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "background": "minecraft:gui/advancements/backgrounds/end",
     "frame": "goal",
     "show_toast": false,
     "announce_to_chat": false,
