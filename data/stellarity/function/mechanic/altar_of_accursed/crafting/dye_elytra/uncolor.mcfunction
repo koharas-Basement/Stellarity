@@ -16,4 +16,4 @@ playsound minecraft:entity.generic.splash block @a[distance=0..] ~ ~-.4 ~ 1 1.2
 playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~-.4 ~ 0.25 2
 playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~-.4 ~ 0.25 1
 
-function stellarity:mechanic/altar_of_accursed/crafting/global_effects_wave
+# function stellarity:mechanic/altar_of_accursed/crafting/global_effects_wave

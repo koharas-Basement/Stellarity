@@ -1,6 +1,6 @@
 tag @s add stellarity.eol.nighttime
 
-data merge entity @s {CustomName:'{"translate":"stellarity.mobs.empress","color":"light_purple"}'}
+data merge entity @s {CustomName:{"translate":"stellarity.mobs.empress","color":"light_purple"}}
 
 bossbar set stellarity:eol color pink
 bossbar set stellarity:eol name [{"translate":"stellarity.mobs.empress","color":"light_purple"}]
