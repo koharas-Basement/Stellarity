@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "stellarity.enderite_smithing_template",
+      "components": {}
+    },
+    "title": [
+      "Enderite Upgrade Smithing Template Duplication"
+    ],
+    "description": [
+      "\n",
+      {
+        "text": "!",
+        "font": "stellarity:aota",
+        "color": "white"
+      },
+      " ",
+      {
+        "translate": "space.3",
+        "font": "default"
+      },
+      {
+        "text": "'",
+        "font": "stellarity:aota",
+        "color": "white"
+      },
+      {
+        "translate": "space.-3",
+        "font": "default"
+      },
+      {
+        "text": "9",
+        "font": "default",
+        "color": "white"
+      },
+      {
+        "translate": "space.3",
+        "font": "default"
+      },
+      {
+        "text": "(",
+        "font": "stellarity:aota",
+        "color": "white"
+      },
+      {
+        "translate": "space.-3",
+        "font": "default"
+      },
+      {
+        "text": "5",
+        "font": "default",
+        "color": "white"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "stellarity:altar_recipe_book/root",
+  "criteria": {
+    "recipe": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}
