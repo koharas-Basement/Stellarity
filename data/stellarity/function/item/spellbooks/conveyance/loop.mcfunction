@@ -1,4 +1,5 @@
 # Age
+
 scoreboard players add @s stellarity.misc 1
 
 tp @s ^ ^ ^1.1

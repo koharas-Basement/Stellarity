@@ -403,6 +403,7 @@
   "stellarity.items.spellbooks.updraft.description.1": "Propels you upwards with a strong gust of wind",
   "stellarity.items.spellbooks.updraft.description.2": "and then grants the ability to glide for a short time",
   "stellarity.items.spellbooks.updraft.description.3": "Cooldown starts ticking after landing",
+  "stellarity.items.spellbooks.notification": "Book is ready.",
 
   "stellarity.items.tools.shulker.axe": "Shulker Axe",
   "stellarity.items.tools.shulker.hoe": "Shulker Hoe",
