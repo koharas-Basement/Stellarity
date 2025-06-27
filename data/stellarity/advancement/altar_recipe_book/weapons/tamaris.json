@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "stellarity:tamaris"
+      }
+    },
+    "title": [
+      "Tamaris"
+    ],
+    "description": [
+      "\n",
+      {
+        "font": "stellarity:aota",
+        "text": "!",
+        "color": "white"
+      },
+      " ",
+      {
+        "font": "default",
+        "translate": "space.3"
+      },
+      {
+        "font": "stellarity:aota",
+        "text": "9",
+        "color": "white"
+      },
+      " ",
+      {
+        "font": "default",
+        "translate": "space.3"
+      },
+      {
+        "font": "stellarity:aota",
+        "text": "(",
+        "color": "white"
+      },
+      {
+        "font": "default",
+        "translate": "space.-3"
+      },
+      {
+        "font": "default",
+        "text": "8",
+        "color": "white"
+      },
+      {
+        "font": "default",
+        "translate": "space.3"
+      },
+      {
+        "font": "stellarity:aota",
+        "text": "@",
+        "color": "white"
+      },
+      " "
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "frame": "task"
+  },
+  "parent": "stellarity:altar_recipe_book/root",
+  "criteria": {
+    "recipe": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

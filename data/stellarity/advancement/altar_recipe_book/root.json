@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "components": {
+        "minecraft:item_model": "stellarity:endonomicon"
+      }
+    },
+    "title": [
+      {
+        "translate": "stellarity.advancements.aota_recipe_book",
+        "bold": true,
+        "color": "dark_purple"
+      }
+    ],
+    "description": [
+      {
+        "translate": "stellarity.advancements.aota_recipe_book.description"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "frame": "task",
+    "background": "minecraft:block/obsidian"
+  },
+  "criteria": {
+    "recipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "stellarity.special_item": "endonomicon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

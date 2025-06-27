@@ -1,12 +1,12 @@
 {
-	"feature": "stellarity:highlands/grass",
-	"placement": [
-		{
-			"type": "minecraft:count_on_every_layer",
-			"count": 7
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "stellarity:highlands/grass",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 7
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

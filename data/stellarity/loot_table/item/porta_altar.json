@@ -1,77 +1,79 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"text": ""
-								},
-								{
-									"translate": "stellarity.items.porta_altar.description.1",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.porta_altar.description.2",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.porta_altar.description.3",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.porta_altar.description.4",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.porta_altar.description.5",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.porta_altar.description.5",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							],
-							"mode": "replace_all"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "stellarity:porta_altar",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "porta_altar",
-									"kohara.right_click": true
-								},
-								"rarity": "epic",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.porta_altar\"}",
-								"!max_damage": {},
-								"damage_resistant": {
-									"types": "#is_fire"
-								}
-							}
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "stellarity.items.porta_altar.description.1",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.porta_altar.description.2",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.porta_altar.description.3",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.porta_altar.description.4",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.porta_altar.description.5",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.porta_altar.description.5",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:porta_altar",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "porta_altar",
+                  "kohara.right_click": true
+                },
+                "rarity": "epic",
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.porta_altar"
+                },
+                "!max_damage": {},
+                "damage_resistant": {
+                  "types": "#is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

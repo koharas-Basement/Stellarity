@@ -1,21 +1,21 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:item/food/fish/ender_koi"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:item/food/fish/overgrown_cod"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:item/food/fish/frost_minnow"
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/food/fish/ender_koi"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/food/fish/overgrown_cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/food/fish/frost_minnow"
+        }
+      ]
+    }
+  ]
 }

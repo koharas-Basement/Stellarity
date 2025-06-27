@@ -1,44 +1,48 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "stellarity:chorus_plating",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_plating"
-								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.chorus_plating\", \"color\": \"#A372C3\", \"italic\": false}"
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"mode": "replace_all",
-							"entity": "this",
-							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.materials.upgrade",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:chorus_plating",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "chorus_plating"
+                },
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.materials.chorus_plating",
+                  "color": "#A372C3",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                "",
+                {
+                  "translate": "stellarity.items.materials.upgrade",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

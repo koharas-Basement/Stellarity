@@ -1,45 +1,47 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:amethyst_shard",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "stellarity:enderite_shard",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "enderite_shard"
-								},
-								"minecraft:rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.materials.enderite_shard\"}"
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"mode": "replace_all",
-							"entity": "this",
-							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.materials.enderite_shard.description",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:enderite_shard",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "enderite_shard"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.materials.enderite_shard"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                "",
+                {
+                  "translate": "stellarity.items.materials.enderite_shard.description",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

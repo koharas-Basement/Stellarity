@@ -1,2 +1,0 @@
-tellraw @s [{"text": "| ","color":"gray","bold":true},{"translate": "stellarity.items.endonomicon.no_lavender.info","color": "#ff6fe0","with":[{"text": "Lavender","bold": true,"color":"#d979ff"}],"bold":false}]
-tellraw @s [{"text": "| ","color":"gray","bold":true},{"translate": "stellarity.items.endonomicon.no_lavender.dl","underlined": true,"italic": true,"color": "blue","clickEvent": {"action": "open_url","value":"https://modrinth.com/mod/lavender"},"bold": false}]

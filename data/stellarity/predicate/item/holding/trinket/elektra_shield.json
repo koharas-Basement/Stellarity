@@ -1,13 +1,15 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"slots": {
-			"weapon.*": {
-				"predicates": {
-					"minecraft:custom_data": "{stellarity.special_item:\"copper_elektra_shield\"}"
-				}
-			}
-		}
-	}
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "stellarity.special_item": "copper_elektra_shield"
+          }
+        }
+      }
+    }
+  }
 }

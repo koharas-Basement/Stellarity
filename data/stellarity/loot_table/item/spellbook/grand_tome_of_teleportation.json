@@ -1,70 +1,74 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:enchantment_glint_override": true,
-								"minecraft:item_model": "stellarity:book_of_conveyance",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "book_of_conveyance",
-									"kohara.right_click": true
-								},
-								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.spellbooks.conveyance\", \"color\": \"#A946E7\", \"italic\": false}",
-								"!max_damage": {}
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"mode": "replace_all",
-							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.spellbooks.conveyance.description.1",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.spellbooks.conveyance.description.2",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.spellbooks.conveyance.description.3",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "stellarity.items.spellbooks.cooldown",
-									"color": "#9E9E9E",
-									"italic": false,
-									"with": [
-										{
-											"text": "20",
-											"color": "#C6C6C6",
-											"italic": false
-										}
-									]
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_model": "stellarity:book_of_conveyance",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "book_of_conveyance",
+                  "kohara.right_click": true
+                },
+                "rarity": "uncommon",
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.spellbooks.conveyance",
+                  "color": "#A946E7",
+                  "italic": false
+                },
+                "!max_damage": {}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                "",
+                {
+                  "translate": "stellarity.items.spellbooks.conveyance.description.1",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.spellbooks.conveyance.description.2",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.spellbooks.conveyance.description.3",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "stellarity.items.spellbooks.cooldown",
+                  "color": "#9E9E9E",
+                  "italic": false,
+                  "with": [
+                    {
+                      "text": "20",
+                      "color": "#C6C6C6",
+                      "italic": false
+                    }
+                  ]
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

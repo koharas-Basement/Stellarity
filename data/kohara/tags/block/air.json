@@ -1,7 +1,7 @@
 {
-	"values": [
-		"air",
-		"cave_air",
-		"void_air"
-	]
+  "values": [
+    "air",
+    "cave_air",
+    "void_air"
+  ]
 }

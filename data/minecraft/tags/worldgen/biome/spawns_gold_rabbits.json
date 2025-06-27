@@ -1,10 +1,10 @@
 {
-	"values": [
-		{
-			"id": "far_end:end_wilds",
-			"required": false
-		},
-		"stellarity:end_wilds",
-		"stellarity:endless_dunes"
-	]
+  "values": [
+    {
+      "id": "far_end:end_wilds",
+      "required": false
+    },
+    "stellarity:end_wilds",
+    "stellarity:endless_dunes"
+  ]
 }

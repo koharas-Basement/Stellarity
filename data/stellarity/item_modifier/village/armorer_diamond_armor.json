@@ -1,41 +1,41 @@
 [
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:emerald",
-				"pattern": "minecraft:eye",
-				"show_in_tooltip": true
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:random_chance",
-				"chance": 0.5
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:amethyst",
-				"pattern": "minecraft:eye",
-				"show_in_tooltip": true
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:random_chance",
-				"chance": 0.5
-			}
-		]
-	},
-	{
-		"function": "minecraft:enchant_with_levels",
-		"levels": {
-			"min": 15,
-			"max": 31
-		}
-	}
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:emerald",
+        "pattern": "minecraft:eye",
+        "show_in_tooltip": true
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:amethyst",
+        "pattern": "minecraft:eye",
+        "show_in_tooltip": true
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "function": "minecraft:enchant_with_levels",
+    "levels": {
+      "min": 15,
+      "max": 31
+    }
+  }
 ]

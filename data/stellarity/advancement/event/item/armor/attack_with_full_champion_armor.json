@@ -1,54 +1,62 @@
 {
-	"parent": "stellarity:event/root",
-	"criteria": {
-		"criteria": {
-			"trigger": "minecraft:player_hurt_entity",
-			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"head": {
-									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
-									}
-								},
-								"chest": {
-									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
-									}
-								},
-								"legs": {
-									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
-									}
-								},
-								"feet": {
-									"components": {
-										"minecraft:custom_data": "{\"stellarity.special_item\": \"champion_armor\"}"
-									}
-								}
-							}
-						}
-					}
-				],
-				"damage": {
-					"type": {
-						"tags": [
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}
-						],
-						"is_direct": true
-					}
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "stellarity:item/armor/champion/attack"
-	}
+  "parent": "stellarity:event/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "stellarity.special_item": "champion_armor"
+                    }
+                  }
+                },
+                "chest": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "stellarity.special_item": "champion_armor"
+                    }
+                  }
+                },
+                "legs": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "stellarity.special_item": "champion_armor"
+                    }
+                  }
+                },
+                "feet": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "stellarity.special_item": "champion_armor"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "stellarity:melee",
+                "expected": true
+              }
+            ],
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "stellarity:item/armor/champion/attack"
+  }
 }

@@ -1,20 +1,20 @@
 {
-	"parent": "stellarity:event/root",
-	"criteria": {
-		"shot_clockwork_crossbow": {
-			"trigger": "minecraft:shot_crossbow",
-			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:custom_data": {
-							"stellarity.special_item": "clockwork_crossbow"
-						}
-					}
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "stellarity:item/clockwork_crossbow/shoot"
-	}
+  "parent": "stellarity:event/root",
+  "criteria": {
+    "shot_clockwork_crossbow": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity.special_item": "clockwork_crossbow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "stellarity:item/clockwork_crossbow/shoot"
+  }
 }

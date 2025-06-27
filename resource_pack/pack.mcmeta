@@ -1,21 +1,21 @@
 {
-	"pack": {
-		"pack_format": 46,
-		"supported_formats": {
-			"min_inclusive": 46,
-			"max_inclusive": 46
-		},
-		"description": [
-			{
-				"translate": "stellarity.pack_mcmeta.rp",
-				"fallback": "Optional resources for Stellarity",
-				"color": "#CB4BFF"
-			},
-			" ",
-			{
-				"text": "⭐",
-				"color": "gold"
-			}
-		]
-	}
+  "pack": {
+    "pack_format": 63,
+    "supported_formats": {
+      "min_inclusive": 63,
+      "max_inclusive": 63
+    },
+    "description": [
+      {
+        "translate": "stellarity.pack_mcmeta.rp",
+        "fallback": "Optional resources for Stellarity",
+        "color": "#CB4BFF"
+      },
+      " ",
+      {
+        "text": "⭐",
+        "color": "gold"
+      }
+    ]
+  }
 }

@@ -1,0 +1,301 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/enchanted_book.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        " "
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/enderite_upgrade_smithing_template.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "!"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_axe.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/shulker_shell.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "#"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_pickaxe.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "$"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/iron_ingot.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "%"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/popped_chorus_fruit.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\u0026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:block/purpur_block.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\u0027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/enderite_shard.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "("
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/chorus_plating.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        ")"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/book.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "*"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/ender_pearl.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "+"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/shield.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        ","
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_ingot.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "-"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/bundle.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "."
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/pixie_dust.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "/"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/nether_star.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_shovel.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_hoe.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/hallowed_ingot.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_helmet.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_chestplate.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_leggings.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_boots.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:block/cherry_leaves.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_sword.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/diamond.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        ":"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/phantom_membrane.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        ";"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/sharanga.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\u003c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/sand_rune.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\u003d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/trident.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\u003e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/breeze_rod.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "?"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/wither_skeleton_skull.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "@"
+      ]
+    }
+  ]
+}

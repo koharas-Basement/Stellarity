@@ -1,8 +1,8 @@
 {
-	"values": [
-		"#sand",
-		"#concrete_powder",
-		"gravel",
-		"suspicious_gravel"
-	]
+  "values": [
+    "#sand",
+    "#concrete_powder",
+    "gravel",
+    "suspicious_gravel"
+  ]
 }

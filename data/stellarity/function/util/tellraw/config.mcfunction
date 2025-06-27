@@ -2,11 +2,11 @@
 
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 
-$tellraw @s {"translate":"stellarity.config.$(score).title","color":"#C076E5","bold":true,"hoverEvent": {"action": "show_text","contents": [{"text": "stellarity.config.$(score)","color":"#DFDFDF"},"\n",{"translate":"stellarity.config.click_to_edit","color":"#CEADD6"},"\n",{"translate":"stellarity.config.default","color":"#C8ADD6","with":[$(default)]}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #stellarity.config stellarity.config.$(score) $(suggested_value)"}}
+$tellraw @s {"translate":"stellarity.config.$(score).title","color":"#C076E5","bold":true,"hover_event": {"action": "show_text","value": [{"text": "stellarity.config.$(score)","color":"#DFDFDF"},"\n",{"translate":"stellarity.config.click_to_edit","color":"#CEADD6"},"\n",{"translate":"stellarity.config.default","color":"#C8ADD6","with":[$(default)]}]},"click_event": {"action": "suggest_command","command": "/scoreboard players set #stellarity.config stellarity.config.$(score) $(suggested_value)"}}
 
 tellraw @s " "
 
-$tellraw @s [" ",{"translate":"stellarity.confg.$(score).description","color":"#C8ADD6"}]
+$tellraw @s [" ",{"translate":"stellarity.config.$(score).description","color":"#C8ADD6"}]
 
 tellraw @s " "
 

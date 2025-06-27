@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"values": [
-		"#minecraft:arrows",
-		"minecraft:firework_rocket"
-	]
+  "replace": false,
+  "values": [
+    "#minecraft:arrows",
+    "minecraft:firework_rocket"
+  ]
 }

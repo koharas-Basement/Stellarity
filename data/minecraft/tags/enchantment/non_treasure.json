@@ -1,8 +1,8 @@
 {
-	"values": [
-		"stellarity:plated",
-		"stellarity:soaring",
-		"stellarity:levitation_shot",
-		"stellarity:ambush"
-	]
+  "values": [
+    "stellarity:plated",
+    "stellarity:soaring",
+    "stellarity:levitation_shot",
+    "stellarity:ambush"
+  ]
 }

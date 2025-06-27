@@ -1,11 +1,15 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"equipment": {
-			"head": {
-				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"shulker_armor\"}"}
-			}
-		}
-	}
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "stellarity.special_item": "shulker_armor"
+          }
+        }
+      }
+    }
+  }
 }

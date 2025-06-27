@@ -1,6 +1,6 @@
 {
-	"values": [
-		"#minecraft:enchantable/bow",
-		"#minecraft:enchantable/crossbow"
-	]
+  "values": [
+    "#minecraft:enchantable/bow",
+    "#minecraft:enchantable/crossbow"
+  ]
 }

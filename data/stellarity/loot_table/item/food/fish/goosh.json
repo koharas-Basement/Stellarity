@@ -1,55 +1,57 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:slime_ball",
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "stellarity:goosh",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "goosh"
-								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.fish.goosh\"}"
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								"",
-								{
-									"translate": "stellarity.items.food.fish.goosh.description.1",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.food.dish.goosh.description.2",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "stellarity.items.food.fish.goosh.flavor_text",
-									"color": "#EEEEEE",
-									"italic": true
-								},
-								"",
-								{
-									"translate": "Stellarity",
-									"color": "#CC26FF",
-									"italic": true
-								}
-							],
-							"mode": "replace_all"
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:goosh",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "goosh"
+                },
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.fish.goosh"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "stellarity.items.food.fish.goosh.description.1",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                {
+                  "translate": "stellarity.items.food.dish.goosh.description.2",
+                  "color": "#EEEEEE",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "stellarity.items.food.fish.goosh.flavor_text",
+                  "color": "#EEEEEE",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

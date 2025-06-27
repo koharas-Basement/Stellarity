@@ -1,66 +1,66 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:leather_horse_armor",
-					"functions": [
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:armor",
-									"id": "minecraft:armor.body",
-									"amount": 16,
-									"operation": "add_value",
-									"slot": "body"
-								},
-								{
-									"attribute": "minecraft:armor_toughness",
-									"id": "minecraft:armor.body",
-									"amount": 6,
-									"operation": "add_value",
-									"slot": "body"
-								},
-								{
-									"attribute": "minecraft:movement_speed",
-									"id": "minecraft:armor.body",
-									"amount": 0.1,
-									"operation": "add_multiplied_base",
-									"slot": "body"
-								},
-								{
-									"attribute": "minecraft:movement_efficiency",
-									"id": "minecraft:armor.body",
-									"amount": 0.5,
-									"operation": "add_value",
-									"slot": "body"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:dyed_color": {
-									"rgb": 12219878,
-									"show_in_tooltip": false
-								},
-								"minecraft:item_model": "stellarity:reinforced_horse_armor",
-								"minecraft:custom_data": {
-									"stellarity.special_item": "reinforced_horse_armor"
-								},
-								"minecraft:damage_resistant": {
-									"types": "#is_fire"
-								},
-								"rarity": "uncommon",
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.armors.reinforced_horse_armor\", \"color\": \"#976A97\"}"
-							}
-						}
-					]
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "minecraft:armor.body",
+                  "amount": 16,
+                  "operation": "add_value",
+                  "slot": "body"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "minecraft:armor.body",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "body"
+                },
+                {
+                  "attribute": "minecraft:movement_speed",
+                  "id": "minecraft:armor.body",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "body"
+                },
+                {
+                  "attribute": "minecraft:movement_efficiency",
+                  "id": "minecraft:armor.body",
+                  "amount": 0.5,
+                  "operation": "add_value",
+                  "slot": "body"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 12219878,
+                "minecraft:item_model": "stellarity:reinforced_horse_armor",
+                "minecraft:custom_data": {
+                  "stellarity.special_item": "reinforced_horse_armor"
+                },
+                "minecraft:damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "rarity": "uncommon",
+                "minecraft:item_name": {
+                  "translate": "stellarity.items.armors.reinforced_horse_armor",
+                  "color": "#976A97"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

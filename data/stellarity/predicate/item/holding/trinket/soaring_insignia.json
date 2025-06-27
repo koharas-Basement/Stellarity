@@ -1,16 +1,18 @@
 {
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-		"slots": {
-			"container.*": {
-				"items": [
-					"minecraft:gold_nugget"
-				],
-				"predicates": {
-					"minecraft:custom_data": "{stellarity.special_item:\"soaring_insignia\"}"
-				}
-			}
-		}
-	}
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.*": {
+        "items": [
+          "minecraft:gold_nugget"
+        ],
+        "predicates": {
+          "minecraft:custom_data": {
+            "stellarity.special_item": "soaring_insignia"
+          }
+        }
+      }
+    }
+  }
 }

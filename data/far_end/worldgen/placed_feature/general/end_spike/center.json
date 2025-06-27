@@ -1,8 +1,8 @@
 {
-    "feature": "far_end:general/end_spike/center",
-    "placement": [
-        {
-            "type": "minecraft:biome"
-        }
-    ]
+  "feature": "far_end:general/end_spike/center",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

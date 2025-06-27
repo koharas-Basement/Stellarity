@@ -1,115 +1,112 @@
-## Hallowed
-# Helmet
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_helmet",loot:"stellarity:item/armor/hallowed/helmet"}
+# Hallowed Helmet
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet,scores={stellarity.aota.count=1}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/hallowed/helmet", parent:"minecraft.netherite_helmet"}
 
-# Chestplate
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_chestplate",loot:"stellarity:item/armor/hallowed/chestplate"}
+# Hallowed Chestplate
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate,scores={stellarity.aota.count=1}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/hallowed/chestplate", parent:"minecraft.netherite_chestplate"}
 
-# Leggings
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_leggings",loot:"stellarity:item/armor/hallowed/leggings"}
+# Hallowed Leggings
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/hallowed/leggings", parent:"minecraft.netherite_leggings"}
 
-# Boots
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_boots",loot:"stellarity:item/armor/hallowed/boots"}
+# Hallowed Boots
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.hallowed_ingot,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/hallowed/boots", parent:"minecraft.netherite_boots"}
 
-## Ancient
-# Helmet
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_helmet",loot:"stellarity:item/armor/ancient/helmet"}
+# Champion Helmet
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet,scores={stellarity.aota.count=1}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/champion/helmet", parent:"minecraft.netherite_helmet"}
 
-# Chestplate
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_chestplate",loot:"stellarity:item/armor/ancient/chestplate"}
+# Champion Chestplate
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/champion/chestplate", parent:"minecraft.netherite_chestplate"}
 
-# Leggings
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_leggings",loot:"stellarity:item/armor/ancient/leggings"}
+# Champion Leggings
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/champion/leggings", parent:"minecraft.netherite_leggings"}
 
-# Boots
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_boots",loot:"stellarity:item/armor/ancient/boots"}
+# Champion Boots
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.chorus_plating,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/champion/boots", parent:"minecraft.netherite_boots"}
 
-## Shulker
-# Helmet
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_helmet",loot:"stellarity:item/armor/shulker/helmet"}
+# Shulker Helmet
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet,scores={stellarity.aota.count=1}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/shulker/helmet", parent:"minecraft.netherite_helmet"}
 
-# Chestplate
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_chestplate",loot:"stellarity:item/armor/shulker/chestplate"}
+# Shulker Chestplate
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate,scores={stellarity.aota.count=1}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/shulker/chestplate", parent:"minecraft.netherite_chestplate"}
 
-# Leggings
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_leggings",loot:"stellarity:item/armor/shulker/leggings"}
+# Shulker Leggings
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/shulker/leggings", parent:"minecraft.netherite_leggings"}
 
-# Boots
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_boots",loot:"stellarity:item/armor/shulker/boots"}
+# Shulker Boots
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.shulker_shell,scores={stellarity.aota.count=4}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/shulker/boots", parent:"minecraft.netherite_boots"}
 
-## Floral
-# Helmet
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_helmet",loot:"stellarity:item/armor/floral/helmet"}
+# Floral Helmet
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_helmet,scores={stellarity.aota.count=1}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/floral/helmet", parent:"minecraft.netherite_helmet"}
 
-# Chestplate
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_chestplate",loot:"stellarity:item/armor/floral/chestplate"}
+# Floral Chestplate
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_chestplate,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/floral/chestplate", parent:"minecraft.netherite_chestplate"}
 
-# Leggings
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_leggings",loot:"stellarity:item/armor/floral/leggings"}
+# Floral Leggings
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_leggings,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/floral/leggings", parent:"minecraft.netherite_leggings"}
 
-# Boots
-execute if score @s stellarity.misc matches 3 \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \ 
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
-	if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots] run \
-	function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_armor {parent:"minecraft.netherite_boots",loot:"stellarity:item/armor/floral/boots"}
+# Floral Boots
+execute if score @s stellarity.misc matches 3 \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.stellarity.enderite_smithing_template,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.netherite_boots,scores={stellarity.aota.count=1}] \
+   if entity @e[type=item,distance=..1.5,tag=stellarity.aota.minecraft.cherry_leaves,scores={stellarity.aota.count=8}] \
+   run function stellarity:mechanic/altar_of_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/armor/floral/boots", parent:"minecraft.netherite_boots"}
+
