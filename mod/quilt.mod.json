@@ -1,38 +1,38 @@
 {
-	"schema_version": 1,
-	"quilt_loader": {
-		"group": "xyz.kohara",
-		"id": "stellarity",
-		"version": "3.0.3",
-		"metadata": {
-			"name": "Stellarity",
-			"description": "Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
-			"contributors": {
-				"brokenemp": "Artist",
-				"Dat1Mexican": "RP Bedrock Port",
-				"Bush_King": "Builder",
-				"Opliz": "Builder"
-			},
-			"contact": {
-				"homepage": "https://modrinth.com/datapack/stellarity",
-				"sources": "https://github.com/kohy-creates/Stellarity",
-				"issues": "https://discord.gg/kohara"
-			},
-			"icon": "pack.png"
-		},
-		"breaks": [
-			{
-				"id": "betterend",
-				"reason": "Better End disrupts Stellarity's main island generation."
-			}
-		],
-		"depends": [
-			{
-				"id": "quilt_resource_loader",
-				"versions": "*",
-				"unless": "fabric-resource-loader-v0"
-			}
-		],
-		"intermediate_mappings": "net.fabricmc:intermediary"
-	}
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "xyz.kohara",
+    "id": "stellarity",
+    "version": "4.0.0",
+    "metadata": {
+      "name": "Stellarity",
+      "description": "Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
+      "contributors": {
+        "brokenemp": "Artist",
+        "Dat1Mexican": "RP Bedrock Port",
+        "Bush_King": "Builder",
+        "Opliz": "Builder"
+      },
+      "contact": {
+        "homepage": "https://modrinth.com/datapack/stellarity",
+        "sources": "https://github.com/kohy-creates/Stellarity",
+        "issues": "https://discord.gg/kohara"
+      },
+      "icon": "pack.png"
+    },
+    "breaks": [
+      {
+        "id": "betterend",
+        "reason": "Better End disrupts Stellarity's main island generation."
+      }
+    ],
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ],
+    "intermediate_mappings": "net.fabricmc:intermediary"
+  }
 }
