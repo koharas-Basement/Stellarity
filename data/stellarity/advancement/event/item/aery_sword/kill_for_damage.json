@@ -146,16 +146,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "minor",
-      "small",
-      "big",
-      "large",
-      "huge",
-      "boss"
-    ]
-  ],
+  "requirements": [["minor", "small", "big", "large", "huge", "boss"]],
   "rewards": {
     "function": "stellarity:item/harvester/kill"
   }
