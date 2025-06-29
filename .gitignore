@@ -2,3 +2,5 @@
 spyglass.json
 Stellarity.zip
 artifacts/
+new_translations/
+.venv/

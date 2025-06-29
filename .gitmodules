@@ -1,0 +1,3 @@
+[submodule "translations"]
+	path = translations
+	url = https://github.com/koharas-Basement/translations/
