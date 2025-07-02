@@ -4,10 +4,7 @@
   "predicate": {
     "type_specific": {
       "type": "minecraft:player",
-      "gamemode": [
-        "survival",
-        "adventure"
-      ]
+      "gamemode": ["survival", "adventure"]
     },
     "flags": {
       "is_flying": true

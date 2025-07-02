@@ -1,16 +1,16 @@
 ## Items
-function stellarity:item/main_player
+  function stellarity:item/main_player
 
 # Totem of Undying gives Levitation when falling out of the world
-execute if score #stellarity.config stellarity.config.enable_totem_void_saving matches 1 run \
-    execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:location/in_void] run function stellarity:mechanic/void_totem_protection/save
+  execute if score #stellarity.config stellarity.config.enable_totem_void_saving matches 1 run \
+  execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:location/in_void] run function stellarity:mechanic/void_totem_protection/save
 
 execute if entity @s[predicate=kohara:player/gliding,tag=!stellarity.elytra.flying] run function stellarity:mechanic/elytra/start_flying
 execute if entity @s[tag=stellarity.elytra.flying] run function stellarity:mechanic/elytra/flying
 
 # Timed loops
-scoreboard players add @s stellarity.misc.loop.2t 1
-execute if entity @s[scores={stellarity.misc.loop.2t=2..}] run function stellarity:loop/player/main_2t
+  scoreboard players add @s stellarity.misc.loop.2t 1
+  execute if entity @s[scores={stellarity.misc.loop.2t=2..}] run function stellarity:loop/player/main_2t
 
 scoreboard players add @s stellarity.misc.loop.3t 1
 execute if entity @s[scores={stellarity.misc.loop.3t=3..}] run function stellarity:loop/player/main_3t

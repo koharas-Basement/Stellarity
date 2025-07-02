@@ -1,9 +1,11 @@
 # Ticked from 'loops/player_main'
 
 data remove storage stellarity:temp elytra_trail
-data modify storage stellarity:temp elytra_trail.item set from entity @s Inventory[{Slot:102b}].components."minecraft:custom_data"
+data modify storage stellarity:temp elytra_trail.item set from entity @s equipment.chest.components."minecraft:custom_data"
 
 data modify storage stellarity:temp elytra_trail.color set from storage stellarity:temp elytra_trail.item."stellarity.elytra_color"
+
+execute as @a run data get storage stellarity:temp elytra_trail
 
 execute if entity @s[x_rotation=-75..40] run function stellarity:sfx/elytra_trail/position/0
 execute if entity @s[x_rotation=41..50] run function stellarity:sfx/elytra_trail/position/1

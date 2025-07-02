@@ -1,3 +1,4 @@
+
 scoreboard players add @s stellarity.mechanics.consecration.time 1
 
 execute if score @s stellarity.mechanics.consecration.time matches 1 run function stellarity:mechanic/consecration/animation/1
