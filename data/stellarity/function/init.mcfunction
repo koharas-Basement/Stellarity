@@ -138,86 +138,89 @@
           scoreboard objectives add stellarity.items.sandstorm_trident.id dummy
           scoreboard objectives add stellarity.items.sandstorm_trident.trail_pos dummy
 
-        ## Mobs
-          # Empress of Light
-            scoreboard objectives add stellarity.eol.animation dummy
-            scoreboard objectives add stellarity.eol.health dummy
-            scoreboard objectives add stellarity.eol.health_percent dummy
-            scoreboard objectives add stellarity.eol.hurt_time dummy
-            scoreboard objectives add stellarity.eol.attack_cycle dummy
-            scoreboard objectives add stellarity.eol.attack_duration dummy
-            scoreboard objectives add stellarity.eol.attack_cooldown dummy
-            scoreboard objectives add stellarity.eol.projectile_age dummy
 
-          # Ender Dragon
-            scoreboard objectives add stellarity.dragon.times_killed dummy
-            scoreboard objectives add stellarity.dragon.screenshake dummy
-            scoreboard objectives add stellarity.dragon.respawn_animation_progress dummy
-            scoreboard objectives add stellarity.dragon.perch_cooldown dummy
-            scoreboard objectives add stellarity.dragon.health dummy
-            scoreboard objectives add stellarity.dragon.health_percent dummy
-            scoreboard objectives add stellarity.dragon.health_old dummy
-            scoreboard objectives add stellarity.dragon.time_chainfiring dummy
-            scoreboard objectives add stellarity.dragon.shulker_hell dummy
-            scoreboard objectives add stellarity.dragon.heartbeat dummy
-            scoreboard objectives add stellarity.dragon.ball_of_blight_cooldown dummy
 
-          # Phantoms
-            scoreboard objectives add stellarity.phantom.size dummy
-            scoreboard objectives add stellarity.phantom.wings_drop_chance dummy
+    ## Mobs
+      # Empress of Light
+        scoreboard objectives add stellarity.eol.animation dummy
+        scoreboard objectives add stellarity.eol.health dummy
+        scoreboard objectives add stellarity.eol.health_percent dummy
+        scoreboard objectives add stellarity.eol.hurt_time dummy
+        scoreboard objectives add stellarity.eol.attack_cycle dummy
+        scoreboard objectives add stellarity.eol.attack_duration dummy
+        scoreboard objectives add stellarity.eol.attack_cooldown dummy
+        scoreboard objectives add stellarity.eol.projectile_age dummy
 
-          ## Boss music
-            scoreboard objectives add stellarity.music.ender_dragon.timer dummy
-            scoreboard objectives add stellarity.music.empress_of_light.timer dummy
+      # Ender Dragon
+        scoreboard objectives add stellarity.dragon.times_killed dummy
+        scoreboard objectives add stellarity.dragon.screenshake dummy
+        scoreboard objectives add stellarity.dragon.respawn_animation_progress dummy
+        scoreboard objectives add stellarity.dragon.perch_cooldown dummy
+        scoreboard objectives add stellarity.dragon.health dummy
+        scoreboard objectives add stellarity.dragon.health_percent dummy
+        scoreboard objectives add stellarity.dragon.health_old dummy
+        scoreboard objectives add stellarity.dragon.time_chainfiring dummy
+        scoreboard objectives add stellarity.dragon.shulker_hell dummy
+        scoreboard objectives add stellarity.dragon.heartbeat dummy
+        scoreboard objectives add stellarity.dragon.ball_of_blight_cooldown dummy
 
-          ## Mechanics
-            scoreboard objectives add stellarity.aota.count dummy
+      # Phantoms
+        scoreboard objectives add stellarity.phantom.size dummy
+        scoreboard objectives add stellarity.phantom.wings_drop_chance dummy
 
-          scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
-          scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
-          scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
-          scoreboard objectives add stellarity.mechanics.consecration.time dummy
-          scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
-          scoreboard objectives add stellarity.mechanics.cauldron_crafting.items_inside dummy
-          scoreboard objectives add stellarity.mechanics.cauldron_crafting.breath_left dummy
+      ## Boss music
+        scoreboard objectives add stellarity.music.ender_dragon.timer dummy
+        scoreboard objectives add stellarity.music.empress_of_light.timer dummy
 
-        ## Enchantments
-          scoreboard objectives add stellarity.enchantments.critical_strike.can_crit dummy
+      ## Mechanics
+        scoreboard objectives add stellarity.aota.count dummy
+        scoreboard objectives add stellarity.entity.live_time dummy
 
-        ## Misc
-          # Temporar variables OR things that don't need its own variable
-            scoreboard objectives add stellarity.misc dummy
-            scoreboard objectives add stellarity.misc2 dummy
-            scoreboard objectives add stellarity.misc3 dummy
-            scoreboard objectives add stellarity.misc4 dummy
-            scoreboard objectives add stellarity.misc.end_portal_animation dummy
-            scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy
+      scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
+      scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
+      scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
+      scoreboard objectives add stellarity.mechanics.consecration.time dummy
+      scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
+      scoreboard objectives add stellarity.mechanics.cauldron_crafting.items_inside dummy
+      scoreboard objectives add stellarity.mechanics.cauldron_crafting.breath_left dummy
 
-          scoreboard objectives add stellarity.misc.motion.x1 dummy
-          scoreboard objectives add stellarity.misc.motion.x2 dummy
-          scoreboard objectives add stellarity.misc.motion.y1 dummy
-          scoreboard objectives add stellarity.misc.motion.y2 dummy
-          scoreboard objectives add stellarity.misc.motion.z1 dummy
-          scoreboard objectives add stellarity.misc.motion.z2 dummy
+    ## Enchantments
+      scoreboard objectives add stellarity.enchantments.critical_strike.can_crit dummy
 
-        scoreboard objectives add stellarity.misc.loop.2t dummy
-        scoreboard objectives add stellarity.misc.loop.3t dummy
-        scoreboard objectives add stellarity.misc.loop.5t dummy
-        scoreboard objectives add stellarity.misc.loop.1s dummy
-        scoreboard objectives add stellarity.misc.loop.10s dummy
-        scoreboard objectives add stellarity.misc.loop.15s dummy
+    ## Misc
+      # Temporar variables OR things that don't need its own variable
+        scoreboard objectives add stellarity.misc dummy
+        scoreboard objectives add stellarity.misc2 dummy
+        scoreboard objectives add stellarity.misc3 dummy
+        scoreboard objectives add stellarity.misc4 dummy
+        scoreboard objectives add stellarity.misc.end_portal_animation dummy
+        scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy
 
-      function stellarity:util/stringlib/zprivate/load
+      scoreboard objectives add stellarity.misc.motion.x1 dummy
+      scoreboard objectives add stellarity.misc.motion.x2 dummy
+      scoreboard objectives add stellarity.misc.motion.y1 dummy
+      scoreboard objectives add stellarity.misc.motion.y2 dummy
+      scoreboard objectives add stellarity.misc.motion.z1 dummy
+      scoreboard objectives add stellarity.misc.motion.z2 dummy
 
-    ## Creating teams
-      team add stellarity.purple_glow
-      team modify stellarity.purple_glow color dark_purple
+    scoreboard objectives add stellarity.misc.loop.2t dummy
+    scoreboard objectives add stellarity.misc.loop.3t dummy
+    scoreboard objectives add stellarity.misc.loop.5t dummy
+    scoreboard objectives add stellarity.misc.loop.1s dummy
+    scoreboard objectives add stellarity.misc.loop.10s dummy
+    scoreboard objectives add stellarity.misc.loop.15s dummy
 
-    team add stellarity.golden_glow
-    team modify stellarity.golden_glow color gold
+  function stellarity:util/stringlib/zprivate/load
 
-  team add stellarity.spirit_glow
-  team modify stellarity.spirit_glow color aqua
+## Creating teams
+  team add stellarity.purple_glow
+  team modify stellarity.purple_glow color dark_purple
+
+team add stellarity.golden_glow
+team modify stellarity.golden_glow color gold
+
+team add stellarity.spirit_glow
+team modify stellarity.spirit_glow color aqua
 
 team add stellarity.homing_targets
 team modify stellarity.homing_targets color aqua
@@ -241,6 +244,7 @@ team modify stellarity.dragons_eye.pacified collisionRule pushOtherTeams
 
 team add stellarity.dragon.pacify_others
 team modify stellarity.dragon.pacify_others friendlyFire false
+
 
 ## Bossbars
   # Ender Dragon

@@ -4,6 +4,18 @@
     {
       "rolls": 1,
       "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "entity": "this",
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"stellarity.obstruct.walls_solid\"]}"
+            }
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -30,6 +42,18 @@
     },
     {
       "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "entity": "this",
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"stellarity.obstruct.walls_solid\"]}"
+            }
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:loot_table",

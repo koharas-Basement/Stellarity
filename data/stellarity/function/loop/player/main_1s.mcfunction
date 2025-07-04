@@ -1,9 +1,12 @@
 # Cooldowns
-execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=0..}] run function stellarity:item/spellbooks/conveyance/cooldown_countdown
-execute if entity @s[scores={stellarity.items.spellbook.updraft.cooldown=0..}] run function stellarity:item/spellbooks/updraft/cooldown_countdown
-execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=0..}] run function stellarity:item/spellbooks/light/cooldown_countdown
-execute if entity @s[scores={stellarity.items.spellbook.jinx.cooldown=0..}] run function stellarity:item/spellbooks/jinx/cooldown_countdown
-execute if entity @s[scores={stellarity.items.spellbook.return.cooldown=0..}] run function stellarity:item/spellbooks/return/cooldown_countdown
+  execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=0..}] run function stellarity:item/spellbooks/conveyance/cooldown_countdown
+  execute if entity @s[scores={stellarity.items.spellbook.updraft.cooldown=0..}] run function stellarity:item/spellbooks/updraft/cooldown_countdown
+  execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=0..}] run function stellarity:item/spellbooks/light/cooldown_countdown
+  execute if entity @s[scores={stellarity.items.spellbook.jinx.cooldown=0..}] run function stellarity:item/spellbooks/jinx/cooldown_countdown
+  execute if entity @s[scores={stellarity.items.spellbook.return.cooldown=0..}] run function stellarity:item/spellbooks/return/cooldown_countdown
+  execute if entity @s[scores={stellarity.items.spellbook.obstruct.cooldown=0..}] run function stellarity:item/spellbooks/obstruct/cooldown_countdown
+
+
 
 execute if entity @s[scores={stellarity.items.porta_altar.cooldown=0..}] run scoreboard players remove @s stellarity.items.porta_altar.cooldown 1
 
@@ -15,3 +18,8 @@ scoreboard players reset @s stellarity.misc.loop.1s
 
 #scoreboard players add @s stellarity.misc.loop.10s 1
 #execute if entity @s[scores={stellarity.misc.loop.10s=10..}] run function stellarity:loop/player/main_10s
+
+# Entities with an known live time
+  execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.entity.live_time=0..}] run scoreboard players remove @s stellarity.entity.live_time 1
+  execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.entity.live_time=0..}] run function stellarity:item/spellbooks/obstruct/wall_effects
+  execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.entity.live_time=-1}] run function stellarity:item/spellbooks/obstruct/despawn
