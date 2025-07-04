@@ -20,6 +20,10 @@ scoreboard players reset @s stellarity.misc.loop.1s
 #execute if entity @s[scores={stellarity.misc.loop.10s=10..}] run function stellarity:loop/player/main_10s
 
 # Entities with an known live time
+
+# Obstruct Book Walls
+  execute as @e[tag=stellarity.obstruct.walls] unless score @s stellarity.entity.live_time matches -1.. run scoreboard players set @s stellarity.entity.live_time 10
   execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.entity.live_time=0..}] run scoreboard players remove @s stellarity.entity.live_time 1
   execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.entity.live_time=0..}] run function stellarity:item/spellbooks/obstruct/wall_effects
   execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.entity.live_time=-1}] run function stellarity:item/spellbooks/obstruct/despawn
+  
