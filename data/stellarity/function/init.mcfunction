@@ -65,6 +65,7 @@
           scoreboard objectives add stellarity.items.spellbook.light.cooldown dummy
           scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
           scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
+          scoreboard objectives add stellarity.items.spellbook.obstruct.cooldown dummy
           scoreboard objectives add stellarity.items.spellbook.return.progress dummy
           scoreboard objectives add stellarity.items.spellbook.give_back.hand dummy
 
