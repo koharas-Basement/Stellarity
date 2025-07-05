@@ -1,3 +1,6 @@
 [submodule "translations"]
 	path = translations
 	url = https://github.com/koharas-Basement/translations/
+[submodule "recipe_gen"]
+	path = recipe_gen
+	url = https://github.com/koharas-Basement/Stellarity-Recipe-Generators
