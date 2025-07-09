@@ -23,3 +23,5 @@ loot give @s loot stellarity:item/spellbook/book_of_light
 loot give @s loot stellarity:item/spellbook/tome_of_return
 loot give @s loot stellarity:item/spellbook/book_of_updraft
 loot give @s loot stellarity:item/spellbook/book_of_obstruct
+
+loot give @s loot stellarity:item/weapon/fluffy_hammer

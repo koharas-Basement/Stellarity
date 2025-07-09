@@ -21,3 +21,4 @@ execute as @e[type=item,tag=stellarity.item] at @s run function stellarity:loop/
 
 # Moved from far_end:structures/check
   execute as @e[type=minecraft:end_crystal,predicate=stellarity:mob/dragon/exit_portal_crystal] at @s run function far_end:structures/replace/exit_portal
+

@@ -69,6 +69,9 @@
           scoreboard objectives add stellarity.items.spellbook.return.progress dummy
           scoreboard objectives add stellarity.items.spellbook.give_back.hand dummy
 
+        # Fluffy Hammer
+          scoreboard objectives add stellarity.items.fluffy_hammer.throw_cooldown dummy
+
         scoreboard objectives add stellarity.items.porta_altar.cooldown dummy
 
       # Empress Wings
