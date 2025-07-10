@@ -12,6 +12,7 @@
     scoreboard objectives remove stellarity.config.enable_creative_shock
     scoreboard objectives remove stellarity.config.nerf_elytra
     scoreboard objectives remove stellarity.config.boss_status_messages
+    scoreboard objectives remove stellarity.config.migrate_vaults
 
   # Initialize config scoreboards
     # Freshly created scoreboards have no value (not even set to 0)
@@ -171,6 +172,8 @@
               scoreboard objectives remove stellarity.mechanics.void_fishing.can_fish
               scoreboard objectives remove stellarity.mechanics.consecration.time
               scoreboard objectives remove stellarity.mechanics.altar_of_the_sacred.timer
+              scoreboard objectives remove stellarity.aota.count
+              scoreboard objectives remove stellarity.entity.live_time
 
             ## Misc
               # Temporar variables OR things that don't need its own variable
@@ -181,47 +184,48 @@
                 scoreboard objectives remove stellarity.misc.end_portal_animation
                 scoreboard objectives remove stellarity.misc.end_portal_bg_loop
 
-              scoreboard objectives remove stellarity.misc.motion.x1
-              scoreboard objectives remove stellarity.misc.motion.x2
-              scoreboard objectives remove stellarity.misc.motion.y1
-              scoreboard objectives remove stellarity.misc.motion.y2
-              scoreboard objectives remove stellarity.misc.motion.z1
-              scoreboard objectives remove stellarity.misc.motion.z2
 
-            scoreboard objectives remove stellarity.misc.loop.2t
-            scoreboard objectives remove stellarity.misc.loop.3t
-            scoreboard objectives remove stellarity.misc.loop.5t
-            scoreboard objectives remove stellarity.misc.loop.1s
-            scoreboard objectives remove stellarity.misc.loop.10s
-            scoreboard objectives remove stellarity.misc.loop.15s
+            scoreboard objectives remove stellarity.misc.motion.x1
+            scoreboard objectives remove stellarity.misc.motion.x2
+            scoreboard objectives remove stellarity.misc.motion.y1
+            scoreboard objectives remove stellarity.misc.motion.y2
+            scoreboard objectives remove stellarity.misc.motion.z1
+            scoreboard objectives remove stellarity.misc.motion.z2
 
-          ## Creating teams
-            team remove stellarity.purple_glow
-            team remove stellarity.golden_glow
-            team remove stellarity.spirit_glow
-            team remove stellarity.homing_targets
-            team remove stellarity.rave_glow
-            team remove stellarity.phantom_glow
-            team remove stellarity.eol.night_glow
-            team remove stellarity.eol.day_glow
-            team remove stellarity.dragons_eye.pacified
-            team remove stellarity.dragon.pacify_others
+          scoreboard objectives remove stellarity.misc.loop.2t
+          scoreboard objectives remove stellarity.misc.loop.3t
+          scoreboard objectives remove stellarity.misc.loop.5t
+          scoreboard objectives remove stellarity.misc.loop.1s
+          scoreboard objectives remove stellarity.misc.loop.10s
+          scoreboard objectives remove stellarity.misc.loop.15s
 
-          ## Bossbars
-            # Ender Dragon
-              bossbar remove stellarity:ender_dragon 
-              # 'Crystals Left'
-                bossbar remove stellarity:crystal_count
-                # Empress of Light
-                  bossbar remove stellarity:eol 
+        ## Creating teams
+          team remove stellarity.purple_glow
+          team remove stellarity.golden_glow
+          team remove stellarity.spirit_glow
+          team remove stellarity.homing_targets
+          team remove stellarity.rave_glow
+          team remove stellarity.phantom_glow
+          team remove stellarity.eol.night_glow
+          team remove stellarity.eol.day_glow
+          team remove stellarity.dragons_eye.pacified
+          team remove stellarity.dragon.pacify_others
+
+        ## Bossbars
+          # Ender Dragon
+            bossbar remove stellarity:ender_dragon 
+            # 'Crystals Left'
+              bossbar remove stellarity:crystal_count
+              # Empress of Light
+                bossbar remove stellarity:eol 
 
 
-              # Scheduling loops that do not need
-                # to be executed every single tick
-                  schedule clear stellarity:loop/timed/2_tick
-                  schedule clear stellarity:loop/timed/3_tick
-                  schedule clear stellarity:loop/timed/5_tick
-                  schedule clear stellarity:loop/timed/1_second
-                  schedule clear stellarity:loop/timed/5_second
+            # Scheduling loops that do not need
+              # to be executed every single tick
+                schedule clear stellarity:loop/timed/2_tick
+                schedule clear stellarity:loop/timed/3_tick
+                schedule clear stellarity:loop/timed/5_tick
+                schedule clear stellarity:loop/timed/1_second
+                schedule clear stellarity:loop/timed/5_second
 
-                function stellarity:util/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}
+              function stellarity:util/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}

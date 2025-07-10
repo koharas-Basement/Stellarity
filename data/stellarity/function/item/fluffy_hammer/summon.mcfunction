@@ -2,6 +2,7 @@ $summon item_display ~ ~1.5 ~ {NoGravity:true,Tags:["stellarity.entity.fluffy_ha
 rotate @n[type=item_display,tag=stellarity.entity.fluffy_hammer] ~ ~
 rotate @n[type=item_display,tag=stellarity.entity.fluffy_hammer_display] ~ 0
 
+
 playsound stellarity:item.fluffy_hammer.throw player @a[distance=..16] ~ ~ ~
 
 scoreboard players set @n[tag=stellarity.entity.fluffy_hammer_display] stellarity.misc 0
