@@ -29,7 +29,7 @@ scoreboard players set #hp stellarity.misc 10
 scoreboard players operation #mul stellarity.misc *= #2 stellarity.misc
 scoreboard players operation #hp stellarity.misc += #mul stellarity.misc
 
-execute store result entity @s attributes[{Name:"minecraft:max_health"}].base float 1 run scoreboard players get #hp stellarity.misc
+execute store result entity @s attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #hp stellarity.misc
 
 # Heal missing HP
 effect give @s instant_damage 1 10 true
@@ -39,7 +39,7 @@ effect give @s instant_damage 1 10 true
 scoreboard players set #3 stellarity.misc 3
 scoreboard players operation #armor stellarity.misc = #size stellarity.misc
 scoreboard players operation #armor stellarity.misc /= #3 stellarity.misc
-execute store result entity @s attributes[{Name:"minecraft:armor"}].base float 1 run scoreboard players get #armor stellarity.misc
+execute store result entity @s attributes[{id:"minecraft:armor"}].base float 1 run scoreboard players get #armor stellarity.misc
 
 tag @s add stellarity.phantom.aware
 

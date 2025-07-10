@@ -30,7 +30,7 @@ feet:{id:"minecraft:leather_boots",components:{"minecraft:dyed_color":3847130},c
 
 execute if predicate stellarity:mob/eol/is_daytime run tag @n[type=vindicator,tag=stellarity.eol] add stellarity.eol.full_daytime
 
-execute store result entity @n[type=vindicator,tag=stellarity.eol] attributes[{Name:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
+execute store result entity @n[type=vindicator,tag=stellarity.eol] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
 execute store result entity @n[type=vindicator,tag=stellarity.eol] Health float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
 execute store result bossbar stellarity:eol max run scoreboard players get #stellarity.config stellarity.config.eol_health
 
