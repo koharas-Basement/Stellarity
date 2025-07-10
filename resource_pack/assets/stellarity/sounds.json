@@ -301,5 +301,9 @@
   },
   "item.endonomicon.flip": {
     "sounds": ["stellarity:item/endonomicon/flip"]
+  },
+  "item.fluffy_hammer.throw": {
+    "sounds": ["stellarity:item/fluffy_hammer/throw"],
+    "subtitle": "stellarity.subtitles.item.fluffy_hammer.throw"
   }
 }

@@ -479,9 +479,9 @@
     "stellarity.items.weapons.dragonblade.description": "一把威力惊人的剑！",
     "stellarity.items.weapons.dragonblade.flavor_text": "‘它来自虚空的边缘’",
     "stellarity.items.weapons.dragonblade.tip": "提示：把它们推进墙里",
-    "stellarity.items.weapons.fluffy_hammer": "Fluffy Hammer Of Justice",
-    "stellarity.items.weapons.fluffy_hammer.description.1": "Amazing hammer over here...",
-    "stellarity.items.weapons.fluffy_hammer.description.2": "I wonder what it does?",
+    "stellarity.items.weapons.fluffy_hammer": "毛绒绒正义之锤",
+    "stellarity.items.weapons.fluffy_hammer.description.1": "神奇锤子在这里...",
+    "stellarity.items.weapons.fluffy_hammer.description.2": "我想知道它是做什么的？",
     "stellarity.items.weapons.fluffy_hammer.flavor_text": "GEH HA HA",
     "stellarity.items.weapons.harvester": "灵魂收割者",
     "stellarity.items.weapons.harvester.ability.arctic_wind": "北极风",
@@ -562,6 +562,7 @@
     "stellarity.music_disc.requires_addon": "需要音乐附加包",
     "stellarity.pack_mcmeta.rp": "Stellarity 的可选资源包",
     "stellarity.pack_mcmeta.rp.music": "Stellarity的音乐扩展",
+    "stellarity.subtitles.item.fluffy_hammer.throw": "Fluffy Hammer throws",
     "stellarity.void_fishing.warning.dragons_den": "没有鱼敢进入这个区域...",
     "stellarity.void_fishing.warning.too_deep": "直觉告诉你，你应该钓得更高一点..."
 }
