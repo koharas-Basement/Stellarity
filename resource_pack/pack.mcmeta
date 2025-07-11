@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 64,
     "supported_formats": {
-      "min_inclusive": 63,
+      "min_inclusive": 34,
       "max_inclusive": 64
     },
     "description": [
@@ -15,6 +15,14 @@
       {
         "text": "⭐",
         "color": "gold"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "shader_backport",
+        "formats": [34, 56]
       }
     ]
   }

@@ -6,9 +6,25 @@
       "bonus_rolls": 0,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "quality": 1,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/spellbook/tome_of_return",
+          "weight": 3
+        },
+        {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/weapon/starless_scythe",
-          "weight": 2
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/weapon/the_beginning_and_the_end",
+          "weight": 3
         }
       ]
     }
