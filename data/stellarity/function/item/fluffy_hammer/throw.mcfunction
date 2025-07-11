@@ -1,5 +1,3 @@
-execute if score @s stellarity.items.fluffy_hammer.throw_cooldown matches ..0 run function stellarity:item/fluffy_hammer/throw
-
 data modify storage stellarity:temp fluffy_hammer.item set value {}
 data modify storage stellarity:temp fluffy_hammer.item set from entity @s SelectedItem
 execute if data storage stellarity:temp fluffy_hammer.item.components.minecraft:custom_data{stellarity.special_item:"fluffy_hammer"} run item replace entity @s weapon.mainhand with minecraft:air
