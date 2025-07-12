@@ -31,8 +31,8 @@
     "enchantment.stellarity.ambush.description": "Infligge danni extra ai mob che non ti stanno prendendo di mira attivamente",
     "enchantment.stellarity.critical_strike": "Colpo Critico",
     "enchantment.stellarity.critical_strike.description": "Possibilità di infliggere il doppio dei danni",
-    "enchantment.stellarity.daybroken": "Daybroken",
-    "enchantment.stellarity.draconic": "Draconic",
+    "enchantment.stellarity.daybroken": "Risucchio solare",
+    "enchantment.stellarity.draconic": "Dragonico",
     "enchantment.stellarity.dune_speed": "Velocità delle dune",
     "enchantment.stellarity.dune_speed.description": "Aumenta la velocità di movimento sulla Sabbia",
     "enchantment.stellarity.infernal_infusion": "Fusione Infernale",
@@ -562,6 +562,7 @@
     "stellarity.music_disc.requires_addon": "ʀɪᴄʜɪᴇᴅᴇ ᴄᴏᴍᴘᴏɴᴇɴᴛᴇ ᴀɢɢɪᴜɴᴛɪᴠᴏ ᴍᴜsɪᴄᴀʟᴇ",
     "stellarity.pack_mcmeta.rp": "Risorse opzionali per Stellarity",
     "stellarity.pack_mcmeta.rp.music": "Add-on per la musica di Stellarity",
+    "stellarity.subtitles.item.fluffy_hammer.return": "Fluffy Hammer returns",
     "stellarity.subtitles.item.fluffy_hammer.throw": "Fluffy Hammer throws",
     "stellarity.void_fishing.warning.dragons_den": "Nessun pesce osa addentrarsi in quest'area...",
     "stellarity.void_fishing.warning.too_deep": "Qualcosa ti dice di pescare più in alto..."
