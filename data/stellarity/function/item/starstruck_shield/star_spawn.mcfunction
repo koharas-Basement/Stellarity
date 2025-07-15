@@ -3,6 +3,8 @@ execute at @s facing entity @p[distance=..20,predicate=stellarity:item/holding/t
 
 tag @s add stellarity.starstruck_shield.star
 tag @s add stellarity.marker
+tag @s add smithed.entity
+tag @s add smithed.strict
 
 playsound stellarity:item.starstruck_shield.spawn_star player @a ~ ~ ~ 2.2 1
 

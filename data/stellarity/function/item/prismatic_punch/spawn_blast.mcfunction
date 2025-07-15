@@ -1,4 +1,4 @@
-summon minecraft:marker ^ ^ ^ {Tags:["stellarity.prismatic_blast","stellarity.marker"]}
+summon minecraft:marker ^ ^ ^ {Tags:["stellarity.prismatic_blast","stellarity.marker","smithed.entity","smithed.strict"]}
 tp @n[type=marker,tag=stellarity.prismatic_blast] ^ ^ ^ ~ ~
 function stellarity:item/prismatic_punch/shoot_particles
 

@@ -4,15 +4,15 @@ scoreboard players operation #current_segment stellarity.misc = @n[type=area_eff
 scoreboard players remove #current_segment stellarity.misc 1
 
 # execute at @n[type=area_effect_cloud,tag=stellarity.wind_tunnel.activated] run 
-summon block_display ~ ~ ~ {block_state:{Name:"air"},Tags:["stellarity.sandstorm_trident"],start_interpolation:-1,teleport_duration:1}
-	
+  summon block_display ~ ~ ~ {block_state:{Name:"air"},Tags:["stellarity.sandstorm_trident","smithed.entity","smithed.strict"],start_interpolation:-1,teleport_duration:1}
+
 ride @s mount @n[type=block_display,tag=stellarity.sandstorm_trident]
 
 scoreboard players operation @n[type=block_display,tag=stellarity.sandstorm_trident] stellarity.items.sandstorm_trident.id = #id stellarity.misc
 
 execute as @e[type=area_effect_cloud,tag=stellarity.wind_tunnel.end] \
-	if score @s stellarity.items.sandstorm_trident.id = #id stellarity.misc \
-	run function stellarity:item/sandstorm_trident/wind_tunnel/movement/prepare_block
+if score @s stellarity.items.sandstorm_trident.id = #id stellarity.misc \
+run function stellarity:item/sandstorm_trident/wind_tunnel/movement/prepare_block
 
 execute as @n[type=block_display,tag=stellarity.sandstorm_trident] at @s facing entity @n[type=area_effect_cloud,tag=stellarity.scheduled,tag=stellarity.wind_tunnel.end] eyes run tp @s ~ ~ ~ ~ ~
 tag @n[type=area_effect_cloud,tag=stellarity.scheduled,tag=stellarity.wind_tunnel.end] remove stellarity.scheduled

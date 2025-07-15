@@ -1,2 +1,2 @@
-summon marker ~ ~ ~ {Tags:["fe.structure","fe.exit_portal","fe.deactivated","stellarity.marker"],CustomName:{"text":"Exit Portal"}}
+summon marker ~ ~ ~ {Tags:["fe.structure","fe.exit_portal","fe.deactivated","stellarity.marker","smithed.entity","smithed.strict"],CustomName:{"text":"Exit Portal"}}
 kill @s
