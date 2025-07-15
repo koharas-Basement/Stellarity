@@ -1,4 +1,4 @@
-execute unless entity @n[type=marker,tag=stellarity.aota.2] run summon marker ~ ~ ~ {Tags:[stellarity.aota.2]}
+execute unless entity @n[type=marker,tag=stellarity.aota.2] run summon marker ~ ~ ~ {Tags:["stellarity.aota.2","smithed.entity","smithed.strict"]}
 execute as @n[type=marker,tag=stellarity.aota.2] at @s run function stellarity:mechanic/altar_of_accursed/sfx/loop_2
 
 tp @s ~ ~ ~ ~5 ~
