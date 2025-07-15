@@ -8,10 +8,11 @@ attribute @s minecraft:movement_speed modifier add stellarity:mob_stat 0.1 add_m
 execute store result score #random stellarity.misc run random value 1..3
 execute if score #random stellarity.misc matches 1..2 run loot replace entity @s[tag=!stellarity.end_city] weapon loot stellarity:item/weapon/call_of_the_void
 execute if score #random stellarity.misc matches 3 run item replace entity @s[tag=!stellarity.end_city] weapon with stone_sword
-data merge entity @s {DeathLootTable:"stellarity:mob/voided_skeleton",HandDropChances:[0.004f,0f]}
+data merge entity @s {DeathLootTable:"stellarity:mob/voided_skeleton",drop_chances:{mainhand: 0.004f, offhand: 0.0f}}
 effect give @s instant_damage 1 23 true
 
 execute at @s[tag=!stellarity.end_city] if biome ~ ~ ~ #stellarity:snowy run function stellarity:mob/voided_skeleton/frozen_spikes
 
 tag @s[tag=!stellarity.buffed] add stellarity.buffed
 tag @s add stellarity.voided_skeleton
+tag @s add smithed.entity

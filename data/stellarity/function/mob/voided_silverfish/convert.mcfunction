@@ -8,3 +8,4 @@ data modify entity @s DeathLootTable set value "stellarity:mob/voided_silverfish
 
 tag @s[tag=!stellarity.buffed] add stellarity.buffed
 tag @s add stellarity.voided_silverfish
+tag @s add smithed.entity

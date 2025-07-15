@@ -7,7 +7,7 @@
         "damage": {
           "source_entity": {
             "type": "minecraft:slime",
-            "nbt": "{Tags:[\"stellarity.buffed\"]}"
+            "nbt": "{Tags:[\"stellarity.voided_slime\"]}"
           }
         }
       }

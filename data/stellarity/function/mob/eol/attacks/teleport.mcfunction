@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration: 200,RadiusPerTick:-0.03,Radius:5, Tags: ["stellarity.eol.teleport"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Duration: 200,RadiusPerTick:-0.03,Radius:5, Tags: ["stellarity.eol.teleport","smithed.entity","smithed.strict"]}
 execute as @n[type=area_effect_cloud,tag=stellarity.eol.teleport] at @s rotated as @p rotated ~ 0 run tp ~ ~ ~
 
 execute as @n[type=area_effect_cloud,tag=stellarity.eol.teleport] at @s run function stellarity:mob/eol/attacks/teleport_as_aec

@@ -15,3 +15,4 @@ effect give @s instant_health 1 23 true
 
 tag @s[tag=!stellarity.buffed] add stellarity.buffed
 tag @s add stellarity.voided_slime
+tag @s add smithed.entity
