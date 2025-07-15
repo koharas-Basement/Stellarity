@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["stellarity.dragon_respawn.beam","stellarity.marker"]}
+summon marker ~ ~ ~ {Tags:["stellarity.dragon_respawn.beam","stellarity.marker","smithed.entity","smithed.strict"]}
 
 particle minecraft:end_rod ~ ~.15 ~ 0 0 0 .1 35
 
