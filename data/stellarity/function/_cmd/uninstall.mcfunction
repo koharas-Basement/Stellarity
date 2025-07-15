@@ -82,18 +82,6 @@
 
           # Harvester, AKA Aery Sword
             scoreboard objectives remove stellarity.items.aery_sword.damage
-            scoreboard objectives remove stellarity.items.aery_sword.kills.iron_golem
-            scoreboard objectives remove stellarity.items.aery_sword.kills.ender_dragon
-            scoreboard objectives remove stellarity.items.aery_sword.kills.witch
-            scoreboard objectives remove stellarity.items.aery_sword.kills.blaze
-            scoreboard objectives remove stellarity.items.aery_sword.kills.stray
-            scoreboard objectives remove stellarity.items.aery_sword.kills.wither
-            scoreboard objectives remove stellarity.items.aery_sword.kills.warden
-            scoreboard objectives remove stellarity.items.aery_sword.kills.wither_skeleton
-            scoreboard objectives remove stellarity.items.aery_sword.kills.witch.count
-            scoreboard objectives remove stellarity.items.aery_sword.kills.blaze.count
-            scoreboard objectives remove stellarity.items.aery_sword.kills.stray.count
-            scoreboard objectives remove stellarity.items.aery_sword.kills.wither_skeleton.count
             scoreboard objectives remove stellarity.items.aery_sword.cryonics.duration
             scoreboard objectives remove stellarity.items.aery_sword.cryonics.cooldown
 

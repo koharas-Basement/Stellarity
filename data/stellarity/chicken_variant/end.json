@@ -1,5 +1,13 @@
 {
-  "asset_id": "entity/chicken/warm_chicken",
-  "model": "cold",
-  "spawn_conditions": []
+  "asset_id": "stellarity:entity/chicken/ender_chicken",
+  "model": "normal",
+  "spawn_conditions": [
+    {
+      "priority": 1000,
+      "condition": {
+        "type": "biome",
+        "biomes": "#is_end"
+      }
+    }
+  ]
 }

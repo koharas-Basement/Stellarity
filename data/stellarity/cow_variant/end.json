@@ -1,5 +1,13 @@
 {
-  "asset_id": "entity/cow/warm_cow",
+  "asset_id": "stellarity:entity/cow/ender_cow",
   "model": "normal",
-  "spawn_conditions": []
+  "spawn_conditions": [
+    {
+      "priority": 1000,
+      "condition": {
+        "type": "biome",
+        "biomes": "#is_end"
+      }
+    }
+  ]
 }
