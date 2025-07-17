@@ -15,12 +15,12 @@
                   "entity": "this",
                   "predicate": {
                     "components": {
-                      "minecraft:chicken/variant": "minecraft:temperate"
+                      "minecraft:chicken/variant": "stellarity:end"
                     }
                   }
                 }
               ],
-              "name": "minecraft:egg"
+              "name": "minecraft:diamond"
             },
             {
               "type": "minecraft:item",
@@ -30,12 +30,12 @@
                   "entity": "this",
                   "predicate": {
                     "components": {
-                      "minecraft:chicken/variant": "stellarity:end"
+                      "minecraft:chicken/variant": "minecraft:temperate"
                     }
                   }
                 }
               ],
-              "name": "minecraft:diamond"
+              "name": "minecraft:egg"
             },
             {
               "type": "minecraft:item",
@@ -75,6 +75,18 @@
   ],
   "random_sequence": "minecraft:gameplay/chicken_lay",
   "__smithed__": {
-    "rules": []
+    "priority": {
+      "stage": "early"
+    },
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[0].entries[0].children",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].children[0]"
+        }
+      }
+    ]
   }
 }

@@ -1,4 +1,3 @@
-say converted
 attribute @s minecraft:attack_damage modifier add stellarity:mob_stat 3 add_value
 attribute @s minecraft:max_health modifier add stellarity:mob_stat 8 add_value
 attribute @s minecraft:armor modifier add stellarity:mob_stat 3 add_value

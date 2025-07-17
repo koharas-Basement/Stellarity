@@ -5,6 +5,7 @@ playsound entity.allay.death hostile @a[distance=0..] ~ ~1 ~ 1.5 0.8
 playsound entity.vex.death hostile @a[distance=0..] ~ ~1 ~ 1.5 0.7
 playsound minecraft:block.respawn_anchor.deplete hostile @a[distance=0..] ~ ~ ~ 1 0.8
 
+kill @n[type=marker,tag=stellarity.eol.tracker]
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing] on passengers run kill @s
 kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing]
 kill @n[type=armor_stand,tag=stellarity.eol.as]
