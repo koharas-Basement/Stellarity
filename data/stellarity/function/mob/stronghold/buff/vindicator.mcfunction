@@ -1,4 +1,4 @@
-data merge entity @s {DeathLootTable:"stellarity:mob/stronghold/vindicator",PatrolLeader:0b,HandDropChances:[0.085f, 0f]}
+data merge entity @s {DeathLootTable:"stellarity:mob/stronghold/vindicator",PatrolLeader:0b,drop_chances:{mainhand:0.085f, offhand:0f}}
 
 loot replace entity @s weapon.mainhand loot stellarity:stronghold/mob_equipment/vindicator
 execute if predicate kohara:chance/25percent run item replace entity @s weapon.offhand with shield

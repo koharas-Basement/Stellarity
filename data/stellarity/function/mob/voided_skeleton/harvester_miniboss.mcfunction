@@ -13,4 +13,5 @@ attribute @s minecraft:knockback_resistance modifier add stellarity:harvester_mi
 
 effect give @s instant_damage 1 23 true
 
-data modify entity @s HandDropChances[0] set value 1f
+data modify entity @s drop_chances.mainhand set value 1.0
+
