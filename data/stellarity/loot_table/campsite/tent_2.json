@@ -111,8 +111,7 @@
           "components": {
             "minecraft:trim": {
               "material": "minecraft:iron",
-              "pattern": "minecraft:vex",
-              "show_in_tooltip": true
+              "pattern": "minecraft:vex"
             }
           },
           "conditions": [
@@ -127,8 +126,7 @@
           "components": {
             "minecraft:trim": {
               "material": "minecraft:gold",
-              "pattern": "minecraft:vex",
-              "show_in_tooltip": true
+              "pattern": "minecraft:vex"
             }
           },
           "conditions": [
@@ -143,8 +141,7 @@
           "components": {
             "minecraft:trim": {
               "material": "minecraft:emerald",
-              "pattern": "minecraft:vex",
-              "show_in_tooltip": true
+              "pattern": "minecraft:vex"
             }
           },
           "conditions": [

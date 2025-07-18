@@ -10,8 +10,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
+                "minecraft:unbreakable": {},
+                "tooltip_display": {
+                  "hidden_components": ["unbreakable"]
                 },
                 "minecraft:item_model": "stellarity:dragonblade",
                 "minecraft:custom_data": {

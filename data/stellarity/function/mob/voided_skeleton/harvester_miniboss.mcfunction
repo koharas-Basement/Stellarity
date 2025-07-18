@@ -1,7 +1,7 @@
 loot replace entity @s weapon.mainhand loot stellarity:item/weapon/harvester
 
-item replace entity @s armor.head with diamond_helmet[trim={material:"amethyst",pattern:"minecraft:flow",show_in_tooltip:false},enchantments={protection:4}]
-item replace entity @s armor.chest with diamond_chestplate[trim={material:"amethyst",pattern:"minecraft:eye",show_in_tooltip:false},enchantments={protection:4}]
+item replace entity @s armor.head with diamond_helmet[trim={material:"amethyst",pattern:"minecraft:flow"},enchantments={protection:4},tooltip_display={hidden_components:["trim"]}]
+item replace entity @s armor.chest with diamond_chestplate[trim={material:"amethyst",pattern:"minecraft:eye"},enchantments={protection:4},tooltip_display={hidden_components:["trim"]}]
 
 attribute @s minecraft:attack_damage modifier add stellarity:harvester_miniboss 0.25 add_multiplied_total
 attribute @s minecraft:max_health modifier add stellarity:harvester_miniboss 26 add_value

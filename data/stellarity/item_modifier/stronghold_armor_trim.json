@@ -4,8 +4,7 @@
     "components": {
       "minecraft:trim": {
         "material": "minecraft:gold",
-        "pattern": "minecraft:eye",
-        "show_in_tooltip": true
+        "pattern": "minecraft:eye"
       }
     },
     "conditions": [
@@ -20,8 +19,7 @@
     "components": {
       "minecraft:trim": {
         "material": "minecraft:diamond",
-        "pattern": "minecraft:eye",
-        "show_in_tooltip": true
+        "pattern": "minecraft:eye"
       }
     },
     "conditions": [
@@ -36,8 +34,7 @@
     "components": {
       "minecraft:trim": {
         "material": "minecraft:emerald",
-        "pattern": "minecraft:eye",
-        "show_in_tooltip": true
+        "pattern": "minecraft:eye"
       }
     },
     "conditions": [

@@ -4,8 +4,7 @@
     "components": {
       "minecraft:trim": {
         "material": "minecraft:amethyst",
-        "pattern": "minecraft:spire",
-        "show_in_tooltip": true
+        "pattern": "minecraft:spire"
       }
     },
     "conditions": [
@@ -20,8 +19,7 @@
     "components": {
       "minecraft:trim": {
         "material": "minecraft:gold",
-        "pattern": "minecraft:spire",
-        "show_in_tooltip": true
+        "pattern": "minecraft:spire"
       }
     },
     "conditions": [
@@ -36,8 +34,7 @@
     "components": {
       "minecraft:trim": {
         "material": "minecraft:diamond",
-        "pattern": "minecraft:spire",
-        "show_in_tooltip": true
+        "pattern": "minecraft:spire"
       }
     },
     "conditions": [
