@@ -28,6 +28,6 @@ side = "BOTH"
 [[dependencies.stellarity]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.21.6,1.21.7]"
+versionRange = "[1.21.6,1.21.8]"
 ordering = "NONE"
 side = "BOTH"
