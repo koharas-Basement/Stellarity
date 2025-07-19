@@ -3,6 +3,7 @@
     scoreboard objectives remove stellarity.config.join_message
     scoreboard objectives remove stellarity.config.always_generate_egg
     scoreboard objectives remove stellarity.config.enable_end_crystal_drop
+    scoreboard objectives remove stellarity.config.enable_totem_void_saving
     scoreboard objectives remove stellarity.config.dragon_health
     scoreboard objectives remove stellarity.config.eol_health
     scoreboard objectives remove stellarity.config.allow_disenchanting
@@ -64,156 +65,184 @@
           scoreboard objectives remove stellarity.items.spellbook.light.cooldown
           scoreboard objectives remove stellarity.items.spellbook.jinx.cooldown
           scoreboard objectives remove stellarity.items.spellbook.return.cooldown
+          scoreboard objectives remove stellarity.items.spellbook.obstruct.cooldown
           scoreboard objectives remove stellarity.items.spellbook.return.progress
           scoreboard objectives remove stellarity.items.spellbook.give_back.hand
 
-        # Empress Wings
-          scoreboard objectives remove stellarity.items.empress_wings.particles
+        # Fluffy Hammer
+          scoreboard objectives remove stellarity.items.fluffy_hammer.throw_cooldown
 
-        # Fish
-          # yeah, only 1
-            scoreboard objectives remove stellarity.items.fish.crystal_heartfish.total_consumed
+        scoreboard objectives remove stellarity.items.porta_altar.cooldown
 
-          # The Beginning and The End
-            scoreboard objectives remove stellarity.items.spirit_dagger.attract_cooldown
-            scoreboard objectives remove stellarity.items.spirit_dagger.consume_time
-            scoreboard objectives remove stellarity.items.spirit_dagger.until_consume_reset
-            scoreboard objectives remove stellarity.items.spirit_dagger.effects_duration
+      # Empress Wings
+        scoreboard objectives remove stellarity.items.empress_wings.particles
 
-          # Harvester, AKA Aery Sword
-            scoreboard objectives remove stellarity.items.aery_sword.damage
-            scoreboard objectives remove stellarity.items.aery_sword.cryonics.duration
-            scoreboard objectives remove stellarity.items.aery_sword.cryonics.cooldown
+      # Fish
+        # yeah, only 1
+          scoreboard objectives remove stellarity.items.fish.crystal_heartfish.total_consumed
 
-          # Kaleidoscope
-            scoreboard objectives remove stellarity.items.kaleidoscope.charge
-            scoreboard objectives remove stellarity.items.kaleidoscope.charge_progress
+        # The Beginning and The End
+          scoreboard objectives remove stellarity.items.spirit_dagger.attract_cooldown
+          scoreboard objectives remove stellarity.items.spirit_dagger.consume_time
+          scoreboard objectives remove stellarity.items.spirit_dagger.until_consume_reset
+          scoreboard objectives remove stellarity.items.spirit_dagger.effects_duration
 
-          # Prismatic Pearl
-            scoreboard objectives remove stellarity.items.prismatic_pearl.cooldown
+        # Harvester, AKA Aery Sword
+          scoreboard objectives remove stellarity.items.aery_sword.damage
+          scoreboard objectives remove stellarity.items.aery_sword.progress.frost_barrier
+          scoreboard objectives remove stellarity.items.aery_sword.progress.cryonics
+          scoreboard objectives remove stellarity.items.aery_sword.progress.piercing_cold
+          scoreboard objectives remove stellarity.items.aery_sword.progress.frostburn
+          scoreboard objectives remove stellarity.items.aery_sword.progress.arctic_wind
+          scoreboard objectives remove stellarity.items.aery_sword.progress.anima_conduit
+          scoreboard objectives remove stellarity.items.aery_sword.progress.echo
+          scoreboard objectives remove stellarity.items.aery_sword.progress.embrittlement
+          scoreboard objectives remove stellarity.items.aery_sword.cryonics.duration
+          scoreboard objectives remove stellarity.items.aery_sword.cryonics.cooldown
 
-          # Prismember
-            scoreboard objectives remove stellarity.items.prismember.charge
-            scoreboard objectives remove stellarity.items.prismember.until_charge_reset
-            scoreboard objectives remove stellarity.items.prismember.cooldown
+        # Kaleidoscope
+          scoreboard objectives remove stellarity.items.kaleidoscope.charge
+          scoreboard objectives remove stellarity.items.kaleidoscope.charge_progress
 
-          # Tamaris
-            scoreboard objectives remove stellarity.items.tamaris.math.health.current
-            scoreboard objectives remove stellarity.items.tamaris.math.health.max
-            scoreboard objectives remove stellarity.items.tamaris.math.health.percentage
-            scoreboard objectives remove stellarity.items.tamaris.animation.progress
-            scoreboard objectives remove stellarity.items.tamaris.execute_cooldown
+        # Prismatic Pearl
+          scoreboard objectives remove stellarity.items.prismatic_pearl.cooldown
 
-          # Chorus Dagger
-            scoreboard objectives remove stellarity.items.chorus_dagger.cooldown
+        # Prismember
+          scoreboard objectives remove stellarity.items.prismember.charge
+          scoreboard objectives remove stellarity.items.prismember.until_charge_reset
+          scoreboard objectives remove stellarity.items.prismember.cooldown
 
-          # Starless Scythe
-            scoreboard objectives remove stellarity.items.starless_scythe.time_since_attack
+        # Tamaris
+          scoreboard objectives remove stellarity.items.tamaris.math.health.current
+          scoreboard objectives remove stellarity.items.tamaris.math.health.max
+          scoreboard objectives remove stellarity.items.tamaris.math.health.percentage
+          scoreboard objectives remove stellarity.items.tamaris.animation.progress
+          scoreboard objectives remove stellarity.items.tamaris.execute_cooldown
 
-          # Stellar Striker
-            scoreboard objectives remove stellarity.items.stellar_striker.stars.collect_time
-            scoreboard objectives remove stellarity.items.stellar_striker.stars.amount
-            scoreboard objectives remove stellarity.items.stellar_striker.time_since_attack
-            scoreboard objectives remove stellarity.items.stellar_striker.cooldown
+        # Chorus Dagger
+          scoreboard objectives remove stellarity.items.chorus_dagger.cooldown
 
-          # Spectral Fury
-            scoreboard objectives remove stellarity.items.spectral_fury.charge
-            scoreboard objectives remove stellarity.items.spectral_fury.until_charge_reset
-            scoreboard objectives remove stellarity.items.spectral_fury.pierce_count
-            scoreboard objectives remove stellarity.items.spectral_fury.damage
+        # Starless Scythe
+          scoreboard objectives remove stellarity.items.starless_scythe.time_since_attack
 
-          ## Mobs
-            # Empress of Light
-              scoreboard objectives remove stellarity.eol.animation
-              scoreboard objectives remove stellarity.eol.health
-              scoreboard objectives remove stellarity.eol.health_percent
-              scoreboard objectives remove stellarity.eol.hurt_time
-              scoreboard objectives remove stellarity.eol.attack_cycle
-              scoreboard objectives remove stellarity.eol.attack_duration
-              scoreboard objectives remove stellarity.eol.attack_cooldown
-              scoreboard objectives remove stellarity.eol.projectile_age
+        # Stellar Striker
+          scoreboard objectives remove stellarity.items.stellar_striker.stars.collect_time
+          scoreboard objectives remove stellarity.items.stellar_striker.stars.amount
+          scoreboard objectives remove stellarity.items.stellar_striker.time_since_attack
+          scoreboard objectives remove stellarity.items.stellar_striker.cooldown
 
-            # Ender Dragon
-              scoreboard objectives remove stellarity.dragon.times_killed
-              scoreboard objectives remove stellarity.dragon.screenshake
-              scoreboard objectives remove stellarity.dragon.respawn_animation_progress
-              scoreboard objectives remove stellarity.dragon.perch_cooldown
-              scoreboard objectives remove stellarity.dragon.health
-              scoreboard objectives remove stellarity.dragon.health_percent
-              scoreboard objectives remove stellarity.dragon.health_old
-              scoreboard objectives remove stellarity.dragon.time_chainfiring
-              scoreboard objectives remove stellarity.dragon.shulker_hell
-              scoreboard objectives remove stellarity.dragon.heartbeat
-              scoreboard objectives remove stellarity.dragon.ball_of_blight_cooldown
+        # Spectral Fury
+          scoreboard objectives remove stellarity.items.spectral_fury.charge
+          scoreboard objectives remove stellarity.items.spectral_fury.until_charge_reset
+          scoreboard objectives remove stellarity.items.spectral_fury.pierce_count
+          scoreboard objectives remove stellarity.items.spectral_fury.damage
 
-            # Phantoms
-              scoreboard objectives remove stellarity.phantom.size
-              scoreboard objectives remove stellarity.phantom.wings_drop_chance
+        # Sandstorm Trident
+          scoreboard objectives remove stellarity.items.sandstorm_trident.id
+          scoreboard objectives remove stellarity.items.sandstorm_trident.trail_pos
 
-            ## Boss music
-              scoreboard objectives remove stellarity.music.ender_dragon.timer
-              scoreboard objectives remove stellarity.music.empress_of_light.timer
-
-            ## Mechanics
-              scoreboard objectives remove stellarity.mechanics.void_fishing.length
-              scoreboard objectives remove stellarity.mechanics.void_fishing.max_time
-              scoreboard objectives remove stellarity.mechanics.void_fishing.can_fish
-              scoreboard objectives remove stellarity.mechanics.consecration.time
-              scoreboard objectives remove stellarity.mechanics.altar_of_the_sacred.timer
-              scoreboard objectives remove stellarity.aota.count
-              scoreboard objectives remove stellarity.entity.live_time
-
-            ## Misc
-              # Temporar variables OR things that don't need its own variable
-                scoreboard objectives remove stellarity.misc
-                scoreboard objectives remove stellarity.misc2
-                scoreboard objectives remove stellarity.misc3
-                scoreboard objectives remove stellarity.misc4
-                scoreboard objectives remove stellarity.misc.end_portal_animation
-                scoreboard objectives remove stellarity.misc.end_portal_bg_loop
+        scoreboard objectives remove stellarity.items.elytra.damage
+        scoreboard objectives remove stellarity.items.elytra.unbreaking
 
 
-            scoreboard objectives remove stellarity.misc.motion.x1
-            scoreboard objectives remove stellarity.misc.motion.x2
-            scoreboard objectives remove stellarity.misc.motion.y1
-            scoreboard objectives remove stellarity.misc.motion.y2
-            scoreboard objectives remove stellarity.misc.motion.z1
-            scoreboard objectives remove stellarity.misc.motion.z2
 
-          scoreboard objectives remove stellarity.misc.loop.2t
-          scoreboard objectives remove stellarity.misc.loop.3t
-          scoreboard objectives remove stellarity.misc.loop.5t
-          scoreboard objectives remove stellarity.misc.loop.1s
-          scoreboard objectives remove stellarity.misc.loop.10s
-          scoreboard objectives remove stellarity.misc.loop.15s
+  ## Mobs
+    # Empress of Light
+      scoreboard objectives remove stellarity.eol.animation
+      scoreboard objectives remove stellarity.eol.health
+      scoreboard objectives remove stellarity.eol.health_percent
+      scoreboard objectives remove stellarity.eol.hurt_time
+      scoreboard objectives remove stellarity.eol.attack_cycle
+      scoreboard objectives remove stellarity.eol.attack_duration
+      scoreboard objectives remove stellarity.eol.attack_cooldown
+      scoreboard objectives remove stellarity.eol.projectile_age
 
-        ## Creating teams
-          team remove stellarity.purple_glow
-          team remove stellarity.golden_glow
-          team remove stellarity.spirit_glow
-          team remove stellarity.homing_targets
-          team remove stellarity.rave_glow
-          team remove stellarity.phantom_glow
-          team remove stellarity.eol.night_glow
-          team remove stellarity.eol.day_glow
-          team remove stellarity.dragons_eye.pacified
-          team remove stellarity.dragon.pacify_others
+    # Ender Dragon
+      scoreboard objectives remove stellarity.dragon.times_killed
+      scoreboard objectives remove stellarity.dragon.screenshake
+      scoreboard objectives remove stellarity.dragon.respawn_animation_progress
+      scoreboard objectives remove stellarity.dragon.perch_cooldown
+      scoreboard objectives remove stellarity.dragon.health
+      scoreboard objectives remove stellarity.dragon.health_percent
+      scoreboard objectives remove stellarity.dragon.health_old
+      scoreboard objectives remove stellarity.dragon.time_chainfiring
+      scoreboard objectives remove stellarity.dragon.shulker_hell
+      scoreboard objectives remove stellarity.dragon.heartbeat
+      scoreboard objectives remove stellarity.dragon.ball_of_blight_cooldown
 
-        ## Bossbars
-          # Ender Dragon
-            bossbar remove stellarity:ender_dragon 
-            # 'Crystals Left'
-              bossbar remove stellarity:crystal_count
-              # Empress of Light
-                bossbar remove stellarity:eol 
+    # Phantoms
+      scoreboard objectives remove stellarity.phantom.size
+      scoreboard objectives remove stellarity.phantom.wings_drop_chance
+
+    ## Boss music
+      scoreboard objectives remove stellarity.music.ender_dragon.timer
+      scoreboard objectives remove stellarity.music.empress_of_light.timer
+
+    ## Mechanics
+      scoreboard objectives remove stellarity.aota.count
+      scoreboard objectives remove stellarity.entity.live_time
+
+    scoreboard objectives remove stellarity.mechanics.void_fishing.length
+    scoreboard objectives remove stellarity.mechanics.void_fishing.max_time
+    scoreboard objectives remove stellarity.mechanics.void_fishing.can_fish
+    scoreboard objectives remove stellarity.mechanics.consecration.time
+    scoreboard objectives remove stellarity.mechanics.altar_of_the_sacred.timer
+    scoreboard objectives remove stellarity.mechanics.cauldron_crafting.items_inside
+    scoreboard objectives remove stellarity.mechanics.cauldron_crafting.breath_left
+
+  ## Enchantments
+    scoreboard objectives remove stellarity.enchantments.critical_strike.can_crit
+
+  ## Misc
+    # Temporar variables OR things that don't need its own variable
+      scoreboard objectives remove stellarity.misc
+      scoreboard objectives remove stellarity.misc2
+      scoreboard objectives remove stellarity.misc3
+      scoreboard objectives remove stellarity.misc4
+      scoreboard objectives remove stellarity.misc.end_portal_animation
+      scoreboard objectives remove stellarity.misc.end_portal_bg_loop
+
+    scoreboard objectives remove stellarity.misc.motion.x1
+    scoreboard objectives remove stellarity.misc.motion.x2
+    scoreboard objectives remove stellarity.misc.motion.y1
+    scoreboard objectives remove stellarity.misc.motion.y2
+    scoreboard objectives remove stellarity.misc.motion.z1
+    scoreboard objectives remove stellarity.misc.motion.z2
+
+  scoreboard objectives remove stellarity.misc.loop.2t
+  scoreboard objectives remove stellarity.misc.loop.3t
+  scoreboard objectives remove stellarity.misc.loop.5t
+  scoreboard objectives remove stellarity.misc.loop.1s
+  scoreboard objectives remove stellarity.misc.loop.10s
+  scoreboard objectives remove stellarity.misc.loop.15s
+
+## Creating teams
+  team remove stellarity.purple_glow
+  team remove stellarity.golden_glow
+  team remove stellarity.spirit_glow
+  team remove stellarity.homing_targets
+  team remove stellarity.rave_glow
+  team remove stellarity.phantom_glow
+  team remove stellarity.eol.night_glow
+  team remove stellarity.eol.day_glow
+  team remove stellarity.dragons_eye.pacified
+  team remove stellarity.dragon.pacify_others
+
+## Bossbars
+  # Ender Dragon
+    bossbar remove stellarity:ender_dragon 
+    # 'Crystals Left'
+      bossbar remove stellarity:crystal_count
+      # Empress of Light
+        bossbar remove stellarity:eol 
 
 
-            # Scheduling loops that do not need
-              # to be executed every single tick
-                schedule clear stellarity:loop/timed/2_tick
-                schedule clear stellarity:loop/timed/3_tick
-                schedule clear stellarity:loop/timed/5_tick
-                schedule clear stellarity:loop/timed/1_second
-                schedule clear stellarity:loop/timed/5_second
+    # Scheduling loops that do not need
+      # to be executed every single tick
+        schedule clear stellarity:loop/timed/2_tick
+        schedule clear stellarity:loop/timed/3_tick
+        schedule clear stellarity:loop/timed/5_tick
+        schedule clear stellarity:loop/timed/1_second
+        schedule clear stellarity:loop/timed/5_second
 
-              function stellarity:util/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}
+      function stellarity:util/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}

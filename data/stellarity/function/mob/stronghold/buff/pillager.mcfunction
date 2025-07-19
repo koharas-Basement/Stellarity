@@ -11,6 +11,7 @@ execute if score #arrow stellarity.misc matches 10 run \
 item replace entity @s weapon.offhand with tipped_arrow[potion_contents="weakness"] 64
 
 tag @s add stellarity.stronghold.buffed
+tag @s add smithed.entity
 
 attribute @s armor modifier add stellarity:stronghold.defense_buff 2 add_value
 attribute @s movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base

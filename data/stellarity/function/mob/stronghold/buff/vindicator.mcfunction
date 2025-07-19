@@ -4,6 +4,7 @@ loot replace entity @s weapon.mainhand loot stellarity:stronghold/mob_equipment/
 execute if predicate kohara:chance/25percent run item replace entity @s weapon.offhand with shield
 
 tag @s add stellarity.stronghold.buffed
+tag @s add smithed.entity
 
 attribute @s movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base
 
