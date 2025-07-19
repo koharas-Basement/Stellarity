@@ -5,7 +5,7 @@ execute unless score #damage stellarity.misc matches ..2147483647 run scoreboard
 execute if score @s kohara.used_firework matches 1.. run scoreboard players set #temp stellarity.misc 8
 execute if score @s kohara.thrown_trident matches 1.. run function stellarity:mechanic/elytra/nerf/trident
 
-execute store result score #unbreaking stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.Inventory[{Slot:102b}].components."minecraft:enchantments".levels."minecraft:unbreaking" 1
+execute store result score #unbreaking stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.Inventory[{Slot:102b}].components."minecraft:enchantments"."minecraft:unbreaking" 1
 execute if score #unbreaking stellarity.misc matches 1.. run function stellarity:mechanic/elytra/nerf/unbreaking
 
 scoreboard players operation #damage stellarity.misc += #temp stellarity.misc

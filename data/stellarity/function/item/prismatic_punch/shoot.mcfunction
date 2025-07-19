@@ -4,8 +4,8 @@ execute as @n[type=#kohara:ammo,tag=!stellarity.aware] positioned as @s run func
 
 data modify storage stellarity:temp prismatic_punch.item set from entity @s SelectedItem
 execute store result score @n[type=marker,tag=stellarity.prismatic_blast] stellarity.items.prismatic_punch.piercing run \
-	data get storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments".levels."minecraft:piercing" 1
-execute if data storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments".levels."minecraft:multishot" run \
-	tag @n[type=marker,tag=stellarity.prismatic_blast] add stellarity.prismatic_blast.multishot
+data get storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments"."minecraft:piercing" 1
+execute if data storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments"."minecraft:multishot" run \
+tag @n[type=marker,tag=stellarity.prismatic_blast] add stellarity.prismatic_blast.multishot
 
 playsound stellarity:item.prismatic_punch.shoot player @a[distance=0..] ~ ~ ~
