@@ -1,5 +1,10 @@
 read -p "Version: " version
 
+echo "Checking mods metadata:"
+grep -r ${version} mod/
+
+read -p "Do you see ${version} in the above list? If not update your mods metadata. "
+
 rm -rf artifacts/${version}
 mkdir -p artifacts/${version}
 

@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "stellarity:entity/wolf/ender_wolf_angry",
+    "tame": "stellarity:entity/wolf/ender_wolf_tame",
+    "wild": "stellarity:entity/wolf/ender_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "priority": 1000,
+      "condition": {
+        "type": "biome",
+        "biomes": "#is_end"
+      }
+    }
+  ]
+}
