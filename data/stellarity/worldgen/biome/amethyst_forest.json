@@ -38,14 +38,20 @@
         "minCount": 4,
         "maxCount": 4
       }
+    ],
+    "creature": [
+      {
+        "type": "illusioner",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 100
+      }
     ]
   },
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    [
-      "far_end:amethyst/island/calcite_bottom"
-    ],
+    ["far_end:amethyst/island/calcite_bottom"],
     [],
     [
       "far_end:amethyst/geode/amethyst",
