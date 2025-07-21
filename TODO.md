@@ -44,3 +44,5 @@ sculk growth looks like
 the hallow looks like another beautiful forest, spawn animals
 
 the nest is some heck of a mountain, but do not spawn
+
+warped marsh looks like a swamp as well, spawn frogs and maybe axoltols
