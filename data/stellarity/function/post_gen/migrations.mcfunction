@@ -14,3 +14,7 @@ execute at @a[predicate=stellarity:item/holding/purpur_key] run fill ~4 ~2 ~4 ~-
 
 execute at @a[predicate=stellarity:item/holding/gilded_purpur_key] run fill ~4 ~2 ~4 ~-4 ~-2 ~-4 vault[ominous=true,vault_state=inactive]{config:{loot_table:"stellarity:end_city/vault/ominous",key_item: {components: {"minecraft:item_name": {translate: "stellarity.items.materials.keys.gilded_purpur"}, "minecraft:lore": ["", {color: "#EEEEEE", italic: 0b, translate: "stellarity.items.materials.keys.gilded_purpur.description"}, "", {color: "#CC26FF", italic: 1b, translate: "Stellarity"}], "minecraft:item_model": "stellarity:gilded_purpur_key", "minecraft:rarity": "rare", "minecraft:custom_data": {stellarity.special_item: "gilded_purpur_key"}}, count: 1, id: "minecraft:ominous_trial_key"}}} replace vault{config:{key_item:{components:{"minecraft:item_name": '{"fallback":"Gilded Purpur Key","translate":"stellarity.items.materials.keys.gilded_purpur"}',"minecraft:custom_data":{stellarity.special_item: "gilded_purpur_key"}}}}}
 
+scoreboard objectives remove stellarity.config.migrate_vaults
+
+tag @e[tag=stellarity.entity.fluffy_hammer_display] add stellarity.fluffy_hammer.display
+tag @e[tag=stellarity.entity.fluffy_hammer] add stellarity.fluffy_hammer

@@ -13,7 +13,7 @@
     scoreboard objectives add stellarity.config.enable_creative_shock dummy
     scoreboard objectives add stellarity.config.nerf_elytra dummy
     scoreboard objectives add stellarity.config.boss_status_messages dummy
-    scoreboard objectives add stellarity.config.migrate_vaults dummy
+    scoreboard objectives add stellarity.config.migrations dummy
 
   # Initialize config scoreboards
     # Freshly created scoreboards have no value (not even set to 0)

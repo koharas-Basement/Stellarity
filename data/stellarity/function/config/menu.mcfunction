@@ -40,7 +40,7 @@ function stellarity:util/tellraw/config {title:"Nerf Elytra",description:"Nerfs 
 
 function stellarity:util/tellraw/config {title:"Boss Status Messages",description:"Sends global messages when a Stellarity boss is summoned, killed or despawns.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"boss_status_messages",numerical:0,suggested_value:1}
 
-function stellarity:util/tellraw/config {title:"Enable Vault Migrations",description:"Allows conversion from old vaults to be work with new keys.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"migrate_vaults",numerical:0,suggested_value:1}
+function stellarity:util/tellraw/config {title:"Enable Migrations",description:"Allows conversion operations to be run every 5 seconds.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"migrations",numerical:0,suggested_value:1}
 
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 
