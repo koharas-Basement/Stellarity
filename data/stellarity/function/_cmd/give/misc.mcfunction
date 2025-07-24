@@ -1,4 +1,4 @@
-loot give @s loot stellarity:item/altar_of_the_sacred
+loot give @s loot stellarity:item/block/altar_of_the_sacred
 loot give @s loot stellarity:item/tool/fisher_of_voids
 loot give @s loot stellarity:item/prismatic_pearl
 
