@@ -8,7 +8,7 @@
           "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
+              "type": "loot_table",
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
@@ -20,7 +20,7 @@
                   }
                 }
               ],
-              "name": "minecraft:diamond"
+              "value": "stellarity:item/ingredients/ender_egg"
             },
             {
               "type": "minecraft:item",

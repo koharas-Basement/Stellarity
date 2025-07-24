@@ -39,12 +39,10 @@
                   ]
                 },
                 "tooltip_display": {
-                  "hidden_components": [
-                    "potion_contents"
-                  ]
+                  "hidden_components": ["potion_contents"]
                 },
                 "minecraft:custom_name": {
-                  "translate": "stellarity.items.potions.amarena",
+                  "translate": "item.stellarity.amarene",
                   "color": "#C90D17",
                   "italic": false
                 },
@@ -61,13 +59,13 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.potions.amarena.description",
+                  "translate": "item.stellarity.amarene.description",
                   "italic": false,
                   "color": "#EEEEEE"
                 },
                 "",
                 {
-                  "translate": "stellarity.items.potions.amarena.flavor_text",
+                  "translate": "item.stellarity.amarene.flavor_text",
                   "italic": true,
                   "color": "#EEEEEE"
                 },

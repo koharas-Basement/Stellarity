@@ -44,5 +44,20 @@ while not done:
 
 
 for lang in translations:
+  final = dict(natsorted(translations[lang].items()))
   with open(f"translations/stellarity/{lang}", "w", encoding="utf-8") as f:
-    json.dump(dict(natsorted(translations[lang].items())), f, ensure_ascii=False, indent=4)
+    json.dump(final, f, ensure_ascii=False, indent=4)
+
+  final["LEGACY_TRANSLATIONS_THIS_IS_NOT_A_KEY"] = "ALL LEGACY TRANSLATIONS BELOW, TRY NOT TO EDIT."
+  final["-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"] = "-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"
+
+  with open(f"translations/stellarity_legacy/{lang}", "r", encoding="utf-8") as f:
+    data = json.load(f)
+    for key in data:
+      if key not in final:
+        final[key] = key
+
+  with open(f"resource_pack/assets/stellarity/lang/{lang}", "w+", encoding="utf-8") as f:
+    json.dump(final, f, ensure_ascii=False, indent=4)
+
+  
