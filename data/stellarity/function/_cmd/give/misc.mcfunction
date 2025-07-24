@@ -1,6 +1,6 @@
 loot give @s loot stellarity:item/block/altar_of_the_sacred
 loot give @s loot stellarity:item/tool/fisher_of_voids
-loot give @s loot stellarity:item/prismatic_pearl
+loot give @s loot stellarity:item/trinket/prismatic_pearl
 
 loot give @s loot stellarity:item/explorer_map/end_city
 loot give @s loot stellarity:item/explorer_map/village

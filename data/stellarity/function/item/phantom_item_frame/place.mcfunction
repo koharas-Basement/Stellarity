@@ -1,5 +1,4 @@
 tag @s add stellarity.placed
-data modify entity @s LootTable set value "stellarity:item/block/phantom_item_frame"
 
 execute anchored eyes run summon marker ^ ^ ^ {Tags:["stellarity.phantom_item_frame","stellarity.marker","smithed.entity","smithed.strict"]}
 execute rotated as @s anchored eyes as @n[type=marker,tag=stellarity.phantom_item_frame] run tp @s ^ ^ ^ ~ ~ 

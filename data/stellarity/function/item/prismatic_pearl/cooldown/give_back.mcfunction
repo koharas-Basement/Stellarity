@@ -1,4 +1,4 @@
-loot give @s[gamemode=!creative,gamemode=!spectator] loot stellarity:item/prismatic_pearl
+loot give @s[gamemode=!creative,gamemode=!spectator] loot stellarity:item/trinket/prismatic_pearl
 
 playsound minecraft:entity.ender_eye.death neutral @s ~ ~1.22 ~ 1 1
 
