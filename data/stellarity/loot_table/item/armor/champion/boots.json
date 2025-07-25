@@ -14,7 +14,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.armors.set_bonus",
+                  "translate": "items.stellarity.armor.set_bonus",
                   "color": "#FF9952",
                   "italic": false
                 },

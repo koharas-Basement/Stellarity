@@ -28,7 +28,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity.upgrade",
+                  "translate": "item.stellarity.chorus_plating.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },

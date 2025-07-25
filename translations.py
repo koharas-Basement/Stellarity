@@ -6,6 +6,7 @@ translations = {}
 
 # in translations/stellarity 
 for file in os.listdir("translations/stellarity"):
+  print(file)
   with open(f"translations/stellarity/{file}", "r", encoding="utf-8") as f:
     data = json.load(f)
     translations[file] = data

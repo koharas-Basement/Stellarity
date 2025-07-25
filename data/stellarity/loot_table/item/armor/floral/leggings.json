@@ -14,33 +14,33 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.armors.set_bonus",
+                  "translate": "items.stellarity.armor.set_bonus",
                   "color": "#FF9952",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.floral_armor.set_bonus.1",
+                  "translate": "items.stellarity.floral_armor.bonus.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.floral_armor.set_bonus.2",
+                  "translate": "items.stellarity.floral_armor.bonus.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.floral_armor.set_bonus.3",
+                  "translate": "items.stellarity.floral_armor.bonus.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.armors.piece_bonus",
+                  "translate": "items.stellarity.armor.piece_bonus",
                   "color": "#FF9952",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.floral_armor.piece_bonus.leggings",
+                  "translate": "item.stellarity.floral_leggings.bonus",
                   "color": "#EEEEEE",
                   "italic": false
                 },

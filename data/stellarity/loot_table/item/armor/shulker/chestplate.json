@@ -14,28 +14,28 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.armors.set_bonus",
+                  "translate": "items.stellarity.armor.set_bonus",
                   "color": "#FF9952",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.shulker_armor.set_bonus.1",
+                  "translate": "items.stellarity.shulker_armor.bonus.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.shulker_armor.set_bonus.2",
+                  "translate": "items.stellarity.shulker_armor.bonus.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.armors.piece_bonus",
+                  "translate": "items.stellarity.armor.piece_bonus",
                   "color": "#FF9952",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.shulker_armor.piece_bonus.chestplate",
+                  "translate": "item.stellarity.shulker_chestplate.bonus",
                   "color": "#EEEEEE",
                   "italic": false
                 },

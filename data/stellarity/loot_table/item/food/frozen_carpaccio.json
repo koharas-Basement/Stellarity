@@ -59,7 +59,7 @@
                   }
                 ],
                 {
-                  "translate": "stellarity.items.frozen_carpaccio.usage",
+                  "translate": "item.stellarity.frozen_carpaccio.usage",
                   "color": "blue",
                   "italic": false
                 },

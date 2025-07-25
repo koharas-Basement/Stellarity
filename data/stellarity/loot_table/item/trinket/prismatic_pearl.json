@@ -15,7 +15,7 @@
                   "stellarity.item": "prismatic_pearl"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.prismatic_pearl",
+                  "translate": "item.stellarity.prismatic_pearl",
                   "color": "#FF76D0",
                   "italic": false
                 },

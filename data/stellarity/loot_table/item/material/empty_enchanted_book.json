@@ -25,23 +25,23 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.empty_enchanted_book.description.1",
+                  "translate": "item.stellarity.empty_enchanted_book.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.empty_enchanted_book.description.2",
+                  "translate": "item.stellarity.empty_enchanted_book.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.empty_enchanted_book.description.3",
+                  "translate": "item.stellarity.empty_enchanted_book.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.empty_enchanted_book.description.4",
+                  "translate": "item.stellarity.empty_enchanted_book.description.4",
                   "color": "#EEEEEE",
                   "italic": false
                 },

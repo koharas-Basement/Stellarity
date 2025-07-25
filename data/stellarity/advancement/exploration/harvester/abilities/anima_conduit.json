@@ -10,10 +10,10 @@
       "translate": "advancements.stellarity.harvester.abilities.anima_conduit",
       "with": [
         {
-          "translate": "stellarity.items.harvester.ability"
+          "translate": "item.stellarity.harvester.ability"
         },
         {
-          "translate": "stellarity.items.harvester.ability.anima_conduit"
+          "translate": "item.stellarity.harvester.ability.anima_conduit"
         }
       ]
     },

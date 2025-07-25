@@ -14,17 +14,17 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.armors.set_bonus",
+                  "translate": "items.stellarity.armor.set_bonus",
                   "color": "#FF9952",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.hallowed_armor.set_bonus.1",
+                  "translate": "items.stellarity.hallowed_armor.bonus.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.armors.hallowed_armor.set_bonus.2",
+                  "translate": "items.stellarity.hallowed_armor.bonus.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },

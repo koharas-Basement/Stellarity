@@ -17,7 +17,7 @@
                 },
                 "minecraft:rarity": "epic",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.endonomicon"
+                  "translate": "item.stellarity.endonomicon"
                 },
                 "!max_damage": {},
                 "damage_resistant": {
@@ -31,7 +31,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.cursed_tome.description.flavor_text",
+                  "translate": "item.stellarity.endonomicon.flavor_text",
                   "color": "#BB6BDE",
                   "italic": true
                 },

@@ -16,7 +16,7 @@
                   "text": ""
                 },
                 {
-                  "translate": "stellarity.items.phantom_item_frame.description",
+                  "translate": "item.stellarity.phantom_item_frame.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -41,7 +41,7 @@
                   "stellarity.item": "phantom_item_frame"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.phantom_item_frame"
+                  "translate": "item.stellarity.phantom_item_frame"
                 }
               }
             }

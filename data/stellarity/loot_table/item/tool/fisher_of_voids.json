@@ -20,7 +20,7 @@
                 },
                 "minecraft:max_damage": 264,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fisher_of_voids",
+                  "translate": "item.stellarity.fisher_of_voids",
                   "color": "#8865AF",
                   "italic": false
                 }
@@ -33,7 +33,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.fisher_of_voids.description",
+                  "translate": "item.stellarity.fisher_of_voids.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },

@@ -34,7 +34,7 @@
                 },
                 "minecraft:max_damage": 2701,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.tools.shulker.hoe",
+                  "translate": "item.stellarity.shulker.hoe",
                   "color": "#976A97",
                   "italic": false
                 }
