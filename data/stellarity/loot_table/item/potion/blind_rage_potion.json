@@ -26,7 +26,7 @@
                   ]
                 },
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "blind_rage_potion"
+                  "stellarity.item": "blind_rage_potion"
                 },
                 "minecraft:custom_name": {
                   "translate": "stellarity.items.potions.blind_rage_potion",

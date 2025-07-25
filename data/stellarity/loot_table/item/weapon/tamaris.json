@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:tamaris",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "tamaris"
+                  "stellarity.item": "tamaris"
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:max_damage": 1562,

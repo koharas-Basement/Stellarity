@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:goosh",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "goosh"
+                  "stellarity.item": "goosh"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.fish.goosh"

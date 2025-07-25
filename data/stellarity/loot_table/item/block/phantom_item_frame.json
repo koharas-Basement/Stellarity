@@ -34,13 +34,11 @@
                 "minecraft:item_model": "stellarity:phantom_item_frame",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_frame",
-                  "Tags": [
-                    "stellarity.phantom_item_frame"
-                  ]
+                  "Tags": ["stellarity.phantom_item_frame"]
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "phantom_item_frame"
+                  "stellarity.item": "phantom_item_frame"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.phantom_item_frame"

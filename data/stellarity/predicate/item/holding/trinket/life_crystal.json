@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "life_crystal"
+            "stellarity.item": "life_crystal"
           }
         }
       }

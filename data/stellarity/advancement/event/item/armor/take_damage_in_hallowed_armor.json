@@ -9,28 +9,28 @@
             "head": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "hallowed_armor"
+                  "stellarity.item": "hallowed_armor"
                 }
               }
             },
             "chest": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "hallowed_armor"
+                  "stellarity.item": "hallowed_armor"
                 }
               }
             },
             "legs": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "hallowed_armor"
+                  "stellarity.item": "hallowed_armor"
                 }
               }
             },
             "feet": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "hallowed_armor"
+                  "stellarity.item": "hallowed_armor"
                 }
               }
             }
@@ -43,11 +43,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "take_damage_in_hallowed_armor"
-    ]
-  ],
+  "requirements": [["take_damage_in_hallowed_armor"]],
   "rewards": {
     "function": "stellarity:item/armor/hallowed/take_damage"
   }

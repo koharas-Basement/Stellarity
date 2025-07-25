@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:bubblefish",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "bubblefish"
+                  "stellarity.item": "bubblefish"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.fish.bubblefish"

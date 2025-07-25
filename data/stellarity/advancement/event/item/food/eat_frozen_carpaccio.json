@@ -5,12 +5,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:cooked_beef"
-          ],
+          "items": ["minecraft:cooked_beef"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "frozen_carpaccio"
+              "stellarity.item": "frozen_carpaccio"
             }
           }
         }

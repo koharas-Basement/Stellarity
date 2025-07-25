@@ -47,7 +47,7 @@
                 "minecraft:dyed_color": 11041988,
                 "minecraft:item_model": "stellarity:champion_chestplate",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "champion_armor"
+                  "stellarity.item": "champion_chestplate"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

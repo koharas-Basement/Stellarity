@@ -16,7 +16,7 @@
                 },
                 "minecraft:item_model": "stellarity:dragonblade",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "dragonblade"
+                  "stellarity.item": "dragonblade"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

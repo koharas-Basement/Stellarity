@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:void_locket",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "void_locket"
+                  "stellarity.item": "void_locket"
                 },
                 "rarity": "rare",
                 "minecraft:item_name": {

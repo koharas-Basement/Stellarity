@@ -6,7 +6,7 @@
       "chest": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "floral_armor"
+            "stellarity.item": "floral_armor"
           }
         }
       }

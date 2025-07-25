@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "starstruck_shield"
+            "stellarity.item": "starstruck_shield"
           }
         }
       }

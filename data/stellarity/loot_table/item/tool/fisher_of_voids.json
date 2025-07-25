@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:fisher_of_voids",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "fisher_of_voids"
+                  "stellarity.item": "fisher_of_voids"
                 },
                 "rarity": "uncommon",
                 "minecraft:damage_resistant": {

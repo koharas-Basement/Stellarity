@@ -31,7 +31,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:winged_key",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "winged_key"
+                  "stellarity.item": "winged_key"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.materials.keys.winged"

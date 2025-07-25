@@ -13,7 +13,7 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "stellarity:golden_chorus_fruit",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "golden_chorus_fruit"
+                  "stellarity.item": "golden_chorus_fruit"
                 },
                 "minecraft:food": {
                   "nutrition": 6,

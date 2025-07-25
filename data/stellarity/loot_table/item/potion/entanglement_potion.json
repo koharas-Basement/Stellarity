@@ -22,7 +22,7 @@
                   ]
                 },
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "entanglement_potion"
+                  "stellarity.item": "entanglement_potion"
                 },
                 "minecraft:custom_name": {
                   "translate": "stellarity.items.potions.entanglement_potion",

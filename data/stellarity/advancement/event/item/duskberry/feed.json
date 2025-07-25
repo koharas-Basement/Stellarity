@@ -5,12 +5,10 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:sweet_berries"
-          ],
+          "items": ["minecraft:sweet_berries"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "duskberry"
+              "stellarity.item": "duskberry"
             }
           }
         },
@@ -20,11 +18,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "feed_duskberry"
-    ]
-  ],
+  "requirements": [["feed_duskberry"]],
   "rewards": {
     "function": "stellarity:item/duskberry/feed"
   }

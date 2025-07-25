@@ -42,7 +42,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:empress_wings",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "empress_wings"
+                  "stellarity.item": "empress_wings"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

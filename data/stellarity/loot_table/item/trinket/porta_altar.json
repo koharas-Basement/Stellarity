@@ -58,7 +58,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:porta_altar",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "porta_altar",
+                  "stellarity.item": "porta_altar",
                   "kohara.right_click": true
                 },
                 "rarity": "epic",

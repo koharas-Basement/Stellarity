@@ -8,12 +8,10 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": [
-                "minecraft:sweet_berries"
-              ],
+              "items": ["minecraft:sweet_berries"],
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "duskberry"
+                  "stellarity.item": "duskberry"
                 }
               }
             }
@@ -22,11 +20,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "plant_duskberry"
-    ]
-  ],
+  "requirements": [["plant_duskberry"]],
   "rewards": {
     "function": "stellarity:item/duskberry/plant"
   }

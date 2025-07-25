@@ -97,7 +97,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:the_beginning",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "spirit_dagger"
+                  "stellarity.item": "spirit_dagger"
                 },
                 "minecraft:max_damage": 484,
                 "rarity": "uncommon",
@@ -210,7 +210,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:the_end",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "spirit_dagger"
+                  "stellarity.item": "spirit_dagger"
                 },
                 "minecraft:max_damage": 484,
                 "rarity": "uncommon",

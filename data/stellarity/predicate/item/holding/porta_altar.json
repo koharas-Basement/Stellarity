@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "porta_altar"
+            "stellarity.item": "porta_altar"
           }
         }
       }

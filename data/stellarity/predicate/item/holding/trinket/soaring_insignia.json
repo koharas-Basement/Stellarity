@@ -4,12 +4,10 @@
   "predicate": {
     "slots": {
       "container.*": {
-        "items": [
-          "minecraft:gold_nugget"
-        ],
+        "items": ["minecraft:gold_nugget"],
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "soaring_insignia"
+            "stellarity.item": "soaring_insignia"
           }
         }
       }

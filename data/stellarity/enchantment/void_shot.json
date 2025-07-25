@@ -15,9 +15,7 @@
     "per_level_above_first": 0
   },
   "anvil_cost": 10,
-  "slots": [
-    "mainhand"
-  ],
+  "slots": ["mainhand"],
   "effects": {
     "minecraft:post_attack": [
       {
@@ -82,7 +80,7 @@
               "entity": "direct_attacker",
               "predicate": {
                 "type": "#minecraft:arrows",
-                "nbt": "{weapon:{components:{\"minecraft:custom_data\":{\"stellarity.special_item\":\"call_of_the_void\"}}}}"
+                "nbt": "{weapon:{components:{\"minecraft:custom_data\":{\"stellarity.item\":\"call_of_the_void\"}}}}"
               }
             }
           ]

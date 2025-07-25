@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "clockwork_crossbow"
+            "stellarity.item": "clockwork_crossbow"
           }
         }
       }

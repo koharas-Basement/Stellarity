@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:chorus_stew",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "chorus_stew"
+                  "stellarity.item": "chorus_stew"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.food.chorus_stew",

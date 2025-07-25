@@ -11,12 +11,10 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "items": [
-                    "minecraft:netherite_sword"
-                  ],
+                  "items": ["minecraft:netherite_sword"],
                   "predicates": {
                     "minecraft:custom_data": {
-                      "stellarity.special_item": "stellar_striker"
+                      "stellarity.item": "stellar_striker"
                     }
                   }
                 }

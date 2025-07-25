@@ -17,23 +17,17 @@
           }
         ],
         "item": {
-          "items": [
-            "minecraft:cooked_cod"
-          ],
+          "items": ["minecraft:cooked_cod"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "crystal_heartfish"
+              "stellarity.item": "crystal_heartfish"
             }
           }
         }
       }
     }
   },
-  "requirements": [
-    [
-      "eat_crystal_heartfish"
-    ]
-  ],
+  "requirements": [["eat_crystal_heartfish"]],
   "rewards": {
     "function": "stellarity:item/food/fish/crystal_heartfish/eat"
   }

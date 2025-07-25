@@ -32,7 +32,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "candied_chorus_fruit"
+              "stellarity.item": "candied_chorus_fruit"
             }
           }
         }
@@ -44,7 +44,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "chorus_juice"
+              "stellarity.item": "chorus_juice"
             }
           }
         }
@@ -56,7 +56,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "chorus_pie"
+              "stellarity.item": "chorus_pie"
             }
           }
         }
@@ -68,7 +68,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "chorus_stew"
+              "stellarity.item": "chorus_stew"
             }
           }
         }
@@ -80,7 +80,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "enderman_flesh"
+              "stellarity.item": "enderman_flesh"
             }
           }
         }
@@ -92,7 +92,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "fried_chorus_fruit"
+              "stellarity.item": "fried_chorus_fruit"
             }
           }
         }
@@ -104,7 +104,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": ""
+              "stellarity.item": ""
             }
           }
         }
@@ -116,7 +116,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "golden_chorus_fruit"
+              "stellarity.item": "golden_chorus_fruit"
             }
           }
         }
@@ -128,7 +128,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "grilled_enderman_flesh"
+              "stellarity.item": "grilled_enderman_flesh"
             }
           }
         }
@@ -140,7 +140,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "pho"
+              "stellarity.item": "pho"
             }
           }
         }
@@ -152,7 +152,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "prismatic_sushi"
+              "stellarity.item": "prismatic_sushi"
             }
           }
         }
@@ -164,7 +164,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "shepherds_pie"
+              "stellarity.item": "shepherds_pie"
             }
           }
         }
@@ -176,7 +176,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "shulker_body"
+              "stellarity.item": "shulker_body"
             }
           }
         }
@@ -188,7 +188,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "sushi"
+              "stellarity.item": "sushi"
             }
           }
         }
@@ -200,7 +200,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "bubblefish"
+              "stellarity.item": "bubblefish"
             }
           }
         }
@@ -212,7 +212,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "crimson_tigerfish"
+              "stellarity.item": "crimson_tigerfish"
             }
           }
         }
@@ -224,7 +224,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "crystal_heartfish"
+              "stellarity.item": "crystal_heartfish"
             }
           }
         }
@@ -236,7 +236,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "ender_koi"
+              "stellarity.item": "ender_koi"
             }
           }
         }
@@ -248,7 +248,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "flarefin_koi"
+              "stellarity.item": "flarefin_koi"
             }
           }
         }
@@ -260,7 +260,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "fleshy_piranha"
+              "stellarity.item": "fleshy_piranha"
             }
           }
         }
@@ -272,7 +272,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "frost_minnow"
+              "stellarity.item": "frost_minnow"
             }
           }
         }
@@ -284,7 +284,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "overgrown_cod"
+              "stellarity.item": "overgrown_cod"
             }
           }
         }
@@ -296,7 +296,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "prismite"
+              "stellarity.item": "prismite"
             }
           }
         }
@@ -308,7 +308,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "pufferfish"
+              "stellarity.item": "pufferfish"
             }
           }
         }
@@ -320,7 +320,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "loaf_of_plenty"
+              "stellarity.item": "loaf_of_plenty"
             }
           }
         }
@@ -328,80 +328,30 @@
     }
   },
   "requirements": [
-    [
-      "candied_chorus_fruit"
-    ],
-    [
-      "chorus_juice"
-    ],
-    [
-      "chorus_pie"
-    ],
-    [
-      "chorus_stew"
-    ],
-    [
-      "enderman_flesh"
-    ],
-    [
-      "fried_chorus_fruit"
-    ],
-    [
-      "frozen_carpaccio"
-    ],
-    [
-      "golden_chorus_fruit"
-    ],
-    [
-      "grilled_enderman_flesh"
-    ],
-    [
-      "pho"
-    ],
-    [
-      "prismatic_sushi"
-    ],
-    [
-      "shepherds_pie"
-    ],
-    [
-      "shulker_body"
-    ],
-    [
-      "sushi"
-    ],
-    [
-      "bubblefish"
-    ],
-    [
-      "crimson_tigerfish"
-    ],
-    [
-      "crystal_heartfish"
-    ],
-    [
-      "ender_koi"
-    ],
-    [
-      "flarefin_koi"
-    ],
-    [
-      "fleshy_piranha"
-    ],
-    [
-      "frost_minnow"
-    ],
-    [
-      "overgrown_cod"
-    ],
-    [
-      "prismite"
-    ],
-    [
-      "pufferfish"
-    ],
-    [
-      "loaf_of_plenty"
-    ]
+    ["candied_chorus_fruit"],
+    ["chorus_juice"],
+    ["chorus_pie"],
+    ["chorus_stew"],
+    ["enderman_flesh"],
+    ["fried_chorus_fruit"],
+    ["frozen_carpaccio"],
+    ["golden_chorus_fruit"],
+    ["grilled_enderman_flesh"],
+    ["pho"],
+    ["prismatic_sushi"],
+    ["shepherds_pie"],
+    ["shulker_body"],
+    ["sushi"],
+    ["bubblefish"],
+    ["crimson_tigerfish"],
+    ["crystal_heartfish"],
+    ["ender_koi"],
+    ["flarefin_koi"],
+    ["fleshy_piranha"],
+    ["frost_minnow"],
+    ["overgrown_cod"],
+    ["prismite"],
+    ["pufferfish"],
+    ["loaf_of_plenty"]
   ]
 }

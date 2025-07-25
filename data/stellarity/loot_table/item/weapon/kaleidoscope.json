@@ -16,7 +16,7 @@
                 },
                 "minecraft:item_model": "stellarity:kaleidoscope",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "kaleidoscope"
+                  "stellarity.item": "kaleidoscope"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

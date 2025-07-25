@@ -5,12 +5,10 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:bow"
-          ],
+          "items": ["minecraft:bow"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "spectral_fury"
+              "stellarity.item": "spectral_fury"
             }
           }
         }

@@ -9,28 +9,28 @@
             "head": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "shulker_armor"
+                  "stellarity.item": "shulker_armor"
                 }
               }
             },
             "chest": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "shulker_armor"
+                  "stellarity.item": "shulker_armor"
                 }
               }
             },
             "legs": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "shulker_armor"
+                  "stellarity.item": "shulker_armor"
                 }
               }
             },
             "feet": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "shulker_armor"
+                  "stellarity.item": "shulker_armor"
                 }
               }
             }
@@ -43,11 +43,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "take_damage_in_shulker_armor"
-    ]
-  ],
+  "requirements": [["take_damage_in_shulker_armor"]],
   "rewards": {
     "function": "stellarity:item/armor/shulker/take_damage"
   }

@@ -33,12 +33,10 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sweet_berries"
-            ],
+            "items": ["minecraft:sweet_berries"],
             "components": {
               "minecraft:custom_data": {
-                "stellarity.special_item": "duskberry"
+                "stellarity.item": "duskberry"
               }
             }
           }

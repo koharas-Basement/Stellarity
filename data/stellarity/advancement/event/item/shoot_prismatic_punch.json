@@ -6,12 +6,10 @@
       "conditions": {
         "player": [],
         "item": {
-          "items": [
-            "minecraft:crossbow"
-          ],
+          "items": ["minecraft:crossbow"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "prismatic_punch"
+              "stellarity.item": "prismatic_punch"
             }
           }
         }

@@ -25,7 +25,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:ender_egg",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "ender_egg"
+                  "stellarity.item": "ender_egg"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.ender_egg",

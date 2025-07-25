@@ -13,7 +13,7 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "stellarity:book_of_updraft",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "book_of_updraft",
+                  "stellarity.item": "book_of_updraft",
                   "kohara.right_click": true
                 },
                 "rarity": "uncommon",

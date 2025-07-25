@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:sand_rune",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "sand_rune"
+                  "stellarity.item": "sand_rune"
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": {

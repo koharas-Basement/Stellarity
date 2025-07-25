@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "gilded_purpur_key"
+            "stellarity.item": "gilded_purpur_key"
           }
         }
       }

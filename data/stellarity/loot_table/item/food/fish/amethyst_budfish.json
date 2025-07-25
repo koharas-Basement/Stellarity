@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:amethyst_budfish",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "amethyst_budfish"
+                  "stellarity.item": "amethyst_budfish"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.fish."

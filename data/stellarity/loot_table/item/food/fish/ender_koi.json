@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:ender_koi",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "ender_koi"
+                  "stellarity.item": "ender_koi"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.fish.ender_koi"

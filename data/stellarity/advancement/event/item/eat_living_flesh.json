@@ -5,12 +5,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:rotten_flesh"
-          ],
+          "items": ["minecraft:rotten_flesh"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "living_flesh"
+              "stellarity.item": "living_flesh"
             }
           }
         }

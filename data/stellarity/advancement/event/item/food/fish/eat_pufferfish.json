@@ -5,23 +5,17 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:pufferfish"
-          ],
+          "items": ["minecraft:pufferfish"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "pufferfish"
+              "stellarity.item": "pufferfish"
             }
           }
         }
       }
     }
   },
-  "requirements": [
-    [
-      "eat_pufferfish"
-    ]
-  ],
+  "requirements": [["eat_pufferfish"]],
   "rewards": {
     "function": "stellarity:item/food/fish/pufferfish/eat"
   }

@@ -21,7 +21,7 @@
                   ]
                 },
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "lifeforce_potion"
+                  "stellarity.item": "lifeforce_potion"
                 },
                 "minecraft:custom_name": {
                   "translate": "stellarity.items.potions.lifeforce_potion",

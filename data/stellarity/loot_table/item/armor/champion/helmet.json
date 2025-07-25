@@ -19,17 +19,17 @@
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.champion_armor.set_bonus.1",
+                  "translate": "stellarity.items.armors.champion_armor.set_bonus.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.champion_armor.set_bonus.2",
+                  "translate": "stellarity.items.armors.champion_armor.set_bonus.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.champion_armor.set_bonus.3",
+                  "translate": "stellarity.items.armors.champion_armor.set_bonus.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -47,7 +47,7 @@
                 "minecraft:dyed_color": 11041988,
                 "minecraft:item_model": "stellarity:champion_helmet",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "champion_armor"
+                  "stellarity.special_item": "champion_helmet"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"
@@ -61,7 +61,7 @@
                 "minecraft:max_damage": 415,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.champion_armor.helmet",
+                  "translate": "stellarity.items.armors.champion_armor.helmet",
                   "color": "#A87CC4",
                   "italic": false
                 }

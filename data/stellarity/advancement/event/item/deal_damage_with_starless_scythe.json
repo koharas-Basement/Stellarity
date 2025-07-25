@@ -7,12 +7,10 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "items": [
-                "minecraft:wooden_hoe"
-              ],
+              "items": ["minecraft:wooden_hoe"],
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "starless_scythe"
+                  "stellarity.item": "starless_scythe"
                 }
               }
             }
@@ -37,12 +35,10 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "items": [
-                "minecraft:wooden_hoe"
-              ],
+              "items": ["minecraft:wooden_hoe"],
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "starless_scythe"
+                  "stellarity.item": "starless_scythe"
                 }
               }
             }
@@ -59,12 +55,7 @@
       }
     }
   },
-  "requirements": [
-    [
-      "attack",
-      "kill"
-    ]
-  ],
+  "requirements": [["attack", "kill"]],
   "rewards": {
     "function": "stellarity:item/starless_scythe/attack"
   }

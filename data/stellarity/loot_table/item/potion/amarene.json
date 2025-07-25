@@ -48,7 +48,7 @@
                 },
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "amarene"
+                  "stellarity.item": "amarene"
                 }
               }
             },

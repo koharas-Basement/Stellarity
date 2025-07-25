@@ -57,7 +57,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "copper_elektra_shield"
+                  "stellarity.item": "copper_elektra_shield"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.trinkets.copper_elektra_shield",
@@ -66,9 +66,7 @@
                 },
                 "minecraft:rarity": "uncommon",
                 "tooltip_display": {
-                  "hidden_components": [
-                    "banner_patterns"
-                  ]
+                  "hidden_components": ["banner_patterns"]
                 }
               }
             },

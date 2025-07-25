@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:starlight_soot",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "starlight_soot"
+                  "stellarity.item": "starlight_soot"
                 },
                 "minecraft:rarity": "common",
                 "minecraft:item_name": {

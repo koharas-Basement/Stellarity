@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "call_of_the_void"
+                  "stellarity.item": "call_of_the_void"
                 },
                 "minecraft:item_model": "stellarity:call_of_the_void",
                 "minecraft:max_damage": 424,

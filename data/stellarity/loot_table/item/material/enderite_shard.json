@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:enderite_shard",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "enderite_shard"
+                  "stellarity.item": "enderite_shard"
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": {

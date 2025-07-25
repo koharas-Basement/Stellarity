@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "prismatic_pearl"
+            "stellarity.item": "prismatic_pearl"
           }
         }
       }

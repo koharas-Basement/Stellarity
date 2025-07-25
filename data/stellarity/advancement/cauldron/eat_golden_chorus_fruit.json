@@ -31,21 +31,15 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:chorus_fruit"
-          ],
+          "items": ["minecraft:chorus_fruit"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.special_item": "golden_chorus_fruit"
+              "stellarity.item": "golden_chorus_fruit"
             }
           }
         }
       }
     }
   },
-  "requirements": [
-    [
-      "eat_golden_chorus_fruit"
-    ]
-  ]
+  "requirements": [["eat_golden_chorus_fruit"]]
 }

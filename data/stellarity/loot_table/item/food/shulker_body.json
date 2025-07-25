@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:shulker_body",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "shulker_body"
+                  "stellarity.item": "shulker_body"
                 },
                 "minecraft:food": {
                   "nutrition": 4,

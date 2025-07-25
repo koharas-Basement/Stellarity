@@ -30,7 +30,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:shulker_pickaxe",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "shulker_tool"
+                  "stellarity.item": "shulker_tool"
                 },
                 "minecraft:max_damage": 2701,
                 "minecraft:item_name": {

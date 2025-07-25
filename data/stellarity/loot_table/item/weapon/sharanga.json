@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:sharanga",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "sharanga"
+                  "stellarity.item": "sharanga"
                 },
                 "minecraft:max_damage": 424,
                 "minecraft:item_name": {

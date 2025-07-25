@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:prismatic_punch",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "prismatic_punch"
+                  "stellarity.item": "prismatic_punch"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

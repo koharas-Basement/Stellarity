@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:prismite",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "prismite"
+                  "stellarity.item": "prismite"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.fish.prismite",

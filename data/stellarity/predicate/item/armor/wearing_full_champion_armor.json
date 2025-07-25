@@ -6,28 +6,28 @@
       "head": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "champion_armor"
+            "stellarity.item": "champion_helmet"
           }
         }
       },
       "chest": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "champion_armor"
+            "stellarity.item": "champion_chestplate"
           }
         }
       },
       "legs": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "champion_armor"
+            "stellarity.item": "champion_leggings"
           }
         }
       },
       "feet": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.special_item": "champion_armor"
+            "stellarity.item": "champion_boots"
           }
         }
       }

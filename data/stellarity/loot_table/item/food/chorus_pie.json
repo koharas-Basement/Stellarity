@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:chorus_pie",
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "chorus_pie"
+                  "stellarity.item": "chorus_pie"
                 },
                 "minecraft:item_name": {
                   "translate": "stellarity.items.food.chorus_pie",

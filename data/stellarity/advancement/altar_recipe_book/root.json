@@ -32,7 +32,7 @@
           {
             "predicates": {
               "minecraft:custom_data": {
-                "stellarity.special_item": "endonomicon"
+                "stellarity.item": "endonomicon"
               }
             }
           }

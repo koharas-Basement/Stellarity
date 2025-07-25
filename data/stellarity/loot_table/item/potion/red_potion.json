@@ -99,7 +99,7 @@
                 },
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "red_potion"
+                  "stellarity.item": "red_potion"
                 },
                 "minecraft:custom_name": {
                   "translate": "stellarity.items.potions.red_potion",

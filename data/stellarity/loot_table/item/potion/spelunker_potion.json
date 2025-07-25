@@ -27,7 +27,7 @@
                   ]
                 },
                 "minecraft:custom_data": {
-                  "stellarity.special_item": "spelunker_potion"
+                  "stellarity.item": "spelunker_potion"
                 },
                 "minecraft:custom_name": {
                   "translate": "stellarity.items.potions.spelunker_potion",
