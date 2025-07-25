@@ -17,7 +17,7 @@
                 "minecraft:rarity": "rare",
                 "minecraft:max_damage": 1562,
                 "minecraft:item_name": {
-                  "translate": "item.stellarity..fluffy_hammer",
+                  "translate": "item.stellarity.fluffy_hammer",
                   "color": "#9936D6",
                   "italic": false
                 },
@@ -39,18 +39,18 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity..fluffy_hammer.description.1",
+                  "translate": "item.stellarity.fluffy_hammer.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity..fluffy_hammer.description.2",
+                  "translate": "item.stellarity.fluffy_hammer.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "item.stellarity..fluffy_hammer.flavor_text",
+                  "translate": "item.stellarity.fluffy_hammer.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

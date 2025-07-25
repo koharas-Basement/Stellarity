@@ -50,7 +50,7 @@
                 },
                 "rarity": "epic",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.shepherds_pie"
+                  "translate": "item.stellarity.shepherds_pie"
                 }
               }
             },
@@ -114,7 +114,7 @@
                 ],
                 "",
                 {
-                  "translate": "stellarity.items.food.shepherds_pie.flavor_text",
+                  "translate": "item.stellarity.shepherds_pie.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

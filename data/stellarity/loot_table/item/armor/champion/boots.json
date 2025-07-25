@@ -61,7 +61,7 @@
                 "minecraft:max_damage": 429,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.champion_armor.boots",
+                  "translate": "item.stellarity.champion_boots",
                   "color": "#A87CC4",
                   "italic": false
                 }

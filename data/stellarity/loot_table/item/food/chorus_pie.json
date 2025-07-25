@@ -15,7 +15,7 @@
                   "stellarity.item": "chorus_pie"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.chorus_pie",
+                  "translate": "item.stellarity.chorus_pie",
                   "color": "white"
                 },
                 "minecraft:food": {

@@ -3,7 +3,7 @@
     "function": "minecraft:set_components",
     "components": {
       "minecraft:item_name": {
-        "translate": "stellarity.items.food.loaf_of_plenty"
+        "translate": "item.stellarity.loaf_of_plenty"
       },
       "minecraft:rarity": "epic",
       "minecraft:lore": [
@@ -45,7 +45,7 @@
         "id": "minecraft:bread",
         "components": {
           "minecraft:item_name": {
-            "translate": "stellarity.items.food.loaf_of_plenty",
+            "translate": "item.stellarity.loaf_of_plenty",
             "fallback": "Loaf of Plenty"
           },
           "minecraft:rarity": "epic",

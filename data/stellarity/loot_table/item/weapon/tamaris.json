@@ -17,7 +17,7 @@
                 "minecraft:rarity": "rare",
                 "minecraft:max_damage": 1562,
                 "minecraft:item_name": {
-                  "translate": "item.stellarity..tamaris",
+                  "translate": "item.stellarity.tamaris",
                   "color": "#9936D6",
                   "italic": false
                 }
@@ -29,18 +29,18 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity..tamaris.description.1",
+                  "translate": "item.stellarity.tamaris.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity..tamaris.description.2",
+                  "translate": "item.stellarity.tamaris.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "item.stellarity..tamaris.flavor_text",
+                  "translate": "item.stellarity.tamaris.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

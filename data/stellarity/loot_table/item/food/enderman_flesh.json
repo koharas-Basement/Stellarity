@@ -15,7 +15,7 @@
                   "stellarity.item": "enderman_flesh"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.enderman_flesh",
+                  "translate": "item.stellarity.enderman_flesh",
                   "color": "white"
                 },
                 "minecraft:food": {

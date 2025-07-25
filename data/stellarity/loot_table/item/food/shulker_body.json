@@ -45,7 +45,7 @@
                   ]
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.shulker_body",
+                  "translate": "item.stellarity.shulker_body",
                   "color": "white"
                 }
               }
@@ -78,7 +78,7 @@
                 ],
                 "",
                 {
-                  "translate": "stellarity.items.food.shulker_body.flavor_text",
+                  "translate": "item.stellarity.shulker_body.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

@@ -61,7 +61,7 @@
                 "minecraft:max_damage": 528,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.champion_armor.chestplate",
+                  "translate": "item.stellarity.champion_chestplate",
                   "color": "#A87CC4",
                   "italic": false
                 }

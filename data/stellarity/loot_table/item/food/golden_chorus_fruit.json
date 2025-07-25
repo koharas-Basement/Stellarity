@@ -34,7 +34,7 @@
                 },
                 "rarity": "rare",
                 "item_name": {
-                  "translate": "stellarity.items.food.golden_chorus_fruit",
+                  "translate": "item.stellarity.golden_chorus_fruit",
                   "fallback": "Golden Chorus Fruit",
                   "color": "#55FFFF",
                   "italic": false

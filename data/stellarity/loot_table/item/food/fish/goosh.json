@@ -25,18 +25,18 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.food.fish.goosh.description.1",
+                  "translate": "item.stellarity.fish.goosh.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.food.dish.goosh.description.2",
+                  "translate": "item.stellarity.dish.goosh.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.food.fish.goosh.flavor_text",
+                  "translate": "item.stellarity.fish.goosh.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

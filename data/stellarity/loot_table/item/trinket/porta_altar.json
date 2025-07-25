@@ -15,32 +15,27 @@
                   "text": ""
                 },
                 {
-                  "translate": "stellarity.items.porta_altar.description.1",
+                  "translate": "item.stellarity.porta_altar.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.porta_altar.description.2",
+                  "translate": "item.stellarity.porta_altar.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.porta_altar.description.3",
+                  "translate": "item.stellarity.porta_altar.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.porta_altar.description.4",
+                  "translate": "item.stellarity.porta_altar.description.4",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.porta_altar.description.5",
-                  "color": "#EEEEEE",
-                  "italic": false
-                },
-                {
-                  "translate": "stellarity.items.porta_altar.description.5",
+                  "translate": "item.stellarity.porta_altar.description.5",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -63,7 +58,7 @@
                 },
                 "rarity": "epic",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.porta_altar"
+                  "translate": "item.stellarity.porta_altar"
                 },
                 "!max_damage": {},
                 "damage_resistant": {

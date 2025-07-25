@@ -42,7 +42,7 @@
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:shulker_boots",
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_armor"
+                  "stellarity.item": "shulker_boots"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"
@@ -56,7 +56,7 @@
                 "minecraft:max_damage": 681,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.armors.shulker_armor.boots",
+                  "translate": "item.stellarity.shulker_boots",
                   "color": "#976A97",
                   "italic": false
                 }

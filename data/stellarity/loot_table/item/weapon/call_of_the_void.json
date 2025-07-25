@@ -16,7 +16,7 @@
                 "minecraft:item_model": "stellarity:call_of_the_void",
                 "minecraft:max_damage": 424,
                 "minecraft:item_name": {
-                  "translate": "item.stellarity..call_of_the_void",
+                  "translate": "item.stellarity.call_of_the_void",
                   "color": "dark_purple"
                 },
                 "minecraft:damage_resistant": {
@@ -31,12 +31,12 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity..call_of_the_void.description.1",
+                  "translate": "item.stellarity.call_of_the_void.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity..call_of_the_void.description.2",
+                  "translate": "item.stellarity.call_of_the_void.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },

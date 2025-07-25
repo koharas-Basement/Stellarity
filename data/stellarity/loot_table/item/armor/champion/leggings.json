@@ -61,7 +61,7 @@
                 "minecraft:max_damage": 495,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.champion_armor.leggings",
+                  "translate": "item.stellarity.champion_leggings",
                   "color": "#A87CC4",
                   "italic": false
                 }

@@ -26,7 +26,7 @@
                   "sound": "entity.generic.eat"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.grilled_enderman_flesh",
+                  "translate": "item.stellarity.grilled_enderman_flesh",
                   "color": "white"
                 }
               }

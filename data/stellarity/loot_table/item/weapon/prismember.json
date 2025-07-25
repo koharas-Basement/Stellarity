@@ -16,7 +16,7 @@
                 },
                 "minecraft:rarity": "epic",
                 "minecraft:item_name": {
-                  "translate": "item.stellarity..prismember",
+                  "translate": "item.stellarity.prismember",
                   "color": "#FF76D0",
                   "italic": false
                 }
@@ -27,17 +27,17 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity..prismember.description.1",
+                  "translate": "item.stellarity.prismember.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity..prismember.description.2",
+                  "translate": "item.stellarity.prismember.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity..prismember.description.3",
+                  "translate": "item.stellarity.prismember.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },

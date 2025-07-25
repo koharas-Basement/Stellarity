@@ -42,7 +42,7 @@
                 "minecraft:dyed_color": 16768338,
                 "minecraft:item_model": "stellarity:hallowed_helmet",
                 "minecraft:custom_data": {
-                  "stellarity.item": "hallowed_armor"
+                  "stellarity.item": "hallowed_helmet"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"
@@ -56,7 +56,7 @@
                 "minecraft:max_damage": 407,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.armors.hallowed_armor.helmet",
+                  "translate": "item.stellarity.hallowed_helmet",
                   "color": "#FFDD52",
                   "italic": false
                 }

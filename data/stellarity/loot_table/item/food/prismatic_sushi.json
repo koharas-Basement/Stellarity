@@ -41,7 +41,7 @@
                 },
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.prismatic_sushi",
+                  "translate": "item.stellarity.prismatic_sushi",
                   "color": "yellow"
                 }
               }

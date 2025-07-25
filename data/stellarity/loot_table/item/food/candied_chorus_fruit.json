@@ -15,7 +15,7 @@
                   "stellarity.item": "candied_chorus_fruit"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.candied_chorus_fruit",
+                  "translate": "item.stellarity.candied_chorus_fruit",
                   "color": "white"
                 },
                 "minecraft:food": {

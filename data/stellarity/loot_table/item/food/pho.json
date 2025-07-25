@@ -55,7 +55,7 @@
                 },
                 "rarity": "rare",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.pho",
+                  "translate": "item.stellarity.pho",
                   "color": "aqua"
                 }
               }

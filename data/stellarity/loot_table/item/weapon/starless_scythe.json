@@ -12,12 +12,12 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity..starless_scythe.description.1",
+                  "translate": "item.stellarity.starless_scythe.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity..starless_scythe.description.2",
+                  "translate": "item.stellarity.starless_scythe.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -72,7 +72,7 @@
                 },
                 "minecraft:max_damage": 1232,
                 "minecraft:item_name": {
-                  "translate": "item.stellarity..starless_scythe",
+                  "translate": "item.stellarity.starless_scythe",
                   "color": "#FFD70C",
                   "italic": false
                 },

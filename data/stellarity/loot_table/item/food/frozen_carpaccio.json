@@ -15,7 +15,7 @@
                   "stellarity.item": "frozen_carpaccio"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.food.frozen_carpaccio",
+                  "translate": "item.stellarity.frozen_carpaccio",
                   "color": "white"
                 },
                 "minecraft:food": {

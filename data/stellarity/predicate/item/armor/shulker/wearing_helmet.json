@@ -6,7 +6,7 @@
       "head": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "shulker_armor"
+            "stellarity.item": "shulker_helmet"
           }
         }
       }
