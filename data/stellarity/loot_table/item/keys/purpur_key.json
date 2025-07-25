@@ -13,7 +13,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity.keys.purpur.description",
+                  "translate": "item.stellarity.purpur_key.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -34,7 +34,7 @@
                   "stellarity.item": "purpur_key"
                 },
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.keys.purpur"
+                  "translate": "item.stellarity.purpur_key"
                 },
                 "rarity": "uncommon"
               }

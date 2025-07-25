@@ -18,7 +18,7 @@
                 },
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.spellbooks.updraft",
+                  "translate": "item.stellarity.book_of_updraft",
                   "color": "#E0E0E0",
                   "italic": false
                 },
@@ -31,23 +31,23 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.spellbooks.updraft.description.1",
+                  "translate": "item.stellarity.book_of_updraft.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.spellbooks.updraft.description.2",
+                  "translate": "item.stellarity.book_of_updraft.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.spellbooks.updraft.description.3",
+                  "translate": "item.stellarity.book_of_updraft.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.spellbooks.cooldown",
+                  "translate": "item.stellarity.book_of_cooldown",
                   "color": "#9E9E9E",
                   "italic": false,
                   "with": [

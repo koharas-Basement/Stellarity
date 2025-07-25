@@ -24,7 +24,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "stellarity.explorer_map.end_city",
+                "translate": "filled_map.stellarity.end_city",
                 "italic": false
               }
             },

@@ -18,7 +18,7 @@
                 },
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.spellbooks.return",
+                  "translate": "item.stellarity.book_of_return",
                   "color": "#9C369F",
                   "italic": false
                 },
@@ -31,13 +31,13 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.spellbooks.return.description",
+                  "translate": "item.stellarity.book_of_return.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.spellbooks.cooldown_long",
+                  "translate": "item.stellarity.book_of_cooldown_long",
                   "color": "#9E9E9E",
                   "italic": false,
                   "with": [

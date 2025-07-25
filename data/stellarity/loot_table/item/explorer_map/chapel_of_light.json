@@ -24,7 +24,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "stellarity.explorer_map.chapel_of_light",
+                "translate": "filled_map.stellarity.chapel_of_light",
                 "italic": false
               }
             },
