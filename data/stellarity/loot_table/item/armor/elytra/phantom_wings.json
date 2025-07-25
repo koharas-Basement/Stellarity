@@ -13,7 +13,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.elytra.phantom_wings.description.1",
+                  "translate": "item.stellarity.phantom_wings.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -41,7 +41,7 @@
                 },
                 "minecraft:max_damage": 70,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.elytra.phantom_wings",
+                  "translate": "item.stellarity.phantom_wings",
                   "color": "yellow",
                   "italic": false
                 },

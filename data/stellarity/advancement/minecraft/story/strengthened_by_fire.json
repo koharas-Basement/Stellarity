@@ -4,11 +4,11 @@
       "id": "minecraft:blaze_powder"
     },
     "title": {
-      "translate": "stellarity.advancements.craft_ender_eye"
+      "translate": "advancements.stellarity.craft_ender_eye"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.craft_ender_eye.description"
+        "translate": "advancements.stellarity.craft_ender_eye.description"
       },
       "\n\n",
       {
@@ -29,9 +29,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:ender_eye"
-            ]
+            "items": ["minecraft:ender_eye"]
           }
         ]
       }

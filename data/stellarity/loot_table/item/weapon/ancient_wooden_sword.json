@@ -12,7 +12,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.ancient_wooden_sword.flavor_text",
+                  "translate": "item.stellarity..ancient_wooden_sword.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
@@ -59,7 +59,7 @@
                   "hidden_components": ["unbreakable"]
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.ancient_wooden_sword",
+                  "translate": "item.stellarity..ancient_wooden_sword",
                   "color": "white",
                   "italic": false
                 }

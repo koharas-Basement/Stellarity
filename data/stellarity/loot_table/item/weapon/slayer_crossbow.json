@@ -18,7 +18,7 @@
                   "types": "#is_fire"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.slayer_crossbow",
+                  "translate": "item.stellarity..slayer_crossbow",
                   "color": "gold",
                   "italic": false
                 },
@@ -32,12 +32,12 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.slayer_crossbow.description.1",
+                  "translate": "item.stellarity..slayer_crossbow.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.slayer_crossbow.description.2",
+                  "translate": "item.stellarity..slayer_crossbow.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },

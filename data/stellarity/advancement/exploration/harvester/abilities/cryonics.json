@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.cryonics"
+      "translate": "advancements.stellarity.harvester.abilities.cryonics"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.cryonics.description"
+        "translate": "advancements.stellarity.harvester.abilities.cryonics.description"
       },
       "\n\n",
       {

@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.arctic_wind"
+      "translate": "advancements.stellarity.harvester.abilities.arctic_wind"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.arctic_wind.description"
+        "translate": "advancements.stellarity.harvester.abilities.arctic_wind.description"
       },
       "\n\n",
       {

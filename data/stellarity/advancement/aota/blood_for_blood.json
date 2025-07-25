@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.blood_for_blood"
+      "translate": "advancements.stellarity.blood_for_blood"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.blood_for_blood.description"
+        "translate": "advancements.stellarity.blood_for_blood.description"
       },
       "\n\n",
       {

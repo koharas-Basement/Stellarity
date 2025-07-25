@@ -17,11 +17,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.conqueror"
+      "translate": "advancements.stellarity.conqueror"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.conqueror.description",
+        "translate": "advancements.stellarity.conqueror.description",
         "color": "dark_aqua"
       },
       "\n\n",

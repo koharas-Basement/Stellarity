@@ -29,7 +29,7 @@
                   "stellarity.item": "regeneraga_ii"
                 },
                 "minecraft:custom_name": {
-                  "translate": "stellarity.items.potions.regeneraga",
+                  "translate": "item.stellarity.regeneraga",
                   "color": "yellow",
                   "italic": false
                 }

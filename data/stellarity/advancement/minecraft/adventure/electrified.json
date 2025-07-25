@@ -51,11 +51,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.electrified"
+      "translate": "advancements.stellarity.electrified"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.electrified.description"
+        "translate": "advancements.stellarity.electrified.description"
       },
       "\n\n",
       {
@@ -74,9 +74,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "requirements": [
-    [
-      "dash"
-    ]
-  ]
+  "requirements": [["dash"]]
 }

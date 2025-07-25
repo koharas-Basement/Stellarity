@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.spirit_assasin"
+      "translate": "advancements.stellarity.spirit_assasin"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.spirit_assasin.description"
+        "translate": "advancements.stellarity.spirit_assasin.description"
       },
       "\n\n",
       {

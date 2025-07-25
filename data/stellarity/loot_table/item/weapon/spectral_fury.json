@@ -17,7 +17,7 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:max_damage": 636,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.spectral_fury",
+                  "translate": "item.stellarity..spectral_fury",
                   "color": "#BDF1FF",
                   "italic": false
                 }
@@ -30,17 +30,17 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.spectral_fury.description.1",
+                  "translate": "item.stellarity..spectral_fury.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.spectral_fury.description.2",
+                  "translate": "item.stellarity..spectral_fury.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.spectral_fury.description.3",
+                  "translate": "item.stellarity..spectral_fury.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },

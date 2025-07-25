@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.find_end_village"
+      "translate": "advancements.stellarity.find_end_village"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.find_end_village.description"
+        "translate": "advancements.stellarity.find_end_village.description"
       },
       "\n\n",
       {

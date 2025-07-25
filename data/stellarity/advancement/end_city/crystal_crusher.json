@@ -4,11 +4,11 @@
       "id": "minecraft:end_crystal"
     },
     "title": {
-      "translate": "stellarity.advancements.crystal_crusher"
+      "translate": "advancements.stellarity.crystal_crusher"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.crystal_crusher.description"
+        "translate": "advancements.stellarity.crystal_crusher.description"
       },
       "\n\n",
       {

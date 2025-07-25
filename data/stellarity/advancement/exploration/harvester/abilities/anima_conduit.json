@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.anima_conduit",
+      "translate": "advancements.stellarity.harvester.abilities.anima_conduit",
       "with": [
         {
           "translate": "stellarity.items.harvester.ability"
@@ -19,7 +19,7 @@
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.anima_conduit.description"
+        "translate": "advancements.stellarity.harvester.abilities.anima_conduit.description"
       },
       "\n\n",
       {

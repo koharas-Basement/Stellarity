@@ -4,11 +4,11 @@
       "id": "minecraft:end_portal_frame"
     },
     "title": {
-      "translate": "stellarity.advancements.journeys_end"
+      "translate": "advancements.stellarity.journeys_end"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.journeys_end.description"
+        "translate": "advancements.stellarity.journeys_end.description"
       },
       "\n\n",
       {

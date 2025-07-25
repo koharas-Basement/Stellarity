@@ -58,7 +58,7 @@
                 "minecraft:dyed_color": 16552659,
                 "minecraft:item_model": "stellarity:floral_chestplate",
                 "minecraft:custom_data": {
-                  "stellarity.item": "floral_armor"
+                  "stellarity.item": "floral_chestplate"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"
@@ -72,7 +72,7 @@
                 "minecraft:max_damage": 592,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.armors.floral_armor.chestplate",
+                  "translate": "item.stellarity.floral_chestplate",
                   "color": "#FC92D3",
                   "italic": false
                 }

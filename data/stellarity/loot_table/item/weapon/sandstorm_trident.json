@@ -12,13 +12,13 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.sandstorm_trident.description",
+                  "translate": "item.stellarity..sandstorm_trident.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.weapons.sandstorm_trident.flavor_text",
+                  "translate": "item.stellarity..sandstorm_trident.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
@@ -68,7 +68,7 @@
                 },
                 "max_damage": 1264,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.sandstorm_trident",
+                  "translate": "item.stellarity..sandstorm_trident",
                   "italic": false
                 },
                 "minecraft:enchantments": {

@@ -16,7 +16,7 @@
                   "stellarity.item": "prismite"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.prismite",
+                  "translate": "item.stellarity.prismite",
                   "color": "yellow"
                 },
                 "rarity": "uncommon",

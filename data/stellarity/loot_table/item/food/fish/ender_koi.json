@@ -16,7 +16,7 @@
                   "stellarity.item": "ender_koi"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.ender_koi"
+                  "translate": "item.stellarity.ender_koi"
                 },
                 "food": {
                   "nutrition": 1,

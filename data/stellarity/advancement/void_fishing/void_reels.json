@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.void_reels"
+      "translate": "advancements.stellarity.void_reels"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.void_reels.description"
+        "translate": "advancements.stellarity.void_reels.description"
       },
       "\n\n",
       {

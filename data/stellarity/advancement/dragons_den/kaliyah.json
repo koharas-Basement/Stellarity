@@ -8,15 +8,15 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.kaliyah"
+      "translate": "advancements.stellarity.kaliyah"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.kaliyah.description"
+        "translate": "advancements.stellarity.kaliyah.description"
       },
       "\n",
       {
-        "translate": "stellarity.advancements.kaliyah.tip",
+        "translate": "advancements.stellarity.kaliyah.tip",
         "color": "#727272",
         "italic": true
       },

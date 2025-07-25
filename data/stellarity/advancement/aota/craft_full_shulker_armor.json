@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.i_am_titanium"
+      "translate": "advancements.stellarity.i_am_titanium"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.i_am_titanium.description"
+        "translate": "advancements.stellarity.i_am_titanium.description"
       },
       "\n\n",
       {

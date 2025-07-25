@@ -16,7 +16,7 @@
                 },
                 "rarity": "rare",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.trinkets.void_locket"
+                  "translate": "item.stellarity.void_locket"
                 }
               }
             },
@@ -25,17 +25,17 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.trinkets.void_locket.description.1",
+                  "translate": "item.stellarity.void_locket.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.void_locket.description.2",
+                  "translate": "item.stellarity.void_locket.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.void_locket.description.2",
+                  "translate": "item.stellarity.void_locket.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },

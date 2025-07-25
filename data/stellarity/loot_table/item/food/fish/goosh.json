@@ -16,7 +16,7 @@
                   "stellarity.item": "goosh"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.goosh"
+                  "translate": "item.stellarity.goosh"
                 }
               }
             },

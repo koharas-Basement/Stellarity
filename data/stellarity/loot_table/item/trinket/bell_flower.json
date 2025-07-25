@@ -16,7 +16,7 @@
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.trinkets.bell_flower"
+                  "translate": "item.stellarity.bell_flower"
                 }
               }
             },
@@ -25,7 +25,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.trinkets.bell_flower.description",
+                  "translate": "item.stellarity.bell_flower.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },

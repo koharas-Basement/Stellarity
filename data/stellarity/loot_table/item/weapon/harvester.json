@@ -19,7 +19,7 @@
                   }
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.harvester",
+                  "translate": "item.stellarity..harvester",
                   "color": "#4BC6FF"
                 },
                 "enchantments": {
@@ -33,17 +33,17 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.harvester.description.1",
+                  "translate": "item.stellarity..harvester.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.harvester.description.2",
+                  "translate": "item.stellarity..harvester.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.harvester.description.3",
+                  "translate": "item.stellarity..harvester.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },

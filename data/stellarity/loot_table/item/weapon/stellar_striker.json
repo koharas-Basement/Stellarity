@@ -13,17 +13,17 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.stellar_striker.description.1",
+                  "translate": "item.stellarity..stellar_striker.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.stellar_striker.description.2",
+                  "translate": "item.stellarity..stellar_striker.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.stellar_striker.description.3",
+                  "translate": "item.stellarity..stellar_striker.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -49,7 +49,7 @@
                   "stellarity.item": "stellar_striker"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.stellar_striker",
+                  "translate": "item.stellarity..stellar_striker",
                   "color": "#FFF593",
                   "italic": false
                 }

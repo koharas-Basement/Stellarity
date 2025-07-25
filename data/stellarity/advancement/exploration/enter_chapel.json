@@ -4,11 +4,11 @@
       "id": "minecraft:cherry_leaves"
     },
     "title": {
-      "translate": "stellarity.advancements.enter_chapel"
+      "translate": "advancements.stellarity.enter_chapel"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.enter_chapel.description"
+        "translate": "advancements.stellarity.enter_chapel.description"
       },
       "\n\n",
       {

@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.summon_empress"
+      "translate": "advancements.stellarity.summon_empress"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.summon_empress.description"
+        "translate": "advancements.stellarity.summon_empress.description"
       },
       "\n\n",
       {

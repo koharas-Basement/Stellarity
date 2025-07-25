@@ -16,7 +16,7 @@
                   "stellarity.item": "overgrown_cod"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.overgrown_cod"
+                  "translate": "item.stellarity.overgrown_cod"
                 },
                 "food": {
                   "nutrition": 1,

@@ -4,11 +4,11 @@
       "id": "minecraft:ender_dragon_spawn_egg"
     },
     "title": {
-      "translate": "stellarity.advancements.third_times_the_charm"
+      "translate": "advancements.stellarity.third_times_the_charm"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.third_times_the_charm.description",
+        "translate": "advancements.stellarity.third_times_the_charm.description",
         "color": "aqua"
       },
       "\n\n",

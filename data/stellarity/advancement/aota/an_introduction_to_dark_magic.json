@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.aota_intro"
+      "translate": "advancements.stellarity.aota_intro"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.aota_intro.description"
+        "translate": "advancements.stellarity.aota_intro.description"
       },
       "\n\n",
       {

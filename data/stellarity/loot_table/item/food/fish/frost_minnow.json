@@ -16,7 +16,7 @@
                   "stellarity.item": "frost_minnow"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.frost_minnow"
+                  "translate": "item.stellarity.frost_minnow"
                 },
                 "food": {
                   "nutrition": 1,

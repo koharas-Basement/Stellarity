@@ -8,14 +8,14 @@
     },
     "title": [
       {
-        "translate": "stellarity.advancements.aota_recipe_book",
+        "translate": "advancements.stellarity.aota_recipe_book",
         "bold": true,
         "color": "dark_purple"
       }
     ],
     "description": [
       {
-        "translate": "stellarity.advancements.aota_recipe_book.description"
+        "translate": "advancements.stellarity.aota_recipe_book.description"
       }
     ],
     "show_toast": false,

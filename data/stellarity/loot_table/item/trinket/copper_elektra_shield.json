@@ -60,7 +60,7 @@
                   "stellarity.item": "copper_elektra_shield"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.trinkets.copper_elektra_shield",
+                  "translate": "item.stellarity.copper_elektra_shield",
                   "color": "#E0976B",
                   "italic": false
                 },
@@ -75,22 +75,22 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.trinkets.copper_elektra_shield.description.1",
+                  "translate": "item.stellarity.copper_elektra_shield.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.copper_elektra_shield.description.2",
+                  "translate": "item.stellarity.copper_elektra_shield.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.copper_elektra_shield.description.3",
+                  "translate": "item.stellarity.copper_elektra_shield.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.copper_elektra_shield.description.4",
+                  "translate": "item.stellarity.copper_elektra_shield.description.4",
                   "color": "#EEEEEE",
                   "italic": false
                 },

@@ -4,11 +4,11 @@
       "id": "minecraft:ender_chest"
     },
     "title": {
-      "translate": "stellarity.advancements.cloud_save"
+      "translate": "advancements.stellarity.cloud_save"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.cloud_save.description"
+        "translate": "advancements.stellarity.cloud_save.description"
       },
       "\n\n",
       {
@@ -29,9 +29,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:ender_chest"
-            ]
+            "items": ["minecraft:ender_chest"]
           }
         ]
       }

@@ -4,11 +4,11 @@
       "id": "minecraft:light_blue_shulker_box"
     },
     "title": {
-      "translate": "stellarity.advancements.color_a_shulker_box"
+      "translate": "advancements.stellarity.color_a_shulker_box"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.color_a_shulker_box.description"
+        "translate": "advancements.stellarity.color_a_shulker_box.description"
       },
       "\n\n",
       {
@@ -34,9 +34,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "color_shulker_box"
-    ]
-  ]
+  "requirements": [["color_shulker_box"]]
 }

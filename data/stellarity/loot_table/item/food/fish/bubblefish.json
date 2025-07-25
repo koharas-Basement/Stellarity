@@ -16,7 +16,7 @@
                   "stellarity.item": "bubblefish"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.bubblefish"
+                  "translate": "item.stellarity.bubblefish"
                 },
                 "!food": {},
                 "minecraft:consumable": {

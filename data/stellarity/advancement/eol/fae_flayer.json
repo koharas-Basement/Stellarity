@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.fae_flayer"
+      "translate": "advancements.stellarity.fae_flayer"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.fae_flayer.description",
+        "translate": "advancements.stellarity.fae_flayer.description",
         "color": "gold"
       },
       "\n\n",

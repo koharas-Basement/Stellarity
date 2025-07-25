@@ -16,7 +16,7 @@
                   "stellarity.item": "crimson_tigerfish"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.crimson_tigerfish"
+                  "translate": "item.stellarity.crimson_tigerfish"
                 },
                 "food": {
                   "nutrition": 1,

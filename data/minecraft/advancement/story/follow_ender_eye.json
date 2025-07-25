@@ -11,7 +11,7 @@
         "translate": "advancements.story.follow_ender_eye.description"
       },
       {
-        "translate": "stellarity.advancements.follow_ender_eye.extra"
+        "translate": "advancements.stellarity.follow_ender_eye.extra"
       }
     ],
     "frame": "task",
@@ -38,9 +38,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "in_stronghold"
-    ]
-  ]
+  "requirements": [["in_stronghold"]]
 }

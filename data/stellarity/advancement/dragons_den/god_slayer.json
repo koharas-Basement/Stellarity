@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.god_slayer"
+      "translate": "advancements.stellarity.god_slayer"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.god_slayer.description",
+        "translate": "advancements.stellarity.god_slayer.description",
         "color": "#E562FF"
       },
       "\n\n",

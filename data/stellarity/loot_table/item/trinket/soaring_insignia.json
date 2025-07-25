@@ -21,7 +21,7 @@
                 },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.trinkets.soaring_insignia",
+                  "translate": "item.stellarity.soaring_insignia",
                   "color": "#FF76D0",
                   "italic": false
                 }
@@ -33,22 +33,22 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.trinkets.soaring_insignia.description.1",
+                  "translate": "item.stellarity.soaring_insignia.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.soaring_insignia.description.2",
+                  "translate": "item.stellarity.soaring_insignia.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.soaring_insignia.description.3",
+                  "translate": "item.stellarity.soaring_insignia.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.soaring_insignia.description.4",
+                  "translate": "item.stellarity.soaring_insignia.description.4",
                   "color": "#EEEEEE",
                   "italic": false
                 },

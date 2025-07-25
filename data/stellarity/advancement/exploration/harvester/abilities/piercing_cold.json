@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.piercing_cold"
+      "translate": "advancements.stellarity.harvester.abilities.piercing_cold"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.piercing_cold.description"
+        "translate": "advancements.stellarity.harvester.abilities.piercing_cold.description"
       },
       "\n\n",
       {

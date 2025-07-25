@@ -24,7 +24,7 @@
                   "stellarity.item": "lifeforce_potion_ext"
                 },
                 "minecraft:custom_name": {
-                  "translate": "stellarity.items.potions.lifeforce_potion",
+                  "translate": "item.stellarity.lifeforce_potion",
                   "color": "white",
                   "italic": false
                 }

@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.super_sonic"
+      "translate": "advancements.stellarity.super_sonic"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.super_sonic.description"
+        "translate": "advancements.stellarity.super_sonic.description"
       },
       "\n\n",
       {
@@ -32,11 +32,7 @@
       "conditions": {}
     }
   },
-  "requirements": [
-    [
-      "fly"
-    ]
-  ],
+  "requirements": [["fly"]],
   "rewards": {
     "experience": 300
   }

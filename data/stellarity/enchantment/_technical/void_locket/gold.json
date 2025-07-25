@@ -1,11 +1,9 @@
 {
   "description": {
-    "translate": "stellarity.items.trinkets.void_locket.enchantment.gold",
+    "translate": "item.stellarity.void_locket.enchantment.gold",
     "color": "yellow"
   },
-  "supported_items": [
-    "minecraft:iron_nugget"
-  ],
+  "supported_items": ["minecraft:iron_nugget"],
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -17,9 +15,7 @@
     "per_level_above_first": 0
   },
   "anvil_cost": 0,
-  "slots": [
-    "hand"
-  ],
+  "slots": ["hand"],
   "effects": {
     "minecraft:attributes": [
       {

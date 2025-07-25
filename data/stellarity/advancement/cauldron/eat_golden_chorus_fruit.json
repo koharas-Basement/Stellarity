@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.eat_golden_chorus_fruit"
+      "translate": "advancements.stellarity.eat_golden_chorus_fruit"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.eat_golden_chorus_fruit.description"
+        "translate": "advancements.stellarity.eat_golden_chorus_fruit.description"
       },
       "\n\n",
       {

@@ -53,7 +53,7 @@
                 },
                 "rarity": "rare",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.trinkets.crest_of_the_end",
+                  "translate": "item.stellarity.crest_of_the_end",
                   "color": "#9936D6",
                   "italic": false
                 },
@@ -71,12 +71,12 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.trinkets.crest_of_the_end.description.1",
+                  "translate": "item.stellarity.crest_of_the_end.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.trinkets.crest_of_the_end.description.2",
+                  "translate": "item.stellarity.crest_of_the_end.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },

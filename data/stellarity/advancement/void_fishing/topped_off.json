@@ -8,12 +8,12 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.topped_off",
+      "translate": "advancements.stellarity.topped_off",
       "color": "#FF65D7"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.topped_off.description"
+        "translate": "advancements.stellarity.topped_off.description"
       },
       "\n\n",
       {

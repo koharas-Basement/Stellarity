@@ -4,11 +4,11 @@
       "id": "minecraft:phantom_membrane"
     },
     "title": {
-      "translate": "stellarity.advancements.night_sky_stalkers"
+      "translate": "advancements.stellarity.night_sky_stalkers"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.night_sky_stalkers.description"
+        "translate": "advancements.stellarity.night_sky_stalkers.description"
       },
       "\n\n",
       {

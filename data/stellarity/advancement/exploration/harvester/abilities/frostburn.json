@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.frostburn"
+      "translate": "advancements.stellarity.harvester.abilities.frostburn"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.frostburn.description"
+        "translate": "advancements.stellarity.harvester.abilities.frostburn.description"
       },
       "\n\n",
       {

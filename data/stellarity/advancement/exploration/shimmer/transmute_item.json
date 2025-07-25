@@ -4,11 +4,11 @@
       "id": "minecraft:water_bucket"
     },
     "title": {
-      "translate": "stellarity.advancements.transmute_item"
+      "translate": "advancements.stellarity.transmute_item"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.transmute_item.description"
+        "translate": "advancements.stellarity.transmute_item.description"
       },
       "\n\n",
       {

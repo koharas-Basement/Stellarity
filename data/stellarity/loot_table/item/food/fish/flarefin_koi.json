@@ -16,7 +16,7 @@
                   "stellarity.item": "flarefin_koi"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.flarefin_koi"
+                  "translate": "item.stellarity.flarefin_koi"
                 },
                 "food": {
                   "nutrition": 2,

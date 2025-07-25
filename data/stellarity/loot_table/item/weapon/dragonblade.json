@@ -22,7 +22,7 @@
                   "types": "#is_fire"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.dragonblade",
+                  "translate": "item.stellarity..dragonblade",
                   "color": "#CD6AFF",
                   "italic": false
                 },
@@ -37,18 +37,18 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.dragonblade.description",
+                  "translate": "item.stellarity..dragonblade.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.weapons.dragonblade.flavor_text",
+                  "translate": "item.stellarity..dragonblade.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
                 {
-                  "translate": "stellarity.items.weapons.dragonblade.tip",
+                  "translate": "item.stellarity..dragonblade.tip",
                   "color": "#727272",
                   "italic": true
                 },

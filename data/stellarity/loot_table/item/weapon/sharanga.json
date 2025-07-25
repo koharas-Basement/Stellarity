@@ -16,7 +16,7 @@
                 },
                 "minecraft:max_damage": 424,
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.weapons.sharanga",
+                  "translate": "item.stellarity..sharanga",
                   "color": "#FF6B6B",
                   "italic": false
                 },
@@ -30,12 +30,12 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.sharanga.description.1",
+                  "translate": "item.stellarity..sharanga.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.sharanga.description.2",
+                  "translate": "item.stellarity..sharanga.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },

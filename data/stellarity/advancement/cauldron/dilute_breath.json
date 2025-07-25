@@ -4,11 +4,11 @@
       "id": "minecraft:cauldron"
     },
     "title": {
-      "translate": "stellarity.advancements.dilute_breath"
+      "translate": "advancements.stellarity.dilute_breath"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.dilute_breath.description"
+        "translate": "advancements.stellarity.dilute_breath.description"
       },
       "\n\n",
       {
@@ -28,9 +28,5 @@
       "conditions": {}
     }
   },
-  "requirements": [
-    [
-      "dilute_breath"
-    ]
-  ]
+  "requirements": [["dilute_breath"]]
 }

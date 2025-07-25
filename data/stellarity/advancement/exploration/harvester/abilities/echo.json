@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.echo"
+      "translate": "advancements.stellarity.harvester.abilities.echo"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.echo.description"
+        "translate": "advancements.stellarity.harvester.abilities.echo.description"
       },
       "\n\n",
       {

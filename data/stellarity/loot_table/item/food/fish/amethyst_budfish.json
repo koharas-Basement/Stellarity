@@ -16,7 +16,7 @@
                   "stellarity.item": "amethyst_budfish"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish."
+                  "translate": "item.stellarity."
                 },
                 "!food": {},
                 "!consumable": {}

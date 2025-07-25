@@ -4,12 +4,7 @@
       "id": "minecraft:player_head",
       "components": {
         "minecraft:profile": {
-          "id": [
-            338825254,
-            -1207875601,
-            -1991448209,
-            1955652830
-          ],
+          "id": [338825254, -1207875601, -1991448209, 1955652830],
           "properties": [
             {
               "name": "textures",
@@ -20,11 +15,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.the_beginning"
+      "translate": "advancements.stellarity.the_beginning"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.the_beginning.description",
+        "translate": "advancements.stellarity.the_beginning.description",
         "color": "aqua"
       },
       "\n\n",
@@ -53,9 +48,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "kill_wither"
-    ]
-  ]
+  "requirements": [["kill_wither"]]
 }

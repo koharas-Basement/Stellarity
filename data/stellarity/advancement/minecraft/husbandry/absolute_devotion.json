@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.absolute_devotion"
+      "translate": "advancements.stellarity.absolute_devotion"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.absolute_devotion.description"
+        "translate": "advancements.stellarity.absolute_devotion.description"
       },
       "\n\n",
       {

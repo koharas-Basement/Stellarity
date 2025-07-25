@@ -4,11 +4,11 @@
       "id": "minecraft:shulker_box"
     },
     "title": {
-      "translate": "stellarity.advancements.portable_storage"
+      "translate": "advancements.stellarity.portable_storage"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.portable_storage.description"
+        "translate": "advancements.stellarity.portable_storage.description"
       },
       "\n\n",
       {
@@ -29,22 +29,14 @@
         "player": {},
         "items": [
           {
-            "items": [
-              "minecraft:shulker_box"
-            ]
+            "items": ["minecraft:shulker_box"]
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "craft_shulker_box"
-    ]
-  ],
+  "requirements": [["craft_shulker_box"]],
   "rewards": {
-    "recipes": [
-      "minecraft:shulker_box_coloring"
-    ]
+    "recipes": ["minecraft:shulker_box_coloring"]
   }
 }

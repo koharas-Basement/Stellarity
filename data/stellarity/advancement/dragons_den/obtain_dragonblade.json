@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.dragonborn"
+      "translate": "advancements.stellarity.dragonborn"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.dragonborn.description"
+        "translate": "advancements.stellarity.dragonborn.description"
       },
       "\n\n",
       {

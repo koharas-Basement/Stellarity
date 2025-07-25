@@ -4,11 +4,11 @@
       "id": "minecraft:shulker_shell"
     },
     "title": {
-      "translate": "stellarity.advancements.kill_shulker"
+      "translate": "advancements.stellarity.kill_shulker"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.kill_shulker.description"
+        "translate": "advancements.stellarity.kill_shulker.description"
       },
       "\n\n",
       {

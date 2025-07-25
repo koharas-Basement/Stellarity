@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.frost_barrier"
+      "translate": "advancements.stellarity.harvester.abilities.frost_barrier"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.frost_barrier.description"
+        "translate": "advancements.stellarity.harvester.abilities.frost_barrier.description"
       },
       "\n\n",
       {

@@ -13,35 +13,35 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.1",
+                  "translate": "item.stellarity..spirit_dagger.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.2",
+                  "translate": "item.stellarity..spirit_dagger.description.2",
                   "color": "#EEEEEE",
                   "italic": false,
                   "with": [
                     {
-                      "translate": "stellarity.items.weapons.spirit_dagger.2",
+                      "translate": "item.stellarity..spirit_dagger.2",
                       "color": "#68C6F5",
                       "italic": false
                     }
                   ]
                 },
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.3",
+                  "translate": "item.stellarity..spirit_dagger.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.4",
+                  "translate": "item.stellarity..spirit_dagger.description.4",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.flavor_text",
+                  "translate": "item.stellarity..spirit_dagger.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
@@ -102,7 +102,7 @@
                 "minecraft:max_damage": 484,
                 "rarity": "uncommon",
                 "item_name": {
-                  "translate": "stellarity.items.weapons.spirit_dagger.1",
+                  "translate": "item.stellarity..spirit_dagger.1",
                   "fallback": "The Beginning",
                   "color": "#F5DC68",
                   "italic": false
@@ -126,35 +126,35 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.1",
+                  "translate": "item.stellarity..spirit_dagger.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.2",
+                  "translate": "item.stellarity..spirit_dagger.description.2",
                   "color": "#EEEEEE",
                   "italic": false,
                   "with": [
                     {
-                      "translate": "stellarity.items.weapons.spirit_dagger.1",
+                      "translate": "item.stellarity..spirit_dagger.1",
                       "color": "#F5DC68",
                       "italic": false
                     }
                   ]
                 },
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.3",
+                  "translate": "item.stellarity..spirit_dagger.description.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.description.4",
+                  "translate": "item.stellarity..spirit_dagger.description.4",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.weapons.spirit_dagger.flavor_text",
+                  "translate": "item.stellarity..spirit_dagger.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
@@ -215,7 +215,7 @@
                 "minecraft:max_damage": 484,
                 "rarity": "uncommon",
                 "item_name": {
-                  "translate": "stellarity.items.weapons.spirit_dagger.2",
+                  "translate": "item.stellarity..spirit_dagger.2",
                   "fallback": "The End",
                   "color": "#68C6F5",
                   "italic": false

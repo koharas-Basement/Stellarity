@@ -4,11 +4,11 @@
       "id": "minecraft:phantom_spawn_egg"
     },
     "title": {
-      "translate": "stellarity.advancements.kill_large_phantom"
+      "translate": "advancements.stellarity.kill_large_phantom"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.kill_large_phantom.description"
+        "translate": "advancements.stellarity.kill_large_phantom.description"
       },
       "\n\n",
       {

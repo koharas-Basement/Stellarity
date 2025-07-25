@@ -13,12 +13,12 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.elytra.dragon_wings.description.1",
+                  "translate": "item.stellarity.dragon_wings.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.elytra.dragon_wings.description.2",
+                  "translate": "item.stellarity.dragon_wings.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -49,7 +49,7 @@
                 "minecraft:max_damage": 648,
                 "rarity": "rare",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.elytra.dragon_wings",
+                  "translate": "item.stellarity.dragon_wings",
                   "color": "#9936D6",
                   "italic": false
                 }

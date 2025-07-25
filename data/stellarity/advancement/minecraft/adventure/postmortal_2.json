@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.postmortal_2"
+      "translate": "advancements.stellarity.postmortal_2"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.postmortal_2.description"
+        "translate": "advancements.stellarity.postmortal_2.description"
       },
       "\n\n",
       {
@@ -41,18 +41,12 @@
           }
         },
         "item": {
-          "items": [
-            "minecraft:totem_of_undying"
-          ]
+          "items": ["minecraft:totem_of_undying"]
         }
       }
     }
   },
-  "requirements": [
-    [
-      "used_totem"
-    ]
-  ],
+  "requirements": [["used_totem"]],
   "rewards": {
     "experience": 50
   }

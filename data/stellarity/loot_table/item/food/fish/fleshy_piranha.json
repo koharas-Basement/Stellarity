@@ -16,7 +16,7 @@
                   "stellarity.item": "fleshy_piranha"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.fish.fleshy_piranha"
+                  "translate": "item.stellarity.fleshy_piranha"
                 },
                 "food": {
                   "nutrition": 1,

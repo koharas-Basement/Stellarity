@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.duskberry_find"
+      "translate": "advancements.stellarity.duskberry_find"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.duskberry_find.description"
+        "translate": "advancements.stellarity.duskberry_find.description"
       },
       "\n\n",
       {

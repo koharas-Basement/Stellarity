@@ -6,19 +6,17 @@
         "minecraft:enchantment_glint_override": true,
         "minecraft:item_model": "stellarity:harvester",
         "custom_model_data": {
-          "floats": [
-            5
-          ]
+          "floats": [5]
         }
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.max_out",
+      "translate": "advancements.stellarity.harvester.max_out",
       "color": "white"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.max_out.description",
+        "translate": "advancements.stellarity.harvester.max_out.description",
         "color": "aqua"
       },
       "\n\n",

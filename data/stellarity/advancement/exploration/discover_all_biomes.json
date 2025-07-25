@@ -10,11 +10,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.discover_all_biomes"
+      "translate": "advancements.stellarity.discover_all_biomes"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.discover_all_biomes.description"
+        "translate": "advancements.stellarity.discover_all_biomes.description"
       },
       "\n\n",
       {
@@ -251,72 +251,28 @@
     }
   },
   "requirements": [
-    [
-      "amethyst_forest"
-    ],
-    [
-      "ashfall_deltas"
-    ],
-    [
-      "crystal_crags"
-    ],
-    [
-      "end_shrubland"
-    ],
-    [
-      "end_wilds"
-    ],
-    [
-      "ender_wastes"
-    ],
-    [
-      "endless_dunes"
-    ],
-    [
-      "fiery_hills"
-    ],
-    [
-      "flesh_tundra"
-    ],
-    [
-      "frosted_valley"
-    ],
-    [
-      "frozen_marsh"
-    ],
-    [
-      "frozen_shrubland"
-    ],
-    [
-      "frozen_spikes"
-    ],
-    [
-      "hallowed_tundra"
-    ],
-    [
-      "prismarine_forest"
-    ],
-    [
-      "prismatic_dunes"
-    ],
-    [
-      "the_hallow"
-    ],
-    [
-      "the_nest"
-    ],
-    [
-      "warped_marsh"
-    ],
-    [
-      "end_barrens"
-    ],
-    [
-      "end_highlands"
-    ],
-    [
-      "end_midlands"
-    ]
+    ["amethyst_forest"],
+    ["ashfall_deltas"],
+    ["crystal_crags"],
+    ["end_shrubland"],
+    ["end_wilds"],
+    ["ender_wastes"],
+    ["endless_dunes"],
+    ["fiery_hills"],
+    ["flesh_tundra"],
+    ["frosted_valley"],
+    ["frozen_marsh"],
+    ["frozen_shrubland"],
+    ["frozen_spikes"],
+    ["hallowed_tundra"],
+    ["prismarine_forest"],
+    ["prismatic_dunes"],
+    ["the_hallow"],
+    ["the_nest"],
+    ["warped_marsh"],
+    ["end_barrens"],
+    ["end_highlands"],
+    ["end_midlands"]
   ],
   "rewards": {
     "experience": 4500

@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.abilities.embrittlement"
+      "translate": "advancements.stellarity.harvester.abilities.embrittlement"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.abilities.embrittlement.description"
+        "translate": "advancements.stellarity.harvester.abilities.embrittlement.description"
       },
       "\n\n",
       {

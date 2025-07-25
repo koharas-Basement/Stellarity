@@ -25,7 +25,7 @@
                   "stellarity.item": "entanglement_potion_ii"
                 },
                 "minecraft:custom_name": {
-                  "translate": "stellarity.items.potions.entanglement_potion",
+                  "translate": "item.stellarity.entanglement_potion",
                   "color": "white",
                   "italic": false
                 }

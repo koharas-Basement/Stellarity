@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.gain_damage"
+      "translate": "advancements.stellarity.harvester.gain_damage"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.gain_damage.description"
+        "translate": "advancements.stellarity.harvester.gain_damage.description"
       },
       "\n\n",
       {

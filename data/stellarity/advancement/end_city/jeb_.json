@@ -8,7 +8,7 @@
     },
     "description": [
       {
-        "translate": "stellarity.advancements.jeb_.description",
+        "translate": "advancements.stellarity.jeb_.description",
         "color": "dark_aqua"
       },
       "\n\n",
@@ -30,9 +30,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:white_shulker_box"
-            ]
+            "items": ["minecraft:white_shulker_box"]
           }
         ]
       }
@@ -42,9 +40,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:orange_shulker_box"
-            ]
+            "items": ["minecraft:orange_shulker_box"]
           }
         ]
       }
@@ -54,9 +50,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:magenta_shulker_box"
-            ]
+            "items": ["minecraft:magenta_shulker_box"]
           }
         ]
       }
@@ -66,9 +60,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:light_blue_shulker_box"
-            ]
+            "items": ["minecraft:light_blue_shulker_box"]
           }
         ]
       }
@@ -78,9 +70,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:yellow_shulker_box"
-            ]
+            "items": ["minecraft:yellow_shulker_box"]
           }
         ]
       }
@@ -90,9 +80,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:lime_shulker_box"
-            ]
+            "items": ["minecraft:lime_shulker_box"]
           }
         ]
       }
@@ -102,9 +90,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:pink_shulker_box"
-            ]
+            "items": ["minecraft:pink_shulker_box"]
           }
         ]
       }
@@ -114,9 +100,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:gray_shulker_box"
-            ]
+            "items": ["minecraft:gray_shulker_box"]
           }
         ]
       }
@@ -126,9 +110,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:light_gray_shulker_box"
-            ]
+            "items": ["minecraft:light_gray_shulker_box"]
           }
         ]
       }
@@ -138,9 +120,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:cyan_shulker_box"
-            ]
+            "items": ["minecraft:cyan_shulker_box"]
           }
         ]
       }
@@ -150,9 +130,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:purple_shulker_box"
-            ]
+            "items": ["minecraft:purple_shulker_box"]
           }
         ]
       }
@@ -162,9 +140,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:blue_shulker_box"
-            ]
+            "items": ["minecraft:blue_shulker_box"]
           }
         ]
       }
@@ -174,9 +150,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:brown_shulker_box"
-            ]
+            "items": ["minecraft:brown_shulker_box"]
           }
         ]
       }
@@ -186,9 +160,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:green_shulker_box"
-            ]
+            "items": ["minecraft:green_shulker_box"]
           }
         ]
       }
@@ -198,9 +170,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:red_shulker_box"
-            ]
+            "items": ["minecraft:red_shulker_box"]
           }
         ]
       }
@@ -210,63 +180,29 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:black_shulker_box"
-            ]
+            "items": ["minecraft:black_shulker_box"]
           }
         ]
       }
     }
   },
   "requirements": [
-    [
-      "craft1"
-    ],
-    [
-      "craft2"
-    ],
-    [
-      "craft3"
-    ],
-    [
-      "craft4"
-    ],
-    [
-      "craft5"
-    ],
-    [
-      "craft6"
-    ],
-    [
-      "craft7"
-    ],
-    [
-      "craft8"
-    ],
-    [
-      "craft9"
-    ],
-    [
-      "craft10"
-    ],
-    [
-      "craft11"
-    ],
-    [
-      "craft12"
-    ],
-    [
-      "craft13"
-    ],
-    [
-      "craft14"
-    ],
-    [
-      "craft15"
-    ],
-    [
-      "craft16"
-    ]
+    ["craft1"],
+    ["craft2"],
+    ["craft3"],
+    ["craft4"],
+    ["craft5"],
+    ["craft6"],
+    ["craft7"],
+    ["craft8"],
+    ["craft9"],
+    ["craft10"],
+    ["craft11"],
+    ["craft12"],
+    ["craft13"],
+    ["craft14"],
+    ["craft15"],
+    ["craft16"]
   ],
   "rewards": {
     "experience": 200

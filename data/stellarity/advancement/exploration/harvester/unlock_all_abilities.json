@@ -6,22 +6,20 @@
         "minecraft:enchantment_glint_override": true,
         "minecraft:item_model": "stellarity:harvester",
         "custom_model_data": {
-          "floats": [
-            4
-          ]
+          "floats": [4]
         }
       }
     },
     "title": {
-      "translate": "stellarity.advancements.harvester.all_abilities"
+      "translate": "advancements.stellarity.harvester.all_abilities"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.harvester.all_abilities.description"
+        "translate": "advancements.stellarity.harvester.all_abilities.description"
       },
       "\n",
       {
-        "translate": "stellarity.advancements.harvester.all_abilities.tip",
+        "translate": "advancements.stellarity.harvester.all_abilities.tip",
         "color": "dark_gray"
       },
       "\n\n",
@@ -64,30 +62,14 @@
     }
   },
   "requirements": [
-    [
-      "anima_conduit"
-    ],
-    [
-      "arctic_wind"
-    ],
-    [
-      "cryonics"
-    ],
-    [
-      "echo"
-    ],
-    [
-      "embrittlement"
-    ],
-    [
-      "frost_barrier"
-    ],
-    [
-      "frostburn"
-    ],
-    [
-      "piercing_cold"
-    ]
+    ["anima_conduit"],
+    ["arctic_wind"],
+    ["cryonics"],
+    ["echo"],
+    ["embrittlement"],
+    ["frost_barrier"],
+    ["frostburn"],
+    ["piercing_cold"]
   ],
   "rewards": {
     "experience": 1000

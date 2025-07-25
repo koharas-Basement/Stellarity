@@ -8,11 +8,11 @@
       }
     },
     "title": {
-      "translate": "stellarity.advancements.hallelujah"
+      "translate": "advancements.stellarity.hallelujah"
     },
     "description": [
       {
-        "translate": "stellarity.advancements.hallelujah.description"
+        "translate": "advancements.stellarity.hallelujah.description"
       },
       "\n\n",
       {
