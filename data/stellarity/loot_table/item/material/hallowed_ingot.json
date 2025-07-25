@@ -15,7 +15,7 @@
                   "stellarity.item": "hallowed_ingot"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.hallowed_ingot",
+                  "translate": "item.stellarity.hallowed_ingot",
                   "color": "#D9E3ED",
                   "italic": false
                 }

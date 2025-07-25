@@ -15,7 +15,7 @@
                   "text": ""
                 },
                 {
-                  "translate": "stellarity.items.materials.chorus_petal.flavor_text",
+                  "translate": "item.stellarity.chorus_petal.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
@@ -36,7 +36,7 @@
                   "stellarity.item": "chorus_petal"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.chorus_petal",
+                  "translate": "item.stellarity.chorus_petal",
                   "italic": false
                 }
               }

@@ -16,7 +16,7 @@
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.enderite_smithing_template",
+                  "translate": "item.stellarity.enderite_smithing_template",
                   "color": "light_purple",
                   "italic": false
                 }
@@ -28,7 +28,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "translate": "stellarity.items.materials.enderite_smithing_template.upgrade",
+                  "translate": "item.stellarity.enderite_smithing_template.upgrade",
                   "color": "gray",
                   "italic": false
                 },
@@ -41,7 +41,7 @@
                 [
                   " ",
                   {
-                    "translate": "stellarity.items.materials.enderite_smithing_template.applies_to",
+                    "translate": "item.stellarity.enderite_smithing_template.applies_to",
                     "color": "blue",
                     "italic": false
                   }
@@ -49,7 +49,7 @@
                 [
                   " ",
                   {
-                    "translate": "stellarity.items.materials.enderite_smithing_template.description",
+                    "translate": "item.stellarity.enderite_smithing_template.description",
                     "color": "blue",
                     "italic": false
                   }
@@ -62,15 +62,15 @@
                 [
                   " ",
                   {
-                    "translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+                    "translate": "item.stellarity.enderite_smithing_template.ingredients",
                     "color": "blue",
                     "italic": false,
                     "with": [
                       {
-                        "translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4"
+                        "translate": "item.stellarity.enderite_smithing_template.ingredients.count.4"
                       },
                       {
-                        "translate": "stellarity.items.materials.hallowed_ingot"
+                        "translate": "item.stellarity.hallowed_ingot"
                       }
                     ]
                   }
@@ -78,15 +78,15 @@
                 [
                   " ",
                   {
-                    "translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+                    "translate": "item.stellarity.enderite_smithing_template.ingredients",
                     "color": "blue",
                     "italic": false,
                     "with": [
                       {
-                        "translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4"
+                        "translate": "item.stellarity.enderite_smithing_template.ingredients.count.4"
                       },
                       {
-                        "translate": "stellarity.items.materials.chorus_plating"
+                        "translate": "item.stellarity.chorus_plating"
                       }
                     ]
                   }
@@ -94,12 +94,12 @@
                 [
                   " ",
                   {
-                    "translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+                    "translate": "item.stellarity.enderite_smithing_template.ingredients",
                     "color": "blue",
                     "italic": false,
                     "with": [
                       {
-                        "translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.4"
+                        "translate": "item.stellarity.enderite_smithing_template.ingredients.count.4"
                       },
                       {
                         "translate": "item.minecraft.shulker_shell"
@@ -110,12 +110,12 @@
                 [
                   " ",
                   {
-                    "translate": "stellarity.items.materials.enderite_smithing_template.ingredients",
+                    "translate": "item.stellarity.enderite_smithing_template.ingredients",
                     "color": "blue",
                     "italic": false,
                     "with": [
                       {
-                        "translate": "stellarity.items.materials.enderite_smithing_template.ingredients.count.8"
+                        "translate": "item.stellarity.enderite_smithing_template.ingredients.count.8"
                       },
                       {
                         "translate": "block.minecraft.cherry_leaves"

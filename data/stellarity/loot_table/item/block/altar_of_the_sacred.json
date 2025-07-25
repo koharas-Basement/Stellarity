@@ -44,7 +44,7 @@
                   "translate": "block.stellarity.altar_of_light.description.3",
                   "with": [
                     {
-                      "translate": "stellarity.items.materials.starlight_soot",
+                      "translate": "item.stellarity.starlight_soot",
                       "color": "#FFD655",
                       "italic": false
                     }

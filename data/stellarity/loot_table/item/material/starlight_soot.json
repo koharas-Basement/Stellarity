@@ -16,7 +16,7 @@
                 },
                 "minecraft:rarity": "common",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.starlight_soot"
+                  "translate": "item.stellarity.starlight_soot"
                 }
               }
             },
@@ -26,18 +26,18 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.materials.starlight_soot.description.1",
+                  "translate": "item.stellarity.starlight_soot.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "stellarity.items.materials.starlight_soot.description.2",
+                  "translate": "item.stellarity.starlight_soot.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "stellarity.items.materials.starlight_soot.flavor_text",
+                  "translate": "item.stellarity.starlight_soot.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

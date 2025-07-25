@@ -16,7 +16,7 @@
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.enderite_shard"
+                  "translate": "item.stellarity.enderite_shard"
                 }
               }
             },
@@ -27,7 +27,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.materials.enderite_shard.description",
+                  "translate": "item.stellarity.enderite_shard.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },

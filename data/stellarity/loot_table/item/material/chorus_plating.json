@@ -15,7 +15,7 @@
                   "stellarity.item": "chorus_plating"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.chorus_plating",
+                  "translate": "item.stellarity.chorus_plating",
                   "color": "#A372C3",
                   "italic": false
                 }
@@ -28,7 +28,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.materials.upgrade",
+                  "translate": "item.stellarity.upgrade",
                   "color": "#EEEEEE",
                   "italic": false
                 },

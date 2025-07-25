@@ -13,7 +13,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.materials.keys.winged.description",
+                  "translate": "item.stellarity.keys.winged.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -34,7 +34,7 @@
                   "stellarity.item": "winged_key"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.keys.winged"
+                  "translate": "item.stellarity.keys.winged"
                 },
                 "rarity": "rare"
               }

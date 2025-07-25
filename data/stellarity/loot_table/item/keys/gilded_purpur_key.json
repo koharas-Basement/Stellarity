@@ -13,7 +13,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "stellarity.items.materials.keys.gilded_purpur.description",
+                  "translate": "item.stellarity.keys.gilded_purpur.description",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -34,7 +34,7 @@
                   "stellarity.item": "gilded_purpur_key"
                 },
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.keys.gilded_purpur"
+                  "translate": "item.stellarity.keys.gilded_purpur"
                 },
                 "rarity": "rare"
               }

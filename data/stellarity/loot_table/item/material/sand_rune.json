@@ -16,7 +16,7 @@
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "stellarity.items.materials.sand_rune"
+                  "translate": "item.stellarity.sand_rune"
                 }
               }
             },
