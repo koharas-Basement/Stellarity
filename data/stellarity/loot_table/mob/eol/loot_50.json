@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/prismatic_pearl",
+          "value": "stellarity:item/trinket/prismatic_pearl",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
