@@ -42,7 +42,7 @@
                 },
                 "",
                 {
-                  "translate": "item.stellarity.book_of_cooldown",
+                  "translate": "items.stellarity.spellbooks.cooldown",
                   "color": "#9E9E9E",
                   "italic": false,
                   "with": [
