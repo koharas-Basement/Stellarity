@@ -15,7 +15,7 @@
                 },
                 "minecraft:rarity": "epic",
                 "minecraft:lore": [
-                  "\"\"",
+                  "",
                   {
                     "translate": "item.stellarity.loaf_of_plenty.description.1",
                     "fallback": "Well, how do I say it...",
@@ -28,13 +28,13 @@
                     "color": "#EEEEEE",
                     "italic": false
                   },
-                  "\"\"",
+                  "",
                   {
-                    "translate": "- Donator Item -",
+                    "translate": "items.stellarity.donator",
                     "color": "#F96854",
                     "italic": false
                   },
-                  "\"\"",
+                  "",
                   {
                     "translate": "Stellarity",
                     "color": "#CC26FF",
@@ -70,7 +70,7 @@
                     },
                     "minecraft:rarity": "epic",
                     "minecraft:lore": [
-                      "\"\"",
+                      "",
                       {
                         "translate": "item.stellarity.loaf_of_plenty.description.3",
                         "fallback": "Did you eat it to test it or",
@@ -83,13 +83,13 @@
                         "color": "#EEEEEE",
                         "italic": false
                       },
-                      "\"\"",
+                      "",
                       {
-                        "translate": "- Donator Item -",
+                        "translate": "items.stellarity.donator",
                         "color": "#F96854",
                         "italic": false
                       },
-                      "\"\"",
+                      "",
                       {
                         "translate": "Stellarity",
                         "color": "#CC26FF",
@@ -125,7 +125,7 @@
                         },
                         "minecraft:rarity": "epic",
                         "minecraft:lore": [
-                          "\"\"",
+                          "",
                           {
                             "translate": "item.stellarity.loaf_of_plenty.description.5",
                             "fallback": "You keep going, huh",
@@ -138,13 +138,13 @@
                             "color": "#EEEEEE",
                             "italic": false
                           },
-                          "\"\"",
+                          "",
                           {
-                            "translate": "- Donator Item -",
+                            "translate": "items.stellarity.donator",
                             "color": "#F96854",
                             "italic": false
                           },
-                          "\"\"",
+                          "",
                           {
                             "translate": "Stellarity",
                             "color": "#CC26FF",
@@ -180,20 +180,20 @@
                             },
                             "minecraft:rarity": "epic",
                             "minecraft:lore": [
-                              "\"\"",
+                              "",
                               {
                                 "translate": "item.stellarity.loaf_of_plenty.description.7",
                                 "fallback": "Still infinite :3",
                                 "color": "#EEEEEE",
                                 "italic": false
                               },
-                              "\"\"",
+                              "",
                               {
-                                "translate": "- Donator Item -",
+                                "translate": "items.stellarity.donator",
                                 "color": "#F96854",
                                 "italic": false
                               },
-                              "\"\"",
+                              "",
                               {
                                 "translate": "Stellarity",
                                 "color": "#CC26FF",
@@ -229,7 +229,7 @@
                                 },
                                 "minecraft:rarity": "epic",
                                 "minecraft:lore": [
-                                  "\"\"",
+                                  "",
                                   {
                                     "translate": "item.stellarity.loaf_of_plenty.description.8",
                                     "fallback": "Alright, at this point you are just",
@@ -242,13 +242,13 @@
                                     "color": "#EEEEEE",
                                     "italic": false
                                   },
-                                  "\"\"",
+                                  "",
                                   {
-                                    "translate": "- Donator Item -",
+                                    "translate": "items.stellarity.donator",
                                     "color": "#F96854",
                                     "italic": false
                                   },
-                                  "\"\"",
+                                  "",
                                   {
                                     "translate": "Stellarity",
                                     "color": "#CC26FF",
@@ -284,20 +284,20 @@
                                     },
                                     "minecraft:rarity": "epic",
                                     "minecraft:lore": [
-                                      "\"\"",
+                                      "",
                                       {
                                         "translate": "item.stellarity.loaf_of_plenty.description.10",
                                         "fallback": "Don't push your luck too far",
                                         "color": "#EEEEEE",
                                         "italic": false
                                       },
-                                      "\"\"",
+                                      "",
                                       {
-                                        "translate": "- Donator Item -",
+                                        "translate": "items.stellarity.donator",
                                         "color": "#F96854",
                                         "italic": false
                                       },
-                                      "\"\"",
+                                      "",
                                       {
                                         "translate": "Stellarity",
                                         "color": "#CC26FF",
@@ -333,7 +333,7 @@
                                         },
                                         "minecraft:rarity": "epic",
                                         "minecraft:lore": [
-                                          "\"\"",
+                                          "",
                                           {
                                             "translate": "item.stellarity.loaf_of_plenty.description.11",
                                             "fallback": "Aren't you scared that something",
@@ -346,13 +346,13 @@
                                             "color": "#EEEEEE",
                                             "italic": false
                                           },
-                                          "\"\"",
+                                          "",
                                           {
-                                            "translate": "- Donator Item -",
+                                            "translate": "items.stellarity.donator",
                                             "color": "#F96854",
                                             "italic": false
                                           },
-                                          "\"\"",
+                                          "",
                                           {
                                             "translate": "Stellarity",
                                             "color": "#CC26FF",
@@ -388,7 +388,7 @@
                                             },
                                             "minecraft:rarity": "epic",
                                             "minecraft:lore": [
-                                              "\"\"",
+                                              "",
                                               {
                                                 "translate": "item.stellarity.loaf_of_plenty.description.13",
                                                 "fallback": "Like, this is Stellarity, this bread",
@@ -401,13 +401,13 @@
                                                 "color": "#EEEEEE",
                                                 "italic": false
                                               },
-                                              "\"\"",
+                                              "",
                                               {
-                                                "translate": "- Donator Item -",
+                                                "translate": "items.stellarity.donator",
                                                 "color": "#F96854",
                                                 "italic": false
                                               },
-                                              "\"\"",
+                                              "",
                                               {
                                                 "translate": "Stellarity",
                                                 "color": "#CC26FF",
@@ -443,20 +443,20 @@
                                                 },
                                                 "minecraft:rarity": "epic",
                                                 "minecraft:lore": [
-                                                  "\"\"",
+                                                  "",
                                                   {
                                                     "translate": "item.stellarity.loaf_of_plenty.description.15",
                                                     "fallback": "Are you 100%% SURE you want to keep going?",
                                                     "color": "#EEEEEE",
                                                     "italic": false
                                                   },
-                                                  "\"\"",
+                                                  "",
                                                   {
-                                                    "translate": "- Donator Item -",
+                                                    "translate": "items.stellarity.donator",
                                                     "color": "#F96854",
                                                     "italic": false
                                                   },
-                                                  "\"\"",
+                                                  "",
                                                   {
                                                     "translate": "Stellarity",
                                                     "color": "#CC26FF",
@@ -492,7 +492,7 @@
                                                     },
                                                     "minecraft:rarity": "epic",
                                                     "minecraft:lore": [
-                                                      "\"\"",
+                                                      "",
                                                       {
                                                         "translate": "item.stellarity.loaf_of_plenty.description.16",
                                                         "fallback": "Those were warnings btw, but idk,",
@@ -505,13 +505,13 @@
                                                         "color": "#EEEEEE",
                                                         "italic": false
                                                       },
-                                                      "\"\"",
+                                                      "",
                                                       {
-                                                        "translate": "- Donator Item -",
+                                                        "translate": "items.stellarity.donator",
                                                         "color": "#F96854",
                                                         "italic": false
                                                       },
-                                                      "\"\"",
+                                                      "",
                                                       {
                                                         "translate": "Stellarity",
                                                         "color": "#CC26FF",
@@ -547,7 +547,7 @@
                                                         },
                                                         "minecraft:rarity": "epic",
                                                         "minecraft:lore": [
-                                                          "\"\"",
+                                                          "",
                                                           {
                                                             "translate": "item.stellarity.loaf_of_plenty.description.18",
                                                             "fallback": "Alright, I am done with you",
@@ -560,13 +560,13 @@
                                                             "color": "#EEEEEE",
                                                             "italic": false
                                                           },
-                                                          "\"\"",
+                                                          "",
                                                           {
-                                                            "translate": "- Donator Item -",
+                                                            "translate": "items.stellarity.donator",
                                                             "color": "#F96854",
                                                             "italic": false
                                                           },
-                                                          "\"\"",
+                                                          "",
                                                           {
                                                             "translate": "Stellarity",
                                                             "color": "#CC26FF",
@@ -602,7 +602,7 @@
                                                             },
                                                             "minecraft:rarity": "epic",
                                                             "minecraft:lore": [
-                                                              "\"\"",
+                                                              "",
                                                               {
                                                                 "translate": "item.stellarity.loaf_of_plenty.description.20",
                                                                 "fallback": "Yeah, surprise surprise",
@@ -615,13 +615,13 @@
                                                                 "color": "#EEEEEE",
                                                                 "italic": false
                                                               },
-                                                              "\"\"",
+                                                              "",
                                                               {
-                                                                "translate": "- Donator Item -",
+                                                                "translate": "items.stellarity.donator",
                                                                 "color": "#F96854",
                                                                 "italic": false
                                                               },
-                                                              "\"\"",
+                                                              "",
                                                               {
                                                                 "translate": "Stellarity",
                                                                 "color": "#CC26FF",
@@ -657,7 +657,7 @@
                                                                 },
                                                                 "minecraft:rarity": "epic",
                                                                 "minecraft:lore": [
-                                                                  "\"\"",
+                                                                  "",
                                                                   {
                                                                     "translate": "item.stellarity.loaf_of_plenty.description.22",
                                                                     "fallback": "But your greed sickens me",
@@ -670,13 +670,13 @@
                                                                     "color": "#EEEEEE",
                                                                     "italic": false
                                                                   },
-                                                                  "\"\"",
+                                                                  "",
                                                                   {
-                                                                    "translate": "- Donator Item -",
+                                                                    "translate": "items.stellarity.donator",
                                                                     "color": "#F96854",
                                                                     "italic": false
                                                                   },
-                                                                  "\"\"",
+                                                                  "",
                                                                   {
                                                                     "translate": "Stellarity",
                                                                     "color": "#CC26FF",
@@ -712,7 +712,7 @@
                                                                     },
                                                                     "minecraft:rarity": "epic",
                                                                     "minecraft:lore": [
-                                                                      "\"\"",
+                                                                      "",
                                                                       {
                                                                         "translate": "item.stellarity.loaf_of_plenty.description.24",
                                                                         "fallback": "Alright, it's getting boring",
@@ -725,13 +725,13 @@
                                                                         "color": "#EEEEEE",
                                                                         "italic": false
                                                                       },
-                                                                      "\"\"",
+                                                                      "",
                                                                       {
-                                                                        "translate": "- Donator Item -",
+                                                                        "translate": "items.stellarity.donator",
                                                                         "color": "#F96854",
                                                                         "italic": false
                                                                       },
-                                                                      "\"\"",
+                                                                      "",
                                                                       {
                                                                         "translate": "Stellarity",
                                                                         "color": "#CC26FF",
@@ -767,13 +767,13 @@
                                                                         },
                                                                         "minecraft:rarity": "epic",
                                                                         "minecraft:lore": [
-                                                                          "\"\"",
+                                                                          "",
                                                                           {
-                                                                            "translate": "- Donator Item -",
+                                                                            "translate": "items.stellarity.donator",
                                                                             "color": "#F96854",
                                                                             "italic": false
                                                                           },
-                                                                          "\"\"",
+                                                                          "",
                                                                           {
                                                                             "translate": "Stellarity",
                                                                             "color": "#CC26FF",

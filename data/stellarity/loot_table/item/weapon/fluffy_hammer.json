@@ -56,7 +56,7 @@
                 },
                 "",
                 {
-                  "translate": "- Donator Item -",
+                  "translate": "items.stellarity.donator",
                   "color": "#BA02D7",
                   "italic": false
                 },

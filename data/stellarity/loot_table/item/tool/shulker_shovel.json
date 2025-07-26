@@ -13,7 +13,7 @@
               "lore": [
                 " ",
                 {
-                  "translate": "- Donator Item -",
+                  "translate": "items.stellarity.donator",
                   "color": "#F96854",
                   "italic": false
                 },
