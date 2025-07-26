@@ -1,5 +1,13 @@
 # todo (jot anything of use):
 
+### UPCOMING
+
+finish up translation key fixes
+
+### BUG FIXES
+
+villager trades.
+
 ### alrighty so looking at the biomes:
 ameythest forest looks like a forest, spawn cows sheep pigs chickens normally
 

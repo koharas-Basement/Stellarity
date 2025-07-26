@@ -1,5 +1,3 @@
 {
-  "values": [
-    "stellarity:util/damage/death_messages"
-  ]
+  "values": ["stellarity:util/damage/death_messages"]
 }

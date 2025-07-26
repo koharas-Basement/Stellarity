@@ -96,7 +96,7 @@
       "stellarity:item/kaleidoscope/ready_4",
       "stellarity:item/kaleidoscope/ready_5"
     ],
-    "subtitle": "subtitiles.stellarity.item.kaleidoscope.ready"
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.ready"
   },
   "item.kaleidoscope.level_1": {
     "sounds": [

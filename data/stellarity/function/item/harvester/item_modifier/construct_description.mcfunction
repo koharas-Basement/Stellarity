@@ -58,7 +58,7 @@ execute if score #damage stellarity.misc matches 1200 unless score #ability_coun
   execute if score #ability_count stellarity.misc matches 1.. run data modify storage stellarity:temp aery_sword.lore append value {"text":""}
 
 # Append the usual crap
-  data modify storage stellarity:temp aery_sword.lore append value {"translate": "- Developer Item -","color": "#BA02D7","italic": false}
+  data modify storage stellarity:temp aery_sword.lore append value {"translate": "items.stellarity.developer","color": "#BA02D7","italic": false}
   data modify storage stellarity:temp aery_sword.lore append value {"text":""}
   data modify storage stellarity:temp aery_sword.lore append value {"translate": "Stellarity","color": "#CC26FF","italic": true}
 

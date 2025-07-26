@@ -49,7 +49,7 @@
                 },
                 "",
                 {
-                  "translate": "- Developer Item -",
+                  "translate": "items.stellarity.developer",
                   "color": "#BA02D7",
                   "italic": false
                 },
