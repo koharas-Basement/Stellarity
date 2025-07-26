@@ -1,4 +1,4 @@
-$tellraw @s ["\n",{"text":"ℹ ","color":"#C076E5","bold": true},{"translate":"message.stellarity.$(string)","color":"#C8ADD6"},"\n"]
+$tellraw @s ["\n",{"text":"ℹ ","color":"#C076E5","bold": true},{"translate":"commands.stellarity.$(string)","color":"#C8ADD6"},"\n"]
 
 # [
 #	"\n",

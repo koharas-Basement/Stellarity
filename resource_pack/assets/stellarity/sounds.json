@@ -304,13 +304,13 @@
   },
   "item.fluffy_hammer.throw": {
     "sounds": ["stellarity:item/fluffy_hammer/throw"],
-    "subtitle": "stellarity.subtitles.item.fluffy_hammer.throw"
+    "subtitle": "subtitles.stellarity.item.fluffy_hammer.throw"
   },
   "item.fluffy_hammer.return": {
     "sounds": [
       "stellarity:item/fluffy_hammer/return",
       "stellarity:item/fluffy_hammer/return2"
     ],
-    "subtitle": "stellarity.subtitles.item.fluffy_hammer.return"
+    "subtitle": "subtitles.stellarity.item.fluffy_hammer.return"
   }
 }

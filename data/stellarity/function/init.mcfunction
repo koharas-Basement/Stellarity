@@ -261,7 +261,7 @@ team modify stellarity.dragon.pacify_others friendlyFire false
     bossbar set stellarity:ender_dragon style progress
     bossbar set stellarity:ender_dragon visible true
     # 'Crystals Left'
-      bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","color":"#4C0081"}
+      bossbar add stellarity:crystal_count {"translate":"bossbar.stellarity.crystals_left","color":"#4C0081"}
       bossbar set stellarity:crystal_count color purple
       bossbar set stellarity:crystal_count visible true
       bossbar set stellarity:crystal_count players

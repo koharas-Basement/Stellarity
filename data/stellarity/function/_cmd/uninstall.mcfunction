@@ -247,4 +247,4 @@
           schedule clear stellarity:loop/timed/1_second
           schedule clear stellarity:loop/timed/5_second
 
-        function stellarity:util/tellraw/command {string:"uninstall",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}
+        function stellarity:util/tellraw/command {string:"uninstall.success",fallback:"Removed all registered Stellarity scoreboards, teams and bossbars"}

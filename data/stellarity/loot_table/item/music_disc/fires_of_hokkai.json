@@ -21,7 +21,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "stellarity.music_disc.requires_addon",
+                  "translate": "items.stellarity.music_discs.requires_addon",
                   "color": "dark_gray"
                 },
                 "",
