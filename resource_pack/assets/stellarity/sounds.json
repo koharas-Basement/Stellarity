@@ -5,7 +5,7 @@
       "stellarity:mob/enderman/attack_2",
       "stellarity:mob/enderman/attack_3"
     ],
-    "subtitle": "Enderman attacks"
+    "subtitle": "subtitles.stellarity.entity.enderman.attack"
   },
   "entity.endermite.attack": {
     "sounds": [
@@ -13,7 +13,7 @@
       "stellarity:mob/endermite/attack_2",
       "stellarity:mob/endermite/attack_3"
     ],
-    "subtitle": "Endermite attacks"
+    "subtitle": "subtitles.stellarity.entity.endermite.attack"
   },
   "effect.voided.activate": {
     "sounds": [
@@ -80,7 +80,7 @@
       "stellarity:item/living_flesh/rush_1",
       "stellarity:item/living_flesh/rush_2"
     ],
-    "subtitle": "Living Flesh hurts"
+    "subtitle": "subtitles.item.living_flesh.boost"
   },
   "item.cooldown_end": {
     "sounds": ["stellarity:item/cooldown_end"]
@@ -96,7 +96,7 @@
       "stellarity:item/kaleidoscope/ready_4",
       "stellarity:item/kaleidoscope/ready_5"
     ],
-    "subtitle": "Kaleidoscope charges"
+    "subtitle": "subtitiles.stellarity.item.kaleidoscope.ready"
   },
   "item.kaleidoscope.level_1": {
     "sounds": [

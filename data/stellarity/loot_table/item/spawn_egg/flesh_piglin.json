@@ -16,7 +16,11 @@
                 },
                 "minecraft:entity_data": {
                   "id": "minecraft:marker",
-                  "Tags": ["stellarity.spawn_egg"],
+                  "Tags": [
+                    "stellarity.spawn_egg",
+                    "smithed.entity",
+                    "smithed.strict"
+                  ],
                   "data": {
                     "mob": "flesh_piglin"
                   }

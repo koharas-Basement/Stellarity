@@ -1,1 +1,1 @@
-title @a[distance=..10] actionbar {"translate":"stellarity.aota.warning","color":"dark_purple"}
+title @a[distance=..10] actionbar {"translate":"message.stellarity.aota_locked","color":"dark_purple"}

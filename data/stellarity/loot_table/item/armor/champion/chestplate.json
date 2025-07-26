@@ -19,17 +19,17 @@
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.champion_armor.set_bonus.1",
+                  "translate": "items.stellarity.champion_armor.bonus.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.champion_armor.set_bonus.2",
+                  "translate": "items.stellarity.champion_armor.bonus.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.champion_armor.set_bonus.3",
+                  "translate": "items.stellarity.champion_armor.bonus.3",
                   "color": "#EEEEEE",
                   "italic": false
                 },
