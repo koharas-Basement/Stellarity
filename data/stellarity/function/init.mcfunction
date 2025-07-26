@@ -268,7 +268,7 @@ team modify stellarity.dragon.pacify_others friendlyFire false
       bossbar set stellarity:crystal_count max 10
       bossbar set stellarity:crystal_count style notched_10
       # Empress of Light
-        bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","color":"#FF55FF"}
+        bossbar add stellarity:eol {"translate":"entity.stellarity.empress_of_light","color":"#FF55FF"}
         bossbar set stellarity:eol color pink
         bossbar set stellarity:eol visible true
         bossbar set stellarity:eol players
