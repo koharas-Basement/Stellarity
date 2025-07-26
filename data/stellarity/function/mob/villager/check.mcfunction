@@ -2,3 +2,4 @@ execute if data entity @s {VillagerData:{profession:"minecraft:nitwit"}} run tag
 
 tag @s add stellarity.villager
 tag @s add smithed.entity
+

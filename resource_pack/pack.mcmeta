@@ -7,7 +7,7 @@
     },
     "description": [
       {
-        "translate": "stellarity.pack_mcmeta.rp",
+        "translate": "stellarity.resource_pack",
         "fallback": "Optional resources for Stellarity",
         "color": "#CB4BFF"
       },

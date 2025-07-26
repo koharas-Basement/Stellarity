@@ -4,7 +4,7 @@
     "supported_formats": [46, 64],
     "description": [
       {
-        "translate": "stellarity.pack_mcmeta.rp.music",
+        "translate": "stellarity.music_pack",
         "fallback": "Music addon for Stellarity",
         "color": "#CB4BFF"
       },
