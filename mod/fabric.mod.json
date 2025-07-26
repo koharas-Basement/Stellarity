@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "stellarity",
-  "version": "4.2.3",
+  "version": "5.0.0-alpha1",
   "name": "Stellarity",
   "description": "Extreme rehaul and expansion of The End! 'We have End Update at home.'",
   "authors": ["kohara"],
