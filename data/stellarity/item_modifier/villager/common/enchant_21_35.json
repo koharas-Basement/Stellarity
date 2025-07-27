@@ -2,7 +2,7 @@
   "function": "minecraft:enchant_with_levels",
   "levels": {
     "type": "minecraft:uniform",
-    "min": 15,
-    "max": 29
+    "min": 21,
+    "max": 35
   }
 }

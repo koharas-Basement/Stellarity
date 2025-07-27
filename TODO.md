@@ -2,11 +2,11 @@
 
 ### UPCOMING
 
-finish up translation key fixes
+villager trade item modifiers broken.
 
 ### BUG FIXES
 
-villager trades.
+area effect cloud issues by setting particles to block and block to air
 
 ### alrighty so looking at the biomes:
 ameythest forest looks like a forest, spawn cows sheep pigs chickens normally

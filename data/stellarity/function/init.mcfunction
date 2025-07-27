@@ -32,10 +32,6 @@
           scoreboard objectives add stellarity.items.armors.champion_armor.combo dummy
           scoreboard objectives add stellarity.items.armors.champion_armor.until_combo_reset dummy
 
-        # Clockwork Crossbow
-          scoreboard objectives add stellarity.items.clockwork_crossbow.time_since_last_shot dummy
-          scoreboard objectives add stellarity.items.clockwork_crossbow.should_save dummy
-
         # Crest of The End
           scoreboard objectives add stellarity.items.crest.bonus_dmg dummy
           scoreboard objectives add stellarity.items.crest.time dummy
@@ -181,6 +177,7 @@
     ## Mechanics
       scoreboard objectives add stellarity.aota.count dummy
       scoreboard objectives add stellarity.entity.live_time dummy
+      scoreboard objectives add stellarity.random_number dummy
 
     scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
     scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy

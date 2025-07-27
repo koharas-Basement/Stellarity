@@ -19,7 +19,11 @@
                 "minecraft:item_name": {
                   "translate": "item.stellarity.crystal_heartfish"
                 },
-                "!food": {},
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
                 "minecraft:consumable": {
                   "animation": "eat",
                   "consume_seconds": 3.5,

@@ -4,10 +4,6 @@
 # Dragonblade
   execute if entity @s[predicate=stellarity:item/holding/dragonblade,predicate=kohara:player/is_sneaking] as @e[type=!#kohara:invalid_targets,distance=0.001..5,tag=stellarity.items.dragonblade.punch_ready] at @s run function stellarity:item/dragonblade/punch/progress
 
-# Clockwork Crossbow
-  execute if entity @s[scores={stellarity.items.clockwork_crossbow.time_since_last_shot=1..}] run function stellarity:item/clockwork_crossbow/tickdown
-  execute if entity @s[predicate=stellarity:item/holding/clockwork_crossbow/unloaded_any] unless score @s stellarity.items.clockwork_crossbow.time_since_last_shot matches 16.. run function stellarity:item/clockwork_crossbow/check
-
 # The Beginning and The End
   execute if entity @s[predicate=stellarity:item/holding/spirit_dagger/both,predicate=stellarity:item/spirit_dagger/looking_at_spirit] run function stellarity:item/spirit_dagger/charge/progress
   execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:item/spirit_dagger/charge/reset_countdown

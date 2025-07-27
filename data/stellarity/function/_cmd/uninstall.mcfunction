@@ -34,10 +34,6 @@
             scoreboard objectives remove stellarity.items.armors.champion_armor.combo
             scoreboard objectives remove stellarity.items.armors.champion_armor.until_combo_reset
 
-          # Clockwork Crossbow
-            scoreboard objectives remove stellarity.items.clockwork_crossbow.time_since_last_shot
-            scoreboard objectives remove stellarity.items.clockwork_crossbow.should_save
-
           # Crest of The End
             scoreboard objectives remove stellarity.items.crest.bonus_dmg
             scoreboard objectives remove stellarity.items.crest.time
@@ -183,6 +179,7 @@
       ## Mechanics
         scoreboard objectives remove stellarity.aota.count
         scoreboard objectives remove stellarity.entity.live_time
+        scoreboard objectives remove stellarity.random_number
 
       scoreboard objectives remove stellarity.mechanics.void_fishing.length
       scoreboard objectives remove stellarity.mechanics.void_fishing.max_time

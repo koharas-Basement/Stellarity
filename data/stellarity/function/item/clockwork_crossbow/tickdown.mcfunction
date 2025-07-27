@@ -1,2 +1,0 @@
-scoreboard players remove @s stellarity.items.clockwork_crossbow.time_since_last_shot 1
-execute if score @s stellarity.items.clockwork_crossbow.time_since_last_shot matches 0 run attribute @s movement_speed modifier remove stellarity:clockwork_crossbow.slowdown
