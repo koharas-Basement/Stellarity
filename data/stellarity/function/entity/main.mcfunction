@@ -1,0 +1,21 @@
+# Pixies
+  execute as @e[type=vex,tag=!stellarity.pixie,tag=!stellarity.aware,predicate=stellarity:entity/pixie_can_spawn_in] at @s run function stellarity:entity/pixie/check
+
+# Slay Queen ✨✨✨✨✨
+# (Empress of Light)
+  execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:entity/eol/main
+  execute as @e[type=marker,tag=stellarity.eol.tracker] at @s run function stellarity:entity/eol/animations/death/check_death with entity @s data
+
+# Dragon stuff
+  execute as @e[type=ender_dragon,tag=fe.boss] at @s run function stellarity:entity/dragon/main
+
+# execute as @e[type=husk,tag=stellarity.enderling] at @s run function stellarity:entity/enderlings/main
+# execute as @e[type=evoker,tag=stellarity.warlock] at @s run function stellarity:entity/warlock/main
+
+execute as @e[type=zombified_piglin,tag=stellarity.flesh_piglin] at @s run function stellarity:entity/flesh_piglin/main
+
+# execute as @e[type=slime,predicate=stellarity:location/in_the_end,tag=!stellarity.voided_slime,tag=!stellarity.end_city] at @s run function stellarity:entity/voided_slime/abort_offsprings
+  execute as @e[type=marker,tag=stellarity.spawn_egg] at @s run function stellarity:entity/handle_spawn_egg with entity @s data
+
+
+execute as @e[type=item_display,tag=stellarity.fluffy_hammer] at @s run function stellarity:item/fluffy_hammer/main

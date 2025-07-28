@@ -17,4 +17,4 @@ playsound minecraft:entity.zombie.infect block @a[distance=0..] ~ ~ ~ 1 0
 
 scoreboard players set #eol.is_alive stellarity.misc 1
 
-function stellarity:mob/eol/summon
+function stellarity:entity/eol/summon

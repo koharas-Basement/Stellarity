@@ -9,9 +9,7 @@
             "source_entity": {
               "type": "minecraft:shulker",
               "location": {
-                "structures": [
-                  "minecraft:end_city"
-                ]
+                "structures": ["minecraft:end_city"]
               }
             },
             "direct_entity": {
@@ -23,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "stellarity:mob/shulker/hit_with_shulker_bullet"
+    "function": "stellarity:entity/shulker/hit_with_shulker_bullet"
   }
 }

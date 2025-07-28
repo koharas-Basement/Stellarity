@@ -13,14 +13,14 @@
 
         ## Respawn stuff
           # Count the number of respawn Crystals placed
-            execute unless entity @e[type=minecraft:ender_dragon,distance=..300] run function stellarity:mob/dragon/spawn/conditions
+            execute unless entity @e[type=minecraft:ender_dragon,distance=..300] run function stellarity:entity/dragon/spawn/conditions
             # Start the respawn animation
-              execute if entity @s[tag=fe.respawn] run function stellarity:mob/dragon/spawn/animation
+              execute if entity @s[tag=fe.respawn] run function stellarity:entity/dragon/spawn/animation
 
             # Remove certain tags and add different ones once Dragon is dead
               execute if entity @s[tag=fe.in_dragon_fight] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/dragon/presence
 
-            execute unless score @s[tag=!fe.in_dragon_fight] stellarity.dragon.times_killed matches 1.. run function stellarity:mob/dragon/spawn/respawn_crystal/illumnate_spot
+            execute unless score @s[tag=!fe.in_dragon_fight] stellarity.dragon.times_killed matches 1.. run function stellarity:entity/dragon/spawn/respawn_crystal/illumnate_spot
 
           # Post generation for Altar of the Accursed
             # Can't really do it with pure Worldgen sadly
@@ -28,7 +28,7 @@
                 execute if entity @s[tag=!stellarity.post_gen.initialized] in minecraft:the_end run function stellarity:post_gen/initialize
 
               # Dragon Screenshake
-                execute if entity @s[tag=fe.respawn] as @a[tag=stellarity.dragon.screenshake] at @s run function stellarity:mob/dragon/spawn/screenshake/tick_up
-                execute if entity @s[tag=!fe.respawn] as @a[tag=stellarity.dragon.screenshake] at @s run function stellarity:mob/dragon/spawn/screenshake/tick_down
+                execute if entity @s[tag=fe.respawn] as @a[tag=stellarity.dragon.screenshake] at @s run function stellarity:entity/dragon/spawn/screenshake/tick_up
+                execute if entity @s[tag=!fe.respawn] as @a[tag=stellarity.dragon.screenshake] at @s run function stellarity:entity/dragon/spawn/screenshake/tick_down
 
-              execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run function stellarity:mob/dragon/ash
+              execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run function stellarity:entity/dragon/ash

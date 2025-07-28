@@ -1,1 +1,0 @@
-execute summon slime run function stellarity:mob/voided_slime/convert

@@ -3,7 +3,7 @@ function stellarity:item/main_marker
 # Used for stuff like respawn checks, etc.
   execute if entity @s[tag=fe.exit_portal] run function far_end:structures/exit_portal/main
 
-execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:mob/eol/animations/spawn/loop
+execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:entity/eol/animations/spawn/loop
 
 execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:mechanic/altar_of_light/loop/marker
 
@@ -15,10 +15,10 @@ execute if entity @s[tag=stellarity.spirit_dagger.spirit] run function stellarit
 
 # Dragon markers
   execute if entity @s[tag=stellarity.dragons_den_chest] run function stellarity:sfx/dragons_den_chest
-  execute if entity @s[tag=stellarity.dragon_fireball] run function stellarity:mob/dragon/attacks/fireball/main
-  execute if entity @s[tag=stellarity.dragon.shulkers] run function stellarity:mob/dragon/attacks/take_off/shulkers/main
-  execute if entity @s[tag=stellarity.dragon.beam_thingy] run function stellarity:mob/dragon/beam_thingy/move
-  execute if entity @s[tag=stellarity.ball_of_blight] run function stellarity:mob/dragon/attacks/ball_of_blight/main
+  execute if entity @s[tag=stellarity.dragon_fireball] run function stellarity:entity/dragon/attacks/fireball/main
+  execute if entity @s[tag=stellarity.dragon.shulkers] run function stellarity:entity/dragon/attacks/take_off/shulkers/main
+  execute if entity @s[tag=stellarity.dragon.beam_thingy] run function stellarity:entity/dragon/beam_thingy/move
+  execute if entity @s[tag=stellarity.ball_of_blight] run function stellarity:entity/dragon/attacks/ball_of_blight/main
 
 execute if entity @s[tag=stellarity.end_gateway_anim] run function stellarity:sfx/end_gateway_anim/main
 

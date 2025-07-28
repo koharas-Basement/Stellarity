@@ -12,7 +12,7 @@ execute if entity @s[scores={stellarity.items.porta_altar.cooldown=0..}] run sco
 
 execute if entity @s[scores={stellarity.items.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.items.aery_sword.cryonics.cooldown 1
 
-execute if entity @s[tag=stellarity.flesh_piglin.aggro_target] run function stellarity:mob/flesh_piglin/set_follow_range_1s_loop
+execute if entity @s[tag=stellarity.flesh_piglin.aggro_target] run function stellarity:entity/flesh_piglin/set_follow_range_1s_loop
 
 scoreboard players reset @s stellarity.misc.loop.1s
 

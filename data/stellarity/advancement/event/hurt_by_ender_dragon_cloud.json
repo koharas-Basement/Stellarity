@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "stellarity:mob/dragon/attacks/cloud_voided"
+    "function": "stellarity:entity/dragon/attacks/cloud_voided"
   }
 }

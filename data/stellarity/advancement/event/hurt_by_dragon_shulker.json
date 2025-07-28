@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "stellarity:mob/dragon/attacks/take_off/shulkers/levitation_nerf/hurt"
+    "function": "stellarity:entity/dragon/attacks/take_off/shulkers/levitation_nerf/hurt"
   }
 }
