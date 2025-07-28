@@ -15,7 +15,8 @@
                   "stellarity.item": "chorus_juice"
                 },
                 "minecraft:custom_name": {
-                  "translate": "item.stellarity.chorus_juice"
+                  "translate": "item.stellarity.chorus_juice",
+                  "italic": false
                 },
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",
