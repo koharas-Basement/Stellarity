@@ -7,4 +7,4 @@ playsound minecraft:entity.zombie.infect block @a[distance=0..] ~ ~ ~ 1 1
 playsound minecraft:block.bell.resonate block @a[distance=0..] ~ ~ ~ 1 1.5
 
 # BTD6 REFERENCE???
-playsound stellarity:block.altar_of_light.bless block @a[distance=0..] ~ ~ ~
+  playsound stellarity:block.altar_of_the_sacred.bless block @a[distance=0..] ~ ~ ~

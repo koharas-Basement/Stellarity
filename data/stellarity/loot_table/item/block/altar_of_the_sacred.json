@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "altar_of_light"
+                  "stellarity.item": "altar_of_the_sacred"
                 },
                 "minecraft:item_model": "stellarity:altar_of_the_sacred",
                 "minecraft:damage_resistant": {
@@ -19,7 +19,7 @@
                 },
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_name": {
-                  "translate": "block.stellarity.altar_of_light",
+                  "translate": "block.stellarity.altar_of_the_sacred",
                   "color": "#FFD655"
                 },
                 "minecraft:max_stack_size": 1
@@ -30,18 +30,18 @@
               "lore": [
                 "",
                 {
-                  "translate": "block.stellarity.altar_of_light.description.1",
+                  "translate": "block.stellarity.altar_of_the_sacred.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 {
-                  "translate": "block.stellarity.altar_of_light.description.2",
+                  "translate": "block.stellarity.altar_of_the_sacred.description.2",
                   "color": "#EEEEEE",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "block.stellarity.altar_of_light.description.3",
+                  "translate": "block.stellarity.altar_of_the_sacred.description.3",
                   "with": [
                     {
                       "translate": "item.stellarity.starlight_soot",
@@ -53,13 +53,13 @@
                   "italic": false
                 },
                 {
-                  "translate": "block.stellarity.altar_of_light.description.4",
+                  "translate": "block.stellarity.altar_of_the_sacred.description.4",
                   "color": "gray",
                   "italic": false
                 },
                 "",
                 {
-                  "translate": "block.stellarity.altar_of_light.flavor_text",
+                  "translate": "block.stellarity.altar_of_the_sacred.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

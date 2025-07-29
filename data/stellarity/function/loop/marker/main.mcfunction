@@ -5,7 +5,7 @@ function stellarity:item/main_marker
 
 execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:entity/eol/animations/spawn/loop
 
-execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:mechanic/altar_of_light/loop/marker
+execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:mechanic/altar_of_the_sacred/loop/marker
 
 execute if entity @s[tag=stellarity.end_portal] run function stellarity:sfx/end_portal/marker_loop
 execute if entity @s[tag=stellarity.end_portal_animation] run function stellarity:sfx/end_portal/open_animation/main
