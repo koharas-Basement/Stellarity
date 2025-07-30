@@ -3,8 +3,8 @@
 
 # Slay Queen ✨✨✨✨✨
 # (Empress of Light)
-  execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:entity/eol/main
-  execute as @e[type=marker,tag=stellarity.eol.tracker] at @s run function stellarity:entity/eol/animations/death/check_death with entity @s data
+  execute as @e[type=vindicator,tag=stellarity.empress_of_light] at @s run function stellarity:entity/empress_of_light/main
+  execute as @e[type=marker,tag=stellarity.empress_of_light.tracker] at @s run function stellarity:entity/empress_of_light/animations/death/check_death with entity @s data
 
 # Dragon stuff
   execute as @e[type=ender_dragon,tag=fe.boss] at @s run function stellarity:entity/dragon/main

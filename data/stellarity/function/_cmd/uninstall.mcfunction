@@ -5,9 +5,9 @@
     scoreboard objectives remove stellarity.config.enable_end_crystal_drop
     scoreboard objectives remove stellarity.config.enable_totem_void_saving
     scoreboard objectives remove stellarity.config.dragon_health
-    scoreboard objectives remove stellarity.config.eol_health
+    scoreboard objectives remove stellarity.config.empress_of_light_health
     scoreboard objectives remove stellarity.config.allow_disenchanting
-    scoreboard objectives remove stellarity.config.track_loop_delay.eol
+    scoreboard objectives remove stellarity.config.track_loop_delay.empress_of_light
     scoreboard objectives remove stellarity.config.track_loop_delay.dragon
     scoreboard objectives remove stellarity.config.enable_dragon_screenshake
     scoreboard objectives remove stellarity.config.enable_creative_shock
@@ -146,14 +146,14 @@
 
     ## Mobs
       # Empress of Light
-        scoreboard objectives remove stellarity.eol.animation
-        scoreboard objectives remove stellarity.eol.health
-        scoreboard objectives remove stellarity.eol.health_percent
-        scoreboard objectives remove stellarity.eol.hurt_time
-        scoreboard objectives remove stellarity.eol.attack_cycle
-        scoreboard objectives remove stellarity.eol.attack_duration
-        scoreboard objectives remove stellarity.eol.attack_cooldown
-        scoreboard objectives remove stellarity.eol.projectile_age
+        scoreboard objectives remove stellarity.empress_of_light.animation
+        scoreboard objectives remove stellarity.empress_of_light.health
+        scoreboard objectives remove stellarity.empress_of_light.health_percent
+        scoreboard objectives remove stellarity.empress_of_light.hurt_time
+        scoreboard objectives remove stellarity.empress_of_light.attack_cycle
+        scoreboard objectives remove stellarity.empress_of_light.attack_duration
+        scoreboard objectives remove stellarity.empress_of_light.attack_cooldown
+        scoreboard objectives remove stellarity.empress_of_light.projectile_age
 
       # Ender Dragon
         scoreboard objectives remove stellarity.dragon.times_killed
@@ -222,8 +222,8 @@
     team remove stellarity.homing_targets
     team remove stellarity.rave_glow
     team remove stellarity.phantom_glow
-    team remove stellarity.eol.night_glow
-    team remove stellarity.eol.day_glow
+    team remove stellarity.empress_of_light.night_glow
+    team remove stellarity.empress_of_light.day_glow
     team remove stellarity.dragons_eye.pacified
     team remove stellarity.dragon.pacify_others
 
@@ -233,7 +233,7 @@
       # 'Crystals Left'
         bossbar remove stellarity:crystal_count
         # Empress of Light
-          bossbar remove stellarity:eol 
+          bossbar remove stellarity:empress_of_light 
 
 
       # Scheduling loops that do not need

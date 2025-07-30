@@ -1,0 +1,8 @@
+execute as @n[type=armor_stand,tag=stellarity.empress_of_light.as] run \
+data modify entity @s Glowing set value 0b
+
+execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing] \
+on passengers run \
+data modify entity @s Glowing set value 0b
+
+tag @s remove stellarity.empress_of_light.glowing

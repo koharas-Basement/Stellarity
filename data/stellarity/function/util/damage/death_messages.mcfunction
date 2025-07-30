@@ -28,10 +28,10 @@
 
 ###> Empress of Light
 #> Prismatic Bolts
-  execute if entity @s[tag=stellarity.damage.eol.prismatic_bolts] run tellraw @a {"translate":"death.attack.stellarity.eol.prismatic_bolts","with":[{"selector":"@s"}]}
+  execute if entity @s[tag=stellarity.damage.empress_of_light.prismatic_bolts] run tellraw @a {"translate":"death.attack.stellarity.empress_of_light.prismatic_bolts","with":[{"selector":"@s"}]}
 
 #> Ethereal Lance
-  execute if entity @s[tag=stellarity.damage.eol.ethereal_lance] run tellraw @a {"translate":"death.attack.stellarity.eol.ethereal_lance","with":[{"selector":"@s"}]}
+  execute if entity @s[tag=stellarity.damage.empress_of_light.ethereal_lance] run tellraw @a {"translate":"death.attack.stellarity.empress_of_light.ethereal_lance","with":[{"selector":"@s"}]}
 
 #> Dash
-  execute if entity @s[tag=stellarity.damage.eol.dash] run tellraw @a {"translate":"death.attack.stellarity.eol.dash","with":[{"selector":"@s"}]}
+  execute if entity @s[tag=stellarity.damage.empress_of_light.dash] run tellraw @a {"translate":"death.attack.stellarity.empress_of_light.dash","with":[{"selector":"@s"}]}

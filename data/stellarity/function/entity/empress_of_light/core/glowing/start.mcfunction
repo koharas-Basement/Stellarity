@@ -1,0 +1,11 @@
+execute as @n[type=armor_stand,tag=stellarity.empress_of_light.as] run \
+data modify entity @s Glowing set value 1b
+
+execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing] \
+on passengers run \
+data modify entity @s Glowing set value 1b
+
+tag @s add stellarity.empress_of_light.glowing
+
+execute if predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/glowing/join_team/day
+execute unless predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/glowing/join_team/night

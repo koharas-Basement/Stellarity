@@ -4,7 +4,7 @@ execute if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{
 function stellarity:mechanic/altar_of_the_sacred/reroll
 
 execute unless score #difficulty stellarity.misc matches 0 \
-unless score #eol.is_alive stellarity.misc matches 1 \
+unless score #empress_of_light.is_alive stellarity.misc matches 1 \
 if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{stellarity.item:"starlight_soot"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/spawn_empress
 

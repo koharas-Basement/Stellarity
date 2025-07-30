@@ -3,7 +3,7 @@ function stellarity:item/main_marker
 # Used for stuff like respawn checks, etc.
   execute if entity @s[tag=fe.exit_portal] run function far_end:structures/exit_portal/main
 
-execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:entity/eol/animations/spawn/loop
+execute if entity @s[tag=stellarity.empress_of_light.spawn_animation] run function stellarity:entity/empress_of_light/animations/spawn/loop
 
 execute if entity @s[tag=stellarity.altar_of_the_sacred] run function stellarity:mechanic/altar_of_the_sacred/loop/marker
 

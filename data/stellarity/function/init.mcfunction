@@ -5,9 +5,9 @@
     scoreboard objectives add stellarity.config.enable_end_crystal_drop dummy
     scoreboard objectives add stellarity.config.enable_totem_void_saving dummy
     scoreboard objectives add stellarity.config.dragon_health dummy
-    scoreboard objectives add stellarity.config.eol_health dummy
+    scoreboard objectives add stellarity.config.empress_of_light_health dummy
     scoreboard objectives add stellarity.config.allow_disenchanting dummy
-    scoreboard objectives add stellarity.config.track_loop_delay.eol dummy
+    scoreboard objectives add stellarity.config.track_loop_delay.empress_of_light dummy
     scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
     scoreboard objectives add stellarity.config.enable_dragon_screenshake dummy
     scoreboard objectives add stellarity.config.enable_creative_shock dummy
@@ -144,14 +144,14 @@
 
   ## Mobs
     # Empress of Light
-      scoreboard objectives add stellarity.eol.animation dummy
-      scoreboard objectives add stellarity.eol.health dummy
-      scoreboard objectives add stellarity.eol.health_percent dummy
-      scoreboard objectives add stellarity.eol.hurt_time dummy
-      scoreboard objectives add stellarity.eol.attack_cycle dummy
-      scoreboard objectives add stellarity.eol.attack_duration dummy
-      scoreboard objectives add stellarity.eol.attack_cooldown dummy
-      scoreboard objectives add stellarity.eol.projectile_age dummy
+      scoreboard objectives add stellarity.empress_of_light.animation dummy
+      scoreboard objectives add stellarity.empress_of_light.health dummy
+      scoreboard objectives add stellarity.empress_of_light.health_percent dummy
+      scoreboard objectives add stellarity.empress_of_light.hurt_time dummy
+      scoreboard objectives add stellarity.empress_of_light.attack_cycle dummy
+      scoreboard objectives add stellarity.empress_of_light.attack_duration dummy
+      scoreboard objectives add stellarity.empress_of_light.attack_cooldown dummy
+      scoreboard objectives add stellarity.empress_of_light.projectile_age dummy
 
     # Ender Dragon
       scoreboard objectives add stellarity.dragon.times_killed dummy
@@ -234,11 +234,11 @@ team modify stellarity.rave_glow color red
 team add stellarity.phantom_glow
 team modify stellarity.phantom_glow color green
 
-team add stellarity.eol.night_glow
-team modify stellarity.eol.night_glow color light_purple
+team add stellarity.empress_of_light.night_glow
+team modify stellarity.empress_of_light.night_glow color light_purple
 
-team add stellarity.eol.day_glow
-team modify stellarity.eol.day_glow color yellow
+team add stellarity.empress_of_light.day_glow
+team modify stellarity.empress_of_light.day_glow color yellow
 
 team add stellarity.dragons_eye.pacified
 team modify stellarity.dragons_eye.pacified friendlyFire true
@@ -265,12 +265,12 @@ team modify stellarity.dragon.pacify_others friendlyFire false
       bossbar set stellarity:crystal_count max 10
       bossbar set stellarity:crystal_count style notched_10
       # Empress of Light
-        bossbar add stellarity:eol {"translate":"entity.stellarity.empress_of_light","color":"#FF55FF"}
-        bossbar set stellarity:eol color pink
-        bossbar set stellarity:eol visible true
-        bossbar set stellarity:eol players
-        bossbar set stellarity:eol max 500
-        bossbar set stellarity:eol style progress
+        bossbar add stellarity:empress_of_light {"translate":"entity.stellarity.empress_of_light","color":"#FF55FF"}
+        bossbar set stellarity:empress_of_light color pink
+        bossbar set stellarity:empress_of_light visible true
+        bossbar set stellarity:empress_of_light players
+        bossbar set stellarity:empress_of_light max 500
+        bossbar set stellarity:empress_of_light style progress
 
       # Scheduling loops that do not need
         # to be executed every single tick

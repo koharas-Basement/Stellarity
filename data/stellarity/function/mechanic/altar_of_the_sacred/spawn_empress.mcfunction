@@ -15,6 +15,6 @@ playsound minecraft:entity.allay.item_taken block @a[distance=0..] ~ ~ ~ 1 1
 playsound minecraft:entity.zombie.infect block @a[distance=0..] ~ ~ ~ 1 1
 playsound minecraft:entity.zombie.infect block @a[distance=0..] ~ ~ ~ 1 0
 
-scoreboard players set #eol.is_alive stellarity.misc 1
+scoreboard players set #empress_of_light.is_alive stellarity.misc 1
 
-function stellarity:entity/eol/summon
+function stellarity:entity/empress_of_light/summon
