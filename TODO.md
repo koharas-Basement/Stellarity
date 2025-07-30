@@ -2,11 +2,11 @@
 
 ### UPCOMING
 
-villager trade item modifiers broken.
+refactor code please
 
 ### BUG FIXES
 
-area effect cloud issues by setting particles to block and block to air
+color dying reflects on lore
 
 ### alrighty so looking at the biomes:
 ameythest forest looks like a forest, spawn cows sheep pigs chickens normally
