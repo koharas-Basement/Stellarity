@@ -6,13 +6,11 @@
         "minecraft:item_model": "minecraft:shield"
       }
     },
-    "title": [
-      "Crest of The End"
-    ],
+    "title": ["Crest of The End"],
     "description": [
       "\n",
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "!",
         "color": "white"
       },
@@ -22,7 +20,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": ",",
         "color": "white"
       },
@@ -32,7 +30,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "-",
         "color": "white"
       },

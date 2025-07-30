@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "minecraft:dyed_color": 11041988,
+        "minecraft:item_model": "stellarity:shulker_chestplate"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.i_am_titanium"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.i_am_titanium.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:altar_of_the_accursed/cursed_crafting",
+  "criteria": {
+    "craft_shulker_helmet": {
+      "trigger": "minecraft:impossible"
+    },
+    "craft_shulker_chestplate": {
+      "trigger": "minecraft:impossible"
+    },
+    "craft_shulker_leggings": {
+      "trigger": "minecraft:impossible"
+    },
+    "craft_shulker_boots": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

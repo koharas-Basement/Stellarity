@@ -177,7 +177,7 @@
         scoreboard objectives remove stellarity.music.empress_of_light.timer
 
       ## Mechanics
-        scoreboard objectives remove stellarity.aota.count
+        scoreboard objectives remove stellarity.altar_of_the_accursed.count
         scoreboard objectives remove stellarity.entity.live_time
         scoreboard objectives remove stellarity.random_number
 

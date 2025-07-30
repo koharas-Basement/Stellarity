@@ -175,7 +175,7 @@
       scoreboard objectives add stellarity.music.empress_of_light.timer dummy
 
     ## Mechanics
-      scoreboard objectives add stellarity.aota.count dummy
+      scoreboard objectives add stellarity.altar_of_the_accursed.count dummy
       scoreboard objectives add stellarity.entity.live_time dummy
       scoreboard objectives add stellarity.random_number dummy
 

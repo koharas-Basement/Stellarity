@@ -5,7 +5,7 @@ function stellarity:item/main_marker
 
 execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:entity/eol/animations/spawn/loop
 
-execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:mechanic/altar_of_the_sacred/loop/marker
+execute if entity @s[tag=stellarity.altar_of_the_sacred] run function stellarity:mechanic/altar_of_the_sacred/loop/marker
 
 execute if entity @s[tag=stellarity.end_portal] run function stellarity:sfx/end_portal/marker_loop
 execute if entity @s[tag=stellarity.end_portal_animation] run function stellarity:sfx/end_portal/open_animation/main
@@ -37,5 +37,5 @@ execute if entity @s[tag=stellarity.cauldron] run function stellarity:mechanic/c
 execute if entity @s[tag=stellarity.trial_spawner] run function stellarity:post_gen/end_city/trial_spawner_marker_loop
 
 scoreboard players add @s stellarity.misc.loop.1s 1
-execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanic/altar_of_accursed/main
+execute if entity @s[tag=stellarity.altar_of_the_accursed] run function stellarity:mechanic/altar_of_the_accursed/main
 execute if entity @s[scores={stellarity.misc.loop.1s=20..}] run function stellarity:loop/marker/main_1s

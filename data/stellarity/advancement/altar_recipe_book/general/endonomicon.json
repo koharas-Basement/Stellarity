@@ -6,13 +6,11 @@
         "minecraft:item_model": "stellarity:endonomicon"
       }
     },
-    "title": [
-      "Endonomicon"
-    ],
+    "title": ["Endonomicon"],
     "description": [
       "\n",
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": " ",
         "color": "white"
       },

@@ -6,13 +6,11 @@
         "minecraft:item_model": "stellarity:shulker_hoe"
       }
     },
-    "title": [
-      "Shulker Hoe"
-    ],
+    "title": ["Shulker Hoe"],
     "description": [
       "\n",
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "!",
         "color": "white"
       },
@@ -22,7 +20,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "2",
         "color": "white"
       },
@@ -32,7 +30,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "#",
         "color": "white"
       },

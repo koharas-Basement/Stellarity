@@ -6,13 +6,11 @@
         "minecraft:item_model": "stellarity:book_of_conveyance"
       }
     },
-    "title": [
-      "Grand Tome of Teleportation"
-    ],
+    "title": ["Grand Tome of Teleportation"],
     "description": [
       "\n",
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "+",
         "color": "white"
       },
@@ -30,7 +28,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "*",
         "color": "white"
       },
@@ -40,7 +38,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "(",
         "color": "white"
       },

@@ -6,13 +6,11 @@
         "minecraft:item_model": "stellarity:chorus_plating"
       }
     },
-    "title": [
-      "Chorus Plating"
-    ],
+    "title": ["Chorus Plating"],
     "description": [
       "\n",
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "%",
         "color": "white"
       },
@@ -22,7 +20,7 @@
         "translate": "space.3"
       },
       {
-        "font": "stellarity:aota",
+        "font": "stellarity:altar_of_the_accursed",
         "text": "&",
         "color": "white"
       },

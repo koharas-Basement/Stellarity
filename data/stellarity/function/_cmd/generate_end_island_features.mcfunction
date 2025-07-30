@@ -1,5 +1,5 @@
 scoreboard players set #continue stellarity.misc 1
-execute in minecraft:the_end if entity @e[type=marker,tag=stellarity.altar_of_accursed] run scoreboard players set #continue stellarity.misc 0
+execute in minecraft:the_end if entity @e[type=marker,tag=stellarity.altar_of_the_accursed] run scoreboard players set #continue stellarity.misc 0
 
 execute if score #continue stellarity.misc matches 1 in minecraft:the_end run function stellarity:post_gen/initialize
 execute if score #continue stellarity.misc matches 1 positioned 0 255 0 run fill ~3 ~ ~3 ~-3 ~-2 ~-3 air
