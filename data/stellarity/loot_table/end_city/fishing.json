@@ -20,9 +20,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "far_end:amethyst_forest"
-                ]
+                "biomes": ["stellarity:amethyst_forest"]
               }
             }
           ]
@@ -35,9 +33,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "far_end:flesh_tundra"
-                ]
+                "biomes": ["stellarity:flesh_tundra"]
               }
             }
           ]
@@ -50,9 +46,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "far_end:flesh_tundra"
-                ]
+                "biomes": ["stellarity:flesh_tundra"]
               }
             }
           ]
@@ -71,9 +65,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "stellarity:the_hallow"
-                ]
+                "biomes": ["stellarity:the_hallow"]
               }
             }
           ]
@@ -86,9 +78,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "stellarity:fiery_hills"
-                ]
+                "biomes": ["stellarity:fiery_hills"]
               }
             }
           ]
@@ -129,9 +119,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "stellarity:frozen_spikes"
-                ]
+                "biomes": ["stellarity:frozen_spikes"]
               }
             }
           ]
@@ -144,9 +132,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": [
-                  "stellarity:prismarine_forest"
-                ]
+                "biomes": ["stellarity:prismarine_forest"]
               }
             }
           ]

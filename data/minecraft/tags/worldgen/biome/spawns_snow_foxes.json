@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "far_end:flesh_tundra",
-      "required": false
-    },
-    {
       "id": "stellarity:frosted_hills",
       "required": false
     },

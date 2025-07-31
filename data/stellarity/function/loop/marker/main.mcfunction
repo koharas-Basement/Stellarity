@@ -1,7 +1,7 @@
 function stellarity:item/main_marker
 # Exit Portal loop
 # Used for stuff like respawn checks, etc.
-  execute if entity @s[tag=fe.exit_portal] run function far_end:structures/exit_portal/main
+  execute if entity @s[tag=fe.exit_portal] run function stellarity:structure/exit_portal/main
 
 execute if entity @s[tag=stellarity.empress_of_light.spawn_animation] run function stellarity:entity/empress_of_light/animations/spawn/loop
 

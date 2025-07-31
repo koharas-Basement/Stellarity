@@ -1,14 +1,6 @@
 {
   "values": [
     {
-      "id": "far_end:warped_marsh",
-      "required": false
-    },
-    {
-      "id": "far_end:ashfall_delta",
-      "required": false
-    },
-    {
       "id": "stellarity:frosted_hills",
       "required": false
     },

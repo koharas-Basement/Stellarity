@@ -1,4 +1,4 @@
-function far_end:structures/exit_portal/deactivated/generate
+function stellarity:structure/exit_portal/deactivated/generate
 
 playsound entity.ender_dragon.ambient block @a[distance=0..] ~ ~ ~ 4 0.75
 playsound minecraft:entity.generic.explode block @a[distance=0..] ~ ~ ~ 4 0.75

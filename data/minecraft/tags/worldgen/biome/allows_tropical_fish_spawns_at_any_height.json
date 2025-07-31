@@ -1,9 +1,3 @@
 {
-  "values": [
-    {
-      "id": "far_end:warped_marsh",
-      "required": false
-    },
-    "stellarity:warped_marsh"
-  ]
+  "values": ["stellarity:warped_marsh"]
 }

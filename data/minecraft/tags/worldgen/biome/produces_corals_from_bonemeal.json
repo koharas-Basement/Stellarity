@@ -1,9 +1,5 @@
 {
   "values": [
-    {
-      "id": "far_end:warped_marsh",
-      "required": false
-    },
     "stellarity:warped_marsh",
     "stellarity:prismarine_forest",
     "stellarity:endless_dunes",

@@ -1,5 +1,5 @@
 # Moved from some Far End function I cannot remember
-  function far_end:structures/exit_portal/activated/generate
+  function stellarity:structure/exit_portal/activated/generate
 
 # Make Dragon Egg magically appear out of thin air
   execute unless score #stellarity.config stellarity.config.always_generate_egg matches 1 if score @s stellarity.dragon.times_killed matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
@@ -7,7 +7,7 @@
   execute if score @s stellarity.dragon.times_killed matches 1 run particle minecraft:poof ~ ~5 ~ 0 0 0 0.3 50 force
 
 # Generate End Gateways
-  function far_end:structures/exit_portal/gateway/choose_location
+  function stellarity:structure/exit_portal/gateway/choose_location
 
 # Disable bossbar
   bossbar set stellarity:ender_dragon players
