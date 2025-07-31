@@ -23,28 +23,19 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
+    ["stellarity:global/stalactite", "stellarity:dragons_den/hills"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["stellarity:dragons_den/obsidian"],
+    ["stellarity:dragons_den/patches"],
+    ["stellarity:dragons_den/chorus_plant"],
     [
-      "stellarity:global/stalactite",
-      "stellarity:dragons_den/hills"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "stellarity:dragons_den/obsidian"
-    ],
-    [
-      "stellarity:dragons_den/patches"
-    ],
-    [
-      "stellarity:dragons_den/chorus_plant"
-    ],
-    [
-      "far_end:general/end_spike/center",
-      "far_end:general/end_spike/ring",
+      "stellarity:general/end_spike/center",
+      "stellarity:general/end_spike/ring",
       "stellarity:dragons_den/obsidian_spike_decor",
       "minecraft:end_platform"
     ]

@@ -105,9 +105,7 @@
                     "direction": "up",
                     "allowed_placement": {
                       "type": "minecraft:matching_blocks",
-                      "blocks": [
-                        "minecraft:air"
-                      ]
+                      "blocks": ["minecraft:air"]
                     },
                     "prioritize_tip": true,
                     "layers": [
@@ -176,11 +174,7 @@
                       "predicates": [
                         {
                           "type": "minecraft:matching_blocks",
-                          "offset": [
-                            0,
-                            -1,
-                            0
-                          ],
+                          "offset": [0, -1, 0],
                           "blocks": [
                             "minecraft:moss_block",
                             "minecraft:coarse_dirt",
@@ -189,9 +183,7 @@
                         },
                         {
                           "type": "minecraft:matching_blocks",
-                          "blocks": [
-                            "minecraft:air"
-                          ]
+                          "blocks": ["minecraft:air"]
                         }
                       ]
                     }
@@ -204,6 +196,6 @@
         }
       }
     ],
-    "default": "far_end:nothing"
+    "default": "stellarity:nothing"
   }
 }

@@ -37,6 +37,6 @@
         }
       }
     ],
-    "default": "far_end:nothing"
+    "default": "stellarity:nothing"
   }
 }

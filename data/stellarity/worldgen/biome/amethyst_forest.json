@@ -51,12 +51,12 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    ["far_end:amethyst/island/calcite_bottom"],
+    ["stellarity:amethyst/island/calcite_bottom"],
     [],
     [
-      "far_end:amethyst/geode/amethyst",
-      "far_end:amethyst/rock/tuff",
-      "far_end:amethyst/vegetation/patch_crying_obsidian",
+      "stellarity:amethyst/geode/amethyst",
+      "stellarity:amethyst/rock/tuff",
+      "stellarity:amethyst/vegetation/patch_crying_obsidian",
       "stellarity:amethyst/dirt"
     ],
     [],
@@ -67,9 +67,9 @@
     [],
     [
       "stellarity:amethyst/trees",
-      "far_end:amethyst/vegetation/amethyst",
-      "far_end:amethyst/vegetation/flower",
-      "far_end:amethyst/vegetation/patch_grass",
+      "stellarity:amethyst/vegetation/amethyst",
+      "stellarity:amethyst/vegetation/flower",
+      "stellarity:amethyst/vegetation/patch_grass",
       "stellarity:amethyst/roots"
     ],
     []

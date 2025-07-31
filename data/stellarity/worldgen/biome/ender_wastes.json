@@ -63,10 +63,7 @@
   },
   "carvers": [],
   "features": [
-    [
-      "stellarity:global/stalactite",
-      "stellarity:wastes/hills"
-    ],
+    ["stellarity:global/stalactite", "stellarity:wastes/hills"],
     [],
     [],
     [],
@@ -74,12 +71,7 @@
     [],
     [],
     [],
-    [
-      "far_end:waste/chorus_plant"
-    ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:wastes/chorus_plant"],
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

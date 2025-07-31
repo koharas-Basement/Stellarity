@@ -46,10 +46,7 @@
       "energy_budget": 1
     }
   },
-  "carvers": [
-    "stellarity:ravine",
-    "stellarity:crack"
-  ],
+  "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
     [
       "stellarity:global/stalactite",
@@ -57,19 +54,13 @@
       "stellarity:the_nest/tuff"
     ],
     [],
-    [
-      "far_end:general/dragon_egg"
-    ],
+    ["stellarity:general/dragon_egg"],
     [],
     [],
     [],
     [],
-    [
-      "stellarity:the_nest/dead_corals"
-    ],
+    ["stellarity:the_nest/dead_corals"],
     [],
-    [
-      "stellarity:the_nest/transition"
-    ]
+    ["stellarity:the_nest/transition"]
   ]
 }

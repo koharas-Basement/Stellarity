@@ -17,7 +17,7 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 21,
+          "weight": 20,
           "data": {
             "Name": "minecraft:grass_block",
             "Properties": {
@@ -28,7 +28,13 @@
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:rooted_dirt"
+            "Name": "minecraft:crying_obsidian"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:obsidian"
           }
         }
       ]

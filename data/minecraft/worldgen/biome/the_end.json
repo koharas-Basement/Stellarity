@@ -39,8 +39,8 @@
     ["stellarity:dragons_den/patches"],
     ["stellarity:dragons_den/chorus_plant"],
     [
-      "far_end:general/end_spike/center",
-      "far_end:general/end_spike/ring",
+      "stellarity:general/end_spike/center",
+      "stellarity:general/end_spike/ring",
       "stellarity:dragons_den/obsidian_spike_decor",
       "minecraft:end_platform"
     ]
