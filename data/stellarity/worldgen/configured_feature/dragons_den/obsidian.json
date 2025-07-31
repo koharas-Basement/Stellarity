@@ -19,10 +19,7 @@
         {
           "weight": 5,
           "data": {
-            "Name": "minecraft:end_stone",
-            "Properties": {
-              "snowy": "false"
-            }
+            "Name": "minecraft:end_stone"
           }
         },
         {

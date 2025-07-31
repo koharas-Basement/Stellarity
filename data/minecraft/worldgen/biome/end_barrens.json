@@ -58,9 +58,9 @@
   "carvers": [],
   "features": [
     [
-      "stellarity:barrens/hills",
+      "stellarity:end_barrens/hills",
       "stellarity:global/stalactite",
-      "stellarity:barrens/stalactite"
+      "stellarity:end_barrens/stalactite"
     ],
     [],
     [],
@@ -71,9 +71,6 @@
     [],
     [],
     [],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

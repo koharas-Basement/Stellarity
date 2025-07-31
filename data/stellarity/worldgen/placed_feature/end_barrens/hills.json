@@ -4,25 +4,9 @@
     {
       "type": "minecraft:count",
       "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "weight": 100,
-            "data": 30
-          },
-          {
-            "weight": 50,
-            "data": 35
-          },
-          {
-            "weight": 25,
-            "data": 40
-          },
-          {
-            "weight": 12,
-            "data": 45
-          }
-        ]
+        "type": "minecraft:uniform",
+        "min_inclusive": 20,
+        "max_inclusive": 40
       }
     },
     {
@@ -30,7 +14,7 @@
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 3,
+      "noise_to_count_ratio": 37,
       "noise_factor": 100,
       "noise_offset": 0
     },

@@ -40,9 +40,7 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    [
-      "stellarity:void/stalactite"
-    ],
+    ["stellarity:the_void/stalactite"],
     [],
     [],
     [],
@@ -52,8 +50,6 @@
     [],
     [],
     [],
-    [
-      "stellarity:global/end_dungeon"
-    ]
+    ["stellarity:global/end_dungeon"]
   ]
 }

@@ -1,38 +1,18 @@
 {
-  "feature": "stellarity:end_barrens/hills",
+  "feature": "stellarity:flesh_tundra/vegetation/surface_plants",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "weight": 100,
-            "data": 30
-          },
-          {
-            "weight": 50,
-            "data": 35
-          },
-          {
-            "weight": 25,
-            "data": 40
-          },
-          {
-            "weight": 12,
-            "data": 45
-          }
-        ]
-      }
-    },
-    {
-      "type": "minecraft:in_square"
+      "count": 200
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 3,
-      "noise_factor": 100,
-      "noise_offset": 0
+      "noise_to_count_ratio": 150,
+      "noise_factor": 60,
+      "noise_offset": 0.1139
+    },
+    {
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -49,7 +29,7 @@
     {
       "type": "minecraft:environment_scan",
       "direction_of_search": "down",
-      "max_steps": 32,
+      "max_steps": 4,
       "target_condition": {
         "type": "minecraft:solid"
       },

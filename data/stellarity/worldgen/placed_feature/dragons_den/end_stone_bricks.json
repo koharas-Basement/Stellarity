@@ -1,0 +1,9 @@
+{
+  "feature": "stellarity:dragons_den/end_stone_bricks",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    }
+  ]
+}

@@ -42,15 +42,11 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
+    ["stellarity:global/stalactite"],
+    ["stellarity:end_midlands/obsidian_spike"],
     [
-      "stellarity:global/stalactite"
-    ],
-    [
-      "stellarity:end_midlands/obsidian_spike"
-    ],
-    [
-      "stellarity:highlands/dirt_patches/large",
-      "stellarity:highlands/dirt_patches/small"
+      "stellarity:end_highlands/dirt_patches/large",
+      "stellarity:end_highlands/dirt_patches/small"
     ],
     [],
     [],
@@ -59,19 +55,16 @@
     [],
     [],
     [
-      "stellarity:highlands/huge_chorus/bud",
-      "stellarity:highlands/huge_chorus/stacked_trees_1",
-      "stellarity:highlands/huge_chorus/stacked_trees_2",
-      "stellarity:highlands/chorus_patch",
-      "stellarity:highlands/chorus_patch_leaves",
-      "stellarity:highlands/bush",
-      "stellarity:highlands/patch_pitcher_pod",
-      "stellarity:highlands/grass",
-      "stellarity:highlands/roots"
+      "stellarity:end_highlands/huge_chorus/bud",
+      "stellarity:end_highlands/huge_chorus/stacked_trees_1",
+      "stellarity:end_highlands/huge_chorus/stacked_trees_2",
+      "stellarity:end_highlands/chorus_patch",
+      "stellarity:end_highlands/chorus_patch_leaves",
+      "stellarity:end_highlands/bush",
+      "stellarity:end_highlands/patch_pitcher_pod",
+      "stellarity:end_highlands/grass",
+      "stellarity:end_highlands/roots"
     ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

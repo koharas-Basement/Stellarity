@@ -53,20 +53,20 @@
     [],
     [],
     [
-      "stellarity:ash/aquatic/delta",
-      "stellarity:ash/surface/grass_delta",
-      "stellarity:ash/basalt_columns"
+      "stellarity:ashfall_deltas/aquatic/delta",
+      "stellarity:ashfall_deltas/surface/grass_delta",
+      "stellarity:ashfall_deltas/basalt_columns"
     ],
     [],
     [],
     [],
     [],
     [
-      "stellarity:ash/vegetation/water/seagrass",
-      "stellarity:ash/vegetation/land/trees",
-      "stellarity:ash/vegetation",
-      "stellarity:ash/grass"
+      "stellarity:ashfall_deltas/vegetation/water/seagrass",
+      "stellarity:ashfall_deltas/vegetation/land/trees",
+      "stellarity:ashfall_deltas/vegetation",
+      "stellarity:ashfall_deltas/grass"
     ],
-    ["stellarity:ash/magma", "stellarity:ash/ash_pile"]
+    ["stellarity:ashfall_deltas/magma", "stellarity:ashfall_deltas/ash_pile"]
   ]
 }

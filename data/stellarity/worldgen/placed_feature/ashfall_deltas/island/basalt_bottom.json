@@ -1,37 +1,17 @@
 {
-  "feature": "stellarity:end_barrens/hills",
+  "feature": "stellarity:ashfall_deltas/island/basalt_bottom",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "weight": 100,
-            "data": 30
-          },
-          {
-            "weight": 50,
-            "data": 35
-          },
-          {
-            "weight": 25,
-            "data": 40
-          },
-          {
-            "weight": 12,
-            "data": 45
-          }
-        ]
-      }
+      "count": 47
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 3,
-      "noise_factor": 100,
+      "noise_to_count_ratio": 15,
+      "noise_factor": 22,
       "noise_offset": 0
     },
     {
@@ -48,15 +28,15 @@
     },
     {
       "type": "minecraft:environment_scan",
-      "direction_of_search": "down",
-      "max_steps": 32,
+      "direction_of_search": "up",
       "target_condition": {
         "type": "minecraft:solid"
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
         "blocks": ["minecraft:air"]
-      }
+      },
+      "max_steps": 32
     },
     {
       "type": "minecraft:biome"

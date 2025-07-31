@@ -63,18 +63,21 @@
   },
   "carvers": [],
   "features": [
-    ["stellarity:tundra/stalactite", "stellarity:tundra/island/island_bottom"],
-    ["stellarity:tundra/aquatic/delta"],
-    ["minecraft:basalt_pillar", "stellarity:tundra/bone_ceiling"],
+    [
+      "stellarity:flesh_tundra/stalactite",
+      "stellarity:flesh_tundra/island/island_bottom"
+    ],
+    ["stellarity:flesh_tundra/aquatic/delta"],
+    ["minecraft:basalt_pillar", "stellarity:flesh_tundra/bone_ceiling"],
     [],
     [],
     [],
-    ["stellarity:tundra/vegetation/bone_trees"],
+    ["stellarity:flesh_tundra/vegetation/bone_trees"],
     [],
     [
-      "stellarity:tundra/vegetation/surface_plants",
-      "stellarity:tundra/weeping_vines",
-      "stellarity:tundra/roots"
+      "stellarity:flesh_tundra/vegetation/surface_plants",
+      "stellarity:flesh_tundra/weeping_vines",
+      "stellarity:flesh_tundra/roots"
     ],
     []
   ]
