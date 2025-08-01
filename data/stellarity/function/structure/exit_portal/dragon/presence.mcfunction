@@ -1,3 +1,2 @@
-tag @s add fe.activated
-#tag @a add fe.dragon_defeated
-tag @s remove fe.in_dragon_fight
+tag @s add stellarity.portal_activated
+tag @s remove stellarity.in_dragon_fight

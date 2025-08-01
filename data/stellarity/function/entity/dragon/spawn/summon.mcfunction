@@ -1,6 +1,6 @@
-summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon","smithed.entity","smithed.strict"],Health:300,attributes:[{id:"max_health",base:300.0},{id:"armor",base:8d},{id:"armor_toughness",base:4d},{id:"knockback_resistance",base:1d},{id:"follow_range",base:80d}]}
+summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["stellarity.ender_dragon","smithed.entity","smithed.strict"],Health:300,attributes:[{id:"max_health",base:300.0},{id:"armor",base:8d},{id:"armor_toughness",base:4d},{id:"knockback_resistance",base:1d},{id:"follow_range",base:80d}]}
 summon marker ~ ~ ~ {Tags:["stellarity.dragon_marker","stellarity.marker","smithed.entity","smithed.strict"]}
-item replace entity @e[type=ender_dragon,tag=fe.ender_dragon] weapon.mainhand with totem_of_undying
+item replace entity @e[type=ender_dragon,tag=stellarity.ender_dragon] weapon.mainhand with totem_of_undying
 
 execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"entity.stellarity.dragon.spawn","with":[{"translate":"entity.minecraft.ender_dragon"}],"color":"#AF4BFF"},"\n"]
 
@@ -14,10 +14,10 @@ playsound minecraft:entity.ender_dragon.growl hostile @a[distance=0..] ~ ~ ~ 10 
 playsound minecraft:entity.lightning_bolt.thunder hostile @a[distance=0..] ~ ~ ~ 10 0
 playsound minecraft:entity.generic.explode hostile @a[distance=0..] ~ ~ ~ 10 0
 
-execute store result entity @e[type=ender_dragon,tag=fe.ender_dragon,limit=1] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
-execute store result entity @e[type=ender_dragon,tag=fe.ender_dragon,limit=1] Health float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
+execute store result entity @e[type=ender_dragon,tag=stellarity.ender_dragon,limit=1] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
+execute store result entity @e[type=ender_dragon,tag=stellarity.ender_dragon,limit=1] Health float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result bossbar stellarity:ender_dragon max run scoreboard players get #stellarity.config stellarity.config.dragon_health
 
-team join stellarity.dragon.pacify_others @e[type=minecraft:ender_dragon,tag=fe.ender_dragon]
+team join stellarity.dragon.pacify_others @e[type=minecraft:ender_dragon,tag=stellarity.ender_dragon]
 
 execute as @a run function stellarity:entity/dragon/music/reset

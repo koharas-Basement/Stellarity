@@ -1,30 +1,30 @@
 advancement grant @a[distance=..10] only stellarity:end_city/crystal_crusher
 
-execute if entity @s[tag=stellarity.end_city.crystal_small_tower] positioned ~ ~-1 ~ run function stellarity:post_gen/end_city/vault_macro {direction: "north"}
+execute if entity @s[tag=stellarity.end_city.crystal_small_tower] positioned ~ ~-1 ~ run function stellarity:structure/end_city/vault_macro {direction: "north"}
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
-if block ^ ^ ^-2 air positioned ~ ~-1 ~ run function stellarity:post_gen/end_city/vault_macro {direction: "north"}
+if block ^ ^ ^-2 air positioned ~ ~-1 ~ run function stellarity:structure/end_city/vault_macro {direction: "north"}
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 rotated ~ ~ if block ^ ^ ^-2 magenta_stained_glass \
-if block ^ ^ ^2 air positioned ~ ~-1 ~ run function stellarity:post_gen/end_city/vault_macro {direction: "south"}
+if block ^ ^ ^2 air positioned ~ ~-1 ~ run function stellarity:structure/end_city/vault_macro {direction: "south"}
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
 if block ^ ^ ^-2 magenta_stained_glass \
-if block ^-2 ^ ^ air positioned ~ ~-1 ~ run function stellarity:post_gen/end_city/vault_macro {direction: "west"}
+if block ^-2 ^ ^ air positioned ~ ~-1 ~ run function stellarity:structure/end_city/vault_macro {direction: "west"}
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
 if block ^ ^ ^-2 magenta_stained_glass \
-if block ^2 ^ ^ air positioned ~ ~-1 ~ run function stellarity:post_gen/end_city/vault_macro {direction: "east"}
+if block ^2 ^ ^ air positioned ~ ~-1 ~ run function stellarity:structure/end_city/vault_macro {direction: "east"}
 
 execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 rotated ~ ~ if block ^2 ^ ^ air \
 if block ^-2 ^ ^ air \
 if block ^ ^ ^-2 air \
-if block ^ ^ ^2 air positioned ~ ~-1 ~ run function stellarity:post_gen/end_city/vault_macro {direction: "north"}
+if block ^ ^ ^2 air positioned ~ ~-1 ~ run function stellarity:structure/end_city/vault_macro {direction: "north"}
 
 fill ~-1 ~5 ~-1 ~1 ~5 ~1 iron_block replace obsidian
 fill ~ ~6 ~ ~ ~6 ~ beacon replace glass

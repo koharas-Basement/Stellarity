@@ -15,7 +15,7 @@
 execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run function stellarity:entity/dragon/death/finish_as_marker
 
 scoreboard players reset @s stellarity.dragon.respawn_animation_progress
-tag @s remove fe.activated
+tag @s remove stellarity.portal_activated
 
 execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"entity.stellarity.dragon.death","with":[{"translate":"entity.minecraft.ender_dragon"}],"color":"#AF4BFF"},"\n"]
 

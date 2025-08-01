@@ -1,4 +1,4 @@
-execute in minecraft:the_end run scoreboard players operation #stellarity.exit_gateway_count stellarity.misc = @n[type=marker,tag=fe.exit_portal] stellarity.dragon.times_killed
+execute in minecraft:the_end run scoreboard players operation #stellarity.exit_gateway_count stellarity.misc = @n[type=marker,tag=stellarity.exit_portal] stellarity.dragon.times_killed
 
 execute if score #stellarity.exit_gateway_count stellarity.misc matches 1 run function stellarity:structure/exit_portal/gateway/locations/1
 execute if score #stellarity.exit_gateway_count stellarity.misc matches 2 run function stellarity:structure/exit_portal/gateway/locations/2

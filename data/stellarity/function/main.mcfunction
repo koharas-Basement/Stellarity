@@ -14,11 +14,11 @@ execute as @e[type=item,tag=stellarity.item] at @s run function stellarity:loop/
 # It DOES NOT come with the tags though! Nor the special marker!
 # So I can just butcher the dragon in the most painless way possible!
   execute unless score #stellarity.vanilla_dragon_butcher.setup stellarity.misc matches 1 in minecraft:the_end run function stellarity:entity/dragon/butcher/setup
-  execute if entity @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=stellarity:location/dragons_den/in_biome] run schedule function stellarity:entity/dragon/butcher/scheduled 1t append
+  execute if entity @e[type=minecraft:ender_dragon,tag=!stellarity.ender_dragon,predicate=stellarity:location/dragons_den/in_biome] run schedule function stellarity:entity/dragon/butcher/scheduled 1t append
 
 # End City Crystal loop
-  execute as @e[type=end_crystal,tag=stellarity.end_city.crystal] at @s run function stellarity:post_gen/end_city/crystal/main
+  execute as @e[type=end_crystal,tag=stellarity.end_city.crystal] at @s run function stellarity:structure/end_city/crystal/main
 
 # Moved from stellarity:structure/check
-  execute as @e[type=minecraft:end_crystal,predicate=stellarity:entity/dragon/exit_portal_crystal] at @s run function stellarity:structure/replace/exit_portal
+  execute as @e[type=minecraft:end_crystal,predicate=stellarity:entity/dragon/exit_portal_crystal] at @s run function stellarity:structure/exit_portal/replace
 

@@ -7,7 +7,7 @@
   execute as @e[type=marker,tag=stellarity.empress_of_light.tracker] at @s run function stellarity:entity/empress_of_light/animations/death/check_death with entity @s data
 
 # Dragon stuff
-  execute as @e[type=ender_dragon,tag=fe.boss] at @s run function stellarity:entity/dragon/main
+  execute as @e[type=ender_dragon,tag=stellarity.ender_dragon] at @s run function stellarity:entity/dragon/main
 
 # execute as @e[type=husk,tag=stellarity.enderling] at @s run function stellarity:entity/enderlings/main
 # execute as @e[type=evoker,tag=stellarity.warlock] at @s run function stellarity:entity/warlock/main

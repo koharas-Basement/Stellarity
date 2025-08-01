@@ -5,4 +5,4 @@ execute if block ~ ~ ~ command_block[facing=west] run data modify storage stella
 execute if block ~ ~ ~ command_block[facing=south] run data modify storage stellarity:temp end_city.post_gen.direction set value "north"
 execute if block ~ ~ ~ command_block[facing=north] run data modify storage stellarity:temp end_city.post_gen.direction set value "south"
 
-function stellarity:post_gen/end_city/vault_macro with storage stellarity:temp end_city.post_gen
+function stellarity:structure/end_city/vault_macro with storage stellarity:temp end_city.post_gen

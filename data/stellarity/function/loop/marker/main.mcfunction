@@ -1,7 +1,7 @@
 function stellarity:item/main_marker
 # Exit Portal loop
 # Used for stuff like respawn checks, etc.
-  execute if entity @s[tag=fe.exit_portal] run function stellarity:structure/exit_portal/main
+  execute if entity @s[tag=stellarity.exit_portal] run function stellarity:structure/exit_portal/main
 
 execute if entity @s[tag=stellarity.empress_of_light.spawn_animation] run function stellarity:entity/empress_of_light/animations/spawn/loop
 
@@ -22,9 +22,9 @@ execute if entity @s[tag=stellarity.spirit_dagger.spirit] run function stellarit
 
 execute if entity @s[tag=stellarity.end_gateway_anim] run function stellarity:sfx/end_gateway_anim/main
 
-execute if entity @s[tag=stellarity.end_city.crystal] run function stellarity:post_gen/end_city/crystal/visuals
-execute if entity @s[tag=stellarity.end_city.no_beacon] unless block ~ ~ ~ minecraft:beacon run function stellarity:post_gen/end_city/no_beacon
-execute if entity @s[tag=stellarity.end_city.small_tower_crystal] run function stellarity:post_gen/end_city/crystal/small_tower
+execute if entity @s[tag=stellarity.end_city.crystal] run function stellarity:structure/end_city/crystal/visuals
+execute if entity @s[tag=stellarity.end_city.no_beacon] unless block ~ ~ ~ minecraft:beacon run function stellarity:structure/end_city/no_beacon
+execute if entity @s[tag=stellarity.end_city.small_tower_crystal] run function stellarity:structure/end_city/crystal/small_tower
 
 execute if entity @s[tag=stellarity.stellar_striker] run function stellarity:item/stellar_striker/marker/loop
 
@@ -34,7 +34,7 @@ execute if entity @s[tag=stellarity.waystone] run function stellarity:post_gen/w
 
 execute if entity @s[tag=stellarity.cauldron] run function stellarity:mechanic/cauldron
 
-execute if entity @s[tag=stellarity.trial_spawner] run function stellarity:post_gen/end_city/trial_spawner_marker_loop
+execute if entity @s[tag=stellarity.trial_spawner] run function stellarity:structure/end_city/trial_spawner_marker_loop
 
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_the_accursed] run function stellarity:mechanic/altar_of_the_accursed/main

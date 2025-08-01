@@ -2,10 +2,10 @@ execute if score @s stellarity.dragon.times_killed matches 1.. run function stel
 execute unless score @s stellarity.dragon.times_killed matches 1.. run function stellarity:structure/exit_portal/deactivated/generate
 
 execute as @e[type=end_crystal,predicate=stellarity:location/in_the_end,nbt={ShowBottom:1b}] at @s run function stellarity:entity/dragon/spawn/crystal_transitions/cancel
-execute as @e[type=end_crystal,tag=fe.respawn_crystal] at @s run function stellarity:entity/dragon/spawn/crystal_transitions/respawn
+execute as @e[type=end_crystal,tag=stellarity.respawn_crystal] at @s run function stellarity:entity/dragon/spawn/crystal_transitions/respawn
 
 scoreboard players reset @s stellarity.dragon.respawn_animation_progress
-tag @s remove fe.respawn
+tag @s remove stellarity.respawn_dragon
 
 kill @e[type=marker,tag=stellarity.dragon_respawn.beam]
 

@@ -6,4 +6,4 @@ execute if score @s stellarity.misc matches 1 run playsound minecraft:block.glas
 execute if score @s stellarity.misc matches 1..40 run particle enchant ~ ~1 ~ 0 0 0 4 6 force
 execute if score @s stellarity.misc matches 1..40 run particle portal ~ ~1 ~ 0 0 0 4 6 force
 
-execute if score @s stellarity.misc matches 70.. run function stellarity:post_gen/end_city/crystal/spawn_chest
+execute if score @s stellarity.misc matches 70.. run function stellarity:structure/end_city/crystal/spawn_chest
