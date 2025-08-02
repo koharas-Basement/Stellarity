@@ -4,7 +4,7 @@ import nbtlib
 
 search = input("Search: ")
 
-for roots, dirs, files in os.walk("data/"):
+for roots, dirs, files in os.walk("datapack/data/"):
   for name in files:
     path = os.path.join(roots, name)
 

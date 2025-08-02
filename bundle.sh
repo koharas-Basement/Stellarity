@@ -8,9 +8,10 @@ read -p "Do you see ${version} in the above list? If not update your mods metada
 rm -rf artifacts/${version}
 mkdir -p artifacts/${version}
 
-zip -r artifacts/${version}/Stellarity-${version}.zip data/ pack.mcmeta pack.png LICENSE.md
-cp artifacts/${version}/Stellarity-${version}.zip artifacts/${version}/mod.zip
-cd music_pack
+cd datapack/
+zip -r ../artifacts/${version}/Stellarity-${version}.zip data/ pack.mcmeta pack.png
+cp ../artifacts/${version}/Stellarity-${version}.zip ../artifacts/${version}/mod.zip
+cd ../music_pack
 zip -9 -r ../artifacts/${version}/Stellarity-${version}-Music.zip *
 cd ../resource_pack
 zip -r  ../artifacts/${version}/Stellarity-${version}-RP.zip *
