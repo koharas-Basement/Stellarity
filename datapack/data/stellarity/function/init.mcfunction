@@ -176,7 +176,7 @@
 
     ## Mechanics
       scoreboard objectives add stellarity.altar_of_the_accursed.count dummy
-      scoreboard objectives add stellarity.entity.live_time dummy
+      scoreboard objectives add stellarity.live_time dummy
       scoreboard objectives add stellarity.random_number dummy
 
     scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
