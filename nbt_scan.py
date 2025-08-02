@@ -1,19 +1,20 @@
 import json
 import os
-import nbtlib
+import glob
+import amulet_nbt
+
 
 search = input("Search: ")
 
-for roots, dirs, files in os.walk("datapack/data/"):
-  for name in files:
-    path = os.path.join(roots, name)
+for path in glob.glob("datapack/data/**/*.nbt", recursive=True):
+  print(path)
 
-    if not path.endswith(".nbt"):
-      continue
 
-    nbt_file = nbtlib.load(path)
-    
-    string = str(nbt_file)
+  nbt_file = amulet_nbt.load(path)
 
-    if string.find(search) != -1:
-      print("Problem found in {}", path)
+  string = nbt_file.to_snbt()
+
+  if string.find(search) != -1:
+    print(f"Search found in {path}")
+    os.system(f"code {path}")
+    input("Press Enter to continue...")    
