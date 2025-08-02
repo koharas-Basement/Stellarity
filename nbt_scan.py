@@ -17,4 +17,4 @@ for path in glob.glob("datapack/data/**/*.nbt", recursive=True):
   if string.find(search) != -1:
     print(f"Search found in {path}")
     os.system(f"code {path}")
-    input("Press Enter to continue...")    
+    input("Press Enter to continue...")
