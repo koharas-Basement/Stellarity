@@ -18,6 +18,6 @@ execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.b
 
 execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware
 
-function stellarity:entity/animals/main
+function stellarity:entity/animal/main
 
 schedule function stellarity:loop/timed/1_second 1s
