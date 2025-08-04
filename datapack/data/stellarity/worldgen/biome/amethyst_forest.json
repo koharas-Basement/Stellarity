@@ -11,7 +11,7 @@
     "grass_color": 14593535,
     "foliage_color": 13931775,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.heavenly.grim"
+      "sound_id": "stellarity:ambient.the_end.heavenly_grim"
     },
     "mood_sound": {
       "sound": "ambient.underwater.loop.additions.rare",

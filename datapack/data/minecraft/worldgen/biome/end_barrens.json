@@ -10,7 +10,7 @@
     "grass_color": 4994644,
     "foliage_color": 5585503,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.cave",

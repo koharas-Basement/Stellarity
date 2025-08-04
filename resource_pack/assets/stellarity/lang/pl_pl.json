@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Jeśli w ofiarze zostanie złożony %s,",
   "block.stellarity.altar_of_the_sacred.description.4": "zostanie to odebrane za świętokradztwo",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Nie należy mylić z Ołtarzem Przeklętych'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Pozostało %s Kryształów",
   "commands.stellarity.fix_markers.success": "Zaktualizowano i naprawiono wszystkie markery używane przez Stellarity",
   "commands.stellarity.generate_end_island_features.failed": "Wszystko już zostało wygenerowane!",

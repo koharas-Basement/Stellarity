@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Việc dâng hiến %s được coi",
   "block.stellarity.altar_of_the_sacred.description.4": "như một sự báng bổ và là điều không nên làm",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Đừng nhầm lẫn với Tế đàn Nguyền rủa'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Số Pha lê còn lại: %s",
   "commands.stellarity.fix_markers.success": "Đã sửa tất cả vật đánh dấu của Stellarity",
   "commands.stellarity.generate_end_island_features.failed": "Tất cả mọi thứ đã được tạo từ trước đó!",

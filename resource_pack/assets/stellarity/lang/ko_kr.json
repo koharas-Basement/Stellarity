@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "%s(을)를 바치면",
   "block.stellarity.altar_of_the_sacred.description.4": "considered a blasphemy and shouldn't be done",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Not to be confused with Altar of The Accursed'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "남은 엔드 수정: %s",
   "commands.stellarity.fix_markers.success": "불러와져있는 모든 Stellarity 마커를 고쳤어요",
   "commands.stellarity.generate_end_island_features.failed": "모든 것이 이미 생성되어 있어요!",

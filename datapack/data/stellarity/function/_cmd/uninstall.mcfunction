@@ -14,7 +14,6 @@
     scoreboard objectives remove stellarity.config.nerf_elytra
     scoreboard objectives remove stellarity.config.boss_status_messages
     # 
-      scoreboard objectives remove stellarity.config.migrate_vaults
       scoreboard objectives remove stellarity.config.migrations
 
     # Initialize config scoreboards

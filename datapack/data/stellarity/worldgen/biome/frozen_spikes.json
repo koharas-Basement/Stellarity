@@ -12,7 +12,7 @@
     "grass_color": 16777215,
     "foliage_color": 16777215,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "ambient.warped_forest.mood",
@@ -67,10 +67,7 @@
       "charge": 1
     }
   },
-  "carvers": [
-    "stellarity:ravine",
-    "stellarity:crack"
-  ],
+  "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
     [
       "stellarity:global/stalactite",
@@ -87,9 +84,7 @@
     [],
     [],
     [],
-    [
-      "stellarity:frozen_spikes/ice_spikes"
-    ],
+    ["stellarity:frozen_spikes/ice_spikes"],
     [],
     [
       "stellarity:global/end_dungeon",

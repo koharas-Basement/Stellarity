@@ -10,7 +10,7 @@
     "grass_color": 12860219,
     "foliage_color": 12860219,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "ambient.crimson_forest.mood",

@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "stellarity:mechanic/super_secret_easter_egg/ded"
+    "function": "stellarity:mechanic/easter_egg/kill_kohara"
   }
 }

@@ -10,7 +10,7 @@
     "grass_color": 6078719,
     "foliage_color": 5819646,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.heavenly.blessed"
+      "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
     },
     "mood_sound": {
       "sound": "ambient.soul_sand_valley.mood",
@@ -47,9 +47,7 @@
   },
   "carvers": [],
   "features": [
-    [
-      "stellarity:the_hallow/stalactite"
-    ],
+    ["stellarity:the_hallow/stalactite"],
     [
       "stellarity:the_hallow/crystals",
       "stellarity:the_hallow/crystals_amethyst"
@@ -70,8 +68,6 @@
       "stellarity:prismatic_dunes/prismatic_cacti",
       "stellarity:prismatic_dunes/rare_grass_patch"
     ],
-    [
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/fossil"]
   ]
 }

@@ -10,7 +10,7 @@
     "grass_color": 16742190,
     "foliage_color": 16742190,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "ambient.nether_wastes.mood",
@@ -51,10 +51,7 @@
       "charge": 1
     }
   },
-  "carvers": [
-    "stellarity:ravine",
-    "stellarity:crack"
-  ],
+  "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
     [
       "stellarity:global/stalactite",
@@ -62,30 +59,19 @@
       "stellarity:fiery_hills/hills_blackstone",
       "stellarity:fiery_hills/hills_basalt"
     ],
-    [
-      "stellarity:fiery_hills/delta_lava",
-      "stellarity:fiery_hills/delta_sand"
-    ],
+    ["stellarity:fiery_hills/delta_lava", "stellarity:fiery_hills/delta_sand"],
     [],
-    [
-      "stellarity:fiery_hills/ore_gold",
-      "stellarity:fiery_hills/ore_magma"
-    ],
+    ["stellarity:fiery_hills/ore_gold", "stellarity:fiery_hills/ore_magma"],
     [],
     [],
     [],
-    [
-      "stellarity:fiery_hills/sand"
-    ],
+    ["stellarity:fiery_hills/sand"],
     [
       "stellarity:fiery_hills/vents",
       "stellarity:fiery_hills/patch_fire",
       "stellarity:fiery_hills/trees",
       "stellarity:fiery_hills/vegetation"
     ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

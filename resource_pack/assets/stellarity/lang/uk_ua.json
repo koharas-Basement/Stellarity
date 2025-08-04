@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Sacrifice Pixie Dust to draw",
   "block.stellarity.altar_of_the_sacred.description.4": "the attention of the Fae Goddess",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Not to be confused with Altar of The Accursed'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Кристалів лишилось: %s",
   "commands.stellarity.fix_markers.success": "Оновлено усі завантажені маркери Stellarity",
   "commands.stellarity.generate_end_island_features.failed": "Генерація вже відбулася!",

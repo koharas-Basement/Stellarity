@@ -3,6 +3,7 @@ function stellarity:mechanic/main
 function stellarity:entity/main
 function stellarity:sfx/main
 function stellarity:util/main
+function stellarity:block/main
 
 execute as @a at @s run function stellarity:loop/player/main
 execute as @e[type=marker,tag=stellarity.marker] at @s run function stellarity:loop/marker/main

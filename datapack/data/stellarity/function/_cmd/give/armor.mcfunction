@@ -21,3 +21,5 @@ loot give @s loot stellarity:item/armor/floral/boots
 loot give @s loot stellarity:item/armor/elytra/dragon_wings
 loot give @s loot stellarity:item/armor/elytra/empress_wings
 loot give @s loot stellarity:item/armor/elytra/phantom_wings
+
+loot give @s loot stellarity:item/armor/reinforced_horse_armor

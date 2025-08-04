@@ -9,7 +9,6 @@ loot give @s loot stellarity:item/food/fish/frost_minnow
 loot give @s loot stellarity:item/food/fish/overgrown_cod
 loot give @s loot stellarity:item/food/fish/prismite
 loot give @s loot stellarity:item/food/fish/pufferfish
-
 loot give @s loot stellarity:item/food/candied_chorus_fruit
 loot give @s loot stellarity:item/food/chorus_juice
 loot give @s loot stellarity:item/food/chorus_pie
@@ -24,5 +23,5 @@ loot give @s loot stellarity:item/food/prismatic_sushi
 loot give @s loot stellarity:item/food/shepherds_pie
 loot give @s loot stellarity:item/food/shulker_body
 loot give @s loot stellarity:item/food/sushi
-
+loot give @s loot stellarity:item/food/prismatic_sushi
 loot give @s loot stellarity:item/food/loaf_of_plenty

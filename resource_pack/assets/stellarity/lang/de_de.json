@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Das Opfern von %s wird als Blasphemie",
   "block.stellarity.altar_of_the_sacred.description.4": "angesehen und sollte nicht getan werden",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Nicht zu verwechseln mit dem Altar der Verfluchten'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Kristalle verbleibend: %s",
   "commands.stellarity.fix_markers.success": "Alle geladenen Stellarity Marker wurden repariert",
   "commands.stellarity.generate_end_island_features.failed": "Alles ist bereits generiert!",

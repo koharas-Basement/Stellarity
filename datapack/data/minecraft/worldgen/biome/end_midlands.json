@@ -10,7 +10,7 @@
     "grass_color": 11559897,
     "foliage_color": 12673499,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.heavenly.grim"
+      "sound_id": "stellarity:ambient.the_end.heavenly_grim"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
@@ -41,28 +41,16 @@
   },
   "carvers": [],
   "features": [
-    [
-      "stellarity:global/stalactite"
-    ],
-    [
-      "stellarity:end_midlands/obsidian_spike",
-      "stellarity:end_midlands/rocks"
-    ],
+    ["stellarity:global/stalactite"],
+    ["stellarity:end_midlands/obsidian_spike", "stellarity:end_midlands/rocks"],
     [],
     [],
     [],
-    [
-      "stellarity:end_midlands/vegetation"
-    ],
+    ["stellarity:end_midlands/vegetation"],
     [],
     [],
     [],
-    [
-      "stellarity:end_midlands/chorus_plant"
-    ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:end_midlands/chorus_plant"],
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

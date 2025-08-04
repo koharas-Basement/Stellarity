@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "stellarity:block/ashen_froglight_top",
+    "side": "stellarity:block/ashen_froglight_side"
+  }
+}

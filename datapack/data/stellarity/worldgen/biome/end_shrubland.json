@@ -12,7 +12,7 @@
     "grass_color": 16446345,
     "foliage_color": 16772469,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "ambient.soul_sand_valley.mood",
@@ -88,9 +88,6 @@
       "stellarity:end_shrubland/grass",
       "stellarity:end_shrubland/shrubs"
     ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

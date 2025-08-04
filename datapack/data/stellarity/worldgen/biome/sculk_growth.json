@@ -10,7 +10,7 @@
     "grass_color": 2635843,
     "foliage_color": 2635843,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark.calm"
+      "sound_id": "stellarity:ambient.the_end.dark_calm"
     },
     "particle": {
       "options": {
@@ -22,16 +22,5 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": [],
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ]
+  "features": [[], [], [], [], [], [], [], [], [], []]
 }

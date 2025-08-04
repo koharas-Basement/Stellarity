@@ -10,7 +10,7 @@
     "grass_color": 12669904,
     "foliage_color": 15652590,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.heavenly.grim"
+      "sound_id": "stellarity:ambient.the_end.heavenly_grim"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",

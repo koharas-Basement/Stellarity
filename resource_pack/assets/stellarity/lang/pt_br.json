@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Sacrificar uma %s será",
   "block.stellarity.altar_of_the_sacred.description.4": "considerado uma blasfêmia e não deve ser feito",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Não confunda com o Altar dos Amaldiçoados'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Cristais do End restantes: %s",
   "commands.stellarity.fix_markers.success": "Todos os marcadores carregados do Stellarity foram corrigidos",
   "commands.stellarity.generate_end_island_features.failed": "Tudo já está gerado!",

@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Приношение %s в жертву будет считаться",
   "block.stellarity.altar_of_the_sacred.description.4": "богохульством, а потому не должно происходить",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Не путать с алтарём проклятых'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Осталось кристаллов: %s",
   "commands.stellarity.fix_markers.success": "Все загруженные маркеры Stellarity починены",
   "commands.stellarity.generate_end_island_features.failed": "Всё уже создано!",

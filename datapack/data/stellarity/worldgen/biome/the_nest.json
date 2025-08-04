@@ -11,7 +11,7 @@
     "grass_color": 8882055,
     "foliage_color": 9079434,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark.calm"
+      "sound_id": "stellarity:ambient.the_end.dark_calm"
     },
     "mood_sound": {
       "sound": "ambient.basalt_deltas.mood",

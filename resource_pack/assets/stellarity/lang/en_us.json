@@ -153,6 +153,7 @@
   "block.stellarity.altar_of_the_sacred.description.3": "Sacrificing %s will be",
   "block.stellarity.altar_of_the_sacred.description.4": "considered a blasphemy and shouldn't be done",
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Not to be confused with Altar of The Accursed'",
+  "block.stellarity.ashen_froglight": "Ashen Froglight",
   "bossbar.stellarity.crystals_left": "Crystals Left: %s",
   "commands.stellarity.fix_markers.success": "Fixed all loaded Stellarity markers",
   "commands.stellarity.generate_end_island_features.failed": "Everything is already generated!",

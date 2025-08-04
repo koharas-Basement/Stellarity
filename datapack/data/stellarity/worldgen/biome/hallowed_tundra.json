@@ -10,7 +10,7 @@
     "grass_color": 11723263,
     "foliage_color": 10937599,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.heavenly.blessed"
+      "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
     },
     "mood_sound": {
       "sound": "ambient.soul_sand_valley.mood",
@@ -57,9 +57,7 @@
       "stellarity:the_hallow/crystals_amethyst",
       "stellarity:the_hallow/rock"
     ],
-    [
-      "stellarity:hallowed_tundra/large_lake"
-    ],
+    ["stellarity:hallowed_tundra/large_lake"],
     [],
     [],
     [],

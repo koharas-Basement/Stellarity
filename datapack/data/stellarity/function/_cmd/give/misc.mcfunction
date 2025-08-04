@@ -1,4 +1,3 @@
-loot give @s loot stellarity:item/block/altar_of_the_sacred
 loot give @s loot stellarity:item/tool/fisher_of_voids
 loot give @s loot stellarity:item/trinket/prismatic_pearl
 
@@ -12,7 +11,12 @@ loot give @s loot stellarity:item/material/enderite_shard
 loot give @s loot stellarity:item/material/enderite_smithing_template
 loot give @s loot stellarity:item/material/hallowed_ingot
 loot give @s loot stellarity:item/material/starlight_soot
+loot give @s loot stellarity:item/material/sand_rune
 
 loot give @s loot stellarity:item/keys/gilded_purpur_key
 loot give @s loot stellarity:item/keys/winged_key
 loot give @s loot stellarity:item/keys/purpur_key
+
+loot give @s loot stellarity:item/music_disc/deviants_light_music_box
+loot give @s loot stellarity:item/music_disc/fires_of_hokkai
+loot give @s loot stellarity:item/music_disc/precipice_stereo

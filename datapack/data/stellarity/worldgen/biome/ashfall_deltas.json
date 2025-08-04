@@ -12,7 +12,7 @@
     "grass_color": 14606046,
     "foliage_color": 12763842,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",

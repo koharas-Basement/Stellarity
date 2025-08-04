@@ -10,7 +10,7 @@
     "grass_color": 16777215,
     "foliage_color": 16777215,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.dark"
+      "sound_id": "stellarity:ambient.the_end.dark"
     },
     "mood_sound": {
       "sound": "ambient.warped_forest.mood",
@@ -31,10 +31,7 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": [
-    "stellarity:ravine",
-    "stellarity:crack"
-  ],
+  "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
     [
       "stellarity:global/stalactite",
@@ -51,9 +48,7 @@
     [],
     [],
     [],
-    [
-      "stellarity:frozen_marsh/vegetation_land"
-    ],
+    ["stellarity:frozen_marsh/vegetation_land"],
     [
       "stellarity:global/end_dungeon",
       "stellarity:global/fossil",

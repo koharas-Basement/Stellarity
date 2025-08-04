@@ -24,6 +24,6 @@ stopsound @s music minecraft:music.creative
 
 stopsound @s ambient
 
-execute if score @s stellarity.music.empress_of_light.timer matches 1 at @s run playsound stellarity:music.boss.empress_of_light music @s ~ ~ ~
+execute if score @s stellarity.music.empress_of_light.timer matches 1 at @s run playsound stellarity:music.empress_of_light music @s ~ ~ ~
 
 execute if score @s stellarity.music.empress_of_light.timer = #stellarity.config stellarity.config.track_loop_delay.empress_of_light run scoreboard players reset @s stellarity.music.empress_of_light.timer

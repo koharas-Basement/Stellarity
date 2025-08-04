@@ -12,7 +12,7 @@
     "grass_color": 117978,
     "foliage_color": 56800,
     "ambient_sound": {
-      "sound_id": "stellarity:ambient.end.heavenly.blessed"
+      "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
     },
     "mood_sound": {
       "sound": "ambient.warped_forest.mood",
@@ -44,16 +44,10 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    [
-      "stellarity:global/stalactite"
-    ],
-    [
-      "stellarity:warped_marsh/dripping_water"
-    ],
+    ["stellarity:global/stalactite"],
+    ["stellarity:warped_marsh/dripping_water"],
     [],
-    [
-      "stellarity:warped_marsh/puddles"
-    ],
+    ["stellarity:warped_marsh/puddles"],
     [],
     [],
     [],
