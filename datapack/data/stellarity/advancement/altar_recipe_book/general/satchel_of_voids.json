@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:stick",
       "components": {
-        "minecraft:item_model": "stellarity:porta_altar"
+        "minecraft:item_model": "stellarity:satchel_of_voids"
       }
     },
     "title": ["Satchel of Voids"],

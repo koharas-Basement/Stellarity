@@ -64,10 +64,10 @@
           scoreboard players remove @s[scores={stellarity.dragon.perch_cooldown=1..}] stellarity.dragon.perch_cooldown 1
           scoreboard players remove @s[scores={stellarity.dragon.ball_of_blight_cooldown=1..}] stellarity.dragon.ball_of_blight_cooldown 1
 
-        # Revive 5 random End Crystals once below 25% health
+        # Revive 5 random End Crystals once below 25%% health
           execute if score @s[tag=!stellarity.dragon.respawned_crystals] stellarity.dragon.health_percent matches ..25 run function stellarity:entity/dragon/attacks/revive_crystals/initiate
 
-        # Heartbeat while below 25% health
+        # Heartbeat while below 25%% health
         # It only gets quicker and quicker as the Dragon knows it is closer to its death
           execute if score @s stellarity.dragon.health_percent matches ..25 run function stellarity:entity/dragon/heartbeat/main
 

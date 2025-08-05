@@ -69,7 +69,7 @@
           # Fluffy Hammer
             scoreboard objectives remove stellarity.items.fluffy_hammer.throw_cooldown
 
-          scoreboard objectives remove stellarity.items.porta_altar.cooldown
+          scoreboard objectives remove stellarity.items.satchel_of_voids.cooldown
 
         # Empress Wings
           scoreboard objectives remove stellarity.items.empress_wings.particles

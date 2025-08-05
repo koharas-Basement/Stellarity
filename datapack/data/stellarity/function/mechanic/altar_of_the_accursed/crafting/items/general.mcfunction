@@ -44,5 +44,5 @@
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.nether_star,scores={stellarity.altar_of_the_accursed.count=2}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=64}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_ingot,scores={stellarity.altar_of_the_accursed.count=4}] \
-  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/craft_generic {loot:"stellarity:item/porta_altar"}
+  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/craft_generic {loot:"stellarity:item/satchel_of_voids"}
 

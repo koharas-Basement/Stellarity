@@ -8,7 +8,7 @@
 
 
 
-execute if entity @s[scores={stellarity.items.porta_altar.cooldown=0..}] run scoreboard players remove @s stellarity.items.porta_altar.cooldown 1
+execute if entity @s[scores={stellarity.items.satchel_of_voids.cooldown=0..}] run scoreboard players remove @s stellarity.items.satchel_of_voids.cooldown 1
 
 execute if entity @s[scores={stellarity.items.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.items.aery_sword.cryonics.cooldown 1
 

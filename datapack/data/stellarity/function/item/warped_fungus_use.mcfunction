@@ -5,6 +5,6 @@ execute if entity @s[predicate=stellarity:item/holding/spellbooks/light] run fun
 execute if entity @s[predicate=stellarity:item/holding/spellbooks/return] run function stellarity:item/spellbooks/return/use
 execute if entity @s[predicate=stellarity:item/holding/spellbooks/obstruct] run function stellarity:item/spellbooks/obstruct/use
 
-execute if entity @s[predicate=stellarity:item/holding/porta_altar] run function stellarity:item/porta_altar/use
+execute if entity @s[predicate=stellarity:item/holding/satchel_of_voids] run function stellarity:item/satchel_of_voids/use
 
 execute if entity @s[predicate=stellarity:item/holding/endonomicon] run function stellarity:item/endonomicon/right_click

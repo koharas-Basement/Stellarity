@@ -38,7 +38,9 @@
                       "block": "pearlescent_froglight",
                       "model": "stellarity:ashen_froglight",
                       "loot_table": "stellarity:block/ashen_froglight",
-                      "place_sound": "block.froglight.place"
+                      "place_sound": "block.froglight.place",
+                      "valid_placement": "all",
+                      "rotation": "axis"
                     }
                   }
                 },

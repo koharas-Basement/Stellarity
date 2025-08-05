@@ -1,6 +1,6 @@
 {
   "textures": {
-    "1": "stellarity:block/porta_altar",
+    "1": "stellarity:block/satchel_of_voids",
     "4": "stellarity:block/altar_of_the_accursed_3d",
     "particle": "stellarity:block/altar_of_the_accursed_3d"
   },

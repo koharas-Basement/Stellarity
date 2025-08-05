@@ -7,7 +7,7 @@
         "item": {
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.item": "porta_altar"
+              "stellarity.item": "satchel_of_voids"
             }
           }
         },
@@ -19,6 +19,6 @@
   },
   "requirements": [["trigger"]],
   "rewards": {
-    "function": "stellarity:item/porta_altar/item_frame/advancement"
+    "function": "stellarity:item/satchel_of_voids/item_frame/advancement"
   }
 }

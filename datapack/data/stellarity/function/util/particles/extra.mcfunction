@@ -7,4 +7,4 @@ execute if entity @s[tag=kohara.particle.dragonblade_sigil] run function stellar
 execute if entity @s[tag=kohara.particle.prismatic_punch] run function stellarity:util/particles/prismatic_punch/loop
 execute if entity @s[tag=kohara.particle.prismatic_punch_large] run function stellarity:util/particles/prismatic_punch/loop
 execute if entity @s[tag=kohara.particle.end_portal_fill] run function stellarity:util/particles/end_portal_fill/loop
-execute if entity @s[tag=kohara.particle.porta_altar] run function stellarity:util/particles/porta_altar/loop
+execute if entity @s[tag=kohara.particle.satchel_of_voids] run function stellarity:util/particles/satchel_of_voids/loop

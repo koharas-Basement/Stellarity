@@ -131,7 +131,7 @@ Small ambient structures have also been scattered across The End to bring some m
 
 ### Looking for a server?
 
-Need a server to play Stellarity with your friends? Don't know how to set one up? Click on the banner below to rent an already configured server from Bisect Hosting. Bisect's panel is incredibly simple to use and it only takes a few clicks to get everything setup. By using code `kohara` during checkout, you can get a **25% discount on your first month**! 
+Need a server to play Stellarity with your friends? Don't know how to set one up? Click on the banner below to rent an already configured server from Bisect Hosting. Bisect's panel is incredibly simple to use and it only takes a few clicks to get everything setup. By using code `kohara` during checkout, you can get a **25%% discount on your first month**! 
 
 **By renting a server for yourself using my code, you're supporting my work as well!**
 

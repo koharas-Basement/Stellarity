@@ -23,5 +23,4 @@ loot give @s loot stellarity:item/food/prismatic_sushi
 loot give @s loot stellarity:item/food/shepherds_pie
 loot give @s loot stellarity:item/food/shulker_body
 loot give @s loot stellarity:item/food/sushi
-loot give @s loot stellarity:item/food/prismatic_sushi
 loot give @s loot stellarity:item/food/loaf_of_plenty

@@ -68,7 +68,7 @@
         # Fluffy Hammer
           scoreboard objectives add stellarity.items.fluffy_hammer.throw_cooldown dummy
 
-        scoreboard objectives add stellarity.items.porta_altar.cooldown dummy
+        scoreboard objectives add stellarity.items.satchel_of_voids.cooldown dummy
 
       # Empress Wings
         scoreboard objectives add stellarity.items.empress_wings.particles dummy
