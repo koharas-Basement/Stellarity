@@ -1,0 +1,21 @@
+{
+  "id": "stellarity_nullscape_compat",
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": {
+      "max_inclusive": 81,
+      "min_inclusive": 48
+    },
+    "description": [
+      {
+        "text": "Nullscape x Stellarity",
+        "color": "#9729bc"
+      },
+      "\n",
+      {
+        "text": "Stellascape. Nullarity. Whatever",
+        "color": "white"
+      }
+    ]
+  }
+}
