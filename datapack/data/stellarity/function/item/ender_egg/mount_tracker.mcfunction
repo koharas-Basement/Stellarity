@@ -1,5 +1,5 @@
-summon item_display ~ ~ ~ {Tags:["stellarity.marker","smithed.entity","smithed.strict","stellarity.ender_egg"]}
+summon marker ~ ~ ~ {Tags:["stellarity.marker","smithed.entity","smithed.strict","stellarity.ender_egg.tracker"]}
 
-ride @n[type=item_display,tag=stellarity.ender_egg] mount @s
+execute if predicate stellarity:chance/1_32_chance run tag @n[type=marker,tag=stellarity.ender_egg.tracker] add stellarity.ender_egg.spawn_4
 
-say mounted
+ride @n[type=marker,tag=stellarity.ender_egg.tracker] mount @s
