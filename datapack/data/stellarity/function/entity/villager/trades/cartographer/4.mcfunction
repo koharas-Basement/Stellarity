@@ -2,4 +2,4 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell {max_uses:8,p
 
 function stellarity:entity/villager/trade_editor/add_from_loot_table {max_uses:4,price_multiplier:0.05,loot_table:"stellarity:block/phantom_item_frame",buy_a_count:5,buy_b_id:"air",buy_b_count:1,sell_count:3,xp:20}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

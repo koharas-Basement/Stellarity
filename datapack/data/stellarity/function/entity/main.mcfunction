@@ -18,7 +18,4 @@ execute as @e[type=zombified_piglin,tag=stellarity.flesh_piglin] at @s run funct
   execute as @e[type=marker,tag=stellarity.spawn_egg] at @s run function stellarity:entity/handle_spawn_egg with entity @s data
 
 
-execute as @e[type=item_display,tag=stellarity.fluffy_hammer] at @s run function stellarity:item/fluffy_hammer/main
-
-
 function stellarity:entity/animal/convert

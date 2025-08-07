@@ -11,4 +11,4 @@ function stellarity:entity/villager/trade_editor/add_from_loot_table {max_uses:6
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_from_loot_table {max_uses:8,price_multiplier:0.2,loot_table:"stellarity:item/material/chorus_plating",buy_a_count:3,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:10}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

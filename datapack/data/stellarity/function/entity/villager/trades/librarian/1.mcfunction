@@ -17,4 +17,4 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell {xp:4,max_use
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_enderite_sell_reverse_order_with_modifier {xp:8,max_uses:3,price_multiplier:0.2,buy_a_id:"book",buy_a_count:1,buy_b_count:15,sell:"book",sell_count:1,modifier:"stellarity:villager/librarian/novice_enchant"}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

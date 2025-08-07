@@ -11,4 +11,4 @@ function stellarity:entity/villager/trade_editor/add_from_loot_table {xp:6,max_u
 # Second Trade
   function stellarity:entity/villager/trade_editor/add_from_loot_table {xp:10,max_uses:4,price_multiplier:0.05,buy_a_count:1,buy_b_id:"air",buy_b_count:1,loot_table:"stellarity:village/trades/shepherd/bed",sell_count:1}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

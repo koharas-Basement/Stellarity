@@ -2,7 +2,7 @@ data remove entity @n[type=villager] Offers.Recipes[].buy{id:"minecraft:emerald"
 data remove entity @n[type=villager] Offers.Recipes[].buy{id:"minecraft:emerald"}
 data remove entity @n[type=villager] Offers.Recipes[].sell{id:"minecraft:emerald"}
 
-data modify entity @s data."stellarity:villager_trades" set from entity @s Offers.Recipes
+data modify entity @s data."stellarity.villager_trades" set from entity @s Offers.Recipes
 
 execute if data entity @s VillagerData{profession:"minecraft:armorer"} run \
 function stellarity:entity/villager/trades/armorer/4

@@ -5,4 +5,4 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier
 
 function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier {xp:15,max_uses:3,price_multiplier:0.2,buy_a_count:21,buy_b_id:"air",buy_b_count:1,sell_count:1,sell:"diamond_boots",modifier:"stellarity:villager/armorer/diamond_armor"}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

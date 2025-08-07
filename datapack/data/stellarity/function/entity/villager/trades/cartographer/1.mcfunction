@@ -3,4 +3,4 @@ function stellarity:entity/villager/trade_editor/add_enderite_buy {max_uses:12,p
 
 function stellarity:entity/villager/trade_editor/add_enderite_sell {max_uses:10,price_multiplier:0.05,sell:"map",buy_a_count:6,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:1}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

@@ -13,6 +13,9 @@
                 "item_name": {
                   "translate": "block.stellarity.ashen_froglight"
                 },
+                "custom_data": {
+                  "stellarity.item": "ashen_froglight"
+                },
                 "lore": [
                   "",
                   {
@@ -34,7 +37,7 @@
                   "Invulnerable": true,
 
                   "data": {
-                    "stellarity:block": {
+                    "stellarity.block": {
                       "block": "pearlescent_froglight",
                       "model": "stellarity:ashen_froglight",
                       "loot_table": "stellarity:block/ashen_froglight",

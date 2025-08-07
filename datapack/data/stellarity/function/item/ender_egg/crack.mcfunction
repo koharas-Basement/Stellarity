@@ -1,0 +1,3 @@
+say cracked!
+
+kill @s

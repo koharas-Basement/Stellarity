@@ -4,4 +4,4 @@
 # Second Trade
   function stellarity:entity/villager/trade_editor/add_enderite_buy_for_loot_table {max_uses:8,xp:4,price_multiplier:0.05,loot_table:"stellarity:village/trades/fisherman/journeyman_fish",buy_a_count:6,buy_b_id:"air",buy_b_count:1,sell_count:1} 
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

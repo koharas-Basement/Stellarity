@@ -11,4 +11,4 @@
 # 4 west neg x
 # 5 east pos x
 
-execute if data entity @s data."stellarity:block"{"rotation":"axis"} run function stellarity:block/rotation/axis
+execute if data entity @s data."stellarity.block"{"rotation":"axis"} run function stellarity:block/rotation/axis

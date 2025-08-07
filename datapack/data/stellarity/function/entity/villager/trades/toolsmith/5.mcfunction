@@ -10,4 +10,4 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier
 # Second Trade
 # No second trade
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity:villager_trades"
+data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"
