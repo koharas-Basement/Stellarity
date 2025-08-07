@@ -32,4 +32,4 @@
 execute facing entity @p[predicate=stellarity:item/holding/dragonblade,predicate=kohara:player/is_sneaking] eyes rotated ~180 0 anchored feet positioned ^ ^.5 ^ run function stellarity:item/dragonblade/punch/motion/raycast
 
 # Cool little visuals
-  execute as @p[predicate=stellarity:item/holding/dragonblade,predicate=kohara:player/is_sneaking] at @s rotated as @s rotated ~ 0 positioned ^ ^1.2 ^1 run function stellarity:item/dragonblade/punch/special_fx/particle_aec_spawn
+  execute as @p[predicate=stellarity:item/holding/dragonblade,predicate=kohara:player/is_sneaking] at @s rotated as @s rotated ~ 0 positioned ^ ^1.2 ^1 run function stellarity:item/dragonblade/punch/special_fx/particle_area_effect_cloud_spawn

@@ -1,6 +1,6 @@
 team join stellarity.empress_of_light.day_glow @s
 
-execute as @n[type=armor_stand,tag=stellarity.empress_of_light.as] run \
+execute as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] run \
 team join stellarity.empress_of_light.day_glow @s
 
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing] \

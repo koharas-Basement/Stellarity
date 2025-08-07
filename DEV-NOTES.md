@@ -34,9 +34,9 @@ Haro everynyan.
     - `particles` - --||--
     - `status_effects` - contains everything related to, well, custom status effects
     - `tellraw` - macors for easier tellraw managing for ran commands  (`_cmd`), config menu and help command
-    - `as_aec.mcfunction` and `as_aec_stellarity_specific.mcfunction`:
-		1. First one ticks all Area Effect Cloud entities (`minecraft:area_effect_cloud`). If it uses a regular potion particle, it applies the Lingering Potion buffs from Stellarity. If it has the `stellarity.aec` tag, then...
-		2. Runs the latter function, which is used as a utility clock. AECs are sometimes used instead of Markers if I want to trigger something **in one place over time**, e.g. Starstruck Carcanet stars falling over a block, Dragonblade punch sigil VFX, or well, as Area Effect Clouds, e.g. placed Duskberry effect cloud.
+    - `as_area_effect_cloud.mcfunction` and `as_area_effect_cloud_stellarity_specific.mcfunction`:
+		1. First one ticks all Area Effect Cloud entities (`minecraft:area_effect_cloud`). If it uses a regular potion particle, it applies the Lingering Potion buffs from Stellarity. If it has the `stellarity.area_effect_cloud` tag, then...
+		2. Runs the latter function, which is used as a utility clock. area effect clouds are sometimes used instead of Markers if I want to trigger something **in one place over time**, e.g. Starstruck Carcanet stars falling over a block, Dragonblade punch sigil VFX, or well, as Area Effect Clouds, e.g. placed Duskberry effect cloud.
 	- `enter_end_play_track.mcfunction` - plays a new music track when entering The End for the first time. Ran through an advancement.
 	- `items_tick_once.mcfunction` - utility ticked from `loops/items_loop.mcfunction`. As the name suggests, every dropped item runs it once in order to do some checks.
 

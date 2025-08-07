@@ -1,7 +1,7 @@
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration: 200,RadiusPerTick:-0.03,Radius:5, Tags: ["stellarity.empress_of_light.teleport","smithed.entity","smithed.strict"],custom_particle:{type:"block","block_state":"air"}}
 execute as @n[type=area_effect_cloud,tag=stellarity.empress_of_light.teleport] at @s rotated as @p rotated ~ 0 run tp ~ ~ ~
 
-execute as @n[type=area_effect_cloud,tag=stellarity.empress_of_light.teleport] at @s run function stellarity:entity/empress_of_light/attacks/teleport_as_aec
+execute as @n[type=area_effect_cloud,tag=stellarity.empress_of_light.teleport] at @s run function stellarity:entity/empress_of_light/attacks/teleport_as_area_effect_cloud
 
 execute as @s at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
 

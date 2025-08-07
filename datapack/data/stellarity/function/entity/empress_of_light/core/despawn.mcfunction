@@ -1,7 +1,7 @@
 particle flash ~ ~ ~ 0 0 0 0 1 force
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 
-kill @n[type=armor_stand,tag=stellarity.empress_of_light.as]
+kill @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand]
 kill @n[type=marker,tag=stellarity.empress_of_light.tracker]
 tp @s ~ -2000 ~
 kill @s

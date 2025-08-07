@@ -16,6 +16,6 @@ execute if entity @s[tag=stellarity.using_fisher] run scoreboard players operati
 execute store result storage stellarity:temp vfishing.min int 1 run scoreboard players get #min stellarity.misc
 execute store result storage stellarity:temp vfishing.max int 1 run scoreboard players get #max stellarity.misc
 
-function stellarity:mechanic/void_fishing/as_aec/roll_time/macro with storage stellarity:temp vfishing
+function stellarity:mechanic/void_fishing/as_area_effect_cloud/roll_time/macro with storage stellarity:temp vfishing
 
 execute store result entity @s Rotation[0] float 1 run random value 1..360

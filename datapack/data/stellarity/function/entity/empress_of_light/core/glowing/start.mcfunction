@@ -1,4 +1,4 @@
-execute as @n[type=armor_stand,tag=stellarity.empress_of_light.as] run \
+execute as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] run \
 data modify entity @s Glowing set value 1b
 
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing] \

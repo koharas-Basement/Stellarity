@@ -1,7 +1,7 @@
 # Teleport model AS to the hitbox vindicator
-  execute unless entity @s[tag=stellarity.empress_of_light.no_rotate] rotated as @s run tp @n[type=armor_stand,tag=stellarity.empress_of_light.as] ~ ~ ~ ~ ~
-  execute if entity @s[tag=stellarity.empress_of_light.no_rotate] run tp @n[type=armor_stand,tag=stellarity.empress_of_light.as] ~ ~ ~
-  execute if entity @s[tag=stellarity.empress_of_light.face_player] as @n[type=armor_stand,tag=stellarity.empress_of_light.as] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
+  execute unless entity @s[tag=stellarity.empress_of_light.no_rotate] rotated as @s run tp @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] ~ ~ ~ ~ ~
+  execute if entity @s[tag=stellarity.empress_of_light.no_rotate] run tp @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] ~ ~ ~
+  execute if entity @s[tag=stellarity.empress_of_light.face_player] as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
 
 # Ambient particles
   particle portal ~ ~1.2 ~ 0 0 0 1.2 2
@@ -12,17 +12,17 @@
   execute if predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/loop_day
 
 # Wing animation
-  execute as @n[type=armor_stand,tag=stellarity.empress_of_light.as] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
+  execute as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
 
 # Bossbar
-  data modify storage stellarity:temp empress_of_light.entity set from entity @s
-  execute store result score @s stellarity.empress_of_light.health run data get storage stellarity:temp empress_of_light.entity.Health
-  execute store result bossbar stellarity:empress_of_light value run scoreboard players get @s stellarity.empress_of_light.health
+
+execute store result score @s stellarity.empress_of_light.health run data get entity @s Health
+execute store result bossbar stellarity:empress_of_light value run scoreboard players get @s stellarity.empress_of_light.health
 
 bossbar set stellarity:empress_of_light players
 execute at @e[type=vindicator,tag=stellarity.empress_of_light] run bossbar set stellarity:empress_of_light players @a[distance=..100]
 
-execute store result score @s stellarity.empress_of_light.hurt_time run data get storage stellarity:temp empress_of_light.entity.HurtTime
+execute store result score @s stellarity.empress_of_light.hurt_time run data get entity @s HurtTime
 
 # Music
   execute if entity @s[tag=!stellarity.empress_of_light.death_animation] run function stellarity:entity/empress_of_light/music/tick
