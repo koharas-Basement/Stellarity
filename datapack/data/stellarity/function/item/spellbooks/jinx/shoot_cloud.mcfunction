@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.spellbook.jinx.cooldown 15
+scoreboard players set @s stellarity.item.spellbook.jinx.cooldown 15
 
 execute anchored eyes positioned ^ ^ ^ rotated as @s run function stellarity:item/spellbooks/jinx/spawn_marker
 

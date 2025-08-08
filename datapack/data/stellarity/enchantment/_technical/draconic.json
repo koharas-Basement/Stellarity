@@ -4,9 +4,7 @@
     "color": "#d600f4"
   },
   "exclusive_set": [],
-  "supported_items": [
-    "minecraft:netherite_sword"
-  ],
+  "supported_items": ["minecraft:netherite_sword"],
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -18,9 +16,7 @@
     "per_level_above_first": 0
   },
   "anvil_cost": 2,
-  "slots": [
-    "mainhand"
-  ],
+  "slots": ["mainhand"],
   "effects": {
     "minecraft:post_attack": [
       {
@@ -31,7 +27,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "stellarity.items.dragonblade.cooldown": {
+                "stellarity.item.dragonblade.cooldown": {
                   "min": 1
                 }
               }
@@ -43,7 +39,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "stellarity.items.dragonblade.until_stack_reset": {
+                "stellarity.item.dragonblade.until_stack_reset": {
                   "min": 311
                 }
               }

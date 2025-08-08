@@ -15,4 +15,4 @@ function stellarity:sfx/enter_leave_end_wave
 tag @p[predicate=stellarity:item/holding/spellbooks/return] remove stellarity.book_of_return.in_animation
 tag @p[predicate=stellarity:item/holding/spellbooks/return] remove stellarity.book_of_return.teleport
 
-scoreboard players set @s stellarity.items.spellbook.return.cooldown 120
+scoreboard players set @s stellarity.item.spellbook.return.cooldown 120

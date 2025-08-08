@@ -1,6 +1,6 @@
 tp @n[type=block_display,tag=stellarity.cryonics] ~-0.5 ~ ~-0.5
 
-scoreboard players add @s stellarity.items.aery_sword.cryonics.duration 1
+scoreboard players add @s stellarity.item.aery_sword.cryonics.duration 1
 
 effect give @s regeneration infinite 4 true
 effect give @s blindness infinite 0 true
@@ -14,4 +14,4 @@ attribute @s fall_damage_multiplier modifier add stellarity:cryonics -1 add_mult
 attribute @s jump_strength modifier add stellarity:cryonics -1 add_multiplied_total
 attribute @s movement_speed modifier add stellarity:cryonics -1 add_multiplied_total
 
-execute if score @s stellarity.items.aery_sword.cryonics.duration matches 160.. run function stellarity:item/harvester/abilities/cryonics/stop
+execute if score @s stellarity.item.aery_sword.cryonics.duration matches 160.. run function stellarity:item/harvester/abilities/cryonics/stop

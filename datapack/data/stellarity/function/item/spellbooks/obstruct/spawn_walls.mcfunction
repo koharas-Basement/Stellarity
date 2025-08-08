@@ -2,7 +2,7 @@
 function stellarity:sfx/enter_leave_end_wave
 playsound block.anvil.land player @a[distance=..16] ~ ~ ~ 1 0.5
 
-scoreboard players set @s stellarity.items.spellbook.obstruct.cooldown 15
+scoreboard players set @s stellarity.item.spellbook.obstruct.cooldown 15
 
 execute rotated ~ 0.0 positioned ~ ~ ~ run summon item_display ^0 ^1 ^3 {Tags:["stellarity.obstruct.walls","smithed.entity","smithed.strict"],Passengers:[{id:"minecraft:shulker",NoAI:true,Invulnerable:true,Tags:["stellarity.obstruct.walls_solid","smithed.entity","smithed.strict"],attributes:[{id:"minecraft:scale",base:2}]}],}
 execute rotated ~ 0.0 positioned ~ ~ ~ run summon item_display ^0 ^-1 ^3 {Tags:["stellarity.obstruct.walls","smithed.entity","smithed.strict"],Passengers:[{id:"minecraft:shulker",NoAI:true,Invulnerable:true,Tags:["stellarity.obstruct.walls_solid","smithed.entity","smithed.strict"],attributes:[{id:"minecraft:scale",base:2}]}],}

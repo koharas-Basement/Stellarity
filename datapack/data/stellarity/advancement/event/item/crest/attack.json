@@ -9,7 +9,7 @@
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
-              "stellarity.items.crest.bonus_dmg": {
+              "stellarity.item.crest.bonus_dmg": {
                 "min": 1
               }
             }

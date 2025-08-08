@@ -4,7 +4,7 @@ $data modify storage stellarity:temp aery_sword.custom_data."stellarity.aery_swo
 $advancement grant @s only stellarity:exploration/harvester/abilities/$(ability)
 $advancement grant @s only stellarity:exploration/harvester/unlock_all_abilities $(ability)
 
-$scoreboard players reset @s stellarity.items.aery_sword.progress.$(ability)
+$scoreboard players reset @s stellarity.item.aery_sword.progress.$(ability)
 
 advancement grant @s only stellarity:event/toasts/harvester_unlock_ability
 

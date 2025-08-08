@@ -7,7 +7,7 @@
         "condition": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
-          "stellarity.items.dragonblade.until_stack_reset": {
+          "stellarity.item.dragonblade.until_stack_reset": {
             "min": 1
           }
         }
@@ -16,7 +16,7 @@
         "condition": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
-          "stellarity.items.spirit_dagger.attract_cooldown": {
+          "stellarity.item.spirit_dagger.attract_cooldown": {
             "min": 1
           }
         }
@@ -25,7 +25,7 @@
         "condition": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
-          "stellarity.items.dragonblade.cooldown": {
+          "stellarity.item.dragonblade.cooldown": {
             "min": 1
           }
         }

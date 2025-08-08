@@ -1,4 +1,4 @@
-execute as @a if score @s stellarity.items.spellbook.conveyance.id = @n[type=marker,tag=stellarity.book_of_conveyance] stellarity.items.spellbook.conveyance.id run function stellarity:item/spellbooks/conveyance/teleport_player
+execute as @a if score @s stellarity.item.spellbook.conveyance.id = @n[type=marker,tag=stellarity.book_of_conveyance] stellarity.item.spellbook.conveyance.id run function stellarity:item/spellbooks/conveyance/teleport_player
 
 kill @s
 

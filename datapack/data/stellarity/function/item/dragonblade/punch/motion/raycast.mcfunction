@@ -1,4 +1,4 @@
-tag @s add stellarity.items.dragonblade.in_punch
+tag @s add stellarity.item.dragonblade.in_punch
 
 execute if score #hit stellarity.misc matches 0 unless block ^ ^ ^1 #kohara:non_solid run function stellarity:item/dragonblade/punch/motion/hit_block
 

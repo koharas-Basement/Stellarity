@@ -6,7 +6,7 @@
 
 # Fish of Vitality
 # Yes, it is still referred to as 'crystal_heartfish' in the code, deal with it
-  execute if entity @s[tag=stellarity.items.fish.crystal_heartfish.area_effect_cloud] rotated as @s run function stellarity:item/food/fish/crystal_heartfish/animation
+  execute if entity @s[tag=stellarity.item.fish.crystal_heartfish.area_effect_cloud] rotated as @s run function stellarity:item/food/fish/crystal_heartfish/animation
 
 # Void Fishing
   execute if entity @s[tag=stellarity.void_fishing.area_effect_cloud] run function stellarity:mechanic/void_fishing/as_area_effect_cloud/tick

@@ -10,7 +10,7 @@ function stellarity:item/spellbooks/main
   execute if entity @s[tag=stellarity.prismember] run function stellarity:item/prismember/spin/animation/main
 
 # Copper Elektra Shield
-  execute if entity @s[tag=stellarity.items.elektra_shield.marker] run function stellarity:item/elektra_shield/dash/as_marker
+  execute if entity @s[tag=stellarity.item.elektra_shield.marker] run function stellarity:item/elektra_shield/dash/as_marker
 
 # Spectral Fury
   execute if entity @s[tag=stellarity.wisp] run function stellarity:item/spectral_fury/wisp/loop

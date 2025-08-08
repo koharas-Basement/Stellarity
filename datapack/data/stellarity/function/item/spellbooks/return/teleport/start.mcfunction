@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.spellbook.return.cooldown 60
+scoreboard players set @s stellarity.item.spellbook.return.cooldown 60
 
 data remove storage stellarity:temp book_of_return
 

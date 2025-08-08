@@ -1,5 +1,5 @@
-scoreboard players set @s stellarity.items.spirit_dagger.attract_cooldown 500
-tag @s add stellarity.items.spirit_dagger.cooldown
+scoreboard players set @s stellarity.item.spirit_dagger.attract_cooldown 500
+tag @s add stellarity.item.spirit_dagger.cooldown
 tag @s add stellarity.cooldown_tickdown
 
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:1,Tags:["stellarity.spirit_dagger.area_effect_cloud","smithed.entity","smithed.strict"],custom_particle:{type:"block","block_state":"air"}}

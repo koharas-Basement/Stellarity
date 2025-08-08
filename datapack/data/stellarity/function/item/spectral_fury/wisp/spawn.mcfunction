@@ -12,7 +12,7 @@ execute as @n[type=marker,tag=stellarity.wisp] at @s rotated as @p[predicate=ste
   scoreboard players set #wisp_damage stellarity.misc 500
   scoreboard players operation #wisp_damage stellarity.misc += #arrow_damage stellarity.misc
 
-scoreboard players operation @n[type=marker,tag=stellarity.wisp] stellarity.items.spectral_fury.damage = #wisp_damage stellarity.misc
+scoreboard players operation @n[type=marker,tag=stellarity.wisp] stellarity.item.spectral_fury.damage = #wisp_damage stellarity.misc
 
 playsound stellarity:item.spectral_fury.shoot player @a[distance=0..] ~ ~ ~
 

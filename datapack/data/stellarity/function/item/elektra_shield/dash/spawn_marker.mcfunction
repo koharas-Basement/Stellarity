@@ -1,3 +1,3 @@
-summon marker ~ ~ ~ {Tags:["stellarity.items.elektra_shield.marker","stellarity.marker","smithed.entity","smithed.strict"]}
+summon marker ~ ~ ~ {Tags:["stellarity.item.elektra_shield.marker","stellarity.marker","smithed.entity","smithed.strict"]}
 
-execute as @n[type=marker,tag=stellarity.items.elektra_shield.marker] at @s rotated as @p rotated ~ 0 run tp @s ^ ^ ^1.75 ~ ~
+execute as @n[type=marker,tag=stellarity.item.elektra_shield.marker] at @s rotated as @p rotated ~ 0 run tp @s ^ ^ ^1.75 ~ ~

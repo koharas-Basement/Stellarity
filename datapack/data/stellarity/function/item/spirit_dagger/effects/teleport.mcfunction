@@ -1,4 +1,4 @@
-scoreboard players reset @s stellarity.items.spirit_dagger.consume_time
+scoreboard players reset @s stellarity.item.spirit_dagger.consume_time
 
 # Advancement
   execute if score #distance stellarity.misc matches 600.. run advancement grant @s only stellarity:exploration/spirit_assasin

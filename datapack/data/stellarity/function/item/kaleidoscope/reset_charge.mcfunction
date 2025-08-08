@@ -1,2 +1,2 @@
-scoreboard players reset @s stellarity.items.kaleidoscope.charge
-scoreboard players reset @s stellarity.items.kaleidoscope.charge_progress
+scoreboard players reset @s stellarity.item.kaleidoscope.charge
+scoreboard players reset @s stellarity.item.kaleidoscope.charge_progress

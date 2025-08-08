@@ -1,4 +1,4 @@
-tag @s add stellarity.items.prismatic_pearl.buffed_velocity
+tag @s add stellarity.item.prismatic_pearl.buffed_velocity
 
 execute store result score #velocity.x stellarity.misc run data get entity @s Motion[0] 10000
 execute store result score #velocity.y stellarity.misc run data get entity @s Motion[1] 10000

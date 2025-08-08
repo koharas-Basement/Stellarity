@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.prismatic_pearl.cooldown 100
+scoreboard players set @s stellarity.item.prismatic_pearl.cooldown 100
 
 stopsound @a neutral minecraft:entity.ender_pearl.throw
 playsound minecraft:entity.ender_eye.launch neutral @a[distance=0..] ~ ~ ~ 1 1

@@ -1,2 +1,2 @@
 title @s actionbar ""
-scoreboard players reset @s stellarity.items.spirit_dagger.consume_time
+scoreboard players reset @s stellarity.item.spirit_dagger.consume_time

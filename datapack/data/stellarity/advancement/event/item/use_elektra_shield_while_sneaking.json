@@ -19,7 +19,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"stellarity.items.elektra_shield.using\"]}"
+                "nbt": "{Tags:[\"stellarity.item.elektra_shield.using\"]}"
               }
             }
           },
@@ -29,7 +29,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "stellarity.items.elektra_shield.dashes": 0
+                "stellarity.item.elektra_shield.dashes": 0
               }
             }
           }

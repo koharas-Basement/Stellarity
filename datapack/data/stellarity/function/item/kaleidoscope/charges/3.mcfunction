@@ -15,10 +15,10 @@ particle cloud ^ ^ ^ 0 0 0 0.3 96
 
 execute positioned ^ ^ ^ run function stellarity:item/kaleidoscope/charges/3_wave
 
-execute unless entity @s[advancements={stellarity:event/item/kill/kaleidoscope=true}] run function stellarity:item/kaleidoscope/charges/damage/3
+function stellarity:item/kaleidoscope/charges/damage/3
 execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:item/holding/kaleidoscope,distance=0.1..1.4] run function stellarity:item/kaleidoscope/charges/splash/3/inner
 execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:item/holding/kaleidoscope,distance=1.41..2.8] run function stellarity:item/kaleidoscope/charges/splash/3/middle
 execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:item/holding/kaleidoscope,distance=2.81..4.2] run function stellarity:item/kaleidoscope/charges/splash/3/outer
 
-scoreboard players reset @p[predicate=stellarity:item/holding/kaleidoscope] stellarity.items.kaleidoscope.charge_progress
-scoreboard players reset @p[predicate=stellarity:item/holding/kaleidoscope] stellarity.items.kaleidoscope.charge
+scoreboard players reset @p[predicate=stellarity:item/holding/kaleidoscope] stellarity.item.kaleidoscope.charge_progress
+scoreboard players reset @p[predicate=stellarity:item/holding/kaleidoscope] stellarity.item.kaleidoscope.charge

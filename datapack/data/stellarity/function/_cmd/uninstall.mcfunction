@@ -22,124 +22,124 @@
 
       ## Items
         # Dragonblade
-          scoreboard objectives remove stellarity.items.dragonblade.cooldown
-          scoreboard objectives remove stellarity.items.dragonblade.stacks
-          scoreboard objectives remove stellarity.items.dragonblade.stack_cooldown
-          scoreboard objectives remove stellarity.items.dragonblade.until_stack_reset
-          scoreboard objectives remove stellarity.items.dragonblade.punch_progress
-          scoreboard objectives remove stellarity.items.dragonblade.until_punch_reset
+          scoreboard objectives remove stellarity.item.dragonblade.cooldown
+          scoreboard objectives remove stellarity.item.dragonblade.stacks
+          scoreboard objectives remove stellarity.item.dragonblade.stack_cooldown
+          scoreboard objectives remove stellarity.item.dragonblade.until_stack_reset
+          scoreboard objectives remove stellarity.item.dragonblade.punch_progress
+          scoreboard objectives remove stellarity.item.dragonblade.until_punch_reset
           # Armor sets
-            scoreboard objectives remove stellarity.items.armors.holy_protection_cooldown
-            scoreboard objectives remove stellarity.items.armors.champion_armor.combo
-            scoreboard objectives remove stellarity.items.armors.champion_armor.until_combo_reset
+            scoreboard objectives remove stellarity.item.armors.holy_protection_cooldown
+            scoreboard objectives remove stellarity.item.armors.champion_armor.combo
+            scoreboard objectives remove stellarity.item.armors.champion_armor.until_combo_reset
 
           # Crest of The End
-            scoreboard objectives remove stellarity.items.crest.bonus_dmg
-            scoreboard objectives remove stellarity.items.crest.time
+            scoreboard objectives remove stellarity.item.crest.bonus_dmg
+            scoreboard objectives remove stellarity.item.crest.time
 
           # Copper Elektra Shield
-            scoreboard objectives remove stellarity.items.elektra_shield.cooldown
-            scoreboard objectives remove stellarity.items.elektra_shield.animation
-            scoreboard objectives remove stellarity.items.elektra_shield.dashes
-            scoreboard objectives remove stellarity.items.elektra_shield.zap_count
-            scoreboard objectives remove stellarity.items.elektra_shield.boost_duration
+            scoreboard objectives remove stellarity.item.elektra_shield.cooldown
+            scoreboard objectives remove stellarity.item.elektra_shield.animation
+            scoreboard objectives remove stellarity.item.elektra_shield.dashes
+            scoreboard objectives remove stellarity.item.elektra_shield.zap_count
+            scoreboard objectives remove stellarity.item.elektra_shield.boost_duration
 
           # Prismatic Punch
-            scoreboard objectives remove stellarity.items.prismatic_punch.particle_cycle
-            scoreboard objectives remove stellarity.items.prismatic_punch.teleport
-            scoreboard objectives remove stellarity.items.prismatic_punch.piercing
-            scoreboard objectives remove stellarity.items.prismatic_punch.piercing_cooldown
-            scoreboard objectives remove stellarity.items.prismatic_punch.multishot
+            scoreboard objectives remove stellarity.item.prismatic_punch.particle_cycle
+            scoreboard objectives remove stellarity.item.prismatic_punch.teleport
+            scoreboard objectives remove stellarity.item.prismatic_punch.piercing
+            scoreboard objectives remove stellarity.item.prismatic_punch.piercing_cooldown
+            scoreboard objectives remove stellarity.item.prismatic_punch.multishot
 
           # Ender Insignia
-            scoreboard objectives remove stellarity.items.life_crystal.heal_amount
+            scoreboard objectives remove stellarity.item.life_crystal.heal_amount
 
           # Spellbooks
-            scoreboard objectives remove stellarity.items.spellbook.conveyance.cooldown
-            scoreboard objectives remove stellarity.items.spellbook.conveyance.id
-            scoreboard objectives remove stellarity.items.spellbook.updraft.cooldown
-            scoreboard objectives remove stellarity.items.spellbook.updraft.animation
-            scoreboard objectives remove stellarity.items.spellbook.light.cooldown
-            scoreboard objectives remove stellarity.items.spellbook.jinx.cooldown
-            scoreboard objectives remove stellarity.items.spellbook.return.cooldown
-            scoreboard objectives remove stellarity.items.spellbook.obstruct.cooldown
-            scoreboard objectives remove stellarity.items.spellbook.return.progress
-            scoreboard objectives remove stellarity.items.spellbook.give_back.hand
+            scoreboard objectives remove stellarity.item.spellbook.conveyance.cooldown
+            scoreboard objectives remove stellarity.item.spellbook.conveyance.id
+            scoreboard objectives remove stellarity.item.spellbook.updraft.cooldown
+            scoreboard objectives remove stellarity.item.spellbook.updraft.animation
+            scoreboard objectives remove stellarity.item.spellbook.light.cooldown
+            scoreboard objectives remove stellarity.item.spellbook.jinx.cooldown
+            scoreboard objectives remove stellarity.item.spellbook.return.cooldown
+            scoreboard objectives remove stellarity.item.spellbook.obstruct.cooldown
+            scoreboard objectives remove stellarity.item.spellbook.return.progress
+            scoreboard objectives remove stellarity.item.spellbook.give_back.hand
 
           # Fluffy Hammer
-            scoreboard objectives remove stellarity.items.fluffy_hammer.throw_cooldown
+            scoreboard objectives remove stellarity.item.fluffy_hammer.throw_cooldown
 
-          scoreboard objectives remove stellarity.items.satchel_of_voids.cooldown
+          scoreboard objectives remove stellarity.item.satchel_of_voids.cooldown
 
         # Empress Wings
-          scoreboard objectives remove stellarity.items.empress_wings.particles
+          scoreboard objectives remove stellarity.item.empress_wings.particles
 
         # Fish
           # yeah, only 1
-            scoreboard objectives remove stellarity.items.fish.crystal_heartfish.total_consumed
+            scoreboard objectives remove stellarity.item.fish.crystal_heartfish.total_consumed
 
           # The Beginning and The End
-            scoreboard objectives remove stellarity.items.spirit_dagger.attract_cooldown
-            scoreboard objectives remove stellarity.items.spirit_dagger.consume_time
-            scoreboard objectives remove stellarity.items.spirit_dagger.until_consume_reset
-            scoreboard objectives remove stellarity.items.spirit_dagger.effects_duration
+            scoreboard objectives remove stellarity.item.spirit_dagger.attract_cooldown
+            scoreboard objectives remove stellarity.item.spirit_dagger.consume_time
+            scoreboard objectives remove stellarity.item.spirit_dagger.until_consume_reset
+            scoreboard objectives remove stellarity.item.spirit_dagger.effects_duration
 
           # Harvester, AKA Aery Sword
-            scoreboard objectives remove stellarity.items.aery_sword.damage
-            scoreboard objectives remove stellarity.items.aery_sword.progress.frost_barrier
-            scoreboard objectives remove stellarity.items.aery_sword.progress.cryonics
-            scoreboard objectives remove stellarity.items.aery_sword.progress.piercing_cold
-            scoreboard objectives remove stellarity.items.aery_sword.progress.frostburn
-            scoreboard objectives remove stellarity.items.aery_sword.progress.arctic_wind
-            scoreboard objectives remove stellarity.items.aery_sword.progress.anima_conduit
-            scoreboard objectives remove stellarity.items.aery_sword.progress.echo
-            scoreboard objectives remove stellarity.items.aery_sword.progress.embrittlement
-            scoreboard objectives remove stellarity.items.aery_sword.cryonics.duration
-            scoreboard objectives remove stellarity.items.aery_sword.cryonics.cooldown
+            scoreboard objectives remove stellarity.item.aery_sword.damage
+            scoreboard objectives remove stellarity.item.aery_sword.progress.frost_barrier
+            scoreboard objectives remove stellarity.item.aery_sword.progress.cryonics
+            scoreboard objectives remove stellarity.item.aery_sword.progress.piercing_cold
+            scoreboard objectives remove stellarity.item.aery_sword.progress.frostburn
+            scoreboard objectives remove stellarity.item.aery_sword.progress.arctic_wind
+            scoreboard objectives remove stellarity.item.aery_sword.progress.anima_conduit
+            scoreboard objectives remove stellarity.item.aery_sword.progress.echo
+            scoreboard objectives remove stellarity.item.aery_sword.progress.embrittlement
+            scoreboard objectives remove stellarity.item.aery_sword.cryonics.duration
+            scoreboard objectives remove stellarity.item.aery_sword.cryonics.cooldown
 
           # Kaleidoscope
-            scoreboard objectives remove stellarity.items.kaleidoscope.charge
-            scoreboard objectives remove stellarity.items.kaleidoscope.charge_progress
+            scoreboard objectives remove stellarity.item.kaleidoscope.charge
+            scoreboard objectives remove stellarity.item.kaleidoscope.charge_progress
 
           # Prismatic Pearl
-            scoreboard objectives remove stellarity.items.prismatic_pearl.cooldown
+            scoreboard objectives remove stellarity.item.prismatic_pearl.cooldown
 
           # Prismember
-            scoreboard objectives remove stellarity.items.prismember.charge
-            scoreboard objectives remove stellarity.items.prismember.until_charge_reset
-            scoreboard objectives remove stellarity.items.prismember.cooldown
+            scoreboard objectives remove stellarity.item.prismember.charge
+            scoreboard objectives remove stellarity.item.prismember.until_charge_reset
+            scoreboard objectives remove stellarity.item.prismember.cooldown
 
           # Tamaris
-            scoreboard objectives remove stellarity.items.tamaris.math.health.current
-            scoreboard objectives remove stellarity.items.tamaris.math.health.max
-            scoreboard objectives remove stellarity.items.tamaris.math.health.percentage
-            scoreboard objectives remove stellarity.items.tamaris.animation.progress
-            scoreboard objectives remove stellarity.items.tamaris.execute_cooldown
+            scoreboard objectives remove stellarity.item.tamaris.math.health.current
+            scoreboard objectives remove stellarity.item.tamaris.math.health.max
+            scoreboard objectives remove stellarity.item.tamaris.math.health.percentage
+            scoreboard objectives remove stellarity.item.tamaris.animation.progress
+            scoreboard objectives remove stellarity.item.tamaris.execute_cooldown
 
           # Chorus Dagger
-            scoreboard objectives remove stellarity.items.chorus_dagger.cooldown
+            scoreboard objectives remove stellarity.item.chorus_dagger.cooldown
 
           # Starless Scythe
-            scoreboard objectives remove stellarity.items.starless_scythe.time_since_attack
+            scoreboard objectives remove stellarity.item.starless_scythe.time_since_attack
 
           # Stellar Striker
-            scoreboard objectives remove stellarity.items.stellar_striker.stars.collect_time
-            scoreboard objectives remove stellarity.items.stellar_striker.stars.amount
-            scoreboard objectives remove stellarity.items.stellar_striker.time_since_attack
-            scoreboard objectives remove stellarity.items.stellar_striker.cooldown
+            scoreboard objectives remove stellarity.item.stellar_striker.stars.collect_time
+            scoreboard objectives remove stellarity.item.stellar_striker.stars.amount
+            scoreboard objectives remove stellarity.item.stellar_striker.time_since_attack
+            scoreboard objectives remove stellarity.item.stellar_striker.cooldown
 
           # Spectral Fury
-            scoreboard objectives remove stellarity.items.spectral_fury.charge
-            scoreboard objectives remove stellarity.items.spectral_fury.until_charge_reset
-            scoreboard objectives remove stellarity.items.spectral_fury.pierce_count
-            scoreboard objectives remove stellarity.items.spectral_fury.damage
+            scoreboard objectives remove stellarity.item.spectral_fury.charge
+            scoreboard objectives remove stellarity.item.spectral_fury.until_charge_reset
+            scoreboard objectives remove stellarity.item.spectral_fury.pierce_count
+            scoreboard objectives remove stellarity.item.spectral_fury.damage
 
           # Sandstorm Trident
-            scoreboard objectives remove stellarity.items.sandstorm_trident.id
-            scoreboard objectives remove stellarity.items.sandstorm_trident.trail_pos
+            scoreboard objectives remove stellarity.item.sandstorm_trident.id
+            scoreboard objectives remove stellarity.item.sandstorm_trident.trail_pos
 
-          scoreboard objectives remove stellarity.items.elytra.damage
-          scoreboard objectives remove stellarity.items.elytra.unbreaking
+          scoreboard objectives remove stellarity.item.elytra.damage
+          scoreboard objectives remove stellarity.item.elytra.unbreaking
 
 
 

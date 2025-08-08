@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.spellbook.updraft.cooldown 16
+scoreboard players set @s stellarity.item.spellbook.updraft.cooldown 16
 
 tag @s remove stellarity.book_of_updraft.animation
 

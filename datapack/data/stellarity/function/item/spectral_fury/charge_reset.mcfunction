@@ -1,1 +1,1 @@
-scoreboard players reset @s stellarity.items.spectral_fury.charge
+scoreboard players reset @s stellarity.item.spectral_fury.charge

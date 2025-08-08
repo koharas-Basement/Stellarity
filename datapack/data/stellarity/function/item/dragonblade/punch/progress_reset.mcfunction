@@ -1,1 +1,1 @@
-scoreboard players reset @s stellarity.items.dragonblade.punch_progress
+scoreboard players reset @s stellarity.item.dragonblade.punch_progress

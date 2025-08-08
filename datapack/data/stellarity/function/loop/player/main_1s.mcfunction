@@ -1,16 +1,16 @@
 # Cooldowns
-  execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=0..}] run function stellarity:item/spellbooks/conveyance/cooldown_countdown
-  execute if entity @s[scores={stellarity.items.spellbook.updraft.cooldown=0..}] run function stellarity:item/spellbooks/updraft/cooldown_countdown
-  execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=0..}] run function stellarity:item/spellbooks/light/cooldown_countdown
-  execute if entity @s[scores={stellarity.items.spellbook.jinx.cooldown=0..}] run function stellarity:item/spellbooks/jinx/cooldown_countdown
-  execute if entity @s[scores={stellarity.items.spellbook.return.cooldown=0..}] run function stellarity:item/spellbooks/return/cooldown_countdown
-  execute if entity @s[scores={stellarity.items.spellbook.obstruct.cooldown=0..}] run function stellarity:item/spellbooks/obstruct/cooldown_countdown
+  execute if entity @s[scores={stellarity.item.spellbook.conveyance.cooldown=0..}] run function stellarity:item/spellbooks/conveyance/cooldown_countdown
+  execute if entity @s[scores={stellarity.item.spellbook.updraft.cooldown=0..}] run function stellarity:item/spellbooks/updraft/cooldown_countdown
+  execute if entity @s[scores={stellarity.item.spellbook.light.cooldown=0..}] run function stellarity:item/spellbooks/light/cooldown_countdown
+  execute if entity @s[scores={stellarity.item.spellbook.jinx.cooldown=0..}] run function stellarity:item/spellbooks/jinx/cooldown_countdown
+  execute if entity @s[scores={stellarity.item.spellbook.return.cooldown=0..}] run function stellarity:item/spellbooks/return/cooldown_countdown
+  execute if entity @s[scores={stellarity.item.spellbook.obstruct.cooldown=0..}] run function stellarity:item/spellbooks/obstruct/cooldown_countdown
 
 
 
-execute if entity @s[scores={stellarity.items.satchel_of_voids.cooldown=0..}] run scoreboard players remove @s stellarity.items.satchel_of_voids.cooldown 1
+execute if entity @s[scores={stellarity.item.satchel_of_voids.cooldown=0..}] run scoreboard players remove @s stellarity.item.satchel_of_voids.cooldown 1
 
-execute if entity @s[scores={stellarity.items.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.items.aery_sword.cryonics.cooldown 1
+execute if entity @s[scores={stellarity.item.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.item.aery_sword.cryonics.cooldown 1
 
 execute if entity @s[tag=stellarity.flesh_piglin.aggro_target] run function stellarity:entity/flesh_piglin/set_follow_range_1s_loop
 

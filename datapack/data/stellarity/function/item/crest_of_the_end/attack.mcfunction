@@ -6,5 +6,5 @@ title @s actionbar " "
 
 execute at @s anchored eyes positioned ^ ^ ^2 run function stellarity:item/crest_of_the_end/sfx/choose
 
-scoreboard players reset @s stellarity.items.crest.bonus_dmg
-scoreboard players reset @s stellarity.items.crest.time
+scoreboard players reset @s stellarity.item.crest.bonus_dmg
+scoreboard players reset @s stellarity.item.crest.time

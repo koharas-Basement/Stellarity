@@ -28,7 +28,7 @@
               "value": {
                 "type": "minecraft:score",
                 "target": "this",
-                "score": "stellarity.items.stellar_striker.cooldown"
+                "score": "stellarity.item.stellar_striker.cooldown"
               },
               "range": {
                 "min": 1
