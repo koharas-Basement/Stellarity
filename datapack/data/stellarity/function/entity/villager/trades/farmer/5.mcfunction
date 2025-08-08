@@ -7,4 +7,3 @@
 execute if score #trade stellarity.misc matches 1 run \
 function stellarity:entity/villager/trade_editor/add_from_loot_table_reverse_order {max_uses:2,xp:50,price_multiplier:0.2,buy_a_id:"bread",buy_a_count:10,buy_b_count:64,loot_table:"stellarity:item/food/loaf_of_plenty",sell_count:1}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

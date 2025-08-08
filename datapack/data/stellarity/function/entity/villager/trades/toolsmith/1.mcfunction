@@ -20,4 +20,3 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier {xp:8,max_uses:3,price_multiplier:0.05,buy_a_count:1,buy_b_id:"air",buy_b_count:5,sell:"iron_shovel",sell_count:1,modifier:"stellarity:villager/common/enchant_15_29"}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

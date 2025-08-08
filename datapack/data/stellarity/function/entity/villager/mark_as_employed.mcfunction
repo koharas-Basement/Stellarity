@@ -1,5 +1,4 @@
-
-data merge entity @s {Offers:{Recipes:[]},data:{"stellarity.villager_trades":[]}}
+data modify entity @s Offers.Recipes set value []
 
 execute if data entity @s VillagerData{profession:"minecraft:armorer"} run \
 function stellarity:entity/villager/trades/armorer/1

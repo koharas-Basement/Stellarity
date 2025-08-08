@@ -21,5 +21,4 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell {max_uses:16,
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_enderite_sell {max_uses:8,price_multiplier:0.05,sell:"blaze_rod",buy_a_count:2,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:2}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"
 

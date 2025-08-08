@@ -4,4 +4,3 @@
 # Shield -> Copper Elektra Shield
   function stellarity:entity/villager/trade_editor/add_from_loot_table_reverse_order {max_uses:2,xp:40,price_multiplier:0.2,buy_a_id:"shield",buy_a_count:1,buy_b_count:46,loot_table:"stellarity:item/trinket/copper_elektra_shield",sell_count:1}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

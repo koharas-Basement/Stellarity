@@ -2,4 +2,3 @@ function stellarity:entity/villager/trade_editor/add_enderite_buy {max_uses:14,p
 
 function stellarity:entity/villager/trade_editor/add_from_loot_table_reverse_order {max_uses:1,price_multiplier:0.2,loot_table:"stellarity:item/explorer_map/end_city",buy_b_count:40,buy_a_id:"map",buy_a_count:1,sell_count:1,xp:40}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

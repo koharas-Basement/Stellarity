@@ -17,4 +17,3 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell {xp:6,max_use
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_enderite_sell {xp:6,max_uses:6,price_multiplier:0.05,buy_a_count:2,buy_b_id:"air",buy_b_count:1,sell:"smooth_quartz",sell_count:4}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

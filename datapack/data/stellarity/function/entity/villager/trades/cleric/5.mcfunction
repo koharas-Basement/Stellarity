@@ -5,4 +5,3 @@
 # No second trade
 # Used to be a Pandora's Barrel
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

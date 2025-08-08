@@ -11,4 +11,3 @@ execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_enderite_sell_reverse_order {max_uses:8,xp:5,price_multiplier:0.05,buy_a_id:"wheat_seeds",buy_a_count:8,buy_b_count:1,sell:"pitcher_pod",sell_count:3}
 
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

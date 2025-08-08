@@ -17,4 +17,3 @@ function stellarity:entity/villager/trade_editor/add_loot_table_to_loot_table {x
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_loot_table_to_loot_table {xp:5,max_uses:8,price_multiplier:0.05,buy_a_count:3,buy_b_count:2,sell_count:3,loot_table:"stellarity:item/food/enderman_flesh",loot_table_2:"stellarity:item/food/frozen_carpaccio"}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

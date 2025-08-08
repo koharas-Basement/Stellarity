@@ -5,4 +5,3 @@
 # Second Trade
   function stellarity:entity/villager/trade_editor/add_enderite_sell_reverse_order_with_modifier {xp:12,max_uses:4,price_multiplier:0.05,buy_a_id:"book",buy_a_count:1,buy_b_count:20,sell:"book",sell_count:1,modifier:"stellarity:villager/toolsmith/journeyman_enchant"}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

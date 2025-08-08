@@ -4,4 +4,3 @@
 # Second Trade
   function stellarity:entity/villager/trade_editor/add_enderite_sell {max_uses:12,price_multiplier:0.05,sell:"glowstone",buy_a_count:1,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:5}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

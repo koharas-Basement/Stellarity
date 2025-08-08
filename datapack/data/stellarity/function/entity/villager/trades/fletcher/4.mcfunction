@@ -5,4 +5,3 @@
 # Second Trade
   function stellarity:entity/villager/trade_editor/add_from_loot_table_reverse_order {xp:8,max_uses:8,price_multiplier:0.05,buy_a_id:"purpur_block",buy_a_count:24,buy_b_count:32,loot_table:"stellarity:item/material/enderite_smithing_template",sell_count:1}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

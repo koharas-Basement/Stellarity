@@ -4,4 +4,3 @@
 # Second Trade
 # No trade :((
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

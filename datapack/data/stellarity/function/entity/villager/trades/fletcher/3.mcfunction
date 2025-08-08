@@ -11,4 +11,3 @@ function stellarity:entity/villager/trade_editor/add_enderite_buy {max_uses:6,xp
 # Second Trade
   function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier {max_uses:2,price_multiplier:0.2,buy_a_count:10,buy_b_id:"air",buy_b_count:1,sell:"crossbow",sell_count:1,modifier:"stellarity:villager/common/enchant_15_29",xp:12}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"

@@ -22,4 +22,3 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell_with_modifier
 execute if score #trade stellarity.misc matches 3 run \
 function stellarity:entity/villager/trade_editor/add_from_loot_table {xp:6,max_uses:8,price_multiplier:0.05,buy_a_count:1,buy_b_id:"air",buy_b_count:1,loot_table:"stellarity:village/trades/shepherd/dye",sell_count:3}
 
-data modify entity @s Offers.Recipes set from entity @s data."stellarity.villager_trades"
