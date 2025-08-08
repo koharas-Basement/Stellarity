@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "book_of_return"
+            "stellarity:item": "book_of_return"
           }
         }
       }

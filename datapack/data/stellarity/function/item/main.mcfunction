@@ -14,7 +14,7 @@ execute as @e[type=item_display,tag=stellarity.fluffy_hammer] at @s run function
 
 execute as @e[type=marker,tag=stellarity.ender_egg.tracker] run function stellarity:item/ender_egg/main with entity @s
 
-execute as @e[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{"stellarity.item":"ender_egg"}}}},tag=!stellarity.ender_egg] unless data entity @s Passengers[0] run function stellarity:item/ender_egg/roll
+execute as @e[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{"stellarity:item":"ender_egg"}}}},tag=!stellarity.ender_egg] unless data entity @s Passengers[0] run function stellarity:item/ender_egg/roll
 
 
 

@@ -10,7 +10,7 @@
               "items": ["minecraft:wooden_hoe"],
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "starless_scythe"
+                  "stellarity:item": "starless_scythe"
                 }
               }
             }
@@ -38,7 +38,7 @@
               "items": ["minecraft:wooden_hoe"],
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "starless_scythe"
+                  "stellarity:item": "starless_scythe"
                 }
               }
             }

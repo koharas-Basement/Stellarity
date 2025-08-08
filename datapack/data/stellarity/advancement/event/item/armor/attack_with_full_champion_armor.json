@@ -13,28 +13,28 @@
                 "head": {
                   "components": {
                     "minecraft:custom_data": {
-                      "stellarity.item": "champion_helmet"
+                      "stellarity:item": "champion_helmet"
                     }
                   }
                 },
                 "chest": {
                   "components": {
                     "minecraft:custom_data": {
-                      "stellarity.item": "champion_chestplate"
+                      "stellarity:item": "champion_chestplate"
                     }
                   }
                 },
                 "legs": {
                   "components": {
                     "minecraft:custom_data": {
-                      "stellarity.item": "champion_leggings"
+                      "stellarity:item": "champion_leggings"
                     }
                   }
                 },
                 "feet": {
                   "components": {
                     "minecraft:custom_data": {
-                      "stellarity.item": "xchampion_boots"
+                      "stellarity:item": "xchampion_boots"
                     }
                   }
                 }

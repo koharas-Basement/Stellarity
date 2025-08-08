@@ -53,7 +53,7 @@
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:shulker_chestplate",
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_chestplate"
+                  "stellarity:item": "shulker_chestplate"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

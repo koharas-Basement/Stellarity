@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:frozen_carpaccio",
                 "minecraft:custom_data": {
-                  "stellarity.item": "frozen_carpaccio"
+                  "stellarity:item": "frozen_carpaccio"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.frozen_carpaccio",

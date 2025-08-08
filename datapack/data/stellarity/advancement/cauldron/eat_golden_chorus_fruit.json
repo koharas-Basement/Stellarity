@@ -34,7 +34,7 @@
           "items": ["minecraft:chorus_fruit"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.item": "golden_chorus_fruit"
+              "stellarity:item": "golden_chorus_fruit"
             }
           }
         }

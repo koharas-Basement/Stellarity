@@ -20,7 +20,7 @@
                   ]
                 },
                 "minecraft:custom_data": {
-                  "stellarity.item": "endurance_potion"
+                  "stellarity:item": "endurance_potion"
                 },
                 "minecraft:custom_name": {
                   "translate": "item.stellarity.endurance_potion",

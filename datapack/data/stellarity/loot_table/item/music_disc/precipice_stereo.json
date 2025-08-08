@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "music_disc_precipice_stereo"
+                  "stellarity:item": "music_disc_precipice_stereo"
                 },
                 "minecraft:item_model": "stellarity:music_disc_precipice_stereo",
                 "minecraft:jukebox_playable": "stellarity:precipice_stereo"

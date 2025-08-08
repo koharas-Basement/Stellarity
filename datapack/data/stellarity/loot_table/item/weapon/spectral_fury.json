@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:spectral_fury",
                 "minecraft:custom_data": {
-                  "stellarity.item": "spectral_fury"
+                  "stellarity:item": "spectral_fury"
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:max_damage": 636,

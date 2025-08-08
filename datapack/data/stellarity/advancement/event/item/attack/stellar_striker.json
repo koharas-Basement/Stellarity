@@ -14,7 +14,7 @@
                   "items": ["minecraft:netherite_sword"],
                   "predicates": {
                     "minecraft:custom_data": {
-                      "stellarity.item": "stellar_striker"
+                      "stellarity:item": "stellar_striker"
                     }
                   }
                 }

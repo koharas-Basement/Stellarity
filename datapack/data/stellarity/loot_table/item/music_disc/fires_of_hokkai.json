@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "music_disc_fires_of_hokkai"
+                  "stellarity:item": "music_disc_fires_of_hokkai"
                 },
                 "minecraft:item_model": "stellarity:music_disc_fires_of_hokkai",
                 "minecraft:jukebox_playable": "stellarity:fires_of_hokkai"

@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "spectral_fury"
+            "stellarity:item": "spectral_fury"
           }
         }
       }

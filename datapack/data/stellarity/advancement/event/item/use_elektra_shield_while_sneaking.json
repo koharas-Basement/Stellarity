@@ -38,7 +38,7 @@
           "items": ["minecraft:shield"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.item": "copper_elektra_shield"
+              "stellarity:item": "copper_elektra_shield"
             }
           }
         }

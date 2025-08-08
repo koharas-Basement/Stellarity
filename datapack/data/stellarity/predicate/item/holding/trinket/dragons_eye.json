@@ -6,7 +6,7 @@
       "container.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "dragons_eye"
+            "stellarity:item": "dragons_eye"
           }
         }
       }

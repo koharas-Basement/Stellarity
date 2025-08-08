@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:crystal_heartfish",
                 "minecraft:custom_data": {
-                  "stellarity.item": "crystal_heartfish"
+                  "stellarity:item": "crystal_heartfish"
                 },
                 "rarity": "epic",
                 "minecraft:item_name": {

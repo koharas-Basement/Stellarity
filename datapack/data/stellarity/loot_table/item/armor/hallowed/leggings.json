@@ -42,7 +42,7 @@
                 "minecraft:dyed_color": 16768338,
                 "minecraft:item_model": "stellarity:hallowed_leggings",
                 "minecraft:custom_data": {
-                  "stellarity.item": "hallowed_leggings"
+                  "stellarity:item": "hallowed_leggings"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

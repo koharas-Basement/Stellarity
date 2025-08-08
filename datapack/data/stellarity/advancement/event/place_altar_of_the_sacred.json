@@ -11,7 +11,7 @@
               "items": ["minecraft:chiseled_quartz_block"],
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "altar_of_the_sacred"
+                  "stellarity:item": "altar_of_the_sacred"
                 }
               }
             }

@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:bell_flower",
                 "minecraft:custom_data": {
-                  "stellarity.item": "bell_flower"
+                  "stellarity:item": "bell_flower"
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:item_name": {

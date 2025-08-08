@@ -6,7 +6,7 @@
       "legs": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "floral_leggings"
+            "stellarity:item": "floral_leggings"
           }
         }
       }

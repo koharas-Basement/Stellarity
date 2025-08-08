@@ -47,7 +47,7 @@
                 "minecraft:dyed_color": 16552659,
                 "minecraft:item_model": "stellarity:floral_boots",
                 "minecraft:custom_data": {
-                  "stellarity.item": "floral_boots"
+                  "stellarity:item": "floral_boots"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

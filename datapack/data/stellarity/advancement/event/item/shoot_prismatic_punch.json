@@ -9,7 +9,7 @@
           "items": ["minecraft:crossbow"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.item": "prismatic_punch"
+              "stellarity:item": "prismatic_punch"
             }
           }
         }

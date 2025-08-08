@@ -42,7 +42,7 @@
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:shulker_boots",
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_boots"
+                  "stellarity:item": "shulker_boots"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

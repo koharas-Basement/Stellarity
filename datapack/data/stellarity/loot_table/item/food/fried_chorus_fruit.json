@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:fried_chorus_fruit",
                 "minecraft:custom_data": {
-                  "stellarity.item": "fried_chorus_fruit"
+                  "stellarity:item": "fried_chorus_fruit"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.fried_chorus_fruit",

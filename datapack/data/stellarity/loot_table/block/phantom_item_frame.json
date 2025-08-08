@@ -38,7 +38,7 @@
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:custom_data": {
-                  "stellarity.item": "phantom_item_frame"
+                  "stellarity:item": "phantom_item_frame"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.phantom_item_frame"

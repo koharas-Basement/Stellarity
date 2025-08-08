@@ -8,7 +8,7 @@
           "items": ["minecraft:honey_bottle"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.item": "royal_jelly"
+              "stellarity:item": "royal_jelly"
             }
           }
         }
@@ -21,7 +21,7 @@
           "items": ["minecraft:honey_bottle"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.item": "royal_jelly_ii"
+              "stellarity:item": "royal_jelly_ii"
             }
           }
         }

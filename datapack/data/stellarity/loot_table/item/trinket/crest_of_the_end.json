@@ -49,7 +49,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "crest_of_the_end"
+                  "stellarity:item": "crest_of_the_end"
                 },
                 "rarity": "rare",
                 "minecraft:item_name": {

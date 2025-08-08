@@ -48,7 +48,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "alpha_wooden_sword"
+                  "stellarity:item": "alpha_wooden_sword"
                 },
                 "minecraft:item_model": "stellarity:ancient_wooden_sword",
                 "minecraft:damage_resistant": {

@@ -42,7 +42,7 @@
                 "minecraft:dyed_color": 16768338,
                 "minecraft:item_model": "stellarity:hallowed_chestplate",
                 "minecraft:custom_data": {
-                  "stellarity.item": "hallowed_chestplate"
+                  "stellarity:item": "hallowed_chestplate"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

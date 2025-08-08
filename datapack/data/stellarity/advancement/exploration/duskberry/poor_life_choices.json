@@ -35,7 +35,7 @@
           "items": ["minecraft:sweet_berries"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.item": "duskberry"
+              "stellarity:item": "duskberry"
             }
           }
         }
@@ -48,7 +48,7 @@
           "items": ["minecraft:sweet_berries"],
           "components": {
             "minecraft:custom_data": {
-              "stellarity.item": "duskberry"
+              "stellarity:item": "duskberry"
             }
           }
         },
@@ -67,7 +67,7 @@
               "items": ["minecraft:sweet_berries"],
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "duskberry"
+                  "stellarity:item": "duskberry"
                 }
               }
             }

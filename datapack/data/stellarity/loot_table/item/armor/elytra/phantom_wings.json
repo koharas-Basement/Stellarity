@@ -31,7 +31,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:phantom_wings",
                 "minecraft:custom_data": {
-                  "stellarity.item": "phantom_wings"
+                  "stellarity:item": "phantom_wings"
                 },
                 "rarity": "uncommon",
                 "minecraft:equippable": {

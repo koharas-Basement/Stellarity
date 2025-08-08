@@ -53,7 +53,7 @@
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:shulker_leggings",
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_leggings"
+                  "stellarity:item": "shulker_leggings"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

@@ -8,7 +8,7 @@
           "items": ["minecraft:pufferfish"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.item": "pufferfish"
+              "stellarity:item": "pufferfish"
             }
           }
         }

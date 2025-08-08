@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:sushi",
                 "minecraft:custom_data": {
-                  "stellarity.item": "sushi"
+                  "stellarity:item": "sushi"
                 },
                 "minecraft:food": {
                   "nutrition": 4,

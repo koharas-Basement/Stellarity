@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:fleshy_piranha",
                 "minecraft:custom_data": {
-                  "stellarity.item": "fleshy_piranha"
+                  "stellarity:item": "fleshy_piranha"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.fleshy_piranha"

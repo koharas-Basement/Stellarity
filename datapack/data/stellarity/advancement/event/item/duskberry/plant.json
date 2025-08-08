@@ -11,7 +11,7 @@
               "items": ["minecraft:sweet_berries"],
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "duskberry"
+                  "stellarity:item": "duskberry"
                 }
               }
             }

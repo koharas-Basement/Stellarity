@@ -46,7 +46,7 @@
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:reinforced_horse_armor",
                 "minecraft:custom_data": {
-                  "stellarity.item": "reinforced_horse_armor"
+                  "stellarity:item": "reinforced_horse_armor"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

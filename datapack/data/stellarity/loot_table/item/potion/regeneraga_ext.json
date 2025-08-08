@@ -26,7 +26,7 @@
                   ]
                 },
                 "minecraft:custom_data": {
-                  "stellarity.item": "regeneraga_ext"
+                  "stellarity:item": "regeneraga_ext"
                 },
                 "minecraft:custom_name": {
                   "translate": "item.stellarity.regeneraga",

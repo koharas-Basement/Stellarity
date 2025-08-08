@@ -47,7 +47,7 @@
                 "minecraft:dyed_color": 16552659,
                 "minecraft:item_model": "stellarity:floral_helmet",
                 "minecraft:custom_data": {
-                  "stellarity.item": "floral_helmet"
+                  "stellarity:item": "floral_helmet"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

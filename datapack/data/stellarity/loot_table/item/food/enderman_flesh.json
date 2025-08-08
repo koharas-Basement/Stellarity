@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:enderman_flesh",
                 "minecraft:custom_data": {
-                  "stellarity.item": "enderman_flesh"
+                  "stellarity:item": "enderman_flesh"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.enderman_flesh",

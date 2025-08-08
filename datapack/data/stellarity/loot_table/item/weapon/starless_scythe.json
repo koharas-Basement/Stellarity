@@ -68,7 +68,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:starless_scythe",
                 "minecraft:custom_data": {
-                  "stellarity.item": "starless_scythe"
+                  "stellarity:item": "starless_scythe"
                 },
                 "minecraft:max_damage": 1232,
                 "minecraft:item_name": {

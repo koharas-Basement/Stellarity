@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:prismatic_pearl",
                 "minecraft:custom_data": {
-                  "stellarity.item": "prismatic_pearl"
+                  "stellarity:item": "prismatic_pearl"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.prismatic_pearl",

@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:prismember",
                 "minecraft:custom_data": {
-                  "stellarity.item": "prismember"
+                  "stellarity:item": "prismember"
                 },
                 "minecraft:rarity": "epic",
                 "minecraft:item_name": {

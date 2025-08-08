@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "crest_of_the_end"
+            "stellarity:item": "crest_of_the_end"
           }
         }
       }

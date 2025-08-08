@@ -6,7 +6,7 @@
       "weapon.offhand": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "spirit_dagger"
+            "stellarity:item": "spirit_dagger"
           }
         }
       }

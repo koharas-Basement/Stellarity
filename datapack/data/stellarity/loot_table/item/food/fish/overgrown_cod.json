@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:overgrown_cod",
                 "minecraft:custom_data": {
-                  "stellarity.item": "overgrown_cod"
+                  "stellarity:item": "overgrown_cod"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.overgrown_cod"

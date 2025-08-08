@@ -6,7 +6,7 @@
       "weapon.mainhand": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "stellar_striker"
+            "stellarity:item": "stellar_striker"
           }
         }
       }

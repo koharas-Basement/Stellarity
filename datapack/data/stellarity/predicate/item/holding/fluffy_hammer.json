@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "fluffy_hammer"
+            "stellarity:item": "fluffy_hammer"
           }
         }
       }

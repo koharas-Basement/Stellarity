@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:grilled_enderman_flesh",
                 "minecraft:custom_data": {
-                  "stellarity.item": "grilled_enderman_flesh"
+                  "stellarity:item": "grilled_enderman_flesh"
                 },
                 "minecraft:food": {
                   "nutrition": 6,

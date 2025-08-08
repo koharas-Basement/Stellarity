@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:enderite_smithing_template",
                 "minecraft:custom_data": {
-                  "stellarity.item": "enderite_smithing_template"
+                  "stellarity:item": "enderite_smithing_template"
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:item_name": {

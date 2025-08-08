@@ -20,7 +20,7 @@
           "items": ["minecraft:cooked_cod"],
           "predicates": {
             "minecraft:custom_data": {
-              "stellarity.item": "crystal_heartfish"
+              "stellarity:item": "crystal_heartfish"
             }
           }
         }

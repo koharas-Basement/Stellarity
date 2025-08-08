@@ -13,7 +13,7 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "stellarity:soaring_insignia",
                 "minecraft:custom_data": {
-                  "stellarity.item": "soaring_insignia"
+                  "stellarity:item": "soaring_insignia"
                 },
                 "rarity": "epic",
                 "minecraft:damage_resistant": {

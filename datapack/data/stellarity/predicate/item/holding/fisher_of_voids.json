@@ -6,7 +6,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "fisher_of_voids"
+            "stellarity:item": "fisher_of_voids"
           }
         }
       }

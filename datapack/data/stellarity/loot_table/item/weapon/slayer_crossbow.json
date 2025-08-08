@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:slayer_crossbow",
                 "minecraft:custom_data": {
-                  "stellarity.item": "slayer_crossbow"
+                  "stellarity:item": "slayer_crossbow"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

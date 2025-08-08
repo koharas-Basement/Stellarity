@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:flarefin_koi",
                 "minecraft:custom_data": {
-                  "stellarity.item": "flarefin_koi"
+                  "stellarity:item": "flarefin_koi"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.flarefin_koi"

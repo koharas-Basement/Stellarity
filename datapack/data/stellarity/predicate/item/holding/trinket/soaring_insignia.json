@@ -7,7 +7,7 @@
         "items": ["minecraft:gold_nugget"],
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "soaring_insignia"
+            "stellarity:item": "soaring_insignia"
           }
         }
       }

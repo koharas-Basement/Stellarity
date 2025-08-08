@@ -42,7 +42,7 @@
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:shulker_helmet",
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_helmet"
+                  "stellarity:item": "shulker_helmet"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

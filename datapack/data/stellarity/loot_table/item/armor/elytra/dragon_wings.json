@@ -36,7 +36,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:dragon_wings",
                 "minecraft:custom_data": {
-                  "stellarity.item": "dragon_wings"
+                  "stellarity:item": "dragon_wings"
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"

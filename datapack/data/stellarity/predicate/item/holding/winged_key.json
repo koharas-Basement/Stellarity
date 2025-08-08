@@ -7,7 +7,7 @@
       "weapon.*": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "winged_key"
+            "stellarity:item": "winged_key"
           }
         }
       }

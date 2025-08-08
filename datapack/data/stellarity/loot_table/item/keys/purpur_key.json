@@ -31,7 +31,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:purpur_key",
                 "minecraft:custom_data": {
-                  "stellarity.item": "purpur_key"
+                  "stellarity:item": "purpur_key"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.purpur_key"

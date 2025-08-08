@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:hallowed_ingot",
                 "minecraft:custom_data": {
-                  "stellarity.item": "hallowed_ingot"
+                  "stellarity:item": "hallowed_ingot"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.hallowed_ingot",

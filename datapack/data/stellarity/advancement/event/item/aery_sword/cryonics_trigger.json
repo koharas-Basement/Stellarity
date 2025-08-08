@@ -9,7 +9,7 @@
             "weapon.*": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "harvester",
+                  "stellarity:item": "harvester",
                   "stellarity.aery_sword": {
                     "abilities": ["cryonics"]
                   }

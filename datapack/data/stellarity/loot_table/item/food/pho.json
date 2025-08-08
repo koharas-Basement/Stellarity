@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:pho",
                 "minecraft:custom_data": {
-                  "stellarity.item": "pho"
+                  "stellarity:item": "pho"
                 },
                 "minecraft:food": {
                   "nutrition": 13,

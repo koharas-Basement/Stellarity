@@ -13,7 +13,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:frost_minnow",
                 "minecraft:custom_data": {
-                  "stellarity.item": "frost_minnow"
+                  "stellarity:item": "frost_minnow"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.frost_minnow"

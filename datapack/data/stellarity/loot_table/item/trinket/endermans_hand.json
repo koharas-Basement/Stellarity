@@ -31,7 +31,7 @@
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "stellarity:endermans_hand",
                 "minecraft:custom_data": {
-                  "stellarity.item": "endermans_hand"
+                  "stellarity:item": "endermans_hand"
                 },
                 "minecraft:max_stack_size": 1,
                 "rarity": "uncommon",

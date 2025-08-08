@@ -13,10 +13,10 @@ stopsound @a[distance=..32] * entity.glow_item_frame.place
 # make up more as needed and implement more checks as needed
 
 # orientation restrictions
-  execute if data entity @s data."stellarity.block"{"valid_placement":"ceiling"} unless data entity @s {"Facing":0b} run scoreboard players set @s stellarity.misc 1
+  execute if data entity @s data."stellarity:block"{"valid_placement":"ceiling"} unless data entity @s {"Facing":0b} run scoreboard players set @s stellarity.misc 1
 
-execute if score @s stellarity.misc matches 1 run function stellarity:block/place/fail with entity @s data."stellarity.block"
-execute unless score @s stellarity.misc matches 1 run function stellarity:block/place/success with entity @s data."stellarity.block"
+execute if score @s stellarity.misc matches 1 run function stellarity:block/place/fail with entity @s data."stellarity:block"
+execute unless score @s stellarity.misc matches 1 run function stellarity:block/place/success with entity @s data."stellarity:block"
 
 
 kill @s

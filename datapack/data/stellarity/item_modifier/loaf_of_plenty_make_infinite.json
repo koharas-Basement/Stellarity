@@ -21,7 +21,7 @@
         }
       ],
       "minecraft:custom_data": {
-        "stellarity.item": "loaf_of_plenty",
+        "stellarity:item": "loaf_of_plenty",
         "stellarity.loaf_of_plenty_final": true
       },
       "minecraft:item_model": "stellarity:loaf_of_plenty",
@@ -64,7 +64,7 @@
             }
           ],
           "minecraft:custom_data": {
-            "stellarity.item": "loaf_of_plenty",
+            "stellarity:item": "loaf_of_plenty",
             "stellarity.loaf_of_plenty_final": true
           },
           "minecraft:item_model": "stellarity:loaf_of_plenty",

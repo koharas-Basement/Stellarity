@@ -46,7 +46,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:stellar_striker",
                 "minecraft:custom_data": {
-                  "stellarity.item": "stellar_striker"
+                  "stellarity:item": "stellar_striker"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.stellar_striker",

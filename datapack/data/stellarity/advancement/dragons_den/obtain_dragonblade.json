@@ -32,7 +32,7 @@
             "items": ["minecraft:netherite_sword"],
             "components": {
               "minecraft:custom_data": {
-                "stellarity.item": "dragonblade"
+                "stellarity:item": "dragonblade"
               }
             }
           }

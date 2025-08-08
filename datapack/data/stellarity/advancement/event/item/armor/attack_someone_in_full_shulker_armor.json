@@ -22,28 +22,28 @@
             "head": {
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_helmet"
+                  "stellarity:item": "shulker_helmet"
                 }
               }
             },
             "chest": {
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_chestplate"
+                  "stellarity:item": "shulker_chestplate"
                 }
               }
             },
             "legs": {
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_leggings"
+                  "stellarity:item": "shulker_leggings"
                 }
               }
             },
             "feet": {
               "components": {
                 "minecraft:custom_data": {
-                  "stellarity.item": "shulker_boots"
+                  "stellarity:item": "shulker_boots"
                 }
               }
             }

@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:fluffy_hammer",
                 "minecraft:custom_data": {
-                  "stellarity.item": "fluffy_hammer"
+                  "stellarity:item": "fluffy_hammer"
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:max_damage": 1562,

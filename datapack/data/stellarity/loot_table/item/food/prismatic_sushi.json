@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:prismatic_sushi",
                 "minecraft:custom_data": {
-                  "stellarity.item": "prismatic_sushi"
+                  "stellarity:item": "prismatic_sushi"
                 },
                 "minecraft:food": {
                   "nutrition": 4,

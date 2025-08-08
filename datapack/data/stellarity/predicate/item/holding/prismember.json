@@ -6,7 +6,7 @@
       "weapon.mainhand": {
         "predicates": {
           "minecraft:custom_data": {
-            "stellarity.item": "prismember"
+            "stellarity:item": "prismember"
           }
         }
       }

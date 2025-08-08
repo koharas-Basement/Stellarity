@@ -53,7 +53,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:satchel_of_voids",
                 "minecraft:custom_data": {
-                  "stellarity.item": "satchel_of_voids",
+                  "stellarity:item": "satchel_of_voids",
                   "kohara.right_click": true
                 },
                 "rarity": "epic",

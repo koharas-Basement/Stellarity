@@ -15,7 +15,7 @@
                 },
                 "minecraft:max_damage": 512,
                 "minecraft:custom_data": {
-                  "stellarity.item": "starstruck_shield"
+                  "stellarity:item": "starstruck_shield"
                 },
                 "banner_patterns": [
                   {

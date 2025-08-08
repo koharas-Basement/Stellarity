@@ -39,8 +39,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "kohara.mob_death_sound": true,
-                  "kohara.mob_death_sound_id": "pixie"
+                  "kohara:mob_death_sound": "pixie"
                 }
               }
             }

@@ -33,7 +33,7 @@
               "components": {
                 "minecraft:item_model": "stellarity:chorus_petal",
                 "minecraft:custom_data": {
-                  "stellarity.item": "chorus_petal"
+                  "stellarity:item": "chorus_petal"
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.chorus_petal",
