@@ -13,7 +13,7 @@
                 "minecraft:item_model": "stellarity:endonomicon",
                 "minecraft:custom_data": {
                   "stellarity:item": "endonomicon",
-                  "kohara.right_click": true
+                  "kohara:right_click": true
                 },
                 "minecraft:rarity": "epic",
                 "minecraft:item_name": {

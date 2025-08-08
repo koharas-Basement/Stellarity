@@ -7,4 +7,3 @@ execute as @e[type=!#kohara:invalid_targets,nbt={HurtTime:10s},distance=..6.5,ta
 unless score @s stellarity.item.dragonblade.cooldown matches 1.. \
 unless score @s stellarity.item.dragonblade.until_stack_reset matches 320.. \
 at @s run function stellarity:item/dragonblade/apply_stacks
-say hi

@@ -14,7 +14,7 @@
                 "minecraft:item_model": "stellarity:book_of_updraft",
                 "minecraft:custom_data": {
                   "stellarity:item": "book_of_updraft",
-                  "kohara.right_click": true
+                  "kohara:right_click": true
                 },
                 "rarity": "uncommon",
                 "minecraft:item_name": {
