@@ -158,7 +158,7 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dispen
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ominous_trial_key"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.ominous_trial_key"
 
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ominous_trial_key","components":{"minecraft:custom_data":{stellarity.item:"gilded_purpur_key"}}}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.gilded_purpur_key"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ominous_trial_key","components":{"minecraft:custom_data":{"stellarity:item":"gilded_purpur_key"}}}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.gilded_purpur_key"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sculk_catalyst"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sculk_catalyst"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sculk_shrieker"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sculk_shrieker"

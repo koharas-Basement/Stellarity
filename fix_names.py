@@ -37,8 +37,8 @@ def request_replace(string, keys: list[str]):
   if "nbt" in keys:
     return string
   
-  if '{stellarity.item:' in string:
-    string = string.replace('{stellarity.item:', '{"stellarity:item":')
+  if '{"stellarity:item":' in string:
+    string = string.replace('{"stellarity:item":', '{"stellarity:item":')
   
   # replace = input(f"Making field {"/".join(keys)}: {string} into an object (y/n)? ");
   # if not replace.lower().startswith('y'):

@@ -20,3 +20,5 @@ loot give @s loot stellarity:item/keys/purpur_key
 loot give @s loot stellarity:item/music_disc/deviants_light_music_box
 loot give @s loot stellarity:item/music_disc/fires_of_hokkai
 loot give @s loot stellarity:item/music_disc/precipice_stereo
+
+loot give @s loot stellarity:item/ingredients/ender_egg
