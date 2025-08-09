@@ -13,7 +13,7 @@
                 "minecraft:item_model": "stellarity:harvester",
                 "minecraft:custom_data": {
                   "stellarity:item": "harvester",
-                  "stellarity.aery_sword": {
+                  "stellarity:harvester": {
                     "damage": 0,
                     "abilities": []
                   }

@@ -3,7 +3,7 @@
 data remove storage stellarity:temp elytra_trail
 data modify storage stellarity:temp elytra_trail.item set from entity @s equipment.chest.components."minecraft:custom_data"
 
-data modify storage stellarity:temp elytra_trail.color set from storage stellarity:temp elytra_trail.item."stellarity.elytra_color"
+data modify storage stellarity:temp elytra_trail.color set from storage stellarity:temp elytra_trail.item."stellarity:elytra_color"
 
 execute as @a run data get storage stellarity:temp elytra_trail
 

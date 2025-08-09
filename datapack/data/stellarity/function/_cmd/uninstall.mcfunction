@@ -85,17 +85,17 @@
             scoreboard objectives remove stellarity.item.spirit_dagger.effects_duration
 
           # Harvester, AKA Aery Sword
-            scoreboard objectives remove stellarity.item.aery_sword.damage
-            scoreboard objectives remove stellarity.item.aery_sword.progress.frost_barrier
-            scoreboard objectives remove stellarity.item.aery_sword.progress.cryonics
-            scoreboard objectives remove stellarity.item.aery_sword.progress.piercing_cold
-            scoreboard objectives remove stellarity.item.aery_sword.progress.frostburn
-            scoreboard objectives remove stellarity.item.aery_sword.progress.arctic_wind
-            scoreboard objectives remove stellarity.item.aery_sword.progress.anima_conduit
-            scoreboard objectives remove stellarity.item.aery_sword.progress.echo
-            scoreboard objectives remove stellarity.item.aery_sword.progress.embrittlement
-            scoreboard objectives remove stellarity.item.aery_sword.cryonics.duration
-            scoreboard objectives remove stellarity.item.aery_sword.cryonics.cooldown
+            scoreboard objectives remove stellarity.item.harvester.damage
+            scoreboard objectives remove stellarity.item.harvester.progress.frost_barrier
+            scoreboard objectives remove stellarity.item.harvester.progress.cryonics
+            scoreboard objectives remove stellarity.item.harvester.progress.piercing_cold
+            scoreboard objectives remove stellarity.item.harvester.progress.frostburn
+            scoreboard objectives remove stellarity.item.harvester.progress.arctic_wind
+            scoreboard objectives remove stellarity.item.harvester.progress.anima_conduit
+            scoreboard objectives remove stellarity.item.harvester.progress.echo
+            scoreboard objectives remove stellarity.item.harvester.progress.embrittlement
+            scoreboard objectives remove stellarity.item.harvester.cryonics.duration
+            scoreboard objectives remove stellarity.item.harvester.cryonics.cooldown
 
           # Kaleidoscope
             scoreboard objectives remove stellarity.item.kaleidoscope.charge

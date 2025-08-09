@@ -84,17 +84,17 @@
           scoreboard objectives add stellarity.item.spirit_dagger.effects_duration dummy
 
         # Harvester, AKA Aery Sword
-          scoreboard objectives add stellarity.item.aery_sword.damage dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.frost_barrier dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.cryonics dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.piercing_cold dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.frostburn dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.arctic_wind dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.anima_conduit dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.echo dummy
-          scoreboard objectives add stellarity.item.aery_sword.progress.embrittlement dummy
-          scoreboard objectives add stellarity.item.aery_sword.cryonics.duration dummy
-          scoreboard objectives add stellarity.item.aery_sword.cryonics.cooldown dummy
+          scoreboard objectives add stellarity.item.harvester.damage dummy
+          scoreboard objectives add stellarity.item.harvester.progress.frost_barrier dummy
+          scoreboard objectives add stellarity.item.harvester.progress.cryonics dummy
+          scoreboard objectives add stellarity.item.harvester.progress.piercing_cold dummy
+          scoreboard objectives add stellarity.item.harvester.progress.frostburn dummy
+          scoreboard objectives add stellarity.item.harvester.progress.arctic_wind dummy
+          scoreboard objectives add stellarity.item.harvester.progress.anima_conduit dummy
+          scoreboard objectives add stellarity.item.harvester.progress.echo dummy
+          scoreboard objectives add stellarity.item.harvester.progress.embrittlement dummy
+          scoreboard objectives add stellarity.item.harvester.cryonics.duration dummy
+          scoreboard objectives add stellarity.item.harvester.cryonics.cooldown dummy
 
         # Kaleidoscope
           scoreboard objectives add stellarity.item.kaleidoscope.charge dummy

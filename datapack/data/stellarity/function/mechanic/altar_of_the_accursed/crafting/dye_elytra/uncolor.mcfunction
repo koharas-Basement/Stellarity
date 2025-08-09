@@ -1,5 +1,5 @@
 execute as @n[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.elytra] run data remove entity @s Item.components."minecraft:lore".[0]
-execute as @n[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.elytra] run data remove entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color"
+execute as @n[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.elytra] run data remove entity @s Item.components."minecraft:custom_data"."stellarity:elytra_color"
 
 data modify entity @n[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.water_bucket] Item.id set value "minecraft:bucket"
 tag @n[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.water_bucket] remove stellarity.altar_of_the_accursed.minecraft.water_bucket

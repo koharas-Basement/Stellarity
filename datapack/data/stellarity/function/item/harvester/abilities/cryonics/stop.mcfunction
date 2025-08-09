@@ -28,7 +28,7 @@ particle explosion_emitter ~ ~0.5 ~ 0 0 0 1 1 force
 execute as @e[type=!#kohara:invalid_targets,distance=0.01..4] run damage @s 15 kohara:true_damage by @p[tag=stellarity.cryonics]
 execute as @e[type=!#kohara:invalid_targets,distance=5.01..7] run damage @s 4 kohara:true_damage by @p[tag=stellarity.cryonics]
 
-scoreboard players set @s stellarity.item.aery_sword.cryonics.cooldown 60
-scoreboard players reset @s stellarity.item.aery_sword.cryonics.duration
+scoreboard players set @s stellarity.item.harvester.cryonics.cooldown 60
+scoreboard players reset @s stellarity.item.harvester.cryonics.duration
 
 tag @s remove stellarity.cryonics

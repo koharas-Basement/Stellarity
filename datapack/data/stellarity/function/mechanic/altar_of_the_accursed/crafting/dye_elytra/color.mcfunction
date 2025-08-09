@@ -14,6 +14,6 @@ kill @e[type=item,distance=..1.5,tag=!stellarity.altar_of_the_accursed.minecraft
 
 advancement grant @p only stellarity:altar_of_the_accursed/dye_elytra
 
-execute unless data entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color" run data modify entity @s Item.components."minecraft:lore" insert 0 value {"translate":"item.dyed","italic":true}
+execute unless data entity @s Item.components."minecraft:custom_data"."stellarity:elytra_color" run data modify entity @s Item.components."minecraft:lore" insert 0 value {"translate":"item.dyed","italic":true}
 
-$data modify entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color" set value $(color)
+$data modify entity @s Item.components."minecraft:custom_data"."stellarity:elytra_color" set value $(color)

@@ -10,7 +10,7 @@
 
 execute if entity @s[scores={stellarity.item.satchel_of_voids.cooldown=0..}] run scoreboard players remove @s stellarity.item.satchel_of_voids.cooldown 1
 
-execute if entity @s[scores={stellarity.item.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.item.aery_sword.cryonics.cooldown 1
+execute if entity @s[scores={stellarity.item.harvester.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.item.harvester.cryonics.cooldown 1
 
 execute if entity @s[tag=stellarity.flesh_piglin.aggro_target] run function stellarity:entity/flesh_piglin/set_follow_range_1s_loop
 

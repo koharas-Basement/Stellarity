@@ -1,10 +1,10 @@
-data modify storage stellarity:temp aery_sword.custom_data set from storage stellarity:temp aery_sword.item."minecraft:custom_data"
+data modify storage stellarity:temp harvester.custom_data set from storage stellarity:temp harvester.item."minecraft:custom_data"
 
-$data modify storage stellarity:temp aery_sword.custom_data."stellarity.aery_sword".abilities append value "$(ability)"
+$data modify storage stellarity:temp harvester.custom_data."stellarity:harvester".abilities append value "$(ability)"
 $advancement grant @s only stellarity:exploration/harvester/abilities/$(ability)
 $advancement grant @s only stellarity:exploration/harvester/unlock_all_abilities $(ability)
 
-$scoreboard players reset @s stellarity.item.aery_sword.progress.$(ability)
+$scoreboard players reset @s stellarity.item.harvester.progress.$(ability)
 
 advancement grant @s only stellarity:event/toasts/harvester_unlock_ability
 
