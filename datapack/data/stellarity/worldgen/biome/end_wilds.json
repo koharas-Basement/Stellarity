@@ -51,6 +51,14 @@
         "minCount": 2,
         "maxCount": 2
       }
+    ],
+    "creature": [
+      {
+        "type": "illusioner",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 100
+      }
     ]
   },
   "spawn_costs": {

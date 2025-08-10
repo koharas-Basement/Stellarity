@@ -8,7 +8,6 @@ Haro everynyan.
  
 ## Namespaces
 - `awesomedungeonend` - compatibility with [Awesome Dungeon](https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-the-end-forge).
-- `far_end` - legacy Far End code. It will eventually be moved to and fused with `stellarity`.
 - `kohara` - [kohara's Libs](https://github.com/koharas-Basement/koharas-Libs), AKA various datapack utilities, click the link for examples and documentation.
 - `minecraft` - default minecraft namespace.
 - `stellarity` - default stellarity namespace.

@@ -31,7 +31,16 @@
       "probability": 0.001
     }
   },
-  "spawners": {},
+  "spawners": {
+    "creature": [
+      {
+        "type": "illusioner",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 100
+      }
+    ]
+  },
   "spawn_costs": {},
   "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
