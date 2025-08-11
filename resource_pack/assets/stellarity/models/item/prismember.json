@@ -1,1 +1,4 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"stellarity:item/prismember"}}
+{
+  "parent": "minecraft:item/handheld",
+  "textures": { "layer0": "stellarity:item/prismember" }
+}

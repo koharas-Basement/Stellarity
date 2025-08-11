@@ -1,1 +1,4 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"stellarity:item/purpur_key"}}
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "stellarity:item/purpur_key" }
+}

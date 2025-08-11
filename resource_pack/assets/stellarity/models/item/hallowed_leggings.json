@@ -1,1 +1,7 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"stellarity:item/hallowed_leggings","layer1":"stellarity:item/hallowed_leggings"}}
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "stellarity:item/hallowed_leggings",
+    "layer1": "stellarity:item/hallowed_leggings"
+  }
+}
