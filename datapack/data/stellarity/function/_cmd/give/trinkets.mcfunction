@@ -5,3 +5,4 @@ loot give @s loot stellarity:item/trinket/life_crystal
 loot give @s loot stellarity:item/trinket/soaring_insignia
 loot give @s loot stellarity:item/trinket/starstruck_shield
 loot give @s loot stellarity:item/trinket/endermans_hand
+loot give @s loot stellarity:item/trinket/satchel_of_voids
