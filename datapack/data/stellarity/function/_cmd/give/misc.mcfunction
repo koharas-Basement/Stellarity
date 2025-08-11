@@ -1,6 +1,3 @@
-loot give @s loot stellarity:item/tool/fisher_of_voids
-loot give @s loot stellarity:item/trinket/prismatic_pearl
-
 loot give @s loot stellarity:item/explorer_map/end_city
 loot give @s loot stellarity:item/explorer_map/village
 loot give @s loot stellarity:item/explorer_map/chapel_of_light
@@ -23,3 +20,4 @@ loot give @s loot stellarity:item/music_disc/fires_of_hokkai
 loot give @s loot stellarity:item/music_disc/precipice_stereo
 
 loot give @s loot stellarity:item/ingredients/ender_egg
+

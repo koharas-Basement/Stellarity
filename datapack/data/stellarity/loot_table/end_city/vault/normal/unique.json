@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/tome_of_return",
+          "value": "stellarity:item/spellbook/book_of_return",
           "weight": 3
         }
       ]

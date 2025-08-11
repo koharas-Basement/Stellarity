@@ -28,7 +28,7 @@
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.ender_pearl,scores={stellarity.altar_of_the_accursed.count=16}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.book,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=32}] \
-  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/craft_generic {loot:"stellarity:item/spellbook/grand_tome_of_teleportation"}
+  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/craft_generic {loot:"stellarity:item/spellbook/book_of_conveyance"}
 
 # Crest of The End
   execute if score @s stellarity.misc matches 3 \

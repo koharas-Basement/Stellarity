@@ -27,17 +27,151 @@
         },
         {
           "type": "loot_table",
-          "value": "stellarity:item/spellbook/grand_tome_of_teleportation"
+          "value": "stellarity:item/spellbook/book_of_conveyance"
         },
         {
           "type": "loot_table",
-          "value": "stellarity:item/spellbook/tome_of_return"
+          "value": "stellarity:item/spellbook/book_of_return"
         }
       ]
     },
     {
-      "rolls": 10,
+      "rolls": 1,
       "entries": [
+        {
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ],
+          "type": "loot_table",
+          "value": "stellarity:item/keys/gilded_purpur_key",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "diamond_axe"
+        },
+        {
+          "type": "item",
+          "name": "diamond_hoe"
+        },
+        {
+          "type": "item",
+          "name": "diamond_pickaxe"
+        },
+        {
+          "type": "item",
+          "name": "diamond_shovel"
+        },
+        {
+          "type": "item",
+          "name": "diamond_sword"
+        },
+        {
+          "type": "item",
+          "name": "diamond_helmet"
+        },
+        {
+          "type": "item",
+          "name": "diamond_chestplate"
+        },
+        {
+          "type": "item",
+          "name": "diamond_leggings"
+        },
+        {
+          "type": "item",
+          "name": "diamond_boots"
+        }
+      ],
+      "functions": [
+        {
+          "function": "enchant_with_levels",
+          "levels": {
+            "min": 30,
+            "max": 60
+          }
+        }
+      ]
+    },
+
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/material/enderite_shard",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 5,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/trinket/endermans_hand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:void_fishing/fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "purpur_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "purpur_pillar",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
         {
           "type": "loot_table",
           "value": "stellarity:item/food/fried_chorus_fruit",
@@ -45,8 +179,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 3,
+                "max": 7
               }
             }
           ]
@@ -63,7 +197,7 @@
               "function": "set_count",
               "count": {
                 "min": 2,
-                "max": 4
+                "max": 8
               }
             }
           ]
@@ -75,8 +209,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 4,
+                "max": 10
               }
             }
           ]
@@ -90,7 +224,7 @@
 
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 4
               }
             }
           ]
