@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.2
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/spellbook/book_of_jinx"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/spellbook/book_of_light"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/spellbook/book_of_obstruct"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/spellbook/book_of_updraft"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/spellbook/grand_tome_of_teleportation"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/spellbook/tome_of_return"
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/food/fried_chorus_fruit",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:block/ashen_froglight",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

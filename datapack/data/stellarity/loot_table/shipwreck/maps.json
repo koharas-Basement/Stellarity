@@ -7,6 +7,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/explorer_map/end_city"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/explorer_map/floating_treasure"
         }
       ]
     },

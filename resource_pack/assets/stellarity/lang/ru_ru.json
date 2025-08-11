@@ -223,6 +223,7 @@
   "filled_map.stellarity.chapel_of_light": "Карта пути к Святилищу света",
   "filled_map.stellarity.end_city": "Карта исследователя архитектуры Края",
   "filled_map.stellarity.end_village": "Карта исследователя поселений Края",
+  "filled_map.stellarity.floating_treasure": "Floating Treasure Explorer Map",
   "item.stellarity.amarene": "Амарена",
   "item.stellarity.amarene.description": "Похоже на вино, однако всё же не оно",
   "item.stellarity.amarene.flavor_text": "'Запретный сок'",

@@ -1,6 +1,3 @@
 {
-  "values": [
-    "#stellarity:biomes/regular",
-    "#stellarity:biomes/bottom"
-  ]
+  "values": ["#stellarity:biomes/regular", "#stellarity:biomes/bottom"]
 }
