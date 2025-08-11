@@ -125,11 +125,44 @@
         },
         {
           "type": "loot_table",
+          "value": "stellarity:item/material/hallowed_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 4,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/potion/luck_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true
+            },
+            {
+              "function": "limit_count",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "value": "stellarity:item/trinket/endermans_hand",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 1,
+              "add": true
+            },
+            {
+              "function": "limit_count",
+              "limit": 1
             }
           ]
         },
