@@ -6,7 +6,7 @@
   "respawn_anchor_works": false,
   "has_raids": true,
   "min_y": 0,
-  "height": 1024,
+  "height": 384,
   "natural": false,
   "coordinate_scale": 1,
   "piglin_safe": false,
