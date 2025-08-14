@@ -5,6 +5,7 @@
     scoreboard objectives remove stellarity.config.enable_end_crystal_drop
     scoreboard objectives remove stellarity.config.enable_totem_void_saving
     scoreboard objectives remove stellarity.config.dragon_health
+    scoreboard objectives remove stellarity.config.shulking_health
     scoreboard objectives remove stellarity.config.empress_of_light_health
     scoreboard objectives remove stellarity.config.allow_disenchanting
     scoreboard objectives remove stellarity.config.track_loop_delay.empress_of_light

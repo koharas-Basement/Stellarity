@@ -19,4 +19,7 @@ execute as @e[type=zombified_piglin,tag=stellarity.flesh_piglin] at @s run funct
 
 execute as @e[type=illusioner,tag=!smithed.entity] at @s if biome ~ ~ ~ #stellarity:spawns_animals run function stellarity:entity/animal/end_spawn
 
+execute as @e[type=allay,tag=stellarity.shulking] at @s run function stellarity:entity/shulking/main_fly
+execute as @e[type=shulker,tag=stellarity.shulking.body] at @s run function stellarity:entity/shulking/main
+
 function stellarity:entity/animal/convert

@@ -6,7 +6,7 @@ import amulet_nbt
 
 search = input("Search: ")
 
-for path in glob.glob("datapack/data/**/*.nbt", recursive=True):
+for path in glob.glob("datapack/data/stellarity/structure/stronghold/*.nbt", recursive=True):
   print(path)
 
 

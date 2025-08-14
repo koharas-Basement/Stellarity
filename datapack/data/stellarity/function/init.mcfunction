@@ -6,6 +6,7 @@
     scoreboard objectives add stellarity.config.enable_totem_void_saving dummy
     scoreboard objectives add stellarity.config.dragon_health dummy
     scoreboard objectives add stellarity.config.empress_of_light_health dummy
+    scoreboard objectives add stellarity.config.shulking_health dummy
     scoreboard objectives add stellarity.config.allow_disenchanting dummy
     scoreboard objectives add stellarity.config.track_loop_delay.empress_of_light dummy
     scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
