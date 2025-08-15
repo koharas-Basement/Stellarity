@@ -8,7 +8,7 @@ playsound minecraft:block.respawn_anchor.deplete hostile @a[distance=0..] ~ ~ ~ 
 kill @n[type=marker,tag=stellarity.empress_of_light.tracker]
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing] on passengers run kill @s
 kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing]
-kill @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand]
+kill @n[type=item_display,tag=stellarity.empress_of_light.model]
 kill @s
 
 scoreboard players set #empress_of_light.is_alive stellarity.misc 0

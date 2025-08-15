@@ -1,4 +1,6 @@
-data merge entity @s {equipment:{feet:{id:"minecraft:leather_boots",components:{"minecraft:damage":0,"minecraft:dyed_color":14301754},count:1b},legs:{id:"minecraft:leather_leggings",components:{"minecraft:damage":0,"minecraft:dyed_color":130617101}},chest:{id:"minecraft:leather_chestplate",components:{"minecraft:damage":0,"minecraft:dyed_color":130617101},count:1b},head:{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;2053936544,-215856798,-1154758684,548398888],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFlMmVhOWQyN2JhYjY4YjgxNGZhYmRmZjAyMWU0YjIyMzQxM2ZkNGJmODkyYmZjNTljM2ZjYzE2MjlkMmQ3NiJ9fX0="}]}},count:1b}}}
+data modify entity @n[type=item_display,tag=stellarity.empress_of_light.model] item.components."minecraft:dyed_color" set value 130617101
 
 playsound minecraft:entity.allay.hurt hostile @a[distance=0..] ~ ~ ~ 1.5 0.8
 playsound minecraft:entity.vex.hurt hostile @a[distance=0..] ~ ~ ~ 1.5 1
+
+tag @s add stellarity.empress_of_light.hurt

@@ -2,3 +2,5 @@ data modify entity @s Brain.memories."minecraft:liked_player".ttl set value 9999
 data modify entity @s Brain.memories."minecraft:liked_player".value set from entity @p UUID
 
 data modify entity @s data."stellarity:owner".UUID set from entity @s Passengers[0].UUID
+
+function stellarity:entity/shulking/init/rods

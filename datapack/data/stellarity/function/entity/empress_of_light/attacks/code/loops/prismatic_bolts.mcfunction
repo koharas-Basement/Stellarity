@@ -4,7 +4,7 @@ execute if score @s stellarity.empress_of_light.attack_duration matches ..48 run
 execute if score @s stellarity.empress_of_light.attack_duration matches 49.. run tp @s ^ ^ ^.07
 
 execute if score @s stellarity.empress_of_light.attack_duration matches 6..42 run scoreboard players add #bolts.timer stellarity.misc 1
-execute if score #bolts.timer stellarity.misc matches 4 as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] at @s rotated ~ 0 positioned ^-.3 ^1 ^0.3 run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts/summon
+execute if score #bolts.timer stellarity.misc matches 4 as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s rotated ~ 0 positioned ^-.3 ^1 ^0.3 run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts/summon
 execute if score #bolts.timer stellarity.misc matches 4 run scoreboard players reset #bolts.timer
 
 

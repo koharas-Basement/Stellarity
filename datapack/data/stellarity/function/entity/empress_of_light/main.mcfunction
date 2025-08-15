@@ -1,18 +1,23 @@
 # Teleport model AS to the hitbox vindicator
-  execute unless entity @s[tag=stellarity.empress_of_light.no_rotate] rotated as @s run tp @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] ~ ~ ~ ~ ~
-  execute if entity @s[tag=stellarity.empress_of_light.no_rotate] run tp @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] ~ ~ ~
-  execute if entity @s[tag=stellarity.empress_of_light.face_player] as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
+  execute unless entity @s[tag=stellarity.empress_of_light.no_rotate] rotated as @s run tp @n[type=item_display,tag=stellarity.empress_of_light.model] ~ ~ ~ ~ 0
+  execute if entity @s[tag=stellarity.empress_of_light.no_rotate] run tp @n[type=item_display,tag=stellarity.empress_of_light.model] ~ ~ ~
+  execute if entity @s[tag=stellarity.empress_of_light.face_player] as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ 0
 
 # Ambient particles
   particle portal ~ ~1.2 ~ 0 0 0 1.2 2
   execute if predicate kohara:chance/25percent run particle witch ~ ~2 ~ 0.3 0.3 0.3 0 1
+
+
+execute if score @s[tag=!stellarity.empress_of_light.hurt] stellarity.empress_of_light.hurt_time matches 2.. at @s run function stellarity:entity/empress_of_light/core/model/hurt
+
+execute if score @s[tag=stellarity.empress_of_light.hurt] stellarity.empress_of_light.hurt_time matches ..1 as @s run function stellarity:entity/empress_of_light/core/model/unhurt
 
 # Night or day?
   execute unless predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/loop_night
   execute if predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/loop_day
 
 # Wing animation
-  execute as @n[type=armor_stand,tag=stellarity.empress_of_light.armor_stand] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
+  execute as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
 
 # Bossbar
 
