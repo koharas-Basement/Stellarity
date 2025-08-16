@@ -4,3 +4,5 @@ Passengers:[{id:"shulker", NoAI:true, Tags:["stellarity.shulking.body","smithed.
 
 execute as @n[type=allay,tag=stellarity.shulking,distance=..5] at @s run function stellarity:entity/shulking/init/allay
 execute as @n[type=shulker,tag=stellarity.shulking.body,distance=..5] at @s run function stellarity:entity/shulking/init/shulker
+
+execute store result bossbar stellarity:shulking max run scoreboard players get #stellarity.config stellarity.config.shulking_health

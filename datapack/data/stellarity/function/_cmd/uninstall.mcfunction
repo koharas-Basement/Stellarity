@@ -179,6 +179,7 @@
       ## Mechanics
         scoreboard objectives remove stellarity.altar_of_the_accursed.count
         scoreboard objectives remove stellarity.live_time
+        scoreboard objectives remove stellarity.health
 
       scoreboard objectives remove stellarity.mechanics.void_fishing.length
       scoreboard objectives remove stellarity.mechanics.void_fishing.max_time

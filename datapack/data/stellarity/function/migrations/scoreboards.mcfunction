@@ -1,1 +1,0 @@
-scoreboard objectives remove stellarity.config.migrate_vaults

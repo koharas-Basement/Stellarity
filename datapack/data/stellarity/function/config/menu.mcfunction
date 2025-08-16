@@ -42,7 +42,7 @@ function stellarity:util/tellraw/config {title:"Boss Status Messages",descriptio
 
 function stellarity:util/tellraw/config {title:"Enable Migrations",description:"Allows conversion operations to be run every 5 seconds.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"migrations",numerical:0,suggested_value:1}
 
-function stellarity:util/tellraw/config {title:"Shulking Max Health",description:"Changes maximum health of the Shulking.",default:{"text":"500","color":"#EEEEEE"},score:"dragon_health",numerical:1,suggested_value:500}
+function stellarity:util/tellraw/config {title:"Shulking Max Health",description:"Changes maximum health of the Shulking.",default:{"text":"500","color":"#EEEEEE"},score:"shulking_health",numerical:1,suggested_value:500}
 
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 
