@@ -7,3 +7,10 @@ execute unless data entity @s Passengers[0] run function stellarity:entity/shulk
 
 
 function stellarity:entity/shulking/rods/rotate with storage stellarity:temp shulking_rods
+
+execute if score @s stellarity.misc matches ..0 run function stellarity:entity/shulking/attacks/decide
+execute unless score @s stellarity.misc matches ..0 run scoreboard players remove @s stellarity.misc 1
+
+
+
+execute as @a[distance=..4,gamemode=!creative,gamemode=!spectator] run damage @s 4 mob_attack by @n[type=allay,distance=..1,tag=stellarity.shulking]

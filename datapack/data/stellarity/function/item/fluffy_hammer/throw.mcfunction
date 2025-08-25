@@ -14,4 +14,8 @@ scoreboard players set @n[tag=stellarity.fluffy_hammer.display] stellarity.misc 
 
 execute unless entity @s[gamemode=creative] positioned ~ ~1.5 ~ as @n[type=item_display,tag=stellarity.fluffy_hammer.display] run function stellarity:item/fluffy_hammer/decrease_durability
 
+execute rotated as @s run tp @e[type=item_display,tag=stellarity.fluffy_hammer,distance=..1] ~ ~1.5 ~ ~ ~
+
 advancement revoke @s from stellarity:event/item/throw_fluffy_hammer
+
+

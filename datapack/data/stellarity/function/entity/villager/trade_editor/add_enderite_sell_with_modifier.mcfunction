@@ -3,3 +3,4 @@ $data modify entity @s Offers.Recipes append value {xp:$(xp),maxUses:$(max_uses)
 $item replace entity @s villager.0 with minecraft:$(sell) $(sell_count)
 $item modify entity @s villager.0 $(modifier)
 data modify entity @s Offers.Recipes[-1].sell set from entity @s Inventory[0]
+

@@ -25,7 +25,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity.fish.goosh.description.1",
+                  "translate": "item.stellarity.goosh.description.1",
                   "color": "#EEEEEE",
                   "italic": false
                 },
@@ -36,7 +36,7 @@
                 },
                 "",
                 {
-                  "translate": "item.stellarity.fish.goosh.flavor_text",
+                  "translate": "item.stellarity.goosh.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },

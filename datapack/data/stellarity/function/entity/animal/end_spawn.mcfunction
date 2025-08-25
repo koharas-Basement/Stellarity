@@ -1,7 +1,6 @@
-execute if biome ~ ~ ~ #stellarity:spawns_normal_animals run function stellarity:entity/animal/spawn/normal
-execute if biome ~ ~ ~ #stellarity:spawns_swamp_enhanced_animals run function stellarity:entity/animal/spawn/swamp_enhanced
-execute if biome ~ ~ ~ #stellarity:spawns_swamp_animals run function stellarity:entity/animal/spawn/swamp
+execute store result score #animal_count stellarity.misc if entity @e[type=vex,tag=stellarity.animal,distance=..128]
 
+execute if score #animal_count stellarity.misc matches ..10 run function stellarity:entity/animal/spawn/start
 
 tp ~ ~-70 ~
 kill @s

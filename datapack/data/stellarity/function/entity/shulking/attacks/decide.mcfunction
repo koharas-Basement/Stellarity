@@ -1,0 +1,12 @@
+# switch targets
+  data modify entity @s Brain.memories."minecraft:liked_player".ttl set value 99999999999999999l
+  data modify entity @s Brain.memories."minecraft:liked_player".value set from entity @r[distance=..50,gamemode=!creative,gamemode=!spectator] UUID
+
+# cooldown
+  execute store result score @s stellarity.misc run random value 60..120
+
+
+# attack
+  execute store result score @s stellarity.misc2 run random value 1..100
+
+execute if score @s stellarity.misc2 matches 1..100 run function stellarity:entity/shulking/attacks/spikes

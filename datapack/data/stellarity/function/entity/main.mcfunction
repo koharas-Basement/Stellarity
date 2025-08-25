@@ -21,5 +21,6 @@ execute as @e[type=illusioner,tag=!smithed.entity] at @s if biome ~ ~ ~ #stellar
 
 execute as @e[type=allay,tag=stellarity.shulking] at @s run function stellarity:entity/shulking/main
 execute as @e[type=shulker,tag=stellarity.shulking.body] at @s run function stellarity:entity/shulking/main_body
+execute as @e[type=item_display,tag=stellarity.shulking.spike] at @s run function stellarity:entity/shulking/attacks/spike/loop
 
 function stellarity:entity/animal/convert
