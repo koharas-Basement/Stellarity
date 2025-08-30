@@ -24,3 +24,6 @@ execute as @e[type=shulker,tag=stellarity.shulking.body] at @s run function stel
 execute as @e[type=item_display,tag=stellarity.shulking.spike] at @s run function stellarity:entity/shulking/attacks/spike/loop
 
 function stellarity:entity/animal/convert
+
+execute as @e[tag=stellarity.shulking.body] at @s run bossbar set stellarity:shulking players @a[distance=..64]
+execute unless entity @e[tag=stellarity.shulking.body] run bossbar set stellarity:shulking players

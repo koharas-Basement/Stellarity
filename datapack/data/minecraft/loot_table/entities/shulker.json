@@ -6,14 +6,8 @@
       "bonus_rolls": 0,
       "conditions": [
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "entity": "this",
-            "condition": "entity_properties",
-            "predicate": {
-              "nbt": "{Tags:[\"stellarity.obstruct.walls_solid\"]}"
-            }
-          }
+          "condition": "minecraft:reference",
+          "name": "stellarity:entity/normal_shulker_drop"
         }
       ],
       "entries": [
@@ -44,14 +38,8 @@
       "rolls": 1,
       "conditions": [
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "entity": "this",
-            "condition": "entity_properties",
-            "predicate": {
-              "nbt": "{Tags:[\"stellarity.obstruct.walls_solid\"]}"
-            }
-          }
+          "condition": "minecraft:reference",
+          "name": "stellarity:entity/normal_shulker_drop"
         }
       ],
       "entries": [
