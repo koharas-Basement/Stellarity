@@ -155,6 +155,8 @@
   "block.stellarity.altar_of_the_sacred.flavor_text": "‘不要和诅咒祭坛混淆’",
   "block.stellarity.ashen_froglight": "Ashen Froglight",
   "block.stellarity.ender_dirt": "Ender Dirt",
+  "block.stellarity.ender_dirt_path": "Ender Dirt Path",
+  "block.stellarity.ender_grass_block": "Ender Grass Block",
   "bossbar.stellarity.crystals_left": "剩余末地水晶: %s",
   "commands.stellarity.fix_markers.success": "修复了所有加载的 Stellarity 标记实体",
   "commands.stellarity.generate_end_island_features.failed": "全部已生成！",

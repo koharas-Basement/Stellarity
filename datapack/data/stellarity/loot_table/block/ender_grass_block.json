@@ -11,10 +11,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "item_name": {
-                  "translate": "block.stellarity.ender_dirt"
+                  "translate": "block.stellarity.ender_grass_block"
                 },
                 "custom_data": {
-                  "stellarity:item": "ender_dirt"
+                  "stellarity:item": "ender_grass_block"
                 },
                 "lore": [
                   "",
@@ -25,7 +25,7 @@
                   }
                 ],
                 "max_stack_size": 64,
-                "item_model": "stellarity:ender_dirt",
+                "item_model": "stellarity:ender_grass_block",
                 "entity_data": {
                   "id": "minecraft:glow_item_frame",
                   "Tags": [
@@ -38,10 +38,10 @@
 
                   "data": {
                     "stellarity:block": {
-                      "block": "dirt",
-                      "model": "stellarity:ender_dirt",
-                      "loot_table": "stellarity:block/ender_dirt",
-                      "place_sound": "block.gravel.place",
+                      "block": "grass_block",
+                      "model": "stellarity:ender_grass_block",
+                      "loot_table": "stellarity:block/ender_grass_block",
+                      "place_sound": "block.grass.place",
                       "valid_placement": "all",
                       "rotation": "none"
                     }

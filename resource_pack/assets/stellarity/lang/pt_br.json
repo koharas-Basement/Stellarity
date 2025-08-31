@@ -155,6 +155,8 @@
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Não confunda com o Altar dos Amaldiçoados'",
   "block.stellarity.ashen_froglight": "Ashen Froglight",
   "block.stellarity.ender_dirt": "Ender Dirt",
+  "block.stellarity.ender_dirt_path": "Ender Dirt Path",
+  "block.stellarity.ender_grass_block": "Ender Grass Block",
   "bossbar.stellarity.crystals_left": "Cristais do End restantes: %s",
   "commands.stellarity.fix_markers.success": "Todos os marcadores carregados do Stellarity foram corrigidos",
   "commands.stellarity.generate_end_island_features.failed": "Tudo já está gerado!",

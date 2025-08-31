@@ -155,6 +155,8 @@
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Nicht zu verwechseln mit dem Altar der Verfluchten'",
   "block.stellarity.ashen_froglight": "Ashen Froglight",
   "block.stellarity.ender_dirt": "Ender Dirt",
+  "block.stellarity.ender_dirt_path": "Ender Dirt Path",
+  "block.stellarity.ender_grass_block": "Ender Grass Block",
   "bossbar.stellarity.crystals_left": "Kristalle verbleibend: %s",
   "commands.stellarity.fix_markers.success": "Alle geladenen Stellarity Marker wurden repariert",
   "commands.stellarity.generate_end_island_features.failed": "Alles ist bereits generiert!",

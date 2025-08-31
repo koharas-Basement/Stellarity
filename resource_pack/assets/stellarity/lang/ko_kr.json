@@ -155,6 +155,8 @@
   "block.stellarity.altar_of_the_sacred.flavor_text": "'Not to be confused with Altar of The Accursed'",
   "block.stellarity.ashen_froglight": "Ashen Froglight",
   "block.stellarity.ender_dirt": "Ender Dirt",
+  "block.stellarity.ender_dirt_path": "Ender Dirt Path",
+  "block.stellarity.ender_grass_block": "Ender Grass Block",
   "bossbar.stellarity.crystals_left": "남은 엔드 수정: %s",
   "commands.stellarity.fix_markers.success": "불러와져있는 모든 Stellarity 마커를 고쳤어요",
   "commands.stellarity.generate_end_island_features.failed": "모든 것이 이미 생성되어 있어요!",
