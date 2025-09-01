@@ -38,6 +38,7 @@
 
                   "data": {
                     "stellarity:block": {
+                      "id": "ender_grass_block",
                       "block": "grass_block",
                       "model": "stellarity:ender_grass_block",
                       "loot_table": "stellarity:block/ender_grass_block",

@@ -85,9 +85,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:mending"
-              ]
+              "options": ["minecraft:mending"]
             }
           ]
         },
@@ -100,7 +98,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "stellarity:void_strike",
-                "stellarity:void_shot"
+                "stellarity:void_shot",
+                "stellarity:critical_strike"
               ]
             }
           ]

@@ -157,6 +157,8 @@
   "block.stellarity.ender_dirt": "Ender Dirt",
   "block.stellarity.ender_dirt_path": "Ender Dirt Path",
   "block.stellarity.ender_grass_block": "Ender Grass Block",
+  "block.stellarity.enderite_block": "Block of Enderite",
+  "block.stellarity.rooted_ender_dirt": "Rooted Ender Dirt",
   "bossbar.stellarity.crystals_left": "Pozostało %s Kryształów",
   "commands.stellarity.fix_markers.success": "Zaktualizowano i naprawiono wszystkie markery używane przez Stellarity",
   "commands.stellarity.generate_end_island_features.failed": "Wszystko już zostało wygenerowane!",

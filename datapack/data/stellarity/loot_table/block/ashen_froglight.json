@@ -38,6 +38,7 @@
 
                   "data": {
                     "stellarity:block": {
+                      "id": "ashen_froglight",
                       "block": "pearlescent_froglight",
                       "model": "stellarity:ashen_froglight",
                       "loot_table": "stellarity:block/ashen_froglight",

@@ -38,6 +38,7 @@
 
                   "data": {
                     "stellarity:block": {
+                      "id": "ender_dirt",
                       "block": "dirt",
                       "model": "stellarity:ender_dirt",
                       "loot_table": "stellarity:block/ender_dirt",

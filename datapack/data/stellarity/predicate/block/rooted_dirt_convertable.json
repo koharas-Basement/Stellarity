@@ -7,6 +7,13 @@
       "predicate": {
         "nbt": "{'Tags':['stellarity.block.ender_dirt']}"
       }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'Tags':['stellarity.block.ender_grass_block']}"
+      }
     }
   ]
 }

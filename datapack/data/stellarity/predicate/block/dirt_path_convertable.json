@@ -5,14 +5,21 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{'data': {'stellarity:block': {'model': 'stellarity:ender_dirt'}}}"
+        "nbt": "{'Tags':['stellarity.block.ender_dirt']}"
       }
     },
     {
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{'data': {'stellarity:block': {'model': 'stellarity:ender_grass_block'}}}"
+        "nbt": "{'Tags':['stellarity.block.ender_grass_block']}"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{'Tags':['stellarity.block.rooted_ender_dirt']}"
       }
     }
   ]
