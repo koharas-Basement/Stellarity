@@ -4,6 +4,7 @@
     "#mineable/hoe",
     "#mineable/pickaxe",
     "#mineable/shovel",
-    "#mineable/axe"
+    "#mineable/axe",
+    "#replaceable"
   ]
 }

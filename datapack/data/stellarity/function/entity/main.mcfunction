@@ -27,3 +27,5 @@ function stellarity:entity/animal/convert
 
 execute as @e[tag=stellarity.shulking.body] at @s run bossbar set stellarity:shulking players @a[distance=..64]
 execute unless entity @e[tag=stellarity.shulking.body] run bossbar set stellarity:shulking players
+
+execute as @e[type=item_display,tag=stellarity.shulking.ray] at @s run function stellarity:entity/shulking/attacks/ray/loop with entity @s data."stellarity:owner"
