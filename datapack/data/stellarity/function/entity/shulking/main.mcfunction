@@ -14,3 +14,5 @@ execute unless score @s stellarity.misc matches ..0 run scoreboard players remov
 
 
 execute as @a[distance=..4,gamemode=!creative,gamemode=!spectator] run damage @s 4 mob_attack by @n[type=allay,distance=..1,tag=stellarity.shulking]
+
+execute if data entity @s equipment.mainhand run function stellarity:entity/shulking/drop_item with entity @s equipment
