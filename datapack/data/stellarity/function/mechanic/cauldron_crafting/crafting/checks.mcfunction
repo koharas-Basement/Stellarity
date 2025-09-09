@@ -9,7 +9,7 @@
   execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:chorus_fruit","minecraft:gold_block"],amount:2}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/food/golden_chorus_fruit",breath:3}
 
 # Candied Chorus Fruit
-  execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:chorus_fruit","minecraft:sugar","minecraft:sugar"],amount:3}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/food/candied_chorus_fruit",breath:1}
+  execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:chorus_fruit","minecraft:sugar","minecraft:sugar_2"],amount:3}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/food/candied_chorus_fruit",breath:1}
 
 # Fried Chorus Fruit
   execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:chorus_fruit","minecraft:wheat","minecraft:blaze_powder"],amount:3}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/food/fried_chorus_fruit",breath:1}
@@ -99,3 +99,5 @@ execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["regene
   execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:honey_bottle","starlight_soot","minecraft:amethyst_shard","minecraft:amethyst_shard_2"],amount:4}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/potion/royal_jelly",breath:5}
 
 execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["royal_jelly","starlight_soot"],amount:2}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/potion/royal_jelly_ii",breath:3}
+
+# execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:end_stone",""],amount:3}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/food/chorus_stew",breath:2}

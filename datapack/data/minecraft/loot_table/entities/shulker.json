@@ -60,6 +60,25 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+
+      "conditions": [
+        {
+          "entity": "this",
+          "condition": "minecraft:entity_properties",
+          "predicate": {
+            "nbt": "{Tags:[\"stellarity.shulking.body\"]}"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "stellarity:entity/shulking"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/shulker"
