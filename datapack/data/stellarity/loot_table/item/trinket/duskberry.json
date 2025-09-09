@@ -54,7 +54,9 @@
               "components": {
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "stellarity:duskberry",
-                "minecraft:custom_data": {},
+                "minecraft:custom_data": {
+                  "stellarity:item": "duskberry"
+                },
                 "minecraft:max_stack_size": 1,
                 "tooltip_display": {
                   "hidden_components": ["attribute_modifiers", "enchantments"]

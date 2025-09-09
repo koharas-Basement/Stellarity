@@ -325,6 +325,18 @@
           }
         }
       }
+    },
+    "duskberry": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "duskberry"
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -352,6 +364,7 @@
     ["overgrown_cod"],
     ["prismite"],
     ["pufferfish"],
-    ["loaf_of_plenty"]
+    ["loaf_of_plenty"],
+    ["duskberry"]
   ]
 }

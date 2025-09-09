@@ -11,6 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "custom_data": {
+                  "stellarity:item": "flesh_piglin_spawn_egg"
+                },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.flesh_piglin_spawn_egg"
                 },
