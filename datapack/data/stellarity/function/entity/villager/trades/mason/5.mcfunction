@@ -10,4 +10,3 @@ function stellarity:entity/villager/trade_editor/add_enderite_sell {xp:12,max_us
 
 execute if score #trade stellarity.misc matches 2 run \
 function stellarity:entity/villager/trade_editor/add_enderite_sell {xp:12,max_uses:6,price_multiplier:0.05,buy_a_count:1,buy_b_id:"air",buy_b_count:1,sell:"chiseled_quartz_block",sell_count:2}
-

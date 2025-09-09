@@ -100,4 +100,11 @@ execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["regene
 
 execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["royal_jelly","starlight_soot"],amount:2}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/potion/royal_jelly_ii",breath:3}
 
-# execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:end_stone",""],amount:3}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:item/food/chorus_stew",breath:2}
+execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:end_stone","minecraft:dirt"],amount:2}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:block/ender_dirt",breath:2}
+
+execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:end_stone","minecraft:rooted_dirt"],amount:2}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:block/rooted_ender_dirt",breath:2}
+
+execute if data storage stellarity:temp {cauldron_crafting:{ingredients:["minecraft:end_stone","minecraft:grass_block"],amount:2}} run function stellarity:mechanic/cauldron_crafting/crafting/results/loot_table {loot:"stellarity:block/ender_grass_block",breath:2}
+
+
+
