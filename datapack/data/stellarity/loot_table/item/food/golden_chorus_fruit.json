@@ -27,8 +27,8 @@
                   "sound": "entity.generic.eat",
                   "on_consume_effects": [
                     {
-                      "type": "minecraft:teleport_randomly",
-                      "diameter": 1500
+                      "type": "teleport_randomly",
+                      "diameter": 300
                     }
                   ]
                 },
