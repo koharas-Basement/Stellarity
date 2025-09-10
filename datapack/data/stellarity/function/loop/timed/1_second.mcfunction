@@ -18,6 +18,8 @@ execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.b
 
 execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware
 
-execute as @e[tag=stellarity.animal] at @s run function stellarity:entity/animal/effects/aura
+execute as @e[type=#stellarity:end_variant_animals,tag=stellarity.animal] at @s run function stellarity:entity/animal/effects/aura
+
+execute as @e[type=allay,tag=stellarity.shulking] at @s run function stellarity:entity/shulking/main_1s
 
 schedule function stellarity:loop/timed/1_second 1s

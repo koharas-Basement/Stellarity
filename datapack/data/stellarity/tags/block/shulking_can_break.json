@@ -5,6 +5,11 @@
     "#mineable/pickaxe",
     "#mineable/shovel",
     "#mineable/axe",
-    "#replaceable"
+    "#replaceable",
+    "#kohara:glass",
+    "#minecraft:beds",
+    "#minecraft:all_signs",
+    "#minecraft:candles",
+    "#buttons"
   ]
 }
