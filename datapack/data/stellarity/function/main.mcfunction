@@ -21,5 +21,6 @@ execute as @e[type=item,tag=stellarity.item] at @s run function stellarity:loop/
   execute as @e[type=end_crystal,tag=stellarity.end_city.crystal] at @s run function stellarity:structure/end_city/crystal/main
 
 # Moved from stellarity:structure/check
-  execute as @e[type=minecraft:end_crystal,predicate=stellarity:entity/dragon/exit_portal_crystal] at @s run function stellarity:structure/exit_portal/replace
 
+
+execute as @e[type=minecraft:end_crystal,predicate=stellarity:entity/dragon/exit_portal_crystal] at @s run function stellarity:structure/exit_portal/replace
