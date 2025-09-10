@@ -50,6 +50,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "tooltip_display": {
+                  "hidden_components": ["dyed_color"]
+                },
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:shulker_chestplate",
                 "minecraft:custom_data": {

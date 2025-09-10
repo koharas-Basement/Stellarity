@@ -39,6 +39,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "tooltip_display": {
+                  "hidden_components": ["dyed_color"]
+                },
                 "minecraft:dyed_color": 16768338,
                 "minecraft:item_model": "stellarity:hallowed_boots",
                 "minecraft:custom_data": {

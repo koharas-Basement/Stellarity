@@ -44,6 +44,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "tooltip_display": {
+                  "hidden_components": ["dyed_color"]
+                },
                 "minecraft:dyed_color": 16552659,
                 "minecraft:item_model": "stellarity:floral_boots",
                 "minecraft:custom_data": {

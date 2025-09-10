@@ -43,6 +43,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "tooltip_display": {
+                  "hidden_components": ["dyed_color"]
+                },
                 "minecraft:dyed_color": 12219878,
                 "minecraft:item_model": "stellarity:reinforced_horse_armor",
                 "minecraft:custom_data": {

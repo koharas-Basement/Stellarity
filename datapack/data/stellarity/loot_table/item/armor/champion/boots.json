@@ -44,6 +44,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "tooltip_display": {
+                  "hidden_components": ["dyed_color"]
+                },
                 "minecraft:dyed_color": 11041988,
                 "minecraft:item_model": "stellarity:champion_boots",
                 "minecraft:custom_data": {
