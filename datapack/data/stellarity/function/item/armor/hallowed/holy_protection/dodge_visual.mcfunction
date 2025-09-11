@@ -18,6 +18,6 @@ particle flash ~ ~ ~ 0 0 0 0 1 force @a[distance=..32]
 particle minecraft:poof ~ ~ ~ 0.3 0.5 0.3 0 22
 
 # Ik this is a 'visual' file, but gimme a break
-playsound minecraft:block.respawn_anchor.deplete player @a[distance=0..] ~ ~ ~ 0.6 1.3
-playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 0.333 1.2
-playsound minecraft:entity.bat.takeoff player @a[distance=0..] ~ ~ ~ 0.88 1.1
+  playsound minecraft:block.respawn_anchor.deplete player @a[distance=0..] ~ ~ ~ 0.6 1.3
+  playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 0.333 1.2
+  playsound minecraft:entity.bat.takeoff player @a[distance=0..] ~ ~ ~ 0.88 1.1

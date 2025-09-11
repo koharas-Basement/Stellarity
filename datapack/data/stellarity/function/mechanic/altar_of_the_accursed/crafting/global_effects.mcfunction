@@ -14,4 +14,4 @@ playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~-.4 ~ 1
 
 kill @e[type=item,distance=..1.5,tag=!stellarity.altar_of_the_accursed.skip]
 
-advancement grant @p only stellarity:altar_of_the_accursed/cursed_crafting
+advancement grant @a[distance=..5] only stellarity:altar_of_the_accursed/cursed_crafting

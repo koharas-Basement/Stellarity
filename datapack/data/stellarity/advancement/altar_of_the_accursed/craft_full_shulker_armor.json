@@ -28,19 +28,69 @@
   },
   "parent": "stellarity:altar_of_the_accursed/cursed_crafting",
   "criteria": {
-    "craft_shulker_helmet": {
-      "trigger": "minecraft:impossible"
+    "shulker_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_helmet"
+              }
+            }
+          }
+        ]
+      }
     },
-    "craft_shulker_chestplate": {
-      "trigger": "minecraft:impossible"
+    "shulker_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_chestplate"
+              }
+            }
+          }
+        ]
+      }
     },
-    "craft_shulker_leggings": {
-      "trigger": "minecraft:impossible"
+    "shulker_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_leggings"
+              }
+            }
+          }
+        ]
+      }
     },
-    "craft_shulker_boots": {
-      "trigger": "minecraft:impossible"
+    "shulker_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_boots"
+              }
+            }
+          }
+        ]
+      }
     }
   },
+  "requirements": [
+    ["shulker_boots"],
+    ["shulker_leggings"],
+    ["shulker_chestplate"],
+    ["shulker_helmet"]
+  ],
   "rewards": {
     "experience": 150
   }
