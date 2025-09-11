@@ -1,7 +1,13 @@
 {
   "asset_id": "stellarity:snare",
-  "author": "Opliz",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.snare.author"
+  },
   "height": 1,
   "width": 1,
-  "title": "Snare"
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.snare.title"
+  }
 }

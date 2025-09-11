@@ -1,7 +1,13 @@
 {
   "asset_id": "stellarity:dragonblade",
-  "author": "Kohara",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.dragonblade.author"
+  },
   "height": 2,
   "width": 2,
-  "title": "Dragonblade"
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.dragonblade.title"
+  }
 }

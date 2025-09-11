@@ -1,7 +1,13 @@
 {
   "asset_id": "stellarity:majestical_brew",
-  "author": "Cohara",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.majestical_brew.author"
+  },
   "height": 3,
   "width": 3,
-  "title": "Majestical Brew"
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.majestical_brew.title"
+  }
 }

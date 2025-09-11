@@ -1,7 +1,13 @@
 {
   "asset_id": "stellarity:the_obsidian_reliquary",
-  "author": "DocBrown2010641",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.the_obsidian_reliquary.author"
+  },
   "height": 2,
   "width": 2,
-  "title": "The Obsidian Reliquary"
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.the_obsidian_reliquary.title"
+  }
 }
