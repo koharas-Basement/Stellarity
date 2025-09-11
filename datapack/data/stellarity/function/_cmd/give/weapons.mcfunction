@@ -10,6 +10,7 @@ loot give @s loot stellarity:item/weapon/starless_scythe
 loot give @s loot stellarity:item/weapon/tamaris
 loot give @s loot stellarity:item/weapon/spectral_fury
 loot give @s loot stellarity:item/weapon/stellar_striker
+loot give @s loot stellarity:item/weapon/call_of_the_void
 
 loot give @s loot stellarity:item/spellbook/book_of_conveyance
 loot give @s loot stellarity:item/spellbook/book_of_jinx
