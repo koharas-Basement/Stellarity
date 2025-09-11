@@ -26,18 +26,6 @@
   },
   "parent": "minecraft:husbandry/balanced_diet",
   "criteria": {
-    "amethyst_budfish": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "components": {
-            "minecraft:custom_data": {
-              "stellarity:item": "amethyst_budfish"
-            }
-          }
-        }
-      }
-    },
     "candied_chorus_fruit": {
       "trigger": "minecraft:consume_item",
       "conditions": {
@@ -377,7 +365,6 @@
     ["prismite"],
     ["pufferfish"],
     ["loaf_of_plenty"],
-    ["duskberry"],
-    ["amethyst_budfish"]
+    ["duskberry"]
   ]
 }
