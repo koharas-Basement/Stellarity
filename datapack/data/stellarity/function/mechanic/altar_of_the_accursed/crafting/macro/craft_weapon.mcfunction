@@ -4,5 +4,6 @@ data modify storage stellarity:temp altar_of_the_accursed.enchants set from stor
 $loot spawn ~ ~.4 ~ loot $(loot)
 
 data modify entity @n[type=item,tag=!stellarity.altar_of_the_accursed.checked_type] Item.components."minecraft:enchantments" set from storage stellarity:temp altar_of_the_accursed.enchants
+data modify entity @n[type=item,tag=!stellarity.altar_of_the_accursed.checked_type] Item.components."minecraft:trim" set from storage stellarity:temp altar_of_the_accursed.item."minecraft:trim"
 
 function stellarity:mechanic/altar_of_the_accursed/crafting/global_effects

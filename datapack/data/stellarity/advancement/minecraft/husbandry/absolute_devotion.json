@@ -28,10 +28,22 @@
   },
   "parent": "minecraft:husbandry/obtain_netherite_hoe",
   "criteria": {
-    "seek_medical_attention_dumbass": {
-      "trigger": "minecraft:impossible"
+    "shulker_hoe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "shulker_hoe"
+              }
+            }
+          }
+        ]
+      }
     }
   },
+  "requirements": [["shulker_hoe"]],
   "rewards": {
     "experience": 150
   }
