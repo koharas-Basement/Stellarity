@@ -8,8 +8,10 @@
 
 
 # attack
-  execute store result score @s stellarity.misc2 run random value 1..130
+  execute store result score @s stellarity.misc2 run random value 1..170
 
 execute if score @s stellarity.misc2 matches 0..50 run function stellarity:entity/shulking/attacks/spikes
 execute if score @s stellarity.misc2 matches 51..100 run function stellarity:entity/shulking/attacks/ray
 execute if score @s stellarity.misc2 matches 101..130 run function stellarity:entity/shulking/attacks/explosive_shulker with entity @s Passengers[0]
+execute if score @s stellarity.misc2 matches 131..160 run summon shulker ~ ~ ~ {attributes:[{id:"scale",base:0.125}]}
+execute if score @s stellarity.misc2 matches 161..170 summon skeleton run function stellarity:entity/shulking/attacks/shulkhead_skeleton

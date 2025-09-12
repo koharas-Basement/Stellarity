@@ -10,6 +10,17 @@
     "#minecraft:beds",
     "#minecraft:all_signs",
     "#minecraft:candles",
-    "#buttons"
+    "#buttons",
+    "#incorrect_for_gold_tool",
+    "#climbable",
+    "ochre_froglight",
+    "verdant_froglight",
+    "pearlescent_froglight",
+    "#shulker_boxes",
+    "glowstone",
+    "#leaves",
+    "#flowers",
+    "#coral_plants",
+    "#coral_blocks"
   ]
 }
