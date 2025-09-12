@@ -34,7 +34,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "stellarity:end_city/crystal_crusher",
   "criteria": {
