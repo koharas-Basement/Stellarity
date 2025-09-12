@@ -104,7 +104,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "stellarity:item": ""
+              "stellarity:item": "frozen_carpaccio"
             }
           }
         }
