@@ -67,4 +67,3 @@ execute if score #damage stellarity.misc matches 1200 unless score #ability_coun
 
 # Imma put it here because I already have both variables needed to complete this
   execute if score #damage stellarity.misc matches 1200 if score #ability_count stellarity.misc matches 3 run advancement grant @s only stellarity:exploration/harvester/max_out
-
