@@ -7,10 +7,6 @@ execute store result entity @s Item.count byte 1 run scoreboard players get #cou
 
 kill @e[type=item,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{"stellarity:item":"shulker_body"}}}}]
 
-execute positioned ~ ~-1 ~ run kill @n[type=item_display,tag=stellarity.altar_of_the_sacred,distance=..1]
-execute positioned ~ ~-1 ~ run kill @n[type=marker,tag=stellarity.altar_of_the_sacred,distance=..1]
-
-
 particle explosion ~ ~ ~ 0 0 0 1 0 force @a[distance=..32]
 particle smoke ~ ~ ~ 0 0 0 0.12 14 normal
 particle end_rod ~ ~ ~ 0 0 0 0.12 28 normal
