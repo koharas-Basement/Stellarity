@@ -8,7 +8,7 @@ unless score #empress_of_light.is_alive stellarity.misc matches 1 \
 if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/spawn_empress
 
-execute unless score #difficulty stellarity.misc matches 0 \
+execute unless score #difficulty stellarity.misc matches 0 unless entity @n[type=allay,tag=stellarity.shulking,distance=..100] \
 if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"shulker_body"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/spawn_shulking
 
