@@ -73,6 +73,47 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/tool/shulker_pickaxe"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/tool/shulker_axe"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/tool/shulker_sword"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/tool/shulker_shovel"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/tool/shulker_hoe"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/armor/shulker/boots"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/armor/shulker/chestplate"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/armor/shulker/leggings"
+        },
+        {
+          "type": "loot_table",
+          "value": "stellarity:item/armor/shulker/boots"
+        }
+      ]
     }
   ]
 }

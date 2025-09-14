@@ -21,6 +21,8 @@
     "#leaves",
     "#flowers",
     "#coral_plants",
-    "#coral_blocks"
+    "#coral_blocks",
+    "#kohara:glass",
+    "#banners"
   ]
 }
