@@ -7,135 +7,119 @@
     "sounds": [],
     "replace": true
   },
-  "entity.enderman.ambient": {
-    "sounds": [
-      "entity/enderman/idle1",
-      "entity/enderman/idle2",
-      "entity/enderman/idle3",
-      "entity/enderman/idle4",
-      "entity/enderman/idle5"
-    ],
-    "subtitle": "subtitles.entity.enderman.ambient",
-    "replace": true
-  },
-  "entity.enderman.death": {
-    "sounds": ["entity/enderman/death"],
-    "subtitle": "subtitles.entity.enderman.death",
-    "replace": true
-  },
   "entity.enderman.hurt": {
     "sounds": [
-      "entity/enderman/hit1",
-      "entity/enderman/hit2",
-      "entity/enderman/hit3",
-      "entity/enderman/hit4"
+      "mob/endermen/hit1",
+      "mob/endermen/hit2",
+      "mob/endermen/hit3",
+      "mob/endermen/hit4"
     ],
     "subtitle": "subtitles.entity.enderman.hurt",
     "replace": true
   },
   "entity.enderman.scream": {
     "sounds": [
-      "entity/enderman/scream1",
-      "entity/enderman/scream2",
-      "entity/enderman/scream3",
-      "entity/enderman/scream4"
+      "mob/endermen/scream1",
+      "mob/endermen/scream2",
+      "mob/endermen/scream3",
+      "mob/endermen/scream4"
     ],
     "subtitle": "subtitles.entity.enderman.ambient",
     "replace": true
   },
   "entity.enderman.stare": {
-    "sounds": ["entity/enderman/stare_1", "entity/enderman/stare_2"],
+    "sounds": ["mob/endermen/stare_1", "mob/endermen/stare_2"],
     "subtitle": "subtitles.entity.enderman.stare",
     "replace": true
   },
   "entity.enderman.teleport": {
     "sounds": [
-      "entity/enderman/teleport_1",
-      "entity/enderman/teleport_2",
-      "entity/enderman/teleport_3",
-      "entity/enderman/teleport_4",
-      "entity/enderman/teleport_5",
-      "entity/enderman/teleport_6",
-      "entity/enderman/teleport_7",
-      "entity/enderman/teleport_8"
+      "mob/endermen/teleport_1",
+      "mob/endermen/teleport_2",
+      "mob/endermen/teleport_3",
+      "mob/endermen/teleport_4",
+      "mob/endermen/teleport_5",
+      "mob/endermen/teleport_6",
+      "mob/endermen/teleport_7",
+      "mob/endermen/teleport_8"
     ],
     "subtitle": "subtitles.entity.enderman.teleport",
     "replace": true
   },
   "entity.endermite.ambient": {
     "sounds": [
-      "entity/endermite/idle_1",
-      "entity/endermite/idle_2",
-      "entity/endermite/idle_3"
+      "mob/endermite/idle_1",
+      "mob/endermite/idle_2",
+      "mob/endermite/idle_3"
     ],
     "subtitle": "subtitles.entity.endermite.ambient",
     "replace": true
   },
   "entity.endermite.death": {
-    "sounds": ["entity/endermite/death_1", "entity/endermite/death_2"],
+    "sounds": ["mob/endermite/death_1", "mob/endermite/death_2"],
     "subtitle": "subtitles.entity.endermite.death",
     "replace": true
   },
   "entity.endermite.hurt": {
     "sounds": [
-      "entity/endermite/hurt_1",
-      "entity/endermite/hurt_2",
-      "entity/endermite/hurt_3"
+      "mob/endermite/hurt_1",
+      "mob/endermite/hurt_2",
+      "mob/endermite/hurt_3"
     ],
     "subtitle": "subtitles.entity.endermite.hurt",
     "replace": true
   },
   "entity.shulker.hurt_closed": {
     "sounds": [
-      "entity/shulker/hurt_closed_1",
-      "entity/shulker/hurt_closed_2",
-      "entity/shulker/hurt_closed_3",
-      "entity/shulker/hurt_closed_4"
+      "mob/shulker/hurt_closed_1",
+      "mob/shulker/hurt_closed_2",
+      "mob/shulker/hurt_closed_3",
+      "mob/shulker/hurt_closed_4"
     ],
     "subtitle": "subtitles.entity.shulker.hurt",
     "replace": true
   },
   "entity.shulker.shoot": {
     "sounds": [
-      "entity/shulker/shoot_1",
-      "entity/shulker/shoot_2",
-      "entity/shulker/shoot_3",
-      "entity/shulker/shoot_4"
+      "mob/shulker/shoot_1",
+      "mob/shulker/shoot_2",
+      "mob/shulker/shoot_3",
+      "mob/shulker/shoot_4"
     ],
     "subtitle": "subtitles.entity.shulker.shoot",
     "replace": true
   },
   "entity.shulker.teleport": {
-    "sounds": ["entity/enderman/portal", "entity/enderman/portal2"],
+    "sounds": ["mob/endermen/portal", "mob/endermen/portal2"],
     "subtitle": "subtitles.entity.shulker.teleport",
     "replace": true
   },
   "entity.shulker_bullet.hit": {
     "sounds": [
-      "entity/shulker_bullet/hit_1",
-      "entity/shulker_bullet/hit_2",
-      "entity/shulker_bullet/hit_3",
-      "entity/shulker_bullet/hit_4"
+      "mob/shulker_bullet/hit_1",
+      "mob/shulker_bullet/hit_2",
+      "mob/shulker_bullet/hit_3",
+      "mob/shulker_bullet/hit_4"
     ],
     "subtitle": "subtitles.entity.shulker_bullet.hit",
     "replace": true
   },
   "entity.shulker_bullet.hurt": {
     "sounds": [
-      "entity/shulker_bullet/hit1",
-      "entity/shulker_bullet/hit2",
-      "entity/shulker_bullet/hit3",
-      "entity/shulker_bullet/hit4"
+      "mob/shulker_bullet/hit_1",
+      "mob/shulker_bullet/hit_2",
+      "mob/shulker_bullet/hit_3",
+      "mob/shulker_bullet/hit_4"
     ],
     "subtitle": "subtitles.entity.shulker_bullet.hurt",
     "replace": true
   },
   "entity.ender_dragon.ambient": {
     "sounds": [
-      "entity/ender_dragon/idle1",
-      "entity/ender_dragon/idle2",
-      "entity/ender_dragon/idle3",
-      "entity/ender_dragon/idle4"
+      "mob/ender_dragon/idle1",
+      "mob/ender_dragon/idle2",
+      "mob/ender_dragon/idle3",
+      "mob/ender_dragon/idle4"
     ],
     "replace": true
   },
