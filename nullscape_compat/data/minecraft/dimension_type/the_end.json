@@ -2,7 +2,7 @@
   "logical_height": 384,
   "infiniburn": "#minecraft:infiniburn_end",
   "effects": "minecraft:the_end",
-  "ambient_light": 0,
+  "ambient_light": 0.5,
   "respawn_anchor_works": false,
   "has_raids": true,
   "min_y": 0,
