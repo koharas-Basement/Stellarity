@@ -3,7 +3,7 @@ tp @s ~ ~1 ~
 playsound stellarity:block.end_portal.travel ambient @s ~ ~1 ~ 1 1
 playsound block.portal.travel ambient @s ~ ~ ~ 0.25 1
 
-particle flash ~ ~1 ~ 0 0 0 1 1 force @a
+particle flash{color:-1} ~ ~1 ~ 0 0 0 1 1 force @a
 
 particle reverse_portal ~ ~1 ~ 1 1 1 .02 50 normal @a[distance=0..]
 

@@ -11,7 +11,7 @@ summon block_display ~-0.5 ~ ~-0.5 {Tags:["stellarity.cryonics","smithed.entity"
 {id:"minecraft:block_display",Tags:["smithed.entity","smithed.strict"],block_state:{Name:"minecraft:ice",Properties:{}},transformation:[0.6124f,-0.3536f,0.7071f,0.3750f,0.6415f,0.7450f,-0.1830f,0.8125f,-0.4621f,0.5657f,0.6830f,-0.0625f,0.0000f,0.0000f,0.0000f,1.0000f]}]}
 
 particle minecraft:block{block_state: 'minecraft:ice'} ~ ~0.5 ~ 0.5 0.7 0.5 1 40
-particle flash ~ ~1 ~
+particle flash{color:-1} ~ ~1 ~
 
 playsound minecraft:block.glass.place player @a ~ ~ ~ 1 0.6
 playsound minecraft:block.amethyst_block.place player @a ~ ~ ~ 1 0.6

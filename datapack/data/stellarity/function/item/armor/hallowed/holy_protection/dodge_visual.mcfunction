@@ -14,7 +14,7 @@
 particle end_rod ~ ~ ~ 0 0 0 0.11 12 force @a[distance=..32]
 particle firework ~ ~ ~ 0 0 0 0.11 12 force @a[distance=..32]
 
-particle flash ~ ~ ~ 0 0 0 0 1 force @a[distance=..32]
+particle flash{color:-1} ~ ~ ~ 0 0 0 0 1 force @a[distance=..32]
 particle minecraft:poof ~ ~ ~ 0.3 0.5 0.3 0 22
 
 # Ik this is a 'visual' file, but gimme a break

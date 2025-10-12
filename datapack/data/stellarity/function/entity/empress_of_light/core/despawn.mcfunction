@@ -1,4 +1,4 @@
-particle flash ~ ~ ~ 0 0 0 0 1 force
+particle flash{color:-1} ~ ~ ~ 0 0 0 0 1 force
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 
 kill @n[type=item_display,tag=stellarity.empress_of_light.model]

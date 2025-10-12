@@ -162,7 +162,7 @@
     "cave_air",
     "cave_vines",
     "cave_vines_plant",
-    "chain",
+    "#chains",
     "chain_command_block",
     "cherry_button",
     "cherry_door",

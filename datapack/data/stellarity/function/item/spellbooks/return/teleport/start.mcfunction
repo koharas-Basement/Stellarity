@@ -12,6 +12,6 @@ execute if data storage stellarity:temp book_of_return.player_data.respawn run f
 data remove storage stellarity:temp book_of_return.player_data
 
 
-particle flash ~ ~1.2 ~ 0 0 0 0 1 force @a[distance=..48]
+particle flash{color:-1} ~ ~1.2 ~ 0 0 0 0 1 force @a[distance=..48]
 
 kill @s

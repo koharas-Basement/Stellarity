@@ -33,4 +33,6 @@ scoreboard objectives add kohara.health_reset dummy
 # Custom status effects
 # kohara's Libs only handles loading, ticking and removing,
 # the rest has to be set up manually
-function #kohara:status_effects/load
+  function #kohara:status_effects/load
+
+

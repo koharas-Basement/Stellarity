@@ -1,0 +1,11 @@
+{
+  "name": "Stellarity",
+  "data_pack": {
+    "load": ["datapack"]
+  },
+  "resource_pack": {
+    "load": ["resource_pack"]
+  },
+
+  "output": "build"
+}
