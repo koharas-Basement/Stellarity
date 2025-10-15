@@ -1,6 +1,6 @@
 $particle minecraft:dust{color:$(particle_color), scale:1.0} ~ ~-.4 ~ .33 .33 .33 0 24 normal
 
-particle minecraft:flash ~ ~-.4 ~ 0 0 0 0 0 force @a[distance=..32]
+particle minecraft:flash{color:-1} ~ ~-.4 ~ 0 0 0 0 0 force @a[distance=..32]
 particle end_rod ~ ~-.4 ~ 0 0 0 0.13 17 force @a[distance=..32]
 
 playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~-.4 ~ 0.25 2

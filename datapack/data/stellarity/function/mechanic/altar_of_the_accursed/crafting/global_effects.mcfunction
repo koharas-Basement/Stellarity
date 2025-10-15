@@ -5,7 +5,7 @@
 data remove storage stellarity:temp altar_of_the_accursed.enchants
 data remove storage stellarity:temp altar_of_the_accursed.trim
 
-particle minecraft:flash ~ ~-.4 ~ 0 0 0 0 0 force
+particle minecraft:flash{color:-1} ~ ~-.4 ~ 0 0 0 0 0 force
 
 particle end_rod ~ ~-.4 ~ 0 0 0 0.13 17 normal
 

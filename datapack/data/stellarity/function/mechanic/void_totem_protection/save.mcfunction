@@ -1,10 +1,10 @@
 effect give @s instant_damage 1 40 true
 # Reset fall velocity with 1 tick of extreme levitation
-effect give @s levitation infinite 255 true
+  effect give @s levitation infinite 255 true
 
 particle minecraft:cloud ~ ~1.45 ~ 0 0 0 0.3 40 force
 particle minecraft:dragon_breath ~ ~1.45 ~ 0 0 0 0.2 40 force
-particle minecraft:flash ~ ~1.45 ~ 0 0 0 0 1 force
+particle minecraft:flash{color:-1} ~ ~1.45 ~ 0 0 0 0 1 force
 
 playsound minecraft:item.chorus_fruit.teleport player @a[distance=0..] ~ ~ ~
 
