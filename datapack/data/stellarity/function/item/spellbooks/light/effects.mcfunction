@@ -1,7 +1,7 @@
 # Called by a 1 second loop
 
-effect give @s regeneration 2 0 false
-effect give @s resistance 2 0 false
+effect give @s regeneration 3 0 false
+effect give @s resistance 3 0 false
 
 effect clear @s weakness
 effect clear @s slowness

@@ -4,10 +4,7 @@
     "pack_format": 88,
     "max_format": 88,
     "min_format": 88,
-    "supported_formats": {
-      "min_inclusive": 88,
-      "max_inclusive": 88
-    },
+
     "description": [
       {
         "text": "This ender expansion is kinda beyond hardcore :drum:",
