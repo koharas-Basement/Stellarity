@@ -10,7 +10,7 @@ execute if score @s stellarity.item.tamaris.animation.progress matches 1 run tit
 
 execute if score @s stellarity.item.tamaris.animation.progress matches 5 run function stellarity:item/tamaris/execute/animation/teleport_particles
 
-execute if score @s stellarity.item.tamaris.animation.progress matches 5 run scoreboard players set @s stellarity.item.tamaris.execute_cooldown 10
+execute if score @s stellarity.item.tamaris.animation.progress matches 5 run scoreboard players set @s stellarity.item.tamaris.execute_cooldown 20
 execute if score @s stellarity.item.tamaris.animation.progress matches 5 run tag @s add stellarity.item.tamaris.no_warn
 # Executing things as entity in question
   execute if score @s stellarity.item.tamaris.animation.progress matches 5 as @n[type=!#kohara:invalid_targets,distance=0.1..100,tag=stellarity.item.tamaris.executable] at @s run function stellarity:item/tamaris/execute/animation/as_entity/kill
