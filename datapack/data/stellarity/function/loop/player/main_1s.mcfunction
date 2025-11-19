@@ -25,5 +25,5 @@ scoreboard players reset @s stellarity.misc.loop.1s
   execute as @e[tag=stellarity.obstruct.walls] unless score @s stellarity.live_time matches -1.. run scoreboard players set @s stellarity.live_time 10
   execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.live_time=0..}] run scoreboard players remove @s stellarity.live_time 1
   execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.live_time=0..}] run function stellarity:item/spellbooks/obstruct/wall_effects
-  execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.live_time=-1}] run function stellarity:item/spellbooks/obstruct/despawn
+  execute as @e[tag=stellarity.obstruct.walls,scores={stellarity.live_time=-1}] at @s run function stellarity:item/spellbooks/obstruct/despawn
   

@@ -1,4 +1,4 @@
-execute if entity @s[predicate=stellarity:item/holding/tamaris] as @e[type=!#kohara:invalid_targets,distance=0.1..20] run function stellarity:item/tamaris/execute/calculate_percentage
+execute if entity @s[predicate=stellarity:item/holding/tamaris] as @e[type=!#kohara:invalid_targets,distance=0.1..20] at @s run function stellarity:item/tamaris/execute/calculate_percentage
 
 # Crest of The End
   execute if entity @s[scores={stellarity.item.crest.time=1..}] run function stellarity:item/crest_of_the_end/countdown
