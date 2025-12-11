@@ -1,5 +1,3 @@
 {
-  "values": [
-    "minecraft:ender_dragon"
-  ]
+  "values": ["minecraft:evoker", "ender_dragon"]
 }
