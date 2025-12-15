@@ -594,6 +594,7 @@
   "stellarity.config.nerf_elytra.title": "Depotenziamento elitre",
   "stellarity.config.shulking_health.description": "Cambia vita massima dello Shulkere. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulkere vita massima",
+  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Numeri di tick dopo i quali il tema del boss del drago va in loop. Modificare solo se si ha effettivamente un motivo per farlo.",
   "stellarity.config.track_loop_delay.dragon.title": "Ritardo del ciclo di musica del drago",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Numero di tick dopo cui la musica del boss Imperatrice della Luce andrà in loop. Modifica solo se hai effettivamente un motivo per farlo.",

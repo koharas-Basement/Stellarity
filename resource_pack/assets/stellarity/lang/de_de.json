@@ -594,6 +594,7 @@
   "stellarity.config.nerf_elytra.title": "Elytren schwächen",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
+  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Anzahl der Ticks, nach denen das Boss-Thema des Drachen wiederholt wird. Bearbeite es nur, wenn du tatsächlich einen Grund dafür hast.",
   "stellarity.config.track_loop_delay.dragon.title": "Drachenmusik wiederholungsabstand",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Anzahl der Ticks, nach denen das Boss-Thema der Kaiserin des Lichts wiederholt wird. Bearbeite es nur, wenn du tatsächlich einen Grund dafür hast.",

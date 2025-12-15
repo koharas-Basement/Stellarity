@@ -594,6 +594,7 @@
   "stellarity.config.nerf_elytra.title": "Giảm sức mạnh Cánh cứng",
   "stellarity.config.shulking_health.description": "Thay đổi lượng máu tối đa của Vua Shulk. Tối đa: 1024",
   "stellarity.config.shulking_health.title": "Máu tối đa của Vua Shulker",
+  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Số tick mà sau đó nhạc nền của Rồng Ender sẽ được lặp lại. Chỉ sửa nó nếu thực sự cần thiết.",
   "stellarity.config.track_loop_delay.dragon.title": "Độ trễ lặp lại nhạc Rồng Ender",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Số tick mà sau đó nhạc nền của Nữ đế Ánh sáng sẽ được lặp lại. Chỉ sửa nó nếu thực sự cần thiết.",

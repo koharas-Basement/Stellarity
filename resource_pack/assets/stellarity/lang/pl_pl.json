@@ -594,6 +594,7 @@
   "stellarity.config.nerf_elytra.title": "Słabsza Elytra",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
+  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Liczba ticków po jakim zapętli się muzyka w tle podczas walki ze Smokiem Kresu. Edytuj tylko jeśli masz do tego powód.",
   "stellarity.config.track_loop_delay.dragon.title": "Okres Zapętlania Muzyki - Smok Kresu",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Liczba ticków po jakim zapętli się muzyka w tle podczas walki z Cesarzową Światła. Edytuj tylko jeśli masz do tego powód.",

@@ -594,6 +594,7 @@
   "stellarity.config.nerf_elytra.title": "Nerfez les Elytra",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
+  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Nombre de ticks pour la répétition de la musique du Dragon. Ne modifiez que si vous avez une raison de le faire.",
   "stellarity.config.track_loop_delay.dragon.title": "Delai de l'enchaînement de la musique du Dragon",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Nombre de ticks pour la répétition de la musique de l'Impératrice de la Lumière. Ne modifiez que si vous avez une raison de le faire.",

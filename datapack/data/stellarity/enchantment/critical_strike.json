@@ -5,7 +5,7 @@
   },
   "exclusive_set": "#minecraft:exclusive_set/damage",
   "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "primary_items": "#minecraft:enchantable/sword",
+  "primary_items": "#minecraft:swords",
   "weight": 1,
   "max_level": 3,
   "min_cost": {
@@ -17,9 +17,7 @@
     "per_level_above_first": 15
   },
   "anvil_cost": 4,
-  "slots": [
-    "mainhand"
-  ],
+  "slots": ["mainhand"],
   "effects": {
     "minecraft:damage": [
       {
