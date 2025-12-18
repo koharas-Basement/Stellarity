@@ -4,7 +4,7 @@ particle minecraft:dragon_breath ~ ~ ~ 0 0 0 0.5 200
 
 playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~ ~ 3 0.75
 scoreboard players set #global stellarity.misc 1
-execute store result score #global stellarity.misc run gamerule globalSoundEvents
+execute store result score #global stellarity.misc run gamerule global_sound_events
 execute if score #global stellarity.misc matches 0 run function stellarity:sfx/end_portal/open_animation/sounds/globalnt
 execute if score #global stellarity.misc matches 1 run function stellarity:sfx/end_portal/open_animation/sounds/global
 

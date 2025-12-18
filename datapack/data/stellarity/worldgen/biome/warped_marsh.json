@@ -4,32 +4,41 @@
   "has_precipitation": false,
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
-  "effects": {
-    "sky_color": 0,
-    "fog_color": 0,
-    "water_color": 10672615,
-    "water_fog_color": 6798273,
-    "grass_color": 117978,
-    "foliage_color": 56800,
-    "ambient_sound": {
-      "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
-    },
-    "mood_sound": {
-      "sound": "ambient.warped_forest.mood",
-      "tick_delay": 1200,
-      "block_search_extent": 4,
-      "offset": 1
-    },
-    "additions_sound": {
-      "sound": "ambient.warped_forest.additions",
-      "tick_chance": 0.0111
-    },
-    "particle": {
-      "options": {
-        "type": "spore_blossom_air"
+  "attributes": {
+    "visual/sky_color": 0,
+    "visual/fog_color": 0,
+    "visual/water_fog_color": 6798273,
+    "audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
       },
-      "probability": 0.001
+      "mood": {
+        "sound": "ambient.warped_forest.mood",
+        "tick_delay": 1200,
+        "block_search_extent": 4,
+        "offset": 1
+      },
+      "additions": {
+        "sound": "ambient.warped_forest.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:spore_blossom_air"
+          },
+          "probability": 0.001
+        }
+      ]
     }
+  },
+  "effects": {
+    "water_color": 10672615,
+    "grass_color": 117978,
+    "foliage_color": 56800
   },
   "spawners": {
     "water_ambient": [

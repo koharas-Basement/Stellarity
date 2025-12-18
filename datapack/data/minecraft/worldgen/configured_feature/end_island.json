@@ -78,7 +78,7 @@
               "crack": {
                 "generate_crack_chance": 0,
                 "base_crack_size": 1.2,
-                "crack_point_offset": 0.7
+                "crack_point_offset": 7
               },
               "noise_multiplier": 0.095,
               "use_potential_placements_chance": 0,
@@ -208,7 +208,7 @@
               "crack": {
                 "generate_crack_chance": 0,
                 "base_crack_size": 1.2,
-                "crack_point_offset": 0.7
+                "crack_point_offset": 7
               },
               "noise_multiplier": 0.015,
               "use_potential_placements_chance": 0.36,

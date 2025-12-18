@@ -2,32 +2,41 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "has_precipitation": false,
-  "effects": {
-    "sky_color": 0,
-    "fog_color": 0,
-    "water_color": 4445678,
-    "water_fog_color": 270131,
-    "grass_color": 16742190,
-    "foliage_color": 16742190,
-    "ambient_sound": {
-      "sound_id": "stellarity:ambient.the_end.dark"
-    },
-    "mood_sound": {
-      "sound": "ambient.nether_wastes.mood",
-      "tick_delay": 820,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "additions_sound": {
-      "sound": "ambient.basalt_deltas.additions",
-      "tick_chance": 0.005
-    },
-    "particle": {
-      "options": {
-        "type": "white_ash"
+  "attributes": {
+    "visual/sky_color": 0,
+    "visual/fog_color": 0,
+    "visual/water_fog_color": 270131,
+    "audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "stellarity:ambient.the_end.dark"
       },
-      "probability": 0.0055
+      "mood": {
+        "sound": "ambient.nether_wastes.mood",
+        "tick_delay": 820,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.basalt_deltas.additions",
+        "tick_chance": 0.005
+      }
+    },
+    "visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "white_ash"
+          },
+          "probability": 0.0055
+        }
+      ]
     }
+  },
+  "effects": {
+    "water_color": 4445678,
+    "grass_color": 16742190,
+    "foliage_color": 16742190
   },
   "spawners": {
     "monster": [

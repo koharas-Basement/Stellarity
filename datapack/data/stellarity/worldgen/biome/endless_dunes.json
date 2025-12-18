@@ -2,32 +2,41 @@
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
-  "effects": {
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 4445678,
-    "water_fog_color": 270131,
-    "grass_color": 9551690,
-    "foliage_color": 7712284,
-    "ambient_sound": {
-      "sound_id": "stellarity:ambient.dark.calm"
-    },
-    "mood_sound": {
-      "sound": "ambient.soul_sand_valley.mood",
-      "tick_delay": 3000,
-      "block_search_extent": 10,
-      "offset": 100
-    },
-    "additions_sound": {
-      "sound": "ambient.soul_sand_valley.additions",
-      "tick_chance": 0.00111
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:white_ash"
+  "attributes": {
+    "visual/sky_color": 7907327,
+    "visual/fog_color": 12638463,
+    "visual/water_fog_color": 270131,
+    "audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "stellarity:ambient.dark.calm"
       },
-      "probability": 0.0011
+      "mood": {
+        "sound": "ambient.soul_sand_valley.mood",
+        "tick_delay": 3000,
+        "block_search_extent": 10,
+        "offset": 100
+      },
+      "additions": {
+        "sound": "ambient.soul_sand_valley.additions",
+        "tick_chance": 0.00111
+      }
+    },
+    "visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "white_ash"
+          },
+          "probability": 0.0011
+        }
+      ]
     }
+  },
+  "effects": {
+    "water_color": 4445678,
+    "grass_color": 9551690,
+    "foliage_color": 7712284
   },
   "spawners": {
     "monster": [
@@ -65,14 +74,9 @@
       "charge": 1
     }
   },
-  "carvers": [
-    "stellarity:ravine",
-    "stellarity:crack"
-  ],
+  "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
-    [
-      "stellarity:global/stalactite"
-    ],
+    ["stellarity:global/stalactite"],
     [],
     [
       "stellarity:endless_dunes/oasis",
@@ -90,9 +94,6 @@
       "stellarity:endless_dunes/chorus_plant",
       "stellarity:endless_dunes/rare_grass_patch"
     ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

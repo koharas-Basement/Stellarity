@@ -2,32 +2,41 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "has_precipitation": false,
-  "effects": {
-    "sky_color": 0,
-    "fog_color": 0,
-    "water_color": 14981631,
-    "water_fog_color": 6105711,
-    "grass_color": 14520574,
-    "foliage_color": 14520574,
-    "ambient_sound": {
-      "sound_id": "stellarity:ambient.the_end.heavenly_grim"
-    },
-    "mood_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.mood",
-      "tick_delay": 1100,
-      "block_search_extent": 6,
-      "offset": 2
-    },
-    "additions_sound": {
-      "sound": "ambient.basalt_deltas.additions",
-      "tick_chance": 0.0111
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:dripping_obsidian_tear"
+  "attributes": {
+    "visual/sky_color": 0,
+    "visual/fog_color": 0,
+    "visual/water_fog_color": 6105711,
+    "audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "stellarity:ambient.the_end.heavenly_grim"
       },
-      "probability": 0.00022
+      "mood": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 1100,
+        "block_search_extent": 6,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:dripping_obsidian_tear"
+          },
+          "probability": 0.00022
+        }
+      ],
+      "modifier": "override"
     }
+  },
+  "effects": {
+    "water_color": 14981631,
+    "grass_color": 14520574,
+    "foliage_color": 14520574
   },
   "spawners": {
     "monster": [

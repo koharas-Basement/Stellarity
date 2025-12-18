@@ -2,32 +2,41 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "has_precipitation": false,
-  "effects": {
-    "sky_color": 0,
-    "fog_color": 0,
-    "water_color": 6057456,
-    "water_fog_color": 6060528,
-    "grass_color": 12669904,
-    "foliage_color": 15652590,
-    "ambient_sound": {
-      "sound_id": "stellarity:ambient.the_end.heavenly_grim"
-    },
-    "mood_sound": {
-      "sound": "minecraft:ambient.crimson_forest.mood",
-      "tick_delay": 850,
-      "block_search_extent": 2,
-      "offset": 2
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
-      "tick_chance": 0.0013
-    },
-    "particle": {
-      "options": {
-        "type": "white_ash"
+  "attributes": {
+    "visual/sky_color": 0,
+    "visual/fog_color": 0,
+    "visual/water_fog_color": 6060528,
+    "audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "stellarity:ambient.the_end.heavenly_grim"
       },
-      "probability": 0.003
+      "mood": {
+        "sound": "minecraft:ambient.crimson_forest.mood",
+        "tick_delay": 850,
+        "block_search_extent": 2,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.crimson_forest.additions",
+        "tick_chance": 0.0013
+      }
+    },
+    "visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "white_ash"
+          },
+          "probability": 0.003
+        }
+      ],
+      "modifier": "override"
     }
+  },
+  "effects": {
+    "water_color": 6057456,
+    "grass_color": 12669904,
+    "foliage_color": 15652590
   },
   "spawners": {
     "monster": [

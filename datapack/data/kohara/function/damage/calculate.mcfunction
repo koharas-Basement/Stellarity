@@ -24,8 +24,8 @@ execute store result storage kohara:temp damage.damage float 0.1 run scoreboard 
 
 # Disable vanilla death messages
 # This part ALWAYS has to be over the part which deals damage
-  execute store result score #death_messages kohara.misc run gamerule showDeathMessages
-  gamerule showDeathMessages false
+  execute store result score #death_messages kohara.misc run gamerule show_death_messages
+  gamerule show_death_messages false
 
 ## Applying damage
   # Functions to execute after before the damage is dealt
@@ -42,7 +42,7 @@ execute store result storage kohara:temp damage.damage float 0.1 run scoreboard 
       execute if score #death_messages kohara.misc matches 1 if data entity @s Owner if score #death_messages kohara.misc matches 1 if data storage kohara:temp {damage:{health:0f}} run function #kohara:damage/death_messages
       # And then reenable vanilla ones!
         # But only if they were enabled beforehand
-          execute if score #death_messages kohara.misc matches 1 run gamerule showDeathMessages true
+          execute if score #death_messages kohara.misc matches 1 run gamerule show_death_messages true
 
         # Remove tags
           $tag @s remove $(tag)
