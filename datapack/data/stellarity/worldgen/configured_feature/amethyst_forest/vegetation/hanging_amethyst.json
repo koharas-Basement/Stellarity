@@ -12,7 +12,7 @@
       "min_inclusive": 4,
       "max_inclusive": 6
     },
-    "replaceable": "#stellarity:amethyst_forest/diorite_and_calcite",
+    "replaceable": "#stellarity:diorite_and_calcite",
     "ground_state": {
       "type": "minecraft:weighted_state_provider",
       "entries": [

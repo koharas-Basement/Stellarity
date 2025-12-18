@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:event/item/shoot_slayer_crossbow
+# advancement revoke @s only stellarity:event/item/shoot_slayer_crossbow
 
 data modify storage stellarity:temp slayer_crossbow.item set from entity @s SelectedItem
 tag @s add laser

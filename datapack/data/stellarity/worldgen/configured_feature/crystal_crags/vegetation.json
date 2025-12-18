@@ -15,20 +15,14 @@
                 "weight": 4,
                 "data": {
                   "Name": "minecraft:short_grass",
-                  "Properties": {
-                    "facing": "up",
-                    "waterlogged": "false"
-                  }
+                  "Properties": {}
                 }
               },
               {
                 "weight": 1,
                 "data": {
                   "Name": "minecraft:tall_grass",
-                  "Properties": {
-                    "facing": "up",
-                    "waterlogged": "false"
-                  }
+                  "Properties": {}
                 }
               }
             ]
