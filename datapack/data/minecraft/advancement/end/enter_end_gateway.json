@@ -23,9 +23,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "entered_end_gateway"
-    ]
-  ]
+  "requirements": [["entered_end_gateway"]]
 }

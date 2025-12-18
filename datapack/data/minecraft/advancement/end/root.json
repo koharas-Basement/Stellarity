@@ -24,9 +24,5 @@
       }
     }
   },
-  "requirements": [
-    [
-      "entered_end"
-    ]
-  ]
+  "requirements": [["entered_end"]]
 }

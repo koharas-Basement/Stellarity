@@ -1,7 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "minecraft:bedrock",
-    "minecraft:crying_obsidian"
-  ]
+  "values": ["minecraft:bedrock", "minecraft:crying_obsidian"]
 }

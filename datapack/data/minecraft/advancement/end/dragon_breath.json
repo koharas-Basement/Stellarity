@@ -23,17 +23,11 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:dragon_breath"
-            ]
+            "items": ["minecraft:dragon_breath"]
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "dragon_breath"
-    ]
-  ]
+  "requirements": [["dragon_breath"]]
 }

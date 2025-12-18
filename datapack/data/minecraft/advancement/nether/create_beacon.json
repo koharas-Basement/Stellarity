@@ -9,9 +9,7 @@
             "term": {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structures": [
-                  "minecraft:end_city"
-                ]
+                "structures": ["minecraft:end_city"]
               }
             }
           }
@@ -35,10 +33,6 @@
       "translate": "advancements.nether.create_beacon.title"
     }
   },
-  "requirements": [
-    [
-      "beacon"
-    ]
-  ],
+  "requirements": [["beacon"]],
   "sends_telemetry_event": true
 }

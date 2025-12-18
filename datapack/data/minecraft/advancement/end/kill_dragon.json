@@ -23,9 +23,7 @@
     }
   },
   "rewards": {
-    "recipes": [
-      "minecraft:end_crystal"
-    ],
+    "recipes": ["minecraft:end_crystal"],
     "experience": 4000
   }
 }

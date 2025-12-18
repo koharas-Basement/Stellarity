@@ -24,17 +24,11 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:elytra"
-            ]
+            "items": ["minecraft:elytra"]
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "elytra"
-    ]
-  ]
+  "requirements": [["elytra"]]
 }

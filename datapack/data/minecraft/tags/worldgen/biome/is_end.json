@@ -1,5 +1,3 @@
 {
-  "values": [
-    "#stellarity:biomes/all"
-  ]
+  "values": ["#stellarity:biomes/all"]
 }

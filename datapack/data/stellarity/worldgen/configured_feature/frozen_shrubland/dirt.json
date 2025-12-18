@@ -26,9 +26,7 @@
           "weight": 100,
           "data": {
             "Name": "minecraft:snow_block",
-            "Properties": {
-              "snowy": "false"
-            }
+            "Properties": {}
           }
         }
       ]
