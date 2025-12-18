@@ -1,5 +1,5 @@
 # No particles in first frame for the sake of visibility
-particle minecraft:dust{color:[1.0, 0.9, 0.4], scale:1.1} ~ ~ ~ 0.15 0.15 0.15 0 8 force
+  particle minecraft:dust{color:[1.0, 0.9, 0.4], scale:1.1} ~ ~ ~ 0.15 0.15 0.15 0 8 force
 
 scoreboard players add @s stellarity.misc 1
 scoreboard players add @s stellarity.misc2 1

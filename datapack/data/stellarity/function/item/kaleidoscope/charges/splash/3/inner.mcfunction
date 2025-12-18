@@ -6,8 +6,8 @@ function kohara:reduce_by_percent {percent:20,holder:"#fire",score:"stellarity.m
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
 # Base discharge damage: 33
-scoreboard players set #damage kohara.misc 330
-function kohara:reduce_by_percent {percent:30,holder:"#damage",score:"stellarity.misc"}
+  scoreboard players set #damage kohara.misc 330
+  function kohara:reduce_by_percent {percent:30,holder:"#damage",score:"stellarity.misc"}
 
 tag @p[predicate=stellarity:item/holding/kaleidoscope] add kohara.attacker
 

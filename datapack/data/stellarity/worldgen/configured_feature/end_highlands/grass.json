@@ -53,25 +53,15 @@
             "predicates": [
               {
                 "type": "minecraft:would_survive",
-                "offset": [
-                  0,
-                  0,
-                  0
-                ],
+                "offset": [0, 0, 0],
                 "state": {
                   "Name": "minecraft:short_grass"
                 }
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [
-                  0,
-                  0,
-                  0
-                ],
-                "blocks": [
-                  "minecraft:air"
-                ]
+                "offset": [0, 0, 0],
+                "blocks": ["minecraft:air"]
               }
             ]
           }

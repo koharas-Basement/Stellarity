@@ -77,9 +77,7 @@
             }
           }
         },
-        "directions": [
-          "down"
-        ]
+        "directions": ["down"]
       }
     ]
   }

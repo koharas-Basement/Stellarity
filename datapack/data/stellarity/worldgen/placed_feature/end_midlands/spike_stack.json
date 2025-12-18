@@ -136,51 +136,23 @@
           "predicates": [
             {
               "type": "minecraft:matching_blocks",
-              "offset": [
-                -1,
-                -4,
-                0
-              ],
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "offset": [-1, -4, 0],
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             {
               "type": "minecraft:matching_blocks",
-              "offset": [
-                1,
-                -4,
-                0
-              ],
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "offset": [1, -4, 0],
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             {
               "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                -4,
-                1
-              ],
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "offset": [0, -4, 1],
+              "blocks": ["minecraft:air", "minecraft:water"]
             },
             {
               "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                -4,
-                -1
-              ],
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
+              "offset": [0, -4, -1],
+              "blocks": ["minecraft:air", "minecraft:water"]
             }
           ]
         }

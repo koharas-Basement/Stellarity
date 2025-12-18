@@ -7,7 +7,7 @@ execute rotated ~ 0 positioned ^ ^1 ^ run function stellarity:item/armor/hallowe
 advancement grant @s only stellarity:altar_of_the_accursed/cancel_damage_hallowed_armor
 
 # I-frames of some sort
-# Such high Amplifier values make sure that
+# Such high amplifier values make sure that
 # these roman numbers do not appear at all!
   effect give @s resistance 2 100 false
   effect give @s fire_resistance 6 0 false

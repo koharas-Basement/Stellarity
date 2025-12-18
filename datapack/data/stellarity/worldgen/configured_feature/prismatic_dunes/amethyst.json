@@ -63,20 +63,12 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air"
-                ]
+                "blocks": ["minecraft:air"]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ],
-                "blocks": [
-                  "minecraft:white_concrete_powder"
-                ]
+                "offset": [0, -1, 0],
+                "blocks": ["minecraft:white_concrete_powder"]
               }
             ]
           }

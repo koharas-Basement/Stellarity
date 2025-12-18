@@ -45,17 +45,11 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air"
-                ]
+                "blocks": ["minecraft:air"]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ],
+                "offset": [0, -1, 0],
                 "blocks": [
                   "minecraft:jungle_leaves",
                   "minecraft:dark_oak_leaves",

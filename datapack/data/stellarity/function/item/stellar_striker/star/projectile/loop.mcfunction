@@ -12,7 +12,7 @@ execute if score @s stellarity.misc matches 100.. run function stellarity:item/s
 # Uses a score to determine whether to remove the projectile or not
 # because for some reason it detonated twice
 # MC quirks I guess...
-execute unless score @s stellarity.misc2 matches 1 unless block ^ ^ ^ #kohara:non_solid run function stellarity:item/stellar_striker/star/projectile/detonate
-execute unless score @s stellarity.misc2 matches 1 unless block ^ ^ ^1 #kohara:non_solid run function stellarity:item/stellar_striker/star/projectile/detonate
+  execute unless score @s stellarity.misc2 matches 1 unless block ^ ^ ^ #kohara:non_solid run function stellarity:item/stellar_striker/star/projectile/detonate
+  execute unless score @s stellarity.misc2 matches 1 unless block ^ ^ ^1 #kohara:non_solid run function stellarity:item/stellar_striker/star/projectile/detonate
 
 execute if score @s stellarity.misc2 matches 1 run kill @s

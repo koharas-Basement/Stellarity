@@ -86,9 +86,7 @@
                       "Name": "minecraft:sea_lantern"
                     }
                   },
-                  "directions": [
-                    "down"
-                  ]
+                  "directions": ["down"]
                 }
               ]
             }
@@ -180,9 +178,7 @@
                       "Name": "minecraft:sea_lantern"
                     }
                   },
-                  "directions": [
-                    "down"
-                  ]
+                  "directions": ["down"]
                 }
               ]
             }
@@ -274,9 +270,7 @@
                       "Name": "minecraft:sea_lantern"
                     }
                   },
-                  "directions": [
-                    "down"
-                  ]
+                  "directions": ["down"]
                 }
               ]
             }

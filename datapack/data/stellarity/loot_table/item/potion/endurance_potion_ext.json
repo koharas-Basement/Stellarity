@@ -15,7 +15,7 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:resistance",
-                      "amplifier": 0,
+
                       "duration": 4800
                     }
                   ]

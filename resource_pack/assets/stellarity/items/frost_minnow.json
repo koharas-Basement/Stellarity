@@ -1,6 +1,6 @@
 {
-	"model": {
-		"type": "minecraft:model",
-		"model": "stellarity:item/food/fish/frost_minnow"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "stellarity:item/food/fish/frost_minnow"
+  }
 }

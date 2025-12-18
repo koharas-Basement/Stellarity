@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "/",
-    "#"
-  ],
+  "pattern": ["/", "#"],
   "key": {
     "#": "minecraft:popped_chorus_fruit",
     "/": "minecraft:blaze_rod"

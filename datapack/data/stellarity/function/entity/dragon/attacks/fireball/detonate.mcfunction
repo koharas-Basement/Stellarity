@@ -1,7 +1,7 @@
 kill @s[type=marker]
 
 # Cloud
-  execute align y run summon area_effect_cloud ~ ~ ~ {Radius:1f,RadiusPerTick:0.009f,Duration:300,potion_contents:{custom_effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:1,show_particles:0b}]},ReapplicationDelay:12,RadiusOnUse:0f,custom_particle:{"type":"minecraft:dragon_breath"},Tags:["stellarity.dragon_breath","stellarity.area_effect_cloud"]}
+  execute align y run summon area_effect_cloud ~ ~ ~ {Radius:1f,RadiusPerTick:0.009f,Duration:300,potion_contents:{custom_effects:[{id:"minecraft:instant_damage",duration:1,show_particles:0b}]},ReapplicationDelay:12,RadiusOnUse:0f,custom_particle:{"type":"minecraft:dragon_breath"},Tags:["stellarity.dragon_breath","stellarity.area_effect_cloud"]}
   data modify entity @n[type=area_effect_cloud,tag=stellarity.dragon_breath] Owner set from entity @n[type=ender_dragon] UUID
 
 # Small explosion

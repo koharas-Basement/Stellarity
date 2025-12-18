@@ -20,10 +20,7 @@
                       "seed": 0,
                       "noise": {
                         "firstOctave": -7,
-                        "amplitudes": [
-                          1,
-                          1
-                        ]
+                        "amplitudes": [1, 1]
                       },
                       "scale": 1,
                       "states": [
@@ -60,9 +57,7 @@
                         },
                         {
                           "type": "minecraft:matching_blocks",
-                          "blocks": [
-                            "minecraft:air"
-                          ]
+                          "blocks": ["minecraft:air"]
                         }
                       ]
                     }
@@ -134,9 +129,7 @@
                     },
                     {
                       "type": "minecraft:matching_blocks",
-                      "blocks": [
-                        "minecraft:air"
-                      ]
+                      "blocks": ["minecraft:air"]
                     }
                   ]
                 }

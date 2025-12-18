@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "# #",
-    "#R#"
-  ],
+  "pattern": ["###", "# #", "#R#"],
   "key": {
     "R": "minecraft:redstone",
     "#": "#minecraft:stone_crafting_materials"

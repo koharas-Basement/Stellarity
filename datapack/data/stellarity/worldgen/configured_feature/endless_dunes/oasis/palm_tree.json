@@ -84,9 +84,7 @@
             "Name": "minecraft:shroomlight"
           }
         },
-        "directions": [
-          "down"
-        ]
+        "directions": ["down"]
       }
     ]
   }

@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X",
-    "#"
-  ],
+  "pattern": ["X", "#"],
   "key": {
     "#": "#minecraft:stone_crafting_materials",
     "X": "minecraft:stick"

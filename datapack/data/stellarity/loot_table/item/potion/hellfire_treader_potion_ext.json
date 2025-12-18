@@ -15,8 +15,7 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:speed",
-                      "duration": 9600,
-                      "amplifier": 0
+                      "duration": 9600
                     },
                     {
                       "id": "minecraft:fire_resistance",

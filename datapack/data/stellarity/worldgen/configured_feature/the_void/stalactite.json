@@ -37,14 +37,8 @@
           "direction": "down",
           "allowed_placement": {
             "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              1,
-              0
-            ],
-            "blocks": [
-              "minecraft:air"
-            ]
+            "offset": [0, 1, 0],
+            "blocks": ["minecraft:air"]
           },
           "prioritize_tip": true,
           "layers": [

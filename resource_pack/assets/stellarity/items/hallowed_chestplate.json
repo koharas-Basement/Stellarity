@@ -1,6 +1,6 @@
 {
-	"model": {
-		"type": "minecraft:model",
-		"model": "stellarity:item/hallowed_chestplate"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "stellarity:item/hallowed_chestplate"
+  }
 }

@@ -15,7 +15,7 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:health_boost",
-                      "amplifier": 0,
+
                       "duration": 3600
                     }
                   ]

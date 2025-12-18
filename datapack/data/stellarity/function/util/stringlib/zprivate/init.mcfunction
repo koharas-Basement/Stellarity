@@ -1,5 +1,5 @@
 # Init
-scoreboard players set #StringLib.Init StringLib 1
+  scoreboard players set #StringLib.Init StringLib 1
 
 scoreboard players set #StringLib.c-1 StringLib -1
 scoreboard players set #StringLib.c100 StringLib 100

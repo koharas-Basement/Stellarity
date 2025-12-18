@@ -1,4 +1,4 @@
-data modify entity @n[type=zombified_piglin,tag=stellarity.flesh_piglin] AngryAt set from entity @s UUID
+data modify entity @n[type=zombified_piglin,tag=stellarity.flesh_piglin] angry_at set from entity @s UUID
 
 tag @s add stellarity.flesh_piglin.aggro_target
 

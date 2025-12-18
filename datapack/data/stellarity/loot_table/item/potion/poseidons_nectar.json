@@ -15,17 +15,17 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:conduit_power",
-                      "amplifier": 0,
+
                       "duration": 7800
                     },
                     {
                       "id": "minecraft:absorption",
-                      "amplifier": 0,
+
                       "duration": 7800
                     },
                     {
                       "id": "minecraft:dolphins_grace",
-                      "amplifier": 0,
+
                       "duration": 7800
                     }
                   ]

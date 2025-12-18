@@ -1,22 +1,19 @@
 {
-	"model": {
-		"type": "minecraft:select",
-		"cases": [
-			{
-				"model": {
-					"type": "minecraft:model",
-					"model": "stellarity:item/starless_scythe_held"
-				},
-				"when": [
-					"thirdperson_righthand",
-					"thirdperson_lefthand"
-				]
-			}
-		],
-		"fallback": {
-			"type": "minecraft:model",
-			"model": "stellarity:item/starless_scythe"
-		},
-		"property": "minecraft:display_context"
-	}
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "stellarity:item/starless_scythe_held"
+        },
+        "when": ["thirdperson_righthand", "thirdperson_lefthand"]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "stellarity:item/starless_scythe"
+    },
+    "property": "minecraft:display_context"
+  }
 }

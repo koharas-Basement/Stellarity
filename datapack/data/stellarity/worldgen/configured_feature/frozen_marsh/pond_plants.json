@@ -8,10 +8,7 @@
           "direction": "up",
           "allowed_placement": {
             "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air",
-              "minecraft:water"
-            ]
+            "blocks": ["minecraft:air", "minecraft:water"]
           },
           "prioritize_tip": false,
           "layers": [
@@ -79,10 +76,7 @@
           "direction": "up",
           "allowed_placement": {
             "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air",
-              "minecraft:water"
-            ]
+            "blocks": ["minecraft:air", "minecraft:water"]
           },
           "prioritize_tip": false,
           "layers": [

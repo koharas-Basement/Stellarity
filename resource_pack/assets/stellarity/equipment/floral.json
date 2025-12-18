@@ -1,14 +1,14 @@
 {
-	"layers": {
-		"humanoid": [
-			{
-				"texture": "stellarity:floral"
-			}
-		],
-		"humanoid_leggings": [
-			{
-				"texture": "stellarity:floral"
-			}
-		]
-	}
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "stellarity:floral"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "stellarity:floral"
+      }
+    ]
+  }
 }

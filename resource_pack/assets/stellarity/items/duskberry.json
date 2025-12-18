@@ -1,6 +1,6 @@
 {
-	"model": {
-		"type": "minecraft:model",
-		"model": "stellarity:item/duskberry"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "stellarity:item/duskberry"
+  }
 }

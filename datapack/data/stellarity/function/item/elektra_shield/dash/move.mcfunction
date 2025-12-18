@@ -26,7 +26,7 @@ execute rotated as @s run tp @s ~ ~ ~ ~ ~
       execute as @e[type=minecraft:shulker_bullet,distance=..1.8] at @s run function stellarity:item/elektra_shield/dash/damage
 
     # Reset fall damage (every tick, as it accumulates FOR WHATEVER REASON)
-      summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["stellarity.elektra_shield","smithed.entity","smithed.strict"],potion_contents:{custom_effects:[{id:"minecraft:levitation",amplifier:0b,duration:2,show_particles:0b,show_icon:0b}]},Duration:2,ReapplicationDelay:0,WaitTime:-1,Age:-1,custom_particle:{type:"block","block_state":"air"}}
+      summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["stellarity.elektra_shield","smithed.entity","smithed.strict"],potion_contents:{custom_effects:[{id:"minecraft:levitation",duration:2,show_particles:0b,show_icon:0b}]},Duration:2,ReapplicationDelay:0,WaitTime:-1,Age:-1,custom_particle:{type:"block","block_state":"air"}}
 
     # End dash if in front of a block or after 4 ticks
       execute unless block ^ ^ ^0.875 #kohara:non_solid run function stellarity:item/elektra_shield/dash/end

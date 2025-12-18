@@ -26,9 +26,7 @@
           "direction": "down",
           "allowed_placement": {
             "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air"
-            ]
+            "blocks": ["minecraft:air"]
           },
           "prioritize_tip": true,
           "layers": [
@@ -85,9 +83,7 @@
           },
           "allowed_search_condition": {
             "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air"
-            ]
+            "blocks": ["minecraft:air"]
           }
         }
       ]

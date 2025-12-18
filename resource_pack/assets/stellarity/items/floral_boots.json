@@ -1,6 +1,6 @@
 {
-	"model": {
-		"type": "minecraft:model",
-		"model": "stellarity:item/floral_boots"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "stellarity:item/floral_boots"
+  }
 }

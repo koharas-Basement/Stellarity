@@ -13,7 +13,7 @@ execute store result storage stellarity:temp floral_armor.arrow.Motion[1] double
 execute store result storage stellarity:temp floral_armor.arrow.Motion[2] double 0.000125 run scoreboard players get #velocity.z stellarity.misc
 
 # Reduce damage multiplier by 20% so that the net damage gain is 0
-execute store result score #damage stellarity.misc run data get storage stellarity:temp floral_armor.arrow.damage 100
+  execute store result score #damage stellarity.misc run data get storage stellarity:temp floral_armor.arrow.damage 100
 
 scoreboard players set #80 stellarity.misc 80
 scoreboard players set #100 stellarity.misc 100

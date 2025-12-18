@@ -55,9 +55,7 @@
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:air"
-        ]
+        "blocks": ["minecraft:air"]
       }
     },
     {

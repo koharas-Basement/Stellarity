@@ -90,13 +90,7 @@
                       }
                     }
                   },
-                  "directions": [
-                    "up",
-                    "north",
-                    "east",
-                    "south",
-                    "west"
-                  ]
+                  "directions": ["up", "north", "east", "south", "west"]
                 }
               ]
             }

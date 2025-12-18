@@ -1,6 +1,6 @@
 {
-	"model": {
-		"type": "minecraft:model",
-		"model": "stellarity:item/shulker_hoe"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "stellarity:item/shulker_hoe"
+  }
 }

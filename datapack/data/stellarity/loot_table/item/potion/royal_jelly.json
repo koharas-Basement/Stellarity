@@ -28,7 +28,7 @@
                         {
                           "id": "minecraft:absorption",
                           "duration": 60,
-                          "amplifier": 0,
+
                           "ambient": false,
                           "show_particles": true,
                           "show_icon": true

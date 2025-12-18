@@ -86,10 +86,7 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air",
-                  "minecraft:short_grass"
-                ]
+                "blocks": ["minecraft:air", "minecraft:short_grass"]
               },
               {
                 "type": "minecraft:would_survive",

@@ -4,12 +4,12 @@ scoreboard players set #is_in_daylight stellarity.misc 0
 execute if predicate [{"condition":"minecraft:inverted","term":{"condition":"minecraft:time_check","value":{"min":12786,"max":23460},"period":24000}},{"condition":"minecraft:weather_check","raining":false,"thundering":false},{"condition":"minecraft:location_check","predicate":{"dimension":"minecraft:overworld","can_see_sky":true}}] run scoreboard players set #is_in_daylight stellarity.misc 1
 
 # Double damage to undead mobs
-scoreboard players set #mul stellarity.misc 2
-execute if entity @s[type=#minecraft:undead] run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
-# Extra 2x damage if exposed to sunlight
-execute if score #is_in_daylight stellarity.misc matches 1 run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
+  scoreboard players set #mul stellarity.misc 2
+  execute if entity @s[type=#minecraft:undead] run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
+  # Extra 2x damage if exposed to sunlight
+    execute if score #is_in_daylight stellarity.misc matches 1 run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
 
-scoreboard players reset @s stellarity.dot.prismatic_inferno.progress
+  scoreboard players reset @s stellarity.dot.prismatic_inferno.progress
 
 execute if score #is_in_daylight stellarity.misc matches 0 run function stellarity:util/status_effects/prismatic_inferno/damage_particle/normal
 execute if score #is_in_daylight stellarity.misc matches 1 run function stellarity:util/status_effects/prismatic_inferno/damage_particle/exposed_to_daylight

@@ -1,10 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "RRQ",
-    "###"
-  ],
+  "pattern": ["###", "RRQ", "###"],
   "key": {
     "Q": "minecraft:quartz",
     "R": "minecraft:redstone",
