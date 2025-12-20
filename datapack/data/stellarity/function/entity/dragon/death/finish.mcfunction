@@ -29,17 +29,23 @@ execute if score #stellarity.config stellarity.config.boss_status_messages match
 
     # Activate Altar of The Accursed. Now we shall all witness horrible dark magic emerging and crafting fantastic gear!
       # Wonderful! Like ancient forces of darkness were always supposed to 
-        # just miraculously connect some random trash into things that are a lot better!
-          schedule function stellarity:entity/dragon/death/activate_altar_of_the_accursed_sound 5s
-          schedule function stellarity:entity/dragon/death/activate_altar_of_the_accursed 8s
 
-        ## Leftover ash
-          # 500 seconds is 8 minutes 20 seconds
-            scoreboard players set #stellarity.dragon.ash_duration stellarity.misc 500
+      # regenerate if needed
+        # Run backup check to see if altar exists
 
-          # Delay the track by 13s
-            execute unless entity @e[type=marker,tag=stellarity.altar_of_the_accursed,tag=stellarity.altar_of_the_accursed_activated] run \
-            schedule function stellarity:entity/dragon/play_track 230t
-            # Or by 3.5 seconds if Altar has been unlocked
-              execute if entity @e[type=marker,tag=stellarity.altar_of_the_accursed,tag=stellarity.altar_of_the_accursed_activated] run \
-              schedule function stellarity:entity/dragon/play_track 70t
+        execute in minecraft:the_end positioned 50 76 -39 unless entity @e[type=marker,tag=stellarity.altar_of_the_accursed,distance=..32] run function stellarity:entity/dragon/death/regenerate_altar_check
+
+      # just miraculously connect some random trash into things that are a lot better!
+        schedule function stellarity:entity/dragon/death/activate_altar_of_the_accursed_sound 5s
+        schedule function stellarity:entity/dragon/death/activate_altar_of_the_accursed 8s
+
+      ## Leftover ash
+        # 500 seconds is 8 minutes 20 seconds
+          scoreboard players set #stellarity.dragon.ash_duration stellarity.misc 500
+
+        # Delay the track by 13s
+          execute unless entity @e[type=marker,tag=stellarity.altar_of_the_accursed,tag=stellarity.altar_of_the_accursed_activated] run \
+          schedule function stellarity:entity/dragon/play_track 230t
+          # Or by 3.5 seconds if Altar has been unlocked
+            execute if entity @e[type=marker,tag=stellarity.altar_of_the_accursed,tag=stellarity.altar_of_the_accursed_activated] run \
+            schedule function stellarity:entity/dragon/play_track 70t
