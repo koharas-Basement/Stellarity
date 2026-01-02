@@ -594,7 +594,6 @@
   "stellarity.config.nerf_elytra.title": "Nerf Elytra",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
-  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Berapa ticks (satuan waktu) yang diperlukan untuk musik Ender Dragon diputar setelah memasuki The End. Hanya edit jika kamu mempunyai alasan.",
   "stellarity.config.track_loop_delay.dragon.title": "Penundaan Putaran Musik Ender Dragon",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Berapa ticks (satuan waktu) yang diperlukan untuk musik Empress of Light diputar setelah memasuki The End. Hanya edit jika kamu mempunyai alasan.",

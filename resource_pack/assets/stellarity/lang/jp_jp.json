@@ -594,7 +594,6 @@
   "stellarity.config.nerf_elytra.title": "Nerf Elytra",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
-  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "ドラゴンのボステーマがループするティック数。 (実際に編集する理由がある場合にのみ編集してください。)",
   "stellarity.config.track_loop_delay.dragon.title": "ドラゴンミュージックループディレイ",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Empress of Light のボス テーマがその後ループするティック数。 (実際に編集する理由がある場合にのみ編集してください。)",

@@ -594,7 +594,6 @@
   "stellarity.config.nerf_elytra.title": "Послаблення елітр",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
-  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Кількість тиків, після якої музика битви з Драконом почнеться спочатку. Змінюйте тільки якщо маєте причину.",
   "stellarity.config.track_loop_delay.dragon.title": "Періодичність музики - Дракон Енду",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Кількість тиків, після якої музика битви з Імператрицею Світла почнеться спочатку. Змінюйте тільки якщо маєте причину.",

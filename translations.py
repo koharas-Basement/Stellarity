@@ -22,24 +22,20 @@ while not done:
 
   if action == "1":
     key = input("Enter new key: ")
-    for lang in translations:
-      translations[lang][key] = key
+    translations["en_us.json"][key] = key
   elif action == "2":
     key = input("Enter key to remove: ")
-    for lang in translations:
-      if key in translations[lang]:
-        del translations[lang][key]
+    if key in translations["en_us.json"]:
+      del translations["en_us.json"][key]
   elif action == "3":
     old_key = input("Enter key to rename: ")
     new_key = input("Enter new key name: ")
-    for lang in translations:
-      if old_key in translations[lang]:
-        translations[lang][new_key] = translations[lang].pop(old_key)
+    if old_key in translations["en_us.json"]:
+      translations["en_us.json"][new_key] = translations["en_us.json"].pop(old_key)
   elif action == "4":
     key = input("Enter new key: ")
     value = input("Enter value for the new key: ")
-    for lang in translations:
-      translations[lang][key] = value
+    translations["en_us.json"][key] = value
   elif action == "5":
     done = True
 

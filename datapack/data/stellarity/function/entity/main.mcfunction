@@ -17,7 +17,7 @@ execute as @e[type=zombified_piglin,tag=stellarity.flesh_piglin] at @s run funct
 # execute as @e[type=slime,predicate=stellarity:location/in_the_end,tag=!stellarity.voided_slime,tag=!stellarity.end_city] at @s run function stellarity:entity/voided_slime/abort_offsprings
   execute as @e[type=marker,tag=stellarity.spawn_egg] at @s run function stellarity:entity/handle_spawn_egg with entity @s data
 
-execute as @e[type=illusioner,tag=!smithed.entity] at @s if biome ~ ~ ~ #stellarity:spawns_animals run function stellarity:entity/animal/end_spawn
+execute as @e[type=illusioner,tag=!smithed.entity] at @s if biome ~ ~ ~ #is_end run function stellarity:entity/animal/end_spawn
 
 execute as @e[type=allay,tag=stellarity.shulking] at @s run function stellarity:entity/shulking/main
 execute as @e[type=shulker,tag=stellarity.shulking.body] at @s run function stellarity:entity/shulking/main_body

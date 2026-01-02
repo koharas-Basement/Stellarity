@@ -594,7 +594,6 @@
   "stellarity.config.nerf_elytra.title": "削弱鞘翅",
   "stellarity.config.shulking_health.description": "修改潜影贝之王的最大生命值。最大: 1024",
   "stellarity.config.shulking_health.title": "潜影贝之王最大生命值",
-  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "末影龙的音乐将在若干刻数之后循环。仅在你确实有理由的情况下进行编辑该选项。",
   "stellarity.config.track_loop_delay.dragon.title": "龙的音乐循环延迟",
   "stellarity.config.track_loop_delay.empress_of_light.description": "光之女皇的 Boss 主题曲将在若干刻数之后循环。仅在你确实有理由的情况下进行编辑该选项。",

@@ -594,7 +594,6 @@
   "stellarity.config.nerf_elytra.title": "Desvantagens nos Élitros",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
-  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Número de tiques em que a música tema do Dragão Ender vai fazer o loop. Altere apenas se realmente tiver um motivo.",
   "stellarity.config.track_loop_delay.dragon.title": "Atraso do loop na música do Dragão Ender",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Número de tiques em que a música tema da Imperatriz da Luz vai fazer loop. Altere apenas se realmente tiver um motivo.",

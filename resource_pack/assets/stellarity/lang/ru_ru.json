@@ -594,7 +594,6 @@
   "stellarity.config.nerf_elytra.title": "Исправление элитр",
   "stellarity.config.shulking_health.description": "Changes maximum health of the Shulking. Max: 1024",
   "stellarity.config.shulking_health.title": "Shulking Max Health",
-  "stellarity.config.title": "Stellarity Configuration",
   "stellarity.config.track_loop_delay.dragon.description": "Количество тиков, спустя которые тема битвы с Драконом будет повторяться. Редактируйте, только если на то есть причина.",
   "stellarity.config.track_loop_delay.dragon.title": "Задержка зацикливания темы битвы с Драконом",
   "stellarity.config.track_loop_delay.empress_of_light.description": "Количество тиков, спустя которые тема битвы с Императрицей Света будет повторяться. Редактируйте, только если на то есть причина.",
