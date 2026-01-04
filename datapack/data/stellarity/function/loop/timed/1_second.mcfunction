@@ -6,7 +6,8 @@
   execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run scoreboard players remove #stellarity.dragon.ash_duration stellarity.misc 1
 
 # Makes Allays despawn naturally if they have spawned naturally in The Hallow
-  execute as @e[type=allay,tag=stellarity.allay.natural_hallow_spawn] at @s run function stellarity:entity/the_hallow_allay_despawn
+# removed
+# execute as @e[type=allay,tag=stellarity.allay.natural_hallow_spawn] at @s run function stellarity:entity/the_hallow_allay_despawn
 
 # Tridents return when in Void
   execute as @e[type=trident,predicate=stellarity:location/below_y_0,predicate=stellarity:location/in_the_end] run data merge entity @s {DealtDamage:1b}
