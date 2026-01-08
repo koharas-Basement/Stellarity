@@ -91,6 +91,10 @@
         },
         {
           "type": "loot_table",
+          "value": "stellarity:item/tool/shulker_spear"
+        },
+        {
+          "type": "loot_table",
           "value": "stellarity:item/tool/shulker_shovel"
         },
         {
