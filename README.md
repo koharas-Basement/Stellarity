@@ -145,7 +145,7 @@ Make sure to set `enable-command-blocks` in `server.properties` to `true`.
 
 After dropping the datapack into the `world/datapacks` folder, delete the `world_the_end` folder (if present) and turn on your server.
 
-There is a bug where the Altar of The Accursed doesn't load at all on servers. You can do `/function stellarity:cmd/generate_end_island_features` to generate it manually. This is a very peculiar bug which I was unable to fix as it never happened on any of my Singleplayer test worlds.
+There is a bug where the Altar of The Accursed doesn't load at all on servers. You can do `/function stellarity:_cmd/generate_end_island_features` to generate it manually. This is a very peculiar bug which I was unable to fix as it never happened on any of my Singleplayer test worlds.
 
 If the vanilla exit portal generates overlapping the Stellarity's one, turn off your server and delete only the `DIM1` folder found inside `world_the_end`, then turn it on again. After it is finished loading, run the command from earlier to generate missing End Island features.
 
