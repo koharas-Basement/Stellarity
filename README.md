@@ -7,7 +7,7 @@
 -------
 
 [![Discord](https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.gg/yXQBaWr96C)
-[![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://stellarity.kohara.xyz)
+[![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://koharasbasement.wiki.gg/wiki/Stellarity)
 [![Modrinth](https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge)](https://modrinth.com/data-packs/stellarity)
 [![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://www.curseforge.com/minecraft/mc-mods/stellarity)
 [![Forks](https://img.shields.io/github/forks/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/koharas-Basement/Stellarity/members)
@@ -124,8 +124,8 @@ Small ambient structures have also been scattered across The End to bring some m
 - 🎨 There is an optional resource pack for Stellarity. It isn't required at all, but it allows all new items to have custom textures. Click [**HERE**](https://modrinth.com/resourcepack/stellarity-optional-resource-pack) to download it.
 > Note that all mod JARs already have it embedded.
 - ❗ Adding it to an already existing world requires you to reset The End *(or just use a new world)*.
-- ⚙️ The pack has a small **per-world** config available under `/function stellarity:cmd/configuration`.
-- ❌ Stellarity items do not show up in the creative menu. I might implement that one day, but for now, please do either `/loot give @s loot stellarity:items/<item>` or `/function stellarity:cmd/give/<category>`.
+- ⚙️ The pack has a small **per-world** config available under `/function stellarity:_cmd/configuration`.
+- ❌ Stellarity items do not show up in the creative menu. I might implement that one day, but for now, please do either `/loot give @s loot stellarity:item/<item>` or `/function stellarity:_cmd/give/<category>`.
 - 🌐 Since Stellarity is only a datapack packaged as a mod this means that it is fully server-sided. This makes vanilla clients able to join servers running Stellarity, but also makes it unable to add any new blocks and actual items. I also don't have enough time to learn Java and get into proper modding, altough a proper mod port is being worked by some people on my Discord server.
 - 🎵 By default, Stellarity doesn't come with its music. You can download an additional resource pack which contains all new music tracks [**HERE**](https://modrinth.com/resourcepack/stellarity-music-addon).
 
