@@ -230,6 +230,13 @@
       "ascent": 18,
       "height": 18,
       "chars": ["@"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/netherite_spear.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": ["&"]
     }
   ]
 }
