@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 
 [[mods]]
 modId = "stellarity"
-version = "5.2.1"
+version = "5.3.0"
 displayName = "Stellarity"
 displayURL = "https://modrinth.com/datapack/stellarity"
 description = '''

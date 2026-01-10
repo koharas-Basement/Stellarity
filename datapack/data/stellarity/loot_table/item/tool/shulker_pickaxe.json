@@ -34,7 +34,7 @@
                 },
                 "minecraft:max_damage": 2701,
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.shulker.pickaxe",
+                  "translate": "item.stellarity.shulker_pickaxe",
                   "color": "#976A97",
                   "italic": false
                 }
