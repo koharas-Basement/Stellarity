@@ -36,7 +36,7 @@ tellraw @s {"text": "| ","color":"gray","bold":true}
   tellraw @s [\
   {"text": "| ","color":"gray","bold":true},\
   {"text":" 📕 ","color":"#FF5D16","bold":true},\
-  {"text":"Wiki","color":"#FBA957","bold":false,"click_event": {"action": "open_url","url": "https://stellarity.kohara.xyz/"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
+  {"text":"Wiki","color":"#FBA957","bold":false,"click_event": {"action": "open_url","url": "https://koharasbasement.wiki.gg/wiki/Stellarity"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
   {"text": " ▪ ","color":"gray","bold":true},\
   {"text":"💬 ","color":"#5865F2","bold":true},\
   {"text":"Discord","color":"#589CF2","bold":false,"click_event": {"action": "open_url","url": "https://discord.kohara.xyz/"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
@@ -51,7 +51,7 @@ tellraw @s [\
 {"text":"Ko-Fi","color":"#FF8987","bold":false,"click_event": {"action": "open_url","url": "https://ko-fi.com/kohara"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
 {"text": " ▪ ","color":"gray","bold":true},\
 {"text":"❓ ","color":"#E70000","bold":true},\
-{"text":"FAQ","color":"white","bold":false,"click_event": {"action": "open_url","url": "https://stellarity.kohara.xyz/wiki/faq"},"hover_event": {"action": "show_text","value":{"text":"Click to read"}}},{"text": " ▪ ","color":"gray","bold":true},{"text":"🖥 ","color":"#01E0FF","bold":true},\
+{"text":"FAQ","color":"white","bold":false,"click_event": {"action": "open_url","url": "https://koharasbasement.wiki.gg/wiki/Stellarity"},"hover_event": {"action": "show_text","value":{"text":"Click to read"}}},{"text": " ▪ ","color":"gray","bold":true},{"text":"🖥 ","color":"#01E0FF","bold":true},\
 {"text":"BisectHosting","color":"#FFFFFF","bold":false,"click_event": {"action": "open_url","url": "https://bisecthosting.com/kohara"},"hover_event": {"action": "show_text","value":{"text":"Stellarity is partnered with BisectHosting!\n\nNeed a server?\nUse code 'kohara' for 25%% off your first month!"}}}\
 ]
 
