@@ -7,7 +7,7 @@
           "type": "minecraft:model",
           "model": "stellarity:item/sandstorm_trident"
         },
-        "when": ["gui", "ground", "fixed"]
+        "when": ["gui", "ground", "fixed","on_shelf"]
       }
     ],
     "fallback": {
