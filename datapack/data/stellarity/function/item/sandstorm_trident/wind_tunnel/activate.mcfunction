@@ -1,6 +1,6 @@
 tag @s add stellarity.sandstorm_trident.activated
 
-# scoreboard players operation #temp stellarity.item.sandstorm_trident.id = @s stellarity.item.sandstorm_trident.id
+scoreboard players operation #temp stellarity.item.sandstorm_trident.id = @s stellarity.item.sandstorm_trident.id
 
 execute if score @s stellarity.item.sandstorm_trident.trail_pos matches ..5 as @e[type=area_effect_cloud,tag=stellarity.wind_tunnel] if score @s stellarity.item.sandstorm_trident.id = #temp stellarity.item.sandstorm_trident.id run kill @s
 execute if score @s stellarity.item.sandstorm_trident.trail_pos matches ..5 run return fail
