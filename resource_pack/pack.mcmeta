@@ -9,7 +9,7 @@
     "description": [
       {
         "translate": "stellarity.resource_pack",
-        "fallback": "Optional resources for Stellarity",
+        "fallback": "Required resources for Stellarity",
         "color": "#CB4BFF"
       },
       " ",
