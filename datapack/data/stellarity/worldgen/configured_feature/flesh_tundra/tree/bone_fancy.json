@@ -2,7 +2,6 @@
   "type": "minecraft:tree",
   "config": {
     "ignore_vines": true,
-    "force_dirt": false,
     "minimum_size": {
       "type": "minecraft:three_layers_feature_size",
       "limit": 3,
@@ -11,7 +10,7 @@
       "middle_size": 5,
       "upper_size": 3
     },
-    "dirt_provider": {
+    "below_trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
         "Name": "minecraft:bone_block",

@@ -63,7 +63,7 @@ Right after defeating the Ender Dragon, the **Altar of The Accursed awakens**. I
 - Unbinding enchantments from an item and transferring them to an unenchanted Book;
 - Changing the trail an Elytra produces while flying *(more on that later!)*.
 
-There are __at least 40__ different new items for you to find and have fun with, about 20 of which are actually usable weapons. Stellarity also adds 3 new armor sets which act as an upgrade to Netherite Armor, each focusing on upgrading either defense, offense or mobility. 
+There are __at least 40__ different new items for you to find and have fun with, about 20 of which are actually usable weapons. Stellarity also adds 4 new armor sets which act as an upgrade to Netherite Armor, each focusing on upgrading either defense, offense or mobility. 
 
 But Stellarity doesn't add only swords and bows! Other than a few fun items (like e.g. a reusable Ender Pearl) or useful ones (e.g. a pickaxe which gets extra drops from Stone), there is also a whole new category of gear - **trinkets**. Trinkets provide a special bonus while held, and in Stellarity, this can be truly anything - stars falling when hurt, electric dashes, pacifying nearby mobs...
 

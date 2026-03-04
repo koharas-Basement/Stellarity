@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:forest_rock",
+  "type": "minecraft:block_blob",
   "config": {
     "state": {
       "Name": "minecraft:tuff"
