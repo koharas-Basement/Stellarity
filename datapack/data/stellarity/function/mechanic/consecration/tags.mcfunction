@@ -22,6 +22,9 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:flower
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dead_bush"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.dead_bush"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:wither_rose"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.wither_rose"
 
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:pink_petals"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.pink_petals"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:wildflowers"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.wildflowers"
+
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:oak_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:pale_oak_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:birch_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
