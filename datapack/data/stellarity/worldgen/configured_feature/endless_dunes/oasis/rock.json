@@ -22,6 +22,9 @@
                           "config": {
                             "state": {
                               "Name": "minecraft:cobblestone"
+                            },
+                            "can_place_on": {
+                              "type": "minecraft:true"
                             }
                           }
                         },
@@ -33,6 +36,9 @@
                           "config": {
                             "state": {
                               "Name": "minecraft:mossy_cobblestone"
+                            },
+                            "can_place_on": {
+                              "type": "minecraft:true"
                             }
                           }
                         },

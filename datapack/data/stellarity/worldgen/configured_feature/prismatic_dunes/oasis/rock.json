@@ -22,6 +22,9 @@
                           "config": {
                             "state": {
                               "Name": "minecraft:amethyst_block"
+                            },
+                            "can_place_on": {
+                              "type": "minecraft:true"
                             }
                           }
                         },
@@ -33,6 +36,9 @@
                           "config": {
                             "state": {
                               "Name": "minecraft:budding_amethyst"
+                            },
+                            "can_place_on": {
+                              "type": "minecraft:true"
                             }
                           }
                         },
