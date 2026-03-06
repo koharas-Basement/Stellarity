@@ -34,5 +34,5 @@
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_spear,scores={stellarity.altar_of_the_accursed.count=1}] \
-  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/tool/shulker_spear", parent:"minecraft.netherite_spear"}  
+  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/craft_weapon {loot:"stellarity:item/tool/shulker_spear", parent:"minecraft.netherite_spear"}
 
