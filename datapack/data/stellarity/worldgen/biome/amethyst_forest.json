@@ -4,6 +4,7 @@
   "has_precipitation": false,
   "creature_spawn_probability": 0,
   "attributes": {
+    "minecraft:visual/ambient_light_color": 4147007,
     "visual/sky_color": 0,
     "visual/fog_color": 0,
     "visual/water_fog_color": 0,
@@ -60,7 +61,9 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    ["stellarity:amethyst_forest/island/calcite_bottom"],
+    [
+      "stellarity:amethyst_forest/island/calcite_bottom"
+    ],
     [],
     [
       "stellarity:amethyst_forest/geode/amethyst",

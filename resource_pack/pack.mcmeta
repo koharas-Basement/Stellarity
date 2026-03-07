@@ -1,11 +1,6 @@
 {
   "pack": {
     "pack_format": 83,
-
-    "supported_formats": {
-      "min_inclusive": 34,
-      "max_inclusive": 83
-    },
     "description": [
       {
         "translate": "stellarity.resource_pack",
@@ -17,13 +12,18 @@
         "text": "⭐",
         "color": "gold"
       }
-    ]
+    ],
+    "min_format": 65,
+    "max_format": 83
   },
   "overlays": {
     "entries": [
       {
         "directory": "shader_backport",
-        "formats": [34, 56]
+        "formats": [
+          34,
+          56
+        ]
       }
     ]
   }

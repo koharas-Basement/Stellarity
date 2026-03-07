@@ -3,6 +3,7 @@
   "downfall": 0.6,
   "has_precipitation": false,
   "attributes": {
+    "minecraft:visual/ambient_light_color": 4147007,
     "visual/sky_color": 8103167,
     "visual/fog_color": 12638463,
     "visual/water_fog_color": 15034111,
