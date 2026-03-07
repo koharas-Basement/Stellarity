@@ -10,5 +10,5 @@
   ],
   "asset_id": "stellarity:entity/pig/ender_pig",
   "model": "normal",
-  "baby_asset_id": "minecraft:entity/pig/pig_temperate_baby"
+  "baby_asset_id": "stellarity:entity/pig/ender_pig_baby"
 }
