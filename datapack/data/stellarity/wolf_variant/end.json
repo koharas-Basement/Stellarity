@@ -4,6 +4,11 @@
     "tame": "stellarity:entity/wolf/ender_wolf_tame",
     "wild": "stellarity:entity/wolf/ender_wolf"
   },
+  "baby_assets": {
+    "wild": "minecraft:entity/wolf/wolf_black_baby",
+    "tame": "minecraft:entity/wolf/wolf_black_tame_baby",
+    "angry": "minecraft:entity/wolf/wolf_black_angry_baby"
+  },
   "spawn_conditions": [
     {
       "priority": 1000,

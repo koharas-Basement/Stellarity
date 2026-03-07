@@ -10,6 +10,7 @@
     "gameplay/can_start_raid": false,
     "gameplay/respawn_anchor_works": true
   },
+  "has_ender_dragon_fight": true,
   "skybox": "end",
   "has_fixed_time": true,
   "has_skylight": false,
