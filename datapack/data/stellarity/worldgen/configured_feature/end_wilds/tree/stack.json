@@ -1,44 +1,103 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:random_selector",
   "config": {
-    "tries": 64,
-    "xz_spread": 0,
-    "y_spread": 0,
-    "feature": {
-      "feature": {
-        "type": "minecraft:random_selector",
-        "config": {
-          "features": [
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "stellarity:end_wilds/tree/base",
+          "placement": [
             {
-              "chance": 0.6,
-              "feature": {
-                "feature": "stellarity:end_wilds/tree/base",
-                "placement": []
-              }
+              "type": "minecraft:count",
+              "count": 50
             },
             {
-              "chance": 0.6,
-              "feature": {
-                "feature": "stellarity:end_wilds/tree/middle",
-                "placement": []
-              }
-            },
-            {
-              "chance": 0.6,
-              "feature": {
-                "feature": "stellarity:end_wilds/tree/top",
-                "placement": []
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -2,
+                "max": 2,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -2,
+                "max": 2,
+                "plateau": 0
               }
             }
-          ],
-          "default": {
-            "feature": {
-              "type": "minecraft:no_op",
-              "config": {}
-            },
-            "placement": []
-          }
+          ]
         }
+      },
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "stellarity:end_wilds/tree/middle",
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 4
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -2,
+                "max": 2,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": 0,
+                "max": 0,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": 0,
+              "y_spread": 3
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "stellarity:end_wilds/tree/top",
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 3
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -2,
+                "max": 2,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": 0,
+                "max": 0,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": 0,
+              "y_spread": 9
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
       },
       "placement": []
     }
