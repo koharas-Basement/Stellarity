@@ -59,7 +59,53 @@
               ]
             }
           },
-          "placement": []
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 16
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -6,
+                "max": 6,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -4,
+                "max": 4,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:sand",
+                      "minecraft:end_stone"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
         }
       }
     ],
@@ -75,7 +121,47 @@
           }
         }
       },
-      "placement": []
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 24
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          },
+          "y_spread": {
+            "type": "minecraft:trapezoid",
+            "min": -4,
+            "max": 4,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air"
+                ]
+              },
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:dead_bush"
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }

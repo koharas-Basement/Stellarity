@@ -25,41 +25,49 @@
     },
     "vegetation_feature": {
       "feature": {
-        "type": "minecraft:flower",
+        "type": "minecraft:simple_block",
         "config": {
-          "tries": 3,
-          "xz_spread": 1,
-          "y_spread": 1,
-          "feature": {
-            "feature": {
-              "type": "minecraft:simple_block",
-              "config": {
-                "to_place": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:oak_leaves",
-                    "Properties": {
-                      "distance": "7",
-                      "persistent": "true",
-                      "waterlogged": "false"
-                    }
-                  }
-                }
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:oak_leaves",
+              "Properties": {
+                "distance": "7",
+                "persistent": "true",
+                "waterlogged": "false"
               }
-            },
-            "placement": [
-              {
-                "type": "minecraft:block_predicate_filter",
-                "predicate": {
-                  "type": "minecraft:all_of",
-                  "predicates": []
-                }
-              }
-            ]
+            }
           }
         }
       },
-      "placement": []
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 3
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:trapezoid",
+            "min": -1,
+            "max": 1,
+            "plateau": 0
+          },
+          "y_spread": {
+            "type": "minecraft:trapezoid",
+            "min": -1,
+            "max": 1,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": []
+          }
+        }
+      ]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 83,
+    "pack_format": 84,
     "description": [
       {
         "translate": "stellarity.resource_pack",
@@ -14,7 +14,7 @@
       }
     ],
     "min_format": 65,
-    "max_format": 83
+    "max_format": 84
   },
   "overlays": {
     "entries": [
