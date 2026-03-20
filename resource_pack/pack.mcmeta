@@ -13,18 +13,7 @@
         "color": "gold"
       }
     ],
-    "min_format": 65,
+    "min_format": 84,
     "max_format": 84
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "shader_backport",
-        "formats": [
-          34,
-          56
-        ]
-      }
-    ]
   }
 }
