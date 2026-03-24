@@ -25,6 +25,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:diamond_spear",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
           "weight": 1,
           "functions": [
@@ -80,6 +85,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_spear",
           "weight": 2
         },
         {

@@ -26,6 +26,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:diamond_spear",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
           "weight": 2
         },

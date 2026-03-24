@@ -21,7 +21,50 @@
     },
     "vegetation_feature": {
       "feature": "stellarity:endless_dunes/oasis/pool_vegetation",
-      "placement": []
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 12
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:trapezoid",
+            "min": -6,
+            "max": 6,
+            "plateau": 0
+          },
+          "y_spread": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:sugar_cane",
+                  "Properties": {
+                    "age": "0"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air"
+                ]
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }

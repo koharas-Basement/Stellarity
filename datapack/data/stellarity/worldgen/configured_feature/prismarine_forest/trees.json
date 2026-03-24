@@ -11,7 +11,7 @@
               "minimum_size": {
                 "type": "minecraft:three_layers_feature_size"
               },
-              "dirt_provider": {
+              "below_trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
                   "Name": "minecraft:dirt"
@@ -103,7 +103,7 @@
               "minimum_size": {
                 "type": "minecraft:two_layers_feature_size"
               },
-              "dirt_provider": {
+              "below_trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
                   "Name": "minecraft:dirt"
@@ -195,7 +195,7 @@
               "minimum_size": {
                 "type": "minecraft:two_layers_feature_size"
               },
-              "dirt_provider": {
+              "below_trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
                   "Name": "minecraft:dirt"
@@ -286,7 +286,7 @@
           "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
           },
-          "dirt_provider": {
+          "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
               "Name": "minecraft:rooted_dirt"

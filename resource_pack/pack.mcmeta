@@ -1,15 +1,10 @@
 {
   "pack": {
-    "pack_format": 75,
-
-    "supported_formats": {
-      "min_inclusive": 34,
-      "max_inclusive": 75
-    },
+    "pack_format": 84,
     "description": [
       {
         "translate": "stellarity.resource_pack",
-        "fallback": "Optional resources for Stellarity",
+        "fallback": "Required resources for Stellarity",
         "color": "#CB4BFF"
       },
       " ",
@@ -17,14 +12,8 @@
         "text": "⭐",
         "color": "gold"
       }
-    ]
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "shader_backport",
-        "formats": [34, 56]
-      }
-    ]
+    ],
+    "min_format": 84,
+    "max_format": 84
   }
 }

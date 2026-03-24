@@ -25,12 +25,17 @@
     execute if entity @s[tag=stellarity.consecration.wither_rose] run \
     function stellarity:mechanic/consecration/drops/convert_to {item:"poppy"}
     execute if entity @s[tag=stellarity.consecration.dead_bush] run \
-    function stellarity:mechanic/consecration/drops/convert_to {item:"pink_petals"}
+    function stellarity:mechanic/consecration/drops/convert_to {item:"bush"}
 
   execute if entity @s[tag=stellarity.consecration.ink_sac] run \
   function stellarity:mechanic/consecration/drops/convert_to {item:"glow_ink_sac"}
   execute if entity @s[tag=stellarity.consecration.glow_ink_sac] run \
   function stellarity:mechanic/consecration/drops/convert_to {item:"ink_sac"}
+
+  execute if entity @s[tag=stellarity.consecration.pink_petals] run \
+  function stellarity:mechanic/consecration/drops/convert_to {item:"wildflowers"}
+  execute if entity @s[tag=stellarity.consecration.wildflowers] run \
+  function stellarity:mechanic/consecration/drops/convert_to {item:"pink_petals"}
 
 execute if entity @s[tag=stellarity.consecration.brick] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"nether_brick"}

@@ -9,5 +9,6 @@
     }
   ],
   "asset_id": "stellarity:entity/pig/ender_pig",
-  "model": "normal"
+  "model": "normal",
+  "baby_asset_id": "stellarity:entity/pig/ender_pig_baby"
 }

@@ -29,6 +29,11 @@
     "minecraft:frog",
     "minecraft:tadpole",
     "minecraft:sniffer",
-    "minecraft:camel"
+    "minecraft:camel",
+    "minecraft:camel_husk",
+    "minecraft:nautilus",
+    "minecraft:zombie_nautilus",
+    "minecraft:zombie_horse",
+    "minecraft:copper_golem"
   ]
 }

@@ -6,51 +6,46 @@
         "chance": 0.1,
         "feature": {
           "feature": {
-            "type": "minecraft:random_patch",
+            "type": "minecraft:simple_random_selector",
             "config": {
-              "tries": 1,
-              "xz_spread": 11,
-              "y_spread": 4,
-              "feature": {
-                "feature": {
-                  "type": "minecraft:simple_random_selector",
-                  "config": {
-                    "features": [
-                      {
-                        "feature": {
-                          "type": "minecraft:forest_rock",
-                          "config": {
-                            "state": {
-                              "Name": "minecraft:cobblestone"
-                            }
-                          }
-                        },
-                        "placement": []
+              "features": [
+                {
+                  "feature": {
+                    "type": "minecraft:block_blob",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:cobblestone"
                       },
-                      {
-                        "feature": {
-                          "type": "minecraft:forest_rock",
-                          "config": {
-                            "state": {
-                              "Name": "minecraft:mossy_cobblestone"
-                            }
-                          }
-                        },
-                        "placement": []
+                      "can_place_on": {
+                        "type": "minecraft:true"
                       }
-                    ]
-                  }
+                    }
+                  },
+                  "placement": []
                 },
-                "placement": [
-                  {
-                    "type": "minecraft:heightmap",
-                    "heightmap": "OCEAN_FLOOR"
-                  }
-                ]
-              }
+                {
+                  "feature": {
+                    "type": "minecraft:block_blob",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:mossy_cobblestone"
+                      },
+                      "can_place_on": {
+                        "type": "minecraft:true"
+                      }
+                    }
+                  },
+                  "placement": []
+                }
+              ]
             }
           },
-          "placement": []
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "OCEAN_FLOOR"
+            }
+          ]
         }
       }
     ],

@@ -2,11 +2,11 @@ modLoader = "lowcodefml"
 loaderVersion = "[1,)"
 license = "LicenseRef-Custom"
 showAsResourcePack = false
-issueTrackerURL = "https://discord.kohara.xyz/"
+issueTrackerURL = "https://discord.com/invite/5u3TTVmkSq"
 
 [[mods]]
 modId = "stellarity"
-version = "5.3.0"
+version = "5.4.0"
 displayName = "Stellarity"
 displayURL = "https://modrinth.com/datapack/stellarity"
 description = '''
@@ -16,7 +16,7 @@ description = '''
 logoFile = "pack.png"
 logoBlur = false
 updateJSONURL = "https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json"
-credits = "brokenemp (Artist), Dat1Mexican (RP Bedrock Port), Bush_King (Builder), Opliz (Builder), Coder2195 (Builder)"
+credits = "BananaKingXO (Developer), brokenemp (Artist), Dat1Mexican (RP Bedrock Port), Bush_King (Builder), Opliz (Builder), Coder2195 (Builder), Alligator_Gamer (Artist)"
 authors = "kohara"
 
 [[dependencies.stellarity]]
@@ -28,6 +28,6 @@ side = "BOTH"
 [[dependencies.stellarity]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.21.11,1.21.11]"
+versionRange = "[26.1,26.1]"
 ordering = "NONE"
 side = "BOTH"

@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "stellarity",
-  "version": "5.3.0",
+  "version": "5.4.0",
   "name": "Stellarity",
   "description": "Extreme rehaul and expansion of The End! 'We have End Update at home.'",
   "authors": ["kohara"],
   "contributors": [
+    "BananaKingXO (Developer)",
     "brokenemp (Artist)",
+    "Alligator_Gamer (Artist)",
     "Dat1Mexican (RP Bedrock Port)",
     "Bush_King (Builder)",
     "Opliz (Builder)",
@@ -15,7 +17,7 @@
   "contact": {
     "homepage": "https://modrinth.com/datapack/stellarity",
     "sources": "https://github.com/kohy-creates/Stellarity",
-    "issues": "https://discord.gg/kohara"
+    "issues": "https://discord.com/invite/5u3TTVmkSq"
   },
   "license": "LicenseRef-Custom",
   "icon": "pack.png",
@@ -26,7 +28,7 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://discord.gg/kohara"
+        "modmenu.discord": "https://discord.com/invite/5u3TTVmkSq"
       },
       "update_checker": true
     }

@@ -11,6 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_model": "stellarity:voided_slime_spawn_egg",
                 "custom_data": {
                   "stellarity:item": "voided_slime_spawn_egg"
                 },

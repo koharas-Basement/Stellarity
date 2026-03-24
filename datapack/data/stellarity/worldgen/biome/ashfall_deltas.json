@@ -33,7 +33,8 @@
           "probability": 0.01
         }
       ]
-    }
+    },
+    "minecraft:visual/ambient_light_color": 4147007
   },
   "effects": {
     "water_color": 15068927,

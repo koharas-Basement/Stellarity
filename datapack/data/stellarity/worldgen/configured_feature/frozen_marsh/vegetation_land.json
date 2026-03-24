@@ -28,7 +28,10 @@
                           }
                         }
                       },
-                      "foliage_radius": 1
+                      "foliage_radius": 1,
+                      "can_place_on": {
+                        "type": "minecraft:true"
+                      }
                     }
                   },
                   "placement": []
@@ -40,7 +43,7 @@
                       "minimum_size": {
                         "type": "minecraft:two_layers_feature_size"
                       },
-                      "dirt_provider": {
+                      "below_trunk_provider": {
                         "type": "minecraft:simple_state_provider",
                         "state": {
                           "Name": "minecraft:rooted_dirt"
@@ -92,99 +95,72 @@
         "chance": 0.14,
         "feature": {
           "feature": {
-            "type": "minecraft:random_patch",
+            "type": "minecraft:block_column",
             "config": {
-              "tries": 40,
-              "xz_spread": 6,
-              "y_spread": 3,
-              "feature": {
-                "feature": {
-                  "type": "minecraft:block_column",
-                  "config": {
-                    "direction": "up",
-                    "allowed_placement": {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": ["minecraft:air"]
-                    },
-                    "prioritize_tip": true,
-                    "layers": [
+              "direction": "up",
+              "allowed_placement": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air"
+                ]
+              },
+              "prioritize_tip": true,
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:weighted_list",
+                    "distribution": [
                       {
-                        "height": {
-                          "type": "minecraft:weighted_list",
-                          "distribution": [
-                            {
-                              "weight": 4,
-                              "data": {
-                                "type": "minecraft:uniform",
-                                "min_inclusive": 2,
-                                "max_inclusive": 3
-                              }
-                            },
-                            {
-                              "weight": 1,
-                              "data": 1
-                            },
-                            {
-                              "weight": 4,
-                              "data": {
-                                "type": "minecraft:uniform",
-                                "min_inclusive": 2,
-                                "max_inclusive": 5
-                              }
-                            }
-                          ]
-                        },
-                        "provider": {
-                          "type": "minecraft:simple_state_provider",
-                          "state": {
-                            "Name": "minecraft:twisting_vines_plant"
-                          }
+                        "weight": 4,
+                        "data": {
+                          "type": "minecraft:uniform",
+                          "min_inclusive": 2,
+                          "max_inclusive": 3
                         }
                       },
                       {
-                        "height": 1,
-                        "provider": {
-                          "type": "minecraft:randomized_int_state_provider",
-                          "property": "age",
-                          "values": {
-                            "type": "minecraft:uniform",
-                            "min_inclusive": 18,
-                            "max_inclusive": 25
-                          },
-                          "source": {
-                            "type": "minecraft:simple_state_provider",
-                            "state": {
-                              "Name": "minecraft:twisting_vines",
-                              "Properties": {
-                                "age": "0"
-                              }
-                            }
-                          }
+                        "weight": 1,
+                        "data": 1
+                      },
+                      {
+                        "weight": 4,
+                        "data": {
+                          "type": "minecraft:uniform",
+                          "min_inclusive": 2,
+                          "max_inclusive": 5
                         }
                       }
                     ]
-                  }
-                },
-                "placement": [
-                  {
-                    "type": "minecraft:block_predicate_filter",
-                    "predicate": {
-                      "type": "minecraft:all_of",
-                      "predicates": [
-                        {
-                          "type": "minecraft:matching_blocks",
-                          "offset": [0, -1, 0],
-                          "blocks": ["minecraft:snow_block"]
-                        },
-                        {
-                          "type": "minecraft:matching_blocks",
-                          "blocks": ["minecraft:air"]
-                        }
-                      ]
+                  },
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:twisting_vines_plant"
                     }
                   }
-                ]
-              }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "type": "minecraft:randomized_int_state_provider",
+                    "property": "age",
+                    "values": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": 18,
+                      "max_inclusive": 25
+                    },
+                    "source": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:twisting_vines",
+                        "Properties": {
+                          "age": "0"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
             }
           },
           "placement": []

@@ -8,12 +8,20 @@
       "explodes": false
     },
     "gameplay/can_start_raid": false,
-    "gameplay/respawn_anchor_works": true
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/ambient_light_color": "#3f473f",
+    "minecraft:visual/fog_color": "#181318",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/sky_light_color": "#ac60cd",
+    "minecraft:visual/sky_light_factor": 0
   },
+  "has_ender_dragon_fight": true,
+  "default_clock": "minecraft:the_end",
   "skybox": "end",
   "has_fixed_time": true,
   "has_skylight": false,
   "has_ceiling": false,
+  "timelines": "#minecraft:in_end",
   "coordinate_scale": 1,
   "ambient_light": 0.25,
   "logical_height": 384,

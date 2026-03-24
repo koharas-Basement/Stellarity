@@ -1,53 +1,34 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:simple_block",
   "config": {
-    "tries": 16,
-    "xz_spread": 5,
-    "y_spread": 2,
-    "feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:weighted_state_provider",
-            "entries": [
-              {
-                "weight": 5,
-                "data": {
-                  "Name": "minecraft:short_grass"
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:tall_grass",
-                  "Properties": {
-                    "half": "lower"
-                  }
-                }
-              },
-              {
-                "weight": 2,
-                "data": {
-                  "Name": "minecraft:nether_sprouts"
-                }
-              },
-              {
-                "weight": 2,
-                "data": {
-                  "Name": "minecraft:warped_roots"
-                }
-              }
-            ]
-          }
-        }
-      },
-      "placement": [
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
         {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": ["minecraft:air"]
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:short_grass"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:nether_sprouts"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:warped_roots"
           }
         }
       ]

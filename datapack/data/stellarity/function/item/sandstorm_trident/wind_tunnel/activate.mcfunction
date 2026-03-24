@@ -10,6 +10,6 @@ if score @s stellarity.item.sandstorm_trident.id = #temp stellarity.item.sandsto
 execute as @e[type=area_effect_cloud,tag=stellarity.wind_tunnel] \
 if score @s stellarity.item.sandstorm_trident.id = #temp stellarity.item.sandstorm_trident.id run data merge entity @s {Duration:300,Age:0}
 
-tag @n[type=area_effect_cloud,tag=stellarity.wind_tunnel.activated] add stellarity.wind_tunnel.end
+tag @e[type=area_effect_cloud,tag=stellarity.wind_tunnel,scores={stellarity.item.sandstorm_trident.trail_pos=40}] add stellarity.wind_tunnel.end
 
 kill @n[type=marker,tag=stellarity.sandstorm_trident]
