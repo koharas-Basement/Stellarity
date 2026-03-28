@@ -2,6 +2,6 @@
     "parent": "minecraft:item/generated",
     "textures": {
         "layer0": "minecraft:item/netherite_chestplate",
-        "layer1": "minecraft:trims/items/chestplate_trim_enderite"
+        "layer1": "minecraft:trims/items/chestplate_trim_chorus"
     }
 }

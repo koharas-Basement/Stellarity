@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "stellarity:item/champion_helmet",
+        "layer1": "stellarity:item/champion_helmet",
+        "layer2": "minecraft:trims/items/helmet_trim_iron"
+    }
+}
