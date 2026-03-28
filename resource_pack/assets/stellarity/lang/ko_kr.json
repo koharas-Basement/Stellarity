@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s(은)는 알 수 없는 곳으로 날아갔다",
   "entity.stellarity.primordial_phantom.spawn": "%s(이)가 깨어났다!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "빛의 성전 탐험가 지도",
   "filled_map.stellarity.end_city": "엔드 도시 탐험가 지도",
   "filled_map.stellarity.end_village": "엔드 마을 탐험가 지도",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoscope charges",
-  "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts"
+  "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

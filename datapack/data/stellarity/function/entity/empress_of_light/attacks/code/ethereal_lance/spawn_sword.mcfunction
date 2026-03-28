@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["stellarity.empress_of_light.ethereal_lance","stellarity.marker","smithed.entity","smithed.strict"]}
+summon marker ~ ~-.5 ~ {Tags:["stellarity.empress_of_light.ethereal_lance","stellarity.marker","smithed.entity","smithed.strict"]}
 execute as @n[type=marker,tag=stellarity.empress_of_light.ethereal_lance] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~5
 
 scoreboard players reset #ethereal_lance.color stellarity.misc

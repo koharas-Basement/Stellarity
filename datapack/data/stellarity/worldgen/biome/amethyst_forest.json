@@ -82,6 +82,7 @@
       "stellarity:amethyst_forest/vegetation/amethyst",
       "stellarity:amethyst_forest/vegetation/flower",
       "stellarity:amethyst_forest/vegetation/patch_grass",
+      "minecraft:patch_bush",
       "stellarity:amethyst_forest/roots"
     ],
     []

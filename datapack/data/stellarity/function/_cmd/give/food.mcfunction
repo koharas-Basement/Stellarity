@@ -6,6 +6,7 @@ loot give @s loot stellarity:item/food/fish/ender_koi
 loot give @s loot stellarity:item/food/fish/flarefin_koi
 loot give @s loot stellarity:item/food/fish/fleshy_piranha
 loot give @s loot stellarity:item/food/fish/frost_minnow
+loot give @s loot stellarity:item/food/fish/goosh
 loot give @s loot stellarity:item/food/fish/overgrown_cod
 loot give @s loot stellarity:item/food/fish/prismite
 loot give @s loot stellarity:item/food/fish/pufferfish

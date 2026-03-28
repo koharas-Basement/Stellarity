@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s voa para o desconhecido",
   "entity.stellarity.primordial_phantom.spawn": "%s despertou!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Mapa de exploração da capela da luz",
   "filled_map.stellarity.end_city": "Mapa de exploração da cidade do End",
   "filled_map.stellarity.end_village": "Mapa da vila do End",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Martelo fofo da justiça lança",
   "subtitles.stellarity.item.kaleidoscope.ready": "Caleidoscópio carrega",
-  "subtitles.stellarity.item.living_flesh.boost": "Carne viva ferida"
+  "subtitles.stellarity.item.living_flesh.boost": "Carne viva ferida",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s fliegt ins unbekannte hinunter",
   "entity.stellarity.primordial_phantom.spawn": "%s ist erwacht!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Kapelle des Lichts Erkundungskarte",
   "filled_map.stellarity.end_city": "Endsiedlungs-Erkundungskarte",
   "filled_map.stellarity.end_village": "End Dorf Erkundungskarte",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoskop lädt auf",
-  "subtitles.stellarity.item.living_flesh.boost": "Lebendes Fleisch schmerzt"
+  "subtitles.stellarity.item.living_flesh.boost": "Lebendes Fleisch schmerzt",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

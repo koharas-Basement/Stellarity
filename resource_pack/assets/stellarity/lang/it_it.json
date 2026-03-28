@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s vola verso l'ignoto",
   "entity.stellarity.primordial_phantom.spawn": "%s si è risvegliato!",
   "entity.stellarity.shulking": "Shulkere",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Mappa esploratore di giardini della luce",
   "filled_map.stellarity.end_city": "Mappa della città dell'End",
   "filled_map.stellarity.end_village": "Mappa del villaggio nell'End",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Martello morbidoso torna",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Martello morbidoso lanciato",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoscopio si carica",
-  "subtitles.stellarity.item.living_flesh.boost": "Carne vivente soffre"
+  "subtitles.stellarity.item.living_flesh.boost": "Carne vivente soffre",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

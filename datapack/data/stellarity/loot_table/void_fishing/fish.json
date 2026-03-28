@@ -54,6 +54,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 30,
+          "value": "stellarity:void_fishing/drops/warped_marsh",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "stellarity:location/in_biome/warped_marsh"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
           "value": "stellarity:void_fishing/drops/frozen_spikes",
           "conditions": [
             {

@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s odlatuje w nieznane",
   "entity.stellarity.primordial_phantom.spawn": "%s został przywołany!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Mapa badacza Kaplicy Światła",
   "filled_map.stellarity.end_city": "Mapa badacza Miast Kresu",
   "filled_map.stellarity.end_village": "Mapa badacza Wiosek Kresu",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Ładowanie Kalejdoskopu",
-  "subtitles.stellarity.item.living_flesh.boost": "Żywe mięso boli"
+  "subtitles.stellarity.item.living_flesh.boost": "Żywe mięso boli",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

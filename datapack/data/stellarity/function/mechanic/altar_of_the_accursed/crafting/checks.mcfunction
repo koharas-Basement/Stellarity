@@ -5,5 +5,6 @@ function stellarity:mechanic/altar_of_the_accursed/crafting/items/tools
 function stellarity:mechanic/altar_of_the_accursed/crafting/items/armor
 function stellarity:mechanic/altar_of_the_accursed/crafting/items/weapons
 function stellarity:mechanic/altar_of_the_accursed/crafting/items/general
+function stellarity:mechanic/altar_of_the_accursed/crafting/items/void_locket
 
 function #stellarity:altar_of_the_accursed_extra_recipes
