@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s відлітає за обрій",
   "entity.stellarity.primordial_phantom.spawn": "%s з'являється із гуркотом грому!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Мапа мандрівника (Каплиця світла)",
   "filled_map.stellarity.end_city": "Мапа мандрівника (Місто Енду)",
   "filled_map.stellarity.end_village": "Мапа мандрівника (Селище Енду)",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoscope charges",
-  "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts"
+  "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

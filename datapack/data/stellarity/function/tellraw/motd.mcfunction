@@ -1,4 +1,4 @@
-execute store result score #random stellarity.misc run random value 1..75
+execute store result score #random stellarity.misc run random value 1..76
 
 execute if score #random stellarity.misc matches 1 run \
 data modify storage stellarity:temp motd set value "§e§oHas stuff beyond the ending!"
@@ -150,3 +150,5 @@ execute if score #random stellarity.misc matches 74 run \
 data modify storage stellarity:temp motd set value "§e§o§b§o@Starmute"
 execute if score #random stellarity.misc matches 75 run \
 data modify storage stellarity:temp motd set value "§e§oDelete your account"
+execute if score #random stellarity.misc matches 76 run \
+data modify storage stellarity:temp motd set value "§e§oNow on 26.X!"

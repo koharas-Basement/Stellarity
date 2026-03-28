@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s 飞向未知的世界",
   "entity.stellarity.primordial_phantom.spawn": "%s 已苏醒！",
   "entity.stellarity.shulking": "潜影贝之王",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "光之圣堂探险地图",
   "filled_map.stellarity.end_city": "末地城探险地图",
   "filled_map.stellarity.end_village": "末地村庄探险地图",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "毛绒绒锤子返回",
   "subtitles.stellarity.item.fluffy_hammer.throw": "毛绒绒锤子丢出",
   "subtitles.stellarity.item.kaleidoscope.ready": "炽金狂斧蓄力",
-  "subtitles.stellarity.item.living_flesh.boost": "生肌犹痛"
+  "subtitles.stellarity.item.living_flesh.boost": "生肌犹痛",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

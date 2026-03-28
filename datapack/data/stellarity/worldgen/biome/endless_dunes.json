@@ -93,6 +93,7 @@
     [
       "stellarity:endless_dunes/dead_bush",
       "stellarity:endless_dunes/chorus_plant",
+      "minecraft:patch_dry_grass_desert",
       "stellarity:endless_dunes/rare_grass_patch"
     ],
     ["stellarity:global/end_dungeon", "stellarity:global/fossil"]

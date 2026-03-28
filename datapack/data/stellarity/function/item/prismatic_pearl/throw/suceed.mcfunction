@@ -7,3 +7,4 @@ playsound minecraft:block.respawn_anchor.charge player @a[distance=0..] ~ ~ ~ .4
 
 execute as @n[type=ender_pearl] run tag @s add stellarity.prismatic_pearl
 execute if entity @s[name="Bush_Lord",predicate=kohara:chance/50percent] as @n[type=ender_pearl] run tag @s add stellarity.prismatic_pearl.bush
+execute if entity @s[name="Coder2195",predicate=kohara:chance/50percent] as @n[type=ender_pearl] run tag @s add stellarity.prismatic_pearl.coder

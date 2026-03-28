@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%sはどこかへと飛び去った…",
   "entity.stellarity.primordial_phantom.spawn": "%sが目覚めた！",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "光の礼拝堂探索者の地図",
   "filled_map.stellarity.end_city": "エンドシティ探索者の地図",
   "filled_map.stellarity.end_village": "エンドの村探索者の地図",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoscope charges",
-  "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts"
+  "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

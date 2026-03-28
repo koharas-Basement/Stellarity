@@ -17,7 +17,8 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": {
                   "translate": "item.stellarity.enderite_shard"
-                }
+                },
+                "minecraft:provides_trim_material": "stellarity:enderite"
               }
             },
             {

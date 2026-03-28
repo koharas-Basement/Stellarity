@@ -83,7 +83,8 @@
       "stellarity:ashfall_deltas/vegetation/water/seagrass",
       "stellarity:ashfall_deltas/vegetation/land/trees",
       "stellarity:ashfall_deltas/vegetation",
-      "stellarity:ashfall_deltas/grass"
+      "stellarity:ashfall_deltas/grass",
+      "minecraft:patch_bush"
     ],
     ["stellarity:ashfall_deltas/magma", "stellarity:ashfall_deltas/ash_pile"]
   ]

@@ -227,6 +227,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s vuela hacia lo desconocido",
   "entity.stellarity.primordial_phantom.spawn": "%s ha despertado!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Mapa del Explorador de las Capillas de la Luz",
   "filled_map.stellarity.end_city": "Mapa del Explorador de Ciudades del End",
   "filled_map.stellarity.end_village": "Mapa del Explorador de las Aldeas del End",
@@ -606,5 +608,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Caleidoscopio se carga",
-  "subtitles.stellarity.item.living_flesh.boost": "Carne Viviente se lastima"
+  "subtitles.stellarity.item.living_flesh.boost": "Carne Viviente se lastima",
+  "trim_material.stellarity.chorus": "Chorus Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

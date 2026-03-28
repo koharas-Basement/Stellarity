@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["stellarity.empress_of_light.ethereal_lance","stellarity.empress_of_light.ethereal_lance.no_rotate","stellarity.marker","smithed.entity","smithed.strict"]}
+summon marker ~ ~-.5 ~ {Tags:["stellarity.empress_of_light.ethereal_lance","stellarity.empress_of_light.ethereal_lance.no_rotate","stellarity.marker","smithed.entity","smithed.strict"]}
 execute rotated ~ ~ as @n[type=marker,tag=stellarity.empress_of_light.ethereal_lance] at @s run tp @s ~ ~ ~ ~ ~
 
 execute unless entity @n[type=vindicator,tag=stellarity.empress_of_light.daytime] store result score #ethereal_lance.color stellarity.misc run random value 0..7
