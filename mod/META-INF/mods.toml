@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.com/invite/5u3TTVmkSq"
 
 [[mods]]
 modId = "stellarity"
-version = "5.4.0"
+version = "5.4.1"
 displayName = "Stellarity"
 displayURL = "https://modrinth.com/datapack/stellarity"
 description = '''
