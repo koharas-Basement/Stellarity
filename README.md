@@ -1,4 +1,4 @@
-### Update: We are now accepting bug reports on this repository and our [Discord](https://discord.gg/yXQBaWr96C).
+### Update: We are now accepting bug reports on this repository and our [Discord](https://discord.gg/Anfy28DN7E).
 
 ![Stellarity](https://i.imgur.com/ikwYA2D.png)
 
@@ -6,14 +6,14 @@
 
 -------
 
-[![Discord](https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.gg/yXQBaWr96C)
+[![Discord](https://img.shields.io/discord/1439707494896373833?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.gg/Anfy28DN7E)
 [![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://koharasbasement.wiki.gg/wiki/Stellarity)
 [![Modrinth](https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge)](https://modrinth.com/data-packs/stellarity)
 [![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://www.curseforge.com/minecraft/mc-mods/stellarity)
-[![Forks](https://img.shields.io/github/forks/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/koharas-Basement/Stellarity/members)
-[![Stars](https://img.shields.io/github/stars/koharas-Basement/Stellarity?style=for-the-badge&logo=github&color=yellow)](https://github.com/koharas-Basement/Stellarity/stargazers)
-[![Code Size](https://img.shields.io/github/languages/code-size/koharas-Basement/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/koharas-Basement/Stellarity)
-[![Repo Size](https://img.shields.io/github/repo-size/koharas-Basement/Stellarity?logo=dropbox&style=for-the-badge&color=red)](https://github.com/koharas-Basement/Stellarity)
+[![Forks](https://img.shields.io/github/forks/Prismatic-Shards/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/Prismatic-Shards/Stellarity/members)
+[![Stars](https://img.shields.io/github/stars/Prismatic-Shards/Stellarity?style=for-the-badge&logo=github&color=yellow)](https://github.com/Prismatic-Shards/Stellarity/stargazers)
+[![Code Size](https://img.shields.io/github/languages/code-size/Prismatic-Shards/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/Prismatic-Shards/Stellarity)
+[![Repo Size](https://img.shields.io/github/repo-size/Prismatic-Shards/Stellarity?logo=dropbox&style=for-the-badge&color=red)](https://github.com/Prismatic-Shards/Stellarity)
 
 ### Current version for: ![List](https://img.shields.io/modrinth/game-versions/bZgeDzN8?style=for-the-badge&label=%20&color=white)
 

@@ -1,41 +1,41 @@
 {
-  "schema_version": 1,
-  "quilt_loader": {
-    "group": "xyz.kohara",
-    "id": "stellarity",
-    "version": "5.4.1",
-    "metadata": {
-      "name": "Stellarity",
-      "description": "Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
-      "contributors": {
-        "BananaKingXO": "Developer",
-        "brokenemp": "Artist",
-        "Alligator_Gamer": "Artist",
-        "Dat1Mexican": "RP Bedrock Port",
-        "Bush_King": "Builder",
-        "Opliz": "Builder",
-        "Coder2195": "Builder"
-      },
-      "contact": {
-        "homepage": "https://modrinth.com/datapack/stellarity",
-        "sources": "https://github.com/kohy-creates/Stellarity",
-        "issues": "https://discord.com/invite/5u3TTVmkSq"
-      },
-      "icon": "pack.png"
-    },
-    "breaks": [
-      {
-        "id": "betterend",
-        "reason": "Better End disrupts Stellarity's main island generation."
-      }
-    ],
-    "depends": [
-      {
-        "id": "quilt_resource_loader",
-        "versions": "*",
-        "unless": "fabric-resource-loader-v0"
-      }
-    ],
-    "intermediate_mappings": "net.fabricmc:intermediary"
-  }
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "xyz.kohara",
+		"id": "stellarity",
+		"version": "5.4.1",
+		"metadata": {
+			"name": "Stellarity",
+			"description": "Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
+			"contributors": {
+				"BananaKingXO": "Developer",
+				"brokenemp": "Artist",
+				"Alligator_Gamer": "Artist",
+				"Dat1Mexican": "RP Bedrock Port",
+				"Bush_King": "Builder",
+				"Opliz": "Builder",
+				"Coder2195": "Builder"
+			},
+			"contact": {
+				"homepage": "https://modrinth.com/datapack/stellarity",
+				"sources": "https://github.com/kohy-creates/Stellarity",
+				"issues": "https://discord.gg/Anfy28DN7E"
+			},
+			"icon": "pack.png"
+		},
+		"breaks": [
+			{
+				"id": "betterend",
+				"reason": "Better End disrupts Stellarity's main island generation."
+			}
+		],
+		"depends": [
+			{
+				"id": "quilt_resource_loader",
+				"versions": "*",
+				"unless": "fabric-resource-loader-v0"
+			}
+		],
+		"intermediate_mappings": "net.fabricmc:intermediary"
+	}
 }
