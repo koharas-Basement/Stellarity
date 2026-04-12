@@ -228,6 +228,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s terbang ke yang tidak diketahui",
   "entity.stellarity.primordial_phantom.spawn": "%s telah bangun!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Peta Eksplorer Chapel of Light",
   "filled_map.stellarity.end_city": "Peta Eksplorer End City",
   "filled_map.stellarity.end_village": "Peta Eksplorer Desa End",
@@ -460,6 +462,7 @@
   "item.stellarity.shulker_leggings.bonus": "Imunitas kepada Efek Levitasi",
   "item.stellarity.shulker_pickaxe": "Beliung Shulker",
   "item.stellarity.shulker_shovel": "Sekop Shulker",
+  "item.stellarity.shulker_spear": "Shulker Spear",
   "item.stellarity.shulker_sword": "Shulker Sword",
   "item.stellarity.slayer_crossbow": "Slayer Crossbow",
   "item.stellarity.slayer_crossbow.description.1": "Shoots highly damaging energy bolts",
@@ -607,5 +610,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoskop mengecas",
-  "subtitles.stellarity.item.living_flesh.boost": "Daging Hidup menyakiti"
+  "subtitles.stellarity.item.living_flesh.boost": "Daging Hidup menyakiti",
+  "trim_material.stellarity.chorus": "Chrous Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

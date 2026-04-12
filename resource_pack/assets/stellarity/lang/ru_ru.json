@@ -228,6 +228,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s улетает в неизвестность",
   "entity.stellarity.primordial_phantom.spawn": "%s пробудился!",
   "entity.stellarity.shulking": "Shulking",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Карта пути к Святилищу света",
   "filled_map.stellarity.end_city": "Карта исследователя архитектуры Края",
   "filled_map.stellarity.end_village": "Карта исследователя поселений Края",
@@ -460,6 +462,7 @@
   "item.stellarity.shulker_leggings.bonus": "Иммунитет к левитации",
   "item.stellarity.shulker_pickaxe": "Шалкеровая кирка",
   "item.stellarity.shulker_shovel": "Шалкеровая лопата",
+  "item.stellarity.shulker_spear": "Shulker Spear",
   "item.stellarity.shulker_sword": "Шалкеровый меч",
   "item.stellarity.slayer_crossbow": "Душегуб",
   "item.stellarity.slayer_crossbow.description.1": "Выпускает энергетические разряды с огромным уроном и",
@@ -607,5 +610,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Fluffy Hammer returns",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Калейдоскоп заряжен",
-  "subtitles.stellarity.item.living_flesh.boost": "Живая плоть изнывает"
+  "subtitles.stellarity.item.living_flesh.boost": "Живая плоть изнывает",
+  "trim_material.stellarity.chorus": "Chrous Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }

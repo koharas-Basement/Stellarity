@@ -228,6 +228,8 @@
   "entity.stellarity.primordial_phantom.despawn": "%s đã bay về hư không",
   "entity.stellarity.primordial_phantom.spawn": "%s đã thức tỉnh!",
   "entity.stellarity.shulking": "Vua Shulk",
+  "entity.stellarity.shulking.death": "%s has been defeated!",
+  "entity.stellarity.shulking.spawn": "%s has risen!",
   "filled_map.stellarity.chapel_of_light": "Bản đồ thám hiểm Nhà nguyện Ánh sáng",
   "filled_map.stellarity.end_city": "Bản đồ thám hiểm Thành phố End",
   "filled_map.stellarity.end_village": "Bản đồ thám hiểm Ngôi làng End",
@@ -460,6 +462,7 @@
   "item.stellarity.shulker_leggings.bonus": "Miễn nhiễm với Lơ lửng",
   "item.stellarity.shulker_pickaxe": "Cuốc chim Shulker",
   "item.stellarity.shulker_shovel": "Xẻng Shulker",
+  "item.stellarity.shulker_spear": "Shulker Spear",
   "item.stellarity.shulker_sword": "Kiếm Shulker",
   "item.stellarity.slayer_crossbow": "Nỏ tất sát",
   "item.stellarity.slayer_crossbow.description.1": "Bắn ra một tia năng lượng với sát thương lớn",
@@ -607,5 +610,7 @@
   "subtitles.stellarity.item.fluffy_hammer.return": "Búa mềm mại trở về",
   "subtitles.stellarity.item.fluffy_hammer.throw": "Búa mềm mại bị ném",
   "subtitles.stellarity.item.kaleidoscope.ready": "Rìu Vạn hoa nạp năng lượng",
-  "subtitles.stellarity.item.living_flesh.boost": "Máu thịt tươi sống nhận sát thương"
+  "subtitles.stellarity.item.living_flesh.boost": "Máu thịt tươi sống nhận sát thương",
+  "trim_material.stellarity.chorus": "Chrous Material",
+  "trim_material.stellarity.enderite": "Enderite Material"
 }
