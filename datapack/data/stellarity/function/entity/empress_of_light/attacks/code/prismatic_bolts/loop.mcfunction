@@ -17,6 +17,7 @@ execute if entity @s[tag=stellarity.empress_of_light.prismatic_bolt.magenta] run
 execute if entity @s[tag=stellarity.empress_of_light.prismatic_bolt.purple] run particle minecraft:dust{color:[0.647, 0.243, 0.98], scale:1.5} ^ ^.5 ^ 0.13 0.13 0.13 0 3 force
 execute if entity @s[tag=stellarity.empress_of_light.prismatic_bolt.gold] run particle minecraft:dust{color:[1.0, 0.816, 0.0], scale:1.5} ^ ^.5 ^ 0.13 0.13 0.13 0 3 force
 
-execute as @a[distance=..1.2,nbt={HurtTime:0s}] at @s run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts/damage
+execute if entity @e[type=player,distance=..1.2] as @a[distance=..1.2,nbt={HurtTime:0s}] at @s run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts/damage
 
-execute if score @s stellarity.empress_of_light.projectile_age matches 61.. run kill @s
+execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 if score @s stellarity.empress_of_light.projectile_age matches 61.. run kill @s
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score @s stellarity.empress_of_light.projectile_age matches 81.. run kill @s

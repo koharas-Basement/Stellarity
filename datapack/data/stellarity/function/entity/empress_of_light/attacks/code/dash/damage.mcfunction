@@ -10,4 +10,5 @@ execute if predicate stellarity:entity/empress_of_light/is_daytime if score #dif
 
 tag @n[type=vindicator] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:empress_of_light/dash",tag:"stellarity.damage.empress_of_light.dash"}
+execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 run function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:empress_of_light/dash",tag:"stellarity.damage.empress_of_light.dash"}
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:empress_of_light/dash",tag:"stellarity.damage.empress_of_light.dash"}

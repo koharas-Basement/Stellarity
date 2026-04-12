@@ -9,3 +9,6 @@ execute if entity @s[tag=stellarity.empress_of_light.nighttime,tag=stellarity.em
 
 execute if entity @s[tag=stellarity.empress_of_light.daytime,tag=stellarity.empress_of_light.phase_1] run scoreboard players set @s stellarity.empress_of_light.attack_cooldown 26
 execute if entity @s[tag=stellarity.empress_of_light.daytime,tag=stellarity.empress_of_light.phase_2] run scoreboard players set @s stellarity.empress_of_light.attack_cooldown 24
+
+execute if entity @s[tag=stellarity.empress_of_light.radiant,tag=stellarity.empress_of_light.phase_1] run scoreboard players set @s stellarity.empress_of_light.attack_cooldown 32
+execute if entity @s[tag=stellarity.empress_of_light.radiant,tag=stellarity.empress_of_light.phase_2] run function stellarity:entity/empress_of_light/attacks/code/dash/radiant

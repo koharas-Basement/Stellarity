@@ -1,4 +1,5 @@
-scoreboard players set @s stellarity.item.prismatic_pearl.cooldown 100
+execute unless predicate stellarity:item/holding/trinket/radiant_jewel run scoreboard players set @s stellarity.item.prismatic_pearl.cooldown 100
+execute if predicate stellarity:item/holding/trinket/radiant_jewel run scoreboard players set @s stellarity.item.prismatic_pearl.cooldown 50
 
 stopsound @a neutral minecraft:entity.ender_pearl.throw
 playsound minecraft:entity.ender_eye.launch neutral @a[distance=0..] ~ ~ ~ 1 1

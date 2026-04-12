@@ -12,6 +12,7 @@ kill @n[type=item_display,tag=stellarity.empress_of_light.model]
 kill @s
 
 scoreboard players set #empress_of_light.is_alive stellarity.misc 0
+scoreboard players set #empress_of_light.is_radiant stellarity.misc 0
 scoreboard players reset #timer1
 scoreboard players reset #ambient stellarity.misc
 

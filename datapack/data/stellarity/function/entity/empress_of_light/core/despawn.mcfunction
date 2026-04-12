@@ -8,6 +8,7 @@ kill @s
 
 scoreboard players reset #ambient stellarity.misc
 scoreboard players set #empress_of_light.is_alive stellarity.misc 0
+scoreboard players set #empress_of_light.is_radiant stellarity.misc 0
 
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing] on passengers run kill @s
 kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.empress_of_light.wing]

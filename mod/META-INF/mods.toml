@@ -2,11 +2,11 @@ modLoader = "lowcodefml"
 loaderVersion = "[1,)"
 license = "LicenseRef-Custom"
 showAsResourcePack = false
-issueTrackerURL = "https://discord.com/invite/5u3TTVmkSq"
+issueTrackerURL = "https://discord.coder2195.dev"
 
 [[mods]]
 modId = "stellarity"
-version = "5.4.1"
+version = "6.0.0"
 displayName = "Stellarity"
 displayURL = "https://modrinth.com/datapack/stellarity"
 description = '''

@@ -7,5 +7,6 @@ data modify entity @s Glowing set value 1b
 
 tag @s add stellarity.empress_of_light.glowing
 
-execute if predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/glowing/join_team/day
-execute unless predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/glowing/join_team/night
+execute if predicate stellarity:entity/empress_of_light/is_daytime unless score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/glowing/join_team/day
+execute unless predicate stellarity:entity/empress_of_light/is_daytime unless score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/glowing/join_team/night
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/glowing/join_team/radiant

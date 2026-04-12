@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "stellarity:item/_technical/empress_of_light_radiant",
+    "tints": [
+      {
+        "type": "dye",
+        "default": -1
+      }
+    ]
+  }
+}

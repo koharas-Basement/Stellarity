@@ -1,6 +1,94 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "stellarity:item/void_locket"
-  }
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:enchantments",
+        "cases": [
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/amethyst": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/amethyst"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/copper": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/copper"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/diamond": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/diamond"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/emerald": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/emerald"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/gold": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/gold"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/iron": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/iron"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/lapis": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/lapis"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/netherite": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/netherite"
+                }
+            },
+            {
+                "when": {
+                    "stellarity:_technical/void_locket/quartz": 1
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "stellarity:item/void_locket/quartz"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "stellarity:item/void_locket/iron"
+        }
+    }
 }

@@ -3,7 +3,7 @@
   "quilt_loader": {
     "group": "xyz.kohara",
     "id": "stellarity",
-    "version": "5.4.1",
+    "version": "6.0.0",
     "metadata": {
       "name": "Stellarity",
       "description": "Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
@@ -18,8 +18,8 @@
       },
       "contact": {
         "homepage": "https://modrinth.com/datapack/stellarity",
-        "sources": "https://github.com/kohy-creates/Stellarity",
-        "issues": "https://discord.com/invite/5u3TTVmkSq"
+        "sources": "https://github.com/Prismatic-Shards/Stellarity",
+        "issues": "https://discord.coder2195.dev"
       },
       "icon": "pack.png"
     },

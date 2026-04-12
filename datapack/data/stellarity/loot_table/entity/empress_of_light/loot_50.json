@@ -20,21 +20,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/trinket/prismatic_pearl",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
           "value": "stellarity:item/weapon/prismatic_punch"
         }
       ],
@@ -51,6 +36,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/trinket/starstruck_shield",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/trinket/prismatic_shield",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

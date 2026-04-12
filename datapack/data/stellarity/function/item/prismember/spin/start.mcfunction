@@ -4,7 +4,8 @@
   execute rotated as @s as @n[type=marker,tag=stellarity.prismember] run tp @s ~ ~ ~ ~ 0
 
 # Apply cooldown
-  scoreboard players set @s stellarity.item.prismember.cooldown 20
+  execute unless predicate stellarity:item/holding/trinket/radiant_jewel run scoreboard players set @s stellarity.item.prismember.cooldown 20
+  execute if predicate stellarity:item/holding/trinket/radiant_jewel run scoreboard players set @s stellarity.item.prismember.cooldown 10
 
 
 # Spin damage

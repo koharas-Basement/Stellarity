@@ -24,6 +24,7 @@ execute if score @s stellarity.empress_of_light.attack_cycle matches 12 run func
 execute if score @s stellarity.empress_of_light.attack_cycle matches 13 at @p run function stellarity:entity/empress_of_light/attacks/teleport
 execute if score @s stellarity.empress_of_light.attack_cycle matches 14 run function stellarity:entity/empress_of_light/attacks/dash
 
+execute if score @s stellarity.empress_of_light.attack_cycle matches 15 run function stellarity:entity/empress_of_light/attacks/heal
 execute if score @s[tag=stellarity.empress_of_light.daytime] stellarity.empress_of_light.attack_cycle matches 15 run function stellarity:entity/empress_of_light/attacks/prismatic_bolts_2
 
 execute if score @s stellarity.empress_of_light.attack_cycle matches 16 at @p run function stellarity:entity/empress_of_light/attacks/teleport
@@ -46,6 +47,7 @@ execute if score @s[tag=stellarity.empress_of_light.daytime] stellarity.empress_
 execute if score @s stellarity.empress_of_light.attack_cycle matches 30 at @p run function stellarity:entity/empress_of_light/attacks/teleport
 execute if score @s stellarity.empress_of_light.attack_cycle matches 31 run function stellarity:entity/empress_of_light/attacks/dash
 
+execute if score @s stellarity.empress_of_light.attack_cycle matches 32 run function stellarity:entity/empress_of_light/attacks/heal
 execute if score @s stellarity.empress_of_light.attack_cycle matches 32 run function stellarity:entity/empress_of_light/attacks/prismatic_bolts_2
 
 execute if score @s stellarity.empress_of_light.attack_cycle matches 33 run function stellarity:entity/empress_of_light/attacks/ethereal_lance_2
@@ -60,6 +62,7 @@ execute if score @s stellarity.empress_of_light.attack_cycle matches 39 run func
 execute if score @s[tag=stellarity.empress_of_light.daytime] stellarity.empress_of_light.attack_cycle matches 40 at @p run function stellarity:entity/empress_of_light/attacks/teleport
 execute if score @s[tag=stellarity.empress_of_light.daytime] stellarity.empress_of_light.attack_cycle matches 41 run function stellarity:entity/empress_of_light/attacks/ethereal_lance_2
 execute if score @s stellarity.empress_of_light.attack_cycle matches 42 run function stellarity:entity/empress_of_light/attacks/prismatic_bolts_2
+execute if score @s stellarity.empress_of_light.attack_cycle matches 42 run function stellarity:entity/empress_of_light/attacks/heal
 
 execute if score @s stellarity.empress_of_light.attack_cycle matches 43 at @p run function stellarity:entity/empress_of_light/attacks/teleport
 execute if score @s stellarity.empress_of_light.attack_cycle matches 44 run function stellarity:entity/empress_of_light/attacks/dash

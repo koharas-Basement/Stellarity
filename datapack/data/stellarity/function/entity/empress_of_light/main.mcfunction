@@ -13,9 +13,9 @@ execute if score @s[tag=!stellarity.empress_of_light.hurt] stellarity.empress_of
 execute if score @s[tag=stellarity.empress_of_light.hurt] stellarity.empress_of_light.hurt_time matches ..1 as @s run function stellarity:entity/empress_of_light/core/model/unhurt
 
 # Night or day?
-  execute unless predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/loop_night
-  execute if predicate stellarity:entity/empress_of_light/is_daytime run function stellarity:entity/empress_of_light/core/loop_day
-
+  execute unless predicate stellarity:entity/empress_of_light/is_daytime unless score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/loop_night
+  execute if predicate stellarity:entity/empress_of_light/is_daytime unless score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/loop_day
+  execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/loop_radiant
 # Wing animation
   execute as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
 

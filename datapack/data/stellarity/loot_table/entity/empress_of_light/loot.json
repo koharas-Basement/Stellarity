@@ -9,10 +9,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/trinket/prismatic_pearl"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "stellarity:item/weapon/prismatic_punch"
         },
         {

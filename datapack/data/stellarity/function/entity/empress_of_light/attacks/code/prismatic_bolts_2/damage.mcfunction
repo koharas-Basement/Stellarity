@@ -8,6 +8,11 @@ execute if predicate stellarity:entity/empress_of_light/is_daytime if score #dif
 execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 140
 execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 180
 
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 90
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 120
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 160
+
 tag @s add stellarity.damage.empress_of_light.prismatic_bolts
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:empress_of_light/projectile",tag:"stellarity.damage.empress_of_light.ethereal_lance"}
+function stellarity:mechanic/enchantments/infernal_infusion/apply_prismatic_inferno
+function kohara:damage/calculate {armor_penetration:10,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:empress_of_light/projectile",tag:"stellarity.damage.empress_of_light.ethereal_lance"}

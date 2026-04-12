@@ -20,7 +20,7 @@
     bossbar set stellarity:empress_of_light color pink
     bossbar set stellarity:empress_of_light visible true
     bossbar set stellarity:empress_of_light players
-    bossbar set stellarity:empress_of_light max 500
+    bossbar set stellarity:empress_of_light max 750
     bossbar set stellarity:empress_of_light style progress
 
   # Shulking
@@ -28,7 +28,7 @@
     bossbar set stellarity:shulking color pink
     bossbar set stellarity:shulking visible true
     bossbar set stellarity:shulking players
-    bossbar set stellarity:shulking max 500
+    bossbar set stellarity:shulking max 900
     bossbar set stellarity:shulking style progress
 
   ## Scoreboards creation
@@ -273,6 +273,9 @@ team modify stellarity.empress_of_light.night_glow color light_purple
 
 team add stellarity.empress_of_light.day_glow
 team modify stellarity.empress_of_light.day_glow color yellow
+
+team add stellarity.empress_of_light.radiant_glow
+team modify stellarity.empress_of_light.radiant_glow color red
 
 team add stellarity.dragons_eye.pacified
 team modify stellarity.dragons_eye.pacified friendlyFire true

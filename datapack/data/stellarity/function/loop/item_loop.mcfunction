@@ -18,3 +18,8 @@ align xyz positioned ~.5 ~.5 ~.5 \
 unless entity @e[type=marker,tag=stellarity.cauldron_crafting,distance=..0.1] \
 unless entity @e[type=marker,tag=stellarity.cauldron_consecration,distance=..0.1] run \
 function stellarity:mechanic/consecration/cauldron/summon_marker
+
+execute \
+if entity @s[tag=stellarity.starlight_soot] \
+if entity @p[distance=..2,predicate=stellarity:item/holding/kaleidoscope] \
+run tag @s add stellarity.starlight_soot.radiant
