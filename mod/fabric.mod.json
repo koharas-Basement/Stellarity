@@ -6,13 +6,15 @@
   "description": "Extreme rehaul and expansion of The End! 'We have End Update at home.'",
   "authors": ["kohara"],
   "contributors": [
-    "BananaKingXO (Developer)",
-    "brokenemp (Artist)",
+    "BananaKingXO (Head Developer)",
+    "Coder2195 (Developer)",
     "Alligator_Gamer (Artist)",
+    "WildPlacedPixel (Artist)",
+    "Midas (Artist)",
+    "brokenemp (Artist)",
     "Dat1Mexican (RP Bedrock Port)",
     "Bush_King (Builder)",
-    "Opliz (Builder)",
-    "Coder2195 (Builder)"
+    "Opliz (Builder)"
   ],
   "contact": {
     "homepage": "https://modrinth.com/datapack/stellarity",
