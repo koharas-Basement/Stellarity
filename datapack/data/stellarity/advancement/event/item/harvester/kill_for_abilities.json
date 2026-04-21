@@ -11,7 +11,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/anima_conduit",
+          "entity_type": "#stellarity:harvester/ability/anima_conduit",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -30,7 +30,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/arctic_wind",
+          "entity_type": "#stellarity:harvester/ability/arctic_wind",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -49,7 +49,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/cryonics",
+          "entity_type": "#stellarity:harvester/ability/cryonics",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -68,7 +68,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/echo",
+          "entity_type": "#stellarity:harvester/ability/echo",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -87,7 +87,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/embrittlement",
+          "entity_type": "#stellarity:harvester/ability/embrittlement",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -106,7 +106,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/frost_barrier",
+          "entity_type": "#stellarity:harvester/ability/frost_barrier",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -125,7 +125,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/piercing_cold",
+          "entity_type": "#stellarity:harvester/ability/piercing_cold",
           "distance": {
             "absolute": {
               "max": 6.5
@@ -144,7 +144,7 @@
           }
         ],
         "entity": {
-          "type": "#stellarity:harvester/ability/frostburn",
+          "entity_type": "#stellarity:harvester/ability/frostburn",
           "distance": {
             "absolute": {
               "max": 6.5

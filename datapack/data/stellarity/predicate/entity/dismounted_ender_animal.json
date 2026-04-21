@@ -6,7 +6,7 @@
     "entity": "this",
     "predicate": {
       "vehicle": {
-        "type": "#stellarity:end_variant_animals"
+        "entity_type": "#stellarity:end_variant_animals"
       }
     }
   }

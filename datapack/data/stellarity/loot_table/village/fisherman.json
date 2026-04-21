@@ -31,17 +31,17 @@
               "type": "minecraft:item",
               "name": "minecraft:snowball"
             }
-          ],
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
           ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "add": false
         }
       ]
     }

@@ -32,7 +32,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{FallDistance:0.0f}"
+          "nbt": "{fall_distance:0.0f}"
         }
       },
       {
