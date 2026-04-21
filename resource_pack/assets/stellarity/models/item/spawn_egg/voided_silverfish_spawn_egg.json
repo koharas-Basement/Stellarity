@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "stellarity:item/spawn_egg/voided_silverfish_spawn_egg"
+    }
+}
