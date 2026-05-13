@@ -1,60 +1,35 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:simple_random_selector",
   "config": {
     "features": [
       {
-        "chance": 0.1,
         "feature": {
-          "feature": {
-            "type": "minecraft:simple_random_selector",
-            "config": {
-              "features": [
-                {
-                  "feature": {
-                    "type": "minecraft:block_blob",
-                    "config": {
-                      "state": {
-                        "Name": "minecraft:cobblestone"
-                      },
-                      "can_place_on": {
-                        "type": "minecraft:true"
-                      }
-                    }
-                  },
-                  "placement": []
-                },
-                {
-                  "feature": {
-                    "type": "minecraft:block_blob",
-                    "config": {
-                      "state": {
-                        "Name": "minecraft:mossy_cobblestone"
-                      },
-                      "can_place_on": {
-                        "type": "minecraft:true"
-                      }
-                    }
-                  },
-                  "placement": []
-                }
-              ]
+          "type": "minecraft:block_blob",
+          "config": {
+            "can_place_on": {
+              "type": "minecraft:true"
+            },
+            "state": {
+              "Name": "minecraft:cobblestone"
             }
-          },
-          "placement": [
-            {
-              "type": "minecraft:heightmap",
-              "heightmap": "OCEAN_FLOOR"
-            }
-          ]
-        }
-      }
-    ],
-    "default": {
-      "feature": {
-        "type": "minecraft:no_op",
-        "config": {}
+          }
+        },
+        "placement": []
       },
-      "placement": []
-    }
+      {
+        "feature": {
+          "type": "minecraft:block_blob",
+          "config": {
+            "can_place_on": {
+              "type": "minecraft:true"
+            },
+            "state": {
+              "Name": "minecraft:mossy_cobblestone"
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "feature": "stellarity:endless_dunes/rare_grass_patch",
+  "feature": "stellarity:endless_dunes/grass",
   "placement": [
     {
       "type": "minecraft:noise_based_count",

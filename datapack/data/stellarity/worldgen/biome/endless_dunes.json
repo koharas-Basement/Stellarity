@@ -9,17 +9,17 @@
     "visual/water_fog_color": 270131,
     "audio/ambient_sounds": {
       "loop": {
-        "sound_id": "stellarity:ambient.dark.calm"
+        "sound_id": "stellarity:ambient.the_end.heavenly_grim"
       },
       "mood": {
-        "sound": "ambient.soul_sand_valley.mood",
-        "tick_delay": 3000,
-        "block_search_extent": 10,
-        "offset": 100
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 1000,
+        "block_search_extent": 4,
+        "offset": 2.0
       },
       "additions": {
-        "sound": "ambient.soul_sand_valley.additions",
-        "tick_chance": 0.00111
+        "sound": "minecraft:ambient.cave",
+        "tick_chance": 0.001
       }
     },
     "visual/ambient_particles": {
@@ -77,11 +77,12 @@
   },
   "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
-    ["stellarity:global/stalactite"],
+    [ 
+      "stellarity:global/stalactite",
+      "stellarity:endless_dunes/oasis"
+    ],
     [],
     [
-      "stellarity:endless_dunes/oasis",
-      "stellarity:endless_dunes/lake",
       "stellarity:endless_dunes/delta_sand_on_endstone"
     ],
     [],
@@ -91,11 +92,13 @@
     [],
     [],
     [
-      "stellarity:endless_dunes/dead_bush",
-      "stellarity:endless_dunes/chorus_plant",
+      "stellarity:endless_dunes/vegetation",
       "minecraft:patch_dry_grass_desert",
-      "stellarity:endless_dunes/rare_grass_patch"
+      "stellarity:endless_dunes/grass"
     ],
-    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
+    [
+      "stellarity:global/end_dungeon", 
+      "stellarity:global/fossil"
+    ]
   ]
 }

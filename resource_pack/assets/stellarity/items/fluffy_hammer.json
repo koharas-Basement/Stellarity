@@ -1,6 +1,19 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "stellarity:item/fluffy_hammer"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "stellarity:item/fluffy_hammer_3d"
+        },
+        "when": ["thirdperson_righthand", "thirdperson_lefthand"]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "stellarity:item/fluffy_hammer"
+    },
+    "property": "minecraft:display_context"
   }
 }

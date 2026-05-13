@@ -13,38 +13,22 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_log",
+        "Name": "minecraft:jungle_log",
         "Properties": {
           "axis": "y"
         }
       }
     },
     "foliage_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 4,
-          "data": {
-            "Name": "minecraft:jungle_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true",
-              "waterlogged": "false"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:azalea_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true",
-              "waterlogged": "false"
-            }
-          }
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
         }
-      ]
+      }
     },
     "trunk_placer": {
       "type": "minecraft:forking_trunk_placer",
@@ -84,7 +68,9 @@
             "Name": "minecraft:shroomlight"
           }
         },
-        "directions": ["down"]
+        "directions": [
+          "down"
+        ]
       }
     ]
   }

@@ -1,16 +1,16 @@
 {
-  "feature": "stellarity:endless_dunes/dead_bush",
+  "feature": "stellarity:endless_dunes/vegetation",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
       "count": {
         "type": "minecraft:uniform",
-        "min_inclusive": 1,
-        "max_inclusive": 4
+        "max_inclusive": 4,
+        "min_inclusive": 1
       }
     },
     {
-      "type": "rarity_filter",
+      "type": "minecraft:rarity_filter",
       "chance": 5
     },
     {

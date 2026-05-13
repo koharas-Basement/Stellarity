@@ -3,11 +3,11 @@
   "config": {
     "features": [
       {
-        "feature": "stellarity:endless_dunes/oasis/dirt_patch",
+        "feature": "stellarity:endless_dunes/oasis/dirt",
         "placement": []
       },
       {
-        "feature": "stellarity:endless_dunes/oasis/grass_patch_spread",
+        "feature": "stellarity:endless_dunes/oasis/vegetation",
         "placement": [
           {
             "type": "minecraft:count",
@@ -17,14 +17,14 @@
             "type": "minecraft:random_offset",
             "xz_spread": {
               "type": "minecraft:trapezoid",
-              "min": -12,
               "max": 12,
+              "min": -12,
               "plateau": 0
             },
             "y_spread": {
               "type": "minecraft:trapezoid",
-              "min": -2,
               "max": 2,
+              "min": -2,
               "plateau": 0
             }
           }
@@ -41,15 +41,23 @@
             "type": "minecraft:random_offset",
             "xz_spread": {
               "type": "minecraft:trapezoid",
-              "min": -11,
               "max": 11,
+              "min": -11,
               "plateau": 0
             },
             "y_spread": {
               "type": "minecraft:trapezoid",
-              "min": -4,
               "max": 4,
+              "min": -4,
               "plateau": 0
+            }
+          },
+          {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 10,
+            "target_condition": {
+              "type": "minecraft:solid"
             }
           }
         ]
@@ -65,14 +73,14 @@
             "type": "minecraft:random_offset",
             "xz_spread": {
               "type": "minecraft:trapezoid",
-              "min": -8,
               "max": 8,
+              "min": -8,
               "plateau": 0
             },
             "y_spread": {
               "type": "minecraft:trapezoid",
-              "min": -3,
-              "max": 3,
+              "max": 2,
+              "min": -2,
               "plateau": 0
             }
           },
@@ -100,7 +108,7 @@
         ]
       },
       {
-        "feature": "stellarity:endless_dunes/oasis/pool",
+        "feature": "stellarity:endless_dunes/oasis/lake",
         "placement": [
           {
             "type": "minecraft:block_predicate_filter",
@@ -124,17 +132,21 @@
             "count": 1
           },
           {
+            "type": "minecraft:rarity_filter",
+            "chance": 3
+          },
+          {
             "type": "minecraft:random_offset",
             "xz_spread": {
               "type": "minecraft:trapezoid",
-              "min": -11,
               "max": 11,
+              "min": -11,
               "plateau": 0
             },
             "y_spread": {
               "type": "minecraft:trapezoid",
-              "min": -4,
               "max": 4,
+              "min": -4,
               "plateau": 0
             }
           },
@@ -142,13 +154,11 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
               "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:grass_block",
               "offset": [
                 0,
                 -1,
                 0
-              ],
-              "blocks": [
-                "grass_block"
               ]
             }
           }

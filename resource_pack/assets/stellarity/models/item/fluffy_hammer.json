@@ -1,4 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
-  "textures": { "layer0": "stellarity:item/fluffy_hammer" }
+  "textures": {
+    "layer0": "stellarity:item/fluffy_hammer"
+  }
 }
