@@ -6,6 +6,9 @@
   "exclusive_set": [
     "minecraft:fire_aspect",
     "minecraft:sharpness",
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite",
+    "stellarity:critical_strike",
     "minecraft:flame"
   ],
   "supported_items": [
