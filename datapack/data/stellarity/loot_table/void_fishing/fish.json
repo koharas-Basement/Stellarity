@@ -26,6 +26,26 @@
         },
         {
           "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "stellarity:item/food/fish/goosh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/crystal_heartfish",
           "weight": 4
         },
@@ -59,6 +79,17 @@
             {
               "condition": "minecraft:reference",
               "name": "stellarity:location/in_biome/warped_marsh"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "value": "stellarity:void_fishing/drops/endless_dunes",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "stellarity:location/in_biome/endless_dunes"
             }
           ]
         },
