@@ -16,7 +16,7 @@
                 "minecraft:item_model": "stellarity:radiant_jewel",
                 "minecraft:item_name": {
                   "translate": "item.stellarity.radiant_jewel",
-                  "color": "#FFD655"
+                  "color": "#ff5555"
                 },
                 "minecraft:max_stack_size": 1
               }
