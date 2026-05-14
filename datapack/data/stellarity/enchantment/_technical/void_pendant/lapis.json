@@ -1,7 +1,7 @@
 {
   "description": {
-    "translate": "item.stellarity.void_locket.enchantment.iron",
-    "color": "white"
+    "translate": "item.stellarity.void_pendant.enchantment.lapis",
+    "color": "blue"
   },
   "supported_items": ["minecraft:iron_nugget"],
   "weight": 1,
@@ -17,11 +17,19 @@
   "anvil_cost": 0,
   "slots": ["hand"],
   "effects": {
-    "minecraft:damage_protection": [
+    "minecraft:block_experience": [
       {
         "effect": {
           "type": "minecraft:add",
-          "value": 1.75
+          "value": 2
+        }
+      }
+    ],
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 2
         }
       }
     ]

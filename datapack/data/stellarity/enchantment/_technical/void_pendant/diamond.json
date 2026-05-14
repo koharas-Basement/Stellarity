@@ -1,7 +1,7 @@
 {
   "description": {
-    "translate": "item.stellarity.void_locket.enchantment.gold",
-    "color": "yellow"
+    "translate": "item.stellarity.void_pendant.enchantment.diamond",
+    "color": "aqua"
   },
   "supported_items": ["minecraft:iron_nugget"],
   "weight": 1,
@@ -19,16 +19,10 @@
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "stellarity:void_locket.mining_speed",
-        "attribute": "minecraft:block_break_speed",
-        "amount": 0.15,
+        "id": "stellarity:void_pendant.attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": 0.06,
         "operation": "add_multiplied_total"
-      },
-      {
-        "id": "stellarity:void_locket.mining_eff",
-        "attribute": "minecraft:mining_efficiency",
-        "amount": 5,
-        "operation": "add_value"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "description": {
-    "translate": "item.stellarity.void_locket.enchantment.netherite",
-    "color": "dark_red"
+    "translate": "item.stellarity.void_pendant.enchantment.gold",
+    "color": "yellow"
   },
   "supported_items": ["minecraft:iron_nugget"],
   "weight": 1,
@@ -19,15 +19,15 @@
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "stellarity:void_locket.sweeping",
-        "attribute": "minecraft:sweeping_damage_ratio",
-        "amount": 0.35,
-        "operation": "add_value"
+        "id": "stellarity:void_pendant.mining_speed",
+        "attribute": "minecraft:block_break_speed",
+        "amount": 0.15,
+        "operation": "add_multiplied_total"
       },
       {
-        "id": "stellarity:void_locket.damage",
-        "attribute": "minecraft:attack_damage",
-        "amount": 2,
+        "id": "stellarity:void_pendant.mining_eff",
+        "attribute": "minecraft:mining_efficiency",
+        "amount": 5,
         "operation": "add_value"
       }
     ]

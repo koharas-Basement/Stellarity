@@ -9,4 +9,4 @@ loot give @s loot stellarity:item/trinket/satchel_of_voids
 loot give @s loot stellarity:item/trinket/prismatic_pearl
 loot give @s loot stellarity:item/trinket/prismatic_shield
 loot give @s loot stellarity:item/trinket/radiant_jewel
-loot give @s loot stellarity:item/trinket/void_locket
+loot give @s loot stellarity:item/trinket/void_pendant

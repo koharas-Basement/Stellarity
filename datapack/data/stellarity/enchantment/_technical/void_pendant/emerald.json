@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "item.stellarity.void_locket.enchantment.emerald",
+    "translate": "item.stellarity.void_pendant.enchantment.emerald",
     "color": "green"
   },
   "supported_items": ["minecraft:iron_nugget"],
@@ -19,7 +19,7 @@
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "stellarity:void_locket.luck",
+        "id": "stellarity:void_pendant.luck",
         "attribute": "minecraft:luck",
         "amount": 1,
         "operation": "add_value"

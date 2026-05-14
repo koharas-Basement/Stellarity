@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "item.stellarity.void_locket.enchantment.copper",
+    "translate": "item.stellarity.void_pendant.enchantment.copper",
     "color": "gold"
   },
   "supported_items": ["minecraft:iron_nugget"],

@@ -6,89 +6,89 @@
         "cases": [
             {
                 "when": {
-                    "stellarity:_technical/void_locket/amethyst": 1
+                    "stellarity:_technical/void_pendant/amethyst": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/amethyst"
+                    "model": "stellarity:item/void_pendant/amethyst"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/copper": 1
+                    "stellarity:_technical/void_pendant/copper": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/copper"
+                    "model": "stellarity:item/void_pendant/copper"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/diamond": 1
+                    "stellarity:_technical/void_pendant/diamond": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/diamond"
+                    "model": "stellarity:item/void_pendant/diamond"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/emerald": 1
+                    "stellarity:_technical/void_pendant/emerald": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/emerald"
+                    "model": "stellarity:item/void_pendant/emerald"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/gold": 1
+                    "stellarity:_technical/void_pendant/gold": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/gold"
+                    "model": "stellarity:item/void_pendant/gold"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/iron": 1
+                    "stellarity:_technical/void_pendant/iron": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/iron"
+                    "model": "stellarity:item/void_pendant/iron"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/lapis": 1
+                    "stellarity:_technical/void_pendant/lapis": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/lapis"
+                    "model": "stellarity:item/void_pendant/lapis"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/netherite": 1
+                    "stellarity:_technical/void_pendant/netherite": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/netherite"
+                    "model": "stellarity:item/void_pendant/netherite"
                 }
             },
             {
                 "when": {
-                    "stellarity:_technical/void_locket/quartz": 1
+                    "stellarity:_technical/void_pendant/quartz": 1
                 },
                 "model": {
                     "type": "minecraft:model",
-                    "model": "stellarity:item/void_locket/quartz"
+                    "model": "stellarity:item/void_pendant/quartz"
                 }
             }
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "stellarity:item/void_locket/iron"
+            "model": "stellarity:item/void_pendant/iron"
         }
     }
 }

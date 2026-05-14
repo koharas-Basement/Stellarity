@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "item.stellarity.void_locket.enchantment.amethyst",
+    "translate": "item.stellarity.void_pendant.enchantment.amethyst",
     "color": "dark_purple"
   },
   "supported_items": ["minecraft:iron_nugget"],
@@ -21,7 +21,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "stellarity:mechanic/enchantments/void_locket/amethyst"
+          "function": "stellarity:mechanic/enchantments/void_pendant/amethyst"
         },
         "requirements": {
           "condition": "minecraft:entity_properties",
