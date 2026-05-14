@@ -18,7 +18,12 @@
                                 "minecraft:item_name": {
                                     "translate": "item.stellarity.void_pendant"
                                 },
-                                "minecraft:max_stack_size": 1
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
+                                }
                             }
                         },
                         {
