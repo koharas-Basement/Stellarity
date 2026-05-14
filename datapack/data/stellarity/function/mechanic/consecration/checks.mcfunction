@@ -11,6 +11,8 @@
 # Cherry stuff
   execute if entity @s[tag=stellarity.consecration.leaves] run \
   function stellarity:mechanic/consecration/drops/convert_to {item:"cherry_leaves"}
+  execute if entity @s[tag=stellarity.consecration.sapling] run \
+  function stellarity:mechanic/consecration/drops/convert_to {item:"cherry_sapling"}
   execute if entity @s[tag=stellarity.consecration.logs] run \
   function stellarity:mechanic/consecration/drops/convert_to {item:"cherry_log"}
   execute if entity @s[tag=stellarity.consecration.woods] run \
@@ -86,10 +88,10 @@ function stellarity:mechanic/consecration/drops/convert_to {item:"crying_obsidia
 execute if entity @s[tag=stellarity.consecration.crying_obsidian] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"obsidian"}
 
-execute if entity @s[tag=stellarity.consecration.magma_cream] run \
+execute if entity @s[tag=stellarity.consecration.breeze_rod] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"blaze_rod"}
 execute if entity @s[tag=stellarity.consecration.blaze_rod] run \
-function stellarity:mechanic/consecration/drops/convert_to {item:"magma_cream"}
+function stellarity:mechanic/consecration/drops/convert_to {item:"breeze_rod"}
 
 execute if entity @s[tag=stellarity.consecration.azalea] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"flowering_azalea"}
