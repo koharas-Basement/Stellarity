@@ -36,6 +36,11 @@
           "value": "stellarity:item/music_disc/fires_of_hokkai"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "stellarity:item/trinket/void_pendant"
+        },
+        {
           "type": "minecraft:item",
           "name": "book",
           "functions": [
