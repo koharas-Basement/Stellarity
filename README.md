@@ -3,7 +3,6 @@
 ![Stellarity](https://i.imgur.com/p7eHI03.png)
 
 <br>
--------
 
 [![Discord](https://img.shields.io/discord/1439707494896373833?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.coder2195.dev)
 [![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://koharasbasement.wiki.gg/wiki/Stellarity)
@@ -14,7 +13,7 @@
 [![Code Size](https://img.shields.io/github/languages/code-size/Prismatic-Shards/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/Prismatic-Shards/Stellarity)
 [![Repo Size](https://img.shields.io/github/repo-size/Prismatic-Shards/Stellarity?logo=dropbox&style=for-the-badge&color=red)](https://github.com/Prismatic-Shards/Stellarity)
 
-### Current version for: ![List](https://img.shields.io/modrinth/game-versions/bZgeDzN8?style=for-the-badge&label=%20&color=white)
+![List](https://img.shields.io/modrinth/game-versions/bZgeDzN8?style=for-the-badge&label=Latest%20version%20for&color=white)
 
 -------
 
