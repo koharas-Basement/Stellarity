@@ -88,7 +88,7 @@
         ],
         "fallback": {
             "type": "minecraft:model",
-            "model": "stellarity:item/void_pendant/iron"
+            "model": "stellarity:item/void_pendant"
         }
     }
 }
