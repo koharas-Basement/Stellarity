@@ -1,9 +1,8 @@
 ### Update: We are now accepting bug reports on this repository and our [Discord](https://discord.coder2195.dev).
 
-![Stellarity](https://i.imgur.com/ikwYA2D.png)
+![Stellarity](https://i.imgur.com/p7eHI03.png)
 
 <br>
-
 -------
 
 [![Discord](https://img.shields.io/discord/1439707494896373833?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.coder2195.dev)
