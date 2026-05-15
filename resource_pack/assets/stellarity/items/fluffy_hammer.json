@@ -7,7 +7,7 @@
           "type": "minecraft:model",
           "model": "stellarity:item/fluffy_hammer_3d"
         },
-        "when": ["thirdperson_righthand", "thirdperson_lefthand"]
+        "when": ["thirdperson_righthand", "thirdperson_lefthand", "firstperson_lefthand", "firstperson_righthand", "head"]
       }
     ],
     "fallback": {

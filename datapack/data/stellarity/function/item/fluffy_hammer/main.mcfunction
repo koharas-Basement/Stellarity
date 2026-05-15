@@ -1,6 +1,6 @@
 # misc is for flight time
 
-execute as @n[tag=stellarity.fluffy_hammer.display] rotated as @s run rotate @s ~20 90
+execute as @n[tag=stellarity.fluffy_hammer.display] rotated as @s run rotate @s ~20 0
 
 scoreboard players add @s stellarity.misc 1
 execute if score @s stellarity.misc matches ..40 run function stellarity:item/fluffy_hammer/fly_out
