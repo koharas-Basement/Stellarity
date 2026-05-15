@@ -23,7 +23,11 @@
 
 <br>
 
-**Stellarity** is a datapack *(or a datapack-packaged-as-mod)* for Minecraft 1.21 which focuses on heavily rehauling The End dimension in a unique and a fairly lively way, centered around the lore based on the idea of the Illagers discovering The End long before the player spawns into the world of Minecraft.
+**Stellarity** is a **data pack** (sometimes packaged as a mod) which heavily rehauls The End, giving it new terrain shapes, biomes, as well as items and weapons and even new mechanics.
+
+Instead of following a usual theme of a 'Minecraft: Dungeons' styled expansion or making it an alien-like dimension, Stellarity mixes the usual motif of a desolate dimension with themes of strong magic and fantasy.
+
+**Note: Stellarity is now managed under a new team. Support will no longer be provided in kohara's Basement, and has been moved to the [Prismatic Shards Discord server](https://discord.gg/5u3TTVmkSq).**
 
 <br>
 
@@ -33,88 +37,112 @@ Stellarity started off as a direct port of the [Far End](https://www.planetminec
 ## Features
 
 <details>
-<summary>Biomes</summary>
+<summary>Terrain Generation</summary>
 
-![Imgur](https://i.imgur.com/mGW49aS.png)
+![Imgur](https://i.imgur.com/i520ske.png)
 
-A total of **15 new biomes has been added** into the game, combned with **rehauling the already existing 4 vanilla ones**. Biomes are divided into 3 categories - barren, lively and in-between those two.
+No shaders so that you can see it clearer.
 
-The island shape is also nothing like in vanilla, being of varying height, shapes and thickness. No more ugly isles on one and the same Y level.
+A total of **23 new biomes has been added**, including 4 rehauled vanilla end biomes *(technically only two of them since the other two serve no purpose in vanilla)*.
 
-![Imgur](https://i.imgur.com/EjeOsyi.png)
+Biomes in Stellarity can be divided into 4 categories:
+- Fields - open and mostly covered with grass.
+- Barrens - usually hilly and desolate, feautiring a low variety of blocks in their generation.
+- Forests - well, it's a forest... really not much to say here.
+- Frozen - sub-variants of existing biomes, featuring a sad white color palette, or in other words just frozen.
 
-Traverse through the bright and sparkling **Amethyst Forest**, or venture deep into the beating **Flesh Tundra**. Take a bath in the water in the **Ashfall Deltas** *(however I advise you not to do it)*. Immerse yourself in the tall grass of the **End Midlands**. Or if you'd rather sit down and relax, go to the **Prismarine Forest** - there are a few biomes in the pack which don't spawn __any__ hostile monsters and act as small safe zones where you can catch your breath in this deadly world of Light and Dark magic.
+The screenshot above shows 3 biomes: in the front are Crystal Crags (barrens), on the right right is The Nest (also barrens), behind them there are End Midlands (fields), in the center there are Ender Wastes (barrens) and far back there are End Wilds (fields). Look into the image gallery for more biome showcases.
+
+![Imgur](https://i.imgur.com/WJvKChI.png)
+
+Islands are also no longer bound to one Y level, meaning that the terrain shape has a huge variety of shapes.
 
 </details>
 
 <details>
 <summary>Items</summary>
 
-> There was supposed to be a cool gif of me using one of the new weapons here, but I am yet to learn how to properly use Replay Mod. Sorry for the inconvienience!
+![Altar of The Accursed](https://cdn.modrinth.com/data/bZgeDzN8/images/0e008f59d73bc8fbfaff5599ca6562bd0746b21e.png)
+Right after defeating the Ender Dragon, the **Altar of The Accursed awakens**. It is a powerful crafting station used to craft late-game gear added by Stellarity. It doesn't have a GUI and is used by simply tossing the right amount of ingredients on top of it. There is no JEI support for the recipes yet, but you can refer to the wiki for *most* recipes.
 
-No End Expansion would be complete without some magical weapons to add to your arsenal! Or just fun items which could be used for... item stuff.
+I don't actually know how many items Stellarity introduces, I didn't count them, but there are __at least 40__ different new items for you to find and have fun with. This number includes new potion variants, food items, weapons and even 4 new armor sets with their own effects and set bonuses.
 
-![Imgur](https://i.imgur.com/zsrFYW2.png)
+I tried to balance them both in between vanilla standards as well as making them meaningful in heavily modded scenarios where there would be plenty of bosses to defeat. 
 
-Right after defeating the Ender Dragon, the **Altar of The Accursed awakens**. Its dark powers can be used to perform a few special rituals, and by that I mean:
-- Crafting strong late game gear;
-- Unbinding enchantments from an item and transferring them to an unenchanted Book;
-- Changing the trail an Elytra produces while flying *(more on that later!)*.
-
-There are __at least 40__ different new items for you to find and have fun with, about 20 of which are actually usable weapons. Stellarity also adds 4 new armor sets which act as an upgrade to Netherite Armor, each focusing on upgrading either defense, offense or mobility. 
-
-But Stellarity doesn't add only swords and bows! Other than a few fun items (like e.g. a reusable Ender Pearl) or useful ones (e.g. a pickaxe which gets extra drops from Stone), there is also a whole new category of gear - **trinkets**. Trinkets provide a special bonus while held, and in Stellarity, this can be truly anything - stars falling when hurt, electric dashes, pacifying nearby mobs...
+If the weapon abilities don't feel vanilla, that's because they aren't supposed to - most of them were inspired by games like Terraria, meaning that they don't follow the one-dimensional design MC weapons have, that being just click and damage.
 
 </details>
 
 <details>
 <summary>Mechanics</summary>
 
-> Once again, I plan on adding some images/gifs here, so you don't have to look at a wall of text! So sorry about that.
+![Imgur](https://i.imgur.com/tCoMfNF.png)
 
-There is no way I can turn that section into a neat looking paragraph, so here, have this bullet list instead:
-- Elytras produce a small trails while flying. It doesn't change anything, but it sure looks nice, and it can be customized with Duyes on the Altar of The Accursed! Combine with a Water Bucket to remove applied dyes.
-- Tridents with Loyalty return to the player when falling into the void. Because it never made sense for them to just abandon players like that.
-- Totems of Undying now save players from dying in The Void. Players will be teleported 200 blocks upwards and will be granted the Slow Falling effect to make sure they can land safely.
-- Void Fishing! Cast your Fishing Rod anywhere into the air below you in The End *(but **not** directly into The Void - no fish dare to swim that low)* and wait until something bites your hook! Almost every End biome has its own loot table with a variety of items you can catch in the process, including *(but not limited to!)* a few new types of fish.
-- Lingering Potions have been heavily buffed. Mathematically speaking, they are about 66% better now and about 400% more useful.
+Stellarity isn't just all about world generation and gear - it also adds many mechanics to The End unique in their own ways.
+
+Shown above is what I like to call Cauldron crafting - tossing a bottle of Dragon's Breath into a Water cauldron dilutes it and allows for crafting of items via tossing them into the Cauldron. There are more than a dozen of recipes for it, most of them revolving around new food items or potions that combine effects.
+
+> Those recipes aren't in the recipe book, and JEI doesn't work for them. It is planned to add some instructions as to how craft those items in 1.21.4, but for now you can view everything [here](https://github.com/koharas-Basement/Stellarity/blob/1.21-1.21.1/data/stellarity/function/mechanics/cauldron_crafting/crafting/checks.mcfunction).
+
+Stellarity also adds Void Fishing! Cast your Fishing Rod anywhere into the air below you in The End *(but **not** directly into The Void - no fish dare to swim that low)* and wait until something bites your hook! Almost every End biome has its own loot table with a variety of items you can catch in the process, including *(but not limited to!)* a few new types of fish.
+
+Other smaller mechanics which aren't really that notable:
+<details>
+<summary>List</summary>
+
+- Elytras produce small trails while flying. They can be customized with all 16 of vanilla Dyes on the Altar of The Accursed, each having a unique trail. Combine with a Water Bucket to remove applied dye.
+> Let me know if you'd want to see compatibility with other mods that add dyes! It was fun designing all of the trails and I'll gladly do some more if requested.
+- Tridents with Loyalty return to the player when falling into the void. Because why was it even possible to lose them that way.
+- Totems of Undying save players from falling into The Void. Players will be teleported 200 blocks upwards and will be granted the Slow Falling effect to make sure they can land safely.
+- Lingering Potions have been heavily buffed. Not going to go into number stuff because nobody likes that, but now they REALLY are lingering.
 - End Crystals can now be destroyed with left click. This will cause them to drop in their item form. Sneak and break them to instead to make them explode.
+> This can be disabled in the per-world config if wanted.
 - Throwing certain items into the water in The Hallow biome will slowly transform them into a completely different item! The are a lot of possible transmutations and most of them work both ways, making some materials farmable or obtainable in an easier way.
-- Probably a few more small changes I forgot about. But hey, that means there is more for you to discover!
 - Eyes of Ender thrown in The End point towards the nearest End Gateway, which can be quite handy for returning home.
+- Probably a few smaller changes I forgot about.
+
+</details>
 
 </details>
 
 <details>
 <summary>Mobs</summary>
 
-The End is no longer home only to Endermen and Shulkers. Some biomes will spawn additional monsters. Just in case bridging over The Void wasn't difficult already.
+Endermen drop Chorus Fruit in the Overworld in place of Ender Pearls. ~~I honestly don't remember why I changed it.~~
 
-![Imgur](https://i.imgur.com/V2tTNlo.png)
+Apart from Endermen, The End also features a new list of mobs that can spawn in their Voided variants. They are stronger than then regular counterparts, posing a greater threat to unprepared explorers.
 
-The Ender Dragon fight has been reworked. The beast has more health, possesing a total of 300 HP plus some base armor points, meaning it takes reduced damage. Crystals no longer heal the Dragon, rather making it invulnerable to all damage until all are gone! Dragon also perches a bit more rarely and the fireball attack has been replaced by a more powerful variant which deals more damage and is more difficult to dodge *(at least when compared with the vanilla fireball attack)*. After being brought to 1 health, the Ender Dragon will fly to the Exit Portal and wait for you to deliver the final hit, staring at you in complete defeat, seeing as it was unable to defend the dimension from having more visitors...
+![Imgur](https://i.imgur.com/N2aCoKj.png)
 
-Mobs in The End have also been buffed, possesing more health and dealing heavier damage *(including Endermen)*. Endermen also have a chance to inflict Darkness on hit on higher difficulties.
+The Ender Dragon fight has been reworked entirely, making it feel more like an actual bossfight while ~~trying~~ to stay true to its vanilla feel. 
+It has more health and some native armor points, meaning it takes reduced damage. Crystals have also been reworked - Dragon is invulnerable for as long as at least one exists and is no longer healed by them. It also got a few new attacks to spice up the difficulty. When brought down to 1 HP, Dragon lands on the exit portal and waits for the player to deliver the final blow. Was it necessary to add that? Nope, but it sure is climactic.
 
-Endermen have also seen a small rework to their drops:
-- In the Overworld, they will drop Chorus Fruit instead of Ender Pearls.
-- In the Nether, they will drop Ender Pearls like they normally would.
-- In The End, they will have a chance to drop an Eye of Ender in place of an Ender Pearl *(look into the Mechanics section to see how useful this actually is!)*.
+![Imgur](https://i.imgur.com/XwaIBDQ.png)
 
-If you are up for a challenge, go to The Hallow and look for a large cherry garden - the **Chapel of Light**. You can summon the Empress of Light there - a brand new boss and a beautiful bullet hell fight *(and a pretty obvious reference...)*. Not challenging enough? Spoiler alert: she gets stronger if confronted in the light of day in the Overworld, and she even gets new powerful drops as a reward!
+Looking for a challenge? Head to The Hallow and search for the **Chapel of Light**. You can summon the **Empress of Light** there...
+> And that's where I am going to cut this part. Please don't fight this boss. It's due to a rework for more than a year now. It's bad. But I promise it's going to be amazing once I finally get to reworking her.
+> And yes, she was heavily inspired by Terraria. In case it wasn't obvious enough.
 
 </details>
 
 <details>
-<summary>Mechanics</summary>
+<summary>Structures</summary>
 
-![Imgur](https://i.imgur.com/W9CwfMJ.png)
+![Imgur](https://i.imgur.com/H6SuHHh.png)
 
-End Cities have been redesigned from ground up. Instead of only acting like a source of Elytras, there are now 4 new items which can be found exclusively in the End City Chests. Additionally, players are **completely unable** to break or place blocks while near a City until all of its Protective Crystals *(found at the very top of the City toweres)* are destroyed. Shulkers have also been heavily buffed, having differently colored variants which all do different when attacking.
+Strongholds have been redesigned completely. The walls of this fortress are home to the Illagers who guard the End Portals. 
 
-Strongholds have been redesigned too! They are now about **7x larger** and feature huge amounts of Illagers. They are not willing to just allow players to enter The End, they were first after all! Though it almost feels like they don't want to enter it again either...
+![Imgur](https://i.imgur.com/34PJ0oZ.png)
 
-Small ambient structures have also been scattered across The End to bring some more life, lore and personality to the dimension.
+They are about **5x larger** and feature huge amounts of the aforementioned Illagers who can also drop a few new items that might help you while fighting the Ender Dragon.
+
+![Imgur](https://i.imgur.com/fbg3HIb.png)
+
+End Cities have been redesigned from ground up in order to increase their difficulty and reinforce their position of endgame structures. Inspired by Trial Chambers, they are filled with Trial Spawners which spawn upgraded versions of the Overworld mobs and drop keys used to open Vaults. Just in case the City Trials weren't difficult enough, almost every tower contains a protective End Crystal which prevents nearby players from both placing and breaking blocks.
+
+![Imgur](https://i.imgur.com/ypTJ6bL.png)
+
+Both large and functional structures as well as small ambient ones have also been scattered across The End to give it some more life, lore and personality. Because it badly needed those. Yes, that is a Village in The End. Yes, Villagers sell different things there.
 
 </details>
 
@@ -171,49 +199,6 @@ I can't test compatibility with every mod out there. If you know that Stellarity
 
 ### Screenshot credits
 - Dat1Mexican
-- Junbra
-
--------
-
-[![Ko-Fi](https://i.imgur.com/Esa3c0y.png)](https://ko-fi.com/kohara)
-
-Supporting my work makes me able to keep on delivering amazing content! 
-
-All donators are given the ability to **uniquely customize the visual/sound effects of one item in Stellarity** to their own liking. Every player on a server will be able to see them! Donators also **gain access to early sneak peeks** of upcoming content before it is posted publicly and also **a complimentary role** in our Discord server.
-
-<details>
-<summary>Example Item Customisation</summary>
-
-What you **can** customize:
-- Particles
-- Sounds
-- Extra effects (e.g. particles while held)
-
-What you **cannot** change:
-- Item texture
-- Item description
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uR7-iKsdtmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3v7cMhcx4F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-</details>
-
-All supporters are also free to leave a short message here for everyone to see!
-**Huge thanks to all of my supporters! <3**
-
-<details>
-<summary>Supporters</summary>
-
-- CSS_Scripter
-- TaintendTofu
-- DrakenStrike
-- QuantumEmpress
-- Kier
-- GWDdoS
-- Cokenpizza
-- Budling
-- ferroh
-- rainzy
-- theammir
-
-</details>
+- Opliz
+- kohara
+- BananaKingXO
