@@ -51,6 +51,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "stellarity:item/music_disc/precipice_stereo"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "value": "stellarity:item/trinket/prismatic_pearl"
         }
       ],
