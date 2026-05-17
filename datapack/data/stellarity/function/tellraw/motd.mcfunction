@@ -1,4 +1,4 @@
-execute store result score #random stellarity.misc run random value 1..76
+execute store result score #random stellarity.misc run random value 1..96
 
 execute if score #random stellarity.misc matches 1 run \
 data modify storage stellarity:temp motd set value "§e§oHas stuff beyond the ending!"
@@ -21,7 +21,7 @@ data modify storage stellarity:temp motd set value "§e§oalso try §d§oBetterE
 execute if score #random stellarity.misc matches 10 run \
 data modify storage stellarity:temp motd set value "§e§operfect mix with §6§oIncendium§e§o!"
 execute if score #random stellarity.misc matches 11 run \
-data modify storage stellarity:temp motd set value "§e§odon't mix with §5§oNullscape§e§o!"
+data modify storage stellarity:temp motd set value "§e§oalso works with §5§oNullscape§e§o!"
 execute if score #random stellarity.misc matches 12 run \
 data modify storage stellarity:temp motd set value "§e§oAn enderman stole my homework!"
 execute if score #random stellarity.misc matches 13 run \
@@ -151,4 +151,44 @@ data modify storage stellarity:temp motd set value "§e§o§b§o@Starmute"
 execute if score #random stellarity.misc matches 75 run \
 data modify storage stellarity:temp motd set value "§e§oDelete your account"
 execute if score #random stellarity.misc matches 76 run \
+data modify storage stellarity:temp motd set value "§ehello i developer"
+execute if score #random stellarity.misc matches 77 run \
+data modify storage stellarity:temp motd set value "§eits a datapack in a fucking .jar file"
+execute if score #random stellarity.misc matches 78 run \
+data modify storage stellarity:temp motd set value "§ei kicked my own balls once"
+execute if score #random stellarity.misc matches 79 run \
+data modify storage stellarity:temp motd set value "§ebasementblock"
+execute if score #random stellarity.misc matches 80 run \
+data modify storage stellarity:temp motd set value "§edoes it give top or bottom energy"
+execute if score #random stellarity.misc matches 81 run \
+data modify storage stellarity:temp motd set value "§eYou're in too deep, child"
+execute if score #random stellarity.misc matches 82 run \
+data modify storage stellarity:temp motd set value "§eIT'S ME"
+execute if score #random stellarity.misc matches 83 run \
+data modify storage stellarity:temp motd set value "§eI am still here"
+execute if score #random stellarity.misc matches 84 run \
+data modify storage stellarity:temp motd set value "§e42"
+execute if score #random stellarity.misc matches 85 run \
 data modify storage stellarity:temp motd set value "§e§oNow on 26.X!"
+execute if score #random stellarity.misc matches 86 run \
+data modify storage stellarity:temp motd set value "§e§oalso try §d§oStellarity ~ Enlightened§e§o!"
+execute if score #random stellarity.misc matches 87 run \
+data modify storage stellarity:temp motd set value "§e§oalso try §d§oA Distant Journey§e§o!"
+execute if score #random stellarity.misc matches 88 run \
+data modify storage stellarity:temp motd set value "§e§oNow on 26.X!"
+execute if score #random stellarity.misc matches 89 run \
+data modify storage stellarity:temp motd set value "§e§cP§6r§ei§2§as§9m§3a§bt§5i§dc§e!"
+execute if score #random stellarity.misc matches 90 run \
+data modify storage stellarity:temp motd set value "§e§oDeveloped by kohara!"
+execute if score #random stellarity.misc matches 91 run \
+data modify storage stellarity:temp motd set value "§e§oDeveloped by coder2195!"
+execute if score #random stellarity.misc matches 92 run \
+data modify storage stellarity:temp motd set value "§e§oDeveloped by BananaKingXO!"
+execute if score #random stellarity.misc matches 93 run \
+data modify storage stellarity:temp motd set value "§e§oTextures by Alligator_Gamer!"
+execute if score #random stellarity.misc matches 94 run \
+data modify storage stellarity:temp motd set value "§e§oTextures by Midas!"
+execute if score #random stellarity.misc matches 95 run \
+data modify storage stellarity:temp motd set value "§e§oTextures by WildPlacedPixel!"
+execute if score #random stellarity.misc matches 96 run \
+data modify storage stellarity:temp motd set value "§e§oDeveloped by voided_ptr!"
