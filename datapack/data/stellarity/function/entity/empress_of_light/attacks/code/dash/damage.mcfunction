@@ -1,12 +1,12 @@
 execute store result score #difficulty stellarity.misc run difficulty
 
-execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 230
-execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 270
-execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 310
+execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 220
+execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 260
+execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 300
 
-execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 250
-execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 290
-execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 330
+execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 380
+execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 320
+execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 380
 
 tag @n[type=vindicator] add kohara.attacker
 

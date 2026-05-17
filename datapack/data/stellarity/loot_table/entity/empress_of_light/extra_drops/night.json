@@ -27,7 +27,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.20
+          "chance": 0.2
         }
       ]
     },
@@ -42,7 +42,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.20
+          "chance": 0.2
         }
       ]
     },
@@ -58,6 +58,51 @@
         {
           "condition": "minecraft:random_chance",
           "chance": 0.25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/weapon/prismember"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/weapon/prismatic_punch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/trinket/starstruck_shield",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         }
       ]
     }

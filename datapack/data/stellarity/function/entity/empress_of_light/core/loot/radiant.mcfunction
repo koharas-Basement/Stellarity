@@ -5,5 +5,5 @@ execute as @e[type=item,distance=..1] run team join stellarity.empress_of_light.
 execute as @e[type=item,distance=..1] run tag @s add stellarity.boss_drop
 execute as @e[type=item,distance=..1] run tag @s add stellarity.item
 
-summon experience_orb ~ ~ ~ {Value:1800s}
+summon experience_orb ~ ~ ~ {Value:3600s}
 advancement grant @a[distance=..32] only stellarity:empress_of_light/fae_flayer

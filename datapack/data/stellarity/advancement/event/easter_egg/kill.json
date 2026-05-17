@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "stellarity:mechanic/easter_egg/kill_kohara"
+    "function": "stellarity:mechanic/easter_egg/kill"
   }
 }

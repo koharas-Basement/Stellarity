@@ -1,4 +1,3 @@
-execute store result score #temp1 stellarity.misc run loot spawn ~ ~ ~ loot stellarity:entity/empress_of_light/loot_50
 execute if score #temp1 stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:entity/empress_of_light/loot
 loot spawn ~ ~ ~ loot stellarity:entity/empress_of_light/extra_drops/night
 
