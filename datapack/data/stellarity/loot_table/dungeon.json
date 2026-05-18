@@ -83,8 +83,8 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:phantom_membrane",
+          "type": "minecraft:loot_table",
+          "value": "stellarity:block/phantom_item_frame",
           "weight": 6,
           "functions": [
             {
