@@ -15,6 +15,6 @@
     "per_level_above_first": 0
   },
   "anvil_cost": 0,
-  "slots": ["hand"],
+  "slots": ["any"],
   "effects": {}
 }
