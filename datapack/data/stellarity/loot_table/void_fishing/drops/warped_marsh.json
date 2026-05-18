@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "stellarity:item/food/fish/goosh",
-                    "weight": 20,
+                    "weight": 10,
                     "functions": [
                         {
                             "function": "minecraft:set_count",

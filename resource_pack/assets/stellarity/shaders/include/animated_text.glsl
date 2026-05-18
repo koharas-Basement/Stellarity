@@ -29,6 +29,8 @@ else if (colorInt.rgb == vec3(32, 193, 232)) {
 	t = abs(fract(time / 2.0) - 0.5) * 2.0;
 	color = mix(vec4(0.125, 0.7569, 0.9098, Color.a), vec4(1.0, 0.4118, 0.9216, Color.a), t);
 }
+// Radiant drop names
+
 
 // Text shadow
 // Order is the same as above
