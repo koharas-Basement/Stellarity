@@ -69,6 +69,10 @@
         },
         {
           "type": "item",
+          "name": "diamond_spear"
+        },
+        {
+          "type": "item",
           "name": "diamond_pickaxe"
         },
         {

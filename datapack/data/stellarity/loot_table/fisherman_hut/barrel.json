@@ -14,6 +14,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "weight": 6,
+          "value": "stellarity:item/food/fish/goosh"
+        },
+        {
+          "type": "minecraft:loot_table",
           "weight": 4,
           "value": "stellarity:item/food/fish/amethyst_budfish",
           "conditions": [
@@ -123,6 +128,19 @@
               "condition": "minecraft:location_check",
               "predicate": {
                 "biomes": ["stellarity:prismarine_forest"]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "stellarity:item/food/fish/potassifish",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": ["stellarity:endless_dunes"]
               }
             }
           ]

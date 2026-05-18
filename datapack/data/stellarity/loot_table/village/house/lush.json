@@ -19,6 +19,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:pale_moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:glow_berries",
           "functions": [
             {

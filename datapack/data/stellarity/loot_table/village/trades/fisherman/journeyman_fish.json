@@ -14,6 +14,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/flarefin_koi"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/food/fish/potassifish"
         }
       ]
     }

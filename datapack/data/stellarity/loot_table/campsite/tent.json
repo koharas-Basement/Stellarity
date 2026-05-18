@@ -184,11 +184,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_spear"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond_axe"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_spear"
         },
         {
           "type": "minecraft:item",
