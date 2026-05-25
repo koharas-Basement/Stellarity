@@ -48,6 +48,9 @@
       scoreboard objectives add stellarity.config.nerf_elytra dummy
       scoreboard objectives add stellarity.config.boss_status_messages dummy
       scoreboard objectives add stellarity.config.migrations dummy
+      scoreboard objectives add stellarity.config.shulking_break dummy
+      scoreboard objectives add stellarity.config.enable_empress_of_light dummy
+      scoreboard objectives add stellarity.config.enable_shulking dummy
 
     # Initialize config scoreboards
       # Freshly created scoreboards have no value (not even set to 0)

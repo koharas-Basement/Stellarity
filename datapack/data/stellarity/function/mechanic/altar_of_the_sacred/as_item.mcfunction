@@ -3,12 +3,11 @@ data modify storage stellarity:temp altar_of_the_sacred.item set from entity @s 
 execute if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"treasure_head"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/reroll
 
-execute unless score #difficulty stellarity.misc matches 0 \
+execute if score #stellarity.config stellarity.config.enable_empress_of_light matches 1 unless score #difficulty stellarity.misc matches 0 \
 unless score #empress_of_light.is_alive stellarity.misc matches 1 \
 if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/spawn_empress
-
-execute unless score #difficulty stellarity.misc matches 0 unless entity @n[type=allay,tag=stellarity.shulking,distance=..100] \
+execute if score #stellarity.config stellarity.config.enable_shulking matches 1 unless score #difficulty stellarity.misc matches 0 unless entity @n[type=allay,tag=stellarity.shulking,distance=..100] \
 if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"shulker_body"}}}}} if predicate stellarity:location/in_the_end run \
 function stellarity:mechanic/altar_of_the_sacred/spawn_shulking
 
