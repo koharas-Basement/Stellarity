@@ -44,9 +44,12 @@ function stellarity:util/tellraw/config {title:"Enable Migrations",description:"
 
 function stellarity:util/tellraw/config {title:"Shulking Max Health",description:"Changes maximum health of the Shulking.",default:{"text":"500","color":"#EEEEEE"},score:"shulking_health",numerical:1,suggested_value:500}
 
+function stellarity:util/tellraw/config {title:"Shulking Block Breaking",description:"Allows the Shulking to break blocks.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"shulking_break",numerical:0,suggested_value:1}
+
 function stellarity:util/tellraw/config {title:"Enable Empress of Light",description:"Allows the Empress of Light to be summoned.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"enable_empress_of_light",numerical:0,suggested_value:1}
 
 function stellarity:util/tellraw/config {title:"Enable Shulking",description:"Allows the Shulking to be summoned.",default:{"translate":"stellarity.config.enabled","color":"#91FF7B"},score:"enable_shulking",numerical:0,suggested_value:1}
+
 
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 
