@@ -1,4 +1,4 @@
 {
-  "parent": "stellarity:item/parent/large_weapon",
+  "parent": "stellarity:item/parent/handheld",
   "textures": { "layer0": "stellarity:item/dragonblade_held" }
 }

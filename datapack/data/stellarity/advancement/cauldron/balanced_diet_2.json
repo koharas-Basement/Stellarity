@@ -337,6 +337,30 @@
           }
         }
       }
+    },
+    "goosh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "goosh"
+            }
+          }
+        }
+      }
+    },
+    "potassifish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "potassifish"
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -365,6 +389,8 @@
     ["prismite"],
     ["pufferfish"],
     ["loaf_of_plenty"],
-    ["duskberry"]
+    ["duskberry"],
+    ["goosh"],
+    ["potassifish"]
   ]
 }
