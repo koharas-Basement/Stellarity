@@ -27,7 +27,7 @@
 
 Instead of following a usual theme of a 'Minecraft: Dungeons' styled expansion or making it an alien-like dimension, Stellarity mixes the usual motif of a desolate dimension with themes of strong magic and fantasy.
 
-**Note: Stellarity is now managed under a new team. Support will no longer be provided in kohara's Basement, and has been moved to the [Prismatic Shards Discord server](https://discord.gg/5u3TTVmkSq).**
+**Note: Stellarity is now managed under a new team. Support will no longer be provided in kohara's Basement, and has been moved to the [Prismatic Shards Discord server](https://discord.coder2195.dev).**
 
 <br>
 
