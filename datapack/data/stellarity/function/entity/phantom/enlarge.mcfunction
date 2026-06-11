@@ -12,7 +12,7 @@ execute if score #last_rest stellarity.misc matches ..0 run scoreboard players s
 scoreboard players operation #last_rest stellarity.misc /= #in_game_day stellarity.misc
 scoreboard players operation #size stellarity.misc = #last_rest stellarity.misc
 execute if score #size stellarity.misc matches 12.. run scoreboard players set #size stellarity.misc 12
-execute store result entity @s Size byte 1 run scoreboard players get #size stellarity.misc
+execute store result entity @s size byte 1 run scoreboard players get #size stellarity.misc
 
 # Get the outcome Phantom size and store it in the entity's score
 scoreboard players set #1 stellarity.misc 1
