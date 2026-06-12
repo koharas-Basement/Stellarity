@@ -26,8 +26,12 @@
   # Item <-> Item
     execute if entity @s[tag=stellarity.consecration.wither_rose] run \
     function stellarity:mechanic/consecration/drops/convert_to {item:"poppy"}
+
     execute if entity @s[tag=stellarity.consecration.dead_bush] run \
     function stellarity:mechanic/consecration/drops/convert_to {item:"bush"}
+
+    execute if entity @s[tag=stellarity.consecration.sulfur_spike] run \
+    function stellarity:mechanic/consecration/drops/convert_to {item:"pointed_dripstone"}
 
   execute if entity @s[tag=stellarity.consecration.ink_sac] run \
   function stellarity:mechanic/consecration/drops/convert_to {item:"glow_ink_sac"}
@@ -188,12 +192,114 @@ function stellarity:mechanic/consecration/drops/convert_to {item:"sandstone_wall
   execute if entity @s[tag=stellarity.consecration.iron_armor.boots] run \
   function stellarity:mechanic/consecration/drops/convert_to {item:"chainmail_boots"}
 
+# Stone <-> Deepslate
 execute if entity @s[tag=stellarity.consecration.stone] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate"}
+execute if entity @s[tag=stellarity.consecration.stone_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate_slab"}
+execute if entity @s[tag=stellarity.consecration.stone_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate_stairs"}
+execute if entity @s[tag=stellarity.consecration.stone_bricks] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate_bricks"}
+execute if entity @s[tag=stellarity.consecration.stone_brick_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate_brick_slab"}
+execute if entity @s[tag=stellarity.consecration.stone_brick_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate_brick_stairs"}
+execute if entity @s[tag=stellarity.consecration.stone_brick_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate_brick_wall"}
+execute if entity @s[tag=stellarity.consecration.cobblestone] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobbled_deepslate"}
+execute if entity @s[tag=stellarity.consecration.cobblestone_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobbled_deepslate_slab"}
+execute if entity @s[tag=stellarity.consecration.cobblestone_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobbled_deepslate_stairs"}
+execute if entity @s[tag=stellarity.consecration.cobblestone_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobbled_deepslate_wall"}
+
 execute if entity @s[tag=stellarity.consecration.deepslate] run \
-function stellarity:mechanic/consecration/drops/convert_to {item:"blackstone"}
-execute if entity @s[tag=stellarity.consecration.blackstone] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"stone"}
+execute if entity @s[tag=stellarity.consecration.deepslate_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"stone_slab"}
+execute if entity @s[tag=stellarity.consecration.deepslate_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"stone_stairs"}
+execute if entity @s[tag=stellarity.consecration.deepslate_bricks] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"stone_bricks"}
+execute if entity @s[tag=stellarity.consecration.deepslate_brick_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"stone_brick_slab"}
+execute if entity @s[tag=stellarity.consecration.deepslate_brick_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"stone_brick_stairs"}
+execute if entity @s[tag=stellarity.consecration.deepslate_brick_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"stone_brick_wall"}
+execute if entity @s[tag=stellarity.consecration.cobbled_deepslate] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobblestone"}
+execute if entity @s[tag=stellarity.consecration.cobbled_deepslate_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobblestone_slab"}
+execute if entity @s[tag=stellarity.consecration.cobbled_deepslate_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobblestone_stairs"}
+execute if entity @s[tag=stellarity.consecration.cobbled_deepslate_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cobblestone_wall"}
+
+# Sulfur <-> Cinnabar
+execute if entity @s[tag=stellarity.consecration.sulfur] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar"}
+execute if entity @s[tag=stellarity.consecration.sulfur_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_slab"}
+execute if entity @s[tag=stellarity.consecration.sulfur_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_stairs"}
+execute if entity @s[tag=stellarity.consecration.sulfur_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_wall"}
+execute if entity @s[tag=stellarity.consecration.polished_sulfur] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_cinnabar"}
+execute if entity @s[tag=stellarity.consecration.polished_sulfur_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_cinnabar_slab"}
+execute if entity @s[tag=stellarity.consecration.polished_sulfur_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_cinnabar_stairs"}
+execute if entity @s[tag=stellarity.consecration.polished_sulfur_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_cinnabar_wall"}
+execute if entity @s[tag=stellarity.consecration.sulfur_bricks] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_bricks"}
+execute if entity @s[tag=stellarity.consecration.sulfur_brick_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_brick_slab"}
+execute if entity @s[tag=stellarity.consecration.sulfur_brick_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_brick_stairs"}
+execute if entity @s[tag=stellarity.consecration.sulfur_brick_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"cinnabar_brick_wall"}
+execute if entity @s[tag=stellarity.consecration.chiseled_sulfur] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"chiseled_cinnabar"}
+
+execute if entity @s[tag=stellarity.consecration.cinnarbar] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_slab"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_stairs"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_wall"}
+execute if entity @s[tag=stellarity.consecration.polished_cinnarbar] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_sulfur"}
+execute if entity @s[tag=stellarity.consecration.polished_cinnarbar_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_sulfur_slab"}
+execute if entity @s[tag=stellarity.consecration.polished_cinnarbar_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_sulfur_stairs"}
+execute if entity @s[tag=stellarity.consecration.polished_cinnarbar_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"polished_sulfur_wall"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_bricks] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_bricks"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_brick_slab] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_brick_slab"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_brick_stairs] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_brick_stairs"}
+execute if entity @s[tag=stellarity.consecration.cinnarbar_brick_wall] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"sulfur_brick_wall"}
+execute if entity @s[tag=stellarity.consecration.chiseled_cinnabar] run \
+function stellarity:mechanic/consecration/drops/convert_to {item:"chiseled_sulfur"}
+
+#execute if entity @s[tag=stellarity.consecration.stone] run \
+#function stellarity:mechanic/consecration/drops/convert_to {item:"deepslate"}
+#execute if entity @s[tag=stellarity.consecration.deepslate] run \
+#function stellarity:mechanic/consecration/drops/convert_to {item:"blackstone"}
+#execute if entity @s[tag=stellarity.consecration.blackstone] run \
+#function stellarity:mechanic/consecration/drops/convert_to {item:"stone"}
 
 execute if entity @s[tag=stellarity.consecration.turtle_scute] run \
 function stellarity:mechanic/consecration/drops/convert_to {item:"armadillo_scute"}
