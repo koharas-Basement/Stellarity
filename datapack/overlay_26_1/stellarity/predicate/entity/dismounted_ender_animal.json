@@ -1,0 +1,13 @@
+{
+  "condition": "inverted",
+
+  "term": {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "vehicle": {
+        "type": "#stellarity:end_variant_animals"
+      }
+    }
+  }
+}

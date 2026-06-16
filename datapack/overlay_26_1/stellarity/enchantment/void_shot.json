@@ -1,0 +1,106 @@
+{
+  "description": {
+    "translate": "enchantment.stellarity.void_shot",
+    "color": "#D600F4"
+  },
+  "supported_items": "#stellarity:enchantable/ranged",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 75,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 10,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:slowness",
+          "min_duration": 30,
+          "max_duration": 30,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "#minecraft:skeletons",
+            "location": {
+              "biomes": "#stellarity:snowy"
+            }
+          }
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "stellarity:mechanic/enchantments/void_shot/spawn_shrapnel"
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "#difficulty"
+                    },
+                    "score": "stellarity.misc",
+                    "scale": 1
+                  },
+                  "range": 3
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacker",
+                  "predicate": {
+                    "type": "minecraft:player"
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "type": "#minecraft:arrows",
+                "nbt": "{weapon:{components:{\"minecraft:custom_data\":{\"stellarity:item\":\"call_of_the_void\"}}}}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "stellarity:mechanic/enchantments/void_shot/apply_voided"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "description": {
+    "translate": "enchantment.stellarity.levitation_shot"
+  },
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": {
+    "base": 29,
+    "per_level_above_first": 4
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:levitation",
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 0.5
+          },
+          "max_duration": {
+            "type": "minecraft:linear",
+            "base": 7,
+            "per_level_above_first": 0.5
+          },
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "stellarity:levitation_shot",
+              "unenchanted_chance": 0,
+              "enchanted_chance": {
+                "type": "minecraft:fraction",
+                "numerator": {
+                  "type": "minecraft:linear",
+                  "base": 15,
+                  "per_level_above_first": 10
+                },
+                "denominator": {
+                  "type": "minecraft:linear",
+                  "base": 100,
+                  "per_level_above_first": 12
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "type": "#minecraft:arrows"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": {
+    "translate": "enchantment.stellarity.prismatic_pearl_return"
+  },
+  "exclusive_set": [],
+  "supported_items": [],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:ender_pearl"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "stellarity:item/prismatic_pearl/throw"
+        }
+      }
+    ]
+  }
+}
