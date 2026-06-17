@@ -1,14 +1,34 @@
 {
   "id": "stellarity",
   "pack": {
-    "pack_format": 107.1,
-    "max_format": 107.1,
-    "min_format": 107.1,
-
+    "pack_format": 107,
+    "max_format": [
+      107,
+      1
+    ],
+    "min_format": [
+      94,
+      1
+    ],
     "description": [
       {
         "text": "This ender expansion is kinda beyond hardcore :drum:",
         "color": "#CB4BFF"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_26_1",
+        "min_format": [
+          94,
+          1
+        ],
+        "max_format": [
+          101,
+          1
+        ]
       }
     ]
   }

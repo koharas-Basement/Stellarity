@@ -9,7 +9,7 @@ rm -rf artifacts/${version}
 mkdir -p artifacts/${version}
 
 cd datapack/
-zip -r ../artifacts/${version}/Stellarity-${version}.zip data/ pack.mcmeta pack.png
+zip -r ../artifacts/${version}/Stellarity-${version}.zip data/ overlay_26_1/ overlay_1_21_11/ pack.mcmeta pack.png
 cp ../artifacts/${version}/Stellarity-${version}.zip ../artifacts/${version}/mod.zip
 cd ../music_pack
 zip -9 -r ../artifacts/${version}/Stellarity-${version}-Music.zip *
