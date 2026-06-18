@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.coder2195.dev"
 
 [[mods]]
 modId = "stellarity"
-version = "5.5.0"
+version = "5.5.1"
 displayName = "Stellarity"
 displayURL = "https://modrinth.com/datapack/stellarity"
 description = '''
@@ -28,6 +28,6 @@ side = "BOTH"
 [[dependencies.stellarity]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[26.2,26.2]"
+versionRange = "[1.21.11,26.2]"
 ordering = "NONE"
 side = "BOTH"

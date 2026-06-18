@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size"
+              },
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:end_stone"
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:pearlescent_froglight",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:pearlescent_froglight",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                }
+              },
+              "root_placer": {
+                "type": "minecraft:mangrove_root_placer",
+                "root_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:end_stone",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  }
+                },
+                "trunk_offset_y": 0,
+                "above_root_placement": {
+                  "above_root_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:end_stone",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  "above_root_placement_chance": 0.33
+                },
+                "mangrove_root_placement": {
+                  "max_root_width": 1,
+                  "max_root_length": 3,
+                  "random_skew_chance": 0.1,
+                  "can_grow_through": [
+                    "minecraft:grass_block"
+                  ],
+                  "muddy_roots_in": [
+                    "minecraft:dirt"
+                  ],
+                  "muddy_roots_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:stone"
+                    }
+                  }
+                }
+              },
+              "trunk_placer": {
+                "type": "minecraft:forking_trunk_placer",
+                "base_height": 10,
+                "height_rand_a": 0,
+                "height_rand_b": 0
+              },
+              "foliage_placer": {
+                "type": "minecraft:blob_foliage_placer",
+                "radius": 0,
+                "offset": 0,
+                "height": 0
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
+      },
+      "placement": []
+    }
+  }
+}
