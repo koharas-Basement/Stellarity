@@ -1,9 +1,8 @@
 {
   "pack": {
-    "pack_format": 75,
-    "min_format": 46,
-    "max_format": 75,
-    "supported_formats": [46, 75],
+    "pack_format": 88,
+    "min_format": 75,
+    "max_format": 88,
     "description": [
       {
         "translate": "stellarity.music_pack",
