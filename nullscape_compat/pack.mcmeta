@@ -1,9 +1,9 @@
 {
   "id": "stellarity_nullscape_compat",
   "pack": {
-    "pack_format": 107.1,
-    "max_format": 107.1,
-    "min_format": 107.1,
+    "pack_format": 107,
+    "max_format": [107, 1],
+    "min_format": [94, 1],
     "description": [
       {
         "text": "Nullscape x Stellarity",

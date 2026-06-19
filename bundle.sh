@@ -14,7 +14,7 @@ cp ../artifacts/${version}/Stellarity-${version}.zip ../artifacts/${version}/mod
 cd ../music_pack
 zip -9 -r ../artifacts/${version}/Stellarity-${version}-Music.zip *
 cd ../nullscape_compat
-zip -r ../artifacts/${version}/Stellarity-${version}-NSC.zip data/ pack.mcmeta
+zip -r ../artifacts/${version}/Stellarity-${version}-NSC.zip data/ pack.mcmeta pack.png
 cd ../resource_pack
 zip -r  ../artifacts/${version}/Stellarity-${version}-RP.zip *
 zip -r ../artifacts/${version}/mod.zip assets/
