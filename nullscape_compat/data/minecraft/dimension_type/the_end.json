@@ -8,7 +8,13 @@
             "explodes": false
         },
         "gameplay/can_start_raid": false,
-        "gameplay/respawn_anchor_works": true
+        "gameplay/respawn_anchor_works": true,
+        "minecraft:gameplay/respawn_anchor_works": false,
+        "minecraft:visual/ambient_light_color": "#3f473f",
+        "minecraft:visual/fog_color": "#181318",
+        "minecraft:visual/sky_color": "#000000",
+        "minecraft:visual/sky_light_color": "#ac60cd",
+        "minecraft:visual/sky_light_factor": 0
     },
     "default_clock": "minecraft:the_end",
     "has_ender_dragon_fight": true,

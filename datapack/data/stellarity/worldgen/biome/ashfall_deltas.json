@@ -6,7 +6,6 @@
 	"attributes": {
 		"visual/sky_color": 0,
 		"visual/fog_color": 0,
-		"visual/water_fog_color": 12895439,
 		"audio/ambient_sounds": {
 			"loop": {
 				"sound_id": "stellarity:ambient.the_end.dark"
