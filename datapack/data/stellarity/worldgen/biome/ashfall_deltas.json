@@ -6,6 +6,7 @@
 	"attributes": {
 		"visual/sky_color": 0,
 		"visual/fog_color": 0,
+		"visual/water_fog_color": 12895439,
 		"audio/ambient_sounds": {
 			"loop": {
 				"sound_id": "stellarity:ambient.the_end.dark"
@@ -31,8 +32,7 @@
 					"probability": 0.01
 				}
 			]
-		},
-		"minecraft:visual/ambient_light_color": 4147007
+		}
 	},
 	"effects": {
 		"water_color": 15068927,
