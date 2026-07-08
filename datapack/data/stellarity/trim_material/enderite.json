@@ -1,5 +1,5 @@
 {
-  "asset_name": "enderite",
+  "palette": "enderite",
   "description": {
     "color": "#be6b93",
     "translate": "trim_material.stellarity.enderite"

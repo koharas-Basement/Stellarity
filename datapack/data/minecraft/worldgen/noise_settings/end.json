@@ -34,7 +34,7 @@
     "vein_gap": 0
   },
   "spawn_target": [],
-  "surface_rule": {
+  "material_rule": {
     "type": "minecraft:sequence",
     "sequence": [
       {

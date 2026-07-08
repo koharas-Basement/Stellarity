@@ -1,5 +1,5 @@
 {
-  "asset_name": "chorus",
+  "palette": "chorus",
   "description": {
     "color": "#976997",
     "translate": "trim_material.stellarity.chorus"
