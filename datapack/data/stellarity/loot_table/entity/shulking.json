@@ -103,7 +103,7 @@
         },
         {
           "type": "loot_table",
-          "value": "stellarity:item/armor/shulker/boots"
+          "value": "stellarity:item/armor/shulker/helmet"
         },
         {
           "type": "loot_table",
