@@ -8,7 +8,7 @@
       "destroy_on_use": false
     },
     "gameplay/can_start_raid": false,
-    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
     "minecraft:visual/ambient_light_color": "#3f473f",
     "minecraft:visual/fog_color": "#181318",
     "minecraft:visual/sky_color": "#000000",
