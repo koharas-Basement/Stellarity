@@ -20,21 +20,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 0
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 0
+      }
     },
     {
       "rolls": 1,
@@ -55,21 +53,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 1
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 1
+      }
     },
     {
       "rolls": 1,
@@ -90,21 +86,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 2
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 2
+      }
     },
     {
       "rolls": 1,
@@ -125,21 +119,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 3
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 3
+      }
     },
     {
       "rolls": 1,
@@ -160,21 +152,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 4
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 4
+      }
     },
     {
       "rolls": 1,
@@ -195,21 +185,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 5
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 5
+      }
     },
     {
       "rolls": 1,
@@ -230,21 +218,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 6
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 6
+      }
     },
     {
       "rolls": 1,
@@ -265,21 +251,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 7
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 7
+      }
     },
     {
       "rolls": 1,
@@ -300,21 +284,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 8
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 8
+      }
     },
     {
       "rolls": 1,
@@ -335,21 +317,19 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": 9
-        }
-      ]
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": 9
+      }
     },
     {
       "rolls": 1,
@@ -370,23 +350,21 @@
           "value": "stellarity:void_fishing/fish"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:value_check",
-          "value": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "#luck_of_the_sea"
-            },
-            "score": "stellarity.misc",
-            "scale": 1
+      "condition": {
+        "type": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#luck_of_the_sea"
           },
-          "range": {
-            "min": 10
-          }
+          "score": "stellarity.misc",
+          "scale": 1
+        },
+        "range": {
+          "min": 10
         }
-      ]
+      }
     }
   ]
 }

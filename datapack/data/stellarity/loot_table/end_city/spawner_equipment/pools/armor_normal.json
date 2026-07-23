@@ -16,9 +16,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_helmet",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:amethyst",
@@ -27,7 +27,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -44,9 +44,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_chestplate",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:amethyst",
@@ -55,7 +55,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -80,9 +80,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_helmet",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:amethyst",
@@ -91,7 +91,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -108,9 +108,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_chestplate",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:amethyst",
@@ -119,7 +119,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -143,9 +143,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_helmet",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:gold",
@@ -154,7 +154,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -171,9 +171,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_chestplate",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:gold",
@@ -182,7 +182,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -207,9 +207,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_helmet",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:gold",
@@ -218,7 +218,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },
@@ -235,9 +235,9 @@
                   {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond_chestplate",
-                    "functions": [
+                    "modifier": [
                       {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:gold",
@@ -246,7 +246,7 @@
                         }
                       },
                       {
-                        "function": "minecraft:set_enchantments",
+                        "type": "minecraft:set_enchantments",
                         "enchantments": {
                           "minecraft:protection": 3
                         },

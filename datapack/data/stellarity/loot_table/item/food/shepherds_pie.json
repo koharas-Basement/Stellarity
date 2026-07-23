@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pumpkin_pie",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:shepherds_pie",
                 "minecraft:custom_data": {
@@ -55,7 +55,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {

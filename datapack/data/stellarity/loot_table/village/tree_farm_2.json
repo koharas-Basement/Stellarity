@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 1,
         "max": 2
       },
@@ -10,10 +11,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:acacia_log",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -23,10 +25,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:acacia_sapling",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -36,10 +39,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:acacia_leaves",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
               }
@@ -50,6 +54,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 1,
         "max": 2
       },
@@ -57,10 +62,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spruce_log",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -70,10 +76,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spruce_sapling",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -83,10 +90,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spruce_leaves",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
               }
@@ -97,6 +105,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 1,
         "max": 2
       },
@@ -104,10 +113,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:jungle_log",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -117,10 +127,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:jungle_sapling",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -130,10 +141,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:jungle_leaves",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
               }
@@ -143,10 +155,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cocoa_beans",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }

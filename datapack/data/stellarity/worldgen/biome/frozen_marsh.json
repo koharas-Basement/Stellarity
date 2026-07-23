@@ -38,8 +38,6 @@
     "grass_color": 16777215,
     "foliage_color": 16777215
   },
-  "spawners": {},
-  "spawn_costs": {},
   "carvers": ["stellarity:ravine", "stellarity:crack"],
   "features": [
     [

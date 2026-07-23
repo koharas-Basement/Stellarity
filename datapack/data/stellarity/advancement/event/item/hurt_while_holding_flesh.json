@@ -3,17 +3,12 @@
     "requirement": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "stellarity:item/holding/trinket/flesh"
-          }
-        ],
+        "player": "stellarity:item/holding/trinket/flesh",
         "damage": {
           "type": {
             "tags": [
               {
-                "id": "stellarity:triggers_flesh_speed_boost",
+                "id": "#stellarity:triggers_flesh_speed_boost",
                 "expected": true
               }
             ]

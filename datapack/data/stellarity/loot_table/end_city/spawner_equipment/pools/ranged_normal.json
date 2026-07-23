@@ -8,11 +8,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/weapon/call_of_the_void",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:power": {
+                  "type": "minecraft:uniform",
                   "min": 1,
                   "max": 2
                 }

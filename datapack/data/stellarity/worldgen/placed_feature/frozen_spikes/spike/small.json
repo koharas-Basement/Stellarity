@@ -1,14 +1,12 @@
 {
   "feature": {
     "type": "minecraft:simple_block",
-    "config": {
       "to_place": {
         "type": "minecraft:simple_state_provider",
         "state": {
           "Name": "minecraft:packed_ice"
         }
       }
-    }
   },
   "placement": [
     {
@@ -20,33 +18,50 @@
       }
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": {
+      "type": "minecraft:offset",
+      "x": {
         "type": "minecraft:uniform",
         "min_inclusive": -1,
         "max_inclusive": 1
       },
-      "y_spread": 0
+      "y": 0,
+      "z": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -1,
+        "max_inclusive": 1
+      }
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": {
+      "type": "minecraft:offset",
+      "x": {
         "type": "minecraft:uniform",
         "min_inclusive": -1,
         "max_inclusive": 1
       },
-      "y_spread": 0
+      "y": 0,
+      "z": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -1,
+        "max_inclusive": 1
+      }
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": {
+      "type": "minecraft:offset",
+      "x": {
         "type": "minecraft:clamped_normal",
         "deviation": 0.65,
         "min_inclusive": -1,
         "max_inclusive": 1,
         "mean": 0
       },
-      "y_spread": 0
+      "y": 0,
+      "z": {
+        "type": "minecraft:clamped_normal",
+        "deviation": 0.65,
+        "min_inclusive": -1,
+        "max_inclusive": 1,
+        "mean": 0
+      }
     },
     {
       "type": "minecraft:environment_scan",

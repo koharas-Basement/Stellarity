@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:trial_key",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 "",
@@ -27,7 +27,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:purpur_key",
                 "minecraft:custom_data": {

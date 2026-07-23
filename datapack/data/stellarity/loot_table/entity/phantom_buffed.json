@@ -10,17 +10,18 @@
           "weight": 2,
           "quality": -1,
           "name": "minecraft:string",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 0,
                 "max": 1
               },
               "add": false
             },
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -35,17 +36,18 @@
           "weight": 1,
           "quality": -1,
           "name": "minecraft:gunpowder",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 0,
                 "max": 1
               },
               "add": false
             },
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
@@ -54,28 +56,26 @@
               }
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "tags": [
-                  {
-                    "id": "minecraft:is_fire",
-                    "expected": false
-                  }
-                ]
-              }
+          "condition": {
+            "type": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "id": "#minecraft:is_fire",
+                  "expected": false
+                }
+              ]
             }
-          ]
+          }
         },
         {
           "type": "minecraft:item",
           "weight": 2,
           "quality": 1,
           "name": "minecraft:phantom_membrane",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
@@ -84,7 +84,7 @@
               "add": false
             },
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",

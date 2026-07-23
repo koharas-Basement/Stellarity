@@ -27,58 +27,73 @@
     "plant_chorus_fruit_overworld": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "minecraft:overworld"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:overworld"
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:chorus_flower"
+                ]
+              }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": ["minecraft:chorus_flower"]
-            }
-          }
-        ]
+          ]
+        }
       }
     },
     "plant_chorus_fruit_end": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "minecraft:the_nether"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:the_nether"
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:chorus_flower"
+                ]
+              }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": ["minecraft:chorus_flower"]
-            }
-          }
-        ]
+          ]
+        }
       }
     },
     "plant_chorus_fruit_nether": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "minecraft:the_end"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:the_end"
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:chorus_flower"
+                ]
+              }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": ["minecraft:chorus_flower"]
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

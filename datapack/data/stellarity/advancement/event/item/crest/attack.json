@@ -4,22 +4,20 @@
     "requirement": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "entity_scores",
-            "entity": "this",
-            "scores": {
-              "stellarity.item.crest.bonus_dmg": {
-                "min": 1
-              }
+        "player": {
+          "type": "entity_scores",
+          "entity": "this",
+          "scores": {
+            "stellarity.item.crest.bonus_dmg": {
+              "min": 1
             }
           }
-        ],
+        },
         "damage": {
           "type": {
             "tags": [
               {
-                "id": "stellarity:melee",
+                "id": "#stellarity:melee",
                 "expected": true
               }
             ]

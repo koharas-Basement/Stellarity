@@ -2,7 +2,6 @@
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
-  "creature_spawn_probability": 0,
   "attributes": {
     "visual/sky_color": 0,
     "visual/fog_color": 0,
@@ -32,6 +31,22 @@
           "probability": 0.001
         }
       ]
+    },
+    "gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "creature": [
+          {
+            "type": "illusioner",
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 4
+            },
+            "weight": 100
+          }
+        ]
+      }
     }
   },
   "effects": {
@@ -40,22 +55,18 @@
     "foliage_color": 11403007,
     "grass_color_modifier": "none"
   },
-  "spawners": {
-    "creature": [
-      {
-        "type": "illusioner",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 100
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": ["stellarity:ravine", "stellarity:crack"],
+  "carvers": [
+    "stellarity:ravine",
+    "stellarity:crack"
+  ],
   "features": [
-    ["stellarity:prismarine_forest/island_bottom"],
+    [
+      "stellarity:prismarine_forest/island_bottom"
+    ],
     [],
-    ["stellarity:prismarine_forest/puddle"],
+    [
+      "stellarity:prismarine_forest/puddle"
+    ],
     [],
     [],
     [],

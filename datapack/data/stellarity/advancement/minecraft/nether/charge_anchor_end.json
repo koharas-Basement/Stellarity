@@ -30,23 +30,30 @@
     "charge_respawn_anchor": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "minecraft:the_end",
-              "block": {
-                "blocks": ["minecraft:respawn_anchor"]
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:respawn_anchor"
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:glowstone"
+                ]
               }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": ["minecraft:glowstone"]
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

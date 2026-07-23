@@ -2,6 +2,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 1,
         "max": 3
       },
@@ -119,10 +120,11 @@
           "name": "minecraft:tripwire_hook"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_count",
+          "type": "minecraft:set_count",
           "count": {
+            "type": "minecraft:uniform",
             "min": 0,
             "max": 2
           },
@@ -132,6 +134,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": -3,
         "max": 1
       },
@@ -140,10 +143,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:leather_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.05,
                 "max": 0.25
               }
@@ -154,10 +158,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:leather_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.05,
                 "max": 0.25
               }
@@ -168,10 +173,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:leather_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.05,
                 "max": 0.25
               }
@@ -182,10 +188,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:leather_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.05,
                 "max": 0.25
               }
@@ -196,10 +203,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:iron_axe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.05,
                 "max": 0.25
               }
@@ -210,10 +218,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:fishing_rod",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.05,
                 "max": 0.25
               }
@@ -224,6 +233,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 2,
         "max": 3
       },
@@ -324,10 +334,11 @@
           "name": "minecraft:dark_oak_planks"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_count",
+          "type": "minecraft:set_count",
           "count": {
+            "type": "minecraft:uniform",
             "min": 0,
             "max": 1
           }

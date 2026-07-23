@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:honey_bottle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "stellarity:item": "royal_jelly_ii"
@@ -45,7 +45,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 [

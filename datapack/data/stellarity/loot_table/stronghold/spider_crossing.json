@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 10,
         "max": 13
       },
@@ -11,10 +12,11 @@
           "type": "minecraft:item",
           "weight": 12,
           "name": "minecraft:cobweb",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 6
               },
@@ -26,10 +28,11 @@
           "type": "minecraft:item",
           "weight": 15,
           "name": "minecraft:string",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 6,
                 "max": 10
               },

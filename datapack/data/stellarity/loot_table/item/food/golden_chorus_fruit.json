@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "stellarity:golden_chorus_fruit",
@@ -42,7 +42,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "lore": [
                 [

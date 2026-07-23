@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tropical_fish",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:prismatic_sushi",
                 "minecraft:custom_data": {
@@ -47,7 +47,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "lore": [
                 [

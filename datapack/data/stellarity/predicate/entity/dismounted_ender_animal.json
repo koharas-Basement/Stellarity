@@ -1,8 +1,8 @@
 {
-  "condition": "inverted",
+  "type": "inverted",
 
   "term": {
-    "condition": "entity_properties",
+    "type": "entity_properties",
     "entity": "this",
     "predicate": {
       "vehicle": {

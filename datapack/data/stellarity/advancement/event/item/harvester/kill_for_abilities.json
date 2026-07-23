@@ -4,17 +4,16 @@
     "anima_conduit": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/anima_conduit",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/anima_conduit",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -23,17 +22,16 @@
     "arctic_wind": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/arctic_wind",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/arctic_wind",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -42,17 +40,16 @@
     "cryonics": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/cryonics",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/cryonics",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -61,17 +58,16 @@
     "echo": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/echo",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/echo",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -80,17 +76,16 @@
     "embrittlement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/embrittlement",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/embrittlement",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -99,17 +94,16 @@
     "frost_barrier": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/frost_barrier",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/frost_barrier",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -118,17 +112,16 @@
     "piercing_cold": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/piercing_cold",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/piercing_cold",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -137,17 +130,16 @@
     "frostburn": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "reference",
-            "name": "stellarity:item/holding/harvester"
-          }
-        ],
+        "player": "stellarity:item/holding/harvester",
         "entity": {
-          "entity_type": "#stellarity:harvester/ability/frostburn",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/ability/frostburn",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }

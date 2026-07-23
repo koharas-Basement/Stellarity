@@ -1,21 +1,9 @@
 {
-  "condition": "minecraft:all_of",
+  "type": "minecraft:all_of",
   "terms": [
-    {
-      "condition": "minecraft:reference",
-      "name": "stellarity:item/armor/shulker/wearing_helmet"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "stellarity:item/armor/shulker/wearing_chestplate"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "stellarity:item/armor/shulker/wearing_leggings"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "stellarity:item/armor/shulker/wearing_boots"
-    }
+    "stellarity:item/armor/shulker/wearing_helmet",
+    "stellarity:item/armor/shulker/wearing_chestplate",
+    "stellarity:item/armor/shulker/wearing_leggings",
+    "stellarity:item/armor/shulker/wearing_boots"
   ]
 }

@@ -2,6 +2,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 3,
         "max": 5
       },
@@ -13,10 +14,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pink_petals",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -31,6 +33,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 0,
         "max": 1
       },
@@ -39,10 +42,11 @@
           "type": "minecraft:item",
           "weight": 9,
           "name": "minecraft:diamond_hoe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.3,
                 "max": 0.79
               }
@@ -53,10 +57,11 @@
           "type": "minecraft:loot_table",
           "quality": 1,
           "value": "stellarity:item/weapon/starless_scythe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.3,
                 "max": 0.79
               }
@@ -71,10 +76,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shears",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.33,
                 "max": 0.7
               }
@@ -85,6 +91,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": -2,
         "max": 1
       },
@@ -92,9 +99,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:feather_falling",
                 "minecraft:efficiency"

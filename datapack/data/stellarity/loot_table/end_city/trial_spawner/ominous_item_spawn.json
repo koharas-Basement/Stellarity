@@ -8,9 +8,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lingering_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:wind_charged"
             }
           ]
@@ -18,9 +18,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lingering_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:swiftness"
             }
           ]

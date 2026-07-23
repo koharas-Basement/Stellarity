@@ -1,35 +1,29 @@
 {
   "type": "minecraft:simple_random_selector",
-  "config": {
-    "features": [
-      {
-        "feature": {
-          "type": "minecraft:block_blob",
-          "config": {
-            "can_place_on": {
-              "type": "minecraft:true"
-            },
-            "state": {
-              "Name": "minecraft:cobblestone"
-            }
-          }
+  "features": [
+    {
+      "feature": {
+        "type": "minecraft:block_blob",
+        "can_place_on": {
+          "type": "minecraft:true"
         },
-        "placement": []
+        "state": {
+          "Name": "minecraft:cobblestone"
+        }
       },
-      {
-        "feature": {
-          "type": "minecraft:block_blob",
-          "config": {
-            "can_place_on": {
-              "type": "minecraft:true"
-            },
-            "state": {
-              "Name": "minecraft:mossy_cobblestone"
-            }
-          }
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_blob",
+        "can_place_on": {
+          "type": "minecraft:true"
         },
-        "placement": []
-      }
-    ]
-  }
+        "state": {
+          "Name": "minecraft:mossy_cobblestone"
+        }
+      },
+      "placement": []
+    }
+  ]
 }

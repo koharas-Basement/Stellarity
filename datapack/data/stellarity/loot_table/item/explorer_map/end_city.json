@@ -6,30 +6,24 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:rarity": "rare"
-              }
-            },
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "stellarity:exploration_map/end_city",
+              "type": "minecraft:exploration_map",
+              "destination": "#stellarity:exploration_map/end_city",
               "decoration": "banner_purple",
               "zoom": 3,
               "search_radius": 96,
               "skip_existing_chunks": false
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "translate": "filled_map.stellarity.end_city",
                 "italic": false
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "lore": [
                 "",
@@ -39,6 +33,12 @@
                   "italic": true
                 }
               ]
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
             }
           ]
         }

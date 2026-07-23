@@ -1,13 +1,7 @@
 {
-  "condition": "minecraft:all_of",
+  "type": "minecraft:all_of",
   "terms": [
-    {
-      "condition": "minecraft:reference",
-      "name": "stellarity:item/holding/spirit_dagger/mainhand"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "stellarity:item/holding/spirit_dagger/offhand"
-    }
+    "stellarity:item/holding/spirit_dagger/mainhand",
+    "stellarity:item/holding/spirit_dagger/offhand"
   ]
 }

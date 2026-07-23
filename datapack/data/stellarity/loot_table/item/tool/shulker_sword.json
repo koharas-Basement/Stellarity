@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "lore": [
                 " ",
@@ -26,7 +26,7 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:shulker_sword",
                 "minecraft:custom_data": {
@@ -41,7 +41,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",

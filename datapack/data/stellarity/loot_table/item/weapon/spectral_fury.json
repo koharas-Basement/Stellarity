@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:spectral_fury",
                 "minecraft:custom_data": {
@@ -24,7 +24,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "entity": "this",
               "lore": [

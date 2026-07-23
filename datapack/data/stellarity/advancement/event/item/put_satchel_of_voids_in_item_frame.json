@@ -12,12 +12,20 @@
           }
         },
         "entity": {
-          "entity_type": "#kohara:item_frames"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#kohara:item_frames"
+          }
         }
       }
     }
   },
-  "requirements": [["trigger"]],
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ],
   "rewards": {
     "function": "stellarity:item/satchel_of_voids/item_frame/advancement"
   }

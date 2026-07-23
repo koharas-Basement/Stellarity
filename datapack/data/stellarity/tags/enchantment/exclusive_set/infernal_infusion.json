@@ -1,14 +1,6 @@
 {
   "values": [
     "minecraft:fire_aspect",
-    "minecraft:flame",
-    {
-      "id": "nadir:venomous",
-      "required": false
-    },
-    {
-      "id": "nadir:life_steal",
-      "required": false
-    }
+    "minecraft:flame"
   ]
 }

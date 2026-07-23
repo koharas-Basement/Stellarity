@@ -32,7 +32,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": ["minecraft:sweet_berries"],
+          "items": [
+            "minecraft:sweet_berries"
+          ],
           "components": {
             "minecraft:custom_data": {
               "stellarity:item": "duskberry"
@@ -45,7 +47,9 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": ["minecraft:sweet_berries"],
+          "items": [
+            "minecraft:sweet_berries"
+          ],
           "components": {
             "minecraft:custom_data": {
               "stellarity:item": "duskberry"
@@ -53,28 +57,36 @@
           }
         },
         "entity": {
-          "entity_type": "fox"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:fox"
+          }
         }
       }
     },
     "plant_duskberry": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": ["minecraft:sweet_berries"],
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "duskberry"
-                }
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:sweet_berries"
+            ],
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "duskberry"
               }
             }
           }
-        ]
+        }
       }
     }
   },
-  "requirements": [["plant_duskberry"], ["eat_duskberry"], ["feed_duskberry"]]
+  "requirements": [
+    ["plant_duskberry"],
+    ["eat_duskberry"],
+    ["feed_duskberry"]
+  ]
 }

@@ -13,9 +13,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -29,9 +29,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -45,9 +45,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -61,9 +61,9 @@
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "weight": 15,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -76,9 +76,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -102,53 +102,33 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
           "weight": 5,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "weight": 5,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
           "weight": 5,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
           "weight": 5,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -162,9 +142,9 @@
           "type": "minecraft:item",
           "name": "minecraft:dark_oak_sapling",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -207,10 +187,11 @@
                     "value": "stellarity:item/trinket/copper_elektra_shield"
                   }
                 ],
-                "functions": [
+                "modifier": [
                   {
-                    "function": "minecraft:set_damage",
+                    "type": "minecraft:set_damage",
                     "damage": {
+                      "type": "minecraft:uniform",
                       "min": 0.15,
                       "max": 0.7
                     }

@@ -35,15 +35,15 @@
           "function": "stellarity:mechanic/enchantments/infernal_infusion/apply_prismatic_inferno"
         },
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "tags": [
               {
-                "id": "stellarity:procs_infernal_infusion",
+                "id": "#stellarity:procs_infernal_infusion",
                 "expected": true
               },
               {
-                "id": "minecraft:bypasses_invulnerability",
+                "id": "#minecraft:bypasses_invulnerability",
                 "expected": false
               }
             ],

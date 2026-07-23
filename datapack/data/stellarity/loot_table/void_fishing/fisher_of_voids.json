@@ -6,10 +6,11 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/tool/fisher_of_voids",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.15,
                 "max": 0.75
               }

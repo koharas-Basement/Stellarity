@@ -7,10 +7,11 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 30,
                 "max": 45
               },
@@ -23,9 +24,9 @@
           "name": "minecraft:book",
           "weight": 2,
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": ["minecraft:mending"]
             }
           ]
@@ -35,9 +36,9 @@
           "name": "minecraft:book",
           "weight": 6,
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": [
                 "stellarity:void_strike",
                 "stellarity:void_shot",
@@ -70,9 +71,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,

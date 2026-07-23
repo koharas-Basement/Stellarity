@@ -43,9 +43,9 @@
         {
           "type": "minecraft:item",
           "name": "book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": [
                 "stellarity:dune_speed"
               ]

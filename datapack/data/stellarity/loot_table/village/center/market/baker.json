@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 5,
         "max": 7
       },
@@ -16,10 +17,11 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:cookie",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },

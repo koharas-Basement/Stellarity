@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:warped_fungus_on_a_stick",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:endonomicon",
                 "minecraft:custom_data": {
@@ -27,7 +27,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 "",
                 {

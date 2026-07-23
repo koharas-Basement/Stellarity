@@ -2,7 +2,6 @@
 	"temperature": 0.8,
 	"downfall": 0.4,
 	"has_precipitation": false,
-	"creature_spawn_probability": 0,
 	"attributes": {
 		"visual/sky_color": 0,
 		"visual/fog_color": 0,
@@ -32,38 +31,53 @@
 					"probability": 0.001
 				}
 			]
-		}
+		},
+		"gameplay/natural_mob_spawns": {
+			"spawn_costs": {},
+			"spawns_by_category": {
+				"water_ambient": [
+					{
+						"type": "minecraft:tropical_fish",
+						"count": {
+							"type": "uniform",
+							"min_inclusive": 8,
+							"max_inclusive": 8
+						},
+						"weight": 25
+					}
+				],
+				"creature": [
+					{
+						"type": "illusioner",
+						"count": {
+							"type": "minecraft:uniform",
+							"min_inclusive": 1,
+							"max_inclusive": 4
+						},
+						"weight": 100
+					}
+				]
+			}
+		},
+		"gameplay/creature_world_gen_spawn_probability": 0
 	},
 	"effects": {
 		"water_color": 10672615,
 		"grass_color": 117978,
 		"foliage_color": 56800
 	},
-	"spawners": {
-		"water_ambient": [
-			{
-				"type": "minecraft:tropical_fish",
-				"weight": 25,
-				"minCount": 8,
-				"maxCount": 8
-			}
-		],
-		"creature": [
-			{
-				"type": "illusioner",
-				"maxCount": 4,
-				"minCount": 1,
-				"weight": 100
-			}
-		]
-	},
-	"spawn_costs": {},
 	"carvers": [],
 	"features": [
-		["stellarity:global/stalactite"],
-		["stellarity:warped_marsh/dripping_water"],
+		[
+			"stellarity:global/stalactite"
+		],
+		[
+			"stellarity:warped_marsh/dripping_water"
+		],
 		[],
-		["stellarity:warped_marsh/puddles"],
+		[
+			"stellarity:warped_marsh/puddles"
+		],
 		[],
 		[],
 		[],

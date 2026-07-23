@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:healing"
             }
           ]
@@ -16,9 +16,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:swiftness"
             }
           ]
@@ -26,9 +26,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:leaping"
             }
           ]

@@ -43,9 +43,10 @@
       }
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": 0,
-      "y_spread": -1
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": -1,
+      "z": 0
     },
     {
       "type": "minecraft:biome"
@@ -55,14 +56,20 @@
       "count": 24
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": {
+      "type": "minecraft:offset",
+      "x": {
         "type": "minecraft:trapezoid",
         "max": 5,
         "min": -5,
         "plateau": 0
       },
-      "y_spread": {
+      "y": {
+        "type": "minecraft:trapezoid",
+        "max": 5,
+        "min": -5,
+        "plateau": 0
+      },
+      "z": {
         "type": "minecraft:trapezoid",
         "max": 5,
         "min": -5,

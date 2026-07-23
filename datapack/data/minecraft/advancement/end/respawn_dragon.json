@@ -19,15 +19,13 @@
     "summoned_dragon": {
       "trigger": "minecraft:summoned_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:ender_dragon"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
           }
-        ]
+        }
       }
     }
   },

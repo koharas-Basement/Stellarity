@@ -6,7 +6,7 @@
   "when_in_range": "stellarity:main_island/island",
   "when_out_of_range": {
     "type": "min",
-    "argument1": "stellarity:sloped_cheese",
-    "argument2": "stellarity:cave/noodle"
+    "left": "stellarity:sloped_cheese",
+    "right": "stellarity:cave/noodle"
   }
 }

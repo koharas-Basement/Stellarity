@@ -9,12 +9,10 @@
           "value": "stellarity:item/armor/elytra/empress_wings"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.5
+      }
     },
     {
       "rolls": 1,
@@ -24,12 +22,10 @@
           "value": "stellarity:item/weapon/fluffy_hammer"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.3
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3
+      }
     },
     {
       "rolls": 1,
@@ -39,12 +35,10 @@
           "value": "stellarity:item/music_disc/precipice_stereo"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.3
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3
+      }
     },
     {
       "rolls": 1,
@@ -54,12 +48,10 @@
           "value": "stellarity:block/pixie_in_a_jar"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.3
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3
+      }
     },
     {
       "rolls": 1,
@@ -69,12 +61,10 @@
           "value": "stellarity:item/trinket/prismatic_pearl"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.33
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.33
+      }
     }
   ]
 }

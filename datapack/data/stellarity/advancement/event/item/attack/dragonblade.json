@@ -4,55 +4,58 @@
     "requirement": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "items": ["minecraft:netherite_sword"],
-                  "predicates": {
-                    "minecraft:custom_data": {
-                      "stellarity:item": "dragonblade"
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:netherite_sword"
+                    ],
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "stellarity:item": "dragonblade"
+                      }
                     }
                   }
                 }
               }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": "this",
-                "score": "stellarity.item.dragonblade.cooldown"
-              },
-              "range": {
-                "min": 1
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "stellarity.item.dragonblade.cooldown"
+                },
+                "range": {
+                  "min": 1
+                }
               }
             }
-          }
-        ],
+          ]
+        },
         "damage": {
           "dealt": {
             "min": 7
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "entity_type": "#kohara:invalid_targets"
-              }
+        "entity": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "#kohara:invalid_targets"
             }
           }
-        ]
+        }
       }
     }
   },

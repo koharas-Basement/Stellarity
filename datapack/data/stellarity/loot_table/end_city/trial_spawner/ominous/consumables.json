@@ -9,9 +9,9 @@
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/candied_chorus_fruit",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -25,9 +25,9 @@
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/frozen_carpaccio",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,

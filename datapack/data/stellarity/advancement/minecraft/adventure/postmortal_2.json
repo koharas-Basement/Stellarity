@@ -31,7 +31,8 @@
       "trigger": "minecraft:used_totem",
       "conditions": {
         "player": {
-          "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
             "position": {
               "y": {
                 "max": -32
@@ -41,7 +42,9 @@
           }
         },
         "item": {
-          "items": ["minecraft:totem_of_undying"]
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
         }
       }
     }

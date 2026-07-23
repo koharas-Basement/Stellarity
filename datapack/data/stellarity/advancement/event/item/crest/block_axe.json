@@ -4,12 +4,7 @@
     "requirement": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "stellarity:item/holding/trinket/crest"
-          }
-        ],
+        "player": "stellarity:item/holding/trinket/crest",
         "damage": {
           "blocked": true,
           "source_entity": {
@@ -22,7 +17,7 @@
           "type": {
             "tags": [
               {
-                "id": "minecraft:bypasses_shield",
+                "id": "#minecraft:bypasses_shield",
                 "expected": false
               }
             ]

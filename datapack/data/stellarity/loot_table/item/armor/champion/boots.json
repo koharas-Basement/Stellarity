@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "entity": "this",
               "lore": [
@@ -42,7 +42,7 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "tooltip_display": {
                   "hidden_components": ["dyed_color"]
@@ -71,7 +71,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:armor",

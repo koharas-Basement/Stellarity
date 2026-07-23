@@ -26,24 +26,27 @@
     "size_doesnt_matter": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "stellarity.phantom.size": {
-                "min": 2
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "stellarity.phantom.size": {
+                  "min": 2
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_type": "minecraft:phantom"
               }
             }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:phantom"
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

@@ -24,7 +24,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:spectral_arrow"
+        "recipes": "minecraft:spectral_arrow"
       }
     }
   },

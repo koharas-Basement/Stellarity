@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:candied_chorus_fruit",
                 "minecraft:custom_data": {
@@ -47,7 +47,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {

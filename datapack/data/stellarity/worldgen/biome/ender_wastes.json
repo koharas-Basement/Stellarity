@@ -31,48 +31,54 @@
           "probability": 0.0055
         }
       ]
-    }
+    },
+    "gameplay/natural_mob_spawns": {
+      "spawn_costs": {
+        "minecraft:enderman": {
+          "charge": 0.6,
+          "energy_budget": 1
+        },
+        "minecraft:skeleton": {
+          "charge": 0.6,
+          "energy_budget": 1
+        }
+      },
+      "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:enderman",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 4,
+              "max_inclusive": 4
+            },
+            "weight": 40
+          },
+          {
+            "type": "minecraft:skeleton",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 3
+            },
+            "weight": 5
+          }
+        ]
+      }
+    },
+    "gameplay/creature_world_gen_spawn_probability": 0
   },
   "effects": {
     "water_color": 5261169,
     "grass_color": 4994644,
     "foliage_color": 5585503
   },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 40,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 3
-      }
-    ],
-    "creature": [],
-    "ambient": [],
-    "underground_water_creature": [],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "charge": 0.6,
-      "energy_budget": 1
-    },
-    "minecraft:skeleton": {
-      "charge": 0.6,
-      "energy_budget": 1
-    }
-  },
   "carvers": [],
   "features": [
-    ["stellarity:global/stalactite", "stellarity:ender_wastes/hills"],
+    [
+      "stellarity:global/stalactite",
+      "stellarity:ender_wastes/hills"
+    ],
     [],
     [],
     [],
@@ -80,7 +86,12 @@
     [],
     [],
     [],
-    ["stellarity:ender_wastes/chorus_plant"],
-    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
+    [
+      "stellarity:ender_wastes/chorus_plant"
+    ],
+    [
+      "stellarity:global/end_dungeon",
+      "stellarity:global/fossil"
+    ]
   ]
 }

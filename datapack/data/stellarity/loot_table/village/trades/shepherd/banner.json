@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "minecraft:banners",
+          "items": "#minecraft:banners",
           "expand": true
         }
       ]

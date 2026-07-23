@@ -21,6 +21,7 @@
     "minecraft:ominous_item_spawner",
     "minecraft:splash_potion",
     "minecraft:lingering_potion",
-    "minecraft:shulker_bullet"
+    "minecraft:shulker_bullet",
+    "minecraft:cushion"
   ]
 }

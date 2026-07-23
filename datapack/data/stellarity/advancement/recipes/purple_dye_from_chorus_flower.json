@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stellarity:purple_dye_from_chorus_flower"
+        "recipes": "stellarity:purple_dye_from_chorus_flower"
       }
     }
   },

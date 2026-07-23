@@ -18,12 +18,10 @@
           "name": "minecraft:dragon_head"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.33
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.33
+      }
     },
     {
       "rolls": 1,
@@ -31,10 +29,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 12,
                 "max": 38
               }
@@ -51,12 +50,10 @@
           "value": "stellarity:item/armor/elytra/dragon_wings"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.25
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.25
+      }
     }
   ]
 }

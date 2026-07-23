@@ -1,10 +1,10 @@
 {
-	"argument1": 4,
-	"argument2": {
-	  "argument": {
-		"argument1": "nullscape:base/depth",
-		"argument2": {
-		  "argument": "nullscape:base/factor",
+	"left": 4,
+	"right": {
+	  "input": {
+		"left": "nullscape:base/depth",
+		"right": {
+		  "input": "nullscape:base/factor",
 		  "type": "minecraft:cache_2d"
 		},
 		"type": "minecraft:mul"

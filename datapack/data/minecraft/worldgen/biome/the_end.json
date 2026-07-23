@@ -5,41 +5,55 @@
   "attributes": {
     "visual/sky_color": 0,
     "visual/fog_color": 0,
-    "visual/water_fog_color": 4272254
+    "visual/water_fog_color": 4272254,
+    "gameplay/natural_mob_spawns": {
+      "spawn_costs": {
+        "minecraft:enderman": {
+          "charge": 0.75,
+          "energy_budget": 1
+        }
+      },
+      "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:enderman",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 4,
+              "max_inclusive": 4
+            },
+            "weight": 10
+          }
+        ]
+      }
+    }
   },
   "effects": {
     "water_color": 6443678,
     "grass_color": 14606046,
     "foliage_color": 12763842
   },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ]
-  },
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "charge": 0.75,
-      "energy_budget": 1
-    }
-  },
   "carvers": [],
   "features": [
-    ["stellarity:global/stalactite", "stellarity:dragons_den/hills"],
+    [
+      "stellarity:global/stalactite",
+      "stellarity:dragons_den/hills"
+    ],
     [],
     [],
     [],
     [],
     [],
     [],
-    ["stellarity:dragons_den/obsidian"],
-    ["stellarity:dragons_den/patches"],
-    ["stellarity:dragons_den/chorus_plant"],
+    [
+      "stellarity:dragons_den/obsidian"
+    ],
+    [
+      "stellarity:dragons_den/patches"
+    ],
+    [
+      "stellarity:dragons_den/chorus_plant"
+    ],
     [
       "stellarity:dragons_den/end_spike/center",
       "stellarity:dragons_den/end_spike/ring",

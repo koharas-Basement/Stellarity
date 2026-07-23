@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 4,
         "max": 6
       },
@@ -11,10 +12,11 @@
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -30,10 +32,11 @@
           "type": "minecraft:item",
           "name": "minecraft:magenta_dye",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -44,10 +47,11 @@
           "type": "minecraft:item",
           "name": "minecraft:purple_dye",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -57,13 +61,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_stew",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_stew_effect",
+              "type": "minecraft:set_stew_effect",
               "effects": [
                 {
                   "type": "minecraft:darkness",
                   "duration": {
+                    "type": "minecraft:uniform",
                     "min": 6,
                     "max": 11
                   }
@@ -71,6 +76,7 @@
                 {
                   "type": "minecraft:blindness",
                   "duration": {
+                    "type": "minecraft:uniform",
                     "min": 4,
                     "max": 12
                   }
@@ -78,6 +84,7 @@
                 {
                   "type": "minecraft:wither",
                   "duration": {
+                    "type": "minecraft:uniform",
                     "min": 5,
                     "max": 7
                   }
@@ -90,10 +97,11 @@
           "type": "minecraft:item",
           "name": "minecraft:stick",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -105,10 +113,11 @@
           "type": "minecraft:item",
           "name": "minecraft:dead_bush",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -120,9 +129,9 @@
           "type": "minecraft:item",
           "name": "minecraft:beetroot_seeds",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -136,9 +145,9 @@
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -152,10 +161,11 @@
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -168,10 +178,11 @@
           "name": "minecraft:crying_obsidian",
           "weight": 4,
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -183,10 +194,11 @@
           "type": "minecraft:item",
           "name": "minecraft:purpur_block",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -198,10 +210,11 @@
           "type": "minecraft:item",
           "name": "minecraft:end_stone",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },

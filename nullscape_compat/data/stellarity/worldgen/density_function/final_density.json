@@ -1,43 +1,43 @@
 {
 	"type": "minecraft:max",
-	"argument1": {
+	"left": {
 		"type": "minecraft:min",
-		"argument1": {
+		"left": {
 			"type": "minecraft:squeeze",
-			"argument": {
+			"input": {
 				"type": "minecraft:mul",
-				"argument1": 0.64,
-				"argument2": {
+				"left": 0.64,
+				"right": {
 					"type": "minecraft:interpolated",
-					"argument": {
+					"input": {
 						"type": "minecraft:blend_density",
-						"argument": {
+						"input": {
 							"type": "minecraft:add",
-							"argument1": {
+							"left": {
 								"type": "minecraft:mul",
-								"argument1": {
+								"left": {
 									"type": "minecraft:y_clamped_gradient",
 									"from_y": 4,
 									"to_y": 32,
 									"from_value": 0,
 									"to_value": 1
 								},
-								"argument2": {
+								"right": {
 									"type": "minecraft:add",
-									"argument1": {
+									"left": {
 										"type": "minecraft:add",
-										"argument1": {
+										"left": {
 											"type": "minecraft:mul",
-											"argument1": {
+											"left": {
 												"type": "minecraft:y_clamped_gradient",
 												"from_y": 256,
 												"to_y": 300,
 												"from_value": 1,
 												"to_value": 0
 											},
-											"argument2": {
+											"right": {
 												"type": "minecraft:add",
-												"argument1": {
+												"left": {
 													"type": "minecraft:range_choice",
 													"input": "nullscape:sloped_cheese",
 													"min_inclusive": -1000000,
@@ -45,42 +45,42 @@
 													"when_in_range": "nullscape:sloped_cheese",
 													"when_out_of_range": "nullscape:sloped_cheese"
 												},
-												"argument2": 10
+												"right": 10
 											}
 										},
-										"argument2": -10
+										"right": -10
 									},
-									"argument2": 0.234375
+									"right": 0.234375
 								}
 							},
-							"argument2": -0.234375
+							"right": -0.234375
 						}
 					}
 				}
 			}
 		},
-		"argument2": {
+		"right": {
 			"type": "minecraft:min",
-			"argument1": "nullscape:porosity/cheese",
-			"argument2": {
+			"left": "nullscape:porosity/cheese",
+			"right": {
 				"type": "minecraft:min",
-				"argument1": "nullscape:brittleness/shatter",
-				"argument2": {
+				"left": "nullscape:brittleness/shatter",
+				"right": {
 					"type": "minecraft:interpolated",
-					"argument": "nullscape:void/void_gauntlet"
+					"input": "nullscape:void/void_gauntlet"
 				}
 			}
 		}
 	},
-	"argument2": {
+	"right": {
 		"type": "minecraft:mul",
-		"argument1": {
+		"left": {
 			"type": "minecraft:y_clamped_gradient",
 			"from_y": 40,
 			"to_y": 60,
 			"from_value": 1,
 			"to_value": 0
 		},
-		"argument2": "nullscape:island/island"
+		"right": "nullscape:island/island"
 	}
 }

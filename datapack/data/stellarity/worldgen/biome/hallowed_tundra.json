@@ -31,28 +31,34 @@
           "probability": 0.0012
         }
       ]
-    }
+    },
+    "gameplay/natural_mob_spawns": {
+      "spawn_costs": {
+        "minecraft:vex": {
+          "energy_budget": 0.25,
+          "charge": 1
+        }
+      },
+      "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:vex",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 4,
+              "max_inclusive": 4
+            },
+            "weight": 33
+          }
+        ]
+      }
+    },
+    "gameplay/creature_world_gen_spawn_probability": 0
   },
   "effects": {
     "water_color": 15368447,
     "grass_color": 11723263,
     "foliage_color": 10937599
-  },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:vex",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ]
-  },
-  "spawn_costs": {
-    "minecraft:vex": {
-      "energy_budget": 0.25,
-      "charge": 1
-    }
   },
   "carvers": [],
   "features": [
@@ -66,7 +72,9 @@
       "stellarity:the_hallow/crystals_amethyst",
       "stellarity:the_hallow/rock"
     ],
-    ["stellarity:hallowed_tundra/large_lake"],
+    [
+      "stellarity:hallowed_tundra/large_lake"
+    ],
     [],
     [],
     [],

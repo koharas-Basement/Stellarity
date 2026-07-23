@@ -27,12 +27,10 @@
           "value": "stellarity:block/pixie_in_a_jar"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.5
+      }
     }
   ]
 }

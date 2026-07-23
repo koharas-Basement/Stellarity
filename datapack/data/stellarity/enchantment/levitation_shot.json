@@ -39,10 +39,10 @@
           "max_amplifier": 0
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "type": "minecraft:random_chance_with_enchanted_bonus",
               "enchantment": "stellarity:levitation_shot",
               "unenchanted_chance": 0,
               "enchanted_chance": {
@@ -60,7 +60,7 @@
               }
             },
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "direct_attacker",
               "predicate": {
                 "entity_type": "#minecraft:arrows"

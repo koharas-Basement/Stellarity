@@ -8,9 +8,9 @@
           "type": "minecraft:loot_table",
           "weight": 7,
           "value": "stellarity:item/food/fish/frost_minnow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -18,10 +18,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ice",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -31,10 +32,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:packed_ice",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -44,10 +46,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:blue_ice",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -57,10 +60,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snow_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -70,10 +74,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 8
               }

@@ -10,10 +10,11 @@
           "name": "minecraft:diamond",
           "weight": 5,
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -24,10 +25,11 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 4
               }
@@ -38,10 +40,11 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
               }
@@ -52,10 +55,11 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 4
               }
@@ -66,10 +70,11 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 20,
                 "max": 39
               },
@@ -82,9 +87,9 @@
           "name": "minecraft:book",
           "weight": 4,
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": ["minecraft:mending"]
             }
           ]
@@ -93,9 +98,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": [
                 "stellarity:void_strike",
                 "stellarity:void_shot",

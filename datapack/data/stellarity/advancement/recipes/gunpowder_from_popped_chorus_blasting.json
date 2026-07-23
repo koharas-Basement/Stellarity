@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stellarity:gunpowder_from_popped_chorus_blasting"
+        "recipes": "stellarity:gunpowder_from_popped_chorus_blasting"
       }
     }
   },

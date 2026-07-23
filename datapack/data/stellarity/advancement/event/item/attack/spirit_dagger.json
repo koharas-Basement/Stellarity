@@ -4,12 +4,7 @@
     "click": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "stellarity:item/holding/spirit_dagger/any"
-          }
-        ],
+        "player": "stellarity:item/holding/spirit_dagger/any",
         "damage": {
           "dealt": {
             "min": 3

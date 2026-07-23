@@ -3,9 +3,11 @@
   "criteria": {
     "revaulting": {
       "conditions": {
-        "location": [
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
           {
-            "condition": "minecraft:location_check",
+            "type": "minecraft:location_check",
             "predicate": {
               "structures": ["minecraft:trial_chambers"],
               "block": {
@@ -17,13 +19,14 @@
             }
           },
           {
-            "condition": "minecraft:match_tool",
+            "type": "minecraft:match_tool",
             "predicate": {
               "items": "minecraft:ominous_trial_key"
             }
           }
         ]
-      },
+      }
+    },
       "trigger": "minecraft:item_used_on_block"
     }
   },

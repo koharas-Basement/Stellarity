@@ -6,48 +6,49 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate": {
-                                "source_entity": {
-                                    "entity_type": "minecraft:frog",
-                                    "components": {
-                                        "minecraft:frog/variant": "stellarity:end"
-                                    }
+                    "condition": {
+                        "type": "minecraft:damage_source_properties",
+                        "predicate": {
+                            "source_entity": {
+                                "entity_type": "minecraft:frog",
+                                "components": {
+                                    "minecraft:frog/variant": "stellarity:end"
                                 }
                             }
                         }
-                    ],
+                    },
                     "value": "stellarity:block/ashen_froglight"
                 },
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:damage_source_properties",
+                    "condition": {
+                        "type": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "type": "minecraft:inverted",
+                                "term": {
+                                    "type": "minecraft:damage_source_properties",
+                                    "predicate": {
+                                        "source_entity": {
+                                            "entity_type": "minecraft:frog"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
                                 "predicate": {
-                                    "source_entity": {
-                                        "entity_type": "minecraft:frog"
+                                    "minecraft:type_specific/cube_mob": {
+                                        "size": {
+                                            "min": 2
+                                        }
                                     }
                                 }
                             }
-                        },
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "minecraft:type_specific/cube_mob": {
-                                    "size": {
-                                        "min": 2
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "functions": [
+                        ]
+                    },
+                    "modifier": [
                         {
                             "add": false,
                             "count": {
@@ -55,7 +56,7 @@
                                 "max": 1,
                                 "min": -2
                             },
-                            "function": "minecraft:set_count"
+                            "type": "minecraft:set_count"
                         },
                         {
                             "count": {
@@ -64,79 +65,73 @@
                                 "min": 0
                             },
                             "enchantment": "minecraft:looting",
-                            "function": "minecraft:enchanted_count_increase"
+                            "type": "minecraft:enchanted_count_increase"
                         }
                     ],
                     "name": "minecraft:magma_cream"
                 },
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate": {
-                                "source_entity": {
-                                    "entity_type": "minecraft:frog",
-                                    "components": {
-                                        "minecraft:frog/variant": "minecraft:warm"
-                                    }
+                    "condition": {
+                        "type": "minecraft:damage_source_properties",
+                        "predicate": {
+                            "source_entity": {
+                                "entity_type": "minecraft:frog",
+                                "components": {
+                                    "minecraft:frog/variant": "minecraft:warm"
                                 }
                             }
                         }
-                    ],
-                    "functions": [
+                    },
+                    "modifier": [
                         {
                             "add": false,
                             "count": 1,
-                            "function": "minecraft:set_count"
+                            "type": "minecraft:set_count"
                         }
                     ],
                     "name": "minecraft:pearlescent_froglight"
                 },
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate": {
-                                "source_entity": {
-                                    "entity_type": "minecraft:frog",
-                                    "components": {
-                                        "minecraft:frog/variant": "minecraft:cold"
-                                    }
+                    "condition": {
+                        "type": "minecraft:damage_source_properties",
+                        "predicate": {
+                            "source_entity": {
+                                "entity_type": "minecraft:frog",
+                                "components": {
+                                    "minecraft:frog/variant": "minecraft:cold"
                                 }
                             }
                         }
-                    ],
-                    "functions": [
+                    },
+                    "modifier": [
                         {
                             "add": false,
                             "count": 1,
-                            "function": "minecraft:set_count"
+                            "type": "minecraft:set_count"
                         }
                     ],
                     "name": "minecraft:verdant_froglight"
                 },
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:damage_source_properties",
-                            "predicate": {
-                                "source_entity": {
-                                    "entity_type": "minecraft:frog",
-                                    "components": {
-                                        "minecraft:frog/variant": "minecraft:temperate"
-                                    }
+                    "condition": {
+                        "type": "minecraft:damage_source_properties",
+                        "predicate": {
+                            "source_entity": {
+                                "entity_type": "minecraft:frog",
+                                "components": {
+                                    "minecraft:frog/variant": "minecraft:temperate"
                                 }
                             }
                         }
-                    ],
-                    "functions": [
+                    },
+                    "modifier": [
                         {
                             "add": false,
                             "count": 1,
-                            "function": "minecraft:set_count"
+                            "type": "minecraft:set_count"
                         }
                     ],
                     "name": "minecraft:ochre_froglight"

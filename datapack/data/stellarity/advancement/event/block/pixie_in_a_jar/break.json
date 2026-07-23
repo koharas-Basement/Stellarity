@@ -5,11 +5,15 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "entity_type": "minecraft:interaction",
-                    "nbt": {
-                        "Tags": [
-                            "stellarity.pixie_in_a_jar_interaction"
-                        ]
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "minecraft:interaction",
+                        "nbt": {
+                            "Tags": [
+                                "stellarity.pixie_in_a_jar_interaction"
+                            ]
+                        }
                     }
                 }
             }

@@ -1,17 +1,17 @@
 {
   "type": "minecraft:mul",
-  "argument1": 0.25,
-  "argument2": {
+  "left": 0.25,
+  "right": {
     "type": "minecraft:add",
-    "argument1": {
+    "left": {
       "type": "minecraft:add",
-      "argument1": "stellarity:main_island/d1",
-      "argument2": "stellarity:main_island/d2"
+      "left": "stellarity:main_island/d1",
+      "right": "stellarity:main_island/d2"
     },
-    "argument2": {
+    "right": {
       "type": "minecraft:add",
-      "argument1": "stellarity:main_island/d3",
-      "argument2": "stellarity:main_island/d4"
+      "left": "stellarity:main_island/d3",
+      "right": "stellarity:main_island/d4"
     }
   }
 }

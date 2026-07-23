@@ -5,21 +5,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester"
+                  }
                 }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "#stellarity:harvester/damage_boost/1_minor",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/damage_boost/1_minor",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -29,21 +37,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester"
+                  }
                 }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "#stellarity:harvester/damage_boost/2_small",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/damage_boost/2_small",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -53,21 +69,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester"
+                  }
                 }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "#stellarity:harvester/damage_boost/3_big",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/damage_boost/3_big",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -77,21 +101,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester"
+                  }
                 }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "#stellarity:harvester/damage_boost/4_large",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/damage_boost/4_large",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -101,21 +133,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester"
+                  }
                 }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "#stellarity:harvester/damage_boost/5_huge",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#stellarity:harvester/damage_boost/5_huge",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
@@ -125,28 +165,45 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester"
+                  }
                 }
               }
             }
           }
         },
         "entity": {
-          "nbt": "{Tags:[\"kohara.boss\"]}",
-          "distance": {
-            "absolute": {
-              "max": 6.5
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"kohara.boss\"]}",
+            "distance": {
+              "absolute": {
+                "max": 6.5
+              }
             }
           }
         }
       }
     }
   },
-  "requirements": [["minor", "small", "big", "large", "huge", "boss"]],
+  "requirements": [
+    [
+      "minor",
+      "small",
+      "big",
+      "large",
+      "huge",
+      "boss"
+    ]
+  ],
   "rewards": {
     "function": "stellarity:item/harvester/kill"
   }

@@ -18,9 +18,9 @@
           "type": "minecraft:item",
           "weight": 15,
           "name": "minecraft:paper",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -44,10 +44,11 @@
           "type": "minecraft:item",
           "weight": 4,
           "name": "minecraft:glass_pane",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -58,6 +59,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": -1,
         "max": 1
       },

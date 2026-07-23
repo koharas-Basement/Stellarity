@@ -32,7 +32,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
             "structures": "stellarity:village"
           }
         }

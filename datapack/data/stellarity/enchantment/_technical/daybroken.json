@@ -28,11 +28,11 @@
     "minecraft:post_attack": [
       {
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "tags": [
               {
-                "id": "stellarity:melee",
+                "id": "#stellarity:melee",
                 "expected": true
               }
             ],

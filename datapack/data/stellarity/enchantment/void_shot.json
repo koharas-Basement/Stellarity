@@ -30,7 +30,7 @@
           "max_amplifier": 0
         },
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
             "entity_type": "#minecraft:skeletons",
@@ -48,13 +48,13 @@
           "function": "stellarity:mechanic/enchantments/void_shot/spawn_shrapnel"
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:any_of",
+              "type": "minecraft:any_of",
               "terms": [
                 {
-                  "condition": "minecraft:value_check",
+                  "type": "minecraft:value_check",
                   "value": {
                     "type": "minecraft:score",
                     "target": {
@@ -67,7 +67,7 @@
                   "range": 3
                 },
                 {
-                  "condition": "minecraft:entity_properties",
+                  "type": "minecraft:entity_properties",
                   "entity": "attacker",
                   "predicate": {
                     "entity_type": "minecraft:player"
@@ -76,11 +76,11 @@
               ]
             },
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "direct_attacker",
               "predicate": {
                 "entity_type": "#minecraft:arrows",
-                "nbt": "{weapon:{components:{\"minecraft:custom_data\":{\"stellarity:item\":\"call_of_the_void\"}}}}"
+                "nbt": "{weapon:{id:bow,components:{\"minecraft:custom_data\":{\"stellarity:item\":\"call_of_the_void\"}}}}"
               }
             }
           ]
@@ -94,7 +94,7 @@
           "function": "stellarity:mechanic/enchantments/void_shot/apply_voided"
         },
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "direct_attacker",
           "predicate": {
             "entity_type": "#minecraft:arrows"

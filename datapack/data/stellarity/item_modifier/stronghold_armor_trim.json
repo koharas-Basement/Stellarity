@@ -1,47 +1,41 @@
 [
   {
-    "function": "minecraft:set_components",
+    "type": "minecraft:set_components",
     "components": {
       "minecraft:trim": {
         "material": "minecraft:gold",
         "pattern": "minecraft:eye"
       }
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
-        "chance": 0.3333
-      }
-    ]
+    "condition": {
+      "type": "minecraft:random_chance",
+      "chance": 0.3333
+    }
   },
   {
-    "function": "minecraft:set_components",
+    "type": "minecraft:set_components",
     "components": {
       "minecraft:trim": {
         "material": "minecraft:diamond",
         "pattern": "minecraft:eye"
       }
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
-        "chance": 0.3333
-      }
-    ]
+    "condition": {
+      "type": "minecraft:random_chance",
+      "chance": 0.3333
+    }
   },
   {
-    "function": "minecraft:set_components",
+    "type": "minecraft:set_components",
     "components": {
       "minecraft:trim": {
         "material": "minecraft:emerald",
         "pattern": "minecraft:eye"
       }
     },
-    "conditions": [
-      {
-        "condition": "minecraft:random_chance",
-        "chance": 0.3333
-      }
-    ]
+    "condition": {
+      "type": "minecraft:random_chance",
+      "chance": 0.3333
+    }
   }
 ]

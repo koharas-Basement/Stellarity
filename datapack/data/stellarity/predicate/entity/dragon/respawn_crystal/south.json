@@ -1,15 +1,13 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "location": {
-        "position": {
-          "x": 0.5,
-          "y": 62,
-          "z": 4.5
-        }
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "position": {
+        "x": 0.5,
+        "y": 62,
+        "z": 4.5
       }
     }
   }
-]
+}

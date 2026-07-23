@@ -31,32 +31,40 @@
           "probability": 0.002
         }
       ]
-    }
+    },
+    "gameplay/natural_mob_spawns": {
+      "spawn_costs": {
+        "minecraft:vex": {
+          "energy_budget": 0.14,
+          "charge": 1
+        }
+      },
+      "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:vex",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            },
+            "weight": 20
+          }
+        ]
+      }
+    },
+    "gameplay/creature_world_gen_spawn_probability": 0
   },
   "effects": {
     "water_color": 15368447,
     "grass_color": 6078719,
     "foliage_color": 5819646
   },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:vex",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ]
-  },
-  "spawn_costs": {
-    "minecraft:vex": {
-      "energy_budget": 0.14,
-      "charge": 1
-    }
-  },
   "carvers": [],
   "features": [
-    ["stellarity:the_hallow/stalactite"],
+    [
+      "stellarity:the_hallow/stalactite"
+    ],
     [
       "stellarity:the_hallow/crystals",
       "stellarity:the_hallow/crystals_amethyst"
@@ -77,6 +85,8 @@
       "stellarity:prismatic_dunes/prismatic_cacti",
       "stellarity:prismatic_dunes/rare_grass_patch"
     ],
-    ["stellarity:global/fossil"]
+    [
+      "stellarity:global/fossil"
+    ]
   ]
 }

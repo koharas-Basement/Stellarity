@@ -5,13 +5,19 @@
       "trigger": "minecraft:used_totem",
       "conditions": {
         "player": {
-          "slots": {
-            "weapon.*": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "harvester",
-                  "stellarity:harvester": {
-                    "abilities": ["cryonics"]
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.*": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "harvester",
+                    "stellarity:harvester": {
+                      "abilities": [
+                        "cryonics"
+                      ]
+                    }
                   }
                 }
               }

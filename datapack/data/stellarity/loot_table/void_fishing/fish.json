@@ -8,19 +8,18 @@
           "type": "minecraft:loot_table",
           "weight": 15,
           "value": "stellarity:item/food/fish/ender_koi",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.125
-                }
-              ]
+              "condition": {
+                "type": "minecraft:random_chance",
+                "chance": 0.125
+              }
             }
           ]
         },
@@ -28,19 +27,18 @@
           "type": "minecraft:loot_table",
           "weight": 5,
           "value": "stellarity:item/food/fish/goosh",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 6,
                 "max": 12
               },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.125
-                }
-              ]
+              "condition": {
+                "type": "minecraft:random_chance",
+                "chance": 0.125
+              }
             }
           ]
         },
@@ -53,126 +51,69 @@
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/the_hallow",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/the_hallow"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/the_hallow"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/flesh_tundra",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/flesh_tundra"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/flesh_tundra"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/warped_marsh",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/warped_marsh"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/warped_marsh"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/endless_dunes",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/endless_dunes"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/endless_dunes"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/frozen_spikes",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/frozen_spikes"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/frozen_spikes"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/original_biomes",
-          "conditions": [
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:reference",
-                  "name": "stellarity:location/in_biome/end_midlands"
-                },
-                {
-                  "condition": "minecraft:reference",
-                  "name": "stellarity:location/in_biome/end_highlands"
-                },
-                {
-                  "condition": "minecraft:reference",
-                  "name": "stellarity:location/in_biome/small_end_islands"
-                },
-                {
-                  "condition": "minecraft:reference",
-                  "name": "stellarity:location/in_biome/end_barrens"
-                }
-              ]
-            }
-          ]
+          "condition": {
+            "type": "minecraft:any_of",
+            "terms": [
+              "stellarity:location/in_biome/end_midlands",
+              "stellarity:location/in_biome/end_highlands",
+              "stellarity:location/in_biome/small_end_islands",
+              "stellarity:location/in_biome/end_barrens"
+            ]
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/fiery_hills",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/fiery_hills"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/fiery_hills"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/amethyst",
-          "conditions": [
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:reference",
-                  "name": "stellarity:location/in_biome/amethyst_forest"
-                },
-                {
-                  "condition": "minecraft:reference",
-                  "name": "stellarity:location/in_biome/crystal_crags"
-                }
-              ]
-            }
-          ]
+          "condition": {
+            "type": "minecraft:any_of",
+            "terms": [
+              "stellarity:location/in_biome/amethyst_forest",
+              "stellarity:location/in_biome/crystal_crags"
+            ]
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 30,
           "value": "stellarity:void_fishing/drops/prismarine",
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "stellarity:location/in_biome/prismarine_forest"
-            }
-          ]
+          "condition": "stellarity:location/in_biome/prismarine_forest"
         }
       ]
     }

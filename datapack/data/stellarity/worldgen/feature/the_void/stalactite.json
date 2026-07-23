@@ -1,6 +1,5 @@
 {
   "type": "minecraft:vegetation_patch",
-  "config": {
     "surface": "ceiling",
     "depth": 1,
     "vertical_range": 10,
@@ -33,7 +32,6 @@
     "vegetation_feature": {
       "feature": {
         "type": "minecraft:block_column",
-        "config": {
           "direction": "down",
           "allowed_placement": {
             "type": "minecraft:matching_blocks",
@@ -67,9 +65,7 @@
               }
             }
           ]
-        }
       },
       "placement": []
     }
-  }
 }

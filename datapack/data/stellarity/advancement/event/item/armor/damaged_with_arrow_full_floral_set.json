@@ -4,34 +4,27 @@
     "requirement": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "stellarity:item/armor/floral/wearing_full_set"
-          }
-        ],
+        "player": "stellarity:item/armor/floral/wearing_full_set",
         "damage": {
           "type": {
             "tags": [
               {
-                "id": "stellarity:procs_floral_armor_bloom",
+                "id": "#stellarity:procs_floral_armor_bloom",
                 "expected": true
               }
             ]
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "entity_type": "#kohara:invalid_targets"
-              }
+        "entity": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "#kohara:invalid_targets"
             }
           }
-        ]
+        }
       }
     }
   },

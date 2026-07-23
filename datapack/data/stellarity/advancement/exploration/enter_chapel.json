@@ -28,7 +28,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
             "structures": "stellarity:chapel_of_light"
           }
         }

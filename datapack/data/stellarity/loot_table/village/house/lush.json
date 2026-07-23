@@ -7,10 +7,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -20,10 +21,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pale_moss_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -33,10 +35,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glow_berries",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }

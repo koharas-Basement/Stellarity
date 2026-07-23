@@ -31,6 +31,22 @@
         }
       ],
       "modifier": "override"
+    },
+    "gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:enderman",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 4,
+              "max_inclusive": 4
+            },
+            "weight": 20
+          }
+        ]
+      }
     }
   },
   "effects": {
@@ -38,17 +54,6 @@
     "grass_color": 12669904,
     "foliage_color": 15652590
   },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 20,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ]
-  },
-  "spawn_costs": {},
   "carvers": [],
   "features": [
     ["stellarity:global/stalactite"],

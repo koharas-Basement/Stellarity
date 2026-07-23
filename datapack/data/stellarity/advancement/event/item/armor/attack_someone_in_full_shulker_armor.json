@@ -4,46 +4,45 @@
     "criteria": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "stellarity:item/armor/shulker/wearing_full_set"
-            }
-          }
-        ],
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "stellarity:item/armor/shulker/wearing_full_set"
+        },
         "damage": {
           "blocked": false
         },
         "entity": {
-          "entity_type": "minecraft:player",
-          "equipment": {
-            "head": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_helmet"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "player",
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_helmet"
+                  }
                 }
-              }
-            },
-            "chest": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_chestplate"
+              },
+              "chest": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_chestplate"
+                  }
                 }
-              }
-            },
-            "legs": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_leggings"
+              },
+              "legs": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_leggings"
+                  }
                 }
-              }
-            },
-            "feet": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_boots"
+              },
+              "feet": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_boots"
+                  }
                 }
               }
             }

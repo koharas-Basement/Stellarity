@@ -28,12 +28,12 @@
           }
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "nbt": "{NoAI:1b}"
@@ -41,9 +41,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "entity_type": "minecraft:player"
@@ -51,9 +51,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "entity_type": "#kohara:invalid_targets"
@@ -61,9 +61,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "targeted_entity": {
@@ -257,12 +257,12 @@
           ]
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "nbt": "{NoAI:1b}"
@@ -270,9 +270,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "entity_type": "minecraft:player"
@@ -280,9 +280,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "entity_type": "#kohara:invalid_targets"
@@ -290,9 +290,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "targeted_entity": {
@@ -316,15 +316,15 @@
           "pitch": 1
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:all_of",
+              "type": "minecraft:all_of",
               "terms": [
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "nbt": "{NoAI:1b}"
@@ -332,9 +332,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "entity_type": "minecraft:player"
@@ -342,9 +342,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "entity_type": "#kohara:invalid_targets"
@@ -352,9 +352,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "targeted_entity": {
@@ -366,7 +366,7 @@
               ]
             },
             {
-              "condition": "minecraft:value_check",
+              "type": "minecraft:value_check",
               "value": {
                 "type": "minecraft:enchantment_level",
                 "amount": {
@@ -392,15 +392,15 @@
           "pitch": 1
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:all_of",
+              "type": "minecraft:all_of",
               "terms": [
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "nbt": "{NoAI:1b}"
@@ -408,9 +408,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "entity_type": "minecraft:player"
@@ -418,9 +418,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "entity_type": "#kohara:invalid_targets"
@@ -428,9 +428,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "targeted_entity": {
@@ -442,7 +442,7 @@
               ]
             },
             {
-              "condition": "minecraft:value_check",
+              "type": "minecraft:value_check",
               "value": {
                 "type": "minecraft:enchantment_level",
                 "amount": {
@@ -468,15 +468,15 @@
           "pitch": 1
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:all_of",
+              "type": "minecraft:all_of",
               "terms": [
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "nbt": "{NoAI:1b}"
@@ -484,9 +484,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "entity_type": "minecraft:player"
@@ -494,9 +494,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "entity_type": "#kohara:invalid_targets"
@@ -504,9 +504,9 @@
                   }
                 },
                 {
-                  "condition": "minecraft:inverted",
+                  "type": "minecraft:inverted",
                   "term": {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                       "targeted_entity": {
@@ -518,7 +518,7 @@
               ]
             },
             {
-              "condition": "minecraft:value_check",
+              "type": "minecraft:value_check",
               "value": {
                 "type": "minecraft:enchantment_level",
                 "amount": {

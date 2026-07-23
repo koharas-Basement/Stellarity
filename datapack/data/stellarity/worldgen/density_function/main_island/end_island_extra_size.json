@@ -1,10 +1,10 @@
 {
   "type": "cache_once",
-  "argument": {
+  "input": {
     "type": "add",
-    "argument1": {
+    "left": {
       "type": "end_islands"
     },
-    "argument2": 0.3
+    "right": 0.3
   }
 }

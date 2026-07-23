@@ -7,20 +7,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chorus_flower",
-          "conditions": [
-            {
-              "condition": "minecraft:survives_explosion"
-            }
-          ]
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          }
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {}
-        }
-      ]
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {}
+      }
     },
     {
       "rolls": 1,
@@ -30,23 +26,26 @@
           "name": "minecraft:chorus_flower"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:inverted",
+            "term": {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          },
+          {
+            "type": "minecraft:survives_explosion"
+          },
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.25
           }
-        },
-        {
-          "condition": "minecraft:survives_explosion"
-        },
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.25
-        }
-      ]
+        ]
+      }
     }
   ]
 }

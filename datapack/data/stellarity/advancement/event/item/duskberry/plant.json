@@ -4,9 +4,9 @@
     "plant_duskberry": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
+        "location":
           {
-            "condition": "minecraft:match_tool",
+            "type": "minecraft:match_tool",
             "predicate": {
               "items": ["minecraft:sweet_berries"],
               "predicates": {
@@ -16,7 +16,6 @@
               }
             }
           }
-        ]
       }
     }
   },

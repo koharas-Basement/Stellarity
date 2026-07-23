@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:trident",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 "",
                 {
@@ -38,7 +38,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "id": "minecraft:base_attack_damage",
@@ -57,7 +57,7 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "stellarity:item": "sandstorm_trident"

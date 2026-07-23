@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "minecraft:wool",
+          "items": "#minecraft:wool",
           "expand": true
         }
       ]

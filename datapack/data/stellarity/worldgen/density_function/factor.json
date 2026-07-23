@@ -1,14 +1,14 @@
 {
   "type": "minecraft:flat_cache",
-  "argument": {
+  "input": {
     "type": "minecraft:cache_2d",
-    "argument": {
+    "input": {
       "type": "minecraft:add",
-      "argument1": -0.1,
-      "argument2": {
+      "left": -0.1,
+      "right": {
         "type": "minecraft:mul",
-        "argument1": 1.5,
-        "argument2": {
+        "left": 1.5,
+        "right": {
           "type": "minecraft:spline",
           "spline": {
             "coordinate": "stellarity:climate/continents",

@@ -13,11 +13,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
+                  "type": "minecraft:uniform",
                   "min": 1,
                   "max": 2
                 }
@@ -29,9 +30,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:knockback": 1
               },

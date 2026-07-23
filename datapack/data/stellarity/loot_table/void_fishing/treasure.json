@@ -8,10 +8,11 @@
           "type": "minecraft:item",
           "name": "minecraft:eye_armor_trim_smithing_template",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -22,10 +23,11 @@
           "type": "minecraft:item",
           "name": "minecraft:spire_armor_trim_smithing_template",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -36,10 +38,11 @@
           "type": "minecraft:item",
           "name": "minecraft:end_crystal",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -50,10 +53,11 @@
           "type": "minecraft:item",
           "name": "minecraft:end_crystal",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -74,10 +78,11 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 30,
                 "max": 40
               },
@@ -89,10 +94,11 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 17,
                 "max": 29
               },

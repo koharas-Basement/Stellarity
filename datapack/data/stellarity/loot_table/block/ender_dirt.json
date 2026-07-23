@@ -6,9 +6,9 @@
         {
           "type": "item",
           "name": "glow_item_frame",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "item_name": {
                   "translate": "block.stellarity.ender_dirt"

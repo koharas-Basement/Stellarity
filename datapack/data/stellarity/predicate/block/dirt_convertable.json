@@ -1,22 +1,22 @@
 {
-  "condition": "any_of",
+  "type": "any_of",
   "terms": [
     {
-      "condition": "entity_properties",
+      "type": "entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{'Tags':['stellarity.block.ender_grass_block']}"
       }
     },
     {
-      "condition": "entity_properties",
+      "type": "entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{'Tags':['stellarity.block.ender_dirt_path']}"
       }
     },
     {
-      "condition": "entity_properties",
+      "type": "entity_properties",
       "entity": "this",
       "predicate": {
         "nbt": "{'Tags':['stellarity.block.rooted_ender_dirt']}"

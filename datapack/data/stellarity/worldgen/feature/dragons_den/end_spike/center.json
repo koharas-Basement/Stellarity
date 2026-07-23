@@ -1,6 +1,5 @@
 {
   "type": "minecraft:end_spike",
-  "config": {
     "crystal_invulnerable": true,
     "spikes": [
       {
@@ -11,5 +10,4 @@
         "guarded": false
       }
     ]
-  }
 }

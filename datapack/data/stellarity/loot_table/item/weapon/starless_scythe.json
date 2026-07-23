@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_hoe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 "",
                 {
@@ -31,7 +31,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "id": "minecraft:base_attack_damage",
@@ -64,7 +64,7 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:starless_scythe",
                 "minecraft:custom_data": {

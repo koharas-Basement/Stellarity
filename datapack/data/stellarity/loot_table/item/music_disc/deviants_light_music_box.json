@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_otherside",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "stellarity:item": "music_disc_deviants_light_music_box"
@@ -18,7 +18,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "translate": "items.stellarity.music_discs.requires_addon",

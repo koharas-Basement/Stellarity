@@ -3,26 +3,31 @@
   "criteria": {
     "under_lock_and_key": {
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "structures": ["minecraft:trial_chambers"],
-              "block": {
-                "blocks": "minecraft:vault",
-                "state": {
-                  "ominous": "false"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "structures": [
+                  "minecraft:trial_chambers"
+                ],
+                "block": {
+                  "blocks": "minecraft:vault",
+                  "state": {
+                    "ominous": "false"
+                  }
                 }
               }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:trial_key"
+              }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:trial_key"
-            }
-          }
-        ]
+          ]
+        }
       },
       "trigger": "minecraft:item_used_on_block"
     }
@@ -39,6 +44,10 @@
       "translate": "advancements.adventure.under_lock_and_key.title"
     }
   },
-  "requirements": [["under_lock_and_key"]],
+  "requirements": [
+    [
+      "under_lock_and_key"
+    ]
+  ],
   "sends_telemetry_event": true
 }

@@ -4,12 +4,7 @@
     "requirement": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "stellarity:item/holding/trinket/starstruck_shield"
-          }
-        ],
+        "player": "stellarity:item/holding/trinket/starstruck_shield",
         "damage": {
           "blocked": true,
           "source_entity": {

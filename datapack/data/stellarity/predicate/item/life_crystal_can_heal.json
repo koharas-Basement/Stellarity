@@ -1,15 +1,15 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "movement": {
-        "speed": 0
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "movement": {
+          "speed": 0
+        }
       }
-    }
-  },
-  {
-    "condition": "minecraft:reference",
-    "name": "stellarity:item/holding/trinket/life_crystal"
-  }
-]
+    },
+    "stellarity:item/holding/trinket/life_crystal"
+  ]
+}

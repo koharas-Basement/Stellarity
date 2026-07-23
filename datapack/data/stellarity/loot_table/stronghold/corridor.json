@@ -13,10 +13,11 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 15,
                 "max": 29
               }
@@ -27,10 +28,11 @@
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -41,9 +43,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -57,9 +59,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -73,9 +75,9 @@
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -89,9 +91,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bread",
           "weight": 11,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -105,9 +107,9 @@
           "type": "minecraft:item",
           "name": "minecraft:apple",
           "weight": 10,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -125,10 +127,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 18,
                 "max": 28
               },
@@ -145,10 +148,11 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.2,
                 "max": 0.45
               }
@@ -158,10 +162,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
+                "type": "minecraft:uniform",
                 "min": 15,
                 "max": 29
               },
@@ -172,47 +177,28 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "stellarity:stronghold_armor_trim"
-            }
-          ]
+          "modifier": "stellarity:stronghold_armor_trim"
         }
       ]
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": -3,
         "max": 1
       },
@@ -220,9 +206,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:protection",
                 "minecraft:blast_protection",

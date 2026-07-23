@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "stellarity:sugar_from_chorus_fruit"
+        "recipes": "stellarity:sugar_from_chorus_fruit"
       }
     }
   },

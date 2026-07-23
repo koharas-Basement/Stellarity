@@ -13,10 +13,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:brick",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -27,9 +28,9 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:clay_ball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -43,10 +44,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:end_stone",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               },
@@ -58,10 +60,11 @@
           "type": "minecraft:item",
           "weight": 4,
           "name": "minecraft:end_stone_bricks",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 4
               },

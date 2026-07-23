@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 6,
         "max": 7
       },
@@ -11,10 +12,11 @@
           "type": "minecraft:item",
           "weight": 6,
           "name": "minecraft:nether_wart",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               },
@@ -26,10 +28,11 @@
           "type": "minecraft:item",
           "weight": 6,
           "name": "minecraft:blaze_powder",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -41,9 +44,9 @@
           "type": "minecraft:item",
           "weight": 4,
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:water"
             }
           ]
@@ -52,10 +55,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:gold_ingot",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -68,10 +72,11 @@
           "weight": 4,
           "quality": -1,
           "name": "minecraft:rotten_flesh",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               },
@@ -84,10 +89,11 @@
           "weight": 2,
           "quality": 1,
           "name": "minecraft:experience_bottle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }

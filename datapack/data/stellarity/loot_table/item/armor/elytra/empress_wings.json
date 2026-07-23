@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:elytra",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 "",
@@ -38,7 +38,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:empress_wings",
                 "minecraft:custom_data": {
@@ -61,7 +61,7 @@
               }
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "id": "minecraft:armor.chestplate",

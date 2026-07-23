@@ -1,6 +1,5 @@
 {
   "type": "minecraft:waterlogged_vegetation_patch",
-  "config": {
     "surface": "floor",
     "depth": 1,
     "vertical_range": 6,
@@ -36,7 +35,6 @@
     "vegetation_feature": {
       "feature": {
         "type": "minecraft:simple_block",
-        "config": {
           "to_place": {
             "type": "minecraft:weighted_state_provider",
             "entries": [
@@ -178,9 +176,7 @@
               }
             ]
           }
-        }
       },
       "placement": []
     }
-  }
 }

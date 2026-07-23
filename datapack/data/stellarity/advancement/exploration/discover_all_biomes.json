@@ -33,7 +33,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:amethyst_forest"
           }
         }
@@ -43,7 +44,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:ashfall_deltas"
           }
         }
@@ -53,7 +55,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:crystal_crags"
           }
         }
@@ -63,7 +66,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:end_shrubland"
           }
         }
@@ -73,7 +77,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:end_wilds"
           }
         }
@@ -83,7 +88,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:ender_wastes"
           }
         }
@@ -93,7 +99,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:endless_dunes"
           }
         }
@@ -103,7 +110,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:fiery_hills"
           }
         }
@@ -113,7 +121,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:flesh_tundra"
           }
         }
@@ -123,7 +132,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:frosted_valley"
           }
         }
@@ -133,7 +143,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:frozen_marsh"
           }
         }
@@ -143,7 +154,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:frozen_shrubland"
           }
         }
@@ -153,7 +165,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:frozen_spikes"
           }
         }
@@ -163,7 +176,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:hallowed_tundra"
           }
         }
@@ -173,7 +187,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:prismarine_forest"
           }
         }
@@ -183,7 +198,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:prismatic_dunes"
           }
         }
@@ -193,7 +209,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:the_hallow"
           }
         }
@@ -203,7 +220,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:the_nest"
           }
         }
@@ -213,7 +231,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "stellarity:warped_marsh"
           }
         }
@@ -223,7 +242,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "minecraft:end_barrens"
           }
         }
@@ -233,7 +253,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "minecraft:end_highlands"
           }
         }
@@ -243,7 +264,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
+          "type": "location_check",
+          "predicate": {
             "biomes": "minecraft:end_midlands"
           }
         }

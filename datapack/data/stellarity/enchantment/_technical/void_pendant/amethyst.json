@@ -24,7 +24,7 @@
           "function": "stellarity:mechanic/enchantments/void_pendant/amethyst"
         },
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "periodic_tick": 100

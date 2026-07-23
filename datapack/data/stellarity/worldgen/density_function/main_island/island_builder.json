@@ -16,7 +16,7 @@
         "value": {
           "coordinate": {
             "type": "minecraft:abs",
-            "argument": {
+            "input": {
               "type": "minecraft:noise",
               "noise": "stellarity:main_island/shaper_1",
               "xz_scale": 1,

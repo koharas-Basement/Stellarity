@@ -3,17 +3,17 @@
   "criteria": {
     "beacon": {
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "structures": ["minecraft:end_city"]
-              }
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "structures": [
+                "minecraft:end_city"
+              ]
             }
           }
-        ],
+        },
         "level": {
           "min": 1
         }
@@ -33,6 +33,8 @@
       "translate": "advancements.nether.create_beacon.title"
     }
   },
-  "requirements": [["beacon"]],
+  "requirements": [
+    ["beacon"]
+  ],
   "sends_telemetry_event": true
 }

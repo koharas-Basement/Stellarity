@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_dragon_spawn_egg",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:voided_slime_spawn_egg",
                 "custom_data": {

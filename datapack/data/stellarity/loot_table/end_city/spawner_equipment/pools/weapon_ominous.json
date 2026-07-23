@@ -23,21 +23,24 @@
           "name": "minecraft:diamond_axe"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:enchant_randomly",
+          "type": "minecraft:enchant_randomly",
           "options": [
             "minecraft:sharpness",
             "minecraft:knockback",
             "minecraft:fire_aspect"
           ],
           "only_compatible": true,
-          "conditions": [
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
             {
-              "condition": "minecraft:random_chance",
+              "type": "minecraft:random_chance",
               "chance": 0.5
             }
           ]
+          }
         }
       ]
     }

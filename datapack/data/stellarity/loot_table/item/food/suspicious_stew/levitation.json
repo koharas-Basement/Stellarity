@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_stew",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_stew_effect",
+              "type": "minecraft:set_stew_effect",
               "effects": [
                 {
                   "type": "minecraft:levitation",

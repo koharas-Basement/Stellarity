@@ -4,12 +4,7 @@
     "requirement": {
       "trigger": "minecraft:shot_crossbow",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "stellarity:item/armor/floral/wearing_full_set"
-          }
-        ]
+        "player": "stellarity:item/armor/floral/wearing_full_set"
       }
     }
   },

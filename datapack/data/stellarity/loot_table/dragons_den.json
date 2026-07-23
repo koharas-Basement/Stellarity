@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:end_crystal",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 4,
               "add": false
             }
@@ -23,10 +23,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 5
               },
@@ -42,10 +43,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 5
               },
@@ -61,10 +63,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 5
               },
@@ -76,6 +79,7 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 1,
         "max": 2
       },
@@ -84,10 +88,11 @@
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               },
@@ -99,10 +104,11 @@
           "type": "minecraft:item",
           "name": "minecraft:crying_obsidian",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               },

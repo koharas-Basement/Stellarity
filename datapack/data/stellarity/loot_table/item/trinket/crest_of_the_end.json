@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_banner_pattern",
+              "type": "minecraft:set_banner_pattern",
               "patterns": [
                 {
                   "pattern": "minecraft:base",
@@ -46,7 +46,7 @@
               "append": false
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "stellarity:item": "crest_of_the_end"
@@ -66,7 +66,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "replace_all",
               "lore": [
                 "",
@@ -89,7 +89,7 @@
               ]
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",

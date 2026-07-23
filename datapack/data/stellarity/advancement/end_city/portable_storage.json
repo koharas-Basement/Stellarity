@@ -26,7 +26,6 @@
     "craft_shulker_box": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {},
         "items": [
           {
             "items": ["minecraft:shulker_box"]

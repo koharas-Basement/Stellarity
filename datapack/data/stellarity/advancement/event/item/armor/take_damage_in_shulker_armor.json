@@ -5,32 +5,36 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "equipment": {
-            "head": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_helmet"
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_helmet"
+                  }
                 }
-              }
-            },
-            "chest": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_chestplate"
+              },
+              "chest": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_chestplate"
+                  }
                 }
-              }
-            },
-            "legs": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_leggings"
+              },
+              "legs": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_leggings"
+                  }
                 }
-              }
-            },
-            "feet": {
-              "components": {
-                "minecraft:custom_data": {
-                  "stellarity:item": "shulker_boots"
+              },
+              "feet": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "stellarity:item": "shulker_boots"
+                  }
                 }
               }
             }

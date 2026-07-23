@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_horse_armor",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:armor",
@@ -41,7 +41,7 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "tooltip_display": {
                   "hidden_components": ["dyed_color"]

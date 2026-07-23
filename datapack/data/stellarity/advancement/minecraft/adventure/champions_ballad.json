@@ -28,27 +28,29 @@
     "play_jukebox_in_the_end": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "predicates": {
-                "minecraft:jukebox_playable": {}
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:jukebox_playable": {}
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:jukebox"
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "biomes": "stellarity:dragons_den"
               }
             }
-          },
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:jukebox",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "biomes": "stellarity:dragons_den"
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

@@ -7,9 +7,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:slime_ball",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "stellarity:goosh",
                                 "minecraft:custom_data": {
@@ -52,7 +52,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 [
                                     {

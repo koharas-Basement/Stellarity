@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 4,
         "max": 7
       },
@@ -12,10 +13,11 @@
           "type": "minecraft:item",
           "name": "minecraft:sugar",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -29,34 +31,34 @@
               "type": "minecraft:loot_table",
               "value": "stellarity:item/material/starlight_soot",
               "weight": 5,
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:set_count",
+                  "type": "minecraft:set_count",
                   "count": {
+                    "type": "minecraft:uniform",
                     "min": 2,
                     "max": 4
                   }
                 }
               ],
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biomes": [
-                      "stellarity:the_hallow"
-                    ]
-                  }
+              "condition": {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:the_hallow"
+                  ]
                 }
-              ]
+              }
             },
             {
               "type": "minecraft:item",
               "name": "minecraft:glowstone_dust",
               "weight": 5,
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:set_count",
+                  "type": "minecraft:set_count",
                   "count": {
+                    "type": "minecraft:uniform",
                     "min": 2,
                     "max": 4
                   }
@@ -69,9 +71,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:water"
             }
           ]
@@ -80,10 +82,11 @@
           "type": "minecraft:item",
           "name": "minecraft:blaze_powder",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -94,10 +97,11 @@
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -108,9 +112,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:strong_healing"
             }
           ]
@@ -124,10 +128,11 @@
           "type": "minecraft:item",
           "name": "minecraft:firework_rocket",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               },
@@ -139,10 +144,11 @@
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -154,10 +160,11 @@
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
           "weight": 6,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               },
@@ -169,10 +176,11 @@
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 4
               }
@@ -183,10 +191,11 @@
           "type": "minecraft:item",
           "name": "minecraft:paper",
           "weight": 8,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -203,20 +212,23 @@
           "value": "stellarity:item/trinket/duskberry"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5714
-        },
-        {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "biomes": [
-              "stellarity:the_hallow"
-            ]
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.5714
+          },
+          {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "stellarity:the_hallow"
+              ]
+            }
           }
-        }
-      ]
+        ]
+      }
     },
     {
       "rolls": 1,
@@ -226,12 +238,10 @@
           "name": "minecraft:spire_armor_trim_smithing_template"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.25
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.25
+      }
     }
   ]
 }

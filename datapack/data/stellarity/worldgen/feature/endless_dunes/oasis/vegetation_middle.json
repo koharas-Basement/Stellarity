@@ -1,68 +1,66 @@
 {
   "type": "minecraft:simple_block",
-  "config": {
-    "to_place": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "data": {
-            "Name": "minecraft:acacia_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "true",
-              "waterlogged": "false"
-            }
-          },
-          "weight": 2
+  "to_place": {
+    "type": "minecraft:weighted_state_provider",
+    "entries": [
+      {
+        "data": {
+          "Name": "minecraft:acacia_leaves",
+          "Properties": {
+            "distance": "7",
+            "persistent": "true",
+            "waterlogged": "false"
+          }
         },
-        {
-          "data": {
-            "Name": "minecraft:azalea_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "true",
-              "waterlogged": "false"
-            }
-          },
-          "weight": 2
+        "weight": 2
+      },
+      {
+        "data": {
+          "Name": "minecraft:azalea_leaves",
+          "Properties": {
+            "distance": "7",
+            "persistent": "true",
+            "waterlogged": "false"
+          }
         },
-        {
-          "data": {
-            "Name": "minecraft:orange_tulip"
-          },
-          "weight": 2
+        "weight": 2
+      },
+      {
+        "data": {
+          "Name": "minecraft:orange_tulip"
         },
-        {
-          "data": {
-            "Name": "minecraft:pink_tulip"
-          },
-          "weight": 2
+        "weight": 2
+      },
+      {
+        "data": {
+          "Name": "minecraft:pink_tulip"
         },
-        {
-          "data": {
-            "Name": "minecraft:white_tulip"
-          },
-          "weight": 2
+        "weight": 2
+      },
+      {
+        "data": {
+          "Name": "minecraft:white_tulip"
         },
-        {
-          "data": {
-            "Name": "minecraft:lilac",
-            "Properties": {
-              "half": "lower"
-            }
-          },
-          "weight": 2
+        "weight": 2
+      },
+      {
+        "data": {
+          "Name": "minecraft:lilac",
+          "Properties": {
+            "half": "lower"
+          }
         },
-        {
-          "data": {
-            "Name": "minecraft:pitcher_plant",
-            "Properties": {
-              "half": "lower"
-            }
-          },
-          "weight": 1
-        }
-      ]
-    }
+        "weight": 2
+      },
+      {
+        "data": {
+          "Name": "minecraft:pitcher_plant",
+          "Properties": {
+            "half": "lower"
+          }
+        },
+        "weight": 1
+      }
+    ]
   }
 }

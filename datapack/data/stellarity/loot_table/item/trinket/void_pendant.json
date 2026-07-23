@@ -6,9 +6,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_nugget",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "stellarity:void_pendant",
                                 "minecraft:custom_data": {
@@ -27,7 +27,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 "",
                                 {
