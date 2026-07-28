@@ -5,6 +5,7 @@
     "seed": 2137,
     "noise": {
       "base_octave": 1,
+      "octave_count": 5,
       "amplitude_modifiers": [
         0.9,
         1.1,
