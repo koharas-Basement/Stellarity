@@ -1,9 +1,7 @@
 {
   "type": "minecraft:spline",
   "spline": {
-    "coordinate": {
-      "type": "minecraft:end_outer_islands"
-    },
+    "coordinate": "minecraft:end/islands",
     "points": [
       {
         "location": -0.5,
