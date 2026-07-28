@@ -4,8 +4,8 @@
     "type": "minecraft:noise_provider",
     "seed": 12345,
     "noise": {
-      "firstOctave": 1,
-      "amplitudes": [
+      "base_octave": 1,
+      "amplitude_modifiers": [
         1,
         1
       ]

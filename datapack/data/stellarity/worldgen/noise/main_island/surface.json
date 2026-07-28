@@ -1,6 +1,6 @@
 {
-  "firstOctave": -3,
-  "amplitudes": [
+  "base_octave": -3,
+  "amplitude_modifiers": [
     1,
     1,
     1,

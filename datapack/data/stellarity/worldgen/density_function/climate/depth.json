@@ -3,9 +3,10 @@
   "input": {
     "type": "minecraft:range_choice",
     "input": {
-      "type": "minecraft:y_clamped_gradient",
-      "from_y": 0,
-      "to_y": 256,
+      "type": "minecraft:gradient",
+      "axis": "y",
+      "from_coordinate": 0,
+      "to_coordinate": 256,
       "from_value": 0,
       "to_value": 256
     },
@@ -15,9 +16,10 @@
     "when_out_of_range": {
       "type": "minecraft:mul",
       "left": {
-        "type": "minecraft:y_clamped_gradient",
-        "from_y": 24,
-        "to_y": 256,
+        "type": "minecraft:gradient",
+        "axis": "y",
+        "from_coordinate": 24,
+        "to_coordinate": 256,
         "from_value": -2,
         "to_value": 2
       },

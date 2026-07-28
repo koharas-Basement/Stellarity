@@ -10,11 +10,12 @@
         "right": {
           "type": "mul",
           "left": {
-            "type": "y_clamped_gradient",
+            "type": "minecraft:gradient",
+            "axis": "y",
             "from_value": 1,
             "to_value": 0,
-            "from_y": 45,
-            "to_y": 65
+            "from_coordinate": 45,
+            "to_coordinate": 65
           },
           "right": {
             "type": "add",
@@ -25,11 +26,12 @@
               "right": {
                 "type": "mul",
                 "left": {
-                  "type": "y_clamped_gradient",
+                  "type": "minecraft:gradient",
+                  "axis": "y",
                   "from_value": 0,
                   "to_value": 1,
-                  "from_y": 2,
-                  "to_y": 26
+                  "from_coordinate": 2,
+                  "to_coordinate": 26
                 },
                 "right": {
                   "type": "add",

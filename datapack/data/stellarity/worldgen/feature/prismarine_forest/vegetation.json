@@ -4,8 +4,8 @@
     "type": "minecraft:dual_noise_provider",
     "seed": 14112006,
     "noise": {
-      "firstOctave": -2,
-      "amplitudes": [
+      "base_octave": -2,
+      "amplitude_modifiers": [
         1,
         1,
         1
@@ -17,8 +17,8 @@
       "max_inclusive": 1
     },
     "slow_noise": {
-      "firstOctave": -3,
-      "amplitudes": [
+      "base_octave": -3,
+      "amplitude_modifiers": [
         1,
         1,
         1

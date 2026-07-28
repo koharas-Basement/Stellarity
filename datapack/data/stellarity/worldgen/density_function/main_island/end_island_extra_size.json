@@ -3,7 +3,7 @@
   "input": {
     "type": "add",
     "left": {
-      "type": "end_islands"
+      "type": "minecraft:end_outer_islands"
     },
     "right": 0.3
   }
