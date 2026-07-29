@@ -19,7 +19,7 @@
   "default_clock": "minecraft:the_end",
   "skybox": "end",
   "has_fixed_time": true,
-  "has_skylight": false,
+  "has_skylight": true,
   "has_ceiling": false,
   "timelines": "#minecraft:in_end",
   "coordinate_scale": 1,
