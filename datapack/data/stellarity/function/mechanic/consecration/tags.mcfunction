@@ -18,6 +18,9 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dark_o
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:mangrove_leaves"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.leaves"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:azalea_leaves"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.leaves"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:flowering_azalea_leaves"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.leaves"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:red_poplar_leaves"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.leaves"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:orange_poplar_leaves"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.leaves"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:yellow_poplar_leaves"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.leaves"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:oak_sapling"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sapling"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:pale_oak_sapling"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sapling"
@@ -26,6 +29,7 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:spruce
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:jungle_sapling"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sapling"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:acacia_sapling"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sapling"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dark_oak_sapling"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sapling"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:poplar_sapling"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sapling"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dead_bush"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.dead_bush"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:wither_rose"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.wither_rose"
@@ -43,6 +47,7 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:jungle
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dark_oak_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:acacia_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:mangrove_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:poplar_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.logs"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_oak_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_pale_oak_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_logs"
@@ -52,6 +57,7 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripp
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_dark_oak_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_acacia_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_logs"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_mangrove_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_logs"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_poplar_log"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_logs"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:oak_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.woods"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:pale_oak_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.woods"
@@ -61,6 +67,7 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:jungle
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:dark_oak_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.woods"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:acacia_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.woods"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:mangrove_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.woods"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:poplar_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.woods"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_oak_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_pale_oak_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
@@ -70,6 +77,7 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripp
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_dark_oak_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_acacia_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_mangrove_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:stripped_poplar_wood"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.stripped_woods"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_ingot"}}} run data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.iron_ingot"
 
