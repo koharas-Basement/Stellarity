@@ -6,3 +6,4 @@ function stellarity:mechanic/altar_of_the_accursed/crafting/input/main
 
 execute if score @s stellarity.misc matches 1.. run \
 function stellarity:mechanic/altar_of_the_accursed/crafting/checks
+

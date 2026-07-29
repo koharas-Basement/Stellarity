@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ minecraft:end_portal_frame run function stellarity:mechanic/altar_of_the_accursed/drop_self
