@@ -36,10 +36,7 @@
       {
         "weight": 2,
         "data": {
-          "Name": "minecraft:acacia_leaves",
-          "Properties": {
-            "persistent": "true"
-          }
+          "Name": "minecraft:bush"
         }
       }
     ]

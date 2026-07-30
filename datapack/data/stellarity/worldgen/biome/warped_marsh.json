@@ -48,7 +48,7 @@
 				],
 				"creature": [
 					{
-						"type": "illusioner",
+						"type": "minecraft:frog",
 						"count": {
 							"type": "minecraft:uniform",
 							"min_inclusive": 1,
@@ -58,8 +58,7 @@
 					}
 				]
 			}
-		},
-		"gameplay/creature_world_gen_spawn_probability": 0
+		}
 	},
 	"effects": {
 		"water_color": 10672615,

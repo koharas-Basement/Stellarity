@@ -94,19 +94,19 @@
         "type": "minecraft:weighted_state_provider",
         "entries": [
           {
-            "weight": 1,
+            "weight": 4,
             "data": {
               "Name": "minecraft:nether_sprouts"
             }
           },
           {
-            "weight": 5,
+            "weight": 8,
             "data": {
               "Name": "minecraft:warped_roots"
             }
           },
           {
-            "weight": 3,
+            "weight": 6,
             "data": {
               "Name": "minecraft:tall_grass",
               "Properties": {
@@ -115,9 +115,15 @@
             }
           },
           {
-            "weight": 2,
+            "weight": 3,
             "data": {
               "Name": "minecraft:short_grass"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:firefly_bush"
             }
           }
         ]

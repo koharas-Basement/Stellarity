@@ -7,6 +7,28 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:grass_block",
+              "minecraft:amethyst_block",
+              "minecraft:diorite",
+              "minecraft:calcite"
+            ]
+          }
+        ]
+      }
     }
   ]
 }

@@ -15,7 +15,7 @@
 	"ground_state": {
 		"type": "minecraft:simple_state_provider",
 		"state": {
-			"Name": "minecraft:nether_wart_block"
+			"Name": "minecraft:cinnabar"
 		}
 	},
 	"vegetation_feature": "stellarity:nothing"
