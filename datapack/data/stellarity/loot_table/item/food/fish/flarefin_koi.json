@@ -39,6 +39,10 @@
                       ]
                     }
                   ]
+                },
+                "minecraft:cooking_fuel": {
+                  "burn_time": 400,
+                  "speed_multiplier": 0
                 }
               }
             },
