@@ -1,4 +1,4 @@
-execute store result score #random stellarity.misc run random value 1..96
+execute store result score #random stellarity.misc run random value 1..88
 
 execute if score #random stellarity.misc matches 1 run \
 data modify storage stellarity:temp motd set value "§e§oHas stuff beyond the ending!"
@@ -176,17 +176,3 @@ execute if score #random stellarity.misc matches 87 run \
 data modify storage stellarity:temp motd set value "§e§oalso try §d§oA Distant Journey§e§o!"
 execute if score #random stellarity.misc matches 88 run \
 data modify storage stellarity:temp motd set value "§e§cP§6r§ei§2§as§9m§3a§bt§5i§dc§e!"
-execute if score #random stellarity.misc matches 89 run \
-data modify storage stellarity:temp motd set value "§e§oDeveloped by kohara!"
-execute if score #random stellarity.misc matches 90 run \
-data modify storage stellarity:temp motd set value "§e§oDeveloped by coder2195!"
-execute if score #random stellarity.misc matches 91 run \
-data modify storage stellarity:temp motd set value "§e§oDeveloped by BananaKingXO!"
-execute if score #random stellarity.misc matches 92 run \
-data modify storage stellarity:temp motd set value "§e§oTextures by Alligator_Gamer!"
-execute if score #random stellarity.misc matches 93 run \
-data modify storage stellarity:temp motd set value "§e§oTextures by Midas!"
-execute if score #random stellarity.misc matches 94 run \
-data modify storage stellarity:temp motd set value "§e§oTextures by WildPlacedPixel!"
-execute if score #random stellarity.misc matches 95 run \
-data modify storage stellarity:temp motd set value "§e§oDeveloped by voided_ptr!"
