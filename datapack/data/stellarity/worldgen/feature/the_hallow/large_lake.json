@@ -3,8 +3,8 @@
   "fluid": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:water",
-      "Properties": {
+      "id": "minecraft:water",
+      "properties": {
         "level": "0"
       }
     }
@@ -12,7 +12,7 @@
   "barrier": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:calcite"
+      "id": "minecraft:calcite"
     }
   },
   "can_place_feature": {

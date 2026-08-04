@@ -3,13 +3,13 @@
     "fluid": {
         "type": "minecraft:simple_state_provider",
         "state": {
-            "Name": "minecraft:ice"
+            "id": "minecraft:ice"
         }
     },
     "barrier": {
         "type": "minecraft:simple_state_provider",
         "state": {
-            "Name": "minecraft:calcite"
+            "id": "minecraft:calcite"
         }
     },
     "can_place_feature": {

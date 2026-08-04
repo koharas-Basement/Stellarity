@@ -10,12 +10,12 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
-              "Name": "minecraft:obsidian"
+              "id": "minecraft:obsidian"
             },
             "probability": 0.076
           },
           "output_state": {
-            "Name": "minecraft:crying_obsidian"
+            "id": "minecraft:crying_obsidian"
           }
         }
       ]

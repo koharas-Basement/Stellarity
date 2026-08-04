@@ -17,13 +17,13 @@
 					"below_trunk_provider": {
 						"type": "minecraft:simple_state_provider",
 						"state": {
-							"Name": "minecraft:cherry_wood"
+							"id": "minecraft:cherry_wood"
 						}
 					},
 					"trunk_provider": {
 						"type": "minecraft:simple_state_provider",
 						"state": {
-							"Name": "minecraft:cherry_wood"
+							"id": "minecraft:cherry_wood"
 						}
 					},
 					"foliage_provider": {
@@ -32,13 +32,13 @@
 							{
 								"weight": 7,
 								"data": {
-									"Name": "minecraft:rooted_dirt"
+									"id": "minecraft:rooted_dirt"
 								}
 							},
 							{
 								"weight": 4,
 								"data": {
-									"Name": "minecraft:coarse_dirt"
+									"id": "minecraft:coarse_dirt"
 								}
 							}
 						]
@@ -73,8 +73,8 @@
 							"block_provider": {
 								"type": "minecraft:simple_state_provider",
 								"state": {
-									"Name": "minecraft:acacia_leaves",
-									"Properties": {
+									"id": "minecraft:acacia_leaves",
+									"properties": {
 										"distance": "1",
 										"persistent": "true",
 										"waterlogged": "false"

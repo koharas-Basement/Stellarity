@@ -7,8 +7,8 @@
         {
           "weight": 30,
           "data": {
-            "Name": "minecraft:air",
-            "Properties": {}
+            "id": "minecraft:air",
+            "properties": {}
           }
         }
       ]
@@ -19,13 +19,13 @@
         {
           "weight": 35,
           "data": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:crying_obsidian"
+            "id": "minecraft:crying_obsidian"
           }
         }
       ]
@@ -36,13 +36,13 @@
         {
           "weight": 2,
           "data": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:crying_obsidian"
+            "id": "minecraft:crying_obsidian"
           }
         }
       ]
@@ -53,13 +53,13 @@
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:crying_obsidian"
+            "id": "minecraft:crying_obsidian"
           }
         }
       ]
@@ -70,20 +70,20 @@
         {
           "weight": 4,
           "data": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:crying_obsidian"
+            "id": "minecraft:crying_obsidian"
           }
         }
       ]
     },
     "inner_placements": [
       {
-        "Name": "minecraft:crying_obsidian"
+        "id": "minecraft:crying_obsidian"
       }
     ],
     "cannot_replace": "#minecraft:features_cannot_replace",

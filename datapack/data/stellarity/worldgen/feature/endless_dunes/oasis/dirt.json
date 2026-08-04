@@ -8,13 +8,13 @@
         {
           "weight": 3,
           "data": {
-            "Name": "minecraft:coarse_dirt"
+            "id": "minecraft:coarse_dirt"
           }
         },
         {
           "weight": 2,
           "data": {
-            "Name": "minecraft:rooted_dirt"
+            "id": "minecraft:rooted_dirt"
           }
         }
       ]

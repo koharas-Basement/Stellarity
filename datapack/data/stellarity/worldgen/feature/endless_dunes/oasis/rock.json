@@ -8,7 +8,7 @@
           "type": "minecraft:true"
         },
         "state": {
-          "Name": "minecraft:cobblestone"
+          "id": "minecraft:cobblestone"
         }
       },
       "placement": []
@@ -20,7 +20,7 @@
           "type": "minecraft:true"
         },
         "state": {
-          "Name": "minecraft:mossy_cobblestone"
+          "id": "minecraft:mossy_cobblestone"
         }
       },
       "placement": []

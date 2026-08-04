@@ -3,8 +3,8 @@
   "to_place": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:hanging_roots",
-      "Properties": {
+      "id": "minecraft:hanging_roots",
+      "properties": {
         "waterlogged": "false"
       }
     }

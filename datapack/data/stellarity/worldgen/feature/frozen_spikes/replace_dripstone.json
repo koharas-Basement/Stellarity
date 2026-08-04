@@ -4,36 +4,36 @@
     "filling_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:packed_ice"
+        "id": "minecraft:packed_ice"
       }
     },
     "inner_layer_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:packed_ice"
+        "id": "minecraft:packed_ice"
       }
     },
     "alternate_inner_layer_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:packed_ice"
+        "id": "minecraft:packed_ice"
       }
     },
     "middle_layer_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:packed_ice"
+        "id": "minecraft:packed_ice"
       }
     },
     "outer_layer_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:packed_ice"
+        "id": "minecraft:packed_ice"
       }
     },
     "inner_placements": [
       {
-        "Name": "minecraft:packed_ice"
+        "id": "minecraft:packed_ice"
       }
     ],
     "cannot_replace": "#stellarity:_worldgen/frozen_spikes/everything_but_dripstone",

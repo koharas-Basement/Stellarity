@@ -18,7 +18,7 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:ice"
+              "id": "minecraft:ice"
             }
           }
         },
@@ -31,8 +31,8 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:spruce_fence",
-              "Properties": {
+              "id": "minecraft:spruce_fence",
+              "properties": {
                 "east": "false",
                 "north": "false",
                 "waterlogged": "false",
@@ -54,8 +54,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:oak_leaves",
-                  "Properties": {
+                  "id": "minecraft:oak_leaves",
+                  "properties": {
                     "distance": "1",
                     "persistent": "true",
                     "waterlogged": "false"
@@ -87,7 +87,7 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:ice"
+              "id": "minecraft:ice"
             }
           }
         },
@@ -100,8 +100,8 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:dark_oak_fence",
-              "Properties": {
+              "id": "minecraft:dark_oak_fence",
+              "properties": {
                 "east": "false",
                 "north": "false",
                 "waterlogged": "false",
@@ -123,8 +123,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:mangrove_leaves",
-                  "Properties": {
+                  "id": "minecraft:mangrove_leaves",
+                  "properties": {
                     "distance": "1",
                     "persistent": "true",
                     "waterlogged": "false"

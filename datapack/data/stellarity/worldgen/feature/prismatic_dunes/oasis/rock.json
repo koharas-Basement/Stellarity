@@ -11,7 +11,7 @@
 							"feature": {
 								"type": "minecraft:block_blob",
 								"state": {
-									"Name": "minecraft:amethyst_block"
+									"id": "minecraft:amethyst_block"
 								},
 								"can_place_on": {
 									"type": "minecraft:true"
@@ -23,7 +23,7 @@
 							"feature": {
 								"type": "minecraft:block_blob",
 								"state": {
-									"Name": "minecraft:budding_amethyst"
+									"id": "minecraft:budding_amethyst"
 								},
 								"can_place_on": {
 									"type": "minecraft:true"

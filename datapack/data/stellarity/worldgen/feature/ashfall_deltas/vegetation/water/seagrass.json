@@ -6,8 +6,8 @@
       {
         "weight": 2,
         "data": {
-          "Name": "minecraft:sea_pickle",
-          "Properties": {
+          "id": "minecraft:sea_pickle",
+          "properties": {
             "pickles": "2",
             "waterlogged": "true"
           }
@@ -16,8 +16,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:sea_pickle",
-          "Properties": {
+          "id": "minecraft:sea_pickle",
+          "properties": {
             "pickles": "1",
             "waterlogged": "true"
           }
@@ -26,7 +26,7 @@
       {
         "weight": 100,
         "data": {
-          "Name": "minecraft:seagrass"
+          "id": "minecraft:seagrass"
         }
       }
     ]

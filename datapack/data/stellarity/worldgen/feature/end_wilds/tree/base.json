@@ -10,8 +10,8 @@
   "below_trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:oak_log",
-      "Properties": {
+      "id": "minecraft:oak_log",
+      "properties": {
         "axis": "y"
       }
     }
@@ -19,8 +19,8 @@
   "trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:oak_wood",
-      "Properties": {
+      "id": "minecraft:oak_wood",
+      "properties": {
         "axis": "y"
       }
     }
@@ -28,7 +28,7 @@
   "foliage_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:air"
+      "id": "minecraft:air"
     }
   },
   "root_placer": {
@@ -36,8 +36,8 @@
     "root_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_wood",
-        "Properties": {
+        "id": "minecraft:oak_wood",
+        "properties": {
           "axis": "y"
         }
       }
@@ -51,7 +51,7 @@
       "above_root_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:oak_wood"
+          "id": "minecraft:oak_wood"
         }
       },
       "above_root_placement_chance": 0.25
@@ -65,7 +65,7 @@
       "muddy_roots_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:cobblestone"
+          "id": "minecraft:cobblestone"
         }
       }
     }
@@ -90,8 +90,8 @@
         "entries": [
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "north",
                 "segment_amount": "1"
               }
@@ -100,8 +100,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "east",
                 "segment_amount": "1"
               }
@@ -110,8 +110,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "south",
                 "segment_amount": "1"
               }
@@ -120,8 +120,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "west",
                 "segment_amount": "1"
               }
@@ -130,8 +130,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "north",
                 "segment_amount": "2"
               }
@@ -140,8 +140,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "east",
                 "segment_amount": "2"
               }
@@ -150,8 +150,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "south",
                 "segment_amount": "2"
               }
@@ -160,8 +160,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "west",
                 "segment_amount": "2"
               }
@@ -170,8 +170,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "north",
                 "segment_amount": "3"
               }
@@ -180,8 +180,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "east",
                 "segment_amount": "3"
               }
@@ -190,8 +190,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "south",
                 "segment_amount": "3"
               }
@@ -200,8 +200,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "west",
                 "segment_amount": "3"
               }
@@ -210,8 +210,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "north",
                 "segment_amount": "4"
               }
@@ -220,8 +220,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "east",
                 "segment_amount": "4"
               }
@@ -230,8 +230,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "south",
                 "segment_amount": "4"
               }
@@ -240,8 +240,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:leaf_litter",
-              "Properties": {
+              "id": "minecraft:leaf_litter",
+              "properties": {
                 "facing": "west",
                 "segment_amount": "4"
               }

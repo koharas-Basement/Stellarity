@@ -6,20 +6,20 @@
       {
         "weight": 12,
         "data": {
-          "Name": "minecraft:tall_grass"
+          "id": "minecraft:tall_grass"
         }
       },
       {
         "weight": 50,
         "data": {
-          "Name": "minecraft:short_grass"
+          "id": "minecraft:short_grass"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "north",
             "flower_amount": "1"
           }
@@ -28,8 +28,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "east",
             "flower_amount": "1"
           }
@@ -38,8 +38,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "south",
             "flower_amount": "1"
           }
@@ -48,8 +48,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "west",
             "flower_amount": "1"
           }
@@ -58,8 +58,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "north",
             "flower_amount": "2"
           }
@@ -68,8 +68,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "east",
             "flower_amount": "2"
           }
@@ -78,8 +78,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "south",
             "flower_amount": "2"
           }
@@ -88,8 +88,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "west",
             "flower_amount": "2"
           }
@@ -98,8 +98,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "north",
             "flower_amount": "3"
           }
@@ -108,8 +108,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "east",
             "flower_amount": "3"
           }
@@ -118,8 +118,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "south",
             "flower_amount": "3"
           }
@@ -128,8 +128,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "west",
             "flower_amount": "3"
           }
@@ -138,8 +138,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "north",
             "flower_amount": "4"
           }
@@ -148,8 +148,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "east",
             "flower_amount": "4"
           }
@@ -158,8 +158,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "south",
             "flower_amount": "4"
           }
@@ -168,8 +168,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:pink_petals",
-          "Properties": {
+          "id": "minecraft:pink_petals",
+          "properties": {
             "facing": "west",
             "flower_amount": "4"
           }
@@ -178,8 +178,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "north",
             "flower_amount": "1"
           }
@@ -188,8 +188,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "east",
             "flower_amount": "1"
           }
@@ -198,8 +198,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "south",
             "flower_amount": "1"
           }
@@ -208,8 +208,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "west",
             "flower_amount": "1"
           }
@@ -218,8 +218,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "north",
             "flower_amount": "2"
           }
@@ -228,8 +228,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "east",
             "flower_amount": "2"
           }
@@ -238,8 +238,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "south",
             "flower_amount": "2"
           }
@@ -248,8 +248,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "west",
             "flower_amount": "2"
           }
@@ -258,8 +258,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "north",
             "flower_amount": "3"
           }
@@ -268,8 +268,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "east",
             "flower_amount": "3"
           }
@@ -278,8 +278,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "south",
             "flower_amount": "3"
           }
@@ -288,8 +288,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "west",
             "flower_amount": "3"
           }
@@ -298,8 +298,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "north",
             "flower_amount": "4"
           }
@@ -308,8 +308,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "east",
             "flower_amount": "4"
           }
@@ -318,8 +318,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "south",
             "flower_amount": "4"
           }
@@ -328,8 +328,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:wildflowers",
-          "Properties": {
+          "id": "minecraft:wildflowers",
+          "properties": {
             "facing": "west",
             "flower_amount": "4"
           }

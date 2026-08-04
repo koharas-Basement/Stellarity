@@ -20,17 +20,17 @@
             "scale": 1,
             "states": [
               {
-                "Name": "minecraft:blue_orchid"
+                "id": "minecraft:blue_orchid"
               },
               {
-                "Name": "minecraft:blue_orchid"
+                "id": "minecraft:blue_orchid"
               },
               {
-                "Name": "minecraft:blue_orchid"
+                "id": "minecraft:blue_orchid"
               },
               {
-                "Name": "minecraft:pitcher_plant",
-                "Properties": {
+                "id": "minecraft:pitcher_plant",
+                "properties": {
                   "half": "lower"
                 }
               }
@@ -71,7 +71,7 @@
                 {
                   "type": "minecraft:would_survive",
                   "state": {
-                    "Name": "minecraft:short_grass"
+                    "id": "minecraft:short_grass"
                   }
                 },
                 {
@@ -96,20 +96,20 @@
           {
             "weight": 4,
             "data": {
-              "Name": "minecraft:nether_sprouts"
+              "id": "minecraft:nether_sprouts"
             }
           },
           {
             "weight": 8,
             "data": {
-              "Name": "minecraft:warped_roots"
+              "id": "minecraft:warped_roots"
             }
           },
           {
             "weight": 6,
             "data": {
-              "Name": "minecraft:tall_grass",
-              "Properties": {
+              "id": "minecraft:tall_grass",
+              "properties": {
                 "half": "lower"
               }
             }
@@ -117,13 +117,13 @@
           {
             "weight": 3,
             "data": {
-              "Name": "minecraft:short_grass"
+              "id": "minecraft:short_grass"
             }
           },
           {
             "weight": 1,
             "data": {
-              "Name": "minecraft:firefly_bush"
+              "id": "minecraft:firefly_bush"
             }
           }
         ]
@@ -163,7 +163,7 @@
             {
               "type": "minecraft:would_survive",
               "state": {
-                "Name": "minecraft:short_grass"
+                "id": "minecraft:short_grass"
               }
             },
             {

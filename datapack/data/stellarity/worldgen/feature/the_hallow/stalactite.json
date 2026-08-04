@@ -15,7 +15,7 @@
   "ground_state": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:diorite"
+      "id": "minecraft:diorite"
     }
   },
   "vegetation_feature": {
@@ -44,7 +44,7 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:diorite"
+              "id": "minecraft:diorite"
             }
           }
         }

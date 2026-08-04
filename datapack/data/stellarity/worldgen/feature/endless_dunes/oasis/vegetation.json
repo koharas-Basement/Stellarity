@@ -6,8 +6,8 @@
   "ground_state": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:grass_block",
-      "Properties": {
+      "id": "minecraft:grass_block",
+      "properties": {
         "snowy": "false"
       }
     }
@@ -23,8 +23,8 @@
         "entries": [
           {
             "data": {
-              "Name": "minecraft:tall_grass",
-              "Properties": {
+              "id": "minecraft:tall_grass",
+              "properties": {
                 "half": "lower"
               }
             },
@@ -32,14 +32,14 @@
           },
           {
             "data": {
-              "Name": "minecraft:short_grass"
+              "id": "minecraft:short_grass"
             },
             "weight": 24
           },
           {
             "data": {
-              "Name": "minecraft:acacia_leaves",
-              "Properties": {
+              "id": "minecraft:acacia_leaves",
+              "properties": {
                 "distance": "7",
                 "persistent": "true",
                 "waterlogged": "false"
@@ -49,8 +49,8 @@
           },
           {
             "data": {
-              "Name": "minecraft:azalea_leaves",
-              "Properties": {
+              "id": "minecraft:azalea_leaves",
+              "properties": {
                 "distance": "7",
                 "persistent": "true",
                 "waterlogged": "false"

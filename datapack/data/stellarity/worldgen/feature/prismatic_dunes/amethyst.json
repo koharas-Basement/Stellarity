@@ -6,8 +6,8 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:amethyst_cluster",
-          "Properties": {
+          "id": "minecraft:amethyst_cluster",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -16,8 +16,8 @@
       {
         "weight": 2,
         "data": {
-          "Name": "minecraft:large_amethyst_bud",
-          "Properties": {
+          "id": "minecraft:large_amethyst_bud",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -26,8 +26,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:medium_amethyst_bud",
-          "Properties": {
+          "id": "minecraft:medium_amethyst_bud",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -36,8 +36,8 @@
       {
         "weight": 4,
         "data": {
-          "Name": "minecraft:small_amethyst_bud",
-          "Properties": {
+          "id": "minecraft:small_amethyst_bud",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }

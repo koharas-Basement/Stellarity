@@ -1,10 +1,10 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:red_sand"
+    "id": "minecraft:red_sand"
   },
   "rim": {
-    "Name": "minecraft:cinnabar"
+    "id": "minecraft:cinnabar"
   },
   "size": {
     "type": "minecraft:uniform",

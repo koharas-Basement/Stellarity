@@ -18,8 +18,8 @@
         {
           "weight": 8,
           "data": {
-            "Name": "minecraft:grass_block",
-            "Properties": {
+            "id": "minecraft:grass_block",
+            "properties": {
               "snowy": "false"
             }
           }
@@ -27,7 +27,7 @@
         {
           "weight": 2,
           "data": {
-            "Name": "minecraft:prismarine"
+            "id": "minecraft:prismarine"
           }
         }
       ]
@@ -41,8 +41,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:brain_coral",
-                  "Properties": {
+                  "id": "minecraft:brain_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -50,8 +50,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:brain_coral_fan",
-                  "Properties": {
+                  "id": "minecraft:brain_coral_fan",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -59,8 +59,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:bubble_coral",
-                  "Properties": {
+                  "id": "minecraft:bubble_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -68,8 +68,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:bubble_coral_fan",
-                  "Properties": {
+                  "id": "minecraft:bubble_coral_fan",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -77,8 +77,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:fire_coral",
-                  "Properties": {
+                  "id": "minecraft:fire_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -86,8 +86,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:fire_coral_fan",
-                  "Properties": {
+                  "id": "minecraft:fire_coral_fan",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -95,8 +95,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:horn_coral",
-                  "Properties": {
+                  "id": "minecraft:horn_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -104,8 +104,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:horn_coral_fan",
-                  "Properties": {
+                  "id": "minecraft:horn_coral_fan",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -113,8 +113,8 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:tube_coral",
-                  "Properties": {
+                  "id": "minecraft:tube_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -122,14 +122,14 @@
               {
                 "weight": 16,
                 "data": {
-                  "Name": "minecraft:seagrass"
+                  "id": "minecraft:seagrass"
                 }
               },
               {
                 "weight": 2,
                 "data": {
-                  "Name": "minecraft:tube_coral_fan",
-                  "Properties": {
+                  "id": "minecraft:tube_coral_fan",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -137,8 +137,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:sea_pickle",
-                  "Properties": {
+                  "id": "minecraft:sea_pickle",
+                  "properties": {
                     "pickles": "1",
                     "waterlogged": "false"
                   }
@@ -147,8 +147,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:sea_pickle",
-                  "Properties": {
+                  "id": "minecraft:sea_pickle",
+                  "properties": {
                     "pickles": "2",
                     "waterlogged": "false"
                   }
@@ -157,8 +157,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:sea_pickle",
-                  "Properties": {
+                  "id": "minecraft:sea_pickle",
+                  "properties": {
                     "pickles": "3",
                     "waterlogged": "false"
                   }
@@ -167,8 +167,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:sea_pickle",
-                  "Properties": {
+                  "id": "minecraft:sea_pickle",
+                  "properties": {
                     "pickles": "4",
                     "waterlogged": "false"
                   }

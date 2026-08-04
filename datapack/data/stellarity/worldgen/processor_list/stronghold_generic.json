@@ -4,7 +4,7 @@
       "processor_type": "minecraft:block_ignore",
       "blocks": [
         {
-          "Name": "minecraft:structure_void"
+          "id": "minecraft:structure_void"
         }
       ]
     },
@@ -21,7 +21,7 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -34,7 +34,7 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -47,7 +47,7 @@
             "probability": 0.5
           },
           "output_state": {
-            "Name": "minecraft:cobblestone"
+            "id": "minecraft:cobblestone"
           }
         },
         {
@@ -60,7 +60,7 @@
             "probability": 0.009
           },
           "output_state": {
-            "Name": "minecraft:mossy_stone_bricks"
+            "id": "minecraft:mossy_stone_bricks"
           }
         },
         {
@@ -73,7 +73,7 @@
             "probability": 0.11
           },
           "output_state": {
-            "Name": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
           }
         },
         {
@@ -86,7 +86,7 @@
             "probability": 0.01
           },
           "output_state": {
-            "Name": "minecraft:infested_stone_bricks"
+            "id": "minecraft:infested_stone_bricks"
           }
         },
         {
@@ -99,7 +99,7 @@
             "probability": 0.25
           },
           "output_state": {
-            "Name": "minecraft:polished_tuff"
+            "id": "minecraft:polished_tuff"
           }
         },
         {
@@ -112,7 +112,7 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -125,7 +125,7 @@
             "probability": 0.333
           },
           "output_state": {
-            "Name": "minecraft:magenta_carpet"
+            "id": "minecraft:magenta_carpet"
           }
         },
         {
@@ -135,8 +135,8 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
-              "Name": "minecraft:end_portal_frame",
-              "Properties": {
+              "id": "minecraft:end_portal_frame",
+              "properties": {
                 "facing": "east",
                 "eye": "false"
               }
@@ -144,8 +144,8 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:end_portal_frame",
-            "Properties": {
+            "id": "minecraft:end_portal_frame",
+            "properties": {
               "facing": "east",
               "eye": "true"
             }
@@ -158,8 +158,8 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
-              "Name": "minecraft:end_portal_frame",
-              "Properties": {
+              "id": "minecraft:end_portal_frame",
+              "properties": {
                 "facing": "west",
                 "eye": "false"
               }
@@ -167,8 +167,8 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:end_portal_frame",
-            "Properties": {
+            "id": "minecraft:end_portal_frame",
+            "properties": {
               "facing": "west",
               "eye": "true"
             }
@@ -181,8 +181,8 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
-              "Name": "minecraft:end_portal_frame",
-              "Properties": {
+              "id": "minecraft:end_portal_frame",
+              "properties": {
                 "facing": "north",
                 "eye": "false"
               }
@@ -190,8 +190,8 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:end_portal_frame",
-            "Properties": {
+            "id": "minecraft:end_portal_frame",
+            "properties": {
               "facing": "north",
               "eye": "true"
             }
@@ -204,8 +204,8 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
-              "Name": "minecraft:end_portal_frame",
-              "Properties": {
+              "id": "minecraft:end_portal_frame",
+              "properties": {
                 "facing": "south",
                 "eye": "false"
               }
@@ -213,8 +213,8 @@
             "probability": 0.1
           },
           "output_state": {
-            "Name": "minecraft:end_portal_frame",
-            "Properties": {
+            "id": "minecraft:end_portal_frame",
+            "properties": {
               "facing": "south",
               "eye": "true"
             }
@@ -230,7 +230,7 @@
             "probability": 0.15
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -243,7 +243,7 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -255,7 +255,7 @@
             "block": "minecraft:decorated_pot"
           },
           "output_state": {
-            "Name": "minecraft:decorated_pot"
+            "id": "minecraft:decorated_pot"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_loot",

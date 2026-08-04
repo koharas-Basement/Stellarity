@@ -61,7 +61,7 @@
           {
             "type": "minecraft:would_survive",
             "state": {
-              "Name": "minecraft:short_grass"
+              "id": "minecraft:short_grass"
             }
           }
         ]

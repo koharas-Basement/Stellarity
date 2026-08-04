@@ -9,7 +9,7 @@
         "block": "minecraft:blackstone"
       },
       "state": {
-        "Name": "minecraft:gilded_blackstone"
+        "id": "minecraft:gilded_blackstone"
       }
     }
   ]

@@ -6,14 +6,14 @@
   "below_trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:rooted_dirt"
+      "id": "minecraft:rooted_dirt"
     }
   },
   "trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:stripped_oak_log",
-      "Properties": {
+      "id": "minecraft:stripped_oak_log",
+      "properties": {
         "axis": "y"
       }
     }
@@ -24,13 +24,13 @@
       {
         "weight": 5,
         "data": {
-          "Name": "minecraft:light_blue_wool"
+          "id": "minecraft:light_blue_wool"
         }
       },
       {
         "weight": 2,
         "data": {
-          "Name": "minecraft:light_blue_stained_glass"
+          "id": "minecraft:light_blue_stained_glass"
         }
       }
     ]
@@ -70,8 +70,8 @@
       "block_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:ochre_froglight",
-          "Properties": {
+          "id": "minecraft:ochre_froglight",
+          "properties": {
             "axis": "y"
           }
         }

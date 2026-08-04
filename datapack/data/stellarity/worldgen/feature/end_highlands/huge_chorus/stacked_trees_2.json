@@ -19,8 +19,8 @@
   "ground_state": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:cherry_wood",
-      "Properties": {
+      "id": "minecraft:cherry_wood",
+      "properties": {
         "axis": "y"
       }
     }
@@ -41,8 +41,8 @@
               "below_trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:cherry_wood",
-                  "Properties": {
+                  "id": "minecraft:cherry_wood",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -50,8 +50,8 @@
               "trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:cherry_wood",
-                  "Properties": {
+                  "id": "minecraft:cherry_wood",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -59,8 +59,8 @@
               "foliage_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:acacia_leaves",
-                  "Properties": {
+                  "id": "minecraft:acacia_leaves",
+                  "properties": {
                     "distance": "1",
                     "persistent": "false",
                     "waterlogged": "false"
@@ -119,8 +119,8 @@
                   "block_provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:end_rod",
-                      "Properties": {
+                      "id": "minecraft:end_rod",
+                      "properties": {
                         "facing": "down"
                       }
                     }
@@ -153,8 +153,8 @@
               "below_trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:cherry_wood",
-                  "Properties": {
+                  "id": "minecraft:cherry_wood",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -162,8 +162,8 @@
               "trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:cherry_wood",
-                  "Properties": {
+                  "id": "minecraft:cherry_wood",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -171,8 +171,8 @@
               "foliage_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:cherry_wood",
-                  "Properties": {
+                  "id": "minecraft:cherry_wood",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -205,8 +205,8 @@
           "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:cherry_wood",
-              "Properties": {
+              "id": "minecraft:cherry_wood",
+              "properties": {
                 "axis": "y"
               }
             }
@@ -214,8 +214,8 @@
           "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:cherry_wood",
-              "Properties": {
+              "id": "minecraft:cherry_wood",
+              "properties": {
                 "axis": "y"
               }
             }
@@ -223,8 +223,8 @@
           "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:cherry_wood",
-              "Properties": {
+              "id": "minecraft:cherry_wood",
+              "properties": {
                 "axis": "y"
               }
             }

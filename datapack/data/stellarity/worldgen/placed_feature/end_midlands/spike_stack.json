@@ -7,13 +7,13 @@
         {
           "weight": 14,
           "data": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:crying_obsidian"
+            "id": "minecraft:crying_obsidian"
           }
         }
       ]

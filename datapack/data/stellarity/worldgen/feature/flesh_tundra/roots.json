@@ -6,13 +6,13 @@
       {
         "weight": 5,
         "data": {
-          "Name": "minecraft:crimson_roots"
+          "id": "minecraft:crimson_roots"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:crimson_fungus"
+          "id": "minecraft:crimson_fungus"
         }
       }
     ]

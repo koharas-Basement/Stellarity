@@ -1,10 +1,10 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:white_concrete_powder"
+    "id": "minecraft:white_concrete_powder"
   },
   "rim": {
-    "Name": "minecraft:calcite"
+    "id": "minecraft:calcite"
   },
   "size": {
     "type": "minecraft:uniform",

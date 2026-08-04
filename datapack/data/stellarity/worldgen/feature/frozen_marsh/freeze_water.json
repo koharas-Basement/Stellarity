@@ -9,7 +9,7 @@
         "block": "minecraft:water"
       },
       "state": {
-        "Name": "minecraft:ice"
+        "id": "minecraft:ice"
       }
     }
   ]

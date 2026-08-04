@@ -13,46 +13,46 @@
     "scale": 1,
     "states": [
       {
-        "Name": "minecraft:red_stained_glass"
+        "id": "minecraft:red_stained_glass"
       },
       {
-        "Name": "minecraft:red_stained_glass"
+        "id": "minecraft:red_stained_glass"
       },
       {
-        "Name": "minecraft:orange_stained_glass"
+        "id": "minecraft:orange_stained_glass"
       },
       {
-        "Name": "minecraft:orange_stained_glass"
+        "id": "minecraft:orange_stained_glass"
       },
       {
-        "Name": "minecraft:yellow_stained_glass"
+        "id": "minecraft:yellow_stained_glass"
       },
       {
-        "Name": "minecraft:yellow_stained_glass"
+        "id": "minecraft:yellow_stained_glass"
       },
       {
-        "Name": "minecraft:lime_stained_glass"
+        "id": "minecraft:lime_stained_glass"
       },
       {
-        "Name": "minecraft:green_stained_glass"
+        "id": "minecraft:green_stained_glass"
       },
       {
-        "Name": "minecraft:light_blue_stained_glass"
+        "id": "minecraft:light_blue_stained_glass"
       },
       {
-        "Name": "minecraft:light_blue_stained_glass"
+        "id": "minecraft:light_blue_stained_glass"
       },
       {
-        "Name": "minecraft:magenta_stained_glass"
+        "id": "minecraft:magenta_stained_glass"
       },
       {
-        "Name": "minecraft:magenta_stained_glass"
+        "id": "minecraft:magenta_stained_glass"
       },
       {
-        "Name": "minecraft:purple_stained_glass"
+        "id": "minecraft:purple_stained_glass"
       },
       {
-        "Name": "minecraft:purple_stained_glass"
+        "id": "minecraft:purple_stained_glass"
       }
     ]
   }

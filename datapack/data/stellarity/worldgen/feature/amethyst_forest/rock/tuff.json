@@ -1,7 +1,7 @@
 {
   "type": "minecraft:block_blob",
   "state": {
-    "Name": "minecraft:tuff"
+    "id": "minecraft:tuff"
   },
   "can_place_on": {
     "type": "minecraft:true"

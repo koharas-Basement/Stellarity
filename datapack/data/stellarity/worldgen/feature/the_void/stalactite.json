@@ -18,13 +18,13 @@
         {
           "weight": 8,
           "data": {
-            "Name": "minecraft:blackstone"
+            "id": "minecraft:blackstone"
           }
         },
         {
           "weight": 1,
           "data": {
-            "Name": "minecraft:polished_blackstone"
+            "id": "minecraft:polished_blackstone"
           }
         }
       ]
@@ -52,13 +52,13 @@
                   {
                     "weight": 8,
                     "data": {
-                      "Name": "minecraft:blackstone"
+                      "id": "minecraft:blackstone"
                     }
                   },
                   {
                     "weight": 1,
                     "data": {
-                      "Name": "minecraft:polished_blackstone"
+                      "id": "minecraft:polished_blackstone"
                     }
                   }
                 ]

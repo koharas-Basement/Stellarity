@@ -1,13 +1,13 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:grass_block",
-    "Properties": {
+    "id": "minecraft:grass_block",
+    "properties": {
       "snowy": "false"
     }
   },
   "rim": {
-    "Name": "minecraft:mud"
+    "id": "minecraft:mud"
   },
   "size": {
     "type": "minecraft:uniform",

@@ -9,7 +9,7 @@
         "block": "minecraft:end_stone"
       },
       "state": {
-        "Name": "minecraft:magma_block"
+        "id": "minecraft:magma_block"
       }
     },
     {
@@ -18,7 +18,7 @@
         "block": "minecraft:red_sand"
       },
       "state": {
-        "Name": "minecraft:magma_block"
+        "id": "minecraft:magma_block"
       }
     },
     {
@@ -27,7 +27,7 @@
         "block": "minecraft:basalt"
       },
       "state": {
-        "Name": "minecraft:magma_block"
+        "id": "minecraft:magma_block"
       }
     },
     {
@@ -36,7 +36,7 @@
         "block": "minecraft:smooth_basalt"
       },
       "state": {
-        "Name": "minecraft:magma_block"
+        "id": "minecraft:magma_block"
       }
     },
     {
@@ -45,7 +45,7 @@
         "block": "minecraft:blackstone"
       },
       "state": {
-        "Name": "minecraft:magma_block"
+        "id": "minecraft:magma_block"
       }
     }
   ]

@@ -1,13 +1,13 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:water",
-    "Properties": {
+    "id": "minecraft:water",
+    "properties": {
       "level": "0"
     }
   },
   "rim": {
-    "Name": "minecraft:mud"
+    "id": "minecraft:mud"
   },
   "size": {
     "type": "minecraft:uniform",

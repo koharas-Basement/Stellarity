@@ -28,7 +28,7 @@
 							{
 								"weight": 25,
 								"data": {
-									"Name": "minecraft:white_concrete_powder"
+									"id": "minecraft:white_concrete_powder"
 								}
 							}
 						]
@@ -61,7 +61,7 @@
 			"ground_state": {
 				"type": "minecraft:simple_state_provider",
 				"state": {
-					"Name": "minecraft:snow_block"
+					"id": "minecraft:snow_block"
 				}
 			},
 			"vegetation_feature": {

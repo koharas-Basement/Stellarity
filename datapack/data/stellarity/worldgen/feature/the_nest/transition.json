@@ -9,7 +9,7 @@
         "block": "minecraft:end_stone"
       },
       "state": {
-        "Name": "minecraft:cobbled_deepslate"
+        "id": "minecraft:cobbled_deepslate"
       }
     }
   ]

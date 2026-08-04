@@ -19,7 +19,7 @@
   "ground_state": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:smooth_basalt"
+      "id": "minecraft:smooth_basalt"
     }
   },
   "vegetation_feature": {
@@ -39,7 +39,7 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:smooth_basalt"
+              "id": "minecraft:smooth_basalt"
             }
           }
         }

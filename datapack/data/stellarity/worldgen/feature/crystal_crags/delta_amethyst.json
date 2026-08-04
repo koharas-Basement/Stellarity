@@ -1,10 +1,10 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:amethyst_block"
+    "id": "minecraft:amethyst_block"
   },
   "rim": {
-    "Name": "minecraft:smooth_basalt"
+    "id": "minecraft:smooth_basalt"
   },
   "size": {
     "type": "minecraft:uniform",

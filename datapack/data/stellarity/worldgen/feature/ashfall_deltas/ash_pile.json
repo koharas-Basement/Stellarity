@@ -3,7 +3,7 @@
   "state_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:light_gray_concrete_powder"
+      "id": "minecraft:light_gray_concrete_powder"
     }
   }
 }

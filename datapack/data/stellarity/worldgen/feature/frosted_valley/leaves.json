@@ -3,8 +3,8 @@
   "to_place": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:acacia_leaves",
-      "Properties": {
+      "id": "minecraft:acacia_leaves",
+      "properties": {
         "distance": "1",
         "persistent": "true",
         "waterlogged": "false"

@@ -6,14 +6,14 @@
       {
         "weight": 88,
         "data": {
-          "Name": "minecraft:short_grass"
+          "id": "minecraft:short_grass"
         }
       },
       {
         "weight": 23,
         "data": {
-          "Name": "minecraft:tall_grass",
-          "Properties": {
+          "id": "minecraft:tall_grass",
+          "properties": {
             "half": "lower"
           }
         }
@@ -21,8 +21,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:amethyst_cluster",
-          "Properties": {
+          "id": "minecraft:amethyst_cluster",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -31,8 +31,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:small_amethyst_bud",
-          "Properties": {
+          "id": "minecraft:small_amethyst_bud",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -41,8 +41,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:medium_amethyst_bud",
-          "Properties": {
+          "id": "minecraft:medium_amethyst_bud",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -51,8 +51,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:large_amethyst_bud",
-          "Properties": {
+          "id": "minecraft:large_amethyst_bud",
+          "properties": {
             "facing": "up",
             "waterlogged": "false"
           }
@@ -61,25 +61,25 @@
       {
         "weight": 8,
         "data": {
-          "Name": "minecraft:bush"
+          "id": "minecraft:bush"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:dead_bush"
+          "id": "minecraft:dead_bush"
         }
       },
       {
         "weight": 19,
         "data": {
-          "Name": "minecraft:warped_roots"
+          "id": "minecraft:warped_roots"
         }
       },
       {
         "weight": 18,
         "data": {
-          "Name": "minecraft:nether_sprouts"
+          "id": "minecraft:nether_sprouts"
         }
       }
     ]

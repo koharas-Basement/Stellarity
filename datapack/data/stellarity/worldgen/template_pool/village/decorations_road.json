@@ -113,8 +113,8 @@
                     "probability": 0.3
                   },
                   "output_state": {
-                    "Name": "minecraft:flowering_azalea_leaves",
-                    "Properties": {
+                    "id": "minecraft:flowering_azalea_leaves",
+                    "properties": {
                       "distance": "7",
                       "waterlogged": "false",
                       "persistent": "true"
@@ -179,8 +179,8 @@
                     "probability": 0.3
                   },
                   "output_state": {
-                    "Name": "minecraft:flowering_azalea_leaves",
-                    "Properties": {
+                    "id": "minecraft:flowering_azalea_leaves",
+                    "properties": {
                       "distance": "7",
                       "waterlogged": "false",
                       "persistent": "true"

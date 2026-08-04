@@ -10,14 +10,14 @@
   "below_trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:dirt"
+      "id": "minecraft:dirt"
     }
   },
   "trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:stripped_jungle_log",
-      "Properties": {
+      "id": "minecraft:stripped_jungle_log",
+      "properties": {
         "axis": "y"
       }
     }
@@ -28,13 +28,13 @@
       {
         "weight": 5,
         "data": {
-          "Name": "minecraft:white_wool"
+          "id": "minecraft:white_wool"
         }
       },
       {
         "weight": 2,
         "data": {
-          "Name": "minecraft:white_stained_glass"
+          "id": "minecraft:white_stained_glass"
         }
       }
     ]

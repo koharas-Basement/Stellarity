@@ -29,31 +29,31 @@
     "slow_scale": 1,
     "states": [
       {
-        "Name": "minecraft:bush"
+        "id": "minecraft:bush"
       },
       {
-        "Name": "minecraft:dead_bush"
+        "id": "minecraft:dead_bush"
       },
       {
-        "Name": "minecraft:wither_rose"
+        "id": "minecraft:wither_rose"
       },
       {
-        "Name": "minecraft:wither_rose"
+        "id": "minecraft:wither_rose"
       },
       {
-        "Name": "minecraft:closed_eyeblossom"
+        "id": "minecraft:closed_eyeblossom"
       },
       {
-        "Name": "minecraft:dead_bush"
+        "id": "minecraft:dead_bush"
       },
       {
-        "Name": "minecraft:bush"
+        "id": "minecraft:bush"
       },
       {
-        "Name": "minecraft:wither_rose"
+        "id": "minecraft:wither_rose"
       },
       {
-        "Name": "minecraft:closed_eyeblossom"
+        "id": "minecraft:closed_eyeblossom"
       }
     ]
   }

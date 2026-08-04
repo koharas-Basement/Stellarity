@@ -18,14 +18,14 @@
 			{
 				"weight": 12,
 				"data": {
-					"Name": "minecraft:white_concrete_powder"
+					"id": "minecraft:white_concrete_powder"
 				}
 			},
 			{
 				"weight": 100,
 				"data": {
-					"Name": "minecraft:snow_block",
-					"Properties": {}
+					"id": "minecraft:snow_block",
+					"properties": {}
 				}
 			}
 		]

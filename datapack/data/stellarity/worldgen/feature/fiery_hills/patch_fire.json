@@ -3,8 +3,8 @@
   "to_place": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:fire",
-      "Properties": {
+      "id": "minecraft:fire",
+      "properties": {
         "west": "false",
         "up": "false",
         "south": "false",

@@ -29,25 +29,25 @@
     "slow_scale": 1,
     "states": [
       {
-        "Name": "minecraft:pitcher_plant"
+        "id": "minecraft:pitcher_plant"
       },
       {
-        "Name": "minecraft:azure_bluet"
+        "id": "minecraft:azure_bluet"
       },
       {
-        "Name": "minecraft:cornflower"
+        "id": "minecraft:cornflower"
       },
       {
-        "Name": "minecraft:oxeye_daisy"
+        "id": "minecraft:oxeye_daisy"
       },
       {
-        "Name": "minecraft:lily_of_the_valley"
+        "id": "minecraft:lily_of_the_valley"
       },
       {
-        "Name": "minecraft:white_tulip"
+        "id": "minecraft:white_tulip"
       },
       {
-        "Name": "minecraft:blue_orchid"
+        "id": "minecraft:blue_orchid"
       }
     ]
   }

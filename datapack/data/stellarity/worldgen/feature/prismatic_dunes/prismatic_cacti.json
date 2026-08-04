@@ -14,13 +14,13 @@
   "root_state_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:diorite"
+      "id": "minecraft:diorite"
     }
   },
   "hanging_root_state_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:air"
+      "id": "minecraft:air"
     }
   },
   "allowed_tree_position": {

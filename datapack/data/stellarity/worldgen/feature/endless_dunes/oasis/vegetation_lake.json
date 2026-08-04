@@ -17,8 +17,8 @@
               "provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:grass_block",
-                  "Properties": {
+                  "id": "minecraft:grass_block",
+                  "properties": {
                     "snowy": "false"
                   }
                 }
@@ -36,8 +36,8 @@
                 "source": {
                   "type": "minecraft:simple_state_provider",
                   "state": {
-                    "Name": "minecraft:sugar_cane",
-                    "Properties": {
+                    "id": "minecraft:sugar_cane",
+                    "properties": {
                       "age": "0"
                     }
                   }
@@ -80,8 +80,8 @@
               "provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:azalea_leaves",
-                  "Properties": {
+                  "id": "minecraft:azalea_leaves",
+                  "properties": {
                     "distance": "7",
                     "persistent": "true",
                     "waterlogged": "false"
@@ -105,14 +105,14 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:seagrass"
+                  "id": "minecraft:seagrass"
                 },
                 "weight": 5
               },
               {
                 "data": {
-                  "Name": "minecraft:azalea_leaves",
-                  "Properties": {
+                  "id": "minecraft:azalea_leaves",
+                  "properties": {
                     "distance": "7",
                     "persistent": "true",
                     "waterlogged": "false"
@@ -122,8 +122,8 @@
               },
               {
                 "data": {
-                  "Name": "minecraft:flowering_azalea_leaves",
-                  "Properties": {
+                  "id": "minecraft:flowering_azalea_leaves",
+                  "properties": {
                     "distance": "7",
                     "persistent": "true",
                     "waterlogged": "false"
@@ -133,8 +133,8 @@
               },
               {
                 "data": {
-                  "Name": "minecraft:small_dripleaf",
-                  "Properties": {
+                  "id": "minecraft:small_dripleaf",
+                  "properties": {
                     "facing": "north",
                     "half": "lower",
                     "waterlogged": "false"
@@ -144,8 +144,8 @@
               },
               {
                 "data": {
-                  "Name": "minecraft:small_dripleaf",
-                  "Properties": {
+                  "id": "minecraft:small_dripleaf",
+                  "properties": {
                     "facing": "east",
                     "half": "lower",
                     "waterlogged": "false"
@@ -155,8 +155,8 @@
               },
               {
                 "data": {
-                  "Name": "minecraft:small_dripleaf",
-                  "Properties": {
+                  "id": "minecraft:small_dripleaf",
+                  "properties": {
                     "facing": "south",
                     "half": "lower",
                     "waterlogged": "false"
@@ -166,8 +166,8 @@
               },
               {
                 "data": {
-                  "Name": "minecraft:small_dripleaf",
-                  "Properties": {
+                  "id": "minecraft:small_dripleaf",
+                  "properties": {
                     "facing": "west",
                     "half": "lower",
                     "waterlogged": "false"
@@ -196,8 +196,8 @@
               "provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:water",
-                  "Properties": {
+                  "id": "minecraft:water",
+                  "properties": {
                     "level": "0"
                   }
                 }
@@ -208,7 +208,7 @@
               "provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:lily_pad"
+                  "id": "minecraft:lily_pad"
                 }
               }
             }

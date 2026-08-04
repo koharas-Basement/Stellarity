@@ -14,13 +14,13 @@
   "root_state_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:packed_ice"
+      "id": "minecraft:packed_ice"
     }
   },
   "hanging_root_state_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:amethyst_cluster"
+      "id": "minecraft:amethyst_cluster"
     }
   },
   "allowed_tree_position": {

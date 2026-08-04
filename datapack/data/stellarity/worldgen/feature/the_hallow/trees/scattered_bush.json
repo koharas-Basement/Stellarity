@@ -16,14 +16,14 @@
           "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           },
           "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:stripped_jungle_log",
-              "Properties": {
+              "id": "minecraft:stripped_jungle_log",
+              "properties": {
                 "axis": "y"
               }
             }
@@ -31,8 +31,8 @@
           "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:cherry_leaves",
-              "Properties": {
+              "id": "minecraft:cherry_leaves",
+              "properties": {
                 "persistent": "true",
                 "distance": "7",
                 "waterlogged": "false"
@@ -71,14 +71,14 @@
       "below_trunk_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:dirt"
+          "id": "minecraft:dirt"
         }
       },
       "trunk_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:stripped_jungle_log",
-          "Properties": {
+          "id": "minecraft:stripped_jungle_log",
+          "properties": {
             "axis": "y"
           }
         }
@@ -86,8 +86,8 @@
       "foliage_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:oak_leaves",
-          "Properties": {
+          "id": "minecraft:oak_leaves",
+          "properties": {
             "persistent": "true",
             "distance": "7",
             "waterlogged": "false"

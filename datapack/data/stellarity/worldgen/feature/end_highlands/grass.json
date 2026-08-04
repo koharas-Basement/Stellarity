@@ -6,14 +6,14 @@
       {
         "weight": 28,
         "data": {
-          "Name": "minecraft:short_grass"
+          "id": "minecraft:short_grass"
         }
       },
       {
         "weight": 18,
         "data": {
-          "Name": "minecraft:tall_grass",
-          "Properties": {
+          "id": "minecraft:tall_grass",
+          "properties": {
             "half": "lower"
           }
         }
@@ -21,14 +21,14 @@
       {
         "weight": 8,
         "data": {
-          "Name": "minecraft:fern"
+          "id": "minecraft:fern"
         }
       },
       {
         "weight": 4,
         "data": {
-          "Name": "minecraft:large_fern",
-          "Properties": {
+          "id": "minecraft:large_fern",
+          "properties": {
             "half": "lower"
           }
         }

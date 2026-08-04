@@ -15,8 +15,8 @@
   "ground_state": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:deepslate",
-      "Properties": {
+      "id": "minecraft:deepslate",
+      "properties": {
         "axis": "y"
       }
     }
@@ -38,8 +38,8 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:deepslate",
-              "Properties": {
+              "id": "minecraft:deepslate",
+              "properties": {
                 "axis": "y"
               }
             }

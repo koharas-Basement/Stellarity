@@ -18,25 +18,25 @@
       {
         "weight": 77,
         "data": {
-          "Name": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         }
       },
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:cobblestone"
+          "id": "minecraft:cobblestone"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:andesite"
+          "id": "minecraft:andesite"
         }
       },
       {
         "weight": 2,
         "data": {
-          "Name": "minecraft:tuff"
+          "id": "minecraft:tuff"
         }
       }
     ]
@@ -56,8 +56,8 @@
               "below_trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:bone_block",
-                  "Properties": {
+                  "id": "minecraft:bone_block",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -65,8 +65,8 @@
               "trunk_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:bone_block",
-                  "Properties": {
+                  "id": "minecraft:bone_block",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -74,7 +74,7 @@
               "foliage_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                  "Name": "minecraft:air"
+                  "id": "minecraft:air"
                 }
               },
               "trunk_placer": {
@@ -104,8 +104,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:dead_fire_coral",
-                  "Properties": {
+                  "id": "minecraft:dead_fire_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -113,8 +113,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:dead_horn_coral",
-                  "Properties": {
+                  "id": "minecraft:dead_horn_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -122,8 +122,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:dead_bubble_coral",
-                  "Properties": {
+                  "id": "minecraft:dead_bubble_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -131,8 +131,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:dead_brain_coral",
-                  "Properties": {
+                  "id": "minecraft:dead_brain_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }
@@ -140,8 +140,8 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:dead_tube_coral",
-                  "Properties": {
+                  "id": "minecraft:dead_tube_coral",
+                  "properties": {
                     "waterlogged": "false"
                   }
                 }

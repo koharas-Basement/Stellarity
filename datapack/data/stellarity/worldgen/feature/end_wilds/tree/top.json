@@ -8,8 +8,8 @@
   "below_trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:oak_wood",
-      "Properties": {
+      "id": "minecraft:oak_wood",
+      "properties": {
         "axis": "y"
       }
     }
@@ -17,8 +17,8 @@
   "trunk_provider": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:oak_log",
-      "Properties": {
+      "id": "minecraft:oak_log",
+      "properties": {
         "axis": "y"
       }
     }
@@ -29,8 +29,8 @@
       {
         "weight": 5,
         "data": {
-          "Name": "minecraft:acacia_leaves",
-          "Properties": {
+          "id": "minecraft:acacia_leaves",
+          "properties": {
             "distance": "1",
             "persistent": "false",
             "waterlogged": "false"
@@ -40,7 +40,7 @@
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       }
     ]

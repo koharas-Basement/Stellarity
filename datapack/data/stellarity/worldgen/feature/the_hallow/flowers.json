@@ -17,49 +17,49 @@
     "scale": 0.010416667,
     "states": [
       {
-        "Name": "minecraft:poppy"
+        "id": "minecraft:poppy"
       },
       {
-        "Name": "minecraft:oxeye_daisy"
+        "id": "minecraft:oxeye_daisy"
       },
       {
-        "Name": "minecraft:azure_bluet"
+        "id": "minecraft:azure_bluet"
       },
       {
-        "Name": "minecraft:poppy"
+        "id": "minecraft:poppy"
       },
       {
-        "Name": "minecraft:allium"
+        "id": "minecraft:allium"
       },
       {
-        "Name": "minecraft:rose_bush"
+        "id": "minecraft:rose_bush"
       },
       {
-        "Name": "minecraft:poppy"
+        "id": "minecraft:poppy"
       },
       {
-        "Name": "minecraft:dandelion"
+        "id": "minecraft:dandelion"
       },
       {
-        "Name": "minecraft:lilac"
+        "id": "minecraft:lilac"
       },
       {
-        "Name": "minecraft:pitcher_plant"
+        "id": "minecraft:pitcher_plant"
       },
       {
-        "Name": "minecraft:azure_bluet"
+        "id": "minecraft:azure_bluet"
       },
       {
-        "Name": "minecraft:cornflower"
+        "id": "minecraft:cornflower"
       },
       {
-        "Name": "minecraft:lilac"
+        "id": "minecraft:lilac"
       },
       {
-        "Name": "minecraft:poppy"
+        "id": "minecraft:poppy"
       },
       {
-        "Name": "minecraft:allium"
+        "id": "minecraft:allium"
       }
     ]
   }

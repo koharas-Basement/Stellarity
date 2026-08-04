@@ -11,8 +11,8 @@
           "block": {
             "type": "simple_state_provider",
             "state": {
-              "Name": "minecraft:basalt",
-              "Properties": {
+              "id": "minecraft:basalt",
+              "properties": {
                 "axis": "y"
               }
             }
@@ -78,8 +78,8 @@
           "block": {
             "type": "simple_state_provider",
             "state": {
-              "Name": "minecraft:basalt",
-              "Properties": {
+              "id": "minecraft:basalt",
+              "properties": {
                 "axis": "y"
               }
             }

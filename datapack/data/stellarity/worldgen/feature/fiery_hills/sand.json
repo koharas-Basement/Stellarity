@@ -15,7 +15,7 @@
 	"ground_state": {
 		"type": "minecraft:simple_state_provider",
 		"state": {
-			"Name": "minecraft:sand"
+			"id": "minecraft:sand"
 		}
 	},
 	"vegetation_feature": "stellarity:nothing"

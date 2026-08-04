@@ -16,14 +16,14 @@
           "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:rooted_dirt"
+              "id": "minecraft:rooted_dirt"
             }
           },
           "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:oak_log",
-              "Properties": {
+              "id": "minecraft:oak_log",
+              "properties": {
                 "axis": "y"
               }
             }
@@ -31,8 +31,8 @@
           "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:oak_leaves",
-              "Properties": {
+              "id": "minecraft:oak_leaves",
+              "properties": {
                 "distance": "7",
                 "persistent": "false",
                 "waterlogged": "false"
@@ -71,14 +71,14 @@
           "below_trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:rooted_dirt"
+              "id": "minecraft:rooted_dirt"
             }
           },
           "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:oak_log",
-              "Properties": {
+              "id": "minecraft:oak_log",
+              "properties": {
                 "axis": "y"
               }
             }
@@ -86,8 +86,8 @@
           "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:oak_leaves",
-              "Properties": {
+              "id": "minecraft:oak_leaves",
+              "properties": {
                 "distance": "7",
                 "persistent": "false",
                 "waterlogged": "false"
@@ -125,14 +125,14 @@
       "below_trunk_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:rooted_dirt"
+          "id": "minecraft:rooted_dirt"
         }
       },
       "trunk_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:oak_log",
-          "Properties": {
+          "id": "minecraft:oak_log",
+          "properties": {
             "axis": "y"
           }
         }
@@ -140,8 +140,8 @@
       "foliage_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:oak_leaves",
-          "Properties": {
+          "id": "minecraft:oak_leaves",
+          "properties": {
             "distance": "7",
             "persistent": "false",
             "waterlogged": "false"

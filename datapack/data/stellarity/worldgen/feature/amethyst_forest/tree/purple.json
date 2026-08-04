@@ -1,26 +1,26 @@
 {
   "type": "minecraft:huge_fungus",
   "hat_state": {
-    "Name": "minecraft:dark_oak_leaves",
-    "Properties": {
+    "id": "minecraft:dark_oak_leaves",
+    "properties": {
       "distance": "7",
       "persistent": "true",
       "waterlogged": "false"
     }
   },
   "decor_state": {
-    "Name": "minecraft:glowstone",
-    "Properties": {}
+    "id": "minecraft:glowstone",
+    "properties": {}
   },
   "stem_state": {
-    "Name": "minecraft:spruce_log",
-    "Properties": {
+    "id": "minecraft:spruce_log",
+    "properties": {
       "axis": "y"
     }
   },
   "valid_base_block": {
-    "Name": "minecraft:grass_block",
-    "Properties": {
+    "id": "minecraft:grass_block",
+    "properties": {
       "snowy": "false"
     }
   },

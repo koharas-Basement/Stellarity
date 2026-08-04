@@ -18,8 +18,8 @@
       {
         "weight": 3,
         "data": {
-          "Name": "minecraft:grass_block",
-          "Properties": {
+          "id": "minecraft:grass_block",
+          "properties": {
             "snowy": "false"
           }
         }
@@ -27,13 +27,13 @@
       {
         "weight": 10,
         "data": {
-          "Name": "minecraft:sand"
+          "id": "minecraft:sand"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:moss_block"
+          "id": "minecraft:moss_block"
         }
       }
     ]
@@ -47,13 +47,13 @@
           {
             "weight": 12,
             "data": {
-              "Name": "minecraft:short_grass"
+              "id": "minecraft:short_grass"
             }
           },
           {
             "weight": 7,
             "data": {
-              "Name": "minecraft:moss_carpet"
+              "id": "minecraft:moss_carpet"
             }
           }
         ]

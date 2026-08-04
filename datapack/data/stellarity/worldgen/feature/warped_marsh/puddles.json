@@ -28,13 +28,13 @@
               {
                 "weight": 25,
                 "data": {
-                  "Name": "minecraft:coarse_dirt"
+                  "id": "minecraft:coarse_dirt"
                 }
               },
               {
                 "weight": 13,
                 "data": {
-                  "Name": "minecraft:rooted_dirt"
+                  "id": "minecraft:rooted_dirt"
                 }
               }
             ]
@@ -48,8 +48,8 @@
                   {
                     "weight": 1,
                     "data": {
-                      "Name": "minecraft:small_dripleaf",
-                      "Properties": {
+                      "id": "minecraft:small_dripleaf",
+                      "properties": {
                         "facing": "east",
                         "half": "lower",
                         "waterlogged": "false"
@@ -59,8 +59,8 @@
                   {
                     "weight": 1,
                     "data": {
-                      "Name": "minecraft:small_dripleaf",
-                      "Properties": {
+                      "id": "minecraft:small_dripleaf",
+                      "properties": {
                         "facing": "west",
                         "half": "lower",
                         "waterlogged": "false"
@@ -70,8 +70,8 @@
                   {
                     "weight": 1,
                     "data": {
-                      "Name": "minecraft:small_dripleaf",
-                      "Properties": {
+                      "id": "minecraft:small_dripleaf",
+                      "properties": {
                         "facing": "north",
                         "half": "lower",
                         "waterlogged": "false"
@@ -81,8 +81,8 @@
                   {
                     "weight": 1,
                     "data": {
-                      "Name": "minecraft:small_dripleaf",
-                      "Properties": {
+                      "id": "minecraft:small_dripleaf",
+                      "properties": {
                         "facing": "south",
                         "half": "lower",
                         "waterlogged": "false"
@@ -121,7 +121,7 @@
       "ground_state": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:moss_block"
+          "id": "minecraft:moss_block"
         }
       },
       "vegetation_feature": {

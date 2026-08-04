@@ -1,10 +1,10 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:sand"
+    "id": "minecraft:sand"
   },
   "rim": {
-    "Name": "minecraft:coarse_dirt"
+    "id": "minecraft:coarse_dirt"
   },
   "size": {
     "type": "minecraft:uniform",

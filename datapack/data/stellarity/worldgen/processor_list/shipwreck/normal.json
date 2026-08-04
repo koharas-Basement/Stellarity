@@ -13,7 +13,7 @@
             "block": "minecraft:dirt"
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -26,7 +26,7 @@
             "probability": 0.25
           },
           "output_state": {
-            "Name": "minecraft:end_stone"
+            "id": "minecraft:end_stone"
           }
         },
         {
@@ -39,7 +39,7 @@
             "probability": 0.3
           },
           "output_state": {
-            "Name": "minecraft:coarse_dirt"
+            "id": "minecraft:coarse_dirt"
           }
         },
         {
@@ -52,7 +52,7 @@
             "probability": 0.6
           },
           "output_state": {
-            "Name": "minecraft:sand"
+            "id": "minecraft:sand"
           }
         }
       ]
@@ -76,8 +76,8 @@
               "block": "minecraft:dirt"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_sand",
-              "Properties": {
+              "id": "minecraft:suspicious_sand",
+              "properties": {
                 "dusted": "0"
               }
             },
@@ -108,8 +108,8 @@
               "block": "minecraft:dirt"
             },
             "output_state": {
-              "Name": "minecraft:suspicious_sand",
-              "Properties": {
+              "id": "minecraft:suspicious_sand",
+              "properties": {
                 "dusted": "0"
               }
             },

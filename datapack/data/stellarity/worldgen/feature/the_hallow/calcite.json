@@ -9,7 +9,7 @@
         "block": "minecraft:diorite"
       },
       "state": {
-        "Name": "minecraft:calcite"
+        "id": "minecraft:calcite"
       }
     }
   ]

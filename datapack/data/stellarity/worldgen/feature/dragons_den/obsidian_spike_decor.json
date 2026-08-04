@@ -9,7 +9,7 @@
         "block": "minecraft:obsidian"
       },
       "state": {
-        "Name": "minecraft:crying_obsidian"
+        "id": "minecraft:crying_obsidian"
       }
     }
   ]

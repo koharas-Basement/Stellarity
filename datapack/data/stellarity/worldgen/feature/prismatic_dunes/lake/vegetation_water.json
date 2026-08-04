@@ -7,7 +7,7 @@
             "to_place": {
               "type": "minecraft:simple_state_provider",
               "state": {
-                "Name": "minecraft:lily_pad"
+                "id": "minecraft:lily_pad"
               }
             }
         },

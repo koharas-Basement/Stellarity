@@ -13,7 +13,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:poppy"
+            "id": "minecraft:poppy"
           }
         },
         {
@@ -26,7 +26,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:blue_orchid"
+            "id": "minecraft:blue_orchid"
           }
         },
         {
@@ -39,7 +39,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:allium"
+            "id": "minecraft:allium"
           }
         },
         {
@@ -52,7 +52,7 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
           }
         },
         {
@@ -65,7 +65,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:tall_grass"
+            "id": "minecraft:tall_grass"
           }
         },
         {
@@ -78,7 +78,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:fern"
+            "id": "minecraft:fern"
           }
         },
         {
@@ -91,7 +91,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:allium"
+            "id": "minecraft:allium"
           }
         },
         {
@@ -104,7 +104,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:torchflower"
+            "id": "minecraft:torchflower"
           }
         },
         {
@@ -117,7 +117,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:bamboo_sapling"
+            "id": "minecraft:bamboo_sapling"
           }
         },
         {
@@ -130,7 +130,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:cherry_sapling"
+            "id": "minecraft:cherry_sapling"
           }
         },
         {
@@ -143,7 +143,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:white_tulip"
+            "id": "minecraft:white_tulip"
           }
         },
         {
@@ -156,7 +156,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:red_tulip"
+            "id": "minecraft:red_tulip"
           }
         },
         {
@@ -169,7 +169,7 @@
             "probability": 0.4
           },
           "output_state": {
-            "Name": "minecraft:orange_tulip"
+            "id": "minecraft:orange_tulip"
           }
         }
       ]

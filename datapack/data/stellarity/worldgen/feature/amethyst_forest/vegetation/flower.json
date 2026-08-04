@@ -14,55 +14,55 @@
     "scale": 1,
     "states": [
       {
-        "Name": "minecraft:allium"
+        "id": "minecraft:allium"
       },
       {
-        "Name": "minecraft:amethyst_cluster",
-        "Properties": {
+        "id": "minecraft:amethyst_cluster",
+        "properties": {
           "facing": "up",
           "waterlogged": "false"
         }
       },
       {
-        "Name": "minecraft:pink_tulip"
+        "id": "minecraft:pink_tulip"
       },
       {
-        "Name": "minecraft:peony",
-        "Properties": {
+        "id": "minecraft:peony",
+        "properties": {
           "half": "lower"
         }
       },
       {
-        "Name": "minecraft:pink_tulip"
+        "id": "minecraft:pink_tulip"
       },
       {
-        "Name": "minecraft:allium"
+        "id": "minecraft:allium"
       },
       {
-        "Name": "minecraft:amethyst_cluster",
-        "Properties": {
+        "id": "minecraft:amethyst_cluster",
+        "properties": {
           "facing": "up",
           "waterlogged": "false"
         }
       },
       {
-        "Name": "minecraft:pink_tulip"
+        "id": "minecraft:pink_tulip"
       },
       {
-        "Name": "minecraft:allium"
+        "id": "minecraft:allium"
       },
       {
-        "Name": "minecraft:lilac",
-        "Properties": {
+        "id": "minecraft:lilac",
+        "properties": {
           "half": "lower"
         }
       },
       {
-        "Name": "minecraft:allium"
+        "id": "minecraft:allium"
       },
       {
-        "Name": "minecraft:amethyst_cluster",
-        "Properties": {
+        "id": "minecraft:amethyst_cluster",
+        "properties": {
           "facing": "up",
           "waterlogged": "false"
         }

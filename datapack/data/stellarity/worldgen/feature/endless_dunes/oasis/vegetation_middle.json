@@ -5,8 +5,8 @@
     "entries": [
       {
         "data": {
-          "Name": "minecraft:acacia_leaves",
-          "Properties": {
+          "id": "minecraft:acacia_leaves",
+          "properties": {
             "distance": "7",
             "persistent": "true",
             "waterlogged": "false"
@@ -16,8 +16,8 @@
       },
       {
         "data": {
-          "Name": "minecraft:azalea_leaves",
-          "Properties": {
+          "id": "minecraft:azalea_leaves",
+          "properties": {
             "distance": "7",
             "persistent": "true",
             "waterlogged": "false"
@@ -27,26 +27,26 @@
       },
       {
         "data": {
-          "Name": "minecraft:orange_tulip"
+          "id": "minecraft:orange_tulip"
         },
         "weight": 2
       },
       {
         "data": {
-          "Name": "minecraft:pink_tulip"
+          "id": "minecraft:pink_tulip"
         },
         "weight": 2
       },
       {
         "data": {
-          "Name": "minecraft:white_tulip"
+          "id": "minecraft:white_tulip"
         },
         "weight": 2
       },
       {
         "data": {
-          "Name": "minecraft:lilac",
-          "Properties": {
+          "id": "minecraft:lilac",
+          "properties": {
             "half": "lower"
           }
         },
@@ -54,8 +54,8 @@
       },
       {
         "data": {
-          "Name": "minecraft:pitcher_plant",
-          "Properties": {
+          "id": "minecraft:pitcher_plant",
+          "properties": {
             "half": "lower"
           }
         },

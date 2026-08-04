@@ -18,8 +18,8 @@
       {
         "weight": 10,
         "data": {
-          "Name": "minecraft:grass_block",
-          "Properties": {
+          "id": "minecraft:grass_block",
+          "properties": {
             "snowy": "false"
           }
         }
@@ -27,19 +27,19 @@
       {
         "weight": 120,
         "data": {
-          "Name": "minecraft:white_concrete_powder"
+          "id": "minecraft:white_concrete_powder"
         }
       },
       {
         "weight": 6,
         "data": {
-          "Name": "minecraft:calcite"
+          "id": "minecraft:calcite"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:amethyst_block"
+          "id": "minecraft:amethyst_block"
         }
       }
     ]
@@ -53,19 +53,19 @@
           {
             "weight": 24,
             "data": {
-              "Name": "minecraft:short_grass"
+              "id": "minecraft:short_grass"
             }
           },
           {
             "weight": 14,
             "data": {
-              "Name": "minecraft:small_amethyst_bud"
+              "id": "minecraft:small_amethyst_bud"
             }
           },
           {
             "weight": 1,
             "data": {
-              "Name": "minecraft:amethyst_cluster"
+              "id": "minecraft:amethyst_cluster"
             }
           }
         ]

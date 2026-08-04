@@ -1,13 +1,13 @@
 {
   "type": "minecraft:delta_feature",
   "contents": {
-    "Name": "minecraft:lava",
-    "Properties": {
+    "id": "minecraft:lava",
+    "properties": {
       "level": "0"
     }
   },
   "rim": {
-    "Name": "minecraft:magma_block"
+    "id": "minecraft:magma_block"
   },
   "size": {
     "type": "minecraft:uniform",

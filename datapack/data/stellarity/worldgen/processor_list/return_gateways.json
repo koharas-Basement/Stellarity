@@ -12,7 +12,7 @@
             "block": "minecraft:end_gateway"
           },
           "output_state": {
-            "Name": "minecraft:end_gateway"
+            "id": "minecraft:end_gateway"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_static",
@@ -27,7 +27,7 @@
       "processor_type": "minecraft:block_ignore",
       "blocks": [
         {
-          "Name": "minecraft:structure_void"
+          "id": "minecraft:structure_void"
         }
       ]
     }

@@ -11,7 +11,7 @@
       "provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:crimson_roots"
+          "id": "minecraft:crimson_roots"
         }
       }
     },
@@ -20,7 +20,7 @@
       "provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:crimson_nylium"
+          "id": "minecraft:crimson_nylium"
         }
       }
     }

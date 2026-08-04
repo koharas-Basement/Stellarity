@@ -10,12 +10,12 @@
           "input_predicate": {
             "predicate_type": "minecraft:random_blockstate_match",
             "block_state": {
-              "Name": "minecraft:end_stone_bricks"
+              "id": "minecraft:end_stone_bricks"
             },
             "probability": 0.076
           },
           "output_state": {
-            "Name": "minecraft:end_stone"
+            "id": "minecraft:end_stone"
           }
         }
       ]
@@ -24,7 +24,7 @@
       "processor_type": "minecraft:block_ignore",
       "blocks": [
         {
-          "Name": "minecraft:structure_void"
+          "id": "minecraft:structure_void"
         }
       ]
     }

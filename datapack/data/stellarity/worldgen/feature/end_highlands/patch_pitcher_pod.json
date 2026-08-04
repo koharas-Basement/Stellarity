@@ -3,8 +3,8 @@
   "to_place": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:pitcher_plant",
-      "Properties": {
+      "id": "minecraft:pitcher_plant",
+      "properties": {
         "half": "lower"
       }
     }

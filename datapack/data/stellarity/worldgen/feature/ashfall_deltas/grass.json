@@ -5,13 +5,13 @@
     "entries": [
       {
         "data": {
-          "Name": "minecraft:short_grass"
+          "id": "minecraft:short_grass"
         },
         "weight": 16
       },
       {
         "data": {
-          "Name": "minecraft:fern"
+          "id": "minecraft:fern"
         },
         "weight": 1
       }

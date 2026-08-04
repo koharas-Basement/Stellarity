@@ -5,11 +5,11 @@
       "target": {
         "predicate_type": "minecraft:blockstate_match",
         "block_state": {
-          "Name": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         }
       },
       "state": {
-        "Name": "minecraft:end_stone_bricks"
+        "id": "minecraft:end_stone_bricks"
       }
     }
   ]

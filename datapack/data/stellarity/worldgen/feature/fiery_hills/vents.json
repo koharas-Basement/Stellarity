@@ -5,8 +5,8 @@
     "entries": [
       {
         "data": {
-          "Name": "minecraft:campfire",
-          "Properties": {
+          "id": "minecraft:campfire",
+          "properties": {
             "facing": "north",
             "lit": "true",
             "signal_fire": "false",
@@ -17,8 +17,8 @@
       },
       {
         "data": {
-          "Name": "minecraft:campfire",
-          "Properties": {
+          "id": "minecraft:campfire",
+          "properties": {
             "facing": "north",
             "lit": "true",
             "signal_fire": "true",

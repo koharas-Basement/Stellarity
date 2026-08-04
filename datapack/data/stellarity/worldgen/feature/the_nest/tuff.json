@@ -22,19 +22,19 @@
       {
         "weight": 4,
         "data": {
-          "Name": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:cobblestone"
+          "id": "minecraft:cobblestone"
         }
       },
       {
         "weight": 1,
         "data": {
-          "Name": "minecraft:andesite"
+          "id": "minecraft:andesite"
         }
       }
     ]
@@ -43,10 +43,10 @@
     "feature": {
       "type": "minecraft:netherrack_replace_blobs",
       "state": {
-        "Name": "minecraft:tuff"
+        "id": "minecraft:tuff"
       },
       "target": {
-        "Name": "minecraft:end_stone"
+        "id": "minecraft:end_stone"
       },
       "radius": {
         "type": "minecraft:uniform",

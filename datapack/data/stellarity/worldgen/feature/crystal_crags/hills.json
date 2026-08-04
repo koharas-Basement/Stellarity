@@ -15,7 +15,7 @@
   "ground_state": {
     "type": "minecraft:simple_state_provider",
     "state": {
-      "Name": "minecraft:basalt"
+      "id": "minecraft:basalt"
     }
   },
   "vegetation_feature": {
@@ -35,7 +35,7 @@
           "provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:basalt"
+              "id": "minecraft:basalt"
             }
           }
         }

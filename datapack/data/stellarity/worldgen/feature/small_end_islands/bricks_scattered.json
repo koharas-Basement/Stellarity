@@ -9,7 +9,7 @@
         "block": "minecraft:end_stone"
       },
       "state": {
-        "Name": "minecraft:end_stone_bricks"
+        "id": "minecraft:end_stone_bricks"
       }
     }
   ]

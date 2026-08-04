@@ -18,8 +18,8 @@
       {
         "weight": 39,
         "data": {
-          "Name": "minecraft:grass_block",
-          "Properties": {
+          "id": "minecraft:grass_block",
+          "properties": {
             "snowy": "false"
           }
         }
@@ -27,7 +27,7 @@
       {
         "weight": 5,
         "data": {
-          "Name": "minecraft:rooted_dirt"
+          "id": "minecraft:rooted_dirt"
         }
       }
     ]
