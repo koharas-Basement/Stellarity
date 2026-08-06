@@ -34,6 +34,22 @@
                           "show_icon": true
                         }
                       ]
+                    },
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": [
+                        "minecraft:wither",
+                        "minecraft:weakness",
+                        "minecraft:darkness",
+                        "minecraft:blindness",
+                        "minecraft:slowness",
+                        "minecraft:poison",
+                        "minecraft:bad_omen",
+                        "minecraft:glowing",
+                        "minecraft:unluck",
+                        "minecraft:nausea",
+                        "minecraft:mining_fatigue"
+                      ]
                     }
                   ]
                 },
