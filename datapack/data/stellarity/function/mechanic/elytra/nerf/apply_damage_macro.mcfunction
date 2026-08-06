@@ -1,1 +1,1 @@
-$item modify entity @s armor.chest [{"function":"minecraft:set_components","components":{"minecraft:damage":$(damage)}}]
+$item modify entity @s armor.chest [{"type":"minecraft:set_components","components":{"minecraft:damage":$(damage)}}]

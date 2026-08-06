@@ -1,7 +1,7 @@
 scoreboard players set #damage kohara.misc 10
 
 scoreboard players set #is_in_daylight stellarity.misc 0
-execute if predicate [{condition:"minecraft:inverted",term:{condition:"minecraft:time_check",clock:"minecraft:overworld",value:{min:12786,max:23460},period:24000}},{"condition":"minecraft:weather_check","raining":false,"thundering":false},{"condition":"minecraft:location_check","predicate":{"dimension":"minecraft:overworld","can_see_sky":true}}] run scoreboard players set #is_in_daylight stellarity.misc 1
+execute if predicate {"type":"minecraft:all_of","terms":[{type:"minecraft:inverted",term:{type:"minecraft:time_check",clock:"minecraft:overworld",value:{min:12786,max:23460},period:24000}},{"type":"minecraft:weather_check","raining":false,"thundering":false},{"type":"minecraft:location_check","predicate":{"dimension":"minecraft:overworld","can_see_sky":true}}]} run scoreboard players set #is_in_daylight stellarity.misc 1
 
 # Double damage to undead mobs
   scoreboard players set #mul stellarity.misc 2
