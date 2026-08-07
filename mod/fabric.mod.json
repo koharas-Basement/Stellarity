@@ -19,7 +19,7 @@
   "contact": {
     "homepage": "https://modrinth.com/datapack/stellarity",
     "sources": "https://github.com/Prismatic-Shards/Stellarity",
-    "issues": "https://discord.coder2195.dev"
+    "issues": "http://discord.prismaticshards.xyz"
   },
   "license": "LicenseRef-Custom",
   "icon": "pack.png",
@@ -30,7 +30,7 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://discord.coder2195.dev"
+        "modmenu.discord": "http://discord.prismaticshards.xyz"
       },
       "update_checker": true
     }

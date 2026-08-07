@@ -2,7 +2,7 @@ modLoader = "lowcodefml"
 loaderVersion = "[1,)"
 license = "LicenseRef-Custom"
 showAsResourcePack = false
-issueTrackerURL = "https://discord.coder2195.dev"
+issueTrackerURL = "http://discord.prismaticshards.xyz"
 
 [[mods]]
 modId = "stellarity"

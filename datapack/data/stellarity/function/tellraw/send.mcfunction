@@ -39,7 +39,7 @@ tellraw @s {"text": "| ","color":"gray","bold":true}
   {"text":"Wiki","color":"#FBA957","bold":false,"click_event": {"action": "open_url","url": "https://koharasbasement.wiki.gg/wiki/Stellarity"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
   {"text": " ▪ ","color":"gray","bold":true},\
   {"text":"💬 ","color":"#5865F2","bold":true},\
-  {"text":"Discord","color":"#589CF2","bold":false,"click_event": {"action": "open_url","url": "https://discord.coder2195.dev"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
+  {"text":"Discord","color":"#589CF2","bold":false,"click_event": {"action": "open_url","url": "http://discord.prismaticshards.xyz"},"hover_event": {"action": "show_text","value":{"text":"Click to visit"}}},\
   {"text": " ▪ ","color":"gray","bold":true},\
   {"text":"⚙ ","color":"#C2C2C2","bold":true},\
   {"text":"Config","color":"#DCDCDC","bold":false,"click_event": {"action": "run_command","command": "/function stellarity:_cmd/configuration"},"hover_event": {"action": "show_text","value":{"text":"Click to edit"}}}\

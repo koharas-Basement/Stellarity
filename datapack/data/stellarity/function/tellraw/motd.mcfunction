@@ -81,7 +81,7 @@ data modify storage stellarity:temp motd set value "§e§ofeedback wanted!"
 execute if score #random stellarity.misc matches 40 run \
 data modify storage stellarity:temp motd set value "§e§o§kthe dragon is like a gender-changing frog"
 execute if score #random stellarity.misc matches 41 run \
-data modify storage stellarity:temp motd set value "§e§odiscord.coder2195.dev/"
+data modify storage stellarity:temp motd set value "§e§odiscord.prismaticshards.xyz"
 execute if score #random stellarity.misc matches 42 run \
 data modify storage stellarity:temp motd set value "§e§oNow on 1.20.X!"
 execute if score #random stellarity.misc matches 43 run \

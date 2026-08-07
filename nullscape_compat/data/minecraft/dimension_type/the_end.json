@@ -19,7 +19,7 @@
     "has_ender_dragon_fight": true,
     "skybox": "end",
     "has_fixed_time": true,
-    "has_skylight": false,
+    "has_skylight": true,
     "has_ceiling": false,
     "coordinate_scale": 1,
     "ambient_light": 0.25,
