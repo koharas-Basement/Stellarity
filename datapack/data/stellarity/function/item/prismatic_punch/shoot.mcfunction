@@ -8,4 +8,5 @@ data get storage stellarity:temp prismatic_punch.item.components."minecraft:ench
 execute if data storage stellarity:temp prismatic_punch.item.components."minecraft:enchantments"."minecraft:multishot" run \
 tag @n[type=marker,tag=stellarity.prismatic_blast] add stellarity.prismatic_blast.multishot
 
+
 playsound stellarity:item.prismatic_punch.shoot player @a[distance=0..] ~ ~ ~

@@ -3,6 +3,7 @@
 
 # Starstruck Carcanet
   execute if entity @s[tag=stellarity.shield.area_effect_cloud] run function stellarity:item/starstruck_shield/area_effect_cloud_loop
+  execute if entity @s[tag=stellarity.shield.area_effect_cloud.radiant] run function stellarity:item/starstruck_shield/radiant_area_effect_cloud_loop
 
 # Crystal Heartfish
   execute if entity @s[tag=stellarity.item.fish.crystal_heartfish.area_effect_cloud] rotated as @s run function stellarity:item/food/fish/crystal_heartfish/animation
