@@ -11,3 +11,4 @@ execute if score @s stellarity.misc matches 2 run scoreboard players reset @s st
 
 execute if entity @s[tag=!stellarity.carcanet.air] if block ^ ^ ^ #kohara:non_solid run tag @s add stellarity.carcanet.air
 execute if entity @s[tag=stellarity.carcanet.air] unless block ^ ^ ^1.2375 #kohara:non_solid run function stellarity:item/starstruck_shield/star_detonate
+

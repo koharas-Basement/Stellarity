@@ -18,7 +18,8 @@
                   "translate": "item.stellarity.radiant_jewel",
                   "color": "#ff5555"
                 },
-                "minecraft:max_stack_size": 1
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true
               }
             },
             {

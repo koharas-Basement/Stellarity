@@ -1,7 +1,5 @@
-execute store result score #temp stellarity.misc run data get entity @s Fire
-
-scoreboard players set #fire stellarity.misc 260
-execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
+scoreboard players set #effect.duration stellarity.misc 60
+function stellarity:util/status_effects/holy_flames/apply
 
 scoreboard players set #damage kohara.misc 300
 
