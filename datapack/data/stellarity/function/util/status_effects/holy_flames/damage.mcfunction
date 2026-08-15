@@ -1,4 +1,4 @@
-scoreboard players set #damage kohara.misc 20
+scoreboard players set #damage kohara.misc 40
 
 scoreboard players set #is_in_daylight stellarity.misc 0
 execute if predicate {"type":"minecraft:all_of","terms":[{type:"minecraft:inverted",term:{type:"minecraft:time_check",clock:"minecraft:overworld",value:{min:12786,max:23460},period:24000}},{"type":"minecraft:weather_check","raining":false,"thundering":false},{"type":"minecraft:location_check","predicate":{"dimension":"minecraft:overworld","can_see_sky":true}}]} run scoreboard players set #is_in_daylight stellarity.misc 1
@@ -9,10 +9,10 @@ execute if predicate {"type":"minecraft:all_of","terms":[{type:"minecraft:invert
   # Extra 2x damage if exposed to sunlight
     execute if score #is_in_daylight stellarity.misc matches 1 run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
 
-  scoreboard players reset @s stellarity.dot.prismatic_inferno.progress
+  scoreboard players reset @s stellarity.dot.holy_flames.progress
 
-execute if score #is_in_daylight stellarity.misc matches 0 run function stellarity:util/status_effects/prismatic_inferno/damage_particle/normal
-execute if score #is_in_daylight stellarity.misc matches 1 run function stellarity:util/status_effects/prismatic_inferno/damage_particle/exposed_to_daylight
+execute if score #is_in_daylight stellarity.misc matches 0 run function stellarity:util/status_effects/holy_flames/damage_particle/normal
+execute if score #is_in_daylight stellarity.misc matches 1 run function stellarity:util/status_effects/holy_flames/damage_particle/exposed_to_daylight
 
 #particle minecraft:flame ~ ~1 ~ .3 .55 .3 0.01 10 force @a[distance=..32]
 
@@ -23,4 +23,4 @@ tag @p[distance=0.01..] add kohara.attacker
 
 data modify entity @s Fire set value 1s
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:dot/prismatic_inferno",tag:"stellarity.damage.dot.prismatic_inferno"}
+function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:dot/holy_flames",tag:"stellarity.damage.dot.holy_flames"}

@@ -1,4 +1,5 @@
-summon minecraft:marker ^ ^ ^ {Tags:["stellarity.prismatic_blast","stellarity.marker","smithed.entity","smithed.strict"]}
+execute unless entity @n[type=player,predicate=stellarity:item/holding/trinket/radiant_jewel] run summon minecraft:marker ^ ^ ^ {Tags:["stellarity.prismatic_blast","stellarity.marker","smithed.entity","smithed.strict"]}
+execute if entity @n[type=player,predicate=stellarity:item/holding/trinket/radiant_jewel] run summon minecraft:marker ^ ^ ^ {Tags:["stellarity.prismatic_blast","stellarity.prismatic_blast.radiant","stellarity.marker","smithed.entity","smithed.strict"]}
 execute if entity @n[type=player,predicate=stellarity:item/holding/trinket/radiant_jewel] run summon minecraft:marker ^ ^ ^ {Tags:["stellarity.prismatic_blast","stellarity.prismatic_blast.radiant","stellarity.marker","smithed.entity","smithed.strict"]}
 
 tp @e[type=marker,tag=stellarity.prismatic_blast,distance=..1] ^ ^ ^ ~ ~
