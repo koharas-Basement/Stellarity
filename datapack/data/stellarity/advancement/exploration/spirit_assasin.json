@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:item_model": "stellarity:the_beginning"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.spirit_assasin"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.spirit_assasin.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ]
+  },
+  "parent": "minecraft:end/enter_end_gateway",
+  "criteria": {
+    "evelynn": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

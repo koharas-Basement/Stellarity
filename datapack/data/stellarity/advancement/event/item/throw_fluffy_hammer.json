@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "fluffy_hammer"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "stellarity:item/fluffy_hammer/throw"
+  }
+}

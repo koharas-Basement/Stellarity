@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/trinket/prismatic_shield"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/trinket/starstruck_shield"
+        }
+      ]
+    }
+  ]
+}

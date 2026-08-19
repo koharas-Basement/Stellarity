@@ -1,0 +1,11 @@
+{
+  "values": [
+    {
+      "id": "stellarity:blazing_dunes",
+      "required": false
+    },
+    "stellarity:endless_dunes",
+    "stellarity:prismatic_dunes",
+    "stellarity:fiery_hills"
+  ]
+}

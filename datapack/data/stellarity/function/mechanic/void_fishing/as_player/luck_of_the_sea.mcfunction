@@ -1,0 +1,2 @@
+execute if score #mainhand stellarity.misc matches 1 store result score #luck_of_the_sea stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:luck_of_the_sea" 1
+execute if score #offhand stellarity.misc matches 1 store result score #luck_of_the_sea stellarity.misc run data get entity @s equipment.offhand.components."minecraft:enchantments"."minecraft:luck_of_the_sea" 1

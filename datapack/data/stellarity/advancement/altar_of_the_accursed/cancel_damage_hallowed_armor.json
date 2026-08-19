@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "minecraft:dyed_color": 16768338,
+        "minecraft:item_model": "stellarity:hallowed_chestplate"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.hallelujah"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.hallelujah.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:altar_of_the_accursed/cursed_crafting",
+  "criteria": {
+    "dodge_damage": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

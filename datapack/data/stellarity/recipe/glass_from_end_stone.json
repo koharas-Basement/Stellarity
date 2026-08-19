@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glass",
+  "category": "building",
+  "ingredients": [
+    "minecraft:end_stone",
+    "minecraft:blaze_powder"
+  ],
+  "result": {
+    "id": "minecraft:glass",
+    "count": 3
+  }
+}

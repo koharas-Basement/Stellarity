@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enderman",
+    "minecraft:phantom",
+    "minecraft:silverfish",
+    "minecraft:skeleton",
+    "minecraft:zombified_piglin",
+    "minecraft:zombie",
+    "minecraft:slime"
+  ]
+}

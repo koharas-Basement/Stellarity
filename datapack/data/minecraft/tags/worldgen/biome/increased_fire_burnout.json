@@ -1,0 +1,15 @@
+{
+  "values": [
+    {
+      "id": "stellarity:frosted_hills",
+      "required": false
+    },
+    "stellarity:flesh_tundra",
+    "stellarity:frozen_spikes",
+    "stellarity:the_hallow",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+
+    "stellarity:prismarine_forest"
+  ]
+}

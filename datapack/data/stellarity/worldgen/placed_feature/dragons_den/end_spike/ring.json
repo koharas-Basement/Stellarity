@@ -1,0 +1,8 @@
+{
+  "feature": "stellarity:dragons_den/end_spike/ring",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "location": "stellarity:fisherman_hut/huts/1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "location": "stellarity:fisherman_hut/huts/2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "location": "stellarity:fisherman_hut/huts/3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "location": "stellarity:fisherman_hut/huts/4",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

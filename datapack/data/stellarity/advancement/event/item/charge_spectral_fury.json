@@ -1,0 +1,21 @@
+{
+  "parent": "stellarity:event/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:bow"],
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "spectral_fury"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "stellarity:item/spectral_fury/charge"
+  }
+}

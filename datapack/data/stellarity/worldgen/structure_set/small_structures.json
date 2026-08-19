@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "stellarity:campsite",
+      "weight": 1
+    },
+    {
+      "structure": "stellarity:fishing_hut",
+      "weight": 1
+    },
+    {
+      "structure": "stellarity:desert_ruin",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 278609929,
+    "exclusion_zone": {
+      "other_set": "minecraft:end_cities",
+      "chunk_count": 10
+    },
+    "spacing": 20,
+    "separation": 15
+  }
+}

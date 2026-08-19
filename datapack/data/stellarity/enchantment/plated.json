@@ -1,0 +1,62 @@
+{
+  "description": {
+    "translate": "enchantment.stellarity.plated"
+  },
+  "exclusive_set": [
+    "stellarity:soaring"
+  ],
+  "supported_items": "#stellarity:enchantable/elytra",
+  "weight": 2,
+  "max_level": 4,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 19,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "stellarity:enchantment.plated",
+        "attribute": "minecraft:gravity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.04,
+          "per_level_above_first": 0.03
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "id": "stellarity:enchantment.plated",
+        "attribute": "minecraft:armor",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 1
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "stellarity:enchantment.plated",
+        "attribute": "minecraft:armor_toughness",
+        "amount": {
+          "type": "minecraft:lookup",
+          "values": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "fallback": 1
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_precipice",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "stellarity:item": "music_disc_precipice_stereo"
+                },
+                "minecraft:item_model": "stellarity:music_disc_precipice_stereo",
+                "minecraft:jukebox_playable": "stellarity:precipice_stereo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

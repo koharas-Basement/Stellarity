@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "stellarity:golden_chorus_fruit"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.eat_golden_chorus_fruit"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.eat_golden_chorus_fruit.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stellarity:cauldron/dilute_breath",
+  "criteria": {
+    "eat_golden_chorus_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:chorus_fruit"],
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "golden_chorus_fruit"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["eat_golden_chorus_fruit"]]
+}

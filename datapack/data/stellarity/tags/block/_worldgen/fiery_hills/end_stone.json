@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "#comment": "yes, red sand here is intended, otherwise the red sand patches cut off the hill generation (because why not apparently)",
+  "values": [
+    "end_stone",
+    "red_sand",
+    "#stellarity:_worldgen/fiery_hills/common"
+  ]
+}

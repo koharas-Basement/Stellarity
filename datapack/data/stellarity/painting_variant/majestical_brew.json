@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:majestical_brew",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.majestical_brew.author"
+  },
+  "height": 3,
+  "width": 3,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.majestical_brew.title"
+  }
+}

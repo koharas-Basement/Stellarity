@@ -1,0 +1,21 @@
+execute store result score #count stellarity.misc run data get entity @s Item.count 1
+
+scoreboard players set #1 stellarity.misc 1
+scoreboard players operation #count stellarity.misc -= #1 stellarity.misc
+
+execute store result entity @s Item.count byte 1 run scoreboard players get #count stellarity.misc
+
+execute if entity @n[type=item,tag=stellarity.starlight_soot.radiant] run scoreboard players set #empress_of_light.is_radiant stellarity.misc 1
+kill @e[type=item,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}]
+
+particle explosion ~ ~ ~ 0 0 0 1 0 force @a[distance=..32]
+particle smoke ~ ~ ~ 0 0 0 0.12 14 normal
+particle end_rod ~ ~ ~ 0 0 0 0.12 28 normal
+
+playsound minecraft:entity.allay.item_taken block @a[distance=0..] ~ ~ ~ 1 1
+playsound minecraft:entity.zombie.infect block @a[distance=0..] ~ ~ ~ 1 1
+playsound minecraft:entity.zombie.infect block @a[distance=0..] ~ ~ ~ 1 0
+
+scoreboard players set #empress_of_light.is_alive stellarity.misc 1
+
+function stellarity:entity/empress_of_light/summon

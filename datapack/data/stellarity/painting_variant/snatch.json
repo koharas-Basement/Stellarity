@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:snatch",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.snatch.author"
+  },
+  "height": 2,
+  "width": 3,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.snatch.title"
+  }
+}

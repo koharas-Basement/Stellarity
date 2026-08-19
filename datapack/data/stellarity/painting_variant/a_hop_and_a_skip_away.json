@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:a_hop_and_a_skip_away",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.a_hop_and_a_skip_away.author"
+  },
+  "height": 4,
+  "width": 4,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.a_hop_and_a_skip_away.title"
+  }
+}

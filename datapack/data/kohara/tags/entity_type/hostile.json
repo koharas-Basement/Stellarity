@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:undead",
+    "#minecraft:arthropod",
+    "#minecraft:illager",
+    "#kohara:nether",
+    "minecraft:creeper",
+    "minecraft:elder_guardian",
+    "minecraft:enderman",
+    "minecraft:guardian",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:shulker",
+    "minecraft:slime",
+    "minecraft:vex",
+    "minecraft:witch",
+    "minecraft:wither",
+    "minecraft:breeze",
+    "minecraft:creaking",
+    "minecraft:parched"
+  ]
+}

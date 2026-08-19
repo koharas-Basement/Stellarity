@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:dragonblade",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.dragonblade.author"
+  },
+  "height": 2,
+  "width": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.dragonblade.title"
+  }
+}

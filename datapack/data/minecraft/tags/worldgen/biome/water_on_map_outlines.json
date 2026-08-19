@@ -1,0 +1,15 @@
+{
+  "values": [
+    {
+      "id": "stellarity:frosted_hills",
+      "required": false
+    },
+    "stellarity:warped_marsh",
+    "stellarity:ashfall_deltas",
+    "stellarity:the_hallow",
+    "stellarity:prismarine_forest",
+    "stellarity:frozen_spikes",
+    "stellarity:endless_dunes",
+    "stellarity:prismatic_dunes"
+  ]
+}

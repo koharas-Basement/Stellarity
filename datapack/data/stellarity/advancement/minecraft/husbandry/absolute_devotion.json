@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "stellarity:shulker_hoe"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.absolute_devotion"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.absolute_devotion.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "shulker_hoe": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "shulker_hoe"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["shulker_hoe"]],
+  "rewards": {
+    "experience": 150
+  }
+}

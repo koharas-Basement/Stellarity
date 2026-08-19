@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 8297656,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 99,
+                      "duration": 120
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "stellarity:item": "frost_cloud_potion"
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.stellarity.frost_cloud_potion",
+                  "color": "white",
+                  "italic": false
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "potion_contents",
+                    "attribute_modifiers"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

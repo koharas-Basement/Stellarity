@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:item_model": "stellarity:dragonblade"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.dragonborn"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.dragonborn.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherite_sword"],
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "dragonblade"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

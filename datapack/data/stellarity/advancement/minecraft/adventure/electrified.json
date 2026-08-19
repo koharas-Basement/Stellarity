@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "color": "orange",
+            "pattern": "base"
+          },
+          {
+            "color": "yellow",
+            "pattern": "cross"
+          },
+          {
+            "color": "orange",
+            "pattern": "gradient"
+          },
+          {
+            "color": "orange",
+            "pattern": "gradient_up"
+          },
+          {
+            "color": "yellow",
+            "pattern": "border"
+          },
+          {
+            "color": "orange",
+            "pattern": "border"
+          },
+          {
+            "color": "yellow",
+            "pattern": "flower"
+          },
+          {
+            "color": "orange",
+            "pattern": "flower"
+          },
+          {
+            "color": "yellow",
+            "pattern": "curly_border"
+          },
+          {
+            "color": "orange",
+            "pattern": "curly_border"
+          }
+        ],
+        "minecraft:block_entity_data": {
+          "id": "minecraft:banner"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.electrified"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.electrified.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "dash": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["dash"]]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "quality": 1,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/spellbook/book_of_return",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

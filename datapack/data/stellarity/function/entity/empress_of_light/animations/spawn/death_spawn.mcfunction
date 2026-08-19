@@ -1,0 +1,3 @@
+summon minecraft:vindicator ~ ~ ~ {NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:0b}],Tags:["stellarity.empress_of_light","kohara.boss","stellarity.empress_of_light.death_animation","smithed.entity","stellarity.empress_of_light.can_attack"],Invulnerable:1b,attributes:[{id:"armor",base:12d},{id:"armor_toughness",base:4d},{id:"max_health",base:500d}],equipment:{mainhand:{id:"minecraft:totem_of_undying",count:1},offhand:{id:"minecraft:totem_of_undying",count:1b}},drop_chances:{mainhand:0.0,offhand:0.0}, Health:5f,DeathLootTable:""}
+
+data modify entity @s data."stellarity:owner".UUID set from entity @n[type=vindicator,tag=stellarity.empress_of_light.death_animation] UUID

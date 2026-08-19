@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:damage": 431
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.super_sonic"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.super_sonic.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "fly": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [["fly"]],
+  "rewards": {
+    "experience": 300
+  }
+}

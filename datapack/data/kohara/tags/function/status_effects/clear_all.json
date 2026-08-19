@@ -1,0 +1,12 @@
+{
+  "values": [
+    "stellarity:util/status_effects/jinx/remove",
+    "stellarity:util/status_effects/voided/remove",
+    "stellarity:util/status_effects/frostburn/remove",
+    "stellarity:util/status_effects/prismatic_inferno/remove",
+    "stellarity:util/status_effects/creative_shock/remove",
+    "stellarity:util/status_effects/brittle/remove",
+    "stellarity:util/status_effects/echo/remove",
+    "stellarity:util/status_effects/bloom/remove"
+  ]
+}

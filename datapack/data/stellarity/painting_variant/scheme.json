@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:scheme",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.scheme.author"
+  },
+  "height": 3,
+  "width": 3,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.scheme.title"
+  }
+}

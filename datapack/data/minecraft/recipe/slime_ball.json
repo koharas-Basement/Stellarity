@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slime_ball",
+  "ingredients": ["minecraft:slime_block"],
+  "result": {
+    "id": "minecraft:slime_ball",
+    "count": 9
+  }
+}

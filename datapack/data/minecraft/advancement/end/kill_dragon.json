@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "dragon_head"
+    },
+    "title": {
+      "translate": "advancements.end.kill_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.end.kill_dragon.description",
+      "color": "#E562FF",
+      "italic": true
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:dragons_den/sacrificial_ritual",
+  "criteria": {
+    "kill_dragon": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "recipes": ["minecraft:end_crystal"],
+    "experience": 4000
+  }
+}

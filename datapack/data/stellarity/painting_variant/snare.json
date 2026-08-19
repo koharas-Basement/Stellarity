@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:snare",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.snare.author"
+  },
+  "height": 1,
+  "width": 1,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.snare.title"
+  }
+}

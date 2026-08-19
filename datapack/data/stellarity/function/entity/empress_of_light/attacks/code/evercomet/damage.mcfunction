@@ -1,0 +1,1 @@
+damage @s 8.0 kohara:simulated_explosion

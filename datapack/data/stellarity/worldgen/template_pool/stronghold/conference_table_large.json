@@ -1,0 +1,41 @@
+{
+  "fallback": "stellarity:stronghold/fallback_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "stellarity:stronghold/conference_room/table_large_1",
+        "processors": "stellarity:stronghold_generic"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "stellarity:stronghold/conference_room/table_large_2",
+        "processors": "stellarity:stronghold_generic"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "stellarity:stronghold/conference_room/table_large_3",
+        "processors": "stellarity:stronghold_generic"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "stellarity:stronghold/conference_room/table_large_4",
+        "processors": "stellarity:stronghold_generic"
+      }
+    }
+  ]
+}

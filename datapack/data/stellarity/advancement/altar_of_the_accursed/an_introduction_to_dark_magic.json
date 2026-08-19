@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "components": {
+        "item_model": "stellarity:endonomicon"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.altar_of_the_accursed_intro"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.altar_of_the_accursed_intro.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "craft_using_altar_of_the_accursed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe",
+      "components": {
+        "minecraft:item_model": "stellarity:shulker_axe"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.god_slayer"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.god_slayer.description",
+        "color": "#E562FF"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:end/respawn_dragon",
+  "criteria": {
+    "kill_dragon_again": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  }
+}

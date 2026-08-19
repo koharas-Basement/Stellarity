@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "advancements.stellarity.obtain_ender_pearl"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.obtain_ender_pearl.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/enter_the_nether",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:ender_pearl"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["minecraft:ender_eye"]
+  }
+}

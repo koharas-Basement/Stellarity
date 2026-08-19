@@ -1,0 +1,19 @@
+{
+    "clock": "minecraft:overworld",
+    "period_ticks": 24000,
+    "time_markers": {},
+    "tracks": {
+        "minecraft:gameplay/sky_light_level": {
+            "keyframes": [
+                {
+                    "ticks": 0,
+                    "value": 0
+                },
+                {
+                    "ticks": 23999,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

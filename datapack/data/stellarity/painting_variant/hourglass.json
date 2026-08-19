@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:hourglass",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.hourglass.author"
+  },
+  "height": 1,
+  "width": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.hourglass.title"
+  }
+}

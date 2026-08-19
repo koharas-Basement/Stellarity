@@ -1,0 +1,936 @@
+{
+  "type": "minecraft:the_end",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:end",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "stellarity:hallowed_tundra",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 1],
+            "continentalness": [-1.2, -0.725],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_hallow",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-1, 1],
+            "continentalness": [-1.2, -0.725],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:prismatic_dunes",
+          "parameters": {
+            "temperature": [0.48, 1],
+            "humidity": [-1, 1],
+            "continentalness": [-1.2, -0.725],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_spikes",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_barrens",
+          "parameters": {
+            "temperature": [-0.405, -0.15],
+            "humidity": [-1, 0.265],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_barrens",
+          "parameters": {
+            "temperature": [-0.15, 0.2],
+            "humidity": [-1, -0.47000000000000003],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:ender_wastes",
+          "parameters": {
+            "temperature": [-0.15, 0.2],
+            "humidity": [-0.47000000000000003, 0.265],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_barrens",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-1, -0.47000000000000003],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:ender_wastes",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-0.47000000000000003, -0.19],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:ender_wastes",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-0.19, 0.265],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:crystal_crags",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [0.2, 1],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:fiery_hills",
+          "parameters": {
+            "temperature": [0.48, 1],
+            "humidity": [-1, 0.265],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [0.48, 1],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_shrubland",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, 0.545],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_shrubland",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [0.045, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.065],
+            "weirdness": [-1, -0.26666668],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frosted_valley",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_highlands",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [-1, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.065],
+            "weirdness": [-1, -0.26666668],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:amethyst_forest",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.065],
+            "weirdness": [-1, -0.26666668],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_highlands",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-1, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.065],
+            "weirdness": [-1, -0.26666668],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:amethyst_forest",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.065],
+            "weirdness": [-1, -0.26666668],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:endless_dunes",
+          "parameters": {
+            "temperature": [0.48, 1],
+            "humidity": [-1, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frosted_valley",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_wilds",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_wilds",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [-0.19, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.045, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.405, -0.15],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [-0.15, 0.48],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.15, 0.2],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_shrubland",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-0.19, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_marsh",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:ashfall_deltas",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:warped_marsh",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-0.19, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:warped_marsh",
+          "parameters": {
+            "temperature": [-0.405, -0.15],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-1, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:prismarine_forest",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:prismarine_forest",
+          "parameters": {
+            "temperature": [-0.15, 0.48],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-1, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_shrubland",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [0.045, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.26666668, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_highlands",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-1, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.26666668, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_highlands",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [0.045, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.26666668, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:amethyst_forest",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.26666668, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:amethyst_forest",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.26666668, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frosted_valley",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_wilds",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_wilds",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [-0.19, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.045, 0.265],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.405, -0.15],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, -0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [-0.15, 0.48],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.15, 0.2],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_shrubland",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-0.19, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.26666668, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:flesh_tundra",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_spikes",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-0.19, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_barrens",
+          "parameters": {
+            "temperature": [-0.405, -0.15],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.405, -0.15],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:crystal_crags",
+          "parameters": {
+            "temperature": [-0.15, 0.2],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:ender_wastes",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:crystal_crags",
+          "parameters": {
+            "temperature": [0.2, 0.48],
+            "humidity": [-0.19, 0.685],
+            "continentalness": [-0.725, -0.15],
+            "erosion": [-1, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_shrubland",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frosted_valley",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, 0.545],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:amethyst_forest",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-1, -0.375],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:flesh_tundra",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.05, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frosted_valley",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-0.19, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.05, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_shrubland",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-0.19, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.05, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.05, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, 0.545],
+            "weirdness": [-0.05, 0.05],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:prismarine_forest",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.265, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [0.545, 1],
+            "weirdness": [-0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frozen_shrubland",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, -0.065],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_highlands",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-1, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, -0.065],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:amethyst_forest",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.045, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.375, -0.065],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:flesh_tundra",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, -0.19],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:frosted_valley",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-0.19, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:end_shrubland",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [-0.19, 0.045],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:end_midlands",
+          "parameters": {
+            "temperature": [-0.405, 0.48],
+            "humidity": [0.265, 0.685],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "stellarity:the_nest",
+          "parameters": {
+            "temperature": [-0.405, 0.2],
+            "humidity": [0.685, 1],
+            "continentalness": [-0.15, 1],
+            "erosion": [-0.065, 0.545],
+            "weirdness": [0.05, 1],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:the_end",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -2,
+            "erosion": -2,
+            "weirdness": 0,
+            "depth": [-2, 2],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

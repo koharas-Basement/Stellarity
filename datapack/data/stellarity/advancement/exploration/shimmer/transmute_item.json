@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancements.stellarity.transmute_item"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.transmute_item.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:exploration/enter_hallow",
+  "criteria": {
+    "transmute_item": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

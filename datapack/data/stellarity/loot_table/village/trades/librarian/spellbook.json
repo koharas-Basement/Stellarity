@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/spellbook/book_of_updraft"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/spellbook/book_of_light"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/spellbook/book_of_obstruct"
+        }
+      ]
+    }
+  ]
+}

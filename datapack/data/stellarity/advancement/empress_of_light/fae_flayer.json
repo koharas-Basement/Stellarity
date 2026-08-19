@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_quartz_block",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "stellarity:altar_of_the_sacred"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.fae_flayer"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.fae_flayer.description",
+        "color": "gold"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:empress_of_light/summon_empress",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

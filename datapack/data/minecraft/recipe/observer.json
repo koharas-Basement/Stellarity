@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###", "RRQ", "###"],
+  "key": {
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone",
+    "#": "#minecraft:stone_crafting_materials"
+  },
+  "result": {
+    "id": "minecraft:observer"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "slime_ball",
+  "category": "building",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "minecraft:ender_eye"
+  ],
+  "result": {
+    "id": "minecraft:slime_ball",
+    "count": 3
+  }
+}

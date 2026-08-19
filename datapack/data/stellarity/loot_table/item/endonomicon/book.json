@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:endonomicon",
+                "minecraft:custom_data": {
+                  "stellarity:item": "endonomicon",
+                  "kohara:right_click": true
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:item_name": {
+                  "translate": "item.stellarity.endonomicon"
+                },
+                "!max_damage": {},
+                "damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "enchantment_glint_override": true
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "item.stellarity.endonomicon.flavor_text",
+                  "color": "#BB6BDE",
+                  "italic": true
+                },
+                "",
+                {
+                  "text": "vol 4.0.0",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "book.byAuthor",
+                  "with": [
+                    {
+                      "text": "Ashley",
+                      "color": "gray",
+                      "font": "illageralt"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "book.generation.3",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_cod",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "stellarity:crystal_heartfish"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.topped_off",
+      "color": "#FF65D7"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.topped_off.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "stellarity:void_fishing/void_reels",
+  "criteria": {
+    "cardio": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

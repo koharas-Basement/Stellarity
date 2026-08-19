@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "suspicious_stew",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:chorus_fruit"
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "count": 1,
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 160
+        }
+      ]
+    }
+  }
+}

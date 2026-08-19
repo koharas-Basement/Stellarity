@@ -1,0 +1,13 @@
+{
+  "asset_id": "stellarity:end_blossom",
+  "author": {
+    "color": "gray",
+    "translate": "painting.stellarity.end_blossom.author"
+  },
+  "height": 4,
+  "width": 4,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.stellarity.end_blossom.title"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "values": [
+    "kohara:armor_piercing",
+    "kohara:armor_piercing_no_knockback",
+    "kohara:armor_piercing_difficulty_scaling",
+    "kohara:true_damage",
+    "kohara:true_damage_respects_resistance",
+    "kohara:true_damage_difficulty_scaling",
+    "kohara:no_knockback_ignores_iframes",
+    "kohara:ignores_iframes",
+    "kohara:simulated_explosion",
+    "minecraft:arrow",
+    "#stellarity:custom_damage"
+  ]
+}

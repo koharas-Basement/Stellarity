@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "stellarity:return_gateway",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 5783475,
+    "spread_type": "triangular",
+    "spacing": 35,
+    "separation": 25
+  }
+}

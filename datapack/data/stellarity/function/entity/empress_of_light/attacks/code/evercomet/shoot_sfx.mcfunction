@@ -1,0 +1,1 @@
+playsound minecraft:block.amethyst_cluster.fall hostile @a[distance=0..] ~ ~ ~ 2.2 1

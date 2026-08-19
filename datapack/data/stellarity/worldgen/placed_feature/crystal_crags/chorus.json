@@ -1,0 +1,20 @@
+{
+	"feature": "chorus_plant",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 0,
+				"max_inclusive": 3
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 2
+		}
+	]
+}

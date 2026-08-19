@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_shulker_box"
+    },
+    "title": {
+      "translate": "advancements.stellarity.color_a_shulker_box"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.color_a_shulker_box.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stellarity:end_city/portable_storage",
+  "criteria": {
+    "color_shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#kohara:colored_shulker_boxes"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["color_shulker_box"]]
+}

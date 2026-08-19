@@ -1,0 +1,12 @@
+{
+  "values": [
+    "stellarity:util/status_effects/jinx/load",
+    "stellarity:util/status_effects/voided/load",
+    "stellarity:util/status_effects/frostburn/load",
+    "stellarity:util/status_effects/prismatic_inferno/load",
+    "stellarity:util/status_effects/creative_shock/load",
+    "stellarity:util/status_effects/brittle/load",
+    "stellarity:util/status_effects/echo/load",
+    "stellarity:util/status_effects/bloom/load"
+  ]
+}

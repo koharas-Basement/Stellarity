@@ -1,0 +1,97 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "minecraft:dyed_color": 11041988,
+        "minecraft:item_model": "stellarity:shulker_chestplate"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.i_am_titanium"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.i_am_titanium.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:altar_of_the_accursed/cursed_crafting",
+  "criteria": {
+    "shulker_helmet": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_helmet"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shulker_chestplate": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_chestplate"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shulker_leggings": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_leggings"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shulker_boots": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "stellarity:item": "shulker_boots"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["shulker_boots"],
+    ["shulker_leggings"],
+    ["shulker_chestplate"],
+    ["shulker_helmet"]
+  ],
+  "rewards": {
+    "experience": 150
+  }
+}

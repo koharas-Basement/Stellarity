@@ -1,0 +1,25 @@
+execute rotated ~ ~ run particle minecraft:dust{color:[1.0, 0.0, 0.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~30 ~ run particle minecraft:dust{color:[1.0, 0.282, 0.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~60 ~ run particle minecraft:dust{color:[1.0, 0.533, 0.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~90 ~ run particle minecraft:dust{color:[1.0, 0.816, 0.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~120 ~ run particle minecraft:dust{color:[1.0, 1.0, 0.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~150 ~ run particle minecraft:dust{color:[0.733, 1.0, 0.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~180 ~ run particle minecraft:dust{color:[0.0, 1.0, 0.165], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~210 ~ run particle minecraft:dust{color:[0.0, 1.0, 0.533], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~240 ~ run particle minecraft:dust{color:[0.0, 1.0, 0.918], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~270 ~ run particle minecraft:dust{color:[0.149, 0.518, 1.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~300 ~ run particle minecraft:dust{color:[0.616, 0.2, 1.0], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+execute rotated ~330 ~ run particle minecraft:dust{color:[1.0, 0.0, 0.502], scale:1.45} ^ ^0.3 ^4 0.9 0.75 0.9 1 4
+
+execute rotated ~ ~ run particle minecraft:dust{color:[1.0, 0.0, 0.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~30 ~ run particle minecraft:dust{color:[1.0, 0.282, 0.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~60 ~ run particle minecraft:dust{color:[1.0, 0.533, 0.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~90 ~ run particle minecraft:dust{color:[1.0, 0.816, 0.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~120 ~ run particle minecraft:dust{color:[1.0, 1.0, 0.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~150 ~ run particle minecraft:dust{color:[0.733, 1.0, 0.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~180 ~ run particle minecraft:dust{color:[0.0, 1.0, 0.165], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~210 ~ run particle minecraft:dust{color:[0.0, 1.0, 0.533], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~240 ~ run particle minecraft:dust{color:[0.0, 1.0, 0.918], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~270 ~ run particle minecraft:dust{color:[0.149, 0.518, 1.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~300 ~ run particle minecraft:dust{color:[0.616, 0.2, 1.0], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4
+execute rotated ~330 ~ run particle minecraft:dust{color:[1.0, 0.0, 0.502], scale:1.45} ^ ^0.3 ^3 0.6 0.6 0.6 1 4

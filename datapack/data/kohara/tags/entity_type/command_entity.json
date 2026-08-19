@@ -1,0 +1,11 @@
+{
+  "values": [
+    "marker",
+    "interaction",
+    "area_effect_cloud",
+    "armor_stand",
+    "#kohara:item_frames",
+    "#kohara:display_entities",
+    "mannequin"
+  ]
+}
