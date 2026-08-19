@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:block_blob",
-  "state": {
-    "id": "minecraft:slime_block"
-  },
-  "can_place_on": {
-    "type": "minecraft:true"
-  }
-}

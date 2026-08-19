@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:any_of",
-  "terms": [
-      "stellarity:void_fishing/holding_fishing_rod/mainhand",
-      "stellarity:void_fishing/holding_fishing_rod/offhand"
-  ]
-}

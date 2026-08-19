@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#kohara:invalid_targets",
-    "minecraft:player"
-  ]
-}

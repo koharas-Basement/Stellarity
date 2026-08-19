@@ -1,5 +1,0 @@
-{
-  "type": "minecraft:enchant_randomly",
-  "options": ["minecraft:lure"],
-  "only_compatible": true
-}

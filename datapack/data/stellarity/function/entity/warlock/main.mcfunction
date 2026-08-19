@@ -1,1 +1,0 @@
-# execute as @e[type=vex,distance=..5,tag=!stellarity.aware] run 

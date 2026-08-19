@@ -1,1 +1,0 @@
-$teleport @s ^ ^ ^ ~$(rotation) ~

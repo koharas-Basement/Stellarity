@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:random_selector",
-  "features": [],
-  "default": {
-    "feature": "stellarity:amethyst_forest/vegetation/crying_obsidian",
-    "placement": []
-  }
-}

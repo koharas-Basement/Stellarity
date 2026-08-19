@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:any_of",
-  "terms": [
-    "stellarity:item/armor/floral/wearing_helmet",
-    "stellarity:item/armor/floral/wearing_chestplate",
-    "stellarity:item/armor/floral/wearing_leggings",
-    "stellarity:item/armor/floral/wearing_boots"
-  ]
-}

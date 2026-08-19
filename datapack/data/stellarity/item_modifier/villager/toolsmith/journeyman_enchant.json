@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:enchant_randomly",
-  "options": [
-    "minecraft:efficiency",
-    "minecraft:silk_touch",
-    "minecraft:unbreaking"
-  ],
-  "only_compatible": true
-}

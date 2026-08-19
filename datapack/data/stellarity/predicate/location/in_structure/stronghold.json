@@ -1,6 +1,0 @@
-{
-  "type": "minecraft:location_check",
-  "predicate": {
-    "structures": "minecraft:stronghold"
-  }
-}
