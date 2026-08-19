@@ -21,7 +21,8 @@
     "announce_to_chat": false,
     "show_toast": true,
     "hidden": true,
-    "frame": "challenge"
+    "frame": "challenge",
+    "background": "minecraft:gui/advancements/backgrounds/end"
   },
   "criteria": {
     "": {

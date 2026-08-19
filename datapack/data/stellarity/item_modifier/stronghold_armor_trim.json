@@ -1,41 +1,44 @@
-[
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "minecraft:gold",
-        "pattern": "minecraft:eye"
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:eye"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
     },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
-    }
-  },
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "minecraft:diamond",
-        "pattern": "minecraft:eye"
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:diamond",
+          "pattern": "minecraft:eye"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
     },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
-    }
-  },
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "minecraft:emerald",
-        "pattern": "minecraft:eye"
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:emerald",
+          "pattern": "minecraft:eye"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
-    },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
     }
-  }
-]
+  ]
+}

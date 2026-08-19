@@ -1,67 +1,70 @@
-[
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "minecraft:amethyst",
-        "pattern": "minecraft:spire"
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:amethyst",
+          "pattern": "minecraft:spire"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
     },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
-    }
-  },
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "stellarity:enderite",
-        "pattern": "minecraft:spire"
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "stellarity:enderite",
+          "pattern": "minecraft:spire"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
     },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
-    }
-  },
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "minecraft:gold",
-        "pattern": "minecraft:spire"
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:spire"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
     },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
-    }
-  },
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "stellarity:chorus",
-        "pattern": "minecraft:spire"
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "stellarity:chorus",
+          "pattern": "minecraft:spire"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
     },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
-    }
-  },
-  {
-    "type": "minecraft:set_components",
-    "components": {
-      "minecraft:trim": {
-        "material": "minecraft:diamond",
-        "pattern": "minecraft:spire"
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:diamond",
+          "pattern": "minecraft:spire"
+        }
+      },
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3333
       }
-    },
-    "condition": {
-      "type": "minecraft:random_chance",
-      "chance": 0.3333
     }
-  }
-]
+  ]
+}

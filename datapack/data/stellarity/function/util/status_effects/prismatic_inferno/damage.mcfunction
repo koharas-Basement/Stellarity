@@ -19,7 +19,7 @@ execute if score #is_in_daylight stellarity.misc matches 1 run function stellari
 playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~ 1 0.9
 playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~ 1 1.2
 
-tag @p[distance=0.01..] add kohara.attacker
+execute unless entity @s[tag=stellarity.damage.empress_of_light.prismatic_bolts] run tag @p[distance=0.01..] add kohara.attacker
 
 data modify entity @s Fire set value 1s
 
