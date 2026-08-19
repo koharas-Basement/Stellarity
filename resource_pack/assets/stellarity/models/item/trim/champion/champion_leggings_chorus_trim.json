@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "stellarity:item/champion_leggings",
-        "layer1": "stellarity:item/champion_leggings",
-        "layer2": "minecraft:trims/items/leggings_trim_chorus"
-    }
-}

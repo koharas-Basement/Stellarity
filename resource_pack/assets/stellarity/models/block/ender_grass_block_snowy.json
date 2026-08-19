@@ -1,9 +1,0 @@
-{
-	"parent": "minecraft:block/cube_bottom_top",
-	"textures": {
-		"bottom": "stellarity:block/ender_dirt",
-		"particle": "stellarity:block/ender_dirt",
-		"side": "stellarity:block/ender_grass_block_snow",
-		"top": "stellarity:block/ender_grass_block_top"
-	}
-}
