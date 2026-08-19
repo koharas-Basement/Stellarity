@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "advancements.stellarity.kill_shulker"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.kill_shulker.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "defeat_shulkers": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:shulker"
+        }
+      }
+    }
+  }
+}

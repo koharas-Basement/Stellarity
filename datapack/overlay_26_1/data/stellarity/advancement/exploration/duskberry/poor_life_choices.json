@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "stellarity:duskberry"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.poor_life_choices"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.poor_life_choices.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:exploration/duskberry/discover",
+  "criteria": {
+    "eat_duskberry": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:sweet_berries"],
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "duskberry"
+            }
+          }
+        }
+      }
+    },
+    "feed_duskberry": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:sweet_berries"],
+          "components": {
+            "minecraft:custom_data": {
+              "stellarity:item": "duskberry"
+            }
+          }
+        },
+        "entity": {
+          "type": "fox"
+        }
+      }
+    },
+    "plant_duskberry": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:sweet_berries"],
+              "components": {
+                "minecraft:custom_data": {
+                  "stellarity:item": "duskberry"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["plant_duskberry"], ["eat_duskberry"], ["feed_duskberry"]]
+}
