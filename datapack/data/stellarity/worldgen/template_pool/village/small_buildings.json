@@ -119,6 +119,15 @@
       }
     },
     {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "stellarity:village/farm_6",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
       "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",

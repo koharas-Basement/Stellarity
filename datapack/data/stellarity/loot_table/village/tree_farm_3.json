@@ -10,7 +10,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_log",
+          "name": "minecraft:mangrove_log",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -24,7 +24,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_sapling",
+          "name": "minecraft:mangrove_propagule",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -38,7 +38,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:oak_leaves",
+          "name": "minecraft:mangrove_leaves",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:birch_log",
+          "name": "minecraft:pale_oak_log",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -75,7 +75,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:birch_sapling",
+          "name": "minecraft:pale_oak_sapling",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -89,7 +89,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:birch_leaves",
+          "name": "minecraft:pale_oak_leaves",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -112,7 +112,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_log",
+          "name": "minecraft:poplar_log",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -126,7 +126,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_sapling",
+          "name": "minecraft:poplar_sapling",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -140,7 +140,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dark_oak_leaves",
+          "name": "minecraft:red_poplar_leaves",
           "modifier": [
             {
               "type": "minecraft:set_count",
@@ -151,6 +151,38 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_poplar_leaves",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_poplar_leaves",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shelf_mushroom"
         }
       ]
     }
