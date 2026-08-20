@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "stellarity:blueprint/util/animated_java/eol/eol",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6, -4, 6],
+			"to": [10, 8, 10],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [6, -4, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [1, 11.625, 1.5, 13.125],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [1.5, 11.625, 2, 13.125],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [2, 11.625, 2.5, 13.125],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [1.5, 11.625, 2, 13.125],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [9.5, 8.25, 9, 7.75],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [12.875, 8.125, 12.375, 8.625],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

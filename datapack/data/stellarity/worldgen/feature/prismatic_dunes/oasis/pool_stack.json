@@ -115,13 +115,6 @@
             "type": "minecraft:all_of",
             "predicates": [
               {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air",
-                  "minecraft:short_grass"
-                ]
-              },
-              {
                 "type": "minecraft:would_survive",
                 "state": {
                   "id": "minecraft:short_grass"

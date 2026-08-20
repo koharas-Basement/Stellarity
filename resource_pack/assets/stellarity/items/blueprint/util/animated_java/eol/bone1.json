@@ -1,0 +1,51 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"when": "default_phase2",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/default_phase2/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "daylight",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/daylight/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "radiant",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/radiant/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "stellarity:blueprint/util/animated_java/eol/bone1",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
+	}
+}
