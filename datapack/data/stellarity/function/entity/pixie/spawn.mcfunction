@@ -2,4 +2,6 @@ summon vex ~ ~ ~ {Health:5,Silent:1b,active_effects:[{id:"minecraft:invisibility
 
 execute positioned ~ ~ ~ as @n[type=vex,tag=stellarity.pixie] store result score @s stellarity.misc3 run random value 1..4
 
+function stellarity:util/animated_java/pixie/summon {args: {animation: 'flying_pixie', start_animation: true}}
+
 function stellarity:entity/pixie/sounds/ambient

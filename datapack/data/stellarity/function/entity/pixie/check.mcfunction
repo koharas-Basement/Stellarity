@@ -2,6 +2,7 @@ execute store result score #pixie_count stellarity.misc if entity @e[type=vex,ta
 execute store result score #allay_count stellarity.misc if entity @e[type=allay,tag=stellarity.allay.natural_hallow_spawn]
 
 execute unless score #pixie_count stellarity.misc matches 30.. run function stellarity:entity/pixie/spawn
+execute unless score #pixie_count stellarity.misc matches 30.. if predicate kohara:chance/15percent run function stellarity:entity/pixie/spawn_radiant
 execute unless score #allay_count stellarity.misc matches 5.. if predicate kohara:chance/5percent run function stellarity:entity/pixie/allay
 
 # Prevent death animation from playing
