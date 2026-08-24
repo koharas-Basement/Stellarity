@@ -26,4 +26,4 @@ execute if entity @s[tag=stellarity.empress_of_light.dash,tag=stellarity.empress
 
 execute as @e[type=marker,tag=stellarity.empress_of_light.prismatic_bolt] at @s anchored eyes run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts/loop
 execute as @e[type=marker,tag=stellarity.empress_of_light.prismatic_bolt_2] at @s anchored eyes run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts_2/loop
-execute as @e[type=marker,tag=stellarity.empress_of_light.ethereal_lance] at @s anchored eyes run function stellarity:entity/empress_of_light/attacks/code/ethereal_lance/sword_loop
+execute as @e[type=item_display,tag=stellarity.empress_of_light.ethereal_lance] at @s anchored eyes run function stellarity:entity/empress_of_light/attacks/code/ethereal_lance/sword_loop

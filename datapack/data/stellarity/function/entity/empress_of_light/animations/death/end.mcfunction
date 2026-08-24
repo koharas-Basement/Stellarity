@@ -1,3 +1,4 @@
+execute as @n[tag=stellarity.util.animated_java.eol.root] run function stellarity:util/animated_java/eol/remove/this
 particle end_rod ~ ~1 ~ 0 0 0 0.6 150 normal
 particle firework ~ ~1 ~ 0 0 0 0.6 150 normal
 

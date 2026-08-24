@@ -38,6 +38,46 @@
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]
 				}
+			},
+			{
+				"when": "default_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/default_hurt/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "default_phase2_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/default_phase2_hurt/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "daylight_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/daylight_hurt/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "radiant_hurt",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/eol/radiant_hurt/bone1",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
 			}
 		],
 		"fallback": {

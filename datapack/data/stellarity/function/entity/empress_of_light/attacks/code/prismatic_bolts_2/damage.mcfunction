@@ -8,9 +8,9 @@ execute if predicate stellarity:entity/empress_of_light/is_daytime if score #dif
 execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 140
 execute if predicate stellarity:entity/empress_of_light/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 180
 
-execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 90
-execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 120
-execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 160
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 130
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 170
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 210
 
 tag @s add stellarity.damage.empress_of_light.prismatic_bolts
 

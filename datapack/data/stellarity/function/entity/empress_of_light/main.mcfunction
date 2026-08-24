@@ -1,7 +1,7 @@
 # Teleport model AS to the hitbox vindicator
-  execute unless entity @s[tag=stellarity.empress_of_light.no_rotate] rotated as @s run tp @n[type=item_display,tag=stellarity.empress_of_light.model] ~ ~ ~ ~ 0
-  execute if entity @s[tag=stellarity.empress_of_light.no_rotate] run tp @n[type=item_display,tag=stellarity.empress_of_light.model] ~ ~ ~
-  execute if entity @s[tag=stellarity.empress_of_light.face_player] as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ 0
+  execute unless entity @s[tag=stellarity.empress_of_light.no_rotate] rotated as @s run tp @n[type=item_display,tag=stellarity.util.animated_java.eol.root] ~ ~ ~ ~ 0
+  execute if entity @s[tag=stellarity.empress_of_light.no_rotate] run tp @n[type=item_display,tag=stellarity.util.animated_java.eol.root] ~ ~ ~
+  execute if entity @s[tag=stellarity.empress_of_light.face_player] as @n[type=item_display,tag=stellarity.util.animated_java.eol.root] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ 0
 
 # Ambient particles
   particle portal ~ ~1.2 ~ 0 0 0 1.2 2
@@ -17,7 +17,7 @@ execute if score @s[tag=stellarity.empress_of_light.hurt] stellarity.empress_of_
   execute if predicate stellarity:entity/empress_of_light/is_daytime unless score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/loop_day
   execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run function stellarity:entity/empress_of_light/core/loop_radiant
 # Wing animation
-  execute as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
+  #execute as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:entity/empress_of_light/animations/wings/flap
 
 # Bossbar
 

@@ -1,0 +1,6 @@
+{
+	"parent": "stellarity:blueprint/util/animated_java/pixie/bone",
+	"textures": {
+		"0": "stellarity:blueprint/util/animated_java/pixie/magenta"
+	}
+}

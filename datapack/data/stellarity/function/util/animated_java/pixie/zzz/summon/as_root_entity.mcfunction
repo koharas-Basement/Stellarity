@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "stellarity:util/animated_java/pixie"
-data modify storage animated_java:temp entry.data.rig_hash set value "6b6df6249671aaa2842c4c7c2843091cbc6dfbe0ee271c6bf41cc8fe9037e83e"
+data modify storage animated_java:temp entry.data.rig_hash set value "1fc553b74340010324e2c0c619ba8ce4fc37721ddeeadfcf9e0720d40b61f9bf"
 tp @s ~ ~ ~ ~ ~
 execute on passengers if entity @s[tag=stellarity.util.animated_java.pixie.node.bone] run function stellarity:util/animated_java/pixie/zzz/summon/as_node/bone
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
@@ -26,7 +26,7 @@ data modify storage animated_java:temp entry.data.uuids_by_name.bone2 set from s
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
 function stellarity:util/animated_java/pixie/zzz/set_default_pose
-execute if data storage animated_java:temp args.variant run function stellarity:util/animated_java/pixie/zzz/summon/zzz/variant_arg/no_variants_warning
+execute if data storage animated_java:temp args.variant run function stellarity:util/animated_java/pixie/zzz/summon/variant_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail
 execute if data storage animated_java:temp args.animation run function stellarity:util/animated_java/pixie/zzz/summon/animation_arg/process with storage animated_java:temp args
 execute if score #success aj.i matches 0 run return fail

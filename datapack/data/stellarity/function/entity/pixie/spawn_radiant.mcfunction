@@ -1,2 +1,3 @@
 summon vex ~ ~ ~ {Health:5,Silent:1b,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:0b}],attributes:[{id:"follow_range",base:-1d},{id:"max_health",base:5d},{id:"knockback_resistance",base:0.9d}],DeathLootTable:"stellarity:entity/pixie",CustomName:{"translate":"entity.stellarity.pixie","color":"#FFD655"},Tags:["stellarity.pixie","stellarity.pixie.radiant","smithed.entity"],equipment:{}}
 
+function stellarity:util/animated_java/pixie/summon {args: {variant: 'red_pixie', animation: 'flying_pixie', start_animation: true}}

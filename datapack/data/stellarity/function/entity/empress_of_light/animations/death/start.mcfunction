@@ -1,3 +1,4 @@
+execute as @n[tag=stellarity.util.animated_java.eol.root] run function stellarity:util/animated_java/eol/animations/eol_death/play_exclusive
 scoreboard players reset #ambient stellarity.misc
 
 tag @s add stellarity.empress_of_light.death_animation

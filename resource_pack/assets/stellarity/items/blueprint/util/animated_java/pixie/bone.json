@@ -1,9 +1,61 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "stellarity:blueprint/util/animated_java/pixie/bone",
-		"tints": [
-			{"type": "minecraft:dye", "default": [1, 1, 1]}
-		]
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "AJ_INTERNAL_EMPTY",
+				"model": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"when": "red_pixie",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/pixie/red_pixie/bone",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "magenta_pixie",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/pixie/magenta_pixie/bone",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "light_blue_pixie",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/pixie/light_blue_pixie/bone",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "lime_pixie",
+				"model": {
+					"type": "minecraft:model",
+					"model": "stellarity:blueprint/util/animated_java/pixie/lime_pixie/bone",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "stellarity:blueprint/util/animated_java/pixie/bone",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
 	}
 }

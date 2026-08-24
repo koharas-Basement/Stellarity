@@ -1,0 +1,6 @@
+{
+	"parent": "stellarity:blueprint/util/animated_java/eol/bone10",
+	"textures": {
+		"0": "stellarity:blueprint/util/animated_java/eol/eol_hurt"
+	}
+}

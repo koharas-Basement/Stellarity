@@ -8,7 +8,6 @@ execute if score #bolts stellarity.misc matches 5 run summon marker ~ ~0.83 ~ {T
 execute if score #bolts stellarity.misc matches 6 run summon marker ~ ~0.83 ~ {Tags:["stellarity.empress_of_light.prismatic_bolt_2","stellarity.marker","smithed.entity","smithed.strict"],Rotation:[225f, 0f]}
 execute if score #bolts stellarity.misc matches 7 run summon marker ~ ~0.83 ~ {Tags:["stellarity.empress_of_light.prismatic_bolt_2","stellarity.marker","smithed.entity","smithed.strict"],Rotation:[270f, 0f]}
 execute if score #bolts stellarity.misc matches 8 run summon marker ~ ~0.83 ~ {Tags:["stellarity.empress_of_light.prismatic_bolt_2","stellarity.marker","smithed.entity","smithed.strict"],Rotation:[315f, 0f]}
-execute if score #bolts stellarity.misc matches 8 run give BananaKingXO dirt 8
 
 execute as @n[type=marker,tag=stellarity.empress_of_light.prismatic_bolt_2] at @s run function stellarity:entity/empress_of_light/attacks/code/prismatic_bolts_2/post_spawn
 

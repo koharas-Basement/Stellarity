@@ -5,9 +5,9 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "stellarity:item/dragonblade_held"
+          "model": "stellarity:item/dragonblade_3d"
         },
-        "when": ["thirdperson_righthand", "thirdperson_lefthand"]
+        "when": ["thirdperson_righthand", "thirdperson_lefthand","firstperson_righthand", "firstperson_lefthand"]
       }
     ],
     "fallback": {

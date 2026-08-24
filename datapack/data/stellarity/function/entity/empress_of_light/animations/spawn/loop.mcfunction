@@ -10,8 +10,7 @@ execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 if s
 if predicate stellarity:entity/empress_of_light/is_daytime run \
 tag @s add stellarity.empress_of_light.daytime
 
-# Radiant is still WIP. Variant will be fully added in 6.1.0.
-#execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run \
+execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run \
 tag @s add stellarity.empress_of_light.radiant
 
 execute if score @s stellarity.empress_of_light.animation matches 1 as @a[distance=..60] run function stellarity:entity/empress_of_light/animations/spawn/stopsound

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "stellarity:blueprint/util/animated_java/pixie/texture",
+		"0": "stellarity:blueprint/util/animated_java/pixie/yellow",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -10,13 +10,13 @@
 	},
 	"elements": [
 		{
-			"from": [8, 8, 6],
-			"to": [12, 8, 10],
+			"from": [8, 8.5, 5.5],
+			"to": [13, 8.5, 10.5],
 			"rotation": {
 				"x": 0,
 				"y": 0,
 				"z": 0,
-				"origin": [10, 7, 7]
+				"origin": [11, 7.5, 6.5]
 			},
 			"faces": {
 				"north": {

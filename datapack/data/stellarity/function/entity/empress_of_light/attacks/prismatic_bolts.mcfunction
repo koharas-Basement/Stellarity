@@ -1,3 +1,4 @@
+execute as @n[tag=stellarity.util.animated_java.eol.root] run function stellarity:util/animated_java/eol/animations/eol_flying/play_exclusive
 tag @s add stellarity.empress_of_light.prismatic_bolts
 tag @s add stellarity.empress_of_light.face_player
 

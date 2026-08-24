@@ -1,3 +1,4 @@
+execute as @n[tag=stellarity.util.animated_java.eol.root] run function stellarity:util/animated_java/eol/animations/eol_flying/play_exclusive
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration: 200,RadiusPerTick:-0.03,Radius:5, Tags: ["stellarity.empress_of_light.teleport","smithed.entity","smithed.strict"],custom_particle:{type:"block","block_state":"air"}}
 execute as @n[type=area_effect_cloud,tag=stellarity.empress_of_light.teleport] at @s rotated as @p rotated ~ 0 run tp ~ ~ ~
 
