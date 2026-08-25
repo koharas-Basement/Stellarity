@@ -1,0 +1,144 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/tamaris.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": [" "]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/enderite_upgrade_smithing_template.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["!"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/spectral_fury.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["#"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/sandstorm_trident.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["$"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/hallowed_chestplate.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["%"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/champion_chestplate.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["\u0026"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/floral_chestplate.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["\u0027"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_chestplate.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["("]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/chorus_plating.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": [")"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/satchel_of_voids.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["*"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/void_pendant.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["+"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/shield.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": [","]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_sword.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["-"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_shovel.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["."]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_spear.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["/"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_axe.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["0"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_hoe.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["1"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/shulker_pickaxe.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["2"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/book_of_jinx.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["3"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:item/book_of_conveyance.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["4"]
+    }
+  ]
+}
