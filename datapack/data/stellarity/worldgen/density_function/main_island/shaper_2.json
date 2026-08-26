@@ -2,7 +2,7 @@
   "type": "mul",
   "left": 2,
   "right": {
-    "type": "shifted_noise",
+    "type": "noise",
     "xz_scale": -2,
     "y_scale": -1,
     "noise": "stellarity:main_island/shaper_2",

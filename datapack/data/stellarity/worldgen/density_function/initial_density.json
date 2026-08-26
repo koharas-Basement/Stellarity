@@ -5,7 +5,7 @@
       "left": "stellarity:climate/depth",
       "right": {
         "input": "stellarity:factor",
-        "type": "minecraft:cache_2d"
+        "type": "minecraft:cache"
       },
       "type": "minecraft:mul"
     },

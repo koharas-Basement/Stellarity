@@ -1,7 +1,7 @@
 {
-  "type": "minecraft:flat_cache",
+  "type": "minecraft:cache",
   "input": {
-    "type": "minecraft:cache_2d",
+    "type": "minecraft:cache",
     "input": {
       "type": "minecraft:spline",
       "spline": {

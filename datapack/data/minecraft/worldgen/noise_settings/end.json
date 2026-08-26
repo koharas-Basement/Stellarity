@@ -10,9 +10,7 @@
   },
   "noise": {
     "min_y": 0,
-    "height": 384,
-    "size_horizontal": 2,
-    "size_vertical": 1
+    "height": 384
   },
   "noise_router": {
     "temperature": "stellarity:climate/temperature",
@@ -21,7 +19,7 @@
     "erosion": "stellarity:climate/erosion",
     "depth": "stellarity:climate/depth",
     "ridges": "stellarity:climate/ridges",
-    "preliminary_surface_level": "stellarity:initial_density",
+    "chunk_surface_level": "stellarity:initial_density",
     "final_density": "stellarity:final_density"
   },
   "spawn_target": [],

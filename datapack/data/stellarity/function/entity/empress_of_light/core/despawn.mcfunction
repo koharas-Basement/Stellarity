@@ -1,7 +1,7 @@
 particle flash{color:-1} ~ ~ ~ 0 0 0 0 1 force
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 
-kill @n[type=item_display,tag=stellarity.empress_of_light.model]
+execute as @n[tag=stellarity.util.animated_java.eol.root] run function stellarity:util/animated_java/eol/remove/this
 kill @n[type=marker,tag=stellarity.empress_of_light.tracker]
 tp @s ~ -2000 ~
 kill @s

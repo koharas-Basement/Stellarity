@@ -1,5 +1,5 @@
 {
-  "type": "cache_once",
+  "type": "cache",
   "input": {
     "type": "add",
     "left": {

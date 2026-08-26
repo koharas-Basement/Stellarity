@@ -8,6 +8,8 @@
 				"type": "minecraft:mul",
 				"left": 0.64,
 				"right": {
+					"cell_size_xz": 4,
+      		"cell_size_y": 8,
 					"type": "minecraft:interpolated",
 					"input": {
 						"type": "minecraft:blend_density",
@@ -69,6 +71,8 @@
 				"left": "nullscape:brittleness/shatter",
 				"right": {
 					"type": "minecraft:interpolated",
+					"cell_size_xz": 4,
+      		"cell_size_y": 8,
 					"input": "nullscape:void/void_gauntlet"
 				}
 			}
