@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "stellarity:item/potion/endurance_potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "stellarity:item/potion/lifeforce_potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "stellarity:item/potion/luck_potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "quality": 1,
+          "value": "stellarity:item/potion/amarene"
+        }
+      ]
+    }
+  ]
+}

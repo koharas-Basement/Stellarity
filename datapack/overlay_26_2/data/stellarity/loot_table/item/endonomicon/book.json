@@ -1,0 +1,819 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "stellarity:endonomicon",
+                "minecraft:custom_data": {
+                  "stellarity:item": "endonomicon",
+                  "kohara:right_click": true
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:item_name": {
+                  "translate": "item.stellarity.endonomicon"
+                },
+                "!max_damage": {},
+                "damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "enchantment_glint_override": true,
+                "minecraft:written_book_content": {
+                  "pages": [
+                    [
+                      {
+                        "text": "\n\n\n              \n",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "ENDONOMICON",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nRecipes for the\nAltar of The Accursed\n",
+                        "bold": false,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "              ",
+                        "strikethrough": true
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nTAMARIS",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴅᴇᴠ ɪᴛᴇᴍ",
+                        "font": "minecraft:default",
+                        "color": "light_purple",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡᴇᴀᴘᴏɴ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Tamaris"
+                        }
+                      },
+                      {
+                        "text": " ",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Sword\n- 8x Enderite Shard\n- 1x Enderite Smithing Template\n- 1x Wither Skeleton Skull",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nSPECTRAL\nFURY",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡᴇᴀᴘᴏɴ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "#",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Sharanga\n- 8x Phantom Membranes\n- 1x Enderite Smithing Template\n- 3x Diamonds",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nSANDSTORM\nTRIDENT",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡᴇᴀᴘᴏɴ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Sandstorm_Trident"
+                        }
+                      },
+                      {
+                        "text": "$",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Trident\n- 2x Breeze Rods\n- 1x Enderite Smithing Template\n- 1x Sand Rune",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nCHAMPION\nARMOR",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴀʀᴍᴏʀ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Champion_Armor"
+                        }
+                      },
+                      {
+                        "text": "&",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Armor\n- 4x Chorus Plating\n- 1x Enderite Smithing Template",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nFLORAL\nARMOR",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴀʀᴍᴏʀ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Floral_Armor"
+                        }
+                      },
+                      {
+                        "text": "'",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Armor\n- 8x Cherry Leaves\n- 1x Enderite Smithing Template",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nHALLOWED\nARMOR",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴀʀᴍᴏʀ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Hallowed_Armor"
+                        }
+                      },
+                      {
+                        "text": "%",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Armor\n- 4x Hallowed Ingots\n- 1x Enderite Smithing Template",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nSHULKER\nARMOR",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴀʀᴍᴏʀ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": "(",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Armor\n- 4x Shulker Shells\n- 1x Enderite Smithing Template",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nSHULKER\nTOOLS",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴛᴏᴏʟ   ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": "-",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Tool\n- 4x Shulker Shells\n- 1x Enderite Smithing Template",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nBOOK OF\nJINX",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴛʀɪɴᴋᴇᴛ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": "3",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Book\n- 10x Enderite Shards\n- 8x Chorus Plating",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nBOOK OF\nCONVEYANCE",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴛʀɪɴᴋᴇᴛ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": "4",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Netherite Armor\n- 32x Enderite Shards\n- 16x Ender Pearls",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nSATCHEL OF\nVOIDS",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴛʀɪɴᴋᴇᴛ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": "*",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Bundle\n- 2x Nether Star\n- 64x Enderite Shards\n- 64x Starlight Soot",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nCREST OF\nTHE END",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴛʀɪɴᴋᴇᴛ ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": ",",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Shield\n- 1x Netherite Ingot\n- 1x Enderite Smithing Template",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nENDERITE\nTEMPLATE",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴍᴀᴛᴇʀɪᴀʟ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": "!",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Enderite Smithing Template\n- 5x Enderite Shards\n- 9x Purpur Blocks",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ],
+                    [
+                      {
+                        "text": "                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nCHORUS\nPLATING",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": true,
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴍᴀᴛᴇʀɪᴀʟ    ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\nᴡɪᴋɪ ᴘᴀɢᴇ       ",
+                        "font": "minecraft:default",
+                        "color": "dark_gray",
+                        "strikethrough": false,
+                        "click_event": {
+                          "action": "open_url",
+                          "url": "https://prismaticshards.wiki.gg/wiki/Satchel_of_Voids"
+                        }
+                      },
+                      {
+                        "text": ")",
+                        "font": "stellarity:endonomicon",
+                        "color": "white",
+                        "strikethrough": false
+                      },
+                      {
+                        "text": "\n                 ",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "\nMaterials:\n- 1x Iron Ingot\n- 2x Popped Chorus Fruit",
+                        "font": "minecraft:default",
+                        "color": "black",
+                        "bold": false,
+                        "strikethrough": false
+                      }
+                    ]
+                  ],
+                  "title": {
+                    "raw": ""
+                  },
+                  "author": ""
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "item.stellarity.endonomicon.flavor_text",
+                  "color": "#BB6BDE",
+                  "italic": true
+                },
+                "",
+                {
+                  "text": "vol 4.0.0",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "book.byAuthor",
+                  "with": [
+                    {
+                      "text": "Ashley",
+                      "color": "gray",
+                      "font": "illageralt"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "book.generation.3",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

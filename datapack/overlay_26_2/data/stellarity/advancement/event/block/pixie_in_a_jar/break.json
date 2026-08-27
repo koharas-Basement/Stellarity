@@ -1,0 +1,21 @@
+{
+    "parent": "stellarity:event/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:interaction",
+                    "nbt": {
+                        "Tags": [
+                            "stellarity.pixie_in_a_jar_interaction"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "stellarity:mechanic/pixie_in_a_jar/hit/main"
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "",
+                {
+                  "translate": "item.stellarity.endermans_hand.flavor_text",
+                  "color": "#EEEEEE",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#CC26FF",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_model": "stellarity:endermans_hand",
+                "minecraft:custom_data": {
+                  "stellarity:item": "endermans_hand"
+                },
+                "minecraft:max_stack_size": 1,
+                "rarity": "uncommon",
+                "minecraft:item_name": {
+                  "translate": "item.stellarity.endermans_hand",
+                  "color": "#ed8cff",
+                  "italic": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "stellarity:endermans_hand",
+                  "attribute": "minecraft:block_interaction_range",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "hand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

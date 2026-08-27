@@ -1,0 +1,97 @@
+{
+  "temperature": -0.5,
+  "downfall": 0.6,
+  "has_precipitation": false,
+  "attributes": {
+    "visual/sky_color": 8103167,
+    "visual/fog_color": 12638463,
+    "visual/water_fog_color": 15034111,
+    "audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
+      },
+      "mood": {
+        "sound": "ambient.soul_sand_valley.mood",
+        "tick_delay": 900,
+        "block_search_extent": 2,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "ambient.underwater.loop.additions.rare",
+        "tick_chance": 0.00055
+      }
+    },
+    "visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:cherry_leaves"
+          },
+          "probability": 0.0012
+        }
+      ]
+    }
+  },
+  "effects": {
+    "water_color": 15368447,
+    "grass_color": 11723263,
+    "foliage_color": 10937599
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:vex",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:vex": {
+      "energy_budget": 0.25,
+      "charge": 1
+    }
+  },
+  "carvers": [],
+  "features": [
+    [
+      "stellarity:the_hallow/stalactite",
+      "stellarity:frozen_spikes/large_dripstone",
+      "stellarity:frosted_valley/hills"
+    ],
+    [
+      "stellarity:the_hallow/crystals",
+      "stellarity:the_hallow/crystals_amethyst",
+      "stellarity:the_hallow/rock"
+    ],
+    ["stellarity:hallowed_tundra/large_lake"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "stellarity:hallowed_tundra/trees",
+      "stellarity:the_hallow/lanterns",
+      "stellarity:the_hallow/lanterns_trees",
+      "stellarity:the_hallow/weeping_vines",
+      "stellarity:the_hallow/roots"
+    ],
+    [
+      "stellarity:frozen_spikes/replace_dripstone/1",
+      "stellarity:frozen_spikes/replace_dripstone/2",
+      "stellarity:frozen_spikes/replace_dripstone/3",
+      "stellarity:frozen_spikes/replace_dripstone/4",
+      "stellarity:frozen_spikes/replace_dripstone/5",
+      "stellarity:frozen_spikes/replace_dripstone/6",
+      "stellarity:frozen_spikes/replace_dripstone/7",
+      "stellarity:frozen_spikes/replace_dripstone/8",
+      "stellarity:frozen_spikes/replace_dripstone/9",
+      "stellarity:frozen_spikes/replace_dripstone/10",
+      "stellarity:frozen_spikes/replace_dripstone/11"
+    ]
+  ]
+}

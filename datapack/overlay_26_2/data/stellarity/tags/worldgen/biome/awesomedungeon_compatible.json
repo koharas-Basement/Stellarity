@@ -1,0 +1,18 @@
+{
+  "comment": "This is used for compatibility with Awesome Dungeon End Edition",
+  "link_to_the_pack": "https://www.curseforge.com/minecraft/texture-packs/awesome-dungeon-the-end-edition-datapack/",
+  "comment2": "It works perfectly with my new biomes!",
+  "values": [
+    "stellarity:end_wilds",
+    "stellarity:ender_wastes",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "stellarity:amethyst_forest",
+    "stellarity:prismarine_forest",
+    "stellarity:end_shrubland",
+    "stellarity:frozen_shrubland",
+    "stellarity:frozen_marsh",
+    "stellarity:frozen_spikes",
+    "stellarity:warped_marsh"
+  ]
+}

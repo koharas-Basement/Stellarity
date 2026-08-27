@@ -1,6 +1,7 @@
 {
   "values": [
     "#kohara:boss",
-    "#kohara:command_entity"
+    "#kohara:command_entity",
+    "minecraft:cushion"
   ]
 }

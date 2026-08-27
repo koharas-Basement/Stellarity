@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "advancements.stellarity.night_sky_stalkers"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.night_sky_stalkers.description"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#CC26FF",
+        "italic": true
+      }
+    ]
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "sleep_deprivation": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:phantom"
+        }
+      }
+    }
+  }
+}
