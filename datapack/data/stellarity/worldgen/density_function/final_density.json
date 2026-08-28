@@ -5,8 +5,14 @@
   "max_exclusive": 0.0019,
   "when_in_range": "stellarity:main_island/island",
   "when_out_of_range": {
-    "type": "min",
-    "left": "stellarity:sloped_cheese",
-    "right": "stellarity:cave/noodle"
+    "type": "add",
+    "left": {
+      "type": "minecraft:min",
+      "left": "stellarity:sloped_cheese",
+      "right": "stellarity:cave/noodle"
+    },
+    "right": {
+      "type": "minecraft:beardifier"
+    }
   }
 }

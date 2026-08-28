@@ -3,15 +3,17 @@ scoreboard players add @s stellarity.empress_of_light.animation 1
 tp @s[scores={stellarity.empress_of_light.animation=..100}] ~ ~0.04 ~ ~ ~
 tp @s[scores={stellarity.empress_of_light.animation=101..}] ~ ~0.02 ~ ~2 ~
 
-execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 if score @s stellarity.empress_of_light.animation matches 1 \
-unless predicate stellarity:entity/empress_of_light/is_daytime run \
-tag @s add stellarity.empress_of_light.nighttime
-execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 if score @s stellarity.empress_of_light.animation matches 1 \
-if predicate stellarity:entity/empress_of_light/is_daytime run \
-tag @s add stellarity.empress_of_light.daytime
+# Variant Tags
+  execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 if score @s stellarity.empress_of_light.animation matches 1 \
+  unless predicate stellarity:entity/empress_of_light/is_daytime run \
+  tag @s add stellarity.empress_of_light.nighttime
 
-execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run \
-tag @s add stellarity.empress_of_light.radiant
+  execute unless score #empress_of_light.is_radiant stellarity.misc matches 1 if score @s stellarity.empress_of_light.animation matches 1 \
+  if predicate stellarity:entity/empress_of_light/is_daytime run \
+  tag @s add stellarity.empress_of_light.daytime
+
+  execute if score #empress_of_light.is_radiant stellarity.misc matches 1 run \
+  tag @s add stellarity.empress_of_light.radiant
 
 execute if score @s stellarity.empress_of_light.animation matches 1 as @a[distance=..60] run function stellarity:entity/empress_of_light/animations/spawn/stopsound
 execute if score @s stellarity.empress_of_light.animation matches 1 run playsound minecraft:block.sculk_shrieker.shriek hostile @a[distance=0..] ~ ~ ~ .5 0
