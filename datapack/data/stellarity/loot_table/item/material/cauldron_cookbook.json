@@ -14,7 +14,7 @@
                 "minecraft:custom_data": {
                   "stellarity:item": "cauldron_cookbook"
                 },
-                "minecraft:rarity": "epic",
+                "minecraft:rarity": "rare",
                 "minecraft:item_name": {
                   "translate": "item.stellarity.cauldron_cookbook"
                 },

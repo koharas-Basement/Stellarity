@@ -105,6 +105,11 @@
               "options": "#minecraft:on_random_loot"
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "stellarity:item/material/cauldron_cookbook",
+          "weight": 8
         }
       ]
     }
