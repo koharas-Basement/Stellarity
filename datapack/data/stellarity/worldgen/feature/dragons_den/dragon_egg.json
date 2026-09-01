@@ -2,7 +2,7 @@
   "type": "minecraft:geode",
   "blocks": {
     "filling_provider": {
-      "type": "minecraft:weighted_state_provider",
+      "type": "minecraft:weighted",
       "entries": [
         {
           "weight": 30,
@@ -14,7 +14,7 @@
       ]
     },
     "inner_layer_provider": {
-      "type": "minecraft:weighted_state_provider",
+      "type": "minecraft:weighted",
       "entries": [
         {
           "weight": 35,
@@ -31,7 +31,7 @@
       ]
     },
     "alternate_inner_layer_provider": {
-      "type": "minecraft:weighted_state_provider",
+      "type": "minecraft:weighted",
       "entries": [
         {
           "weight": 2,
@@ -48,7 +48,7 @@
       ]
     },
     "middle_layer_provider": {
-      "type": "minecraft:weighted_state_provider",
+      "type": "minecraft:weighted",
       "entries": [
         {
           "weight": 1,
@@ -65,7 +65,7 @@
       ]
     },
     "outer_layer_provider": {
-      "type": "minecraft:weighted_state_provider",
+      "type": "minecraft:weighted",
       "entries": [
         {
           "weight": 4,

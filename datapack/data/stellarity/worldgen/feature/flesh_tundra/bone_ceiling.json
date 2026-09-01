@@ -16,7 +16,7 @@
         "max_inclusive": 24
       },
       "provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:bone_block",
           "properties": {
@@ -32,7 +32,7 @@
         "max_inclusive": 1
       },
       "provider": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "weight": 40,

@@ -14,13 +14,13 @@
             "upper_size": 0
           },
           "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:coarse_dirt"
             }
           },
           "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:oak_log",
               "properties": {
@@ -29,7 +29,7 @@
             }
           },
           "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:oak_leaves",
               "properties": {
@@ -69,13 +69,13 @@
             "upper_size": 0
           },
           "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:coarse_dirt"
             }
           },
           "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:oak_log",
               "properties": {
@@ -84,7 +84,7 @@
             }
           },
           "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:oak_leaves",
               "properties": {
@@ -123,13 +123,13 @@
         "upper_size": 0
       },
       "below_trunk_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:coarse_dirt"
         }
       },
       "trunk_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:oak_log",
           "properties": {
@@ -138,7 +138,7 @@
         }
       },
       "foliage_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:oak_leaves",
           "properties": {

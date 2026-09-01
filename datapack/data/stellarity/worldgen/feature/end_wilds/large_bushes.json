@@ -9,7 +9,7 @@
   "xz_radius": 0,
   "replaceable": "#stellarity:_worldgen/single/end_stone",
   "ground_state": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 1,
@@ -26,7 +26,7 @@
     "feature": {
       "type": "minecraft:simple_block",
       "to_place": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:oak_leaves",
           "properties": {

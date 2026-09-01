@@ -10,13 +10,13 @@
             "type": "minecraft:three_layers_feature_size"
           },
           "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:dirt"
             }
           },
           "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:stripped_birch_log",
               "properties": {
@@ -25,7 +25,7 @@
             }
           },
           "foliage_provider": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "weight": 32,
@@ -79,7 +79,7 @@
               "exclusion_radius_y": 2,
               "required_empty_blocks": 2,
               "block_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:sea_lantern"
                 }
@@ -91,7 +91,7 @@
             {
               "type": "minecraft:place_on_ground",
               "block_state_provider": {
-                "type": "minecraft:weighted_state_provider",
+                "type": "minecraft:weighted",
                 "entries": [
                   {
                     "data": {
@@ -273,13 +273,13 @@
             "type": "minecraft:two_layers_feature_size"
           },
           "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:dirt"
             }
           },
           "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:stripped_birch_log",
               "properties": {
@@ -288,7 +288,7 @@
             }
           },
           "foliage_provider": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "weight": 32,
@@ -342,7 +342,7 @@
               "exclusion_radius_y": 2,
               "required_empty_blocks": 2,
               "block_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:sea_lantern"
                 }
@@ -354,7 +354,7 @@
             {
               "type": "minecraft:place_on_ground",
               "block_state_provider": {
-                "type": "minecraft:weighted_state_provider",
+                "type": "minecraft:weighted",
                 "entries": [
                   {
                     "data": {
@@ -536,13 +536,13 @@
             "type": "minecraft:two_layers_feature_size"
           },
           "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:dirt"
             }
           },
           "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:stripped_birch_log",
               "properties": {
@@ -551,7 +551,7 @@
             }
           },
           "foliage_provider": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "weight": 32,
@@ -605,7 +605,7 @@
               "exclusion_radius_y": 2,
               "required_empty_blocks": 2,
               "block_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:sea_lantern"
                 }
@@ -617,7 +617,7 @@
             {
               "type": "minecraft:place_on_ground",
               "block_state_provider": {
-                "type": "minecraft:weighted_state_provider",
+                "type": "minecraft:weighted",
                 "entries": [
                   {
                     "data": {
@@ -798,13 +798,13 @@
         "type": "minecraft:two_layers_feature_size"
       },
       "below_trunk_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:rooted_dirt"
         }
       },
       "trunk_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:stripped_birch_log",
           "properties": {
@@ -813,7 +813,7 @@
         }
       },
       "foliage_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:acacia_leaves",
           "properties": {
@@ -839,7 +839,7 @@
         {
           "type": "minecraft:place_on_ground",
           "block_state_provider": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "data": {

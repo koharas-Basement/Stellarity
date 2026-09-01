@@ -15,19 +15,19 @@
 						"type": "minecraft:two_layers_feature_size"
 					},
 					"below_trunk_provider": {
-						"type": "minecraft:simple_state_provider",
+						"type": "minecraft:simple",
 						"state": {
 							"id": "minecraft:cherry_wood"
 						}
 					},
 					"trunk_provider": {
-						"type": "minecraft:simple_state_provider",
+						"type": "minecraft:simple",
 						"state": {
 							"id": "minecraft:cherry_wood"
 						}
 					},
 					"foliage_provider": {
-						"type": "minecraft:weighted_state_provider",
+						"type": "minecraft:weighted",
 						"entries": [
 							{
 								"weight": 7,
@@ -71,7 +71,7 @@
 							"exclusion_radius_y": 0,
 							"required_empty_blocks": 1,
 							"block_provider": {
-								"type": "minecraft:simple_state_provider",
+								"type": "minecraft:simple",
 								"state": {
 									"id": "minecraft:acacia_leaves",
 									"properties": {

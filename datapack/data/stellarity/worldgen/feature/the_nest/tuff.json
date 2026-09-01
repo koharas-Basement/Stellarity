@@ -17,7 +17,7 @@
   },
   "replaceable": "#stellarity:_worldgen/single/end_stone",
   "ground_state": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 4,

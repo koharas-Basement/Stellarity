@@ -8,13 +8,13 @@
     "upper_size": 1
   },
   "below_trunk_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:dirt"
     }
   },
   "trunk_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:stripped_birch_log",
       "properties": {
@@ -25,7 +25,7 @@
   "root_placer": {
     "type": "minecraft:mangrove_root_placer",
     "root_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "id": "minecraft:stripped_birch_wood",
         "properties": {
@@ -36,7 +36,7 @@
     "trunk_offset_y": 0,
     "above_root_placement": {
       "above_root_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:stripped_birch_wood",
           "properties": {
@@ -57,7 +57,7 @@
         "minecraft:dirt"
       ],
       "muddy_roots_provider": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:stone"
         }
@@ -65,7 +65,7 @@
     }
   },
   "foliage_provider": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 5,
@@ -105,7 +105,7 @@
     {
       "type": "minecraft:alter_ground",
       "provider": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "weight": 13,

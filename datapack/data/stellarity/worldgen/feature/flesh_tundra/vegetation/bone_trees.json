@@ -9,7 +9,7 @@
   "xz_radius": 0,
   "replaceable": "#stellarity:_worldgen/flesh_tundra/surface_inner",
   "ground_state": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:bone_block",
       "properties": {

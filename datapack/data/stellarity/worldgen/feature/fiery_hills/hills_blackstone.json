@@ -13,7 +13,7 @@
   },
   "replaceable": "#stellarity:_worldgen/fiery_hills/blackstone",
   "ground_state": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:blackstone"
     }
@@ -41,7 +41,7 @@
             ]
           },
           "provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:blackstone",
               "properties": {}
@@ -51,7 +51,7 @@
         {
           "height": 1,
           "provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:blackstone"
             }

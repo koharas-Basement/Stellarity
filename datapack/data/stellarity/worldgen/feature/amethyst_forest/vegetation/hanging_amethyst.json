@@ -13,7 +13,7 @@
   },
   "replaceable": "#stellarity:diorite_and_calcite",
   "ground_state": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 2,
@@ -33,7 +33,7 @@
     "feature": {
       "type": "minecraft:simple_block",
       "to_place": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "weight": 1,

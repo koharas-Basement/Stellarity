@@ -13,7 +13,7 @@
   },
   "replaceable": "#minecraft:concrete_powders",
   "ground_state": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 10,
@@ -48,7 +48,7 @@
     "feature": {
       "type": "minecraft:simple_block",
       "to_place": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "weight": 24,

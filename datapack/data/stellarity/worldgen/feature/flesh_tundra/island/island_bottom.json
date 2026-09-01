@@ -13,7 +13,7 @@
   },
   "replaceable": "#stellarity:_worldgen/single/end_stone",
   "ground_state": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:netherrack"
     }
@@ -45,7 +45,7 @@
             ]
           },
           "provider": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "weight": 1,
@@ -59,7 +59,7 @@
         {
           "height": 1,
           "provider": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "weight": 1,

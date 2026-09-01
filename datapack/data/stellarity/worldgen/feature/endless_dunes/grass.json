@@ -13,7 +13,7 @@
   },
   "replaceable": "#minecraft:sand",
   "ground_state": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 3,
@@ -42,7 +42,7 @@
     "feature": {
       "type": "minecraft:simple_block",
       "to_place": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "weight": 12,

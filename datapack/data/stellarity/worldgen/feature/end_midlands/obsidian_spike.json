@@ -12,13 +12,13 @@
   "allowed_vertical_water_for_tree": 1,
   "root_replaceable": "#stellarity:_worldgen/stalactites_replacable",
   "root_state_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:obsidian"
     }
   },
   "hanging_root_state_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:crying_obsidian"
     }

@@ -17,7 +17,7 @@
   },
   "replaceable": "#stellarity:_worldgen/huge_chorus_body",
   "ground_state": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:cherry_wood",
       "properties": {
@@ -39,7 +39,7 @@
                 "type": "minecraft:two_layers_feature_size"
               },
               "below_trunk_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:cherry_wood",
                   "properties": {
@@ -48,7 +48,7 @@
                 }
               },
               "trunk_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:cherry_wood",
                   "properties": {
@@ -57,7 +57,7 @@
                 }
               },
               "foliage_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:acacia_leaves",
                   "properties": {
@@ -117,7 +117,7 @@
                   "exclusion_radius_y": 2,
                   "required_empty_blocks": 1,
                   "block_provider": {
-                    "type": "minecraft:simple_state_provider",
+                    "type": "minecraft:simple",
                     "state": {
                       "id": "minecraft:end_rod",
                       "properties": {
@@ -151,7 +151,7 @@
                 "type": "minecraft:two_layers_feature_size"
               },
               "below_trunk_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:cherry_wood",
                   "properties": {
@@ -160,7 +160,7 @@
                 }
               },
               "trunk_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:cherry_wood",
                   "properties": {
@@ -169,7 +169,7 @@
                 }
               },
               "foliage_provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:cherry_wood",
                   "properties": {
@@ -203,7 +203,7 @@
             "type": "minecraft:two_layers_feature_size"
           },
           "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:cherry_wood",
               "properties": {
@@ -212,7 +212,7 @@
             }
           },
           "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:cherry_wood",
               "properties": {
@@ -221,7 +221,7 @@
             }
           },
           "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:cherry_wood",
               "properties": {

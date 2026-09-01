@@ -4,7 +4,7 @@
     "feature": {
       "type": "minecraft:simple_block",
       "to_place": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "data": {
@@ -81,7 +81,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:end_stone"
                 }
@@ -94,7 +94,7 @@
                 "min_inclusive": 0
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:chorus_plant",
                   "properties": {
@@ -111,7 +111,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:chorus_flower",
                   "properties": {

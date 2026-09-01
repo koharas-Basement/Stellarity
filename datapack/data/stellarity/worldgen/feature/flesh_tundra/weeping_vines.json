@@ -23,7 +23,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -43,7 +43,7 @@
                 "max_inclusive": 33
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -83,7 +83,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -103,7 +103,7 @@
                 "max_inclusive": 33
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -143,7 +143,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -163,7 +163,7 @@
                 "max_inclusive": 33
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -203,7 +203,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -223,7 +223,7 @@
                 "max_inclusive": 33
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:vine",
                   "properties": {
@@ -286,7 +286,7 @@
                 ]
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "id": "minecraft:weeping_vines_plant"
                 }
@@ -295,7 +295,7 @@
             {
               "height": 1,
               "provider": {
-                "type": "minecraft:randomized_int_state_provider",
+                "type": "minecraft:randomized_int",
                 "property": "age",
                 "values": {
                   "type": "minecraft:uniform",
@@ -303,7 +303,7 @@
                   "max_inclusive": 25
                 },
                 "source": {
-                  "type": "minecraft:simple_state_provider",
+                  "type": "minecraft:simple",
                   "state": {
                     "id": "minecraft:weeping_vines",
                     "properties": {

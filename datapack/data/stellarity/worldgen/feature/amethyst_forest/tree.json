@@ -4,13 +4,13 @@
     "type": "minecraft:three_layers_feature_size"
   },
   "below_trunk_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:dirt"
     }
   },
   "trunk_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:cherry_log",
       "properties": {
@@ -19,7 +19,7 @@
     }
   },
   "foliage_provider": {
-    "type": "minecraft:weighted_state_provider",
+    "type": "minecraft:weighted",
     "entries": [
       {
         "weight": 64,
@@ -69,7 +69,7 @@
     {
       "type": "minecraft:place_on_ground",
       "block_state_provider": {
-        "type": "minecraft:weighted_state_provider",
+        "type": "minecraft:weighted",
         "entries": [
           {
             "data": {

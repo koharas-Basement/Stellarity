@@ -13,7 +13,7 @@
   },
   "replaceable": "#stellarity:_worldgen/frozen_spikes/patches_replacable",
   "ground_state": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:snow_block"
     }
@@ -33,7 +33,7 @@
         {
           "height": 1,
           "provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:snow_block"
             }

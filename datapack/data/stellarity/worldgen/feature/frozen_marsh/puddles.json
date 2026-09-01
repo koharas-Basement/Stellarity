@@ -23,7 +23,7 @@
 					},
 					"replaceable": "#stellarity:_worldgen/frozen_marsh/puddle_replaceable",
 					"ground_state": {
-						"type": "minecraft:weighted_state_provider",
+						"type": "minecraft:weighted",
 						"entries": [
 							{
 								"weight": 25,
@@ -59,7 +59,7 @@
 			},
 			"replaceable": "#stellarity:_worldgen/frozen_marsh/puddle_replaceable",
 			"ground_state": {
-				"type": "minecraft:simple_state_provider",
+				"type": "minecraft:simple",
 				"state": {
 					"id": "minecraft:snow_block"
 				}

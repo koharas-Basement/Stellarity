@@ -13,7 +13,7 @@
 	},
 	"replaceable": "#stellarity:_worldgen/single/grass_block",
 	"ground_state": {
-		"type": "minecraft:weighted_state_provider",
+		"type": "minecraft:weighted",
 		"entries": [
 			{
 				"weight": 6,

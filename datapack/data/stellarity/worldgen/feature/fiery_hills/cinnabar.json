@@ -13,7 +13,7 @@
 	},
 	"replaceable": "#stellarity:_worldgen/fiery_hills/blackstone",
 	"ground_state": {
-		"type": "minecraft:simple_state_provider",
+		"type": "minecraft:simple",
 		"state": {
 			"id": "minecraft:cinnabar"
 		}

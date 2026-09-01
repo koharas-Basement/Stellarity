@@ -8,13 +8,13 @@
     "upper_size": 0
   },
   "below_trunk_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:dirt"
     }
   },
   "trunk_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:stripped_jungle_log",
       "properties": {
@@ -23,7 +23,7 @@
     }
   },
   "foliage_provider": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:oak_leaves",
       "properties": {

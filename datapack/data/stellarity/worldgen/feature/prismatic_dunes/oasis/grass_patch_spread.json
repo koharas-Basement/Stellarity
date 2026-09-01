@@ -9,7 +9,7 @@
   "xz_radius": 4,
   "replaceable": "#stellarity:_worldgen/endless_dunes/dune_replaceables",
   "ground_state": {
-    "type": "minecraft:simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:grass_block"
     }

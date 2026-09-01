@@ -2,31 +2,31 @@
   "type": "minecraft:geode",
   "blocks": {
     "filling_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "id": "minecraft:packed_ice"
       }
     },
     "inner_layer_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "id": "minecraft:packed_ice"
       }
     },
     "alternate_inner_layer_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "id": "minecraft:packed_ice"
       }
     },
     "middle_layer_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "id": "minecraft:packed_ice"
       }
     },
     "outer_layer_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "id": "minecraft:packed_ice"
       }

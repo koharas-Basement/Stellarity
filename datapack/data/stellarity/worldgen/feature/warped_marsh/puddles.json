@@ -23,7 +23,7 @@
           },
           "replaceable": "#minecraft:dirt",
           "ground_state": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "weight": 25,
@@ -43,7 +43,7 @@
             "feature": {
               "type": "minecraft:simple_block",
               "to_place": {
-                "type": "minecraft:weighted_state_provider",
+                "type": "minecraft:weighted",
                 "entries": [
                   {
                     "weight": 1,
@@ -119,7 +119,7 @@
       },
       "replaceable": "#minecraft:lush_ground_replaceable",
       "ground_state": {
-        "type": "minecraft:simple_state_provider",
+        "type": "minecraft:simple",
         "state": {
           "id": "minecraft:moss_block"
         }
