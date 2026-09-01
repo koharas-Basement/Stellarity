@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
+          "name": "minecraft:endermite_spawn_egg",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -21,7 +21,8 @@
                   "translate": "item.stellarity.life_crystal",
                   "color": "#9936D6",
                   "italic": false
-                }
+                },
+                "!minecraft:entity_data": {}
               }
             },
             {
@@ -37,8 +38,9 @@
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#CC26FF",
-                  "italic": true
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
                 }
               ]
             }

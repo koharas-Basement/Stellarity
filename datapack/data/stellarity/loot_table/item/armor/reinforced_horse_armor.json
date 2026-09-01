@@ -41,6 +41,20 @@
               ]
             },
             {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                "",
+                {
+                  "translate": "Stellarity",
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
               "type": "minecraft:set_components",
               "components": {
                 "tooltip_display": {

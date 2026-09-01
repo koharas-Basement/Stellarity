@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
+          "name": "minecraft:endermite_spawn_egg",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -17,7 +17,8 @@
                 "minecraft:rarity": "common",
                 "minecraft:item_name": {
                   "translate": "item.stellarity.starlight_soot"
-                }
+                },
+                "!minecraft:entity_data": {}
               }
             },
             {
@@ -44,8 +45,9 @@
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#CC26FF",
-                  "italic": true
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
                 }
               ]
             }

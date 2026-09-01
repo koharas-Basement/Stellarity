@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:jigsaw",
+          "name": "minecraft:endermite_spawn_egg",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -19,7 +19,8 @@
                   "translate": "item.stellarity.enderite_smithing_template",
                   "color": "light_purple",
                   "italic": false
-                }
+                },
+                "!minecraft:entity_data": {}
               }
             },
             {
@@ -126,8 +127,9 @@
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#CC26FF",
-                  "italic": true
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
                 }
               ]
             }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:endermite_spawn_egg",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -18,7 +18,8 @@
                   "translate": "item.stellarity.hallowed_ingot",
                   "color": "#D9E3ED",
                   "italic": false
-                }
+                },
+                "!minecraft:entity_data": {}
               }
             },
             {
@@ -29,8 +30,9 @@
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#CC26FF",
-                  "italic": true
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
                 }
               ]
             }

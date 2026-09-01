@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_ingot",
+                    "name": "minecraft:endermite_spawn_egg",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -19,7 +19,8 @@
                                     "color": "#A372C3",
                                     "italic": false
                                 },
-                                "minecraft:provides_trim_material": "stellarity:chorus"
+                                "minecraft:provides_trim_material": "stellarity:chorus",
+                                "!minecraft:entity_data": {}
                             }
                         },
                         {
@@ -36,8 +37,9 @@
                                 "",
                                 {
                                     "translate": "Stellarity",
-                                    "color": "#CC26FF",
-                                    "italic": true
+                                    "color": "#eaa7ff",
+                                    "font": "stellarity:tooltip",
+                                    "italic": false
                                 }
                             ]
                         }

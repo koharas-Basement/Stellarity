@@ -20,8 +20,9 @@
                   "",
                   {
                     "translate": "Stellarity",
-                    "color": "#CC26FF",
-                    "italic": true
+                    "color": "#eaa7ff",
+                    "font": "stellarity:tooltip",
+                    "italic": false
                   }
                 ],
                 "max_stack_size": 64,
@@ -35,7 +36,6 @@
                   ],
                   "Invisible": true,
                   "Invulnerable": true,
-
                   "data": {
                     "stellarity:block": {
                       "id": "ender_dirt_path",

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:popped_chorus_fruit",
+          "name": "minecraft:endermite_spawn_egg",
           "modifier": [
             {
               "type": "minecraft:set_lore",
@@ -19,8 +19,9 @@
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#CC26FF",
-                  "italic": true
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
                 }
               ],
               "mode": "replace_all"
@@ -39,7 +40,8 @@
                   "translate": "item.stellarity.endermans_hand",
                   "color": "#ed8cff",
                   "italic": false
-                }
+                },
+                "!minecraft:entity_data": {}
               }
             },
             {

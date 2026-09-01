@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:jigsaw",
+          "name": "minecraft:endermite_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -17,7 +17,8 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": {
                   "translate": "item.stellarity.sand_rune"
-                }
+                },
+                "!minecraft:entity_data": {}
               }
             },
             {
@@ -28,8 +29,9 @@
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#CC26FF",
-                  "italic": true
+                  "color": "#eaa7ff",
+                  "font": "stellarity:tooltip",
+                  "italic": false
                 }
               ]
             }

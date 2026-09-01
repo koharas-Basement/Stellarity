@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_nugget",
+                    "name": "minecraft:endermite_spawn_egg",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -23,7 +23,8 @@
                                     "hidden_components": [
                                         "minecraft:enchantments"
                                     ]
-                                }
+                                },
+                                "!minecraft:entity_data": {}
                             }
                         },
                         {
@@ -43,8 +44,9 @@
                                 "",
                                 {
                                     "translate": "Stellarity",
-                                    "color": "#CC26FF",
-                                    "italic": true
+                                    "color": "#eaa7ff",
+                                    "font": "stellarity:tooltip",
+                                    "italic": false
                                 }
                             ],
                             "mode": "replace_all"
