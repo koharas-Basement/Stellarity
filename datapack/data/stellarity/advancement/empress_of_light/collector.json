@@ -1,0 +1,115 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass",
+      "components": {
+        "minecraft:item_model": "stellarity:pixie_in_a_jar"
+      }
+    },
+    "title": {
+      "translate": "advancements.stellarity.collector"
+    },
+    "description": [
+      {
+        "translate": "advancements.stellarity.collector.description",
+        "color": "gold"
+      },
+      "\n\n",
+      {
+        "translate": "Stellarity",
+        "color": "#eaa7ff",
+        "font": "stellarity:tooltip",
+        "italic": false
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "stellarity:empress_of_light/summon_empress",
+  "criteria": {
+    "lime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass",
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "pixie_in_a_jar_lime"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass",
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "pixie_in_a_jar_magenta"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass",
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "pixie_in_a_jar_light_blue"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass",
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "pixie_in_a_jar_yellow"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "radiant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass",
+            "components": {
+              "minecraft:custom_data": {
+                "stellarity:item": "pixie_in_a_jar_radiant"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["lime"],
+    ["magenta"],
+    ["light_blue"],
+    ["yellow"],
+    ["radiant"]
+  ]
+}
