@@ -11,7 +11,7 @@
     "max_inclusive": 5
   },
   "block": {
-    "type": "simple_state_provider",
+    "type": "minecraft:simple",
     "state": {
       "id": "minecraft:basalt",
       "properties": {

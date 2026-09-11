@@ -5,15 +5,30 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/weapon/prismember"
+          "value": "stellarity:item/weapon/prismember",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/prismember",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/weapon/prismatic_punch"
+          "value": "stellarity:item/weapon/prismatic_punch",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/prismatic_punch",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/trinket/starstruck_shield"
+          "value": "stellarity:item/trinket/starstruck_shield",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/starstruck_shield",
+            "test": 1
+          }
         }
       ]
     }

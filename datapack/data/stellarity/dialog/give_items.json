@@ -1,0 +1,2270 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "gui.stellarity.give_items.title",
+        "fallback": "Item Granter",
+        "color": "yellow",
+        "bold": true
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "gui.stellarity.give_items.description",
+        "fallback": "ɢɪᴠᴇ ʏᴏᴜʀѕᴇʟꜰ ᴀɴʏ ѕᴛᴇʟʟᴀʀɪᴛʏ ɪᴛᴇᴍ ᴏʀ ʙʟᴏᴄᴋ ʙʏ ɪɴᴛᴇʀᴀᴄᴛɪɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴѕ ʙᴇʟᴏᴡ",
+        "color": "gray",
+        "bold": false
+      }
+    ]
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "stellarity:admin"
+    }
+  },
+  "columns": 16,
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "actions": [
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/champion_helmet"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.champion_helmet",
+        "fallback": "Champion Helmet"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/champion/helmet"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/champion_chestplate"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.champion_chestplate",
+        "fallback": "Champion Chestplate"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/champion/chestplate"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/champion_leggings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.champion_leggings",
+        "fallback": "Champion Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/champion/leggings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/champion_boots"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.champion_boots",
+        "fallback": "Champion Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/champion/boots"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/floral_helmet"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.floral_helmet",
+        "fallback": "Floral Helmet"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/floral/helmet"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/floral_chestplate"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.floral_chestplate",
+        "fallback": "Floral Chestplate"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/floral/chestplate"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/floral_leggings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.floral_leggings",
+        "fallback": "Floral Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/floral/leggings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/floral_boots"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.floral_boots",
+        "fallback": "Floral Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/floral/boots"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/hallowed_helmet"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.hallowed_helmet",
+        "fallback": "Hallowed Helmet"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/hallowed/helmet"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/hallowed_chestplate"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.hallowed_chestplate",
+        "fallback": "Hallowed Chestplate"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/hallowed/chestplate"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/hallowed_leggings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.hallowed_leggings",
+        "fallback": "Hallowed Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/hallowed/leggings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/hallowed_boots"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.hallowed_boots",
+        "fallback": "Hallowed Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/hallowed/boots"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_helmet"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_helmet",
+        "fallback": "Shulker Helmet"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/shulker/helmet"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_chestplate"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_chestplate",
+        "fallback": "Shulker Chestplate"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/shulker/chestplate"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_leggings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_leggings",
+        "fallback": "Shulker Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/shulker/leggings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_boots"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_boots",
+        "fallback": "Shulker Boots"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/shulker/boots"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/elytra/dragon_wings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.dragon_wings",
+        "fallback": "Dragon Wings"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/elytra/dragon_wings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/elytra/empress_wings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.empress_wings",
+        "fallback": "Empress Wings"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/elytra/empress_wings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/elytra/phantom_wings"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.phantom_wings",
+        "fallback": "Phantom Wings"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/elytra/phantom_wings"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/reinforced_horse_armor"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.reinforced_horse_armor",
+        "fallback": "Reinforced Horse Armor"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/armor/reinforced_horse_armor"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/ancient_wooden_sword"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.ancient_wooden_sword",
+        "fallback": "Ancient Wooden Sword"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/ancient_wooden_sword"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/dragonblade"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.dragonblade",
+        "fallback": "Dragonblade"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/dragonblade"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/fluffy_hammer"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.fluffy_hammer",
+        "fallback": "Fluffy Hammer of Justice"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/fluffy_hammer"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/harvester/tier_4"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.harvester",
+        "fallback": "Harvester"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/harvester"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/kaleidoscope"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.kaleidoscope",
+        "fallback": "Kaleidoscope"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/kaleidoscope"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/prismember"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.prismember",
+        "fallback": "Prismember"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/prismember"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/sandstorm_trident"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.sandstorm_trident",
+        "fallback": "Sandstorm Trident"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/sandstorm_trident"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/starless_scythe"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.starless_scythe",
+        "fallback": "Starless Scythe"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/starless_scythe"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/stellar_striker"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.stellar_striker",
+        "fallback": "Stellar Striker"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/stellar_striker"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/tamaris"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.tamaris",
+        "fallback": "Tamaris"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/tamaris"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/the_beginning"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.the_beginning_and_the_end",
+        "fallback": "The Beginning and The End"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/the_beginning_and_the_end"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/call_of_the_void"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.call_of_the_void",
+        "fallback": "Call of The Void"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/call_of_the_void"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/sharanga"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.sharanga",
+        "fallback": "Sharanga"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/sharanga"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spectral_fury"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.spectral_fury",
+        "fallback": "Spectral Fury"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/spectral_fury"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/prismatic_punch"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.prismatic_punch",
+        "fallback": "Prismatic Punch"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/prismatic_punch"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/slayer_crossbow"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.slayer_crossbow",
+        "fallback": "Slayer Crossbow"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/slayer_crossbow"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spectral_fury"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.spectral_fury",
+        "fallback": "Spectral Fury"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/spectral_fury"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_sword",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_sword",
+        "fallback": "Shulker Sword"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/shulker_sword"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_axe",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_axe",
+        "fallback": "Shulker Axe"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/shulker_axe"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_spear",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_spear",
+        "fallback": "Shulker Spear"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/shulker_spear"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_pickaxe",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_pickaxe",
+        "fallback": "Shulker Pickaxe"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/shulker_pickaxe"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_shovel",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_shovel",
+        "fallback": "Shulker Shovel"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/shulker_shovel"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/shulker_hoe",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_hoe",
+        "fallback": "Shulker Hoe"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/shulker_hoe"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/fisher_of_voids",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.fisher_of_voids",
+        "fallback": "Fisher of Voids"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/tool/fisher_of_voids"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/book_of_conveyance",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.book_of_conveyance",
+        "fallback": "Book of Conveyance"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spellbook/book_of_conveyance"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/book_of_jinx",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.book_of_jinx",
+        "fallback": "Book of Jinx"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spellbook/book_of_jinx"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/book_of_light",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.book_of_light",
+        "fallback": "Book of Light"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spellbook/book_of_light"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/book_of_obstruct",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.book_of_obstruct",
+        "fallback": "Book of Obstruct"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spellbook/book_of_obstruct"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/book_of_return",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.book_of_return",
+        "fallback": "Book of Return"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spellbook/book_of_return"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/book_of_updraft",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.book_of_updraft",
+        "fallback": "Book of Updraft"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spellbook/book_of_updraft"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/shield",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.copper_elektra_shield",
+        "fallback": "Copper Elektra Shield"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/copper_elektra_shield"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/shield",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.crest_of_the_end",
+        "fallback": "Crest of The End"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/crest_of_the_end"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/shield",
+          "shadow_color": 0
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.starstruck_shield",
+        "fallback": "Starstruck Shield"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/starstruck_shield"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/duskberry"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.duskberry",
+        "fallback": "Duskberry"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/duskberry"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/endermans_hand"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.endermans_hand",
+        "fallback": "Enderman's Hand"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/endermans_hand"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/ender_insignia"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.life_crystal",
+        "fallback": "Life Crystal"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/life_crystal"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/prismatic_pearl"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.prismatic_pearl",
+        "fallback": "Prismatic Pearl"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/prismatic_pearl"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/radiant_jewel"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.radiant_jewel",
+        "fallback": "Radiant Jewel"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/radiant_jewel"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/satchel_of_voids"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.satchel_of_voids",
+        "fallback": "Satchel of Voids"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/satchel_of_voids"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/soaring_insignia"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.soaring_insignia",
+        "fallback": "Soaring Insignia"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/soaring_insignia"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/void_pendant"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.void_pendant",
+        "fallback": "Void Pendant"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/trinket/void_pendant"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/endonomicon"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.endonomicon",
+        "fallback": "Endonomicon"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/endonomicon"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/cauldron_cookbook"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.cauldron_cookbook",
+        "fallback": "Cauldron Cookbook"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/cauldron_cookbook"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/chorus_plating"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.chorus_plating",
+        "fallback": "Chorus Plating"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/chorus_plating"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/enderite_shard"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.enderite_shard",
+        "fallback": "Enderite Shard"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/enderite_shard"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/hallowed_ingot"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.hallowed_ingot",
+        "fallback": "Hallowed Ingot"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/hallowed_ingot"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/pixie_dust"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.starlight_soot",
+        "fallback": "Starlight Soot"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/starlight_soot"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/enderite_upgrade_smithing_template"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.enderite_smithing_template.upgrade",
+        "fallback": "Enderite Upgrade Smithing Template"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/enderite_smithing_template"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/sand_rune"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.sand_rune",
+        "fallback": "Sand Rune"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/material/sand_rune"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/gilded_purpur_key"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.gilded_purpur_key",
+        "fallback": "Gilded Purpur Key"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/keys/gilded_purpur_key"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/winged_key"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.winged_key",
+        "fallback": "Winged Key"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/keys/winged_key"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/purpur_key"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.purpur_key",
+        "fallback": "Purpur Key"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/keys/purpur_key"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/music_disc/deviants_light_music_box"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.deviants_light_music_box",
+        "fallback": "ZUN - The Deviants Unobstructed Light (Music Box Ver.)"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/music_disc/deviants_light_music_box"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/music_disc/fires_of_hokkai"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.fires_of_hokkai",
+        "fallback": "ZUN - Fires of Hokkai"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/music_disc/fires_of_hokkai"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/music_disc/precipice_stereo"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.precipice_stereo",
+        "fallback": "Aaron Cherof - Precipice (Stereo Ver.)"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/music_disc/precipice_stereo"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/ender_egg"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.ender_egg",
+        "fallback": "Ender Egg"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/ingredients/ender_egg"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/amethyst_budfish"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.amethyst_budfish",
+        "fallback": "Amethyst Budfish"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/amethyst_budfish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/bubblefish"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.bubblefish",
+        "fallback": "Bubblefish"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/bubblefish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/crimson_tigerfish"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.crimson_tigerfish",
+        "fallback": "Crimson Tigerfish"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/crimson_tigerfish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/crystal_heartfish"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.crystal_heartfish",
+        "fallback": "Crystal Heartfish"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/crystal_heartfish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/ender_koi"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.ender_koi",
+        "fallback": "Ender Koi"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/ender_koi"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/flarefin_koi"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.flarefin_koi",
+        "fallback": "Flarefin Koi"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/flarefin_koi"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/fleshy_piranha"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.fleshy_piranha",
+        "fallback": "Fleshy Piranha"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/fleshy_piranha"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/frost_minnow"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.frost_minnow",
+        "fallback": "Frost Minnow"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/frost_minnow"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/goosh"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.goosh",
+        "fallback": "Goosh"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/goosh"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/overgrown_cod"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.overgrown_cod",
+        "fallback": "Overgrown Cod"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/overgrown_cod"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/potassifish"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.potassifish",
+        "fallback": "Potassifish"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/potassifish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fish/prismite"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.prismite",
+        "fallback": "Prismite"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/prismite"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/pufferfish"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.pufferfish",
+        "fallback": "Pufferfish"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fish/pufferfish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/candied_chorus_fruit"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.candied_chorus_fruit",
+        "fallback": "Candied Chorus Fruit"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/candied_chorus_fruit"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/chorus_juice"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.chorus_juice",
+        "fallback": "Chorus Juice"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/chorus_juice"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/chorus_pie"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.chorus_pie",
+        "fallback": "Chorus Pie"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/chorus_pie"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/chorus_stew"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.chorus_stew",
+        "fallback": "Chorus Stew"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/chorus_stew"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/enderman_flesh"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.enderman_flesh",
+        "fallback": "Enderman Flesh"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/enderman_flesh"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/fried_chorus_fruit"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.fried_chorus_fruit",
+        "fallback": "Fried Chorus Fruit"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/fried_chorus_fruit"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/frozen_carpaccio"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.frozen_carpaccio",
+        "fallback": "Frozen Carpaccio"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/frozen_carpaccio"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/golden_chorus_fruit"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.golden_chorus_fruit",
+        "fallback": "Golden Chorus Fruit"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/golden_chorus_fruit"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/grilled_enderman_flesh"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.grilled_enderman_flesh",
+        "fallback": "Grilled Enderman Flesh"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/grilled_enderman_flesh"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/pho"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.pho",
+        "fallback": "Pho"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/pho"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/prismatic_sushi"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.prismatic_sushi",
+        "fallback": "Prismatic Sushi"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/prismatic_sushi"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/shepherds_pie"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shepherds_pie",
+        "fallback": "Shepherd's Pie"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/shepherds_pie"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/shulker_body"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.shulker_body",
+        "fallback": "Shulker Body"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/shulker_body"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/food/sushi"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.sushi",
+        "fallback": "Sushi"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/sushi"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/bread"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.loaf_of_plenty",
+        "fallback": "Loaf of Plenty"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/food/loaf_of_plenty"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/amarene"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.amarene",
+        "fallback": "Amarene"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/amarene"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/blind_rage_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.blind_rage_potion",
+        "fallback": "Blind Rage Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/blind_rage_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/endurance_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.endurance_potion",
+        "fallback": "Endurance Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/endurance_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/entanglement_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.entanglement_potion",
+        "fallback": "Entanglement Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/entanglement_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/frost_cloud_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.frost_cloud_potion",
+        "fallback": "Frost Cloud Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/frost_cloud_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/hellfire_treader_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.hellfire_treader_potion",
+        "fallback": "Hellfire Treader Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/hellfire_treader_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/lifeforce_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.lifeforce_potion",
+        "fallback": "Lifeforce Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/lifeforce_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/poseidons_nectar"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.poseidons_nectar",
+        "fallback": "Poseidon's Nectar"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/poseidons_nectar"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/red_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.red_potion",
+        "fallback": "Red Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/red_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/regeneraga"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.regeneraga",
+        "fallback": "Regeneraga"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/regeneraga"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/honey_bottle"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.royal_jelly",
+        "fallback": "Royal Jelly"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/royal_jelly"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/spelunker_potion"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.spelunker_potion",
+        "fallback": "Spelunker Potion"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/potion/spelunker_potion"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spawn_egg/flesh_piglin_spawn_egg"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.flesh_piglin_spawn_egg",
+        "fallback": "Flesh Piglin Spawn Egg"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spawn_egg/flesh_piglin"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spawn_egg/voided_silverfish_spawn_egg"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.voided_silverfish",
+        "fallback": "Voided Silverfish Spawn Egg"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spawn_egg/voided_silverfish"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spawn_egg/voided_skeleton_spawn_egg"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.voided_skeleton",
+        "fallback": "Voided Skeleton Spawn Egg"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spawn_egg/voided_skeleton"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spawn_egg/voided_slime_spawn_egg"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.voided_slime",
+        "fallback": "Voided Slime Spawn Egg"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spawn_egg/voided_slime"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/spawn_egg/voided_zombie_spawn_egg"
+        }
+      ],
+      "tooltip": {
+        "translate": "item.stellarity.voided_zombie",
+        "fallback": "Voided Zombie Spawn Egg"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/spawn_egg/voided_zombie"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/altar_of_the_accursed"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.altar_of_the_accursed",
+        "fallback": "Altar of The Accursed"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/altar_of_the_accursed"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/altar_of_the_sacred"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.altar_of_the_sacred",
+        "fallback": "Altar of The Sacred"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/altar_of_the_sacred"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/ashen_froglight"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.ashen_froglight",
+        "fallback": "Ashen Froglight"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/ashen_froglight"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/ender_dirt_path"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.ender_dirt_path",
+        "fallback": "Ender Dirt Path"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/ender_dirt_path"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/ender_dirt"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.ender_dirt",
+        "fallback": "Ender Dirt"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/ender_dirt"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/ender_grass_block"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.ender_grass_block",
+        "fallback": "Ender Grass Block"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/ender_grass_block"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/enderite_block"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.enderite_block",
+        "fallback": "Enderite Block"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/enderite_block"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:gui",
+          "sprite": "stellarity:font/icon/rooted_ender_dirt"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.rooted_ender_dirt",
+        "fallback": "Rooted Ender Dirt"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/rooted_ender_dirt"
+      }
+    },
+    {
+      "label": [
+        {
+          "atlas": "minecraft:items",
+          "sprite": "stellarity:item/phantom_item_frame"
+        }
+      ],
+      "tooltip": {
+        "translate": "block.stellarity.phantom_item_frame",
+        "fallback": "Phantom Item Frame"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:block/phantom_item_frame"
+      }
+    }
+  ]
+}

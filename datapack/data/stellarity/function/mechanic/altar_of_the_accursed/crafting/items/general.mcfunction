@@ -18,6 +18,7 @@
 
 # Book of Jinx
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_book_of_jinx matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.chorus_plating,scores={stellarity.altar_of_the_accursed.count=8}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.book,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=10}] \
@@ -25,6 +26,7 @@
 
 # Grand Tome of Teleportation
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_book_of_conveyance matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.ender_pearl,scores={stellarity.altar_of_the_accursed.count=16}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.book,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=32}] \
@@ -32,6 +34,7 @@
 
 # Crest of The End
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_crest_of_the_end matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shield,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_ingot,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -39,6 +42,7 @@
 
 # Satchel of Voids
   execute if score @s stellarity.misc matches 5 \
+  if score #stellarity.config stellarity.config.enable_satchel_of_voids matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.bundle,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.starlight_soot,scores={stellarity.altar_of_the_accursed.count=64}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.nether_star,scores={stellarity.altar_of_the_accursed.count=2}] \

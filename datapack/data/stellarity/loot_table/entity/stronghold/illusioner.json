@@ -70,7 +70,12 @@
                 "entries": [
                   {
                     "type": "minecraft:loot_table",
-                    "value": "stellarity:item/weapon/sharanga"
+                    "value": "stellarity:item/weapon/sharanga",
+                    "condition": {
+                      "type": "int_value_check",
+                      "value": "stellarity:item_check/sharanga",
+                      "test": 1
+                    }
                   }
                 ]
               },

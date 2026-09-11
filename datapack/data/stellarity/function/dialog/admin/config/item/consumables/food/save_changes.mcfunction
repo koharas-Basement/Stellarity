@@ -1,0 +1,17 @@
+$scoreboard players set #stellarity.config stellarity.config.enable_candied_chorus_fruit $(candied_chorus_fruit)
+$scoreboard players set #stellarity.config stellarity.config.enable_chorus_juice $(chorus_juice)
+$scoreboard players set #stellarity.config stellarity.config.enable_chorus_pie $(chorus_pie)
+$scoreboard players set #stellarity.config stellarity.config.enable_chorus_stew $(chorus_stew)
+$scoreboard players set #stellarity.config stellarity.config.enable_enderman_flesh $(enderman_flesh)
+$scoreboard players set #stellarity.config stellarity.config.enable_fried_chorus_fruit $(fried_chorus_fruit)
+$scoreboard players set #stellarity.config stellarity.config.enable_frozen_carpaccio $(frozen_carpaccio)
+$scoreboard players set #stellarity.config stellarity.config.enable_golden_chorus_fruit $(golden_chorus_fruit)
+$scoreboard players set #stellarity.config stellarity.config.enable_grilled_enderman_flesh $(grilled_enderman_flesh)
+$scoreboard players set #stellarity.config stellarity.config.enable_loaf_of_plenty $(loaf_of_plenty)
+$scoreboard players set #stellarity.config stellarity.config.enable_pho $(pho)
+$scoreboard players set #stellarity.config stellarity.config.enable_prismatic_sushi $(prismatic_sushi)
+$scoreboard players set #stellarity.config stellarity.config.enable_shepherds_pie $(shepherds_pie)
+$scoreboard players set #stellarity.config stellarity.config.enable_shulker_body $(shulker_body)
+$scoreboard players set #stellarity.config stellarity.config.enable_sushi $(sushi)
+
+trigger stellarity.dialog.admin set 455

@@ -317,12 +317,22 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/chorus_pie",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/chorus_juice",
-          "weight": 7
+          "weight": 7,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/chorus_juice",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:alternatives",

@@ -53,7 +53,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:end_city/vault/normal/unique"
+          "value": "stellarity:end_city/vault/normal/unique",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_return",
+            "test": 1
+          }
         }
       ],
       "condition": {
@@ -106,7 +111,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/music_disc/fires_of_hokkai"
+          "value": "stellarity:item/music_disc/fires_of_hokkai",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/music_discs",
+            "test": 1
+          }
         }
       ],
       "condition": {

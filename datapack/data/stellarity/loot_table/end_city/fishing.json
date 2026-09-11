@@ -10,12 +10,22 @@
         {
           "type": "minecraft:loot_table",
           "weight": 26,
-          "value": "stellarity:item/food/fish/ender_koi"
+          "value": "stellarity:item/food/fish/ender_koi",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/ender_koi",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 6,
-          "value": "stellarity:item/food/fish/goosh"
+          "value": "stellarity:item/food/fish/goosh",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/goosh",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -31,6 +41,11 @@
                     "stellarity:amethyst_forest"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/amethyst_budfish",
+                "test": 1
               }
             ]
           }
@@ -49,6 +64,11 @@
                     "stellarity:flesh_tundra"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/crimson_tigerfish",
+                "test": 1
               }
             ]
           }
@@ -67,6 +87,11 @@
                     "stellarity:flesh_tundra"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/fleshy_piranha",
+                "test": 1
               }
             ]
           }
@@ -74,7 +99,12 @@
         {
           "type": "minecraft:loot_table",
           "quality": 1,
-          "value": "stellarity:item/food/fish/crystal_heartfish"
+          "value": "stellarity:item/food/fish/crystal_heartfish",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/crystal_heartfish",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -90,6 +120,11 @@
                     "stellarity:the_hallow"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/prismite",
+                "test": 1
               }
             ]
           }
@@ -108,6 +143,11 @@
                     "stellarity:fiery_hills"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/flarefin_koi",
+                "test": 1
               }
             ]
           }
@@ -126,6 +166,11 @@
                     "stellarity:endless_dunes"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/potassifish",
+                "test": 1
               }
             ]
           }
@@ -135,14 +180,19 @@
           "weight": 12,
           "value": "stellarity:item/food/fish/overgrown_cod",
           "condition": {
-              "type": "minecraft:any_of",
-              "terms": [
-                "stellarity:location/in_biome/end_midlands",
-                "stellarity:location/in_biome/end_highlands",
-                "stellarity:location/in_biome/small_end_islands",
-                "stellarity:location/in_biome/end_barrens"
-              ]
-            }
+            "type": "minecraft:any_of",
+            "terms": [
+              "stellarity:location/in_biome/end_midlands",
+              "stellarity:location/in_biome/end_highlands",
+              "stellarity:location/in_biome/small_end_islands",
+              "stellarity:location/in_biome/end_barrens",
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/overgrown_cod",
+                "test": 1
+              }
+            ]
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -158,6 +208,11 @@
                     "stellarity:frozen_spikes"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/frost_minnow",
+                "test": 1
               }
             ]
           }
@@ -176,6 +231,11 @@
                     "stellarity:prismarine_forest"
                   ]
                 }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/bubblefish",
+                "test": 1
               }
             ]
           }

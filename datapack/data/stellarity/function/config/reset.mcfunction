@@ -1,7 +1,9 @@
 scoreboard players reset #stellarity.config stellarity.config.join_message
 scoreboard players reset #stellarity.config stellarity.config.always_generate_egg
 scoreboard players reset #stellarity.config stellarity.config.dragon_health
-scoreboard players reset #stellarity.config stellarity.config.empress_of_light_health
+scoreboard players reset #stellarity.config stellarity.config.nighttime_empress_of_light_health
+scoreboard players reset #stellarity.config stellarity.config.daytime_empress_of_light_health
+scoreboard players reset #stellarity.config stellarity.config.radiant_empress_of_light_health
 scoreboard players reset #stellarity.config stellarity.config.shulking_health
 scoreboard players reset #stellarity.config stellarity.config.allow_disenchanting
 scoreboard players reset #stellarity.config stellarity.config.track_loop_delay.empress_of_light
@@ -14,4 +16,11 @@ scoreboard players reset #stellarity.config stellarity.config.enable_totem_void_
 scoreboard players reset #stellarity.config stellarity.config.migrations
 scoreboard players reset #stellarity.config stellarity.config.shulking_break
 scoreboard players reset #stellarity.config stellarity.config.enable_empress_of_light
+scoreboard players reset #stellarity.config stellarity.config.enable_nighttime_empress_of_light
+scoreboard players reset #stellarity.config stellarity.config.enable_daytime_empress_of_light
+scoreboard players reset #stellarity.config stellarity.config.enable_radiant_empress_of_light
 scoreboard players reset #stellarity.config stellarity.config.enable_shulking
+scoreboard players reset #stellarity.config stellarity.config.enable_ender_dragon
+scoreboard players reset #stellarity.config stellarity.config.enable_pixie
+scoreboard players reset #stellarity.config stellarity.config.enable_harvester_mb
+scoreboard players reset #stellarity.config stellarity.config.harvester_mb_health

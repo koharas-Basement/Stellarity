@@ -38,8 +38,11 @@
       scoreboard objectives add stellarity.config.enable_end_crystal_drop dummy
       scoreboard objectives add stellarity.config.enable_totem_void_saving dummy
       scoreboard objectives add stellarity.config.dragon_health dummy
-      scoreboard objectives add stellarity.config.empress_of_light_health dummy
+      scoreboard objectives add stellarity.config.nighttime_empress_of_light_health dummy
+       scoreboard objectives add stellarity.config.daytime_empress_of_light_health dummy
+        scoreboard objectives add stellarity.config.radiant_empress_of_light_health dummy
       scoreboard objectives add stellarity.config.shulking_health dummy
+       scoreboard objectives add stellarity.config.harvester_mb_health dummy
       scoreboard objectives add stellarity.config.allow_disenchanting dummy
       scoreboard objectives add stellarity.config.track_loop_delay.empress_of_light dummy
       scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
@@ -51,6 +54,105 @@
       scoreboard objectives add stellarity.config.shulking_break dummy
       scoreboard objectives add stellarity.config.enable_empress_of_light dummy
       scoreboard objectives add stellarity.config.enable_shulking dummy
+      scoreboard objectives add stellarity.config.enable_ender_dragon dummy
+      scoreboard objectives add stellarity.config.enable_harvester_mb dummy
+      scoreboard objectives add stellarity.config.enable_daytime_empress_of_light dummy
+      scoreboard objectives add stellarity.config.enable_nighttime_empress_of_light dummy
+      scoreboard objectives add stellarity.config.enable_radiant_empress_of_light dummy
+      scoreboard objectives add stellarity.config.enable_pixie dummy
+
+      scoreboard objectives add stellarity.config.enable_dragonblade dummy
+      scoreboard objectives add stellarity.config.enable_harvester dummy
+      scoreboard objectives add stellarity.config.enable_kaleidoscope dummy
+      scoreboard objectives add stellarity.config.enable_prismember dummy
+      scoreboard objectives add stellarity.config.enable_fluffy_hammer_of_justice dummy
+      scoreboard objectives add stellarity.config.enable_the_beginning dummy
+      scoreboard objectives add stellarity.config.enable_the_end dummy
+      scoreboard objectives add stellarity.config.enable_stellar_striker dummy
+      scoreboard objectives add stellarity.config.enable_tamaris dummy
+      scoreboard objectives add stellarity.config.enable_starless_scythe dummy
+      scoreboard objectives add stellarity.config.enable_sharanga dummy
+      scoreboard objectives add stellarity.config.enable_spectral_fury dummy
+      scoreboard objectives add stellarity.config.enable_call_of_the_void dummy
+      scoreboard objectives add stellarity.config.enable_prismatic_punch dummy
+      scoreboard objectives add stellarity.config.enable_sandstorm_trident dummy
+      scoreboard objectives add stellarity.config.enable_book_of_conveyance dummy
+      scoreboard objectives add stellarity.config.enable_book_of_jinx dummy
+      scoreboard objectives add stellarity.config.enable_book_of_updraft dummy
+      scoreboard objectives add stellarity.config.enable_book_of_light dummy
+      scoreboard objectives add stellarity.config.enable_book_of_obstruct dummy
+      scoreboard objectives add stellarity.config.enable_book_of_return dummy
+      scoreboard objectives add stellarity.config.enable_shulker_tools dummy
+
+      scoreboard objectives add stellarity.config.enable_copper_elektra_shield dummy
+      scoreboard objectives add stellarity.config.enable_crest_of_the_end dummy
+      scoreboard objectives add stellarity.config.enable_starstruck_shield dummy
+      scoreboard objectives add stellarity.config.enable_duskberry dummy
+      scoreboard objectives add stellarity.config.enable_life_crystal dummy
+      scoreboard objectives add stellarity.config.enable_soaring_insignia dummy
+      scoreboard objectives add stellarity.config.enable_endermans_hand dummy
+      scoreboard objectives add stellarity.config.enable_satchel_of_voids dummy
+      scoreboard objectives add stellarity.config.enable_prismatic_pearl dummy
+      scoreboard objectives add stellarity.config.enable_void_pendant dummy
+      scoreboard objectives add stellarity.config.enable_radiant_jewel dummy
+
+      scoreboard objectives add stellarity.config.enable_shulker_armor dummy
+      scoreboard objectives add stellarity.config.enable_champion_armor dummy
+      scoreboard objectives add stellarity.config.enable_floral_armor dummy
+      scoreboard objectives add stellarity.config.enable_hallowed_armor dummy
+      scoreboard objectives add stellarity.config.enable_phantom_wings dummy
+      scoreboard objectives add stellarity.config.enable_empress_wings dummy
+      scoreboard objectives add stellarity.config.enable_dragon_wings dummy
+      scoreboard objectives add stellarity.config.enable_reinforced_horse_armor dummy
+
+      scoreboard objectives add stellarity.config.enable_music_discs dummy
+
+      scoreboard objectives add stellarity.config.enable_amethyst_budfish dummy
+      scoreboard objectives add stellarity.config.enable_bubblefish dummy
+      scoreboard objectives add stellarity.config.enable_crimson_tigerfish dummy
+      scoreboard objectives add stellarity.config.enable_crystal_heartfish dummy
+      scoreboard objectives add stellarity.config.enable_ender_koi dummy
+      scoreboard objectives add stellarity.config.enable_flarefin_koi dummy
+      scoreboard objectives add stellarity.config.enable_fleshy_piranha dummy
+      scoreboard objectives add stellarity.config.enable_frost_minnow dummy
+      scoreboard objectives add stellarity.config.enable_goosh dummy
+      scoreboard objectives add stellarity.config.enable_overgrown_cod dummy
+      scoreboard objectives add stellarity.config.enable_potassifish dummy
+      scoreboard objectives add stellarity.config.enable_prismite dummy
+      scoreboard objectives add stellarity.config.enable_pufferfish dummy
+
+      scoreboard objectives add stellarity.config.enable_candied_chorus_fruit dummy
+      scoreboard objectives add stellarity.config.enable_chorus_juice dummy
+      scoreboard objectives add stellarity.config.enable_chorus_pie dummy
+      scoreboard objectives add stellarity.config.enable_chorus_stew dummy
+      scoreboard objectives add stellarity.config.enable_enderman_flesh dummy
+      scoreboard objectives add stellarity.config.enable_fried_chorus_fruit dummy
+      scoreboard objectives add stellarity.config.enable_frozen_carpaccio dummy
+      scoreboard objectives add stellarity.config.enable_golden_chorus_fruit dummy
+      scoreboard objectives add stellarity.config.enable_grilled_enderman_flesh dummy
+      scoreboard objectives add stellarity.config.enable_loaf_of_plenty dummy
+      scoreboard objectives add stellarity.config.enable_pho dummy
+      scoreboard objectives add stellarity.config.enable_prismatic_sushi dummy
+      scoreboard objectives add stellarity.config.enable_shepherds_pie dummy
+      scoreboard objectives add stellarity.config.enable_shulker_body dummy
+      scoreboard objectives add stellarity.config.enable_sushi dummy
+
+      scoreboard objectives add stellarity.config.enable_amarene dummy
+      scoreboard objectives add stellarity.config.enable_blind_rage_potion dummy
+      scoreboard objectives add stellarity.config.enable_endurance_potion dummy
+      scoreboard objectives add stellarity.config.enable_entanglement_potion dummy
+      scoreboard objectives add stellarity.config.enable_frost_cloud_potion dummy
+      scoreboard objectives add stellarity.config.enable_hellfire_treader_potion dummy
+      scoreboard objectives add stellarity.config.enable_lifeforce_potion dummy
+      scoreboard objectives add stellarity.config.enable_luck_potion dummy
+      scoreboard objectives add stellarity.config.enable_poseidons_nectar dummy
+      scoreboard objectives add stellarity.config.enable_red_potion dummy
+      scoreboard objectives add stellarity.config.enable_regeneraga dummy
+      scoreboard objectives add stellarity.config.enable_royal_jelly dummy
+      scoreboard objectives add stellarity.config.enable_spelunker_potion dummy
+
+
+      
 
     # Initialize config scoreboards
       # Freshly created scoreboards have no value (not even set to 0)
@@ -302,3 +404,6 @@ team modify stellarity.dragon.pacify_others friendlyFire false
   execute store result score #difficulty stellarity.misc run difficulty
 
 execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw/schedule 5t
+
+# Dialog Admin Menu Trigger
+ scoreboard objectives add stellarity.dialog.admin trigger

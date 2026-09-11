@@ -9,4 +9,4 @@ item replace entity @s armor.feet with leather_boots[dyed_color=1449354]
 execute if score #random stellarity.misc matches 4 run \
 item replace entity @s armor.feet with leather_boots[dyed_color=6134210]
 
-execute if predicate kohara:chance/1percent run function stellarity:entity/voided_skeleton/harvester_miniboss
+execute if score #stellarity.config stellarity.config.enable_harvester_mb matches 1 if predicate kohara:chance/1percent run function stellarity:entity/voided_skeleton/harvester_miniboss

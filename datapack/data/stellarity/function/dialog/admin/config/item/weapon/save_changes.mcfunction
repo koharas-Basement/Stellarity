@@ -1,0 +1,17 @@
+$scoreboard players set #stellarity.config stellarity.config.enable_dragonblade $(dragonblade)
+$scoreboard players set #stellarity.config stellarity.config.enable_kaleidoscope $(kaleidoscope)
+$scoreboard players set #stellarity.config stellarity.config.enable_tamaris $(tamaris)
+$scoreboard players set #stellarity.config stellarity.config.enable_prismember $(prismember)
+$scoreboard players set #stellarity.config stellarity.config.enable_stellar_striker $(stellar_striker)
+$scoreboard players set #stellarity.config stellarity.config.enable_harvester $(harvester)
+$scoreboard players set #stellarity.config stellarity.config.enable_the_beginning $(the_beginning)
+$scoreboard players set #stellarity.config stellarity.config.enable_the_end $(the_end)
+$scoreboard players set #stellarity.config stellarity.config.enable_starless_scythe $(starless_scythe)
+$scoreboard players set #stellarity.config stellarity.config.enable_fluffy_hammer_of_justice $(fluffy_hammer_of_justice)
+$scoreboard players set #stellarity.config stellarity.config.enable_sandstorm_trident $(sandstorm_trident)
+$scoreboard players set #stellarity.config stellarity.config.enable_sharanga $(sharanga)
+$scoreboard players set #stellarity.config stellarity.config.enable_spectral_fury $(spectral_fury)
+$scoreboard players set #stellarity.config stellarity.config.enable_call_of_the_void $(call_of_the_void)
+$scoreboard players set #stellarity.config stellarity.config.enable_prismatic_punch $(prismatic_punch)
+
+trigger stellarity.dialog.admin set 440

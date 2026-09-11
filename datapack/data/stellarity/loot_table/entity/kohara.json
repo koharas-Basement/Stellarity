@@ -6,7 +6,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/golden_chorus_fruit"
+          "value": "stellarity:item/food/golden_chorus_fruit",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/golden_chorus_fruit",
+            "test": 1
+          }
         }
       ]
     }

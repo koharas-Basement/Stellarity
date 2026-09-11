@@ -7,7 +7,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/flarefin_koi",
-          "weight": 20
+          "weight": 20,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/flarefin_koi",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",

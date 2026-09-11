@@ -13,7 +13,7 @@
 
         ## Respawn stuff
           # Count the number of respawn Crystals placed
-            execute unless entity @e[type=minecraft:ender_dragon,distance=..300] run function stellarity:entity/dragon/spawn/conditions
+            execute if score #stellarity.config stellarity.config.enable_ender_dragon matches 1 unless entity @e[type=minecraft:ender_dragon,distance=..300] run function stellarity:entity/dragon/spawn/conditions
             # Start the respawn animation
               execute if entity @s[tag=stellarity.respawn_dragon] run function stellarity:entity/dragon/spawn/animation
 

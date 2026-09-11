@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "inputs": [],
+  "columns": 1,
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger stellarity.dialog.admin set 440"
+    }
+  },
+  "actions": [
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.consumables.fish_configs",
+          "fallback": "Fish Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 470"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.consumables.food_configs",
+          "fallback": "Food Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 471"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.consumables.potion_configs",
+          "fallback": "Potion Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 472"
+      }
+    }
+  ]
+}

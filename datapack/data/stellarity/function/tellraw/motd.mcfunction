@@ -176,3 +176,7 @@ execute if score #random stellarity.misc matches 87 run \
 data modify storage stellarity:temp motd set value "§e§oalso try §d§oA Distant Journey§e§o!"
 execute if score #random stellarity.misc matches 88 run \
 data modify storage stellarity:temp motd set value "§e§cP§6r§ei§2§as§9m§3a§bt§5i§dc§e!"
+execute if score #random stellarity.misc matches 89 run \
+data modify storage stellarity:temp motd set value "§e§oalso try §b§oRecondite§e§o!"
+execute if score #random stellarity.misc matches 90 run \
+data modify storage stellarity:temp motd set value "§eXOTWOD"

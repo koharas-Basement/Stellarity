@@ -86,7 +86,12 @@
         {
           "type": "loot_table",
           "value": "stellarity:item/potion/royal_jelly",
-          "weight": 2
+          "weight": 2,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/royal_jelly",
+            "test": 1
+          }
         }
       ]
     }

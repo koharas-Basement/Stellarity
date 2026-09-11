@@ -5,11 +5,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/potion/lifeforce_potion"
+          "value": "stellarity:item/potion/lifeforce_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/lifeforce_potion",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/potion/red_potion"
+          "value": "stellarity:item/potion/red_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/red_potion",
+            "test": 1
+          }
         }
       ]
     }

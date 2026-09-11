@@ -33,12 +33,22 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "value": "stellarity:item/music_disc/fires_of_hokkai"
+          "value": "stellarity:item/music_disc/fires_of_hokkai",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/music_discs",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "value": "stellarity:item/trinket/void_pendant"
+          "value": "stellarity:item/trinket/void_pendant",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/void_pendant",
+            "test": 1
+          }
         }
       ]
     }

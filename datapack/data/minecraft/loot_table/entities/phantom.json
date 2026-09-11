@@ -92,13 +92,31 @@
         }
       ],
       "condition": {
-        "type": "minecraft:random_chance",
-        "chance": {
-          "type": "minecraft:score",
-          "target": "this",
-          "score": "stellarity.phantom.wings_drop_chance",
-          "scale": 0.01
-        }
+        "type": "all_of",
+        "terms": [
+          {
+            "type": "minecraft:random_chance",
+            "chance": {
+              "type": "minecraft:mul",
+              "inputs": [
+                {
+                  "type": "from_int",
+                  "input": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "stellarity.phantom.wings_drop_chance"
+                  }
+                },
+                0.01
+              ]
+            }
+          },
+          {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/phantom_wings",
+            "test": 1
+          }
+        ]
       }
     }
   ]

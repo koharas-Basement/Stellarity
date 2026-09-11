@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "gui.stellarity.item.title",
+        "fallback": "Item Configurations",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "gui.stellarity.item.description",
+        "fallback": "ᴄᴏɴꜰɪɢᴜʀᴇ ᴀɴᴅ ᴛᴏɢɢʟᴇ ѕᴛᴇʟʟᴀʀɪᴛʏ ɪᴛᴇᴍѕ",
+        "color": "gray",
+        "bold": false
+      }
+    ]
+  },
+  "inputs": [],
+  "columns": 1,
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger stellarity.dialog.admin set 420"
+    }
+  },
+  "actions": [
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.item.weapon_configs",
+          "fallback": "Weapon Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 450"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.item.spellbook_configs",
+          "fallback": "Spellbook Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 452"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.item.trinket_configs",
+          "fallback": "Trinket Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 451"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.item.armor_configs",
+          "fallback": "Armor Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 453"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.item.consumable_configs",
+          "fallback": "Consumable Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 455"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.item.other_configs",
+          "fallback": "Other Configurations",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 454"
+      }
+    }
+  ]
+}

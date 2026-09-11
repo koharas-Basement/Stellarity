@@ -209,7 +209,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/trinket/duskberry"
+          "value": "stellarity:item/trinket/duskberry",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/duskberry",
+            "test": 1
+          }
         }
       ],
       "condition": {

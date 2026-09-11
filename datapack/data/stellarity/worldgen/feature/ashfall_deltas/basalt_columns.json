@@ -9,7 +9,7 @@
           "column_reach": 0,
           "height": 1,
           "block": {
-            "type": "simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:basalt",
               "properties": {
@@ -76,7 +76,7 @@
             "max_inclusive": 6
           },
           "block": {
-            "type": "simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "id": "minecraft:basalt",
               "properties": {

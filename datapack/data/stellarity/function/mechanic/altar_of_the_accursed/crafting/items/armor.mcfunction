@@ -1,5 +1,6 @@
 # Hallowed Helmet
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_hallowed_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.hallowed_ingot,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_helmet,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -7,6 +8,7 @@
 
 # Hallowed Chestplate
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_hallowed_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.hallowed_ingot,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_chestplate,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -14,6 +16,7 @@
 
 # Hallowed Leggings
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_hallowed_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_leggings,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.hallowed_ingot,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -21,6 +24,7 @@
 
 # Hallowed Boots
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_hallowed_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_boots,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.hallowed_ingot,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -28,6 +32,7 @@
 
 # Champion Helmet
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_champion_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.chorus_plating,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_helmet,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -35,6 +40,7 @@
 
 # Champion Chestplate
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_champion_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_chestplate,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.chorus_plating,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -42,6 +48,7 @@
 
 # Champion Leggings
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_champion_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_leggings,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.chorus_plating,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -49,6 +56,7 @@
 
 # Champion Boots
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_champion_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_boots,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.chorus_plating,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -56,6 +64,7 @@
 
 # Shulker Helmet
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_helmet,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -63,6 +72,7 @@
 
 # Shulker Chestplate
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_chestplate,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -70,6 +80,7 @@
 
 # Shulker Leggings
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_leggings,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -77,6 +88,7 @@
 
 # Shulker Boots
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_boots,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -84,6 +96,7 @@
 
 # Floral Helmet
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_floral_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.cherry_leaves,scores={stellarity.altar_of_the_accursed.count=8}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_helmet,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -91,6 +104,7 @@
 
 # Floral Chestplate
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_floral_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_chestplate,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.cherry_leaves,scores={stellarity.altar_of_the_accursed.count=8}] \
@@ -98,6 +112,7 @@
 
 # Floral Leggings
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_floral_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_leggings,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.cherry_leaves,scores={stellarity.altar_of_the_accursed.count=8}] \
@@ -105,6 +120,7 @@
 
 # Floral Boots
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_floral_armor matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_boots,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.cherry_leaves,scores={stellarity.altar_of_the_accursed.count=8}] \

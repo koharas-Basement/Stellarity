@@ -7,12 +7,22 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/crimson_tigerfish",
-          "weight": 27
+          "weight": 27,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/crimson_tigerfish",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/fleshy_piranha",
-          "weight": 19
+          "weight": 19,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/fleshy_piranha",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",

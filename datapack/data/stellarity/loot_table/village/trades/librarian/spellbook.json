@@ -5,15 +5,30 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_updraft"
+          "value": "stellarity:item/spellbook/book_of_updraft",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_updraft",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_light"
+          "value": "stellarity:item/spellbook/book_of_light",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_light",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_obstruct"
+          "value": "stellarity:item/spellbook/book_of_obstruct",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_obstruct",
+            "test": 1
+          }
         }
       ]
     }

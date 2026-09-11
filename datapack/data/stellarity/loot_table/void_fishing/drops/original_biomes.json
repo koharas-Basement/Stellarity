@@ -6,7 +6,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/overgrown_cod",
-          "weight": 8
+          "weight": 8,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/overgrown_cod",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",

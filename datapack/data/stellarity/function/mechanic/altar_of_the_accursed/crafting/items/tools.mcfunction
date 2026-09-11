@@ -1,5 +1,6 @@
 # Shulker Pickaxe
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_tools matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_pickaxe,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -7,6 +8,7 @@
 
 # Shulker Axe
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_tools matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_axe,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
@@ -14,6 +16,7 @@
 
 # Shulker Shovel
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_tools matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_shovel,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -21,6 +24,7 @@
 
 # Shulker Hoe
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_shulker_tools matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_hoe,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.shulker_shell,scores={stellarity.altar_of_the_accursed.count=4}] \

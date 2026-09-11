@@ -21,7 +21,12 @@
                 "chance": 0.125
               }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/ender_koi",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -40,12 +45,22 @@
                 "chance": 0.125
               }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/goosh",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/crystal_heartfish",
-          "weight": 4
+          "weight": 4,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/crystal_heartfish",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",

@@ -57,13 +57,16 @@
                 },
                 "minecraft:unbreakable": {},
                 "tooltip_display": {
-                  "hidden_components": ["unbreakable"]
+                  "hidden_components": [
+                    "unbreakable"
+                  ]
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.ancient_wooden_sword",
                   "color": "white",
                   "italic": false
-                }
+                },
+                "minecraft:blocks_attacks": {}
               }
             }
           ]

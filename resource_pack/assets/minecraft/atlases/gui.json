@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "",
+      "source": "gui/sprites"
+    },
+    {
+      "type": "minecraft:directory",
+      "prefix": "mob_effect/",
+      "source": "mob_effect"
+    },
+     {
+      "type": "minecraft:directory",
+      "prefix": "font/",
+      "source": "font"
+    }
+  ]
+}

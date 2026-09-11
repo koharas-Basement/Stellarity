@@ -125,20 +125,40 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/potion/endurance_potion"
+          "value": "stellarity:item/potion/endurance_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/endurance_potion",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/potion/luck_potion"
+          "value": "stellarity:item/potion/luck_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/luck_potion",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/potion/lifeforce_potion"
+          "value": "stellarity:item/potion/lifeforce_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/lifeforce_potion",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "quality": 1,
-          "value": "stellarity:item/potion/red_potion"
+          "value": "stellarity:item/potion/red_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/red_potion",
+            "test": 1
+          }
         }
       ]
     }

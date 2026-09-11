@@ -1,0 +1,15 @@
+$scoreboard players set #stellarity.config stellarity.config.enable_amarene $(amarene)
+$scoreboard players set #stellarity.config stellarity.config.enable_blind_rage_potion $(blind_rage_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_endurance_potion $(endurance_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_entanglement_potion $(entanglement_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_frost_cloud_potion $(frost_cloud_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_hellfire_treader_potion $(hellfire_treader_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_lifeforce_potion $(lifeforce_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_luck_potion $(luck_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_poseidons_nectar $(poseidons_nectar)
+$scoreboard players set #stellarity.config stellarity.config.enable_red_potion $(red_potion)
+$scoreboard players set #stellarity.config stellarity.config.enable_regeneraga $(regeneraga)
+$scoreboard players set #stellarity.config stellarity.config.enable_royal_jelly $(royal_jelly)
+$scoreboard players set #stellarity.config stellarity.config.enable_spelunker_potion $(spelunker_potion)
+
+trigger stellarity.dialog.admin set 455

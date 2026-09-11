@@ -1,0 +1,339 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "gui.stellarity.commands.title",
+        "fallback": "Commands",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "gui.stellarity.commands.description",
+        "fallback": "ᴄᴏᴍᴍᴀɴᴅѕ ꜰᴏʀ ѕᴛᴇʟʟᴀʀɪᴛʏ",
+        "color": "gray",
+        "bold": false
+      }
+    ]
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "stellarity:admin"
+    }
+  },
+  "columns": 1,
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "actions": [
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.kill_dragon",
+        "fallback": "Kill Ender Dragon"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.kill_dragon.tooltip",
+          "fallback": "Kills the Ender Dragon"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/ender_dragon.kill\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/ender_dragon.kill"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.fix_markers",
+        "fallback": "Fix Markers"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.fix_markers.tooltip",
+          "fallback": "Resummons missing marker entities on the End Island"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/fix_markers\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/fix_markers"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.fix_portal",
+        "fallback": "Fix Portal"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.fix_portal.tooltip",
+          "fallback": "Regenerates the Exit Portal on the End Island"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/fix_portal\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/fix_portal"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.generate_end_island_features",
+        "fallback": "Generate End Island Features"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.generate_end_island_features.tooltip",
+          "fallback": "Regenerates End Island features, such as the AOTA pillar"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/generate_end_island_features\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "width": 180,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/generate_end_island_features"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.uninstall",
+        "fallback": "Uninstall"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.uninstall.tooltip",
+          "fallback": "Removes all Stellarity scoreboards, teams, and bossbars"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/uninstall\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/uninstall"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_armor",
+        "fallback": "Give Stellarity Armor"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_armor.tooltip",
+          "fallback": "Give yourself all Stellarity armor items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/armor\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/armor"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_blocks",
+        "fallback": "Give Stellarity Blocks"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_blocks.tooltip",
+          "fallback": "Give yourself all Stellarity blocks"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/blocks\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/blocks"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_food",
+        "fallback": "Give Stellarity Food"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_food.tooltip",
+          "fallback": "Give yourself all Stellarity food items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/food\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/food"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_misc",
+        "fallback": "Give Stellarity Misc"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_misc.tooltip",
+          "fallback": "Give yourself all Stellarity misc items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/misc\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/misc"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_potions",
+        "fallback": "Give Stellarity Potions"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_potions.tooltip",
+          "fallback": "Give yourself all Stellarity potion items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/potions\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/potions"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_spawn_eggs",
+        "fallback": "Give Stellarity Spawn Eggs"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_spawn_eggs.tooltip",
+          "fallback": "Give yourself all Stellarity spawn_egg items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/spawn_eggs\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/spawn_eggs"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_tools",
+        "fallback": "Give Stellarity Tools"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_tools.tooltip",
+          "fallback": "Give yourself all Stellarity tool items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/tools\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/tools"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_trinkets",
+        "fallback": "Give Stellarity Trinkets"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_trinkets.tooltip",
+          "fallback": "Give yourself all Stellarity trinket items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/trinkets\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/trinkets"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.commands.give_weapons",
+        "fallback": "Give Stellarity Weapons"
+      },
+      "tooltip": [
+        {
+          "translate": "gui.stellarity.commands.give_weapons.tooltip",
+          "fallback": "Give yourself all Stellarity weapon items"
+        },
+        {
+          "text": "\n\"function stellarity:_cmd/give/weapons\"",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:_cmd/give/weapons"
+      }
+    }
+  ]
+}

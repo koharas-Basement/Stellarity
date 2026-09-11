@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "gui.stellarity.admin_panel.title",
+        "fallback": "Admin Panel",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "gui.stellarity.admin_panel.description",
+        "fallback": "ᴄᴏɴꜰɪɢᴜʀᴇ ѕᴛᴇʟʟᴀʀɪᴛʏ ꜰᴇᴀᴛᴜʀᴇѕ, ʀᴜɴ ѕᴛᴇʟʟᴀʀɪᴛʏ ᴄᴏᴍᴍᴀɴᴅѕ, ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜʀѕᴇʟꜰ ᴀɴʏ ɪᴛᴇᴍ ᴜѕɪɴɢ ᴛʜᴇ ᴏᴘᴛɪᴏɴѕ ʙᴇʟᴏᴡ",
+        "color": "gray",
+        "bold": false
+      }
+    ],
+    "width": 300
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "stellarity:main"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "translate": "gui.stellarity.admin_panel.configuration",
+        "fallback": "Configuration"
+      },
+      "tooltip": {
+        "translate": "gui.stellarity.admin_panel.configuration.tooltip",
+        "fallback": "Configuration options for Stellarity. Can only be opened by those with operator permissions."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 420"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.admin_panel.give_items",
+        "fallback": "Give Items"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "stellarity:give_items"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.admin_panel.commands",
+        "fallback": "Commands"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "stellarity:commands"
+      }
+    }
+  ]
+}

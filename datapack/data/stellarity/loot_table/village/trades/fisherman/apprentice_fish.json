@@ -5,19 +5,39 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/ender_koi"
+          "value": "stellarity:item/food/fish/ender_koi",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/ender_koi",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/overgrown_cod"
+          "value": "stellarity:item/food/fish/overgrown_cod",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/overgrown_cod",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/frost_minnow"
+          "value": "stellarity:item/food/fish/frost_minnow",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/frost_minnow",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/goosh"
+          "value": "stellarity:item/food/fish/goosh",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/goosh",
+            "test": 1
+          }
         }
       ]
     }

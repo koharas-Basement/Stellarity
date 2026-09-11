@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
       "condition": {
@@ -9,27 +10,57 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_jinx"
+          "value": "stellarity:item/spellbook/book_of_jinx",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_jinx",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_light"
+          "value": "stellarity:item/spellbook/book_of_light",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_light",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_obstruct"
+          "value": "stellarity:item/spellbook/book_of_obstruct",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_obstruct",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_updraft"
+          "value": "stellarity:item/spellbook/book_of_updraft",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_updraft",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_conveyance"
+          "value": "stellarity:item/spellbook/book_of_conveyance",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_conveyance",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/spellbook/book_of_return"
+          "value": "stellarity:item/spellbook/book_of_return",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_return",
+            "test": 1
+          }
         }
       ]
     },
@@ -149,9 +180,17 @@
             },
             {
               "type": "minecraft:limit_count",
-              "limit": 1
+              "limit": {
+                "max": 1,
+                "min": 1
+              }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/luck_potion",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -164,9 +203,17 @@
             },
             {
               "type": "minecraft:limit_count",
-              "limit": 1
+              "limit": {
+                "max": 1,
+                "min": 1
+              }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/endermans_hand",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -222,7 +269,12 @@
                 "max": 7
               }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fried_chorus_fruit",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",

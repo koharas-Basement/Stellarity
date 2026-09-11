@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "⭐ ",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "translate": "Stellarity",
+        "fallback": "Stellarity",
+        "color": "#ff76e1",
+        "bold": true
+      },
+      {
+        "text": " ⭐",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "translate": "gui.stellarity.main.created_by",
+        "fallback": " - Cʀᴇᴀᴛᴇᴅ ʙʏ",
+        "color": "#BB80B9",
+        "bold": false
+      },
+      {
+        "text": " ᴋᴏʜᴀʀᴀ",
+        "color": "#AA5096"
+      },
+      {
+        "text": "\n"
+      },
+      [
+        {
+          "translate": "gui.stellarity.main.maintained_by",
+          "fallback": "ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ",
+          "color": "#BB80B9",
+          "bold": false
+        },
+        {
+          "text": " ʙᴀɴᴀɴᴀᴋɪɴɢхᴏ",
+          "color": "#AA5096",
+          "bold": true
+        }
+      ],
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "gui.stellarity.main.description",
+        "fallback": "ᴇхᴛʀᴇᴍᴇ ʀᴇʜᴀᴜʟ ᴏꜰ ᴛʜᴇ ᴇɴᴅ ɪɴ ᴀ ᴜɴɪǫᴜᴇ ꜰᴀɴᴛᴀѕʏ ѕᴛʏʟᴇ, ᴄᴏᴍʙɪɴᴇᴅ ᴡɪᴛʜ ʙɪᴏᴍᴇ ᴀɴᴅ ѕᴛʀᴜᴄᴛᴜʀᴇ ᴏᴠᴇʀʜᴀᴜʟѕ, ɴᴇᴡ ɪᴛᴇᴍѕ, ᴡᴇᴀᴘᴏɴѕ ᴀɴᴅ ᴘʟᴇɴᴛʏ ᴏꜰ ᴏᴛʜᴇʀ ᴄᴏɴᴛᴇɴᴛ ᴛᴏ ᴅɪѕᴄᴏᴠᴇʀ.",
+        "color": "gray",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "width": 350
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.main.admin_menu",
+          "fallback": "Admin Menu",
+          "color": "white",
+          "bold": false
+        }
+      ],
+      "tooltip": {
+        "translate": "gui.stellarity.main.admin_menu.tooltip",
+        "fallback": "Admin options for Stellarity. Can only be opened by those with operator permissions."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function stellarity:dialog/open_admin"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.main.wiki",
+          "fallback": "Wiki",
+          "color": "white",
+          "bold": false
+        }
+      ],
+      "tooltip": {
+        "translate": "gui.stellarity.main.wiki.tooltip",
+        "fallback": "Opens a link to the wiki for all Stellarity content"
+      },
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://prismaticshards.wiki.gg/wiki/Stellarity"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.main.modrinth",
+          "fallback": "Modrinth",
+          "color": "white",
+          "bold": false
+        }
+      ],
+      "tooltip": {
+        "translate": "gui.stellarity.main.modrinth.tooltip",
+        "fallback": "Opens a link to the official Stellarity Modrinth page"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "gui.stellarity.main.discord",
+          "fallback": "Discord",
+          "color": "white",
+          "bold": false
+        }
+      ],
+      "tooltip": {
+        "translate": "gui.stellarity.main.discord.tooltip",
+        "fallback": "Opens a link to the Prismatic Shards Discord server."
+      },
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://prismaticshards.wiki.gg/wiki/Stellarity"
+      }
+    }
+  ]
+}

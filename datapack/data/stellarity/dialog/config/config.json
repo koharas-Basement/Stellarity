@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "Stellarity",
+    "fallback": "Stellarity"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "translate": "gui.stellarity.config.title",
+        "fallback": "Configuation",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "gui.stellarity.config.description",
+        "fallback": "ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ᴏᴘᴛɪᴏɴѕ ꜰᴏʀ ѕᴛᴇʟʟᴀʀɪᴛʏ",
+        "color": "gray",
+        "bold": false
+      }
+    ]
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "stellarity:admin"
+    }
+  },
+  "columns": 1,
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "actions": [
+    {
+      "label": {
+        "translate": "gui.stellarity.config.item_config",
+        "fallback": "Item Configurations"
+      },
+      "tooltip": {
+        "translate": "gui.stellarity.config.item_config.tooltip",
+        "fallback": "Item configurations for Stellarity."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 440"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.config.entity_config",
+        "fallback": "Entity Configurations"
+      },
+      "tooltip": {
+        "translate": "gui.stellarity.config.entity_config.tooltip",
+        "fallback": "Entity configurations for Stellarity."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 430"
+      }
+    },
+    {
+      "label": {
+        "translate": "gui.stellarity.config.mechanic_config",
+        "fallback": "Mechanic Configurations"
+      },
+      "tooltip": {
+        "translate": "gui.stellarity.config.mechanic_config.tooltip",
+        "fallback": "Mechanic configurations for Stellarity."
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger stellarity.dialog.admin set 460"
+      }
+    }
+  ]
+}

@@ -7,7 +7,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/food/fish/potassifish",
-          "weight": 4
+          "weight": 4,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/potassifish",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",

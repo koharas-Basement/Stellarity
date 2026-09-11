@@ -10,8 +10,18 @@
         }
       ],
       "condition": {
-        "type": "minecraft:random_chance",
-        "chance": 0.5
+        "type": "all_of",
+        "terms": [
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.5
+          },
+          {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/empress_wings",
+            "test": 1
+          }
+        ]
       }
     },
     {
@@ -23,8 +33,18 @@
         }
       ],
       "condition": {
-        "type": "minecraft:random_chance",
-        "chance": 0.3
+        "type": "all_of",
+        "terms": [
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.3
+          },
+          {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/fluffy_hammer_of_justice",
+            "test": 1
+          }
+        ]
       }
     },
     {
@@ -36,8 +56,18 @@
         }
       ],
       "condition": {
-        "type": "minecraft:random_chance",
-        "chance": 0.3
+        "type": "all_of",
+        "terms": [
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.3
+          },
+          {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/music_discs",
+            "test": 1
+          }
+        ]
       }
     },
     {
@@ -62,8 +92,18 @@
         }
       ],
       "condition": {
-        "type": "minecraft:random_chance",
-        "chance": 0.33
+        "type": "all_of",
+        "terms": [
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.33
+          },
+          {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/prismatic_pearl",
+            "test": 1
+          }
+        ]
       }
     }
   ]

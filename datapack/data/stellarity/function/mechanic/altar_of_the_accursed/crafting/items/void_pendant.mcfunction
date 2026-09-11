@@ -1,5 +1,6 @@
 # Amethyst
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.amethyst_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -7,6 +8,7 @@
 
 # Copper
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.copper_ingot,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -14,6 +16,7 @@
 
 # Diamond
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.diamond,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -21,6 +24,7 @@
 
 # Emerald
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.emerald,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -28,6 +32,7 @@
 
 # Gold
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.gold_ingot,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -35,6 +40,7 @@
 
 # Iron
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.iron_ingot,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -42,6 +48,7 @@
 
 # Lapis Lazuli
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.lapis_lazuli,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -49,6 +56,7 @@
 
 # Netherite
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_ingot,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \
@@ -56,6 +64,7 @@
 
 # Quartz
   execute if score @s stellarity.misc matches 3 \
+  if score #stellarity.config stellarity.config.enable_void_pendant matches 1 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.quartz,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.void_pendant,scores={stellarity.altar_of_the_accursed.count=1}] \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard,scores={stellarity.altar_of_the_accursed.count=1}] \

@@ -3,7 +3,20 @@ data modify storage stellarity:temp altar_of_the_sacred.item set from entity @s 
 execute if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"treasure_head"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/reroll
 
-execute if score #stellarity.config stellarity.config.enable_empress_of_light matches 1 unless score #difficulty stellarity.misc matches 0 \
+execute if predicate stellarity:entity/empress_of_light/is_daytime if score #stellarity.config stellarity.config.enable_empress_of_light matches 1 \
+if score #stellarity.config stellarity.config.enable_daytime_empress_of_light matches 1 unless score #difficulty stellarity.misc matches 0 \
+unless score #empress_of_light.is_alive stellarity.misc matches 1 \
+if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}} run \
+function stellarity:mechanic/altar_of_the_sacred/spawn_empress
+
+execute unless predicate stellarity:entity/empress_of_light/is_daytime if score #stellarity.config stellarity.config.enable_empress_of_light matches 1 \
+if score #stellarity.config stellarity.config.enable_nighttime_empress_of_light matches 1 unless score #difficulty stellarity.misc matches 0 \
+unless score #empress_of_light.is_alive stellarity.misc matches 1 \
+if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}} run \
+function stellarity:mechanic/altar_of_the_sacred/spawn_empress
+
+execute unless predicate stellarity:entity/empress_of_light/is_daytime if predicate stellarity:location/in_the_end if score #stellarity.config stellarity.config.enable_empress_of_light matches 1 \
+if score #stellarity.config stellarity.config.enable_nighttime_empress_of_light matches 1 unless score #difficulty stellarity.misc matches 0 \
 unless score #empress_of_light.is_alive stellarity.misc matches 1 \
 if data storage stellarity:temp {altar_of_the_sacred:{item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}} run \
 function stellarity:mechanic/altar_of_the_sacred/spawn_empress

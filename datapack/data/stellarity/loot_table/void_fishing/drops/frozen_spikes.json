@@ -13,7 +13,12 @@
               "type": "minecraft:set_count",
               "count": 1
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/frost_minnow",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",

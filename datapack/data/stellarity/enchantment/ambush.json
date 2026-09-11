@@ -15,7 +15,9 @@
     "per_level_above_first": 17
   },
   "anvil_cost": 2,
-  "slots": ["mainhand"],
+  "slots": [
+    "mainhand"
+  ],
   "effects": {
     "minecraft:damage": [
       {
@@ -366,7 +368,7 @@
               ]
             },
             {
-              "type": "minecraft:value_check",
+              "type": "minecraft:float_value_check",
               "value": {
                 "type": "minecraft:enchantment_level",
                 "amount": {
@@ -375,7 +377,7 @@
                   "per_level_above_first": 1
                 }
               },
-              "range": 1
+              "test": 1
             }
           ]
         }
@@ -442,7 +444,7 @@
               ]
             },
             {
-              "type": "minecraft:value_check",
+              "type": "minecraft:float_value_check",
               "value": {
                 "type": "minecraft:enchantment_level",
                 "amount": {
@@ -451,7 +453,7 @@
                   "per_level_above_first": 1
                 }
               },
-              "range": 2
+              "test": 2
             }
           ]
         }
@@ -518,7 +520,7 @@
               ]
             },
             {
-              "type": "minecraft:value_check",
+              "type": "minecraft:float_value_check",
               "value": {
                 "type": "minecraft:enchantment_level",
                 "amount": {
@@ -527,9 +529,7 @@
                   "per_level_above_first": 1
                 }
               },
-              "range": {
-                "min": 3
-              }
+              "test": 3
             }
           ]
         }

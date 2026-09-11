@@ -5,19 +5,39 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/crimson_tigerfish"
+          "value": "stellarity:item/food/fish/crimson_tigerfish",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/crimson_tigerfish",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/fleshy_piranha"
+          "value": "stellarity:item/food/fish/fleshy_piranha",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/fleshy_piranha",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/flarefin_koi"
+          "value": "stellarity:item/food/fish/flarefin_koi",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/flarefin_koi",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/potassifish"
+          "value": "stellarity:item/food/fish/potassifish",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/potassifish",
+            "test": 1
+          }
         }
       ]
     }

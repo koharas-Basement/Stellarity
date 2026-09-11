@@ -160,6 +160,11 @@
                     "predicate": {
                       "dimension": "the_end"
                     }
+                  },
+                  {
+                    "type": "int_value_check",
+                    "value": "stellarity:item_check/endermans_hand",
+                    "test": 1
                   }
                 ]
               },
@@ -184,6 +189,11 @@
                         "dimension": "the_end"
                       }
                     }
+                  },
+                  {
+                    "type": "int_value_check",
+                    "value": "stellarity:item_check/endermans_hand",
+                    "test": 1
                   }
                 ]
               }

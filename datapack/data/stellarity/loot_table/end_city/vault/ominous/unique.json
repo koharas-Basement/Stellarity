@@ -14,17 +14,42 @@
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/spellbook/book_of_return",
-          "weight": 3
+          "weight": 3,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/book_of_return",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/weapon/starless_scythe",
-          "weight": 3
+          "weight": 3,
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/starless_scythe",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "value": "stellarity:item/weapon/the_beginning_and_the_end",
-          "weight": 3
+          "weight": 3,
+          "condition": {
+            "type": "any_of",
+            "terms": [
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/the_beginning",
+                "test": 1
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/the_end",
+                "test": 1
+              }
+            ]
+          }
         }
       ]
     }

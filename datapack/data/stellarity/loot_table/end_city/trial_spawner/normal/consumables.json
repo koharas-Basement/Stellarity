@@ -19,7 +19,12 @@
               },
               "add": false
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/chorus_pie",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
@@ -35,7 +40,12 @@
               },
               "add": false
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/frozen_carpaccio",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:item",
@@ -65,7 +75,12 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/potion/endurance_potion"
+          "value": "stellarity:item/potion/endurance_potion",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/potions/endurance_potion",
+            "test": 1
+          }
         }
       ]
     }

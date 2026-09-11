@@ -6,7 +6,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/food/fish/potassifish"
+          "value": "stellarity:item/food/fish/potassifish",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/potassifish",
+            "test": 1
+          }
         }
       ]
     }

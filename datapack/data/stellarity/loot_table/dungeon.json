@@ -179,7 +179,12 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "value": "stellarity:item/trinket/void_pendant"
+          "value": "stellarity:item/trinket/void_pendant",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/void_pendant",
+            "test": 1
+          }
         }
       ]
     }

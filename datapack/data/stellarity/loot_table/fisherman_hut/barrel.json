@@ -10,24 +10,44 @@
         {
           "type": "minecraft:loot_table",
           "weight": 13,
-          "value": "stellarity:item/food/fish/ender_koi"
+          "value": "stellarity:item/food/fish/ender_koi",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/ender_koi",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 6,
-          "value": "stellarity:item/food/fish/goosh"
+          "value": "stellarity:item/food/fish/goosh",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/goosh",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 4,
           "value": "stellarity:item/food/fish/amethyst_budfish",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:amethyst_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:amethyst_forest"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/amethyst_budfish",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -35,12 +55,22 @@
           "weight": 3,
           "value": "stellarity:item/food/fish/crimson_tigerfish",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:flesh_tundra"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:flesh_tundra"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/crimson_tigerfish",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -48,30 +78,55 @@
           "weight": 3,
           "value": "stellarity:item/food/fish/fleshy_piranha",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:flesh_tundra"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:flesh_tundra"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/fleshy_piranha",
+                "test": 1
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
           "quality": 1,
-          "value": "stellarity:item/food/fish/crystal_heartfish"
+          "value": "stellarity:item/food/fish/crystal_heartfish",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/food/fish/crystal_heartfish",
+            "test": 1
+          }
         },
         {
           "type": "minecraft:loot_table",
           "weight": 8,
           "value": "stellarity:item/food/fish/prismite",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:the_hallow"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:the_hallow"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/prismite",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -79,12 +134,22 @@
           "weight": 7,
           "value": "stellarity:item/food/fish/flarefin_koi",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:fiery_hills"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:fiery_hills"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/flarefin_koi",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -92,15 +157,25 @@
           "weight": 6,
           "value": "stellarity:item/food/fish/overgrown_cod",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "minecraft:end_midlands",
-                "minecraft:end_highlands",
-                "minecraft:small_end_islands",
-                "minecraft:end_barrens"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "minecraft:the_end",
+                    "minecraft:end_highlands",
+                    "minecraft:end_midlands",
+                    "minecraft:end_barrens"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/overgrown_cod",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -108,12 +183,22 @@
           "weight": 6,
           "value": "stellarity:item/food/fish/frost_minnow",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:frozen_spikes"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:frozen_spikes"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/frost_minnow",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -121,12 +206,22 @@
           "weight": 5,
           "value": "stellarity:item/food/fish/bubblefish",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:prismarine_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:prismarine_forest"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/bubblefish",
+                "test": 1
+              }
+            ]
           }
         },
         {
@@ -134,12 +229,22 @@
           "weight": 5,
           "value": "stellarity:item/food/fish/potassifish",
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "stellarity:endless_dunes"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "stellarity:endless_dunes"
+                  ]
+                }
+              },
+              {
+                "type": "int_value_check",
+                "value": "stellarity:item_check/food/fish/potassifish",
+                "test": 1
+              }
+            ]
           }
         }
       ]

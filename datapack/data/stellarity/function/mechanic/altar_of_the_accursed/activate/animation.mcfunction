@@ -9,10 +9,13 @@ playsound minecraft:block.beacon.activate block @a[distance=0..] ~ ~ ~ 5 1
 playsound minecraft:entity.wither.death block @a[distance=0..] ~ ~ ~ 5 1.2
 playsound minecraft:entity.blaze.death block @a[distance=0..] ~ ~ ~ 5 0
 
-summon armor_stand ~0.50450701485292 ~-1.27415153937696 ~-0.34230595720676 {Invulnerable:0b,Pose:{RightArm:[80.0f,0.0f,0.0f]},Rotation:[-90.0f, 0.0f],Tags:["stellarity.altar_of_the_accursed.sword_holder","smithed.entity","smithed.strict"],Invisible:1b,NoGravity:1b,NoBasePlate:0b,DisabledSlots:4144959,ShowArms:1b,Small:0b,Marker:1b}
-loot replace entity @n[type=minecraft:armor_stand,tag=stellarity.altar_of_the_accursed.sword_holder] weapon.mainhand loot stellarity:item/weapon/dragonblade
+execute if score #stellarity.config stellarity.config.enable_dragonblade matches 1 \
+run summon armor_stand ~0.50450701485292 ~-1.27415153937696 ~-0.34230595720676 {Invulnerable:0b,Pose:{RightArm:[80.0f,0.0f,0.0f]},Rotation:[-90.0f, 0.0f],Tags:["stellarity.altar_of_the_accursed.sword_holder","smithed.entity","smithed.strict"],Invisible:1b,NoGravity:1b,NoBasePlate:0b,DisabledSlots:4144959,ShowArms:1b,Small:0b,Marker:1b}
+execute if score #stellarity.config stellarity.config.enable_dragonblade matches 1 \
+run loot replace entity @n[type=minecraft:armor_stand,tag=stellarity.altar_of_the_accursed.sword_holder] weapon.mainhand loot stellarity:item/weapon/dragonblade
 
-summon minecraft:interaction ~ ~-.8 ~ {width:0.4f,height:1f,response:1b,Tags:["stellarity.altar_of_the_accursed.sword_hitbox","smithed.entity","smithed.strict"]}
+execute if score #stellarity.config stellarity.config.enable_dragonblade matches 1 \
+run summon minecraft:interaction ~ ~-.8 ~ {width:0.4f,height:1f,response:1b,Tags:["stellarity.altar_of_the_accursed.sword_hitbox","smithed.entity","smithed.strict"]}
 
 function stellarity:mechanic/altar_of_the_accursed/activate/wave
 

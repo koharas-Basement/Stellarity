@@ -66,7 +66,12 @@
                 "max": 0.79
               }
             }
-          ]
+          ],
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/starless_scythe",
+            "test": 1
+          }
         }
       ]
     },

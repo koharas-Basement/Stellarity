@@ -97,7 +97,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/music_disc/deviants_light_music_box"
+          "value": "stellarity:item/music_disc/deviants_light_music_box",
+          "condition": {
+            "type": "int_value_check",
+            "value": "stellarity:item_check/music_discs",
+            "test": 1
+          }
         }
       ],
       "condition": {

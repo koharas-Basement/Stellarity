@@ -1,0 +1,15 @@
+$scoreboard players set #stellarity.config stellarity.config.enable_amethyst_budfish $(amethyst_budfish)
+$scoreboard players set #stellarity.config stellarity.config.enable_bubblefish $(bubblefish)
+$scoreboard players set #stellarity.config stellarity.config.enable_crimson_tigerfish $(crimson_tigerfish)
+$scoreboard players set #stellarity.config stellarity.config.enable_crystal_heartfish $(crystal_heartfish)
+$scoreboard players set #stellarity.config stellarity.config.enable_ender_koi $(ender_koi)
+$scoreboard players set #stellarity.config stellarity.config.enable_flarefin_koi $(flarefin_koi)
+$scoreboard players set #stellarity.config stellarity.config.enable_fleshy_piranha $(fleshy_piranha)
+$scoreboard players set #stellarity.config stellarity.config.enable_frost_minnow $(frost_minnow)
+$scoreboard players set #stellarity.config stellarity.config.enable_goosh $(goosh)
+$scoreboard players set #stellarity.config stellarity.config.enable_overgrown_cod $(overgrown_cod)
+$scoreboard players set #stellarity.config stellarity.config.enable_potassifish $(potassifish)
+$scoreboard players set #stellarity.config stellarity.config.enable_prismite $(prismite)
+$scoreboard players set #stellarity.config stellarity.config.enable_pufferfish $(pufferfish)
+
+trigger stellarity.dialog.admin set 455

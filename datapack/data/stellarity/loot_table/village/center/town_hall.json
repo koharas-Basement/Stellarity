@@ -4,9 +4,12 @@
     {
       "rolls": 3,
       "bonus_rolls": {
-        "type": "minecraft:binomial",
-        "n": 1,
-        "p": 0.25
+        "type": "minecraft:from_int",
+        "input": {
+          "type": "minecraft:binomial",
+          "n": 1,
+          "p": 0.25
+        }
       },
       "entries": [
         {
