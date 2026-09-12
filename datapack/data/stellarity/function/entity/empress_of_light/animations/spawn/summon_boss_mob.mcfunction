@@ -21,18 +21,18 @@ execute positioned ~ ~-1.5 ~ as @n[type=vindicator,tag=stellarity.empress_of_lig
   execute as @n[type=item_display,tag=stellarity.empress_of_light.model] at @s facing entity @p eyes run rotate @s ~ 0
   scoreboard players set @n[type=vindicator,tag=stellarity.empress_of_light] stellarity.empress_of_light.attack_cooldown 0
 
-execute if predicate stellarity:entity/empress_of_light/is_daytime run tag @n[type=vindicator,tag=stellarity.empress_of_light] add stellarity.empress_of_light.full_daytime
+execute if predicate stellarity:entity/empress_of_light/is_daytime unless entity @s[tag=stellarity.empress_of_light.radiant] run tag @n[type=vindicator,tag=stellarity.empress_of_light] add stellarity.empress_of_light.full_daytime
 
-execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light,tag=!stellarity.empress_of_light.full_daytime] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
-execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light,tag=!stellarity.empress_of_light.full_daytime] Health float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
-execute if entity @n[type=vindicator,tag=stellarity.empress_of_light,tag=!stellarity.empress_of_light.full_daytime] store result bossbar stellarity:empress_of_light max run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
+execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light,tag=!stellarity.empress_of_light.full_daytime,tag=!stellarity.empress_of_light.radiant] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
+execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light,tag=!stellarity.empress_of_light.full_daytime,tag=!stellarity.empress_of_light.radiant] Health float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
+execute if entity @n[type=vindicator,tag=stellarity.empress_of_light,tag=!stellarity.empress_of_light.full_daytime,tag=!stellarity.empress_of_light.radiant] store result bossbar stellarity:empress_of_light max run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
 
-execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.full_daytime] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
-execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.full_daytime] Health float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
+execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.full_daytime] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.daytime_empress_of_light_health
+execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.full_daytime] Health float 1 run scoreboard players get #stellarity.config stellarity.config.daytime_empress_of_light_health
 execute if entity @n[type=vindicator,tag=stellarity.empress_of_light.full_daytime] store result bossbar stellarity:empress_of_light max run scoreboard players get #stellarity.config stellarity.config.daytime_empress_of_light_health
 
-execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.radiant,tag=!stellarity.empress_of_light.full_daytime] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
-execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.radiant,tag=!stellarity.empress_of_light.full_daytime] Health float 1 run scoreboard players get #stellarity.config stellarity.config.nighttime_empress_of_light_health
+execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.radiant,tag=!stellarity.empress_of_light.full_daytime] attributes[{id:"minecraft:max_health"}].base float 1 run scoreboard players get #stellarity.config stellarity.config.radiant_empress_of_light_health
+execute store result entity @n[type=vindicator,tag=stellarity.empress_of_light.radiant,tag=!stellarity.empress_of_light.full_daytime] Health float 1 run scoreboard players get #stellarity.config stellarity.config.radiant_empress_of_light_health
 execute if entity @n[type=vindicator,tag=stellarity.empress_of_light.radiant,tag=!stellarity.empress_of_light.full_daytime] store result bossbar stellarity:empress_of_light max run scoreboard players get #stellarity.config stellarity.config.radiant_empress_of_light_health
 
 # Announce Empress of Light message in chat

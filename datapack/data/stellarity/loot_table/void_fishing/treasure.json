@@ -108,7 +108,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/material/cauldron_cookbook",
+          "value": "stellarity:item/book/flavors_of_the_void",
           "weight": 8
         }
       ]

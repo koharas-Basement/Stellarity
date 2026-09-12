@@ -1107,24 +1107,24 @@
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "loot give @s loot stellarity:item/material/endonomicon"
+        "command": "loot give @s loot stellarity:item/book/endonomicon"
       }
     },
     {
       "label": [
         {
           "atlas": "minecraft:items",
-          "sprite": "stellarity:item/cauldron_cookbook"
+          "sprite": "stellarity:item/flavors_of_the_void"
         }
       ],
       "tooltip": {
-        "translate": "item.stellarity.cauldron_cookbook",
+        "translate": "item.stellarity.flavors_of_the_void",
         "fallback": "Cauldron Cookbook"
       },
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "loot give @s loot stellarity:item/material/cauldron_cookbook"
+        "command": "loot give @s loot stellarity:item/book/flavors_of_the_void"
       }
     },
     {

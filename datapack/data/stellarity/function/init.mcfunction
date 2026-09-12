@@ -3,7 +3,7 @@
     bossbar add stellarity:ender_dragon {"translate":"entity.minecraft.ender_dragon","color":"#BF00C8"}
     bossbar set stellarity:ender_dragon color pink
     bossbar set stellarity:ender_dragon players
-    bossbar set stellarity:ender_dragon max 300
+    bossbar set stellarity:ender_dragon max 500
     bossbar set stellarity:ender_dragon style progress
     bossbar set stellarity:ender_dragon visible true
 

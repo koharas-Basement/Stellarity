@@ -1,1 +1,1 @@
-$tellraw @s ["\n",{"text":"ℹ ","color":"#e57676","bold": true},{"translate":"message.stellarity.$(string)","color":"#d6adad"},"\n"]
+$tellraw @a[distance=..5] ["\n",{"text":"ℹ ","color":"#e57676","bold": true},{"translate":"message.stellarity.$(string)","color":"#d6adad"},"\n"]

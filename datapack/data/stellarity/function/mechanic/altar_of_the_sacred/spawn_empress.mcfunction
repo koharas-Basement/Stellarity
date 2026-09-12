@@ -5,7 +5,9 @@ scoreboard players operation #count stellarity.misc -= #1 stellarity.misc
 
 execute store result entity @s Item.count byte 1 run scoreboard players get #count stellarity.misc
 
-execute if score #stellarity.config stellarity.config.enable_radiant_empress_of_light matches 1 if entity @n[type=item,tag=stellarity.starlight_soot.radiant] run scoreboard players set #empress_of_light.is_radiant stellarity.misc 1
+execute if entity @n[type=item,tag=stellarity.starlight_soot.radiant] if score #stellarity.config stellarity.config.enable_radiant_empress_of_light matches 1 \
+run scoreboard players set #empress_of_light.is_radiant stellarity.misc 1
+
 kill @e[type=item,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"}}}}]
 
 particle explosion ~ ~ ~ 0 0 0 1 0 force @a[distance=..32]

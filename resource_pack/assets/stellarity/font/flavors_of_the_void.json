@@ -107,13 +107,6 @@
     },
     {
       "type": "bitmap",
-      "file": "stellarity:item/shulker_axe.png",
-      "ascent": 32,
-      "height": 32,
-      "chars": ["0"]
-    },
-    {
-      "type": "bitmap",
       "file": "stellarity:item/shulker_hoe.png",
       "ascent": 32,
       "height": 32,
@@ -139,6 +132,111 @@
       "ascent": 32,
       "height": 32,
       "chars": ["4"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/amarene.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["5"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/blind_rage_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["6"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/chorus_juice.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["7"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/endurance_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["8"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/entanglement_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["9"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/frost_cloud_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["0"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/hellfire_treader_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/lifeforce_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/luck_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/poseidons_nectar.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/red_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["e"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/regeneraga.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["f"]
+    },
+    {
+      "type": "bitmap",
+      "file": "stellarity:font/icon/spelunker_potion.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["g"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/honey_bottle.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["h"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/experience_bottle.png",
+      "ascent": 32,
+      "height": 32,
+      "chars": ["i"]
     }
   ]
 }
